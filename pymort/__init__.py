@@ -1,4 +1,4 @@
-__version__ = '0.1.0'
+__version__ = '0.1.3'
 
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
@@ -40,8 +40,6 @@ class MortalityTable:
 
 def load(tableName: TableName) -> MortalityTable:
   id = int(re.findall(r'\d+$', tableName)[0])
-  # Load data from XML file
-  print(data)
   root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
   values = root.findall(".//Values")
 
