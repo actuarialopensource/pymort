@@ -1,0 +1,74 @@
+{
+  "2017 Loaded CSO Smoker Distinct ANB": [
+    "2017 Loaded CSO Smoker Distinct Nonsmoker Male ANB  - t3291",
+    "2017 Loaded CSO Smoker Distinct Nonsmoker Female ANB  - t3292",
+    "2017 Loaded CSO Smoker Distinct Smoker Male ANB  - t3293",
+    "2017 Loaded CSO Smoker Distinct Smoker Female ANB  - t3294"
+  ],
+  "2017 Loaded CSO Smoker Distinct ALB": [
+    "2017 Loaded CSO Smoker Distinct Nonsmoker Male ALB  - t3295",
+    "2017 Loaded CSO Smoker Distinct Nonsmoker Female ALB  - t3296",
+    "2017 Loaded CSO Smoker Distinct Smoker Male ALB  - t3297",
+    "2017 Loaded CSO Smoker Distinct Smoker Female ALB  - t3298"
+  ],
+  "2017 Loaded CSO Preferred Structure ANB": [
+    "2017 Loaded CSO Preferred Structure Nonsmoker Super Preferred Male ANB - t3299",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Preferred Male ANB - t3300",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Residual Standard Male ANB - t3301",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Super Preferred Female ANB - t3302",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Preferred Female ANB - t3303",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Residual Standard Female ANB - t3304",
+    "2017 Loaded CSO Preferred Structure Smoker Preferred Male ANB - t3305",
+    "2017 Loaded CSO Preferred Structure Smoker Residual Standard Male ANB - t3306",
+    "2017 Loaded CSO Preferred Structure Smoker Preferred Female ANB - t3307",
+    "2017 Loaded CSO Preferred Structure Smoker Residual Standard Female ANB - t3308"
+  ],
+  "2017 Loaded CSO Preferred Structure ALB": [
+    "2017 Loaded CSO Preferred Structure Nonsmoker Super Preferred Male ALB - t3309",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Preferred Male ALB - t3310",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Residual Standard Male ALB - t3311",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Super Preferred Female ALB - t3312",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Preferred Female ALB - t3313",
+    "2017 Loaded CSO Preferred Structure Nonsmoker Residual Standard Female ALB - t3314",
+    "2017 Loaded CSO Preferred Structure Smoker Preferred Male ALB - t3315",
+    "2017 Loaded CSO Preferred Structure Smoker Residual Standard Male ALB - t3316",
+    "2017 Loaded CSO Preferred Structure Smoker Preferred Female ALB - t3317",
+    "2017 Loaded CSO Preferred Structure Smoker Residual Standard Female ALB - t3318"
+  ],
+  "2017 Unloaded CSO Preferred Structure ANB": [
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Super Preferred Male ANB - t3341",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Preferred Male ANB - t3342",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Residual Standard Male ANB - t3343",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Super Preferred Female ANB - t3344",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Preferred Female ANB - t3345",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Residual Standard Female ANB - t3346",
+    "2017 Unloaded CSO Preferred Structure Smoker Preferred Male ANB - t3347",
+    "2017 Unloaded CSO Preferred Structure Smoker Residual Standard Male ANB - t3348",
+    "2017 Unloaded CSO Preferred Structure Smoker Preferred Female ANB - t3349",
+    "2017 Unloaded CSO Preferred Structure Smoker Residual Standard Female ANB - t3350"
+  ],
+  "2017 Unloaded CSO Preferred Structure ALB": [
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Super Preferred Male ALB - t3351",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Preferred Male ALB - t3352",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Residual Standard Male ALB - t3353",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Super Preferred Female ALB - t3354",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Preferred Female ALB - t3355",
+    "2017 Unloaded CSO Preferred Structure Nonsmoker Residual Standard Female ALB - t3356",
+    "2017 Unloaded CSO Preferred Structure Smoker Preferred Male ALB - t3357",
+    "2017 Unloaded CSO Preferred Structure Smoker Residual Standard Male ALB - t3358",
+    "2017 Unloaded CSO Preferred Structure Smoker Preferred Female ALB - t3359",
+    "2017 Unloaded CSO Preferred Structure Smoker Residual Standard Female ALB - t3360"
+  ],
+  "2017 Unloaded CSO Smoker Distinct ANB": [
+    "2017 Unloaded CSO Smoker Distinct Nonsmoker Male ANB  - t3365",
+    "2017 Unloaded CSO Smoker Distinct Nonsmoker Female ANB  - t3366",
+    "2017 Unloaded CSO Smoker Distinct Smoker Male ANB  - t3367",
+    "2017 Unloaded CSO Smoker Distinct Smoker Female ANB  - t3368"
+  ],
+  "2017 Unloaded CSO Smoker Distinct ALB": [
+    "2017 Unloaded CSO Smoker Distinct Nonsmoker Male ALB  - t3369",
+    "2017 Unloaded CSO Smoker Distinct Nonsmoker Female ALB  - t3370",
+    "2017 Unloaded CSO Smoker Distinct Smoker Male ALB  - t3371",
+    "2017 Unloaded CSO Smoker Distinct Smoker Female ALB  - t3372"
+  ]
+}
