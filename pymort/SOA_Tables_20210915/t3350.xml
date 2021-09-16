@@ -12,6 +12,11 @@
     <KeyWord>Select</KeyWord>
     <KeyWord>CSO/CET</KeyWord>
     <KeyWord>United States of America</KeyWord>
+    <Modifications>
+      <Smoker>S</Smoker>
+      <Class>Residual</Class>
+      <Gender>F</Gender>
+    </Modifications>
   </ContentClassification>
   <Table>
     <MetaData>
