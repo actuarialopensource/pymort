@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2252</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>LIMRA and The Society of Actuaries “U.S. Individual Life Insurance Persistency Update”, LIMRA and The Society of Actuaries, (2008). Accessed: August, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2003-us-life-update/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2003-2004 Individual Life Persistency Study – YRT on Attained Age Basis</TableName>
+    <TableDescription>2003-2004 Individual Life Persistency Study – Yearly Renewable Term (YRT) Insurance by Number of Policies AND by Face Amounts. Basis: Attained Age. Minimum Attained Age: 2. Maximum Attained Age: 79</TableDescription>
+    <Comments>Study Data: The observation period for the study is calendar years 2003 and 2004. The study is based on data provided by 43 individual life insurance writers and it presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1902 and 2004. Lapse includes termination for nonpayment of premium, insufficient cashvalue, or full surrender of a policy, transfer to reduced paid-up or extended term status, and in most cases, terminations for unknown reason. Methodology: Lapse rates are calculated as follows: Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Data Transcription Errors: None. Data Certified: 09/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003-2004 Individual Life Persistency Study – Yearly Renewable Term (YRT) Insurance by Number of Policies. Basis: Attained Age. Minimum Attained Age: 2. Maximum Attained Age: 79</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>79</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="2">0.198</Y>
+        <Y t="3">0.219</Y>
+        <Y t="4">0.1</Y>
+        <Y t="5">0.17</Y>
+        <Y t="6">0.165</Y>
+        <Y t="7">0.131</Y>
+        <Y t="8">0.108</Y>
+        <Y t="9">0.088</Y>
+        <Y t="10">0.07</Y>
+        <Y t="11">0.072</Y>
+        <Y t="12">0.078</Y>
+        <Y t="13">0.074</Y>
+        <Y t="14">0.072</Y>
+        <Y t="15">0.073</Y>
+        <Y t="16">0.07</Y>
+        <Y t="17">0.078</Y>
+        <Y t="18">0.097</Y>
+        <Y t="19">0.09</Y>
+        <Y t="20">0.087</Y>
+        <Y t="21">0.104</Y>
+        <Y t="22">0.118</Y>
+        <Y t="23">0.119</Y>
+        <Y t="24">0.125</Y>
+        <Y t="25">0.129</Y>
+        <Y t="26">0.115</Y>
+        <Y t="27">0.109</Y>
+        <Y t="28">0.104</Y>
+        <Y t="29">0.1</Y>
+        <Y t="30">0.095</Y>
+        <Y t="31">0.092</Y>
+        <Y t="32">0.088</Y>
+        <Y t="33">0.086</Y>
+        <Y t="34">0.083</Y>
+        <Y t="35">0.082</Y>
+        <Y t="36">0.08</Y>
+        <Y t="37">0.076</Y>
+        <Y t="38">0.077</Y>
+        <Y t="39">0.073</Y>
+        <Y t="40">0.073</Y>
+        <Y t="41">0.072</Y>
+        <Y t="42">0.069</Y>
+        <Y t="43">0.071</Y>
+        <Y t="44">0.07</Y>
+        <Y t="45">0.072</Y>
+        <Y t="46">0.07</Y>
+        <Y t="47">0.072</Y>
+        <Y t="48">0.074</Y>
+        <Y t="49">0.075</Y>
+        <Y t="50">0.078</Y>
+        <Y t="51">0.075</Y>
+        <Y t="52">0.075</Y>
+        <Y t="53">0.078</Y>
+        <Y t="54">0.08</Y>
+        <Y t="55">0.085</Y>
+        <Y t="56">0.085</Y>
+        <Y t="57">0.088</Y>
+        <Y t="58">0.094</Y>
+        <Y t="59">0.1</Y>
+        <Y t="60">0.107</Y>
+        <Y t="61">0.103</Y>
+        <Y t="62">0.097</Y>
+        <Y t="63">0.098</Y>
+        <Y t="64">0.114</Y>
+        <Y t="65">0.134</Y>
+        <Y t="66">0.129</Y>
+        <Y t="67">0.126</Y>
+        <Y t="68">0.123</Y>
+        <Y t="69">0.14</Y>
+        <Y t="70">0.177</Y>
+        <Y t="71">0.137</Y>
+        <Y t="72">0.134</Y>
+        <Y t="73">0.132</Y>
+        <Y t="74">0.135</Y>
+        <Y t="75">0.145</Y>
+        <Y t="76">0.132</Y>
+        <Y t="77">0.122</Y>
+        <Y t="78">0.131</Y>
+        <Y t="79">0.145</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003-2004 Individual Life Persistency Study – Yearly Renewable Term (YRT) Insurance by Face Amounts. Basis: Attained Age. Minimum Attained Age: 2. Maximum Attained Age: 79</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>79</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="2">0.329</Y>
+        <Y t="3">0.324</Y>
+        <Y t="4">0.143</Y>
+        <Y t="5">0.227</Y>
+        <Y t="6">0.272</Y>
+        <Y t="7">0.231</Y>
+        <Y t="8">0.223</Y>
+        <Y t="9">0.157</Y>
+        <Y t="10">0.169</Y>
+        <Y t="11">0.146</Y>
+        <Y t="12">0.156</Y>
+        <Y t="13">0.15</Y>
+        <Y t="14">0.145</Y>
+        <Y t="15">0.147</Y>
+        <Y t="16">0.126</Y>
+        <Y t="17">0.127</Y>
+        <Y t="18">0.147</Y>
+        <Y t="19">0.126</Y>
+        <Y t="20">0.137</Y>
+        <Y t="21">0.144</Y>
+        <Y t="22">0.144</Y>
+        <Y t="23">0.127</Y>
+        <Y t="24">0.128</Y>
+        <Y t="25">0.114</Y>
+        <Y t="26">0.109</Y>
+        <Y t="27">0.099</Y>
+        <Y t="28">0.09</Y>
+        <Y t="29">0.086</Y>
+        <Y t="30">0.079</Y>
+        <Y t="31">0.075</Y>
+        <Y t="32">0.077</Y>
+        <Y t="33">0.074</Y>
+        <Y t="34">0.072</Y>
+        <Y t="35">0.074</Y>
+        <Y t="36">0.07</Y>
+        <Y t="37">0.069</Y>
+        <Y t="38">0.072</Y>
+        <Y t="39">0.069</Y>
+        <Y t="40">0.068</Y>
+        <Y t="41">0.069</Y>
+        <Y t="42">0.069</Y>
+        <Y t="43">0.07</Y>
+        <Y t="44">0.072</Y>
+        <Y t="45">0.074</Y>
+        <Y t="46">0.071</Y>
+        <Y t="47">0.075</Y>
+        <Y t="48">0.077</Y>
+        <Y t="49">0.083</Y>
+        <Y t="50">0.084</Y>
+        <Y t="51">0.079</Y>
+        <Y t="52">0.082</Y>
+        <Y t="53">0.082</Y>
+        <Y t="54">0.084</Y>
+        <Y t="55">0.089</Y>
+        <Y t="56">0.091</Y>
+        <Y t="57">0.099</Y>
+        <Y t="58">0.096</Y>
+        <Y t="59">0.111</Y>
+        <Y t="60">0.13</Y>
+        <Y t="61">0.117</Y>
+        <Y t="62">0.116</Y>
+        <Y t="63">0.114</Y>
+        <Y t="64">0.129</Y>
+        <Y t="65">0.145</Y>
+        <Y t="66">0.153</Y>
+        <Y t="67">0.135</Y>
+        <Y t="68">0.155</Y>
+        <Y t="69">0.147</Y>
+        <Y t="70">0.172</Y>
+        <Y t="71">0.201</Y>
+        <Y t="72">0.154</Y>
+        <Y t="73">0.119</Y>
+        <Y t="74">0.139</Y>
+        <Y t="75">0.128</Y>
+        <Y t="76">0.182</Y>
+        <Y t="77">0.147</Y>
+        <Y t="78">0.212</Y>
+        <Y t="79">0.183</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

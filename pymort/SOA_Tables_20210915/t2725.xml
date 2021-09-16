@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2725</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>James W. Glover, “United States Life Tables 1890,1901, 1910, and 1901-1910 with Explanatory Text, Mathematical Theory, Computations, Graphs and Original Statistics, also Tables of United States Life Annuities,  Life Tables of Foreign Countries, Mortality Tables of Life Insurance Companies”, Department of Commerce, Bureau of the Census (Washington, 1921). Accessed: March, 2014 from http://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1901-1910 Germany – Male</TableName>
+    <TableDescription>1901-1910 Germany – Male. Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Foreign country tables, reprinted in tabular form, were taken from the published life tables or various countries, based on their official population and death statistics so that a comparison may be made as each age. 1000qx copied to the nearest second decimal. When only the first decimal was given, a cipher was added. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 04/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>1901-1910 Germany – Male. Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.20234</Y>
+        <Y t="1">0.03988</Y>
+        <Y t="2">0.01492</Y>
+        <Y t="3">0.00947</Y>
+        <Y t="4">0.00691</Y>
+        <Y t="5">0.00528</Y>
+        <Y t="6">0.00425</Y>
+        <Y t="7">0.00356</Y>
+        <Y t="8">0.00303</Y>
+        <Y t="9">0.00267</Y>
+        <Y t="10">0.00244</Y>
+        <Y t="11">0.00224</Y>
+        <Y t="12">0.00211</Y>
+        <Y t="13">0.00215</Y>
+        <Y t="14">0.00238</Y>
+        <Y t="15">0.00277</Y>
+        <Y t="16">0.00327</Y>
+        <Y t="17">0.00382</Y>
+        <Y t="18">0.00436</Y>
+        <Y t="19">0.00481</Y>
+        <Y t="20">0.00504</Y>
+        <Y t="21">0.00507</Y>
+        <Y t="22">0.00504</Y>
+        <Y t="23">0.00503</Y>
+        <Y t="24">0.00507</Y>
+        <Y t="25">0.00513</Y>
+        <Y t="26">0.00518</Y>
+        <Y t="27">0.00522</Y>
+        <Y t="28">0.00530</Y>
+        <Y t="29">0.00542</Y>
+        <Y t="30">0.00556</Y>
+        <Y t="31">0.00571</Y>
+        <Y t="32">0.00591</Y>
+        <Y t="33">0.00621</Y>
+        <Y t="34">0.00660</Y>
+        <Y t="35">0.00697</Y>
+        <Y t="36">0.00734</Y>
+        <Y t="37">0.00778</Y>
+        <Y t="38">0.00827</Y>
+        <Y t="39">0.00873</Y>
+        <Y t="40">0.00922</Y>
+        <Y t="41">0.00980</Y>
+        <Y t="42">0.01041</Y>
+        <Y t="43">0.01099</Y>
+        <Y t="44">0.01166</Y>
+        <Y t="45">0.01244</Y>
+        <Y t="46">0.01319</Y>
+        <Y t="47">0.01397</Y>
+        <Y t="48">0.01489</Y>
+        <Y t="49">0.01588</Y>
+        <Y t="50">0.01693</Y>
+        <Y t="51">0.01809</Y>
+        <Y t="52">0.01930</Y>
+        <Y t="53">0.02054</Y>
+        <Y t="54">0.02195</Y>
+        <Y t="55">0.02357</Y>
+        <Y t="56">0.02512</Y>
+        <Y t="57">0.02662</Y>
+        <Y t="58">0.02837</Y>
+        <Y t="59">0.03039</Y>
+        <Y t="60">0.03260</Y>
+        <Y t="61">0.03511</Y>
+        <Y t="62">0.03787</Y>
+        <Y t="63">0.04083</Y>
+        <Y t="64">0.04391</Y>
+        <Y t="65">0.04706</Y>
+        <Y t="66">0.05073</Y>
+        <Y t="67">0.05513</Y>
+        <Y t="68">0.05967</Y>
+        <Y t="69">0.06420</Y>
+        <Y t="70">0.06936</Y>
+        <Y t="71">0.07560</Y>
+        <Y t="72">0.08263</Y>
+        <Y t="73">0.08991</Y>
+        <Y t="74">0.09771</Y>
+        <Y t="75">0.10640</Y>
+        <Y t="76">0.11535</Y>
+        <Y t="77">0.12463</Y>
+        <Y t="78">0.13509</Y>
+        <Y t="79">0.14619</Y>
+        <Y t="80">0.15787</Y>
+        <Y t="81">0.17082</Y>
+        <Y t="82">0.18477</Y>
+        <Y t="83">0.19962</Y>
+        <Y t="84">0.21541</Y>
+        <Y t="85">0.23160</Y>
+        <Y t="86">0.24805</Y>
+        <Y t="87">0.26512</Y>
+        <Y t="88">0.28307</Y>
+        <Y t="89">0.30151</Y>
+        <Y t="90">0.32002</Y>
+        <Y t="91">0.33874</Y>
+        <Y t="92">0.35767</Y>
+        <Y t="93">0.37661</Y>
+        <Y t="94">0.39543</Y>
+        <Y t="95">0.41399</Y>
+        <Y t="96">0.43213</Y>
+        <Y t="97">0.44967</Y>
+        <Y t="98">0.46641</Y>
+        <Y t="99">0.48216</Y>
+        <Y t="100">0.49668</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

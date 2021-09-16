@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2593</TableIdentity>
+    <ProviderDomain>naic.org</ProviderDomain>
+    <ProviderName>NAIC</ProviderName>
+    <TableReference>National Association of Insurance Commissioners, "1985 NAIC Cancer Claim Cost Tables", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1985 NAIC Cancer Claim Cost Tables for Radiation and Chemotherapy - Female</TableName>
+    <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Tables - Female. Basis: Radiation and Chemotherapy Benefits Under Standard Plans. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+    <Comments>Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. Claim costs that are separated by gender are: hospitalization, surgery, anesthesia, drugs, radiation and chemotherapy, and attending physicians. Claim costs not split by gender are blood and plasma, nursing care and ambulance services. A Standard Plan is defined as having the following: (1) $50 per day for first 7 days then $30 per day, (2) $500 scheduled maximum for surgery, (3) actual expense up to $70 per operation ($30 for skin cancer), (4) 10% of hospital benefit max for medications, (5) actual expense for radiotherapy and chemotherapy with $1,000 lifetime maximum, (6) actual expense up to $300 lifetime maximum for blood and plasma except no maximum for leukemia, (7) private duty nursing care at $24 per hospital day with $600 lifetime maximum, (8) attending physician while in hospital at $10 per day with $600 lifetime maximum, and (9) ambulance services at actual expenses subject to $500 lifetime maximum. Methodology: Tables loaded at a uniform 5% (applied to the incidence rate elements) plus a small amount believed to be 1-2% with regard to the continuance element. Data Transcription Errors: None. Data Certified: 12/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Tables - Female. Basis: Radiation and Chemotherapy Benefits Under Standard Plans. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.350982</Y>
+        <Y t="16">0.350982</Y>
+        <Y t="17">0.350982</Y>
+        <Y t="18">0.350982</Y>
+        <Y t="19">0.350982</Y>
+        <Y t="20">0.350982</Y>
+        <Y t="21">0.350982</Y>
+        <Y t="22">0.351315</Y>
+        <Y t="23">0.353313</Y>
+        <Y t="24">0.356643</Y>
+        <Y t="25">0.408591</Y>
+        <Y t="26">0.464535</Y>
+        <Y t="27">0.52281</Y>
+        <Y t="28">0.583749</Y>
+        <Y t="29">0.646686</Y>
+        <Y t="30">0.714285</Y>
+        <Y t="31">0.786879</Y>
+        <Y t="32">0.865134</Y>
+        <Y t="33">0.947052</Y>
+        <Y t="34">1.0313</Y>
+        <Y t="35">1.12254</Y>
+        <Y t="36">1.22477</Y>
+        <Y t="37">1.341329</Y>
+        <Y t="38">1.47319</Y>
+        <Y t="39">1.61572</Y>
+        <Y t="40">1.77189</Y>
+        <Y t="41">1.94106</Y>
+        <Y t="42">2.12454</Y>
+        <Y t="43">2.33433</Y>
+        <Y t="44">2.56943</Y>
+        <Y t="45">2.81318</Y>
+        <Y t="46">3.04662</Y>
+        <Y t="47">3.25441</Y>
+        <Y t="48">3.4279</Y>
+        <Y t="49">3.57842</Y>
+        <Y t="50">3.71795</Y>
+        <Y t="51">3.85614</Y>
+        <Y t="52">4.00333</Y>
+        <Y t="53">4.1635</Y>
+        <Y t="54">4.329</Y>
+        <Y t="55">4.49483</Y>
+        <Y t="56">4.65601</Y>
+        <Y t="57">4.80719</Y>
+        <Y t="58">4.95338</Y>
+        <Y t="59">5.09756</Y>
+        <Y t="60">5.23343</Y>
+        <Y t="61">5.35298</Y>
+        <Y t="62">5.44855</Y>
+        <Y t="63">5.51948</Y>
+        <Y t="64">5.57076</Y>
+        <Y t="65">5.60406</Y>
+        <Y t="66">5.62137</Y>
+        <Y t="67">5.62537</Y>
+        <Y t="68">5.61605</Y>
+        <Y t="69">5.5924</Y>
+        <Y t="70">5.55311</Y>
+        <Y t="71">5.49916</Y>
+        <Y t="72">5.43056</Y>
+        <Y t="73">5.34165</Y>
+        <Y t="74">5.23409</Y>
+        <Y t="75">5.11355</Y>
+        <Y t="76">4.98701</Y>
+        <Y t="77">4.8618</Y>
+        <Y t="78">4.7316</Y>
+        <Y t="79">4.5914</Y>
+        <Y t="80">4.45121</Y>
+        <Y t="81">4.32034</Y>
+        <Y t="82">4.20646</Y>
+        <Y t="83">4.11755</Y>
+        <Y t="84">4.04662</Y>
+        <Y t="85">3.98435</Y>
+        <Y t="86">3.92207</Y>
+        <Y t="87">3.85115</Y>
+        <Y t="88">3.77589</Y>
+        <Y t="89">3.70329</Y>
+        <Y t="90">3.62537</Y>
+        <Y t="91">3.5338</Y>
+        <Y t="92">3.42158</Y>
+        <Y t="93">3.29404</Y>
+        <Y t="94">3.15451</Y>
+        <Y t="95">2.99733</Y>
+        <Y t="96">2.81385</Y>
+        <Y t="97">2.5964</Y>
+        <Y t="98">2.5964</Y>
+        <Y t="99">2.5964</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>524</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Vital Statistics and Disease Registries Section, “Life Tables, Canada and Provinces, 1985-1987”, Statistics Canada Health Division (1989). Accessed: July, 2013 from http://www.prdh.umontreal.ca/BDLC/data/pdfs/84-532_(85-87).pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Canada Life Tables 1985-87 -  Males, ANB</TableName>
+    <TableDescription>Canada Life Tables 1985-87 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 102</TableDescription>
+    <Comments>Study Data: Tables generated on the basis of age-sex-specific mortality rates for Canada and the provinces prevailing in the period 1985-1987.  Deaths recorded for calendar years 1985-87, the number of births for the calendar years over the same period, and then census population by single years of age as of June 1, 1986 serve as the basis. Methodology: Same as used in production of the 1980-82 tables which is essentially the procedure used based on Greville 1939-41 U.S. Life Tables (See SOA Table Identity 530). Thus qx = mx/(1+.5mx) where qx is calculated for pivotal ages in the middle of 5-year age bands (2, 7, etc) and then graduated by osculatory interpolation. Special handling is accorded ages 0-4. Ages above 95 were calculated by third degree curve so as to terminate at 102. Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canada Life Tables 1985-87 – Male. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 102</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>102</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00858</Y>
+        <Y t="1">0.00067</Y>
+        <Y t="2">0.00050</Y>
+        <Y t="3">0.00041</Y>
+        <Y t="4">0.00036</Y>
+        <Y t="5">0.00030</Y>
+        <Y t="6">0.00024</Y>
+        <Y t="7">0.00018</Y>
+        <Y t="8">0.00016</Y>
+        <Y t="9">0.00016</Y>
+        <Y t="10">0.00018</Y>
+        <Y t="11">0.00021</Y>
+        <Y t="12">0.00028</Y>
+        <Y t="13">0.00039</Y>
+        <Y t="14">0.00056</Y>
+        <Y t="15">0.00074</Y>
+        <Y t="16">0.00091</Y>
+        <Y t="17">0.00105</Y>
+        <Y t="18">0.00115</Y>
+        <Y t="19">0.00124</Y>
+        <Y t="20">0.00130</Y>
+        <Y t="21">0.00135</Y>
+        <Y t="22">0.00138</Y>
+        <Y t="23">0.00139</Y>
+        <Y t="24">0.00136</Y>
+        <Y t="25">0.00132</Y>
+        <Y t="26">0.00129</Y>
+        <Y t="27">0.00127</Y>
+        <Y t="28">0.00127</Y>
+        <Y t="29">0.00128</Y>
+        <Y t="30">0.00130</Y>
+        <Y t="31">0.00133</Y>
+        <Y t="32">0.00136</Y>
+        <Y t="33">0.00139</Y>
+        <Y t="34">0.00141</Y>
+        <Y t="35">0.00145</Y>
+        <Y t="36">0.00150</Y>
+        <Y t="37">0.00158</Y>
+        <Y t="38">0.00169</Y>
+        <Y t="39">0.00182</Y>
+        <Y t="40">0.00197</Y>
+        <Y t="41">0.00215</Y>
+        <Y t="42">0.00236</Y>
+        <Y t="43">0.00259</Y>
+        <Y t="44">0.00284</Y>
+        <Y t="45">0.00312</Y>
+        <Y t="46">0.00345</Y>
+        <Y t="47">0.00384</Y>
+        <Y t="48">0.00429</Y>
+        <Y t="49">0.00478</Y>
+        <Y t="50">0.00532</Y>
+        <Y t="51">0.00594</Y>
+        <Y t="52">0.00662</Y>
+        <Y t="53">0.00738</Y>
+        <Y t="54">0.00819</Y>
+        <Y t="55">0.00908</Y>
+        <Y t="56">0.01005</Y>
+        <Y t="57">0.01111</Y>
+        <Y t="58">0.01223</Y>
+        <Y t="59">0.01340</Y>
+        <Y t="60">0.01468</Y>
+        <Y t="61">0.01609</Y>
+        <Y t="62">0.01770</Y>
+        <Y t="63">0.01947</Y>
+        <Y t="64">0.02139</Y>
+        <Y t="65">0.02347</Y>
+        <Y t="66">0.02574</Y>
+        <Y t="67">0.02824</Y>
+        <Y t="68">0.03089</Y>
+        <Y t="69">0.03370</Y>
+        <Y t="70">0.03673</Y>
+        <Y t="71">0.04006</Y>
+        <Y t="72">0.04377</Y>
+        <Y t="73">0.04781</Y>
+        <Y t="74">0.05212</Y>
+        <Y t="75">0.05679</Y>
+        <Y t="76">0.06188</Y>
+        <Y t="77">0.06745</Y>
+        <Y t="78">0.07344</Y>
+        <Y t="79">0.07981</Y>
+        <Y t="80">0.08665</Y>
+        <Y t="81">0.09407</Y>
+        <Y t="82">0.10219</Y>
+        <Y t="83">0.11094</Y>
+        <Y t="84">0.12023</Y>
+        <Y t="85">0.13018</Y>
+        <Y t="86">0.14090</Y>
+        <Y t="87">0.15249</Y>
+        <Y t="88">0.16488</Y>
+        <Y t="89">0.17801</Y>
+        <Y t="90">0.19197</Y>
+        <Y t="91">0.20688</Y>
+        <Y t="92">0.22284</Y>
+        <Y t="93">0.23085</Y>
+        <Y t="94">0.23084</Y>
+        <Y t="95">0.23631</Y>
+        <Y t="96">0.26077</Y>
+        <Y t="97">0.31774</Y>
+        <Y t="98">0.42751</Y>
+        <Y t="99">0.58110</Y>
+        <Y t="100">0.74802</Y>
+        <Y t="101">0.89781</Y>
+        <Y t="102">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

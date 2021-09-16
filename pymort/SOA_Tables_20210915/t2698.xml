@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2698</TableIdentity>
+    <ProviderDomain>IMSS</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Editor, “Tablas de Mortalidad Mexicanas: Editorial”, Revista Actuari@, (2011). Accessed: February, 2014 from http://www.revista-actuario.com/weff/sites/default/files/Tablas%20de%20Mortalidad%20Mexicanas_2.pdf</TableReference>
+    <ContentType tc="2">Disabled Lives Mortality</ContentType>
+    <TableName>EMSSIH97 - Mortality Rates for Disabled Pension Participants - Male</TableName>
+    <TableDescription>Experiencia Demográfica de Mortalidad para Invalides 1997 (EMSSI97) – Hombres (Males). Minimum Age: 15. Maximum Age: 101.</TableDescription>
+    <Comments>Study Data: Based on 1997 population mortality study by Consejo Nacional  de Población (CONAPO). Methodology: Constructed with Bayesian statistical techniques and graduated with laws of mortality permitting application of actuarial properties of the law of uniform aging. Built with margins to accommodate individual pension insurance reserves and Instituto Mexicano del Seguro Social (IMSS) social security pension reserves for disabled individuals. Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Disabled Lives Mortality</KeyWord>
+    <KeyWord>Mexico</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="52">Mexico</Nation>
+      <TableDescription>Experiencia Demográfica de Mortalidad para Invalides 1997 (EMSSI97) – Hombres (Males). Minimum Age: 15. Maximum Age: 101</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>101</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00316</Y>
+        <Y t="16">0.00316</Y>
+        <Y t="17">0.00316</Y>
+        <Y t="18">0.00316</Y>
+        <Y t="19">0.00316</Y>
+        <Y t="20">0.00316</Y>
+        <Y t="21">0.00316</Y>
+        <Y t="22">0.0032</Y>
+        <Y t="23">0.00334</Y>
+        <Y t="24">0.00358</Y>
+        <Y t="25">0.00389</Y>
+        <Y t="26">0.00428</Y>
+        <Y t="27">0.00474</Y>
+        <Y t="28">0.00524</Y>
+        <Y t="29">0.00579</Y>
+        <Y t="30">0.00637</Y>
+        <Y t="31">0.00698</Y>
+        <Y t="32">0.00762</Y>
+        <Y t="33">0.00826</Y>
+        <Y t="34">0.00892</Y>
+        <Y t="35">0.00958</Y>
+        <Y t="36">0.01024</Y>
+        <Y t="37">0.0109</Y>
+        <Y t="38">0.01155</Y>
+        <Y t="39">0.0122</Y>
+        <Y t="40">0.01283</Y>
+        <Y t="41">0.01344</Y>
+        <Y t="42">0.01405</Y>
+        <Y t="43">0.01464</Y>
+        <Y t="44">0.01522</Y>
+        <Y t="45">0.01579</Y>
+        <Y t="46">0.01635</Y>
+        <Y t="47">0.0169</Y>
+        <Y t="48">0.01745</Y>
+        <Y t="49">0.018</Y>
+        <Y t="50">0.01855</Y>
+        <Y t="51">0.01912</Y>
+        <Y t="52">0.0197</Y>
+        <Y t="53">0.0203</Y>
+        <Y t="54">0.02093</Y>
+        <Y t="55">0.02159</Y>
+        <Y t="56">0.0223</Y>
+        <Y t="57">0.02306</Y>
+        <Y t="58">0.02389</Y>
+        <Y t="59">0.02478</Y>
+        <Y t="60">0.02576</Y>
+        <Y t="61">0.02683</Y>
+        <Y t="62">0.02801</Y>
+        <Y t="63">0.02931</Y>
+        <Y t="64">0.03074</Y>
+        <Y t="65">0.03232</Y>
+        <Y t="66">0.03405</Y>
+        <Y t="67">0.03596</Y>
+        <Y t="68">0.03806</Y>
+        <Y t="69">0.04037</Y>
+        <Y t="70">0.0429</Y>
+        <Y t="71">0.04567</Y>
+        <Y t="72">0.0487</Y>
+        <Y t="73">0.05201</Y>
+        <Y t="74">0.05562</Y>
+        <Y t="75">0.05955</Y>
+        <Y t="76">0.06381</Y>
+        <Y t="77">0.06844</Y>
+        <Y t="78">0.07344</Y>
+        <Y t="79">0.07885</Y>
+        <Y t="80">0.08469</Y>
+        <Y t="81">0.09097</Y>
+        <Y t="82">0.09774</Y>
+        <Y t="83">0.105</Y>
+        <Y t="84">0.11279</Y>
+        <Y t="85">0.12113</Y>
+        <Y t="86">0.13005</Y>
+        <Y t="87">0.13958</Y>
+        <Y t="88">0.14974</Y>
+        <Y t="89">0.16057</Y>
+        <Y t="90">0.17209</Y>
+        <Y t="91">0.18433</Y>
+        <Y t="92">0.19733</Y>
+        <Y t="93">0.21111</Y>
+        <Y t="94">0.22571</Y>
+        <Y t="95">0.24116</Y>
+        <Y t="96">0.25749</Y>
+        <Y t="97">0.27474</Y>
+        <Y t="98">0.29294</Y>
+        <Y t="99">0.31212</Y>
+        <Y t="100">0.33233</Y>
+        <Y t="101">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

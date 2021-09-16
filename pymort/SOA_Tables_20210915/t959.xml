@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>959</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Bodo Schmithals and Esther U. Schfaz, “Herleitung der DAV-Sterbetafel 1994 R f'tir Rentenversicherungen” (Derivation of the 1994 DAV Life Table for Pension Insurances), Deutsche Aktuarvereinigung, (Hamburg, 1995). Accessed: November, 2013 from https://aktuar.de/custom/download/dav/veroeffentlichungen/1994-Schmithals-Schuetz-DAV-1994R.pdf. Reprinted A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>DAV-Sterbetafel 1994 R -  Frauen (Female)</TableName>
+    <TableDescription>Deutsche Akuarvereinigung (DAV)1994 R Table – Frauen (Female). Minimum Age: 0 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Based on population data (mortality – West) for the generation born in 1955 and then adjusted by an insured lives mortality differential found in annuity experience data. Methodology: Mortality improvements from the 1980s were extrapolated up the year 2000. After that point, a lighter trend assumption, based on population tables from the 19th century to the mid-1980s, was applied. The long term trend was derived using all the available German population mortality tables from 1987 onward. A surcharge, fx, and a safety rebate, sx, for statistical risk of variation were also included such that qx’ = fx*qx – sx.  Data Transcription Errors: None. Data Certified: 02/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>Deutsche Akuarvereinigung (DAV)1994 R Table – Frauen (Female). Minimum Age: 0 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.002509</Y>
+        <Y t="1">0.000083</Y>
+        <Y t="2">0.000064</Y>
+        <Y t="3">0.000048</Y>
+        <Y t="4">0.000036</Y>
+        <Y t="5">0.000029</Y>
+        <Y t="6">0.000026</Y>
+        <Y t="7">0.000026</Y>
+        <Y t="8">0.000025</Y>
+        <Y t="9">0.000024</Y>
+        <Y t="10">0.000023</Y>
+        <Y t="11">0.000021</Y>
+        <Y t="12">0.000020</Y>
+        <Y t="13">0.000020</Y>
+        <Y t="14">0.000021</Y>
+        <Y t="15">0.000026</Y>
+        <Y t="16">0.000033</Y>
+        <Y t="17">0.000044</Y>
+        <Y t="18">0.000057</Y>
+        <Y t="19">0.000068</Y>
+        <Y t="20">0.000073</Y>
+        <Y t="21">0.000073</Y>
+        <Y t="22">0.000073</Y>
+        <Y t="23">0.000072</Y>
+        <Y t="24">0.000070</Y>
+        <Y t="25">0.000066</Y>
+        <Y t="26">0.000063</Y>
+        <Y t="27">0.000063</Y>
+        <Y t="28">0.000068</Y>
+        <Y t="29">0.000085</Y>
+        <Y t="30">0.000124</Y>
+        <Y t="31">0.000189</Y>
+        <Y t="32">0.000235</Y>
+        <Y t="33">0.000264</Y>
+        <Y t="34">0.000286</Y>
+        <Y t="35">0.000312</Y>
+        <Y t="36">0.000342</Y>
+        <Y t="37">0.000375</Y>
+        <Y t="38">0.000414</Y>
+        <Y t="39">0.000166</Y>
+        <Y t="40">0.000541</Y>
+        <Y t="41">0.000640</Y>
+        <Y t="42">0.000731</Y>
+        <Y t="43">0.000816</Y>
+        <Y t="44">0.000907</Y>
+        <Y t="45">0.001018</Y>
+        <Y t="46">0.001142</Y>
+        <Y t="47">0.001230</Y>
+        <Y t="48">0.001283</Y>
+        <Y t="49">0.001320</Y>
+        <Y t="50">0.001369</Y>
+        <Y t="51">0.001437</Y>
+        <Y t="52">0.001536</Y>
+        <Y t="53">0.001662</Y>
+        <Y t="54">0.001804</Y>
+        <Y t="55">0.001953</Y>
+        <Y t="56">0.002108</Y>
+        <Y t="57">0.002108</Y>
+        <Y t="58">0.002276</Y>
+        <Y t="59">0.002456</Y>
+        <Y t="60">0.002633</Y>
+        <Y t="61">0.002830</Y>
+        <Y t="62">0.003083</Y>
+        <Y t="63">0.003797</Y>
+        <Y t="64">0.004285</Y>
+        <Y t="65">0.004884</Y>
+        <Y t="66">0.005629</Y>
+        <Y t="67">0.006475</Y>
+        <Y t="68">0.007377</Y>
+        <Y t="69">0.008338</Y>
+        <Y t="70">0.009379</Y>
+        <Y t="71">0.010529</Y>
+        <Y t="72">0.011845</Y>
+        <Y t="73">0.013407</Y>
+        <Y t="74">0.015298</Y>
+        <Y t="75">0.017511</Y>
+        <Y t="76">0.019995</Y>
+        <Y t="77">0.022809</Y>
+        <Y t="78">0.026061</Y>
+        <Y t="79">0.029844</Y>
+        <Y t="80">0.034237</Y>
+        <Y t="81">0.039277</Y>
+        <Y t="82">0.044981</Y>
+        <Y t="83">0.051342</Y>
+        <Y t="84">0.058326</Y>
+        <Y t="85">0.065881</Y>
+        <Y t="86">0.073958</Y>
+        <Y t="87">0.082525</Y>
+        <Y t="88">0.091566</Y>
+        <Y t="89">0.101059</Y>
+        <Y t="90">0.110913</Y>
+        <Y t="91">0.120840</Y>
+        <Y t="92">0.130591</Y>
+        <Y t="93">0.139987</Y>
+        <Y t="94">0.148950</Y>
+        <Y t="95">0.157520</Y>
+        <Y t="96">0.165792</Y>
+        <Y t="97">0.174001</Y>
+        <Y t="98">0.182224</Y>
+        <Y t="99">0.190467</Y>
+        <Y t="100">0.198722</Y>
+        <Y t="101">0.210417</Y>
+        <Y t="102">0.221987</Y>
+        <Y t="103">0.233360</Y>
+        <Y t="104">0.244465</Y>
+        <Y t="105">0.255237</Y>
+        <Y t="106">0.265614</Y>
+        <Y t="107">0.275543</Y>
+        <Y t="108">0.284974</Y>
+        <Y t="109">0.293863</Y>
+        <Y t="110">0.302175</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

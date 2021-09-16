@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>254</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>The Institute of Actuaries and the Faculty of Actuaries in Scotland, “British Offices Life Tables”, Charles &amp; Edwin Layton (London, 1903), p 2-3.  Accessed: February, 2013 from: http://archive.org/stream/britishofficesli00instrich#page/2/mode/2up</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>1893 British Offices Life Table: O^M – Male, ANB</TableName>
+    <TableDescription>1893 British Offices Life Table: O^M  - Male. Basis: Age Nearest Birthday. Minimum Age: 10. Maximum Age: 102.</TableDescription>
+    <Comments>Study Data: Male lives assured under whole life policies participating in profits for the period 1863 to 1893 by some 60 companies writing business in England and Scotland. Hence an American company submitted only business transacted in their offices in England and Scotland. Duplicate risks in the sense of contracts written on the same life were eliminated. The notation O^M and O^M(5) (See SOA Table Identity 255) in many respects correspond to the H^M and H^M(5) notation of the 1863 experience study. Methodology: The O^M table was adjusted in such a way that the “Law of Uniform Seniority” does not apply.  Data graduated by Mr. G.F. Hardy via a double frequency curve on the basis of the graduated O^M(5) table  thereby connecting the two tables. Accordingly, the two tables are identical after age 84. The O^M(5) table was also graduated by Mr. G.F. Hardy but using Makeham’s first modification of Gompertz’s law. Thus the “Law of Uniform Seniority” does apply to that table. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>1893 British Offices Life Table: O^M  - Male. Basis: Age Nearest Birthday. Minimum Age: 10. Maximum Age: 102</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>102</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.00338</Y>
+        <Y t="11">0.00341</Y>
+        <Y t="12">0.00345</Y>
+        <Y t="13">0.00350</Y>
+        <Y t="14">0.00354</Y>
+        <Y t="15">0.00360</Y>
+        <Y t="16">0.00367</Y>
+        <Y t="17">0.00375</Y>
+        <Y t="18">0.00383</Y>
+        <Y t="19">0.00392</Y>
+        <Y t="20">0.00404</Y>
+        <Y t="21">0.00416</Y>
+        <Y t="22">0.00431</Y>
+        <Y t="23">0.00446</Y>
+        <Y t="24">0.00463</Y>
+        <Y t="25">0.00481</Y>
+        <Y t="26">0.00500</Y>
+        <Y t="27">0.00523</Y>
+        <Y t="28">0.00544</Y>
+        <Y t="29">0.00569</Y>
+        <Y t="30">0.00595</Y>
+        <Y t="31">0.00620</Y>
+        <Y t="32">0.00648</Y>
+        <Y t="33">0.00677</Y>
+        <Y t="34">0.00706</Y>
+        <Y t="35">0.00738</Y>
+        <Y t="36">0.00771</Y>
+        <Y t="37">0.00804</Y>
+        <Y t="38">0.00838</Y>
+        <Y t="39">0.00877</Y>
+        <Y t="40">0.00915</Y>
+        <Y t="41">0.00956</Y>
+        <Y t="42">0.01001</Y>
+        <Y t="43">0.01048</Y>
+        <Y t="44">0.01099</Y>
+        <Y t="45">0.01153</Y>
+        <Y t="46">0.01213</Y>
+        <Y t="47">0.01277</Y>
+        <Y t="48">0.01345</Y>
+        <Y t="49">0.01422</Y>
+        <Y t="50">0.01504</Y>
+        <Y t="51">0.01595</Y>
+        <Y t="52">0.01693</Y>
+        <Y t="53">0.01799</Y>
+        <Y t="54">0.01918</Y>
+        <Y t="55">0.02045</Y>
+        <Y t="56">0.02184</Y>
+        <Y t="57">0.02338</Y>
+        <Y t="58">0.02505</Y>
+        <Y t="59">0.02689</Y>
+        <Y t="60">0.02887</Y>
+        <Y t="61">0.03105</Y>
+        <Y t="62">0.03344</Y>
+        <Y t="63">0.03603</Y>
+        <Y t="64">0.03886</Y>
+        <Y t="65">0.04196</Y>
+        <Y t="66">0.04532</Y>
+        <Y t="67">0.04900</Y>
+        <Y t="68">0.05299</Y>
+        <Y t="69">0.05735</Y>
+        <Y t="70">0.06207</Y>
+        <Y t="71">0.06723</Y>
+        <Y t="72">0.07281</Y>
+        <Y t="73">0.07892</Y>
+        <Y t="74">0.08548</Y>
+        <Y t="75">0.09264</Y>
+        <Y t="76">0.10043</Y>
+        <Y t="77">0.10882</Y>
+        <Y t="78">0.11795</Y>
+        <Y t="79">0.12782</Y>
+        <Y t="80">0.13844</Y>
+        <Y t="81">0.15000</Y>
+        <Y t="82">0.16240</Y>
+        <Y t="83">0.17573</Y>
+        <Y t="84">0.19014</Y>
+        <Y t="85">0.20569</Y>
+        <Y t="86">0.22213</Y>
+        <Y t="87">0.24001</Y>
+        <Y t="88">0.25887</Y>
+        <Y t="89">0.27881</Y>
+        <Y t="90">0.30075</Y>
+        <Y t="91">0.32258</Y>
+        <Y t="92">0.34788</Y>
+        <Y t="93">0.37120</Y>
+        <Y t="94">0.40000</Y>
+        <Y t="95">0.42473</Y>
+        <Y t="96">0.45794</Y>
+        <Y t="97">0.48276</Y>
+        <Y t="98">0.50000</Y>
+        <Y t="99">0.53333</Y>
+        <Y t="100">0.57143</Y>
+        <Y t="101">0.66667</Y>
+        <Y t="102">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

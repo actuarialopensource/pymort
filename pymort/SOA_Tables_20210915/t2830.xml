@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2830</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>C. N. Jones, “A Life Table Based on Upon Insurance in the American Tropics”, Papers and Transactions 1893-1894, Volume III, Actuarial Society of America, John C. Rankin (New York, 1894). Accessed: June, 2014 from http://scans.library.utoronto.ca/pdf/5/39/transactions03actuuoft/transactions03actuuoft.pdf </TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>American Tropical Experience Table</TableName>
+    <TableDescription>American Tropical Experience Table. Minimum Age: 20. Maximum Age: 96.</TableDescription>
+    <Comments>Study Data: Experience of New York Life Insurance Company written in the American Tropics (Mexico, Brazil, Cuba, and West Indies primarily). Initially intended for Tontine insurance but expanded to cover business paying tropical premiums after the effects of medical selection had disappeared. Examination showed no marked differences in mortality after the second policy year while those of the first and second policy year were strikingly below the general average. Hence it appeared judicious to combine the exposures of the third and following years. The greatest proportion of the business is upon lives belonging to the Latin race, mostly of Spanish or Portuguese descent. Closer review shows that about six-sevenths of the business is upon the lives of merchants, professional men, artisans, and business managers. Table adopted as the standard by many South American companies; table is even specified in 1976 Philippine insurance regulations. Methodology:  Graduation by way of Makeham’s formula was in harmony with the experience and no further graduation was performed due to the lack of adequate data below age 20 and above age 65. Furthermore, the author states that too often he finds data is smoothed “to taste” and actuaries must take strides to avoid such temptations. Tests showed the Makeham curve fit the data on an actual-to-expected basis well. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>American Tropical Experience Table. Minimum Age: 20. Maximum Age: 96</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>96</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.01174</Y>
+        <Y t="21">0.01182</Y>
+        <Y t="22">0.01191</Y>
+        <Y t="23">0.01200</Y>
+        <Y t="24">0.01211</Y>
+        <Y t="25">0.01222</Y>
+        <Y t="26">0.01235</Y>
+        <Y t="27">0.01249</Y>
+        <Y t="28">0.01265</Y>
+        <Y t="29">0.01280</Y>
+        <Y t="30">0.01300</Y>
+        <Y t="31">0.01319</Y>
+        <Y t="32">0.01342</Y>
+        <Y t="33">0.01366</Y>
+        <Y t="34">0.01392</Y>
+        <Y t="35">0.01422</Y>
+        <Y t="36">0.01453</Y>
+        <Y t="37">0.01488</Y>
+        <Y t="38">0.01526</Y>
+        <Y t="39">0.01569</Y>
+        <Y t="40">0.01613</Y>
+        <Y t="41">0.01665</Y>
+        <Y t="42">0.01720</Y>
+        <Y t="43">0.01780</Y>
+        <Y t="44">0.01846</Y>
+        <Y t="45">0.01920</Y>
+        <Y t="46">0.01998</Y>
+        <Y t="47">0.02086</Y>
+        <Y t="48">0.02182</Y>
+        <Y t="49">0.02286</Y>
+        <Y t="50">0.02401</Y>
+        <Y t="51">0.02526</Y>
+        <Y t="52">0.02663</Y>
+        <Y t="53">0.02813</Y>
+        <Y t="54">0.02977</Y>
+        <Y t="55">0.03159</Y>
+        <Y t="56">0.03356</Y>
+        <Y t="57">0.03571</Y>
+        <Y t="58">0.03808</Y>
+        <Y t="59">0.04065</Y>
+        <Y t="60">0.04348</Y>
+        <Y t="61">0.04657</Y>
+        <Y t="62">0.04992</Y>
+        <Y t="63">0.05362</Y>
+        <Y t="64">0.05764</Y>
+        <Y t="65">0.06201</Y>
+        <Y t="66">0.06683</Y>
+        <Y t="67">0.07203</Y>
+        <Y t="68">0.07773</Y>
+        <Y t="69">0.08394</Y>
+        <Y t="70">0.09069</Y>
+        <Y t="71">0.09806</Y>
+        <Y t="72">0.10602</Y>
+        <Y t="73">0.11468</Y>
+        <Y t="74">0.12416</Y>
+        <Y t="75">0.13433</Y>
+        <Y t="76">0.14535</Y>
+        <Y t="77">0.15739</Y>
+        <Y t="78">0.17035</Y>
+        <Y t="79">0.18413</Y>
+        <Y t="80">0.19935</Y>
+        <Y t="81">0.21546</Y>
+        <Y t="82">0.23272</Y>
+        <Y t="83">0.25115</Y>
+        <Y t="84">0.27144</Y>
+        <Y t="85">0.29194</Y>
+        <Y t="86">0.31497</Y>
+        <Y t="87">0.33914</Y>
+        <Y t="88">0.36308</Y>
+        <Y t="89">0.39172</Y>
+        <Y t="90">0.41885</Y>
+        <Y t="91">0.44144</Y>
+        <Y t="92">0.48387</Y>
+        <Y t="93">0.56250</Y>
+        <Y t="94">0.64286</Y>
+        <Y t="95">0.80000</Y>
+        <Y t="96">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2727</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>James W. Glover, “United States Life Tables 1890,1901, 1910, and 1901-1910 with Explanatory Text, Mathematical Theory, Computations, Graphs and Original Statistics, also Tables of United States Life Annuities,  Life Tables of Foreign Countries, Mortality Tables of Life Insurance Companies”, Department of Commerce, Bureau of the Census (Washington, 1921). Accessed: March, 2014 from http://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1900-1909 Holland – Male</TableName>
+    <TableDescription>1900-1909 Holland – Male. Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Foreign country tables, reprinted in tabular form, were taken from the published life tables or various countries, based on their official population and death statistics so that a comparison may be made as each age. 1000qx copied to the nearest second decimal. When only the first decimal was given, a cipher was added. Note that “Holland” is informally used in English and other languages, including sometimes the Dutch language itself, in reference to the whole of the modern country of the Netherlands. As the table was printed under use of the name “Holland”, it has been retained. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 04/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Netherlands</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="31">Netherlands</Nation>
+      <TableDescription>1900-1909 Holland – Male. Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.14046</Y>
+        <Y t="1">0.03555</Y>
+        <Y t="2">0.01665</Y>
+        <Y t="3">0.00916</Y>
+        <Y t="4">0.00654</Y>
+        <Y t="5">0.00496</Y>
+        <Y t="6">0.00396</Y>
+        <Y t="7">0.00329</Y>
+        <Y t="8">0.00280</Y>
+        <Y t="9">0.00247</Y>
+        <Y t="10">0.00226</Y>
+        <Y t="11">0.00208</Y>
+        <Y t="12">0.00201</Y>
+        <Y t="13">0.00207</Y>
+        <Y t="14">0.00228</Y>
+        <Y t="15">0.00260</Y>
+        <Y t="16">0.00301</Y>
+        <Y t="17">0.00352</Y>
+        <Y t="18">0.00416</Y>
+        <Y t="19">0.00475</Y>
+        <Y t="20">0.00507</Y>
+        <Y t="21">0.00514</Y>
+        <Y t="22">0.00511</Y>
+        <Y t="23">0.00508</Y>
+        <Y t="24">0.00502</Y>
+        <Y t="25">0.00492</Y>
+        <Y t="26">0.00481</Y>
+        <Y t="27">0.00476</Y>
+        <Y t="28">0.00476</Y>
+        <Y t="29">0.00479</Y>
+        <Y t="30">0.00475</Y>
+        <Y t="31">0.00466</Y>
+        <Y t="32">0.00472</Y>
+        <Y t="33">0.00495</Y>
+        <Y t="34">0.00518</Y>
+        <Y t="35">0.00537</Y>
+        <Y t="36">0.00559</Y>
+        <Y t="37">0.00584</Y>
+        <Y t="38">0.00611</Y>
+        <Y t="39">0.00645</Y>
+        <Y t="40">0.00679</Y>
+        <Y t="41">0.00710</Y>
+        <Y t="42">0.00742</Y>
+        <Y t="43">0.00783</Y>
+        <Y t="44">0.00844</Y>
+        <Y t="45">0.00898</Y>
+        <Y t="46">0.00940</Y>
+        <Y t="47">0.00994</Y>
+        <Y t="48">0.01061</Y>
+        <Y t="49">0.01118</Y>
+        <Y t="50">0.01177</Y>
+        <Y t="51">0.01246</Y>
+        <Y t="52">0.01329</Y>
+        <Y t="53">0.01438</Y>
+        <Y t="54">0.01561</Y>
+        <Y t="55">0.01686</Y>
+        <Y t="56">0.01807</Y>
+        <Y t="57">0.01944</Y>
+        <Y t="58">0.02090</Y>
+        <Y t="59">0.02247</Y>
+        <Y t="60">0.02429</Y>
+        <Y t="61">0.02593</Y>
+        <Y t="62">0.02826</Y>
+        <Y t="63">0.03120</Y>
+        <Y t="64">0.03395</Y>
+        <Y t="65">0.03720</Y>
+        <Y t="66">0.04073</Y>
+        <Y t="67">0.04405</Y>
+        <Y t="68">0.04791</Y>
+        <Y t="69">0.05251</Y>
+        <Y t="70">0.05743</Y>
+        <Y t="71">0.06211</Y>
+        <Y t="72">0.06795</Y>
+        <Y t="73">0.07497</Y>
+        <Y t="74">0.08181</Y>
+        <Y t="75">0.08921</Y>
+        <Y t="76">0.09754</Y>
+        <Y t="77">0.10610</Y>
+        <Y t="78">0.11450</Y>
+        <Y t="79">0.12540</Y>
+        <Y t="80">0.13700</Y>
+        <Y t="81">0.14810</Y>
+        <Y t="82">0.15980</Y>
+        <Y t="83">0.17350</Y>
+        <Y t="84">0.18830</Y>
+        <Y t="85">0.20400</Y>
+        <Y t="86">0.21700</Y>
+        <Y t="87">0.22900</Y>
+        <Y t="88">0.24400</Y>
+        <Y t="89">0.26000</Y>
+        <Y t="90">0.29000</Y>
+        <Y t="91">0.35000</Y>
+        <Y t="92">0.41000</Y>
+        <Y t="93">0.47000</Y>
+        <Y t="94">0.53000</Y>
+        <Y t="95">0.60000</Y>
+        <Y t="96">0.70000</Y>
+        <Y t="97">0.80000</Y>
+        <Y t="98">0.90000</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

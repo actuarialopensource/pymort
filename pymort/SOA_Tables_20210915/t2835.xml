@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2835</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Michael Dermody, “Group Life Experience Study, January 1995 – December, 1997”, IAAust Biennial Convention 2001, The Institute of Actuaries of Australia. Accessed: July, 2014 from http://www.actuaries.asn.au/Library/events/Conventions/2001/GroupLifeExp-Paper.pdf</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>KPMGGL 95-97 Male Adjustment Factors</TableName>
+    <TableDescription>KPMG Group Life 1995-97 Adjustment Factors (KPMGGL 95-97) – Male. Minimum Age: 15. Maximum Age: 64.</TableDescription>
+    <Comments>Study Data: Data from January, 1995 through December, 1997 was collected from traditional superannuation employee/employer group life schemes, including stand alone group life and group life attached to deposit administration, and unit rated and individually rated schemes. Productivity and industry funds are excluded from the analysis and there is little “small scheme” data included. The data represent approximately 77% of the direct group life market. Methodology: The shape of mortality experience under group life schemes is different than that emerging under individual insurance. As a result, modified standard tables have been developed based on the gender specific IA 95-97 male and female tables (See SOA Table Identities 60063 and 60064). The approach adopted to “bend” the shape of the mortality curve of the retail insured mortality tables has been to use exact claims admitted data together with an approximate exposed to risk measure. NOTE: The following data represent FACTORS that are to be applied to the IA 95-97 gender specific mortality tables. Data Transcription Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Lives Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>KPMG Group Life 1995-97 Adjustment Factors (KPMGGL 95-97) – Male. Minimum Age: 15. Maximum Age: 64</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>64</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">1.134</Y>
+        <Y t="16">1.134</Y>
+        <Y t="17">1.134</Y>
+        <Y t="18">1.134</Y>
+        <Y t="19">1.134</Y>
+        <Y t="20">1.134</Y>
+        <Y t="21">1.012</Y>
+        <Y t="22">0.890</Y>
+        <Y t="23">0.768</Y>
+        <Y t="24">0.646</Y>
+        <Y t="25">0.646</Y>
+        <Y t="26">0.665</Y>
+        <Y t="27">0.684</Y>
+        <Y t="28">0.700</Y>
+        <Y t="29">0.716</Y>
+        <Y t="30">0.730</Y>
+        <Y t="31">0.744</Y>
+        <Y t="32">0.755</Y>
+        <Y t="33">0.766</Y>
+        <Y t="34">0.775</Y>
+        <Y t="35">0.783</Y>
+        <Y t="36">0.790</Y>
+        <Y t="37">0.795</Y>
+        <Y t="38">0.799</Y>
+        <Y t="39">0.802</Y>
+        <Y t="40">0.804</Y>
+        <Y t="41">0.804</Y>
+        <Y t="42">0.803</Y>
+        <Y t="43">0.801</Y>
+        <Y t="44">0.797</Y>
+        <Y t="45">0.792</Y>
+        <Y t="46">0.786</Y>
+        <Y t="47">0.779</Y>
+        <Y t="48">0.770</Y>
+        <Y t="49">0.760</Y>
+        <Y t="50">0.749</Y>
+        <Y t="51">0.737</Y>
+        <Y t="52">0.723</Y>
+        <Y t="53">0.708</Y>
+        <Y t="54">0.691</Y>
+        <Y t="55">0.674</Y>
+        <Y t="56">0.655</Y>
+        <Y t="57">0.635</Y>
+        <Y t="58">0.613</Y>
+        <Y t="59">0.591</Y>
+        <Y t="60">0.567</Y>
+        <Y t="61">0.541</Y>
+        <Y t="62">0.515</Y>
+        <Y t="63">0.487</Y>
+        <Y t="64">0.458</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

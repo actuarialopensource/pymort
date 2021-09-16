@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>23022</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Fernando Ulloa</ProviderName>
+    <TableReference>CEPAL/CELADE (2004b) “América Latina: Tablas de Mortalidad 1950-2025”, Boletín Demográfico 74, (Santiago, Chile 2004). Accessed: March, 2014 from http://www.eclac.cl/publicaciones/xml/9/33269/OD-4-cuadros-tables.pdf AND www.eclac.cl/celade/publica/bol67/CHI-tablas.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Chile Abridged Life Tables 1995-2000 Hombres</TableName>
+    <TableDescription>Chile Abridged Life Tables 1995-2000 Hombres (Male). Minimum Age: 0 Maximum Age: 80.</TableDescription>
+    <Comments>Study Data: Tables were calculated using the Components Method, which is based on fertility, mortality and migration rates. The basic data used in calculating the tables was provided by national statistical institutes and health ministries and by the Pan-American Health Organization (PAHO) database on deaths by sex and age group. Methodology: Abridged life tables by sex and five-year age group were prepared for the period spanned by the population projections 1950-2050. As a consequence of problems related to the coverage or quality of vital statistics, in many countries indirect methods were used for the estimation of child and adult mortality rates based on data from population censuses and demographic surveys. NOTE: The published tables are on an abridged basis. Initial transcription of this table plugged a rate of 0 for all the non-quinquennial ages. Coding in such a fashion is misleading. The spurious rates have been removed and the abridged format has been restored. However as there are significant differences in mortality between age 0 and age 1, the abridged tables also included mortality rates for age 1. The structure of MORT requires even increments thus to go from age 0 to 1 to 5 is not a supported format. Hence sub-tables are utilized: the first table has 1 year increments for the rates of age 0 and 1 and the second table has 5 year increments for quinquennial ages 5 to 80. Data Transcription Errors Detected: 03/2014. Data Corrected and Certified: 03/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Chile</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="56">Chile</Nation>
+      <TableDescription>Chile Abridged Life Tables 1995-2000 Hombres (Male). Minimum Age: 0 Maximum Age: 1.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>1</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.01384</Y>
+        <Y t="1">0.00300</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="56">Chile</Nation>
+      <TableDescription>Chile Abridged Life Tables 1995-2000 Hombres (Male). Minimum Age: 5 Maximum Age: 80.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.00156</Y>
+        <Y t="10">0.00164</Y>
+        <Y t="15">0.00415</Y>
+        <Y t="20">0.00697</Y>
+        <Y t="25">0.00771</Y>
+        <Y t="30">0.00919</Y>
+        <Y t="35">0.01153</Y>
+        <Y t="40">0.01577</Y>
+        <Y t="45">0.02258</Y>
+        <Y t="50">0.03422</Y>
+        <Y t="55">0.05449</Y>
+        <Y t="60">0.08368</Y>
+        <Y t="65">0.12460</Y>
+        <Y t="70">0.19510</Y>
+        <Y t="75">0.29123</Y>
+        <Y t="80">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

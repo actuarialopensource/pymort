@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>650</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>The National Population Register. Reprinted by A.S. MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1993 Norway - Female</TableName>
+    <TableDescription>1993 Norway – Female. Minimum Age: 15. Maximum Age: 89.</TableDescription>
+    <Comments>Study Data: The National Population Register has been used as a source of population statistics since 1968 and it is now the main source of Norway's population statistics. In addition, Statistics Norway elicits information on the population's distribution by characteristics that cannot be extracted from registers and which have not been included in the censuses. The data underlying this table is from 1993. Methodology: Smoothing of the data for age groups 15-89 of the table done by minimum Chi-squared method using a Gompertz-Makeham formula. Data Transcription Errors: None. Data Certified: 10/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Norway</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="47">Norway</Nation>
+      <TableDescription>1993 Norway – Female. Minimum Age: 15. Maximum Age: 89</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00030244</Y>
+        <Y t="16">0.00030599</Y>
+        <Y t="17">0.00030997</Y>
+        <Y t="18">0.00031443</Y>
+        <Y t="19">0.00031944</Y>
+        <Y t="20">0.00032506</Y>
+        <Y t="21">0.00033136</Y>
+        <Y t="22">0.00033843</Y>
+        <Y t="23">0.00034636</Y>
+        <Y t="24">0.00035526</Y>
+        <Y t="25">0.00036524</Y>
+        <Y t="26">0.00037643</Y>
+        <Y t="27">0.00038899</Y>
+        <Y t="28">0.00040308</Y>
+        <Y t="29">0.00041888</Y>
+        <Y t="30">0.00043661</Y>
+        <Y t="31">0.00045649</Y>
+        <Y t="32">0.00047880</Y>
+        <Y t="33">0.00050382</Y>
+        <Y t="34">0.00053189</Y>
+        <Y t="35">0.00056337</Y>
+        <Y t="36">0.00059869</Y>
+        <Y t="37">0.00063831</Y>
+        <Y t="38">0.00068275</Y>
+        <Y t="39">0.00073261</Y>
+        <Y t="40">0.00078853</Y>
+        <Y t="41">0.00085127</Y>
+        <Y t="42">0.00092164</Y>
+        <Y t="43">0.00100058</Y>
+        <Y t="44">0.00108914</Y>
+        <Y t="45">0.00118847</Y>
+        <Y t="46">0.00129990</Y>
+        <Y t="47">0.00142490</Y>
+        <Y t="48">0.00156512</Y>
+        <Y t="49">0.00172242</Y>
+        <Y t="50">0.00189886</Y>
+        <Y t="51">0.00209679</Y>
+        <Y t="52">0.00231882</Y>
+        <Y t="53">0.00256788</Y>
+        <Y t="54">0.00284727</Y>
+        <Y t="55">0.00316068</Y>
+        <Y t="56">0.00351224</Y>
+        <Y t="57">0.00390662</Y>
+        <Y t="58">0.00434901</Y>
+        <Y t="59">0.00484527</Y>
+        <Y t="60">0.00540195</Y>
+        <Y t="61">0.00602642</Y>
+        <Y t="62">0.00672692</Y>
+        <Y t="63">0.00751271</Y>
+        <Y t="64">0.00839418</Y>
+        <Y t="65">0.00938298</Y>
+        <Y t="66">0.01049218</Y>
+        <Y t="67">0.01173643</Y>
+        <Y t="68">0.01313219</Y>
+        <Y t="69">0.01469789</Y>
+        <Y t="70">0.01645422</Y>
+        <Y t="71">0.01842442</Y>
+        <Y t="72">0.02063450</Y>
+        <Y t="73">0.02311368</Y>
+        <Y t="74">0.02589473</Y>
+        <Y t="75">0.02901440</Y>
+        <Y t="76">0.03251392</Y>
+        <Y t="77">0.03643954</Y>
+        <Y t="78">0.04084314</Y>
+        <Y t="79">0.04578293</Y>
+        <Y t="80">0.05132419</Y>
+        <Y t="81">0.05754016</Y>
+        <Y t="82">0.06451298</Y>
+        <Y t="83">0.07233481</Y>
+        <Y t="84">0.08110903</Y>
+        <Y t="85">0.09095159</Y>
+        <Y t="86">0.10199260</Y>
+        <Y t="87">0.11437795</Y>
+        <Y t="88">0.12827135</Y>
+        <Y t="89">0.14385641</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

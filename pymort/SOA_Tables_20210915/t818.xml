@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>818</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Harold R. Greenlee, Jr., and Alfonso D. Kehtsa, “The 1971 Group Annuity Mortality Table”, Transactions of the Society of Actuaries, Vol. XXIII, Part 1, No. 67 (1971) Table 11. Accessed: April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1971/January/tsa71v23pt1n6724.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1971 GAM - Male</TableName>
+    <TableDescription>1971 Group Annuity Mortality (GAM) Table – Male. Minimum Age: 5 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Intercompany experience by amount of annual income for the most recent five-calendar-year group available, 1964-68, was selected as the source of retired life data. At first, group insurance mortality data seemed to be a likely source of data; however, the data can be split by sex only on an estimated basis. As an alternative, data were obtained on four large deferred group annuity contracts and on one large municipal employee group, excluding persons engaged in hazardous occupations. Methodology: The 1971 Group Annuity Mortality (GAM) Table was developed from 1966 Experience Table (See SOA Table Identities 815 and 816). For valuation purposes, margins for conservatism are typically added to experience tables. A suitable margin for males was deemed to be an 8 per cent reduction; a 10 per cent reduction was chosen for female rates. The 1969 Reports indicated that crude rates should be increased by approximately 1 per cent to adjust for underreporting The 1 per cent increase in mortality rates was introduced by reducing the 8 per cent and 10 per cent margins to 7 per cent and 9 per cent, respectively. Scale D factors (See SOA Table Identities 904 and 905) were used to project the mortality rates from 1966 to 1971. The following formulas were used to convert the graduated 1966 rates to the 1971 GAM tabular rates. For males: 1971 q(x) = [1 -- (Scale D)]^5(0.93)(1966 q(x)). For females: 1971 q(x) = [1 -- (Scale D)]^5(0.91)(1966 q(x).  NOTE: a prior generation of this table included rates for ages 0-4 that were not from a published or verifiable source and have accordingly been removed. Data Transcription Errors Detected: 04/2013. Data Corrected and Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1971 Group Annuity Mortality (GAM) Table – Male. Minimum Age: 5 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000456</Y>
+        <Y t="6">0.000424</Y>
+        <Y t="7">0.000403</Y>
+        <Y t="8">0.000392</Y>
+        <Y t="9">0.000389</Y>
+        <Y t="10">0.000390</Y>
+        <Y t="11">0.000397</Y>
+        <Y t="12">0.000405</Y>
+        <Y t="13">0.000413</Y>
+        <Y t="14">0.000422</Y>
+        <Y t="15">0.000433</Y>
+        <Y t="16">0.000444</Y>
+        <Y t="17">0.000457</Y>
+        <Y t="18">0.000471</Y>
+        <Y t="19">0.000486</Y>
+        <Y t="20">0.000503</Y>
+        <Y t="21">0.000522</Y>
+        <Y t="22">0.000544</Y>
+        <Y t="23">0.000566</Y>
+        <Y t="24">0.000591</Y>
+        <Y t="25">0.000619</Y>
+        <Y t="26">0.000650</Y>
+        <Y t="27">0.000684</Y>
+        <Y t="28">0.000722</Y>
+        <Y t="29">0.000763</Y>
+        <Y t="30">0.000809</Y>
+        <Y t="31">0.000860</Y>
+        <Y t="32">0.000916</Y>
+        <Y t="33">0.000978</Y>
+        <Y t="34">0.001046</Y>
+        <Y t="35">0.001122</Y>
+        <Y t="36">0.001204</Y>
+        <Y t="37">0.001295</Y>
+        <Y t="38">0.001397</Y>
+        <Y t="39">0.001509</Y>
+        <Y t="40">0.001633</Y>
+        <Y t="41">0.001789</Y>
+        <Y t="42">0.002000</Y>
+        <Y t="43">0.002260</Y>
+        <Y t="44">0.002569</Y>
+        <Y t="45">0.002922</Y>
+        <Y t="46">0.003318</Y>
+        <Y t="47">0.003754</Y>
+        <Y t="48">0.004228</Y>
+        <Y t="49">0.004740</Y>
+        <Y t="50">0.005285</Y>
+        <Y t="51">0.005867</Y>
+        <Y t="52">0.006480</Y>
+        <Y t="53">0.007127</Y>
+        <Y t="54">0.007806</Y>
+        <Y t="55">0.008519</Y>
+        <Y t="56">0.009262</Y>
+        <Y t="57">0.010039</Y>
+        <Y t="58">0.010889</Y>
+        <Y t="59">0.011924</Y>
+        <Y t="60">0.013119</Y>
+        <Y t="61">0.014440</Y>
+        <Y t="62">0.015863</Y>
+        <Y t="63">0.017413</Y>
+        <Y t="64">0.019185</Y>
+        <Y t="65">0.021260</Y>
+        <Y t="66">0.023643</Y>
+        <Y t="67">0.026316</Y>
+        <Y t="68">0.029188</Y>
+        <Y t="69">0.032435</Y>
+        <Y t="70">0.036106</Y>
+        <Y t="71">0.040008</Y>
+        <Y t="72">0.043827</Y>
+        <Y t="73">0.047489</Y>
+        <Y t="74">0.051221</Y>
+        <Y t="75">0.055293</Y>
+        <Y t="76">0.060068</Y>
+        <Y t="77">0.065924</Y>
+        <Y t="78">0.072595</Y>
+        <Y t="79">0.079692</Y>
+        <Y t="80">0.087431</Y>
+        <Y t="81">0.095445</Y>
+        <Y t="82">0.103691</Y>
+        <Y t="83">0.112303</Y>
+        <Y t="84">0.121116</Y>
+        <Y t="85">0.130102</Y>
+        <Y t="86">0.139315</Y>
+        <Y t="87">0.148714</Y>
+        <Y t="88">0.158486</Y>
+        <Y t="89">0.168709</Y>
+        <Y t="90">0.179452</Y>
+        <Y t="91">0.190489</Y>
+        <Y t="92">0.201681</Y>
+        <Y t="93">0.212986</Y>
+        <Y t="94">0.226535</Y>
+        <Y t="95">0.241164</Y>
+        <Y t="96">0.256204</Y>
+        <Y t="97">0.272480</Y>
+        <Y t="98">0.290163</Y>
+        <Y t="99">0.309125</Y>
+        <Y t="100">0.329825</Y>
+        <Y t="101">0.352455</Y>
+        <Y t="102">0.377220</Y>
+        <Y t="103">0.406205</Y>
+        <Y t="104">0.441497</Y>
+        <Y t="105">0.485182</Y>
+        <Y t="106">0.539343</Y>
+        <Y t="107">0.606069</Y>
+        <Y t="108">0.687444</Y>
+        <Y t="109">0.785555</Y>
+        <Y t="110">0.999999</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

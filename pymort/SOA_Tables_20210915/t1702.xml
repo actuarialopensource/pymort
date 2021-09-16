@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1702</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Joseph R. Brzezinski, “LIMRA 1971-72 Expected Lapse Tables”, Transactions of the Society of Actuaries, Vol. XXVII (1975) Table 1 and 5. Accessed April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1975/January/tsa75v2712.pdf</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>1971-72 LIMRA Lapse Table – High Early Cash Value Insurance</TableName>
+    <TableDescription>1971-72 Life Insurance and Market Research Association (LIMRA) Lapse Table – Pension Life Insurance. Basis: Number of Policies. Minimum Select Age 0 Maximum Select Age: 72. Minimum Ultimate Age: 15. Maximum Ultimate Age: 99</TableDescription>
+    <Comments>Study Data: Based upon a selected subsample of the combined lapse experience of nine contributors to Life Insurance and Market Research Association’s (LIMRA) long-term lapse study observed between 1971 and 1972 policy anniversaries. Excluded from the calculations were experience values that were unusually high due to a high proportion of expiries and non-renewals counted as lapses; experience where corresponding lapse rates by number of policies and amount of insurance were not available; and certain subcategories, such as pension term insurance, that did not appear to fit into any major category very well but were not large enough to warrant a special category. Accordingly, the select tables produced are as follows: this Pension Table geared for use with pension business, a High Early-Cash-Value Table (See SOA Table Identity 1703) for non-pension high early-cash-value insurance or high early-cash-value insurance where pension coding is unknown, the Term Table ((See SOA Table Identity 755) is to be used for all term except pension term, and then a Permanent Life Insurance Table (See SOA Table Identity 754) is to be used in all other cases. The ultimate portion of the table is split by pension and non-pension contracts. Methodology: Select and ultimate experience cross-tabulated then graphed. No attempt was made to force the select rates to merge smoothly into the ultimate rates. The actual select rates approached the ultimate rates only at the young adult ages. The graphs indicated that sharp increases in lapsation are associated with the attainment of retirement age (65) and legal age (21). Preserving such variation was deemed desirable but created the need for special graduation procedures. Thus the ultimate rates were graduated first and then ratios of select to ultimate (graduated rates) were graduated to create a set of select rates. In the development of the ultimate tables, select experience at attained ages 0-19 was considered as ultimate and added to the ultimate data. The rates were graduated using a Whittaker-Henderson type B graduation process in three pieces: ages 0-19, ages 20-64, and ages 65-99. A "dummy variable" multiple regression process was developed to transform the rates at durations 1, 2, 3-5 combined, 6-10 combined, and 11-15 combined to improve fit. The select tables are for issue ages 0, l, 2-4, 5-9, 10-14, and so forth, through age group 70 and over, and the ultimate tables are for individual attained ages 15-99. During the select period, the table has been coded to use the central age of the associated age group. NOTE: A prior generation of this table contained data from a source that was merely a test of graduation fit rather than the true lapse rates published. The table herein represents the published data; thus it reflects a 15-year select period followed by ultimate rates on an attained age basis. Data Transcription Errors: None. Data Certified: 05/2013</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1971-72 Life Insurance and Market Research Association (LIMRA) Lapse Table – Pension Life Insurance. Basis: Number of Policies.  Minimum Select Age 0 Maximum Select Age: 70.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>15</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="0">
+        <Axis>
+          <Y t="1">0.1520</Y>
+          <Y t="2">0.1410</Y>
+          <Y t="3">0.1250</Y>
+          <Y t="4">0.1160</Y>
+          <Y t="5">0.1110</Y>
+          <Y t="6">0.1090</Y>
+          <Y t="7">0.1070</Y>
+          <Y t="8">0.1060</Y>
+          <Y t="9">0.1080</Y>
+          <Y t="10">0.1110</Y>
+          <Y t="11">0.1140</Y>
+          <Y t="12">0.1170</Y>
+          <Y t="13">0.1190</Y>
+          <Y t="14">0.1200</Y>
+          <Y t="15">0.1200</Y>
+        </Axis>
+      </Axis>
+      <Axis t="1">
+        <Axis>
+          <Y t="1">0.1540</Y>
+          <Y t="2">0.1390</Y>
+          <Y t="3">0.1270</Y>
+          <Y t="4">0.1200</Y>
+          <Y t="5">0.1170</Y>
+          <Y t="6">0.1150</Y>
+          <Y t="7">0.1140</Y>
+          <Y t="8">0.1130</Y>
+          <Y t="9">0.1150</Y>
+          <Y t="10">0.1170</Y>
+          <Y t="11">0.1190</Y>
+          <Y t="12">0.1210</Y>
+          <Y t="13">0.1230</Y>
+          <Y t="14">0.1230</Y>
+          <Y t="15">0.1220</Y>
+        </Axis>
+      </Axis>
+      <Axis t="3">
+        <Axis>
+          <Y t="1">0.1520</Y>
+          <Y t="2">0.1370</Y>
+          <Y t="3">0.1250</Y>
+          <Y t="4">0.1180</Y>
+          <Y t="5">0.1140</Y>
+          <Y t="6">0.1120</Y>
+          <Y t="7">0.1100</Y>
+          <Y t="8">0.1100</Y>
+          <Y t="9">0.1110</Y>
+          <Y t="10">0.1130</Y>
+          <Y t="11">0.1160</Y>
+          <Y t="12">0.1190</Y>
+          <Y t="13">0.1220</Y>
+          <Y t="14">0.1240</Y>
+          <Y t="15">0.1260</Y>
+        </Axis>
+      </Axis>
+      <Axis t="7">
+        <Axis>
+          <Y t="1">0.1540</Y>
+          <Y t="2">0.1440</Y>
+          <Y t="3">0.1260</Y>
+          <Y t="4">0.1160</Y>
+          <Y t="5">0.1120</Y>
+          <Y t="6">0.1100</Y>
+          <Y t="7">0.1090</Y>
+          <Y t="8">0.1090</Y>
+          <Y t="9">0.1110</Y>
+          <Y t="10">0.1140</Y>
+          <Y t="11">0.1180</Y>
+          <Y t="12">0.1200</Y>
+          <Y t="13">0.1210</Y>
+          <Y t="14">0.1200</Y>
+          <Y t="15">0.1160</Y>
+        </Axis>
+      </Axis>
+      <Axis t="12">
+        <Axis>
+          <Y t="1">0.1520</Y>
+          <Y t="2">0.1430</Y>
+          <Y t="3">0.1250</Y>
+          <Y t="4">0.1150</Y>
+          <Y t="5">0.1100</Y>
+          <Y t="6">0.1070</Y>
+          <Y t="7">0.1060</Y>
+          <Y t="8">0.1060</Y>
+          <Y t="9">0.1080</Y>
+          <Y t="10">0.1120</Y>
+          <Y t="11">0.1170</Y>
+          <Y t="12">0.1200</Y>
+          <Y t="13">0.1240</Y>
+          <Y t="14">0.1250</Y>
+          <Y t="15">0.1250</Y>
+        </Axis>
+      </Axis>
+      <Axis t="17">
+        <Axis>
+          <Y t="1">0.2590</Y>
+          <Y t="2">0.2160</Y>
+          <Y t="3">0.1660</Y>
+          <Y t="4">0.1340</Y>
+          <Y t="5">0.1170</Y>
+          <Y t="6">0.1070</Y>
+          <Y t="7">0.1000</Y>
+          <Y t="8">0.0960</Y>
+          <Y t="9">0.0990</Y>
+          <Y t="10">0.1060</Y>
+          <Y t="11">0.1150</Y>
+          <Y t="12">0.1220</Y>
+          <Y t="13">0.1270</Y>
+          <Y t="14">0.1270</Y>
+          <Y t="15">0.1240</Y>
+        </Axis>
+      </Axis>
+      <Axis t="22">
+        <Axis>
+          <Y t="1">0.2260</Y>
+          <Y t="2">0.1460</Y>
+          <Y t="3">0.1140</Y>
+          <Y t="4">0.0920</Y>
+          <Y t="5">0.0800</Y>
+          <Y t="6">0.0720</Y>
+          <Y t="7">0.0660</Y>
+          <Y t="8">0.0630</Y>
+          <Y t="9">0.0630</Y>
+          <Y t="10">0.0670</Y>
+          <Y t="11">0.0720</Y>
+          <Y t="12">0.0770</Y>
+          <Y t="13">0.0810</Y>
+          <Y t="14">0.0820</Y>
+          <Y t="15">0.0820</Y>
+        </Axis>
+      </Axis>
+      <Axis t="27">
+        <Axis>
+          <Y t="1">0.2180</Y>
+          <Y t="2">0.1060</Y>
+          <Y t="3">0.0930</Y>
+          <Y t="4">0.0850</Y>
+          <Y t="5">0.0790</Y>
+          <Y t="6">0.0750</Y>
+          <Y t="7">0.0720</Y>
+          <Y t="8">0.0690</Y>
+          <Y t="9">0.0680</Y>
+          <Y t="10">0.0680</Y>
+          <Y t="11">0.0680</Y>
+          <Y t="12">0.0670</Y>
+          <Y t="13">0.0660</Y>
+          <Y t="14">0.0630</Y>
+          <Y t="15">0.0600</Y>
+        </Axis>
+      </Axis>
+      <Axis t="32">
+        <Axis>
+          <Y t="1">0.1900</Y>
+          <Y t="2">0.1500</Y>
+          <Y t="3">0.1550</Y>
+          <Y t="4">0.1510</Y>
+          <Y t="5">0.1400</Y>
+          <Y t="6">0.1270</Y>
+          <Y t="7">0.1150</Y>
+          <Y t="8">0.1030</Y>
+          <Y t="9">0.0890</Y>
+          <Y t="10">0.0750</Y>
+          <Y t="11">0.0620</Y>
+          <Y t="12">0.0520</Y>
+          <Y t="13">0.0450</Y>
+          <Y t="14">0.0440</Y>
+          <Y t="15">0.0460</Y>
+        </Axis>
+      </Axis>
+      <Axis t="37">
+        <Axis>
+          <Y t="1">0.1710</Y>
+          <Y t="2">0.1480</Y>
+          <Y t="3">0.1430</Y>
+          <Y t="4">0.1400</Y>
+          <Y t="5">0.1380</Y>
+          <Y t="6">0.1370</Y>
+          <Y t="7">0.1370</Y>
+          <Y t="8">0.1380</Y>
+          <Y t="9">0.1400</Y>
+          <Y t="10">0.1430</Y>
+          <Y t="11">0.1470</Y>
+          <Y t="12">0.1520</Y>
+          <Y t="13">0.1580</Y>
+          <Y t="14">0.1650</Y>
+          <Y t="15">0.1730</Y>
+        </Axis>
+      </Axis>
+      <Axis t="42">
+        <Axis>
+          <Y t="1">0.1610</Y>
+          <Y t="2">0.1230</Y>
+          <Y t="3">0.1200</Y>
+          <Y t="4">0.1180</Y>
+          <Y t="5">0.1170</Y>
+          <Y t="6">0.1170</Y>
+          <Y t="7">0.1170</Y>
+          <Y t="8">0.1190</Y>
+          <Y t="9">0.1210</Y>
+          <Y t="10">0.1240</Y>
+          <Y t="11">0.1270</Y>
+          <Y t="12">0.1320</Y>
+          <Y t="13">0.1370</Y>
+          <Y t="14">0.1430</Y>
+          <Y t="15">0.1490</Y>
+        </Axis>
+      </Axis>
+      <Axis t="47">
+        <Axis>
+          <Y t="1">0.1580</Y>
+          <Y t="2">0.1210</Y>
+          <Y t="3">0.1180</Y>
+          <Y t="4">0.1150</Y>
+          <Y t="5">0.1130</Y>
+          <Y t="6">0.1120</Y>
+          <Y t="7">0.1130</Y>
+          <Y t="8">0.1150</Y>
+          <Y t="9">0.1180</Y>
+          <Y t="10">0.1220</Y>
+          <Y t="11">0.1290</Y>
+          <Y t="12">0.1370</Y>
+          <Y t="13">0.1460</Y>
+          <Y t="14">0.1590</Y>
+          <Y t="15">0.1730</Y>
+        </Axis>
+      </Axis>
+      <Axis t="52">
+        <Axis>
+          <Y t="1">0.1520</Y>
+          <Y t="2">0.1020</Y>
+          <Y t="3">0.1050</Y>
+          <Y t="4">0.1060</Y>
+          <Y t="5">0.1060</Y>
+          <Y t="6">0.1080</Y>
+          <Y t="7">0.1120</Y>
+          <Y t="8">0.1200</Y>
+          <Y t="9">0.1290</Y>
+          <Y t="10">0.1400</Y>
+          <Y t="11">0.1550</Y>
+          <Y t="12">0.1740</Y>
+          <Y t="13">0.1970</Y>
+          <Y t="14">0.2250</Y>
+          <Y t="15">0.2580</Y>
+        </Axis>
+      </Axis>
+      <Axis t="57">
+        <Axis>
+          <Y t="1">0.1400</Y>
+          <Y t="2">0.1140</Y>
+          <Y t="3">0.1100</Y>
+          <Y t="4">0.1170</Y>
+          <Y t="5">0.1320</Y>
+          <Y t="6">0.1470</Y>
+          <Y t="7">0.1580</Y>
+          <Y t="8">0.1660</Y>
+          <Y t="9">0.1740</Y>
+          <Y t="10">0.1800</Y>
+          <Y t="11">0.1800</Y>
+          <Y t="12">0.1720</Y>
+          <Y t="13">0.1560</Y>
+          <Y t="14">0.1290</Y>
+          <Y t="15">0.0920</Y>
+        </Axis>
+      </Axis>
+      <Axis t="62">
+        <Axis>
+          <Y t="1">0.1490</Y>
+          <Y t="2">0.1140</Y>
+          <Y t="3">0.1320</Y>
+          <Y t="4">0.1400</Y>
+          <Y t="5">0.1400</Y>
+          <Y t="6">0.1360</Y>
+          <Y t="7">0.1320</Y>
+          <Y t="8">0.1270</Y>
+          <Y t="9">0.1200</Y>
+          <Y t="10">0.1120</Y>
+          <Y t="11">0.1040</Y>
+          <Y t="12">0.0990</Y>
+          <Y t="13">0.0970</Y>
+          <Y t="14">0.1000</Y>
+          <Y t="15">0.1070</Y>
+        </Axis>
+      </Axis>
+      <Axis t="67">
+        <Axis>
+          <Y t="1">0.1770</Y>
+          <Y t="2">0.1310</Y>
+          <Y t="3">0.1200</Y>
+          <Y t="4">0.1120</Y>
+          <Y t="5">0.1080</Y>
+          <Y t="6">0.1050</Y>
+          <Y t="7">0.1040</Y>
+          <Y t="8">0.1040</Y>
+          <Y t="9">0.1050</Y>
+          <Y t="10">0.1080</Y>
+          <Y t="11">0.1120</Y>
+          <Y t="12">0.1170</Y>
+          <Y t="13">0.1210</Y>
+          <Y t="14">0.1260</Y>
+          <Y t="15">0.1300</Y>
+        </Axis>
+      </Axis>
+      <Axis t="72">
+        <Axis>
+          <Y t="1">0.1430</Y>
+          <Y t="2">0.1340</Y>
+          <Y t="3">0.1250</Y>
+          <Y t="4">0.1190</Y>
+          <Y t="5">0.1160</Y>
+          <Y t="6">0.1140</Y>
+          <Y t="7">0.1130</Y>
+          <Y t="8">0.1130</Y>
+          <Y t="9">0.1150</Y>
+          <Y t="10">0.1170</Y>
+          <Y t="11">0.1200</Y>
+          <Y t="12">0.1230</Y>
+          <Y t="13">0.1260</Y>
+          <Y t="14">0.1280</Y>
+          <Y t="15">0.1300</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1971-72 Life Insurance and Market Research Association (LIMRA) Lapse Table – Pension Life Insurance. Basis: Number of Policies. Minimum Ultimate Age: 15. Maximum Ultimate Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.0209</Y>
+        <Y t="16">0.0245</Y>
+        <Y t="17">0.0297</Y>
+        <Y t="18">0.0350</Y>
+        <Y t="19">0.0389</Y>
+        <Y t="20">0.0636</Y>
+        <Y t="21">0.0633</Y>
+        <Y t="22">0.0629</Y>
+        <Y t="23">0.0623</Y>
+        <Y t="24">0.0609</Y>
+        <Y t="25">0.0588</Y>
+        <Y t="26">0.0560</Y>
+        <Y t="27">0.0525</Y>
+        <Y t="28">0.0486</Y>
+        <Y t="29">0.0449</Y>
+        <Y t="30">0.0416</Y>
+        <Y t="31">0.0386</Y>
+        <Y t="32">0.0357</Y>
+        <Y t="33">0.0333</Y>
+        <Y t="34">0.0317</Y>
+        <Y t="35">0.0305</Y>
+        <Y t="36">0.0296</Y>
+        <Y t="37">0.0290</Y>
+        <Y t="38">0.0284</Y>
+        <Y t="39">0.0278</Y>
+        <Y t="40">0.0272</Y>
+        <Y t="41">0.0264</Y>
+        <Y t="42">0.0257</Y>
+        <Y t="43">0.0248</Y>
+        <Y t="44">0.0242</Y>
+        <Y t="45">0.0257</Y>
+        <Y t="46">0.0285</Y>
+        <Y t="47">0.0315</Y>
+        <Y t="48">0.0356</Y>
+        <Y t="49">0.0410</Y>
+        <Y t="50">0.0477</Y>
+        <Y t="51">0.0556</Y>
+        <Y t="52">0.0643</Y>
+        <Y t="53">0.0724</Y>
+        <Y t="54">0.0789</Y>
+        <Y t="55">0.0859</Y>
+        <Y t="56">0.0966</Y>
+        <Y t="57">0.1113</Y>
+        <Y t="58">0.1250</Y>
+        <Y t="59">0.1346</Y>
+        <Y t="60">0.1376</Y>
+        <Y t="61">0.1401</Y>
+        <Y t="62">0.1507</Y>
+        <Y t="63">0.1773</Y>
+        <Y t="64">0.2464</Y>
+        <Y t="65">0.2027</Y>
+        <Y t="66">0.1318</Y>
+        <Y t="67">0.0941</Y>
+        <Y t="68">0.0764</Y>
+        <Y t="69">0.0676</Y>
+        <Y t="70">0.0591</Y>
+        <Y t="71">0.0490</Y>
+        <Y t="72">0.0378</Y>
+        <Y t="73">0.0269</Y>
+        <Y t="74">0.0260</Y>
+        <Y t="75">0.0255</Y>
+        <Y t="76">0.0255</Y>
+        <Y t="77">0.0261</Y>
+        <Y t="78">0.0269</Y>
+        <Y t="79">0.0276</Y>
+        <Y t="80">0.0281</Y>
+        <Y t="81">0.0282</Y>
+        <Y t="82">0.0284</Y>
+        <Y t="83">0.0285</Y>
+        <Y t="84">0.0294</Y>
+        <Y t="85">0.0312</Y>
+        <Y t="86">0.0332</Y>
+        <Y t="87">0.0353</Y>
+        <Y t="88">0.0375</Y>
+        <Y t="89">0.0399</Y>
+        <Y t="90">0.0428</Y>
+        <Y t="91">0.0461</Y>
+        <Y t="92">0.0503</Y>
+        <Y t="93">0.0552</Y>
+        <Y t="94">0.0611</Y>
+        <Y t="95">0.0683</Y>
+        <Y t="96">0.0767</Y>
+        <Y t="97">0.0863</Y>
+        <Y t="98">0.0995</Y>
+        <Y t="99">0.1000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

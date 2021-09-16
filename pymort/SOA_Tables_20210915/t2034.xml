@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2034</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “Report of the Society of Actuaries Group Life Insurance Experience Committee”, Society of Actuaries (2006). Accessed: July, 2013 from http://www.soa.org/files/research/exp-study/research-05-gl-waiver.pdf</TableReference>
+    <ContentType tc="2">Disabled Lives Mortality</ContentType>
+    <TableName>2005 Group Term Life Waiver Study – Male, Select Period, Disabled Death Rates </TableName>
+    <TableDescription>2005 Group Term Life Waiver Study - Select Period Death Rates for Disabled - Male. Years 1-10 (Exhibit 4) Central Ages. Minimum Age: 17. Maximum Age: 72 </TableDescription>
+    <Comments>Study Data: Twenty-four companies contributed to the Society of Actuaries study, but the Committee had to exclude data from six for various reasons. Covers waiver claims open at some point during the 10-year period of January 1, 1993 through December 31, 2002. Exposure starts after a 9-month elimination period, which remains the most common elimination period used within the industry. The last such study was done in 1970 and produced the Intercompany Group Life Disability Experience Table, also known as the Krieger Table (See SOA Table Identity 1554). The 2005 Table uses the same structure as the 1970 Table, namely separate “Select” and “Ultimate” tables. Claims in the first ten years form the Select Table, which is constructed using two variables: age at disability and duration of disability. Claims in durations beyond the first ten years form the Ultimate Table, which is based on one variable: attained age. Because there was relatively little female exposure (Krieger estimated 15%), the 1970 study results were presented on a unisex basis. In contrast, female composition for the 2005 study was 39%, and the Committee was able to present results separately for males and females. Methodology: The Committee reviewed raw experience rates and smoothed them to develop graduated experience values. After the results were smoothed, the Committee developed margins to create a valuation table. The Committee selected margins of 25% for deaths and 35% for recoveries, i.e., death rates are multiplied by 125% and recoveries are multiplied by 65%. There is a higher margin for recoveries because there was more variance among companies for recoveries than for deaths. The Committee reviewed raw experience rates and smoothed them to develop graduated experience values, using 2nd degree polynomial trend lines and other spreadsheet application tools in Excel, as well as some manual adjustments. In some cases, we used the slope of the 1970 Table (i.e. Krieger). The death rates are relatively flat for males between the ages of 30 and 55, compared to the 1970 Table (i.e. Krieger), although the raw data for females follow a slope similar to that of the 1970 Table. Data Transcription Errors: None. Data Certified: 07/2018</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord> United States of America</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Fourth Quarter Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>9</MinScaleValue>
+        <MaxScaleValue>9</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.017</Y>
+          <Y t="22">0.02</Y>
+          <Y t="27">0.02</Y>
+          <Y t="32">0.023</Y>
+          <Y t="37">0.028</Y>
+          <Y t="42">0.028</Y>
+          <Y t="47">0.028</Y>
+          <Y t="52">0.03</Y>
+          <Y t="57">0.031</Y>
+          <Y t="62">0.037</Y>
+          <Y t="67">0.034</Y>
+          <Y t="72">0.031</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. First Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>12</MinScaleValue>
+        <MaxScaleValue>12</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="12">
+        <Axis>
+          <Y t="17">0.021</Y>
+          <Y t="22">0.023</Y>
+          <Y t="27">0.024</Y>
+          <Y t="32">0.029</Y>
+          <Y t="37">0.03</Y>
+          <Y t="42">0.03</Y>
+          <Y t="47">0.03</Y>
+          <Y t="52">0.03</Y>
+          <Y t="57">0.03</Y>
+          <Y t="62">0.03</Y>
+          <Y t="67">0.027</Y>
+          <Y t="72">0.024</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Second Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>15</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="15">
+        <Axis>
+          <Y t="17">0.022</Y>
+          <Y t="22">0.024</Y>
+          <Y t="27">0.024</Y>
+          <Y t="32">0.03</Y>
+          <Y t="37">0.028</Y>
+          <Y t="42">0.028</Y>
+          <Y t="47">0.027</Y>
+          <Y t="52">0.027</Y>
+          <Y t="57">0.027</Y>
+          <Y t="62">0.027</Y>
+          <Y t="67">0.026</Y>
+          <Y t="72">0.023</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Third Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="18">
+        <Axis>
+          <Y t="17">0.025</Y>
+          <Y t="22">0.027</Y>
+          <Y t="27">0.027</Y>
+          <Y t="32">0.027</Y>
+          <Y t="37">0.021</Y>
+          <Y t="42">0.021</Y>
+          <Y t="47">0.022</Y>
+          <Y t="52">0.022</Y>
+          <Y t="57">0.023</Y>
+          <Y t="62">0.023</Y>
+          <Y t="67">0.023</Y>
+          <Y t="72">0.02</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Foruth Quarter Death Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>21</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="21">
+        <Axis>
+          <Y t="17">0.027</Y>
+          <Y t="22">0.031</Y>
+          <Y t="27">0.03</Y>
+          <Y t="32">0.026</Y>
+          <Y t="37">0.018</Y>
+          <Y t="42">0.018</Y>
+          <Y t="47">0.018</Y>
+          <Y t="52">0.018</Y>
+          <Y t="57">0.017</Y>
+          <Y t="62">0.017</Y>
+          <Y t="67">0.017</Y>
+          <Y t="72">0.017</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Male. Select Period Death Rates for Disabled. Annual Death Rates for Year 2 -10 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Year">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Year</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="2">
+        <Axis>
+          <Y t="17">0.0839</Y>
+          <Y t="22">0.0923</Y>
+          <Y t="27">0.0939</Y>
+          <Y t="32">0.1017</Y>
+          <Y t="37">0.0895</Y>
+          <Y t="42">0.0907</Y>
+          <Y t="47">0.0912</Y>
+          <Y t="52">0.0921</Y>
+          <Y t="57">0.0923</Y>
+          <Y t="62">0.0927</Y>
+          <Y t="67">0.0891</Y>
+          <Y t="72">0.0809</Y>
+        </Axis>
+      </Axis>
+      <Axis t="3">
+        <Axis>
+          <Y t="17">0.03</Y>
+          <Y t="22">0.045</Y>
+          <Y t="27">0.055</Y>
+          <Y t="32">0.056</Y>
+          <Y t="37">0.057</Y>
+          <Y t="42">0.058</Y>
+          <Y t="47">0.059</Y>
+          <Y t="52">0.06</Y>
+          <Y t="57">0.065</Y>
+          <Y t="62">0.067</Y>
+          <Y t="67">0.069</Y>
+          <Y t="72">0.073</Y>
+        </Axis>
+      </Axis>
+      <Axis t="4">
+        <Axis>
+          <Y t="17">0.018</Y>
+          <Y t="22">0.026</Y>
+          <Y t="27">0.048</Y>
+          <Y t="32">0.048</Y>
+          <Y t="37">0.049</Y>
+          <Y t="42">0.05</Y>
+          <Y t="47">0.05</Y>
+          <Y t="52">0.05</Y>
+          <Y t="57">0.055</Y>
+          <Y t="62">0.057</Y>
+          <Y t="67">0.059</Y>
+          <Y t="72">0.062</Y>
+        </Axis>
+      </Axis>
+      <Axis t="5">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.018</Y>
+          <Y t="27">0.033</Y>
+          <Y t="32">0.039</Y>
+          <Y t="37">0.04</Y>
+          <Y t="42">0.041</Y>
+          <Y t="47">0.042</Y>
+          <Y t="52">0.042</Y>
+          <Y t="57">0.045</Y>
+          <Y t="62">0.047</Y>
+          <Y t="67">0.052</Y>
+          <Y t="72">0.055</Y>
+        </Axis>
+      </Axis>
+      <Axis t="6">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.018</Y>
+          <Y t="27">0.03</Y>
+          <Y t="32">0.033</Y>
+          <Y t="37">0.034</Y>
+          <Y t="42">0.035</Y>
+          <Y t="47">0.036</Y>
+          <Y t="52">0.037</Y>
+          <Y t="57">0.042</Y>
+          <Y t="62">0.043</Y>
+          <Y t="67">0.055</Y>
+          <Y t="72">0.061</Y>
+        </Axis>
+      </Axis>
+      <Axis t="7">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.018</Y>
+          <Y t="27">0.022</Y>
+          <Y t="32">0.025</Y>
+          <Y t="37">0.026</Y>
+          <Y t="42">0.027</Y>
+          <Y t="47">0.028</Y>
+          <Y t="52">0.03</Y>
+          <Y t="57">0.039</Y>
+          <Y t="62">0.042</Y>
+          <Y t="67">0.057</Y>
+          <Y t="72">0.063</Y>
+        </Axis>
+      </Axis>
+      <Axis t="8">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.018</Y>
+          <Y t="27">0.02</Y>
+          <Y t="32">0.023</Y>
+          <Y t="37">0.025</Y>
+          <Y t="42">0.026</Y>
+          <Y t="47">0.027</Y>
+          <Y t="52">0.029</Y>
+          <Y t="57">0.044</Y>
+          <Y t="62">0.046</Y>
+          <Y t="67">0.062</Y>
+          <Y t="72">0.068</Y>
+        </Axis>
+      </Axis>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.018</Y>
+          <Y t="27">0.018</Y>
+          <Y t="32">0.019</Y>
+          <Y t="37">0.023</Y>
+          <Y t="42">0.025</Y>
+          <Y t="47">0.027</Y>
+          <Y t="52">0.032</Y>
+          <Y t="57">0.045</Y>
+          <Y t="62">0.048</Y>
+          <Y t="67">0.065</Y>
+          <Y t="72">0.075</Y>
+        </Axis>
+      </Axis>
+      <Axis t="10">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.018</Y>
+          <Y t="27">0.015</Y>
+          <Y t="32">0.017</Y>
+          <Y t="37">0.019</Y>
+          <Y t="42">0.022</Y>
+          <Y t="47">0.027</Y>
+          <Y t="52">0.034</Y>
+          <Y t="57">0.045</Y>
+          <Y t="62">0.05</Y>
+          <Y t="67">0.07</Y>
+          <Y t="72">0.081</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1470</TableIdentity>
+    <ProviderDomain>actuaries.jp</ProviderDomain>
+    <ProviderName>The Institute of Actuaries of Japan(IAJ)</ProviderName>
+    <TableReference>The Institute of Actuaries of Japan, “ 標準生命表２００７の作成概要”,(The Making of Standard Life Table 2007), (2006). Accessed: December, 2013 from http://www.actuaries.jp/lib/standard-life-table/seimeihyo2007_B2.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>2007 Standard Mortality Table for Third Sector Products - Female</TableName>
+    <TableDescription>2007 Standard Mortality Table for Third Sector Products - Female. Minimum Age: 0. Maximum Age: 111</TableDescription>
+    <Comments>Study Description: The Statistics and Information Department of the Ministry of Health, Labour and Welfare (MHLW) produces population life tables after each quinquennial census with The Institute of Actuaries of Japan (IAJ) producing life tables of insured lives. The 2007 Table was adopted as the mortality rate basis for calculating standard valuation reserves as of April, 2007. Methodology:  The 2007 Table was developed using “The 19th life tables” based on the Annual Vital Statistics and Population Census in 2000 from the Ministry of Health, Labour and Welfare (MHLW). Census mortality rates were smoothed using a third order, 9-term Greville’s formula. For advanced ages (over 90 for males and over 95 for females) rates were estimated and extrapolated using a Gompertz-Makeham function. It is not know at this time if the insured lives mortality rates were derived in the same fashion as the census mortality rates. NOTE: Japan's insurance market consists of two primary sectors: life and non-life (property and casualty). A third sector includes specialized products such as cancer, hospitalization and personal accident insurance. This third sector has both life and non-life components. This table represents the life portion therein. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Japan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="81">Japan</Nation>
+      <TableDescription>2007 Standard Mortality Table for Third Sector Products - Female. Minimum Age: 0. Maximum Age: 111</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>111</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00051</Y>
+        <Y t="1">0.00036</Y>
+        <Y t="2">0.00023</Y>
+        <Y t="3">0.00014</Y>
+        <Y t="4">9E-05</Y>
+        <Y t="5">7E-05</Y>
+        <Y t="6">7E-05</Y>
+        <Y t="7">6E-05</Y>
+        <Y t="8">6E-05</Y>
+        <Y t="9">6E-05</Y>
+        <Y t="10">6E-05</Y>
+        <Y t="11">5E-05</Y>
+        <Y t="12">5E-05</Y>
+        <Y t="13">6E-05</Y>
+        <Y t="14">7E-05</Y>
+        <Y t="15">8E-05</Y>
+        <Y t="16">0.0001</Y>
+        <Y t="17">0.00011</Y>
+        <Y t="18">0.00012</Y>
+        <Y t="19">0.00013</Y>
+        <Y t="20">0.00013</Y>
+        <Y t="21">0.00014</Y>
+        <Y t="22">0.00014</Y>
+        <Y t="23">0.00015</Y>
+        <Y t="24">0.00016</Y>
+        <Y t="25">0.00017</Y>
+        <Y t="26">0.00017</Y>
+        <Y t="27">0.00018</Y>
+        <Y t="28">0.00019</Y>
+        <Y t="29">0.0002</Y>
+        <Y t="30">0.00022</Y>
+        <Y t="31">0.00023</Y>
+        <Y t="32">0.00025</Y>
+        <Y t="33">0.00027</Y>
+        <Y t="34">0.00029</Y>
+        <Y t="35">0.00031</Y>
+        <Y t="36">0.00035</Y>
+        <Y t="37">0.00039</Y>
+        <Y t="38">0.00042</Y>
+        <Y t="39">0.00046</Y>
+        <Y t="40">0.0005</Y>
+        <Y t="41">0.00055</Y>
+        <Y t="42">0.0006</Y>
+        <Y t="43">0.00067</Y>
+        <Y t="44">0.00074</Y>
+        <Y t="45">0.00082</Y>
+        <Y t="46">0.00091</Y>
+        <Y t="47">0.001</Y>
+        <Y t="48">0.00111</Y>
+        <Y t="49">0.00122</Y>
+        <Y t="50">0.00135</Y>
+        <Y t="51">0.00148</Y>
+        <Y t="52">0.00161</Y>
+        <Y t="53">0.00174</Y>
+        <Y t="54">0.00186</Y>
+        <Y t="55">0.00198</Y>
+        <Y t="56">0.00209</Y>
+        <Y t="57">0.00219</Y>
+        <Y t="58">0.00231</Y>
+        <Y t="59">0.00246</Y>
+        <Y t="60">0.00264</Y>
+        <Y t="61">0.00286</Y>
+        <Y t="62">0.00312</Y>
+        <Y t="63">0.00342</Y>
+        <Y t="64">0.00377</Y>
+        <Y t="65">0.00415</Y>
+        <Y t="66">0.00458</Y>
+        <Y t="67">0.00505</Y>
+        <Y t="68">0.00556</Y>
+        <Y t="69">0.0061</Y>
+        <Y t="70">0.0067</Y>
+        <Y t="71">0.00747</Y>
+        <Y t="72">0.00837</Y>
+        <Y t="73">0.0094</Y>
+        <Y t="74">0.01058</Y>
+        <Y t="75">0.01195</Y>
+        <Y t="76">0.01353</Y>
+        <Y t="77">0.01535</Y>
+        <Y t="78">0.01745</Y>
+        <Y t="79">0.01987</Y>
+        <Y t="80">0.02266</Y>
+        <Y t="81">0.02587</Y>
+        <Y t="82">0.02956</Y>
+        <Y t="83">0.03381</Y>
+        <Y t="84">0.03869</Y>
+        <Y t="85">0.04429</Y>
+        <Y t="86">0.05073</Y>
+        <Y t="87">0.05811</Y>
+        <Y t="88">0.06656</Y>
+        <Y t="89">0.07622</Y>
+        <Y t="90">0.08726</Y>
+        <Y t="91">0.09984</Y>
+        <Y t="92">0.11415</Y>
+        <Y t="93">0.1304</Y>
+        <Y t="94">0.1488</Y>
+        <Y t="95">0.16956</Y>
+        <Y t="96">0.19291</Y>
+        <Y t="97">0.21906</Y>
+        <Y t="98">0.24821</Y>
+        <Y t="99">0.28052</Y>
+        <Y t="100">0.31611</Y>
+        <Y t="101">0.35504</Y>
+        <Y t="102">0.39724</Y>
+        <Y t="103">0.44255</Y>
+        <Y t="104">0.49067</Y>
+        <Y t="105">0.54109</Y>
+        <Y t="106">0.59314</Y>
+        <Y t="107">0.64596</Y>
+        <Y t="108">0.69848</Y>
+        <Y t="109">0.74952</Y>
+        <Y t="110">0.79781</Y>
+        <Y t="111">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

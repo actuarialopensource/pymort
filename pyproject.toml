@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pymort"
+version = "0.1.1"
+description = ""
+authors = ["Matthew Caseres <matthewcaseres@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

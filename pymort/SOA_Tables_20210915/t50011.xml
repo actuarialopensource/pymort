@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50011</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Actuarial Society of India</ProviderName>
+    <TableReference>P.C. Gupta, “Mortality Investigation of Annuitant Lives in India: Mortality Table”, Life Insurance Corporation of India, (1999) Accessed: February, 2014 from http://www.actuariesindia.org/subMenu.aspx?id=92&amp;val=Mortality_for_Annuitants</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Mortality for Annuitants - LIC (a) (1996-98) Ultimate Rates</TableName>
+    <TableDescription>Mortality for Annuitants - LIC (a) (1996-98)  Basis: Ultimate Rates. Minimum Age: 20 Maximum Age: 118</TableDescription>
+    <Comments>Study Data: Based on Life Insurance Corporation (LIC) of India’s data exclusively. Observation period: 1996-1998. The LIC study could not find the expected pattern of differences between select and ultimate mortality rates hence mortality rates are on an ultimate basis. Table is the first pensioners’ mortality table in India as well as satisfies “Published Mortality Tables” within the meaning of Regulation 4 of IRDA (Assets, Liabilities and Solvency Margin of Insurers). Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>India</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Mortality for Annuitants - LIC (a) (1996-98)  Basis: Ultimate Rates. Minimum Age: 20 Maximum Age: 118</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>118</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.000919</Y>
+        <Y t="21">0.000961</Y>
+        <Y t="22">0.000999</Y>
+        <Y t="23">0.001033</Y>
+        <Y t="24">0.001063</Y>
+        <Y t="25">0.001090</Y>
+        <Y t="26">0.001113</Y>
+        <Y t="27">0.001132</Y>
+        <Y t="28">0.001147</Y>
+        <Y t="29">0.001159</Y>
+        <Y t="30">0.001166</Y>
+        <Y t="31">0.001170</Y>
+        <Y t="32">0.001170</Y>
+        <Y t="33">0.001171</Y>
+        <Y t="34">0.001201</Y>
+        <Y t="35">0.001246</Y>
+        <Y t="36">0.001308</Y>
+        <Y t="37">0.001387</Y>
+        <Y t="38">0.001482</Y>
+        <Y t="39">0.001593</Y>
+        <Y t="40">0.001721</Y>
+        <Y t="41">0.001865</Y>
+        <Y t="42">0.002053</Y>
+        <Y t="43">0.002247</Y>
+        <Y t="44">0.002418</Y>
+        <Y t="45">0.002602</Y>
+        <Y t="46">0.002832</Y>
+        <Y t="47">0.003110</Y>
+        <Y t="48">0.003438</Y>
+        <Y t="49">0.003816</Y>
+        <Y t="50">0.004243</Y>
+        <Y t="51">0.004719</Y>
+        <Y t="52">0.005386</Y>
+        <Y t="53">0.006058</Y>
+        <Y t="54">0.006730</Y>
+        <Y t="55">0.007401</Y>
+        <Y t="56">0.008069</Y>
+        <Y t="57">0.008710</Y>
+        <Y t="58">0.009397</Y>
+        <Y t="59">0.010130</Y>
+        <Y t="60">0.010907</Y>
+        <Y t="61">0.011721</Y>
+        <Y t="62">0.011750</Y>
+        <Y t="63">0.012120</Y>
+        <Y t="64">0.012833</Y>
+        <Y t="65">0.013889</Y>
+        <Y t="66">0.015286</Y>
+        <Y t="67">0.017026</Y>
+        <Y t="68">0.019109</Y>
+        <Y t="69">0.021534</Y>
+        <Y t="70">0.024301</Y>
+        <Y t="71">0.027410</Y>
+        <Y t="72">0.030862</Y>
+        <Y t="73">0.034656</Y>
+        <Y t="74">0.038793</Y>
+        <Y t="75">0.043272</Y>
+        <Y t="76">0.048093</Y>
+        <Y t="77">0.053257</Y>
+        <Y t="78">0.058763</Y>
+        <Y t="79">0.064611</Y>
+        <Y t="80">0.070802</Y>
+        <Y t="81">0.077335</Y>
+        <Y t="82">0.084210</Y>
+        <Y t="83">0.091428</Y>
+        <Y t="84">0.098988</Y>
+        <Y t="85">0.106891</Y>
+        <Y t="86">0.115136</Y>
+        <Y t="87">0.123723</Y>
+        <Y t="88">0.132652</Y>
+        <Y t="89">0.141924</Y>
+        <Y t="90">0.151539</Y>
+        <Y t="91">0.161495</Y>
+        <Y t="92">0.171794</Y>
+        <Y t="93">0.182436</Y>
+        <Y t="94">0.193419</Y>
+        <Y t="95">0.204746</Y>
+        <Y t="96">0.216414</Y>
+        <Y t="97">0.228425</Y>
+        <Y t="98">0.240778</Y>
+        <Y t="99">0.253473</Y>
+        <Y t="100">0.266511</Y>
+        <Y t="101">0.279892</Y>
+        <Y t="102">0.293614</Y>
+        <Y t="103">0.307679</Y>
+        <Y t="104">0.322087</Y>
+        <Y t="105">0.336836</Y>
+        <Y t="106">0.351928</Y>
+        <Y t="107">0.367363</Y>
+        <Y t="108">0.383139</Y>
+        <Y t="109">0.399258</Y>
+        <Y t="110">0.415720</Y>
+        <Y t="111">0.432524</Y>
+        <Y t="112">0.449670</Y>
+        <Y t="113">0.467159</Y>
+        <Y t="114">0.484989</Y>
+        <Y t="115">0.503163</Y>
+        <Y t="116">0.521678</Y>
+        <Y t="117">0.540536</Y>
+        <Y t="118">0.559737</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

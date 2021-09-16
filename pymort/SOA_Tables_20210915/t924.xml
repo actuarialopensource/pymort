@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>924</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Stephen J. Strommen</ProviderName>
+    <TableReference>The Society of Actuaries UP-94 Task Force, “The 1994 Uninsured Pensioner Mortality Table”, Transactions Society of Actuaries Vol. XLVII, (Chicago, 1995), Table 3 p. 824-826. Accessed: January, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1990-95/1995/january/tsa95v4721.pdf , p. 6-8</TableReference>
+    <ContentType tc="22">Projection Scale</ContentType>
+    <TableName>1994 Mortality Improvement Projection Scale AA - Male</TableName>
+    <TableDescription>1994 Mortality Improvement Projection Scale AA - Male. Minimum Age: 1 Maximum Age: 120</TableDescription>
+    <Comments>Study Data: The UP-94 mortality tables (SOA Table Identities 832 and 833) were considered appropriate for expected mortality during 1994. At that time the projection scale AA was also developed to allow the UP-94 mortality table to be projected into the future to provide for expected mortality improvement. The factors for projecting mortality improvement from 1988 to 1994 are based on the federal Civil Service Retirement System (CSRS) mortality experience from 1987 to 1993. The factors for projecting improvement beyond 1994 are based on the average of the CSRS and Social Security mortality improvement trends from 1977 to 1993, with a minimum of 0.5% for ages under 85. The AA scale that had been published with the UP-94 and GAM-94 reports was also published with the RP-2000 report (SOA Table Identities 985-992 and 1555-1558). The RP-2000 committee felt that the scale was reasonably close to what was seen in Social Security trends and consistent with other groups’ data. Although minor adjustments could have been made, they were not considered significant enough to justify a new scale. Scale BB (SOA Table Identities 1511 and 1512) was introduced in March 2012 as an interim mortality improvement scale which may be used by pension actuaries until work on a formal successor to the widely used improvement scale, Scale AA, is complete. Methodology: Scale AA is based on a weighted average of individual age improvement factors of Social Security and Civil Service overall mortality improvement trends, based on experience for the years 1977 through 1993, and it applies to all future years and does not phase into a different long-term ultimate trend. Data Transcription Errors: None. Data Certified: 01/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Projection Scale</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1994 Mortality Improvement Projection Scale AA - Male. Minimum Age: 1 Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.020</Y>
+        <Y t="2">0.020</Y>
+        <Y t="3">0.020</Y>
+        <Y t="4">0.020</Y>
+        <Y t="5">0.020</Y>
+        <Y t="6">0.020</Y>
+        <Y t="7">0.020</Y>
+        <Y t="8">0.020</Y>
+        <Y t="9">0.020</Y>
+        <Y t="10">0.020</Y>
+        <Y t="11">0.020</Y>
+        <Y t="12">0.020</Y>
+        <Y t="13">0.020</Y>
+        <Y t="14">0.019</Y>
+        <Y t="15">0.019</Y>
+        <Y t="16">0.019</Y>
+        <Y t="17">0.019</Y>
+        <Y t="18">0.019</Y>
+        <Y t="19">0.019</Y>
+        <Y t="20">0.019</Y>
+        <Y t="21">0.018</Y>
+        <Y t="22">0.017</Y>
+        <Y t="23">0.015</Y>
+        <Y t="24">0.013</Y>
+        <Y t="25">0.010</Y>
+        <Y t="26">0.006</Y>
+        <Y t="27">0.005</Y>
+        <Y t="28">0.005</Y>
+        <Y t="29">0.005</Y>
+        <Y t="30">0.005</Y>
+        <Y t="31">0.005</Y>
+        <Y t="32">0.005</Y>
+        <Y t="33">0.005</Y>
+        <Y t="34">0.005</Y>
+        <Y t="35">0.005</Y>
+        <Y t="36">0.005</Y>
+        <Y t="37">0.005</Y>
+        <Y t="38">0.006</Y>
+        <Y t="39">0.007</Y>
+        <Y t="40">0.008</Y>
+        <Y t="41">0.009</Y>
+        <Y t="42">0.010</Y>
+        <Y t="43">0.011</Y>
+        <Y t="44">0.012</Y>
+        <Y t="45">0.013</Y>
+        <Y t="46">0.014</Y>
+        <Y t="47">0.015</Y>
+        <Y t="48">0.016</Y>
+        <Y t="49">0.017</Y>
+        <Y t="50">0.018</Y>
+        <Y t="51">0.019</Y>
+        <Y t="52">0.020</Y>
+        <Y t="53">0.020</Y>
+        <Y t="54">0.020</Y>
+        <Y t="55">0.019</Y>
+        <Y t="56">0.018</Y>
+        <Y t="57">0.017</Y>
+        <Y t="58">0.016</Y>
+        <Y t="59">0.016</Y>
+        <Y t="60">0.016</Y>
+        <Y t="61">0.015</Y>
+        <Y t="62">0.015</Y>
+        <Y t="63">0.014</Y>
+        <Y t="64">0.014</Y>
+        <Y t="65">0.014</Y>
+        <Y t="66">0.013</Y>
+        <Y t="67">0.013</Y>
+        <Y t="68">0.014</Y>
+        <Y t="69">0.014</Y>
+        <Y t="70">0.015</Y>
+        <Y t="71">0.015</Y>
+        <Y t="72">0.015</Y>
+        <Y t="73">0.015</Y>
+        <Y t="74">0.015</Y>
+        <Y t="75">0.014</Y>
+        <Y t="76">0.014</Y>
+        <Y t="77">0.013</Y>
+        <Y t="78">0.012</Y>
+        <Y t="79">0.011</Y>
+        <Y t="80">0.010</Y>
+        <Y t="81">0.009</Y>
+        <Y t="82">0.008</Y>
+        <Y t="83">0.008</Y>
+        <Y t="84">0.007</Y>
+        <Y t="85">0.007</Y>
+        <Y t="86">0.007</Y>
+        <Y t="87">0.006</Y>
+        <Y t="88">0.005</Y>
+        <Y t="89">0.005</Y>
+        <Y t="90">0.004</Y>
+        <Y t="91">0.004</Y>
+        <Y t="92">0.003</Y>
+        <Y t="93">0.003</Y>
+        <Y t="94">0.003</Y>
+        <Y t="95">0.002</Y>
+        <Y t="96">0.002</Y>
+        <Y t="97">0.002</Y>
+        <Y t="98">0.001</Y>
+        <Y t="99">0.001</Y>
+        <Y t="100">0.001</Y>
+        <Y t="101">0.000</Y>
+        <Y t="102">0.000</Y>
+        <Y t="103">0.000</Y>
+        <Y t="104">0.000</Y>
+        <Y t="105">0.000</Y>
+        <Y t="106">0.000</Y>
+        <Y t="107">0.000</Y>
+        <Y t="108">0.000</Y>
+        <Y t="109">0.000</Y>
+        <Y t="110">0.000</Y>
+        <Y t="111">0.000</Y>
+        <Y t="112">0.000</Y>
+        <Y t="113">0.000</Y>
+        <Y t="114">0.000</Y>
+        <Y t="115">0.000</Y>
+        <Y t="116">0.000</Y>
+        <Y t="117">0.000</Y>
+        <Y t="118">0.000</Y>
+        <Y t="119">0.000</Y>
+        <Y t="120">0.000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

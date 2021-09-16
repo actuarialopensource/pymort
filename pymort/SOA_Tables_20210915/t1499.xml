@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1499</TableIdentity>
+    <ProviderDomain>www.spensiones.cl</ProviderDomain>
+    <ProviderName>Superintendencia de Pensionnes</ProviderName>
+    <TableReference>Superintendencia de Pensiones Avda, “Anexo Nº 1 Tabla de Mortalidad RV-2004”, Compendio de Normas del Sistema de Pensiones,  Libro III Título X Anexos (2005). Accessed: February, 2014 from http://www.spensiones.cl/compendio/584/w3-printer-7311.html</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Tabla de Mortalidad RV-2004 – Hombres</TableName>
+    <TableDescription>Tabla de Mortalidad RV-2004 – Hombres (Males) Minimum Age: 20. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Experience based on data observed during the period 1995 to 2003 inclusive, for men and women pensioners separately who are members of the Institute of Social Welfare’s programmed retirement program. Methodology: Crude probability rates of a person, who has just completed x years of age, does not live a year more were calculated. The obtained crude odds were adjusted with the method of Whittaker-Henderson type B, which consists of a combination of linear regression with the Bayesian method of adjustment. In order to capture the decline in the mortality rate, since the central year of the table until the year 2004, a factor of improvement on the basis of projections of CELADE was applied at a population level by formula. Furthermore, a margin of safety was applied in accordance with a formula, limited to the 3% for men while women are not applied because the sample represented a select group. Data Transcription Errors Detected: 02/2014. Data Corrected and Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Chile</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="56">Chile</Nation>
+      <TableDescription>Tabla de Mortalidad RV-2004 – Hombres (Males) Minimum Age: 20. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.000532847</Y>
+        <Y t="21">0.000569311</Y>
+        <Y t="22">0.000608271</Y>
+        <Y t="23">0.000649897</Y>
+        <Y t="24">0.000694371</Y>
+        <Y t="25">0.000747944</Y>
+        <Y t="26">0.000799128</Y>
+        <Y t="27">0.000853815</Y>
+        <Y t="28">0.000912244</Y>
+        <Y t="29">0.000974671</Y>
+        <Y t="30">0.001048792</Y>
+        <Y t="31">0.001120564</Y>
+        <Y t="32">0.001197248</Y>
+        <Y t="33">0.001279179</Y>
+        <Y t="34">0.001366717</Y>
+        <Y t="35">0.001472872</Y>
+        <Y t="36">0.001573665</Y>
+        <Y t="37">0.001681356</Y>
+        <Y t="38">0.001796416</Y>
+        <Y t="39">0.00191935</Y>
+        <Y t="40">0.002062137</Y>
+        <Y t="41">0.002203255</Y>
+        <Y t="42">0.00235403</Y>
+        <Y t="43">0.002515123</Y>
+        <Y t="44">0.002687241</Y>
+        <Y t="45">0.002885678</Y>
+        <Y t="46">0.003083154</Y>
+        <Y t="47">0.003422495</Y>
+        <Y t="48">0.003509205</Y>
+        <Y t="49">0.00363738</Y>
+        <Y t="50">0.003817751</Y>
+        <Y t="51">0.004033456</Y>
+        <Y t="52">0.004295721</Y>
+        <Y t="53">0.004607962</Y>
+        <Y t="54">0.004974707</Y>
+        <Y t="55">0.005396787</Y>
+        <Y t="56">0.005890516</Y>
+        <Y t="57">0.006454291</Y>
+        <Y t="58">0.007088018</Y>
+        <Y t="59">0.007789945</Y>
+        <Y t="60">0.008569178</Y>
+        <Y t="61">0.009414724</Y>
+        <Y t="62">0.01034609</Y>
+        <Y t="63">0.01137972</Y>
+        <Y t="64">0.012533073</Y>
+        <Y t="65">0.013929636</Y>
+        <Y t="66">0.015416168</Y>
+        <Y t="67">0.017008919</Y>
+        <Y t="68">0.01873603</Y>
+        <Y t="69">0.020599505</Y>
+        <Y t="70">0.022622295</Y>
+        <Y t="71">0.02479963</Y>
+        <Y t="72">0.027166871</Y>
+        <Y t="73">0.02973214</Y>
+        <Y t="74">0.032576835</Y>
+        <Y t="75">0.03579027</Y>
+        <Y t="76">0.03930939</Y>
+        <Y t="77">0.043202372</Y>
+        <Y t="78">0.047559585</Y>
+        <Y t="79">0.052421612</Y>
+        <Y t="80">0.057838341</Y>
+        <Y t="81">0.064306301</Y>
+        <Y t="82">0.071439348</Y>
+        <Y t="83">0.079188333</Y>
+        <Y t="84">0.087572668</Y>
+        <Y t="85">0.096606854</Y>
+        <Y t="86">0.106301828</Y>
+        <Y t="87">0.11666515</Y>
+        <Y t="88">0.127702233</Y>
+        <Y t="89">0.139416397</Y>
+        <Y t="90">0.151809873</Y>
+        <Y t="91">0.164884119</Y>
+        <Y t="92">0.17864003</Y>
+        <Y t="93">0.193078331</Y>
+        <Y t="94">0.208199585</Y>
+        <Y t="95">0.224004292</Y>
+        <Y t="96">0.240492981</Y>
+        <Y t="97">0.257666219</Y>
+        <Y t="98">0.278723463</Y>
+        <Y t="99">0.290358745</Y>
+        <Y t="100">0.302470436</Y>
+        <Y t="101">0.315205839</Y>
+        <Y t="102">0.328313256</Y>
+        <Y t="103">0.341965728</Y>
+        <Y t="104">0.356185919</Y>
+        <Y t="105">0.370997438</Y>
+        <Y t="106">0.386424874</Y>
+        <Y t="107">0.40249384</Y>
+        <Y t="108">0.419231013</Y>
+        <Y t="109">0.436664178</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

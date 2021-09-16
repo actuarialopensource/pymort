@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3445</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, public-pension-headcount-exposure.xlsx, Sheet 'PubG.H-2010', https://www.soa.org/resources/experience-studies/2018/public-pension-headcount-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PubG.H-2010 Female Retiree</TableName>
+    <TableDescription>Pub-2010 Headcount-weighted General Mortality Table - Female Retiree. Ages 50-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pub-2010 Headcount-weighted General Mortality Table - Female Retiree. Ages 50-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>50</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="50">0.00388</Y>
+        <Y t="51">0.00389</Y>
+        <Y t="52">0.0039</Y>
+        <Y t="53">0.00392</Y>
+        <Y t="54">0.00395</Y>
+        <Y t="55">0.004</Y>
+        <Y t="56">0.00406</Y>
+        <Y t="57">0.00415</Y>
+        <Y t="58">0.00428</Y>
+        <Y t="59">0.00444</Y>
+        <Y t="60">0.00465</Y>
+        <Y t="61">0.00493</Y>
+        <Y t="62">0.00528</Y>
+        <Y t="63">0.0057</Y>
+        <Y t="64">0.00621</Y>
+        <Y t="65">0.00682</Y>
+        <Y t="66">0.00753</Y>
+        <Y t="67">0.00836</Y>
+        <Y t="68">0.00931</Y>
+        <Y t="69">0.01039</Y>
+        <Y t="70">0.01161</Y>
+        <Y t="71">0.01295</Y>
+        <Y t="72">0.01445</Y>
+        <Y t="73">0.01612</Y>
+        <Y t="74">0.01799</Y>
+        <Y t="75">0.02009</Y>
+        <Y t="76">0.02246</Y>
+        <Y t="77">0.02515</Y>
+        <Y t="78">0.02818</Y>
+        <Y t="79">0.03161</Y>
+        <Y t="80">0.03549</Y>
+        <Y t="81">0.03989</Y>
+        <Y t="82">0.04488</Y>
+        <Y t="83">0.05059</Y>
+        <Y t="84">0.05715</Y>
+        <Y t="85">0.06473</Y>
+        <Y t="86">0.07351</Y>
+        <Y t="87">0.08357</Y>
+        <Y t="88">0.09492</Y>
+        <Y t="89">0.10753</Y>
+        <Y t="90">0.12123</Y>
+        <Y t="91">0.13568</Y>
+        <Y t="92">0.15068</Y>
+        <Y t="93">0.16618</Y>
+        <Y t="94">0.1822</Y>
+        <Y t="95">0.19884</Y>
+        <Y t="96">0.21621</Y>
+        <Y t="97">0.23443</Y>
+        <Y t="98">0.25356</Y>
+        <Y t="99">0.27358</Y>
+        <Y t="100">0.29436</Y>
+        <Y t="101">0.31562</Y>
+        <Y t="102">0.3369</Y>
+        <Y t="103">0.358</Y>
+        <Y t="104">0.37873</Y>
+        <Y t="105">0.39892</Y>
+        <Y t="106">0.41841</Y>
+        <Y t="107">0.43706</Y>
+        <Y t="108">0.45477</Y>
+        <Y t="109">0.47145</Y>
+        <Y t="110">0.48705</Y>
+        <Y t="111">0.5</Y>
+        <Y t="112">0.5</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

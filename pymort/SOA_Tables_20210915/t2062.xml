@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2062</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>George King, Supplement to the Seventy-Fifth Annual Report of the Registrar-General of Births, Deaths and Marriages in England and Wales. Part I, Life Tables”, Her Majesty's Stationery Office, (London, 1914)</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>ELT No. 8 (1910-12) – Male, ANB</TableName>
+    <TableDescription>English Life Tables (ELT) Number 8 (1910-12) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 106.</TableDescription>
+    <Comments>Study Data: Population data from England and Wales (i.e. not for all of the United Kingdom) for the period 1910-12 and deaths registered in those years. Table of historical value as introduces what would become standardized actuarial notation. Methodology: Mr. King employed a radical change in developing English Life Table (ELT) No 8 compared to preceding English Life Tables. Mr. King introduces the concept of “exposed to risk” in the calculation of population tables as the table is intended to give an accurate assessment of the present population. Irregularities should not be removed by graduation; unusual levels of births and emigrations should be preserved. Graduation should only smooth away accidental errors and minor deliberate misstatements of age. Mr. King’s method uses quinquennial age groups to determine “pivot values” of populations and deaths for ages 12 to 97 inclusive. From these central death rates, quinquennial mortality rates, q(x), were deduced. An osculatory interpolation formula was then applied to the pivotal rates of mortality so as to reproduce the pivotal values. The formula used became know as the “Karup-King formula”.  Death rates at ages 0-4 inclusive were determined from the death returns at individual ages and readjusted average population. A readjustment was necessary as census returns indicated a deficiency of populations under age two. Birth and death returns were reduced in proportion as was necessary to bring the total exposed to risk under age 5 down to the total derived from the population census,  an assumption consistent with construction of ELT No. 6. Rates of mortality for ages 5 to 16 inclusive were then inserted by LaGrange’s interpolation formula from the values at ages 3, 4, 12, 17, and 18. At the extreme old ages, no assumption was made with regard to termination of the table. Data Transcription Errors: None. Data Certified: 07/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 8 (1910-12) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 106</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>106</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.1204414</Y>
+        <Y t="1">0.0342382</Y>
+        <Y t="2">0.0133650</Y>
+        <Y t="3">0.0081810</Y>
+        <Y t="4">0.0059655</Y>
+        <Y t="5">0.0048875</Y>
+        <Y t="6">0.0039669</Y>
+        <Y t="7">0.0032111</Y>
+        <Y t="8">0.0026226</Y>
+        <Y t="9">0.0021989</Y>
+        <Y t="10">0.0019323</Y>
+        <Y t="11">0.0018105</Y>
+        <Y t="12">0.0018159</Y>
+        <Y t="13">0.0019261</Y>
+        <Y t="14">0.0021137</Y>
+        <Y t="15">0.0023462</Y>
+        <Y t="16">0.0025868</Y>
+        <Y t="17">0.0027923</Y>
+        <Y t="18">0.0030246</Y>
+        <Y t="19">0.0032617</Y>
+        <Y t="20">0.0034813</Y>
+        <Y t="21">0.0036610</Y>
+        <Y t="22">0.0037831</Y>
+        <Y t="23">0.0038622</Y>
+        <Y t="24">0.0039246</Y>
+        <Y t="25">0.0039968</Y>
+        <Y t="26">0.0041051</Y>
+        <Y t="27">0.0042468</Y>
+        <Y t="28">0.0044044</Y>
+        <Y t="29">0.0045822</Y>
+        <Y t="30">0.0047849</Y>
+        <Y t="31">0.0050169</Y>
+        <Y t="32">0.0052828</Y>
+        <Y t="33">0.0055802</Y>
+        <Y t="34">0.0059023</Y>
+        <Y t="35">0.0062426</Y>
+        <Y t="36">0.0065944</Y>
+        <Y t="37">0.0069487</Y>
+        <Y t="38">0.0073102</Y>
+        <Y t="39">0.0076925</Y>
+        <Y t="40">0.0081100</Y>
+        <Y t="41">0.0085769</Y>
+        <Y t="42">0.0090914</Y>
+        <Y t="43">0.0096446</Y>
+        <Y t="44">0.0102409</Y>
+        <Y t="45">0.0108851</Y>
+        <Y t="46">0.0115815</Y>
+        <Y t="47">0.0123141</Y>
+        <Y t="48">0.0130808</Y>
+        <Y t="49">0.0139085</Y>
+        <Y t="50">0.0148248</Y>
+        <Y t="51">0.0158583</Y>
+        <Y t="52">0.0170100</Y>
+        <Y t="53">0.0182651</Y>
+        <Y t="54">0.0196300</Y>
+        <Y t="55">0.0211111</Y>
+        <Y t="56">0.0227157</Y>
+        <Y t="57">0.0244404</Y>
+        <Y t="58">0.0262873</Y>
+        <Y t="59">0.0282733</Y>
+        <Y t="60">0.0304165</Y>
+        <Y t="61">0.0327365</Y>
+        <Y t="62">0.0352060</Y>
+        <Y t="63">0.0378231</Y>
+        <Y t="64">0.0406495</Y>
+        <Y t="65">0.0437523</Y>
+        <Y t="66">0.0472046</Y>
+        <Y t="67">0.0510208</Y>
+        <Y t="68">0.0551844</Y>
+        <Y t="69">0.0597301</Y>
+        <Y t="70">0.0646967</Y>
+        <Y t="71">0.0701278</Y>
+        <Y t="72">0.0761260</Y>
+        <Y t="73">0.0827292</Y>
+        <Y t="74">0.0898802</Y>
+        <Y t="75">0.0975104</Y>
+        <Y t="76">0.1055368</Y>
+        <Y t="77">0.1140588</Y>
+        <Y t="78">0.1231960</Y>
+        <Y t="79">0.1328723</Y>
+        <Y t="80">0.1429939</Y>
+        <Y t="81">0.1534468</Y>
+        <Y t="82">0.1641928</Y>
+        <Y t="83">0.1753292</Y>
+        <Y t="84">0.1869381</Y>
+        <Y t="85">0.1991136</Y>
+        <Y t="86">0.2119632</Y>
+        <Y t="87">0.2262567</Y>
+        <Y t="88">0.2420839</Y>
+        <Y t="89">0.2584009</Y>
+        <Y t="90">0.2739512</Y>
+        <Y t="91">0.2872720</Y>
+        <Y t="92">0.2977077</Y>
+        <Y t="93">0.3053213</Y>
+        <Y t="94">0.3108407</Y>
+        <Y t="95">0.3156421</Y>
+        <Y t="96">0.3217413</Y>
+        <Y t="97">0.3317529</Y>
+        <Y t="98">0.3487442</Y>
+        <Y t="99">0.3759159</Y>
+        <Y t="100">0.4160478</Y>
+        <Y t="101">0.4707252</Y>
+        <Y t="102">0.5394855</Y>
+        <Y t="103">0.6191855</Y>
+        <Y t="104">0.7039925</Y>
+        <Y t="105">0.7863101</Y>
+        <Y t="106">0.8585865</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

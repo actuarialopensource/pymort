@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>60021</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Hangs Wagner</ProviderName>
+    <TableReference>S. W. Caffin, “Australian Life Tables 1970-72”, Australia Bureau of Statistics (Canberra, 1976). Accessed: February, 2014 from http://www.aga.gov.au/publications/life_tables_2005-07/downloads/females_alltables_qx.xls.</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Australian Life Tables 1970-72 Female</TableName>
+    <TableDescription>Australian Life Tables 1970-72 Female. Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Based on the census of 30 June 1971, deaths in the three years 1970, 1971 and 1972. Number of births from 1968 to 1972. For ages less than 3, monthly death data used while for ages less than 1 year further details on deaths used. The published rates for 1970-72 are slightly larger, in general, that the actual rates over this period as the published rates were based on an under-enumerated population. Revised estimates for the years 1970-72 are preferred to the published tables. Methodology: Exposed-to-risk and crude central rates of mortality calculated. Special handling for juvenile ages; formula only available upon request. Crude rates then graduated using a combination of manual graduation and fitted cubic splines. Graduated rates for the very old ages constructed by extrapolation. NOTE: The original published tables extend to ages beyond 100. However, with the release of the 1995-97 Australian Life Tables, electronic versions of all preceding tables was made available and, for consistency of presentation, the electronic version truncates all tables at age 100. The truncated electronic version is endorsed by the Australian Bureau of Statistics and Australian Government Actuary hence this table contains the truncated version. Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Life Tables 1970-72 Female. Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.01501</Y>
+        <Y t="1">0.00132</Y>
+        <Y t="2">0.00076</Y>
+        <Y t="3">0.00055</Y>
+        <Y t="4">0.00048</Y>
+        <Y t="5">0.00041</Y>
+        <Y t="6">0.00037</Y>
+        <Y t="7">0.00033</Y>
+        <Y t="8">0.00029</Y>
+        <Y t="9">0.00026</Y>
+        <Y t="10">0.00024</Y>
+        <Y t="11">0.00023</Y>
+        <Y t="12">0.00025</Y>
+        <Y t="13">0.00029</Y>
+        <Y t="14">0.00035</Y>
+        <Y t="15">0.00041</Y>
+        <Y t="16">0.00056</Y>
+        <Y t="17">0.00069</Y>
+        <Y t="18">0.00072</Y>
+        <Y t="19">0.00070</Y>
+        <Y t="20">0.00065</Y>
+        <Y t="21">0.00062</Y>
+        <Y t="22">0.00059</Y>
+        <Y t="23">0.00060</Y>
+        <Y t="24">0.00061</Y>
+        <Y t="25">0.00062</Y>
+        <Y t="26">0.00063</Y>
+        <Y t="27">0.00065</Y>
+        <Y t="28">0.00068</Y>
+        <Y t="29">0.00073</Y>
+        <Y t="30">0.00078</Y>
+        <Y t="31">0.00083</Y>
+        <Y t="32">0.00090</Y>
+        <Y t="33">0.00098</Y>
+        <Y t="34">0.00106</Y>
+        <Y t="35">0.00116</Y>
+        <Y t="36">0.00128</Y>
+        <Y t="37">0.00142</Y>
+        <Y t="38">0.00156</Y>
+        <Y t="39">0.00171</Y>
+        <Y t="40">0.00185</Y>
+        <Y t="41">0.00203</Y>
+        <Y t="42">0.00224</Y>
+        <Y t="43">0.00248</Y>
+        <Y t="44">0.00269</Y>
+        <Y t="45">0.00298</Y>
+        <Y t="46">0.00331</Y>
+        <Y t="47">0.00362</Y>
+        <Y t="48">0.00397</Y>
+        <Y t="49">0.00434</Y>
+        <Y t="50">0.00474</Y>
+        <Y t="51">0.00516</Y>
+        <Y t="52">0.00556</Y>
+        <Y t="53">0.00603</Y>
+        <Y t="54">0.00647</Y>
+        <Y t="55">0.00708</Y>
+        <Y t="56">0.00771</Y>
+        <Y t="57">0.00840</Y>
+        <Y t="58">0.00912</Y>
+        <Y t="59">0.01000</Y>
+        <Y t="60">0.01090</Y>
+        <Y t="61">0.01190</Y>
+        <Y t="62">0.01299</Y>
+        <Y t="63">0.01423</Y>
+        <Y t="64">0.01546</Y>
+        <Y t="65">0.01692</Y>
+        <Y t="66">0.01884</Y>
+        <Y t="67">0.02071</Y>
+        <Y t="68">0.02320</Y>
+        <Y t="69">0.02571</Y>
+        <Y t="70">0.02875</Y>
+        <Y t="71">0.03213</Y>
+        <Y t="72">0.03573</Y>
+        <Y t="73">0.03999</Y>
+        <Y t="74">0.04430</Y>
+        <Y t="75">0.04937</Y>
+        <Y t="76">0.05457</Y>
+        <Y t="77">0.06037</Y>
+        <Y t="78">0.06684</Y>
+        <Y t="79">0.07506</Y>
+        <Y t="80">0.08258</Y>
+        <Y t="81">0.09197</Y>
+        <Y t="82">0.10173</Y>
+        <Y t="83">0.11320</Y>
+        <Y t="84">0.12304</Y>
+        <Y t="85">0.13500</Y>
+        <Y t="86">0.14579</Y>
+        <Y t="87">0.15736</Y>
+        <Y t="88">0.16936</Y>
+        <Y t="89">0.18227</Y>
+        <Y t="90">0.19611</Y>
+        <Y t="91">0.20927</Y>
+        <Y t="92">0.22295</Y>
+        <Y t="93">0.23715</Y>
+        <Y t="94">0.25181</Y>
+        <Y t="95">0.26694</Y>
+        <Y t="96">0.28250</Y>
+        <Y t="97">0.29848</Y>
+        <Y t="98">0.31486</Y>
+        <Y t="99">0.33159</Y>
+        <Y t="100">0.34865</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

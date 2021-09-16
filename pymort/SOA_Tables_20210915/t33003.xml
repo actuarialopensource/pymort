@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>33003</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Oliver Stoll</ProviderName>
+    <TableReference>Horst Loebus, “Bestimmung einer angemessenen Sterbetafel für Lebensversicherungen mit Todesfallcharakter (Determining a Reasonable Life Expectancy for Life Insurance Policies)”, Deutsche Aktuarvereinigung, (Hamburg, 1994). Accessed: February, 2013 from http://the-european-actuary.info/download/dav/veroeffentlichungen/1994-Loebus-DAV-1994T.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>DAV-Sterbetafel 1994 T -  Männer (Male)</TableName>
+    <TableDescription>Deutsche Aktuarvereinigung (DAV) Sterbetafel (Life Table) 1994 T -  Männer (Male). Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Table T used for when there is a risk in the death of the insured (life insurance) as opposed to Table R (See SOA Table Identity 33001) used for when there is a risk in survival (annuities) . Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>Deutsche Aktuarvereinigung (DAV) Sterbetafel (Life Table) 1994 T -  Männer (Male). Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.011687</Y>
+        <Y t="1">0.001008</Y>
+        <Y t="2">0.000728</Y>
+        <Y t="3">0.000542</Y>
+        <Y t="4">0.000473</Y>
+        <Y t="5">0.000452</Y>
+        <Y t="6">0.000433</Y>
+        <Y t="7">0.000408</Y>
+        <Y t="8">0.000379</Y>
+        <Y t="9">0.000352</Y>
+        <Y t="10">0.000334</Y>
+        <Y t="11">0.000331</Y>
+        <Y t="12">0.000340</Y>
+        <Y t="13">0.000371</Y>
+        <Y t="14">0.000451</Y>
+        <Y t="15">0.000593</Y>
+        <Y t="16">0.000792</Y>
+        <Y t="17">0.001040</Y>
+        <Y t="18">0.001298</Y>
+        <Y t="19">0.001437</Y>
+        <Y t="20">0.001476</Y>
+        <Y t="21">0.001476</Y>
+        <Y t="22">0.001476</Y>
+        <Y t="23">0.001476</Y>
+        <Y t="24">0.001476</Y>
+        <Y t="25">0.001476</Y>
+        <Y t="26">0.001476</Y>
+        <Y t="27">0.001476</Y>
+        <Y t="28">0.001476</Y>
+        <Y t="29">0.001476</Y>
+        <Y t="30">0.001476</Y>
+        <Y t="31">0.001476</Y>
+        <Y t="32">0.001489</Y>
+        <Y t="33">0.001551</Y>
+        <Y t="34">0.001641</Y>
+        <Y t="35">0.001747</Y>
+        <Y t="36">0.001869</Y>
+        <Y t="37">0.002007</Y>
+        <Y t="38">0.002167</Y>
+        <Y t="39">0.002354</Y>
+        <Y t="40">0.002569</Y>
+        <Y t="41">0.002823</Y>
+        <Y t="42">0.003087</Y>
+        <Y t="43">0.003387</Y>
+        <Y t="44">0.003726</Y>
+        <Y t="45">0.004100</Y>
+        <Y t="46">0.004522</Y>
+        <Y t="47">0.004983</Y>
+        <Y t="48">0.005508</Y>
+        <Y t="49">0.006094</Y>
+        <Y t="50">0.006751</Y>
+        <Y t="51">0.007485</Y>
+        <Y t="52">0.008302</Y>
+        <Y t="53">0.009215</Y>
+        <Y t="54">0.010195</Y>
+        <Y t="55">0.011236</Y>
+        <Y t="56">0.012340</Y>
+        <Y t="57">0.013519</Y>
+        <Y t="58">0.014784</Y>
+        <Y t="59">0.016150</Y>
+        <Y t="60">0.017625</Y>
+        <Y t="61">0.019223</Y>
+        <Y t="62">0.020956</Y>
+        <Y t="63">0.022833</Y>
+        <Y t="64">0.024858</Y>
+        <Y t="65">0.027073</Y>
+        <Y t="66">0.029552</Y>
+        <Y t="67">0.032350</Y>
+        <Y t="68">0.035632</Y>
+        <Y t="69">0.039224</Y>
+        <Y t="70">0.043127</Y>
+        <Y t="71">0.047400</Y>
+        <Y t="72">0.052110</Y>
+        <Y t="73">0.057472</Y>
+        <Y t="74">0.063440</Y>
+        <Y t="75">0.070039</Y>
+        <Y t="76">0.077248</Y>
+        <Y t="77">0.085073</Y>
+        <Y t="78">0.093534</Y>
+        <Y t="79">0.102662</Y>
+        <Y t="80">0.112477</Y>
+        <Y t="81">0.122995</Y>
+        <Y t="82">0.134231</Y>
+        <Y t="83">0.146212</Y>
+        <Y t="84">0.158964</Y>
+        <Y t="85">0.172512</Y>
+        <Y t="86">0.186896</Y>
+        <Y t="87">0.202185</Y>
+        <Y t="88">0.218413</Y>
+        <Y t="89">0.235597</Y>
+        <Y t="90">0.253691</Y>
+        <Y t="91">0.272891</Y>
+        <Y t="92">0.293142</Y>
+        <Y t="93">0.314638</Y>
+        <Y t="94">0.337739</Y>
+        <Y t="95">0.362060</Y>
+        <Y t="96">0.388732</Y>
+        <Y t="97">0.419166</Y>
+        <Y t="98">0.452008</Y>
+        <Y t="99">0.486400</Y>
+        <Y t="100">0.527137</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

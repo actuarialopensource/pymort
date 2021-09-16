@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>34020</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Bertrand Cleuvenot</ProviderName>
+    <TableReference>Statistique de la Suisse, “Tables de Mortalité Historiques des Femmes, Pour Les Années 1876/1880 à 1988/1993”, L’Office Fédéral de la Statistique (Neuchâtel, 2005).  Accessed: March, 2014 from http://www.bfs.admin.ch/bfs/portal/fr/index/themen/01/06/blank/dos/la_mortalite_en_suisse/tabl01.parsys.0006.downloadList.00061.DownloadFile.tmp/tablesmortalitesuisse187680198893hommes.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>TM_1939_44_M</TableName>
+    <TableDescription>Tables de Mortalité pour la Suisse 1939-44 – Hommes (Males). Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: After each federal census of population, from the period 1876/1880 and after, the Federal Statistical Office (FSO) establishes tables of the resident population in Switzerland, for a period of six years, where the center of the range is formed by the census year.  In a small country like Switzerland, the number of recorded deaths at each age and the number of residents at different ages are too low to allow for the calculation of values ​​to make actuarial analysis, epidemiological and demographic specific. Mortality tables compiled from observations spanning six years around a census make it possible to obtain more reliable values ​​for a detailed study of mortality in Switzerland. Methodology: Not Available at this time. Data Transcription Errors: None. Data Certified: 03/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Switzerland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="41">Switzerland</Nation>
+      <TableDescription>Tables de Mortalité pour la Suisse 1939-44 – Hommes (Males). Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.04696</Y>
+        <Y t="1">0.00619</Y>
+        <Y t="2">0.00324</Y>
+        <Y t="3">0.00254</Y>
+        <Y t="4">0.00207</Y>
+        <Y t="5">0.00177</Y>
+        <Y t="6">0.00158</Y>
+        <Y t="7">0.00142</Y>
+        <Y t="8">0.00129</Y>
+        <Y t="9">0.00120</Y>
+        <Y t="10">0.00115</Y>
+        <Y t="11">0.00114</Y>
+        <Y t="12">0.00117</Y>
+        <Y t="13">0.00124</Y>
+        <Y t="14">0.00137</Y>
+        <Y t="15">0.00154</Y>
+        <Y t="16">0.00177</Y>
+        <Y t="17">0.00205</Y>
+        <Y t="18">0.00234</Y>
+        <Y t="19">0.00262</Y>
+        <Y t="20">0.00283</Y>
+        <Y t="21">0.00296</Y>
+        <Y t="22">0.00305</Y>
+        <Y t="23">0.00311</Y>
+        <Y t="24">0.00314</Y>
+        <Y t="25">0.00315</Y>
+        <Y t="26">0.00314</Y>
+        <Y t="27">0.00309</Y>
+        <Y t="28">0.00303</Y>
+        <Y t="29">0.00299</Y>
+        <Y t="30">0.00299</Y>
+        <Y t="31">0.00301</Y>
+        <Y t="32">0.00306</Y>
+        <Y t="33">0.00313</Y>
+        <Y t="34">0.00322</Y>
+        <Y t="35">0.00334</Y>
+        <Y t="36">0.00347</Y>
+        <Y t="37">0.00362</Y>
+        <Y t="38">0.00380</Y>
+        <Y t="39">0.00402</Y>
+        <Y t="40">0.00432</Y>
+        <Y t="41">0.00468</Y>
+        <Y t="42">0.00510</Y>
+        <Y t="43">0.00558</Y>
+        <Y t="44">0.00609</Y>
+        <Y t="45">0.00663</Y>
+        <Y t="46">0.00718</Y>
+        <Y t="47">0.00774</Y>
+        <Y t="48">0.00835</Y>
+        <Y t="49">0.00903</Y>
+        <Y t="50">0.00981</Y>
+        <Y t="51">0.01066</Y>
+        <Y t="52">0.01158</Y>
+        <Y t="53">0.01258</Y>
+        <Y t="54">0.01370</Y>
+        <Y t="55">0.01498</Y>
+        <Y t="56">0.01639</Y>
+        <Y t="57">0.01792</Y>
+        <Y t="58">0.01958</Y>
+        <Y t="59">0.02141</Y>
+        <Y t="60">0.02343</Y>
+        <Y t="61">0.02556</Y>
+        <Y t="62">0.02781</Y>
+        <Y t="63">0.03025</Y>
+        <Y t="64">0.03299</Y>
+        <Y t="65">0.03611</Y>
+        <Y t="66">0.03954</Y>
+        <Y t="67">0.04322</Y>
+        <Y t="68">0.04726</Y>
+        <Y t="69">0.05176</Y>
+        <Y t="70">0.05681</Y>
+        <Y t="71">0.06231</Y>
+        <Y t="72">0.06819</Y>
+        <Y t="73">0.07462</Y>
+        <Y t="74">0.08177</Y>
+        <Y t="75">0.08979</Y>
+        <Y t="76">0.09870</Y>
+        <Y t="77">0.10838</Y>
+        <Y t="78">0.11883</Y>
+        <Y t="79">0.13002</Y>
+        <Y t="80">0.14194</Y>
+        <Y t="81">0.15451</Y>
+        <Y t="82">0.16767</Y>
+        <Y t="83">0.18141</Y>
+        <Y t="84">0.19573</Y>
+        <Y t="85">0.21072</Y>
+        <Y t="86">0.22652</Y>
+        <Y t="87">0.24317</Y>
+        <Y t="88">0.26071</Y>
+        <Y t="89">0.27919</Y>
+        <Y t="90">0.29866</Y>
+        <Y t="91">0.31918</Y>
+        <Y t="92">0.34080</Y>
+        <Y t="93">0.36357</Y>
+        <Y t="94">0.38757</Y>
+        <Y t="95">0.41286</Y>
+        <Y t="96">0.43950</Y>
+        <Y t="97">0.46757</Y>
+        <Y t="98">0.49715</Y>
+        <Y t="99">0.52831</Y>
+        <Y t="100">0.56115</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

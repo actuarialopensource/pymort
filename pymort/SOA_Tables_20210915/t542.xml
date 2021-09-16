@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>542</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>U.S. Department of Health and Human Services, “Life Tables for the United States Social Security Area 1900-2080 - Actuarial Study No. 107”, Social Security Administration Office of the Actuary (Baltimore, 1992) p. 24-25. SSA Pub. No. 11-11536</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>SSA 1940 – Male, ANB</TableName>
+    <TableDescription>Social Security Area (SSA) Period Life Table for the Calendar Year 1940 – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 117</TableDescription>
+    <Comments>Study Data: Based on historical and projected mortality in the United States. Projected mortality is that used in estimating the future costs for the Old-Age, Survivors, and Disability Insurance (OASDI) program included in the 1992 Report of the OASDI Board of Trustees to Congress. Social Security Area (SSA) tables differ from official tables published in conjunction with the U.S. decennial census. Annual tabulations of numbers of deaths by age and sex are made by the National Center for Health Statistics (NCHS) based on information provided by the states published in “Vital Statistics of the United States”. Annual estimates of the U.S. resident population by single year of age and sex are made by the Bureau of the Census and published in “Current Population Reports”. Errors of undercounting and misclassification are considered together as a net undercount. For the period 1968-1989, data was supplemented by records of the Medicare program. Methodology: For ages 0-4, probabilities of death were calculated from monthly tabulations of births and deaths and by utilizing population central death rates. For ages 5-95, data was grouped in 5-year age bands which were  then interpolated by applying Beers 4th degree osculatory formula to natural logs of complements of quinquennial qx's. The process was then iterated until 5-year expected deaths reproduced actual. For ages over 95, mortality for men assumed to increase at 5% per year; females set equal to male rates. Data Transcription Errors: None. Data Certified: 03/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Social Security Area (SSA) Period Life Table for the Calendar Year 1940 – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 117</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>117</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.052860</Y>
+        <Y t="1">0.005785</Y>
+        <Y t="2">0.003007</Y>
+        <Y t="3">0.002003</Y>
+        <Y t="4">0.001669</Y>
+        <Y t="5">0.001473</Y>
+        <Y t="6">0.001320</Y>
+        <Y t="7">0.001203</Y>
+        <Y t="8">0.001114</Y>
+        <Y t="9">0.001051</Y>
+        <Y t="10">0.001019</Y>
+        <Y t="11">0.001027</Y>
+        <Y t="12">0.001085</Y>
+        <Y t="13">0.001198</Y>
+        <Y t="14">0.001355</Y>
+        <Y t="15">0.001535</Y>
+        <Y t="16">0.001722</Y>
+        <Y t="17">0.001910</Y>
+        <Y t="18">0.002089</Y>
+        <Y t="19">0.002260</Y>
+        <Y t="20">0.002442</Y>
+        <Y t="21">0.002621</Y>
+        <Y t="22">0.002760</Y>
+        <Y t="23">0.002843</Y>
+        <Y t="24">0.002887</Y>
+        <Y t="25">0.002921</Y>
+        <Y t="26">0.002970</Y>
+        <Y t="27">0.003038</Y>
+        <Y t="28">0.003135</Y>
+        <Y t="29">0.003257</Y>
+        <Y t="30">0.003397</Y>
+        <Y t="31">0.003546</Y>
+        <Y t="32">0.003707</Y>
+        <Y t="33">0.003878</Y>
+        <Y t="34">0.004066</Y>
+        <Y t="35">0.004276</Y>
+        <Y t="36">0.004521</Y>
+        <Y t="37">0.004807</Y>
+        <Y t="38">0.005142</Y>
+        <Y t="39">0.005523</Y>
+        <Y t="40">0.005951</Y>
+        <Y t="41">0.006418</Y>
+        <Y t="42">0.006915</Y>
+        <Y t="43">0.007436</Y>
+        <Y t="44">0.007994</Y>
+        <Y t="45">0.008599</Y>
+        <Y t="46">0.009269</Y>
+        <Y t="47">0.010022</Y>
+        <Y t="48">0.010867</Y>
+        <Y t="49">0.011799</Y>
+        <Y t="50">0.012809</Y>
+        <Y t="51">0.013881</Y>
+        <Y t="52">0.015011</Y>
+        <Y t="53">0.016191</Y>
+        <Y t="54">0.017433</Y>
+        <Y t="55">0.018782</Y>
+        <Y t="56">0.020231</Y>
+        <Y t="57">0.021729</Y>
+        <Y t="58">0.023263</Y>
+        <Y t="59">0.024871</Y>
+        <Y t="60">0.026633</Y>
+        <Y t="61">0.028577</Y>
+        <Y t="62">0.030673</Y>
+        <Y t="63">0.032933</Y>
+        <Y t="64">0.035392</Y>
+        <Y t="65">0.038116</Y>
+        <Y t="66">0.041129</Y>
+        <Y t="67">0.044408</Y>
+        <Y t="68">0.047966</Y>
+        <Y t="69">0.051851</Y>
+        <Y t="70">0.056114</Y>
+        <Y t="71">0.060814</Y>
+        <Y t="72">0.065987</Y>
+        <Y t="73">0.071671</Y>
+        <Y t="74">0.077878</Y>
+        <Y t="75">0.084494</Y>
+        <Y t="76">0.091612</Y>
+        <Y t="77">0.099449</Y>
+        <Y t="78">0.108080</Y>
+        <Y t="79">0.117382</Y>
+        <Y t="80">0.127494</Y>
+        <Y t="81">0.137986</Y>
+        <Y t="82">0.148244</Y>
+        <Y t="83">0.158015</Y>
+        <Y t="84">0.167720</Y>
+        <Y t="85">0.177982</Y>
+        <Y t="86">0.189317</Y>
+        <Y t="87">0.202027</Y>
+        <Y t="88">0.216190</Y>
+        <Y t="89">0.231679</Y>
+        <Y t="90">0.248306</Y>
+        <Y t="91">0.265851</Y>
+        <Y t="92">0.284091</Y>
+        <Y t="93">0.302828</Y>
+        <Y t="94">0.321875</Y>
+        <Y t="95">0.341290</Y>
+        <Y t="96">0.360995</Y>
+        <Y t="97">0.380907</Y>
+        <Y t="98">0.400935</Y>
+        <Y t="99">0.420982</Y>
+        <Y t="100">0.442031</Y>
+        <Y t="101">0.464133</Y>
+        <Y t="102">0.487339</Y>
+        <Y t="103">0.511706</Y>
+        <Y t="104">0.537291</Y>
+        <Y t="105">0.564156</Y>
+        <Y t="106">0.592364</Y>
+        <Y t="107">0.621982</Y>
+        <Y t="108">0.653081</Y>
+        <Y t="109">0.685735</Y>
+        <Y t="110">0.720022</Y>
+        <Y t="111">0.756023</Y>
+        <Y t="112">0.793824</Y>
+        <Y t="113">0.833515</Y>
+        <Y t="114">0.875191</Y>
+        <Y t="115">0.918950</Y>
+        <Y t="116">0.964897</Y>
+        <Y t="117">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>891</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Harold L. Barney “Continuing Care Retirement Community Resident Mortality and Life Expectancies”, Transactions of the Society of Actuaries, 1995-96 Reports     (1995) Table 5. Accessed: June, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1990-99/1995/january/tsr957.aspx</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1980-93 California CCRC – Male, ALB</TableName>
+    <TableDescription>1980-93 California Continuing Care Retirement Community (CCRC) Mortality Table – Male. Basis: Age Last Birthday. Minimum Age: 62. Maximum Age: 110.</TableDescription>
+    <Comments>Study Data: In the state of California continuing care retirement communities (CCRCs), offer retirees residential living and services ranging from the provision of housing with guaranteed access to skilled nursing, to the all inclusive delivery of health care and personal care in exchange for an entry fee followed by monthly payments. To detect financial problems before they emerge and to assure the financial viability of each continuing care retirement community in the state of California, the State of California Health and Safety Code statutes require annual reporting and maintenance of certain reserves. The statutory method of estimating the reserves is based on the life expectancy of each resident. The California Department ofSocial Services, Continuing Care Contracts Branch, has maintained data on continuing care contract holders from 83 CCRCs since 1973. Utilizing records for 29,251 different residents who lived in the facilities at some time during the 1980-93 time period, Actuarial Forecasting &amp; Research developed new tables of life expectancies. Methodology: Three steps were involved to develop the mortality rates underlying the life expectancy tables recommended in this study: 1) Calculation of initial (raw) mortality rates based on the corrected database, 2) Analyses of the raw mortality rates, and 3) Smoothing of the raw mortality rates to eliminate random fluctuations. A Whittaker-Henderson method was used to smooth the mortality curve for the middle ages. At the low ages, Gompertz curves were used to smooth the raw q(x)’s. At the higher ages, techniques used in construction of the Social Security Area Life Table (See SOA Table Identities 552 and 553) were employed with a cap on mortality rates at 50%. Though perceptible in the data, the state’s life expectancy tables and reserving process do not reflect the effect of selection as such would require more complex software on the state’s part. Data Transcription Errors: None. Data Certified: 06/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980-93 California Continuing Care Retirement Community (CCRC) Mortality Table – Male. Basis: Age Last Birthday. Minimum Age: 62. Maximum Age: 110.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>62</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="62">0.0168</Y>
+        <Y t="63">0.0181</Y>
+        <Y t="64">0.0196</Y>
+        <Y t="65">0.0212</Y>
+        <Y t="66">0.0229</Y>
+        <Y t="67">0.0247</Y>
+        <Y t="68">0.0267</Y>
+        <Y t="69">0.0289</Y>
+        <Y t="70">0.0310</Y>
+        <Y t="71">0.0315</Y>
+        <Y t="72">0.0312</Y>
+        <Y t="73">0.0340</Y>
+        <Y t="74">0.0384</Y>
+        <Y t="75">0.0423</Y>
+        <Y t="76">0.0484</Y>
+        <Y t="77">0.0549</Y>
+        <Y t="78">0.0598</Y>
+        <Y t="79">0.0628</Y>
+        <Y t="80">0.0671</Y>
+        <Y t="81">0.0735</Y>
+        <Y t="82">0.0813</Y>
+        <Y t="83">0.0921</Y>
+        <Y t="84">0.1040</Y>
+        <Y t="85">0.1154</Y>
+        <Y t="86">0.1284</Y>
+        <Y t="87">0.1411</Y>
+        <Y t="88">0.1525</Y>
+        <Y t="89">0.1618</Y>
+        <Y t="90">0.1712</Y>
+        <Y t="91">0.1847</Y>
+        <Y t="92">0.2041</Y>
+        <Y t="93">0.2273</Y>
+        <Y t="94">0.2503</Y>
+        <Y t="95">0.2731</Y>
+        <Y t="96">0.2951</Y>
+        <Y t="97">0.3159</Y>
+        <Y t="98">0.3350</Y>
+        <Y t="99">0.3517</Y>
+        <Y t="100">0.3693</Y>
+        <Y t="101">0.3878</Y>
+        <Y t="102">0.4072</Y>
+        <Y t="103">0.4275</Y>
+        <Y t="104">0.4489</Y>
+        <Y t="105">0.4714</Y>
+        <Y t="106">0.4949</Y>
+        <Y t="107">0.5000</Y>
+        <Y t="108">0.5000</Y>
+        <Y t="109">0.5000</Y>
+        <Y t="110">0.5000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

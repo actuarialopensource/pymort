@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>15001</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Grupo TTcnica, S.A.</ProviderName>
+    <TableReference>Jorge Rendon Elizondo, reprinted “Tablas de Mortalidad Mexicanas: Editorial”, Revista Actuari@, (2011). Accessed: February, 2014 from http://www.revista-actuario.com/weff/sites/default/files/Tablas%20de%20Mortalidad%20Mexicanas_2.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Experiencia Mexicana 1962-67</TableName>
+    <TableDescription>Experiencia Mexicana 1962-67. Minimum Age: 15. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Insurance company statistics of individual policies observed 1962-67.  Methodology: Quinquennial ages interpolation with Jenkins then graduated with Whittaker-Henderson (A) and Makeham. Loaded with the same formulas used by the U.S. 1958 Commissioners Standard Ordinary (CSO) table for males on an age last birthday basis (See SOA Table Identity 7). Data Transcription Errors: None. Data Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Live Mortality</KeyWord>
+    <KeyWord>Mexico</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="52">Mexico</Nation>
+      <TableDescription>Experiencia Mexicana 1962-67. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00178</Y>
+        <Y t="16">0.00180</Y>
+        <Y t="17">0.00182</Y>
+        <Y t="18">0.00184</Y>
+        <Y t="19">0.00187</Y>
+        <Y t="20">0.00189</Y>
+        <Y t="21">0.00192</Y>
+        <Y t="22">0.00196</Y>
+        <Y t="23">0.00199</Y>
+        <Y t="24">0.00203</Y>
+        <Y t="25">0.00208</Y>
+        <Y t="26">0.00213</Y>
+        <Y t="27">0.00219</Y>
+        <Y t="28">0.00225</Y>
+        <Y t="29">0.00232</Y>
+        <Y t="30">0.00240</Y>
+        <Y t="31">0.00248</Y>
+        <Y t="32">0.00257</Y>
+        <Y t="33">0.00268</Y>
+        <Y t="34">0.00279</Y>
+        <Y t="35">0.00292</Y>
+        <Y t="36">0.00307</Y>
+        <Y t="37">0.00322</Y>
+        <Y t="38">0.00340</Y>
+        <Y t="39">0.00359</Y>
+        <Y t="40">0.00381</Y>
+        <Y t="41">0.00405</Y>
+        <Y t="42">0.00431</Y>
+        <Y t="43">0.00461</Y>
+        <Y t="44">0.00493</Y>
+        <Y t="45">0.00530</Y>
+        <Y t="46">0.00570</Y>
+        <Y t="47">0.00614</Y>
+        <Y t="48">0.00663</Y>
+        <Y t="49">0.00718</Y>
+        <Y t="50">0.00779</Y>
+        <Y t="51">0.00846</Y>
+        <Y t="52">0.00920</Y>
+        <Y t="53">0.01003</Y>
+        <Y t="54">0.01094</Y>
+        <Y t="55">0.01195</Y>
+        <Y t="56">0.01308</Y>
+        <Y t="57">0.01432</Y>
+        <Y t="58">0.01570</Y>
+        <Y t="59">0.01722</Y>
+        <Y t="60">0.01891</Y>
+        <Y t="61">0.02078</Y>
+        <Y t="62">0.02285</Y>
+        <Y t="63">0.02515</Y>
+        <Y t="64">0.02768</Y>
+        <Y t="65">0.03049</Y>
+        <Y t="66">0.03359</Y>
+        <Y t="67">0.03702</Y>
+        <Y t="68">0.04081</Y>
+        <Y t="69">0.04500</Y>
+        <Y t="70">0.04962</Y>
+        <Y t="71">0.05472</Y>
+        <Y t="72">0.06034</Y>
+        <Y t="73">0.06655</Y>
+        <Y t="74">0.07338</Y>
+        <Y t="75">0.08089</Y>
+        <Y t="76">0.08916</Y>
+        <Y t="77">0.09825</Y>
+        <Y t="78">0.10822</Y>
+        <Y t="79">0.11915</Y>
+        <Y t="80">0.13112</Y>
+        <Y t="81">0.14420</Y>
+        <Y t="82">0.15848</Y>
+        <Y t="83">0.17405</Y>
+        <Y t="84">0.19098</Y>
+        <Y t="85">0.20935</Y>
+        <Y t="86">0.22924</Y>
+        <Y t="87">0.25072</Y>
+        <Y t="88">0.27384</Y>
+        <Y t="89">0.29866</Y>
+        <Y t="90">0.32519</Y>
+        <Y t="91">0.35346</Y>
+        <Y t="92">0.38342</Y>
+        <Y t="93">0.41504</Y>
+        <Y t="94">0.44821</Y>
+        <Y t="95">0.48282</Y>
+        <Y t="96">0.51867</Y>
+        <Y t="97">0.55554</Y>
+        <Y t="98">0.59314</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1464</TableIdentity>
+    <ProviderDomain>naic.org</ProviderDomain>
+    <ProviderName>NAIC</ProviderName>
+    <TableReference>National Association of Insurance Commissioners, "1985 NAIC Cancer Claim Cost Tables", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1985 NAIC Cancer Claim Cost Table, Non-Skin Cancer Average Days Per Claim - Male</TableName>
+    <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Non-Skin Cancer Average Number of Days Per Claim Payment - Male. Basis: Confinement Bands. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+    <Comments>Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. Claim costs are separated by gender and confinement continuance. Methodology: Tables loaded at a uniform 5% (applied to the incidence rate elements) plus a small amount believed to be 1-2% with regard to the continuance element. Data Transcription Errors Detected: 12/2013. Data Corrected and Certified: 12/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Non-Skin Cancer Average Number of Days Per Claim Payment - Male. Basis: No Confinement Limit. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">9.987</Y>
+        <Y t="16">9.987</Y>
+        <Y t="17">9.987</Y>
+        <Y t="18">9.987</Y>
+        <Y t="19">9.987</Y>
+        <Y t="20">9.987</Y>
+        <Y t="21">9.987</Y>
+        <Y t="22">9.987</Y>
+        <Y t="23">9.987</Y>
+        <Y t="24">9.987</Y>
+        <Y t="25">10.075</Y>
+        <Y t="26">10.252</Y>
+        <Y t="27">10.429</Y>
+        <Y t="28">10.606</Y>
+        <Y t="29">10.783</Y>
+        <Y t="30">10.96</Y>
+        <Y t="31">11.137</Y>
+        <Y t="32">11.314</Y>
+        <Y t="33">11.491</Y>
+        <Y t="34">11.668</Y>
+        <Y t="35">11.776</Y>
+        <Y t="36">11.817</Y>
+        <Y t="37">11.857</Y>
+        <Y t="38">11.897</Y>
+        <Y t="39">11.938</Y>
+        <Y t="40">11.978</Y>
+        <Y t="41">12.018</Y>
+        <Y t="42">12.059</Y>
+        <Y t="43">12.099</Y>
+        <Y t="44">12.139</Y>
+        <Y t="45">12.18</Y>
+        <Y t="46">12.22</Y>
+        <Y t="47">12.26</Y>
+        <Y t="48">12.301</Y>
+        <Y t="49">12.341</Y>
+        <Y t="50">12.381</Y>
+        <Y t="51">12.422</Y>
+        <Y t="52">12.462</Y>
+        <Y t="53">12.502</Y>
+        <Y t="54">12.543</Y>
+        <Y t="55">12.563</Y>
+        <Y t="56">12.563</Y>
+        <Y t="57">12.563</Y>
+        <Y t="58">12.563</Y>
+        <Y t="59">12.563</Y>
+        <Y t="60">12.563</Y>
+        <Y t="61">12.563</Y>
+        <Y t="62">12.563</Y>
+        <Y t="63">12.563</Y>
+        <Y t="64">12.563</Y>
+        <Y t="65">12.563</Y>
+        <Y t="66">12.563</Y>
+        <Y t="67">12.563</Y>
+        <Y t="68">12.563</Y>
+        <Y t="69">12.563</Y>
+        <Y t="70">12.563</Y>
+        <Y t="71">12.563</Y>
+        <Y t="72">12.563</Y>
+        <Y t="73">12.563</Y>
+        <Y t="74">12.563</Y>
+        <Y t="75">12.563</Y>
+        <Y t="76">12.563</Y>
+        <Y t="77">12.563</Y>
+        <Y t="78">12.563</Y>
+        <Y t="79">12.563</Y>
+        <Y t="80">12.563</Y>
+        <Y t="81">12.563</Y>
+        <Y t="82">12.563</Y>
+        <Y t="83">12.563</Y>
+        <Y t="84">12.563</Y>
+        <Y t="85">12.563</Y>
+        <Y t="86">12.563</Y>
+        <Y t="87">12.563</Y>
+        <Y t="88">12.563</Y>
+        <Y t="89">12.563</Y>
+        <Y t="90">12.563</Y>
+        <Y t="91">12.563</Y>
+        <Y t="92">12.563</Y>
+        <Y t="93">12.563</Y>
+        <Y t="94">12.563</Y>
+        <Y t="95">12.563</Y>
+        <Y t="96">12.563</Y>
+        <Y t="97">12.563</Y>
+        <Y t="98">12.563</Y>
+        <Y t="99">12.563</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Non-Skin Cancer Average Number of Days Per Claim Payment - Male. Basis: First 7 Days. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">5.436</Y>
+        <Y t="16">5.436</Y>
+        <Y t="17">5.436</Y>
+        <Y t="18">5.436</Y>
+        <Y t="19">5.436</Y>
+        <Y t="20">5.436</Y>
+        <Y t="21">5.436</Y>
+        <Y t="22">5.436</Y>
+        <Y t="23">5.436</Y>
+        <Y t="24">5.436</Y>
+        <Y t="25">5.436</Y>
+        <Y t="26">5.436</Y>
+        <Y t="27">5.436</Y>
+        <Y t="28">5.436</Y>
+        <Y t="29">5.436</Y>
+        <Y t="30">5.436</Y>
+        <Y t="31">5.436</Y>
+        <Y t="32">5.436</Y>
+        <Y t="33">5.436</Y>
+        <Y t="34">5.436</Y>
+        <Y t="35">5.436</Y>
+        <Y t="36">5.436</Y>
+        <Y t="37">5.436</Y>
+        <Y t="38">5.436</Y>
+        <Y t="39">5.436</Y>
+        <Y t="40">5.461</Y>
+        <Y t="41">5.485</Y>
+        <Y t="42">5.51</Y>
+        <Y t="43">5.534</Y>
+        <Y t="44">5.559</Y>
+        <Y t="45">5.581</Y>
+        <Y t="46">5.602</Y>
+        <Y t="47">5.623</Y>
+        <Y t="48">5.643</Y>
+        <Y t="49">5.664</Y>
+        <Y t="50">5.684</Y>
+        <Y t="51">5.705</Y>
+        <Y t="52">5.726</Y>
+        <Y t="53">5.746</Y>
+        <Y t="54">5.767</Y>
+        <Y t="55">5.786</Y>
+        <Y t="56">5.804</Y>
+        <Y t="57">5.823</Y>
+        <Y t="58">5.841</Y>
+        <Y t="59">5.859</Y>
+        <Y t="60">5.877</Y>
+        <Y t="61">5.895</Y>
+        <Y t="62">5.914</Y>
+        <Y t="63">5.932</Y>
+        <Y t="64">5.95</Y>
+        <Y t="65">5.973</Y>
+        <Y t="66">6.002</Y>
+        <Y t="67">6.031</Y>
+        <Y t="68">6.06</Y>
+        <Y t="69">6.089</Y>
+        <Y t="70">6.118</Y>
+        <Y t="71">6.118</Y>
+        <Y t="72">6.118</Y>
+        <Y t="73">6.118</Y>
+        <Y t="74">6.118</Y>
+        <Y t="75">6.118</Y>
+        <Y t="76">6.118</Y>
+        <Y t="77">6.118</Y>
+        <Y t="78">6.118</Y>
+        <Y t="79">6.118</Y>
+        <Y t="80">6.118</Y>
+        <Y t="81">6.118</Y>
+        <Y t="82">6.118</Y>
+        <Y t="83">6.118</Y>
+        <Y t="84">6.118</Y>
+        <Y t="85">6.118</Y>
+        <Y t="86">6.118</Y>
+        <Y t="87">6.118</Y>
+        <Y t="88">6.118</Y>
+        <Y t="89">6.118</Y>
+        <Y t="90">6.118</Y>
+        <Y t="91">6.118</Y>
+        <Y t="92">6.118</Y>
+        <Y t="93">6.118</Y>
+        <Y t="94">6.118</Y>
+        <Y t="95">6.118</Y>
+        <Y t="96">6.118</Y>
+        <Y t="97">6.118</Y>
+        <Y t="98">6.118</Y>
+        <Y t="99">6.118</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Non-Skin Cancer Average Number of Days Per Claim Payment - Male. Basis: First 14 Days. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">8.034</Y>
+        <Y t="16">8.034</Y>
+        <Y t="17">8.034</Y>
+        <Y t="18">8.034</Y>
+        <Y t="19">8.034</Y>
+        <Y t="20">8.034</Y>
+        <Y t="21">8.034</Y>
+        <Y t="22">8.034</Y>
+        <Y t="23">8.034</Y>
+        <Y t="24">8.034</Y>
+        <Y t="25">8.034</Y>
+        <Y t="26">8.034</Y>
+        <Y t="27">8.034</Y>
+        <Y t="28">8.034</Y>
+        <Y t="29">8.034</Y>
+        <Y t="30">8.034</Y>
+        <Y t="31">8.034</Y>
+        <Y t="32">8.034</Y>
+        <Y t="33">8.034</Y>
+        <Y t="34">8.034</Y>
+        <Y t="35">8.034</Y>
+        <Y t="36">8.034</Y>
+        <Y t="37">8.034</Y>
+        <Y t="38">8.034</Y>
+        <Y t="39">8.034</Y>
+        <Y t="40">8.173</Y>
+        <Y t="41">8.312</Y>
+        <Y t="42">8.451</Y>
+        <Y t="43">8.590</Y>
+        <Y t="44">8.729</Y>
+        <Y t="45">8.023</Y>
+        <Y t="46">8.874</Y>
+        <Y t="47">8.924</Y>
+        <Y t="48">8.974</Y>
+        <Y t="49">9.025</Y>
+        <Y t="50">9.075</Y>
+        <Y t="51">9.126</Y>
+        <Y t="52">9.176</Y>
+        <Y t="53">9.226</Y>
+        <Y t="54">9.277</Y>
+        <Y t="55">9.319</Y>
+        <Y t="56">9.353</Y>
+        <Y t="57">9.386</Y>
+        <Y t="58">9.428</Y>
+        <Y t="59">9.454</Y>
+        <Y t="60">9.487</Y>
+        <Y t="61">9.521</Y>
+        <Y t="62">9.555</Y>
+        <Y t="63">9.588</Y>
+        <Y t="64">9.622</Y>
+        <Y t="65">9.663</Y>
+        <Y t="66">9.709</Y>
+        <Y t="67">9.755</Y>
+        <Y t="68">9.801</Y>
+        <Y t="69">9.848</Y>
+        <Y t="70">9.894</Y>
+        <Y t="71">9.894</Y>
+        <Y t="72">9.894</Y>
+        <Y t="73">9.894</Y>
+        <Y t="74">9.894</Y>
+        <Y t="75">9.894</Y>
+        <Y t="76">9.894</Y>
+        <Y t="77">9.894</Y>
+        <Y t="78">9.894</Y>
+        <Y t="79">9.894</Y>
+        <Y t="80">9.894</Y>
+        <Y t="81">9.894</Y>
+        <Y t="82">9.894</Y>
+        <Y t="83">9.894</Y>
+        <Y t="84">9.894</Y>
+        <Y t="85">9.894</Y>
+        <Y t="86">9.894</Y>
+        <Y t="87">9.894</Y>
+        <Y t="88">9.894</Y>
+        <Y t="89">9.894</Y>
+        <Y t="90">9.894</Y>
+        <Y t="91">9.894</Y>
+        <Y t="92">9.894</Y>
+        <Y t="93">9.894</Y>
+        <Y t="94">9.894</Y>
+        <Y t="95">9.894</Y>
+        <Y t="96">9.894</Y>
+        <Y t="97">9.894</Y>
+        <Y t="98">9.894</Y>
+        <Y t="99">9.894</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

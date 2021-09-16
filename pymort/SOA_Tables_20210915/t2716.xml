@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2716</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Statistique de la Suisse, “Tables de mortalité pour la Suisse 1998/2003”, L’Office Fédéral de la Statistique (Neuchâtel, 2005).  Accessed: March, 2014 from http://www.bfs.admin.ch/bfs/portal/fr/index/themen/01/06/blank/dos/la_mortalite_en_suisse/tabl01.parsys.0005.downloadList.00051.DownloadFile.tmp/tablesmortalite19982003femmesf.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>TM_1998_2003_F</TableName>
+    <TableDescription>Tables de Mortalité pour la Suisse 1998-2003 – Femmes (Females). Minimum Age: 0. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: After each federal census of population, from the period 1876/1880 and after, the Federal Statistical Office (FSO) establishes tables of the resident population in Switzerland, for a period of six years, where the center of the range is formed by the census year.  In a small country like Switzerland, the number of recorded deaths at each age and the number of residents at different ages are too low to allow for the calculation of values ​​to make actuarial analysis, epidemiological and demographic specific. Mortality tables compiled from observations spanning six years around a census make it possible to obtain more reliable values ​​for a detailed study of mortality in Switzerland. Methodology: Not Available at this time. Data Transcription Errors: None. Data Certified: 03/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Switzerland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="41">Switzerland</Nation>
+      <TableDescription>Tables de Mortalité pour la Suisse 1998-2003 – Femmes (Females). Minimum Age: 0. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.004172</Y>
+        <Y t="1">0.00035</Y>
+        <Y t="2">0.0002</Y>
+        <Y t="3">0.000163</Y>
+        <Y t="4">0.000135</Y>
+        <Y t="5">0.000114</Y>
+        <Y t="6">9.9E-05</Y>
+        <Y t="7">8.8E-05</Y>
+        <Y t="8">8.1E-05</Y>
+        <Y t="9">7.9E-05</Y>
+        <Y t="10">8E-05</Y>
+        <Y t="11">8.5E-05</Y>
+        <Y t="12">9.6E-05</Y>
+        <Y t="13">0.000116</Y>
+        <Y t="14">0.000144</Y>
+        <Y t="15">0.000178</Y>
+        <Y t="16">0.000216</Y>
+        <Y t="17">0.000252</Y>
+        <Y t="18">0.000283</Y>
+        <Y t="19">0.000305</Y>
+        <Y t="20">0.000316</Y>
+        <Y t="21">0.000319</Y>
+        <Y t="22">0.000316</Y>
+        <Y t="23">0.000313</Y>
+        <Y t="24">0.000313</Y>
+        <Y t="25">0.000317</Y>
+        <Y t="26">0.000325</Y>
+        <Y t="27">0.000336</Y>
+        <Y t="28">0.00035</Y>
+        <Y t="29">0.000368</Y>
+        <Y t="30">0.000389</Y>
+        <Y t="31">0.000413</Y>
+        <Y t="32">0.000441</Y>
+        <Y t="33">0.000472</Y>
+        <Y t="34">0.000506</Y>
+        <Y t="35">0.000544</Y>
+        <Y t="36">0.000586</Y>
+        <Y t="37">0.000633</Y>
+        <Y t="38">0.000685</Y>
+        <Y t="39">0.000743</Y>
+        <Y t="40">0.000807</Y>
+        <Y t="41">0.00088</Y>
+        <Y t="42">0.000961</Y>
+        <Y t="43">0.001052</Y>
+        <Y t="44">0.001155</Y>
+        <Y t="45">0.001269</Y>
+        <Y t="46">0.001398</Y>
+        <Y t="47">0.00154</Y>
+        <Y t="48">0.001697</Y>
+        <Y t="49">0.00187</Y>
+        <Y t="50">0.002058</Y>
+        <Y t="51">0.002261</Y>
+        <Y t="52">0.002479</Y>
+        <Y t="53">0.002711</Y>
+        <Y t="54">0.002956</Y>
+        <Y t="55">0.003213</Y>
+        <Y t="56">0.003486</Y>
+        <Y t="57">0.003775</Y>
+        <Y t="58">0.004084</Y>
+        <Y t="59">0.004416</Y>
+        <Y t="60">0.004775</Y>
+        <Y t="61">0.005166</Y>
+        <Y t="62">0.005594</Y>
+        <Y t="63">0.006068</Y>
+        <Y t="64">0.006596</Y>
+        <Y t="65">0.007187</Y>
+        <Y t="66">0.007852</Y>
+        <Y t="67">0.008605</Y>
+        <Y t="68">0.009462</Y>
+        <Y t="69">0.010441</Y>
+        <Y t="70">0.011566</Y>
+        <Y t="71">0.012866</Y>
+        <Y t="72">0.014375</Y>
+        <Y t="73">0.016138</Y>
+        <Y t="74">0.018206</Y>
+        <Y t="75">0.020631</Y>
+        <Y t="76">0.023468</Y>
+        <Y t="77">0.026782</Y>
+        <Y t="78">0.030645</Y>
+        <Y t="79">0.035138</Y>
+        <Y t="80">0.040349</Y>
+        <Y t="81">0.046373</Y>
+        <Y t="82">0.053312</Y>
+        <Y t="83">0.061271</Y>
+        <Y t="84">0.070352</Y>
+        <Y t="85">0.080646</Y>
+        <Y t="86">0.092225</Y>
+        <Y t="87">0.105136</Y>
+        <Y t="88">0.119389</Y>
+        <Y t="89">0.134946</Y>
+        <Y t="90">0.151712</Y>
+        <Y t="91">0.169517</Y>
+        <Y t="92">0.188114</Y>
+        <Y t="93">0.207165</Y>
+        <Y t="94">0.226308</Y>
+        <Y t="95">0.245399</Y>
+        <Y t="96">0.264399</Y>
+        <Y t="97">0.283328</Y>
+        <Y t="98">0.302264</Y>
+        <Y t="99">0.32135</Y>
+        <Y t="100">0.340792</Y>
+        <Y t="101">0.360866</Y>
+        <Y t="102">0.381923</Y>
+        <Y t="103">0.404393</Y>
+        <Y t="104">0.428801</Y>
+        <Y t="105">0.455784</Y>
+        <Y t="106">0.486115</Y>
+        <Y t="107">0.520741</Y>
+        <Y t="108">0.560834</Y>
+        <Y t="109">0.607857</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

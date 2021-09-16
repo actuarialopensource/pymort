@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2521</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>S. W. Caffin “Report of the Preparation of Graduated Tables of Mortality Rates Experienced by Insured Lives in Singapore 1988-1993”, (1995). Accessed October, 2013 from: http://www.actuaries.org.sg/?q=disknode/get/573/Report%2520On%2520The%2520Preparation%2520Of%2520Graduated%2520Tables%2520Of%2520Mortality%2520Rates%2520Experienced%2520By%2520Insured%2520Lives%2520In%2520Singapore%25201988-1993.pdf&amp;download</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>S8893 - Female</TableName>
+    <TableDescription>Singapore 1988-93 Mortality (S8893)– Female. Minimum Age: 9. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data: Based on experience of male lives insured in Singapore under Ordinary issues during the five years 1988 to 1993. Methodology: Graduated mortality rates prepared fro ages 9 to 99 using Spencer’s 21 Term Summation Formula. Data Transcription Errors: None. Data Certified: 10/17/13</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Singapore</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="65">Singapore</Nation>
+      <TableDescription>Singapore 1988-93 Mortality (S8893)– Female. Minimum Age: 9. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>9</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="9">0.00002</Y>
+        <Y t="10">0.00003</Y>
+        <Y t="11">0.00004</Y>
+        <Y t="12">0.00005</Y>
+        <Y t="13">0.00006</Y>
+        <Y t="14">0.00008</Y>
+        <Y t="15">0.000019</Y>
+        <Y t="16">0.000013</Y>
+        <Y t="17">0.000017</Y>
+        <Y t="18">0.000021</Y>
+        <Y t="19">0.000025</Y>
+        <Y t="20">0.000030</Y>
+        <Y t="21">0.000036</Y>
+        <Y t="22">0.000037</Y>
+        <Y t="23">0.000031</Y>
+        <Y t="24">0.000031</Y>
+        <Y t="25">0.000030</Y>
+        <Y t="26">0.000028</Y>
+        <Y t="27">0.000027</Y>
+        <Y t="28">0.000027</Y>
+        <Y t="29">0.000027</Y>
+        <Y t="30">0.000027</Y>
+        <Y t="31">0.000029</Y>
+        <Y t="32">0.000031</Y>
+        <Y t="33">0.00033</Y>
+        <Y t="34">0.00035</Y>
+        <Y t="35">0.00038</Y>
+        <Y t="36">0.00041</Y>
+        <Y t="37">0.00044</Y>
+        <Y t="38">0.00048</Y>
+        <Y t="39">0.00052</Y>
+        <Y t="40">0.00058</Y>
+        <Y t="41">0.00064</Y>
+        <Y t="42">0.00072</Y>
+        <Y t="43">0.00081</Y>
+        <Y t="44">0.00091</Y>
+        <Y t="45">0.00102</Y>
+        <Y t="46">0.00114</Y>
+        <Y t="47">0.00127</Y>
+        <Y t="48">0.00141</Y>
+        <Y t="49">0.00155</Y>
+        <Y t="50">0.00169</Y>
+        <Y t="51">0.00180</Y>
+        <Y t="52">0.00187</Y>
+        <Y t="53">0.00188</Y>
+        <Y t="54">0.00187</Y>
+        <Y t="55">0.00201</Y>
+        <Y t="56">0.00231</Y>
+        <Y t="57">0.00284</Y>
+        <Y t="58">0.00358</Y>
+        <Y t="59">0.00450</Y>
+        <Y t="60">0.00552</Y>
+        <Y t="61">0.00660</Y>
+        <Y t="62">0.00764</Y>
+        <Y t="63">0.00865</Y>
+        <Y t="64">0.00964</Y>
+        <Y t="65">0.01065</Y>
+        <Y t="66">0.01175</Y>
+        <Y t="67">0.01297</Y>
+        <Y t="68">0.01435</Y>
+        <Y t="69">0.01587</Y>
+        <Y t="70">0.01752</Y>
+        <Y t="71">0.01928</Y>
+        <Y t="72">0.02116</Y>
+        <Y t="73">0.02318</Y>
+        <Y t="74">0.02534</Y>
+        <Y t="75">0.02767</Y>
+        <Y t="76">0.02018</Y>
+        <Y t="77">0.03292</Y>
+        <Y t="78">0.03590</Y>
+        <Y t="79">0.03913</Y>
+        <Y t="80">0.04265</Y>
+        <Y t="81">0.04645</Y>
+        <Y t="82">0.05051</Y>
+        <Y t="83">0.05479</Y>
+        <Y t="84">0.05923</Y>
+        <Y t="85">0.06371</Y>
+        <Y t="86">0.06808</Y>
+        <Y t="87">0.07221</Y>
+        <Y t="88">0.07604</Y>
+        <Y t="89">0.07604</Y>
+        <Y t="90">0.07972</Y>
+        <Y t="91">0.08368</Y>
+        <Y t="92">0.08874</Y>
+        <Y t="93">0.09606</Y>
+        <Y t="94">0.10701</Y>
+        <Y t="95">0.12298</Y>
+        <Y t="96">0.14516</Y>
+        <Y t="97">0.17454</Y>
+        <Y t="98">0.21219</Y>
+        <Y t="99">0.25959</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

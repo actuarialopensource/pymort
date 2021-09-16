@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2954</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Mika Makinen</ProviderName>
+    <TableReference>Tarja Sirén,"Henkivakuutusyhtiöiden Kuolevuustutkimus K2012", Finanssivalvonta / Finnish Financial Supervisory Authroity, (2012) Accessed: September, 2014 from http://www.finanssivalvonta.fi/fi/Tiedotteet/Verkkouutiset/Documents/Henkivakuutusyhtioiden_kuolevuustutkimus_K2012.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>K2012 - Males</TableName>
+    <TableDescription>Henkivakuutusyhtiöiden Kuolleisuustutkimus 2012 (Life Insurer's Mortality Table K2012) - Males. Minimum Age: 0. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Voluntary life insurance in the Finnish market for the years 2002-2010. Methodology: The mortality forecast for life insurance has been computed in two steps. First, long term mortality forecast calculated by way of Lee-Miller method utilizing Finnish population data. Second, correction terms for each life insurance product line were estimated via Poisson-regression. Based on these results, long term mortality forecast and confidence intervals for voluntary life insurance product lines were formed. Data Transcription Errors: None. Data Certified: 09/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Finland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="358">Finland</Nation>
+      <TableDescription>Henkivakuutusyhtiöiden Kuolleisuustutkimus 2012 (Life Insurer's Mortality Table K2012) - Males. Minimum Age: 0. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0020264</Y>
+        <Y t="1">0.00011981</Y>
+        <Y t="2">5.023E-05</Y>
+        <Y t="3">6.998E-05</Y>
+        <Y t="4">6.36E-05</Y>
+        <Y t="5">0.00011605</Y>
+        <Y t="6">5.948E-05</Y>
+        <Y t="7">5.711E-05</Y>
+        <Y t="8">1.666E-05</Y>
+        <Y t="9">5.73E-05</Y>
+        <Y t="10">8.062E-05</Y>
+        <Y t="11">3.891E-05</Y>
+        <Y t="12">1.542E-05</Y>
+        <Y t="13">9.085E-05</Y>
+        <Y t="14">8.636E-05</Y>
+        <Y t="15">0.00027847</Y>
+        <Y t="16">0.00023763</Y>
+        <Y t="17">0.00049487</Y>
+        <Y t="18">0.00077799</Y>
+        <Y t="19">0.00051889</Y>
+        <Y t="20">0.00064726</Y>
+        <Y t="21">0.00072386</Y>
+        <Y t="22">0.00066824</Y>
+        <Y t="23">0.00101769</Y>
+        <Y t="24">0.00056865</Y>
+        <Y t="25">0.00076562</Y>
+        <Y t="26">0.00055676</Y>
+        <Y t="27">0.0005219</Y>
+        <Y t="28">0.00062272</Y>
+        <Y t="29">0.00077607</Y>
+        <Y t="30">0.00021369</Y>
+        <Y t="31">0.00028274</Y>
+        <Y t="32">0.00023705</Y>
+        <Y t="33">0.00020718</Y>
+        <Y t="34">0.00022074</Y>
+        <Y t="35">0.00019747</Y>
+        <Y t="36">0.0002771</Y>
+        <Y t="37">0.00029843</Y>
+        <Y t="38">0.00021314</Y>
+        <Y t="39">0.00035466</Y>
+        <Y t="40">0.00039677</Y>
+        <Y t="41">0.00044464</Y>
+        <Y t="42">0.0003392</Y>
+        <Y t="43">0.00041785</Y>
+        <Y t="44">0.00041366</Y>
+        <Y t="45">0.00058344</Y>
+        <Y t="46">0.00061132</Y>
+        <Y t="47">0.00061256</Y>
+        <Y t="48">0.00074782</Y>
+        <Y t="49">0.00083023</Y>
+        <Y t="50">0.00087757</Y>
+        <Y t="51">0.00088001</Y>
+        <Y t="52">0.00088719</Y>
+        <Y t="53">0.00094395</Y>
+        <Y t="54">0.00107835</Y>
+        <Y t="55">0.00119781</Y>
+        <Y t="56">0.00129243</Y>
+        <Y t="57">0.00118494</Y>
+        <Y t="58">0.00138939</Y>
+        <Y t="59">0.00149833</Y>
+        <Y t="60">0.00166719</Y>
+        <Y t="61">0.00178991</Y>
+        <Y t="62">0.00193644</Y>
+        <Y t="63">0.00226549</Y>
+        <Y t="64">0.00226484</Y>
+        <Y t="65">0.00285537</Y>
+        <Y t="66">0.00450701</Y>
+        <Y t="67">0.0043912</Y>
+        <Y t="68">0.00461546</Y>
+        <Y t="69">0.00559614</Y>
+        <Y t="70">0.00611851</Y>
+        <Y t="71">0.00607315</Y>
+        <Y t="72">0.00691951</Y>
+        <Y t="73">0.00904045</Y>
+        <Y t="74">0.00881057</Y>
+        <Y t="75">0.01025678</Y>
+        <Y t="76">0.01177125</Y>
+        <Y t="77">0.01323312</Y>
+        <Y t="78">0.01552506</Y>
+        <Y t="79">0.01709477</Y>
+        <Y t="80">0.02072032</Y>
+        <Y t="81">0.02343123</Y>
+        <Y t="82">0.02420168</Y>
+        <Y t="83">0.02966168</Y>
+        <Y t="84">0.03708141</Y>
+        <Y t="85">0.0387332</Y>
+        <Y t="86">0.0486997</Y>
+        <Y t="87">0.05132999</Y>
+        <Y t="88">0.06328169</Y>
+        <Y t="89">0.06601239</Y>
+        <Y t="90">0.07734865</Y>
+        <Y t="91">0.09805786</Y>
+        <Y t="92">0.12028248</Y>
+        <Y t="93">0.11869314</Y>
+        <Y t="94">0.14575014</Y>
+        <Y t="95">0.16927516</Y>
+        <Y t="96">0.19251437</Y>
+        <Y t="97">0.21802394</Y>
+        <Y t="98">0.2457713</Y>
+        <Y t="99">0.27567517</Y>
+        <Y t="100">0.30757863</Y>
+        <Y t="101">0.34127396</Y>
+        <Y t="102">0.37648072</Y>
+        <Y t="103">0.41285467</Y>
+        <Y t="104">0.45005968</Y>
+        <Y t="105">0.48767582</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

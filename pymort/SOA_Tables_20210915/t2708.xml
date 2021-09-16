@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2708</TableIdentity>
+    <ProviderDomain>institutdesactuaires.com</ProviderDomain>
+    <ProviderName>Bridget Browne</ProviderName>
+    <TableReference>Institut des Actuaires , “Notice d’Utilisation Tables de Mortalité TH 00 – 02 et TF 00 – 02”, (Paris, 2005) p. 3-6. Accessed November, 2012 from http://www.ressources-actuarielles.net/EXT/ISFA/fp-isfa.nsf/0/762C8E624EE98A5EC12577C100566D11/$FILE/TF00-02_V.xls?OpenElement</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>TFV 00-02</TableName>
+    <TableDescription>Table Femmes Engagements en Cas de Vie (TFV 00-02) - Women Commitments in Case of Life. Minimum Age: 0. Maximum Age: 112</TableDescription>
+    <Comments>Study Data: The Decree of December, 2005 amended Article 335-1 by introducing tables TF 00-02 (femme / female) and TH 00-02 (homme / male) to replace the 88-90 TD and TV 88-90 tables. Décalé (i.e. “shifted”) tables are to be used for survival (“en cas de vie”) rather than death (“en case de deces”). These tables however are not for annuities; there are other tables for that purpose (such as TG F05 and TG H05 for females and males respectively). The 00-02 mortality tables are constructed on the basis of population data published by the Institut National de la Statistique et des Études Économiques (INSEE) for the period 2000-2002. Methodology:  The décalé (i.e. shifted) tables are to be used for life products, other than annuities, and have an age offset, presumably for conservatism to compensate for the gap between the general population and the insured population. In contrast, the “initial” tables are most widely used for term insurance (“assurances deces”). Data Transcription Errors: None.  Data Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Mortality</KeyWord>
+    <KeyWord>France</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="33">France</Nation>
+      <TableDescription>Table Femmes Engagements en Cas de Vie (TFV 00-02) - Women Commitments in Case of Life. Minimum Age: 0. Maximum Age: 112</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>112</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00384</Y>
+        <Y t="1">0.000331</Y>
+        <Y t="2">0.000211</Y>
+        <Y t="3">0.000171</Y>
+        <Y t="4">0.000141</Y>
+        <Y t="5">0.000121</Y>
+        <Y t="6">0.000111</Y>
+        <Y t="7">0.0001</Y>
+        <Y t="8">0.000101</Y>
+        <Y t="9">0.000101</Y>
+        <Y t="10">0.000111</Y>
+        <Y t="11">0.000111</Y>
+        <Y t="12">0.000121</Y>
+        <Y t="13">0.000131</Y>
+        <Y t="14">0.000161</Y>
+        <Y t="15">0.000201</Y>
+        <Y t="16">0.000121</Y>
+        <Y t="17">0.000111</Y>
+        <Y t="18">0.0001</Y>
+        <Y t="19">0.000101</Y>
+        <Y t="20">0.000101</Y>
+        <Y t="21">0.000111</Y>
+        <Y t="22">0.000111</Y>
+        <Y t="23">0.000121</Y>
+        <Y t="24">0.000131</Y>
+        <Y t="25">0.000161</Y>
+        <Y t="26">0.000201</Y>
+        <Y t="27">0.000241</Y>
+        <Y t="28">0.000292</Y>
+        <Y t="29">0.000332</Y>
+        <Y t="30">0.000352</Y>
+        <Y t="31">0.000353</Y>
+        <Y t="32">0.000343</Y>
+        <Y t="33">0.000353</Y>
+        <Y t="34">0.000353</Y>
+        <Y t="35">0.000394</Y>
+        <Y t="36">0.000425</Y>
+        <Y t="37">0.000465</Y>
+        <Y t="38">0.000516</Y>
+        <Y t="39">0.000577</Y>
+        <Y t="40">0.000638</Y>
+        <Y t="41">0.000699</Y>
+        <Y t="42">0.000761</Y>
+        <Y t="43">0.000842</Y>
+        <Y t="44">0.000935</Y>
+        <Y t="45">0.001027</Y>
+        <Y t="46">0.00114</Y>
+        <Y t="47">0.001253</Y>
+        <Y t="48">0.001377</Y>
+        <Y t="49">0.001512</Y>
+        <Y t="50">0.001647</Y>
+        <Y t="51">0.001951</Y>
+        <Y t="52">0.002099</Y>
+        <Y t="53">0.002237</Y>
+        <Y t="54">0.002377</Y>
+        <Y t="55">0.002507</Y>
+        <Y t="56">0.002648</Y>
+        <Y t="57">0.002821</Y>
+        <Y t="58">0.003017</Y>
+        <Y t="59">0.003236</Y>
+        <Y t="60">0.003457</Y>
+        <Y t="61">0.003915</Y>
+        <Y t="62">0.004143</Y>
+        <Y t="63">0.004395</Y>
+        <Y t="64">0.004682</Y>
+        <Y t="65">0.005027</Y>
+        <Y t="66">0.005431</Y>
+        <Y t="67">0.005885</Y>
+        <Y t="68">0.006972</Y>
+        <Y t="69">0.007631</Y>
+        <Y t="70">0.008382</Y>
+        <Y t="71">0.009231</Y>
+        <Y t="72">0.010204</Y>
+        <Y t="73">0.011332</Y>
+        <Y t="74">0.01259</Y>
+        <Y t="75">0.01401</Y>
+        <Y t="76">0.01563</Y>
+        <Y t="77">0.017515</Y>
+        <Y t="78">0.022279</Y>
+        <Y t="79">0.025273</Y>
+        <Y t="80">0.028743</Y>
+        <Y t="81">0.032764</Y>
+        <Y t="82">0.037489</Y>
+        <Y t="83">0.043041</Y>
+        <Y t="84">0.049559</Y>
+        <Y t="85">0.057092</Y>
+        <Y t="86">0.065644</Y>
+        <Y t="87">0.075181</Y>
+        <Y t="88">0.08567</Y>
+        <Y t="89">0.096933</Y>
+        <Y t="90">0.108651</Y>
+        <Y t="91">0.132598</Y>
+        <Y t="92">0.145456</Y>
+        <Y t="93">0.159651</Y>
+        <Y t="94">0.192289</Y>
+        <Y t="95">0.210604</Y>
+        <Y t="96">0.230047</Y>
+        <Y t="97">0.250453</Y>
+        <Y t="98">0.272083</Y>
+        <Y t="99">0.29473</Y>
+        <Y t="100">0.318367</Y>
+        <Y t="101">0.34316</Y>
+        <Y t="102">0.368864</Y>
+        <Y t="103">0.395556</Y>
+        <Y t="104">0.422794</Y>
+        <Y t="105">0.452229</Y>
+        <Y t="106">0.482558</Y>
+        <Y t="107">0.505618</Y>
+        <Y t="108">0.545455</Y>
+        <Y t="109">0.55</Y>
+        <Y t="110">0.555556</Y>
+        <Y t="111">0.75</Y>
+        <Y t="112">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

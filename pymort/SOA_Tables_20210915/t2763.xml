@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2763</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. John Tatham, “Supplement to the Fifty-fifth Annual Report of Registrar-General of Births, Deaths, and Marriages in England – Part I”. H. Claves and Sons for Her  Majesty’s Stationer’s Office (London, 1895). Accessed: April, 2014 from http://histpop.org/ohpr/servlet/Show?page=Home.</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>ELT No. 5 (1881-90) - Male</TableName>
+    <TableDescription>English Life Tables (ELT) Number 5 (1881-90) - Male.  Minimum Age: 0 Maximum Age: 103</TableDescription>
+    <Comments>Study Data: Population data from England and Wales (i.e. not for all of the United Kingdom) for the period 1881-90 and deaths registered in those years. Radix of 1,000,000 split proportionally between male and female lives. Methodology: Not available at this time. NOTE: Initial English Life Tables were printed with just lx values. Over time, the tables were expanded to include qx values that then became the predominant format for the tables of this database. To aid in tracking the data available, qx versions have been created for this and other older tables. (Counterpart qx tables for ELT No 5 have SOA Table Identities 2765-2766). Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+    <KeyWord>Population</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 5 (1881-90) - Male.  Minimum Age: 0 Maximum Age: 103</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>103</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">509180</Y>
+        <Y t="1">427184</Y>
+        <Y t="2">402706</Y>
+        <Y t="3">393110</Y>
+        <Y t="4">387062</Y>
+        <Y t="5">382646</Y>
+        <Y t="6">379461</Y>
+        <Y t="7">377183</Y>
+        <Y t="8">375554</Y>
+        <Y t="9">374369</Y>
+        <Y t="10">373472</Y>
+        <Y t="11">372742</Y>
+        <Y t="12">372081</Y>
+        <Y t="13">371407</Y>
+        <Y t="14">370653</Y>
+        <Y t="15">369764</Y>
+        <Y t="16">368702</Y>
+        <Y t="17">367455</Y>
+        <Y t="18">366037</Y>
+        <Y t="19">364480</Y>
+        <Y t="20">362819</Y>
+        <Y t="21">361078</Y>
+        <Y t="22">359267</Y>
+        <Y t="23">357377</Y>
+        <Y t="24">355386</Y>
+        <Y t="25">353273</Y>
+        <Y t="26">351025</Y>
+        <Y t="27">348642</Y>
+        <Y t="28">346135</Y>
+        <Y t="29">343512</Y>
+        <Y t="30">340783</Y>
+        <Y t="31">337957</Y>
+        <Y t="32">335036</Y>
+        <Y t="33">332021</Y>
+        <Y t="34">328908</Y>
+        <Y t="35">325694</Y>
+        <Y t="36">322376</Y>
+        <Y t="37">318953</Y>
+        <Y t="38">315420</Y>
+        <Y t="39">311776</Y>
+        <Y t="40">308015</Y>
+        <Y t="41">304135</Y>
+        <Y t="42">300134</Y>
+        <Y t="43">296012</Y>
+        <Y t="44">291768</Y>
+        <Y t="45">287400</Y>
+        <Y t="46">282907</Y>
+        <Y t="47">278283</Y>
+        <Y t="48">273523</Y>
+        <Y t="49">268620</Y>
+        <Y t="50">263571</Y>
+        <Y t="51">258357</Y>
+        <Y t="52">252974</Y>
+        <Y t="53">247416</Y>
+        <Y t="54">241674</Y>
+        <Y t="55">235741</Y>
+        <Y t="56">229607</Y>
+        <Y t="57">223263</Y>
+        <Y t="58">216698</Y>
+        <Y t="59">209899</Y>
+        <Y t="60">202857</Y>
+        <Y t="61">195571</Y>
+        <Y t="62">188046</Y>
+        <Y t="63">180296</Y>
+        <Y t="64">172341</Y>
+        <Y t="65">164202</Y>
+        <Y t="66">155899</Y>
+        <Y t="67">147453</Y>
+        <Y t="68">138887</Y>
+        <Y t="69">130228</Y>
+        <Y t="70">121507</Y>
+        <Y t="71">112758</Y>
+        <Y t="72">104021</Y>
+        <Y t="73">95342</Y>
+        <Y t="74">86770</Y>
+        <Y t="75">78358</Y>
+        <Y t="76">70164</Y>
+        <Y t="77">62246</Y>
+        <Y t="78">54666</Y>
+        <Y t="79">47481</Y>
+        <Y t="80">40746</Y>
+        <Y t="81">34512</Y>
+        <Y t="82">28817</Y>
+        <Y t="83">23692</Y>
+        <Y t="84">19155</Y>
+        <Y t="85">15207</Y>
+        <Y t="86">11838</Y>
+        <Y t="87">9022</Y>
+        <Y t="88">6720</Y>
+        <Y t="89">4883</Y>
+        <Y t="90">3455</Y>
+        <Y t="91">2376</Y>
+        <Y t="92">1585</Y>
+        <Y t="93">1023</Y>
+        <Y t="94">638</Y>
+        <Y t="95">383</Y>
+        <Y t="96">221</Y>
+        <Y t="97">122</Y>
+        <Y t="98">64</Y>
+        <Y t="99">32</Y>
+        <Y t="100">15</Y>
+        <Y t="101">7</Y>
+        <Y t="102">3</Y>
+        <Y t="103">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

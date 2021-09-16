@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>912</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Naftali Teitelbaum, “The Effects of Mortality on Individual Annuities”, Transactions of the Society of Actuaries, Vol. XL, Part II, (1988) Table 6. Accessed: April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1988/January/tsa88v40pt24.pdf</TableReference>
+    <ContentType tc="22">Projection Scale</ContentType>
+    <TableName>Projection Scale I - Female</TableName>
+    <TableDescription>Mortality Improvement Projection Scale I – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Based on Social Security Administration (SSA) Actuarial Study No. 87 and Projection Scale G (See SOA Table Identities 908 and 909). Methodology: For annuity pricing purposes, conservatively assumed that both the SSA Actuarial Study No. 87 and Projection Scale G understate mortality improvement by 10 percent. It is further assumed that Projection I and Projection J lie between the adjusted aforementioned scales. Projection I is assumed to be equal to Projection G as adjusted plus 15 percent for males and 10 percent for females of the difference between the adjusted scales, except that for male central ages 12 to 32 inclusive the 15 percent factor is 10 percent. Projection J is assumed to be the average of the adjusted scales, except that for central ages 12 to 32 inclusive, Projection J equals Projection G as adjusted plus 20 percent of the difference between the adjusted scales. Projection I and Projection J values are then rounded. Projection Scale G does not commence till age 5 however Projection Scale I and J were developed down to age 0. Also, Projection Scale G rates were initially only published for central ages; interpolated rates for other ages subsequently printed in conjunction with the Annuity 2000 Tables (See SOA Tables 886 and 887). Following that practice, rates in this table have likewise been interpolated from the published central age rates and ultimate rates taper to 0 at age 102. Data Transcription Errors Detected: 04/2013. Data Corrected and Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Projection scale</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Mortality Improvement Projection Scale I – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0050</Y>
+        <Y t="1">0.0045</Y>
+        <Y t="2">0.0040</Y>
+        <Y t="3">0.0070</Y>
+        <Y t="4">0.0100</Y>
+        <Y t="5">0.0130</Y>
+        <Y t="6">0.0160</Y>
+        <Y t="7">0.0190</Y>
+        <Y t="8">0.0177</Y>
+        <Y t="9">0.0164</Y>
+        <Y t="10">0.0151</Y>
+        <Y t="11">0.0138</Y>
+        <Y t="12">0.0125</Y>
+        <Y t="13">0.0114</Y>
+        <Y t="14">0.0103</Y>
+        <Y t="15">0.0092</Y>
+        <Y t="16">0.0081</Y>
+        <Y t="17">0.0070</Y>
+        <Y t="18">0.0070</Y>
+        <Y t="19">0.0070</Y>
+        <Y t="20">0.0070</Y>
+        <Y t="21">0.0070</Y>
+        <Y t="22">0.0070</Y>
+        <Y t="23">0.0076</Y>
+        <Y t="24">0.0082</Y>
+        <Y t="25">0.0088</Y>
+        <Y t="26">0.0094</Y>
+        <Y t="27">0.0100</Y>
+        <Y t="28">0.0113</Y>
+        <Y t="29">0.0126</Y>
+        <Y t="30">0.0139</Y>
+        <Y t="31">0.0152</Y>
+        <Y t="32">0.0165</Y>
+        <Y t="33">0.0185</Y>
+        <Y t="34">0.0205</Y>
+        <Y t="35">0.0225</Y>
+        <Y t="36">0.0245</Y>
+        <Y t="37">0.0265</Y>
+        <Y t="38">0.0263</Y>
+        <Y t="39">0.0261</Y>
+        <Y t="40">0.0259</Y>
+        <Y t="41">0.0257</Y>
+        <Y t="42">0.0255</Y>
+        <Y t="43">0.0249</Y>
+        <Y t="44">0.0243</Y>
+        <Y t="45">0.0237</Y>
+        <Y t="46">0.0231</Y>
+        <Y t="47">0.0225</Y>
+        <Y t="48">0.0224</Y>
+        <Y t="49">0.0223</Y>
+        <Y t="50">0.0222</Y>
+        <Y t="51">0.0221</Y>
+        <Y t="52">0.0220</Y>
+        <Y t="53">0.0215</Y>
+        <Y t="54">0.0210</Y>
+        <Y t="55">0.0205</Y>
+        <Y t="56">0.0200</Y>
+        <Y t="57">0.0195</Y>
+        <Y t="58">0.0194</Y>
+        <Y t="59">0.0193</Y>
+        <Y t="60">0.0192</Y>
+        <Y t="61">0.0191</Y>
+        <Y t="62">0.0190</Y>
+        <Y t="63">0.0190</Y>
+        <Y t="64">0.0190</Y>
+        <Y t="65">0.0190</Y>
+        <Y t="66">0.0190</Y>
+        <Y t="67">0.0190</Y>
+        <Y t="68">0.0192</Y>
+        <Y t="69">0.0194</Y>
+        <Y t="70">0.0196</Y>
+        <Y t="71">0.0198</Y>
+        <Y t="72">0.0200</Y>
+        <Y t="73">0.0195</Y>
+        <Y t="74">0.0190</Y>
+        <Y t="75">0.0185</Y>
+        <Y t="76">0.0180</Y>
+        <Y t="77">0.0175</Y>
+        <Y t="78">0.0175</Y>
+        <Y t="79">0.0175</Y>
+        <Y t="80">0.0175</Y>
+        <Y t="81">0.0175</Y>
+        <Y t="82">0.0175</Y>
+        <Y t="83">0.0175</Y>
+        <Y t="84">0.0175</Y>
+        <Y t="85">0.0175</Y>
+        <Y t="86">0.0175</Y>
+        <Y t="87">0.0175</Y>
+        <Y t="88">0.0169</Y>
+        <Y t="89">0.0163</Y>
+        <Y t="90">0.0157</Y>
+        <Y t="91">0.0151</Y>
+        <Y t="92">0.0145</Y>
+        <Y t="93">0.0145</Y>
+        <Y t="94">0.0145</Y>
+        <Y t="95">0.0145</Y>
+        <Y t="96">0.0145</Y>
+        <Y t="97">0.0145</Y>
+        <Y t="98">0.0116</Y>
+        <Y t="99">0.0087</Y>
+        <Y t="100">0.0058</Y>
+        <Y t="101">0.0029</Y>
+        <Y t="102">0.0000</Y>
+        <Y t="103">0.0000</Y>
+        <Y t="104">0.0000</Y>
+        <Y t="105">0.0000</Y>
+        <Y t="106">0.0000</Y>
+        <Y t="107">0.0000</Y>
+        <Y t="108">0.0000</Y>
+        <Y t="109">0.0000</Y>
+        <Y t="110">0.0000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

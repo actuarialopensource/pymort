@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1712</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Individual Disability Experience Committee, “Development of the 2012 IDEC Claim Incidence Rate Table (Version 1.0)”, Society of Actuaries (2012). Accessed: May, 2013 from http://www.soa.org/files/research/exp-study/2012_idec_claim_incidence_rate_table.pdf AND Individual Disability Experience Committee, “SOA IDEC 2012 Tables Workbook Version 1.0 Excel File”, Society of Actuaries (2012) Accessed: May, 2013 from http://www.soa.org/Files/Research/Exp-Study/soa_idec_2012_tables_workbook_excel.xls</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>2012 IDEC Claim Incidence Table - Male, Occ Class 1, Acc, 180 day EP</TableName>
+    <TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Occupation Class: 1. Basis: Accident. Elimination Period: 180 days</TableDescription>
+    <Comments>Study Data: Data represents Version 1.0 and should be considered work in progress. Based on individual disability income (IDI) experience from 1990 to 2007 and contain no explicit margins for adverse deviations. One company’s policy and claim data was scaled down so as to represent only 40% of total exposure over the study period. Claim experience for attained ages over 64 was excluded since experience at these ages was mainly conditionally renewable, i.e., the insured had to be employed during the year of exposure. Methodology: Expected claims for each policy and exposure year were first derived using occupation class 1 claim incidence rates from the 1985 Commissioners Individual DisabilityTable A (CIDA) table (See SOA Table Identities 1230-1437), regardless of the IDEC occupation class. This allowed Actual-to-Expected (A/E) incidence ratios that reflect differences by occupation. The A/E experience for elimination periods 180, 360 and 720 days was combined because of the lack of data. A manual smoothing was first performed on the raw A/E ratios prior to the graduation process to ensure reasonable relationships among the occupation classes. Care was taken to preserve the overall A/E ratios for each combination of cause, gender, occupation class, and elimination period. The smoothed A/E ratios were then applied to the corresponding 1985 CIDA occupation class 1 incidence rates at pivotal ages 27, 32, 37, 42, 47, 52, 57 and 62. The resulting incidence rates were graduated using Whittaker-Henderson Type B. The graduated claim incidence rates were then used to recalculate the expected claims and new A/E ratios were derived for all of the policies and exposure years. The A/E ratios by count and monthly indemnity were then calculated for subsets based on gender, occupation class and elimination period. NOTE: The various claim incidence tables (SOA Table Identities 1706-1875) were published along with suggested adjustments to the rates to distinguish the experience among various business segments. Accordingly, the Excel workbook referenced above should be consulted. Data Transcription Errors: None. Data Certified: 05/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Incidence Table – Male. Occupation Class: 1. Basis: Accident. Elimination Period: 180 days</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>70</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00025324</Y>
+        <Y t="21">0.00025324</Y>
+        <Y t="22">0.00025324</Y>
+        <Y t="23">0.00025324</Y>
+        <Y t="24">0.00025324</Y>
+        <Y t="25">0.00025324</Y>
+        <Y t="26">0.000245694</Y>
+        <Y t="27">0.000238148</Y>
+        <Y t="28">0.000230602</Y>
+        <Y t="29">0.000223057</Y>
+        <Y t="30">0.000215511</Y>
+        <Y t="31">0.000207965</Y>
+        <Y t="32">0.000200419</Y>
+        <Y t="33">0.000198037</Y>
+        <Y t="34">0.000195655</Y>
+        <Y t="35">0.000193274</Y>
+        <Y t="36">0.000190892</Y>
+        <Y t="37">0.00018851</Y>
+        <Y t="38">0.000188887</Y>
+        <Y t="39">0.000190102</Y>
+        <Y t="40">0.000192123</Y>
+        <Y t="41">0.000194928</Y>
+        <Y t="42">0.000198499</Y>
+        <Y t="43">0.000202826</Y>
+        <Y t="44">0.000207908</Y>
+        <Y t="45">0.000213754</Y>
+        <Y t="46">0.000220379</Y>
+        <Y t="47">0.000227813</Y>
+        <Y t="48">0.00023609</Y>
+        <Y t="49">0.000245257</Y>
+        <Y t="50">0.000255364</Y>
+        <Y t="51">0.000266469</Y>
+        <Y t="52">0.000278635</Y>
+        <Y t="53">0.000291925</Y>
+        <Y t="54">0.000306401</Y>
+        <Y t="55">0.00032212</Y>
+        <Y t="56">0.000339129</Y>
+        <Y t="57">0.000357463</Y>
+        <Y t="58">0.000377137</Y>
+        <Y t="59">0.000398141</Y>
+        <Y t="60">0.000420434</Y>
+        <Y t="61">0.000443936</Y>
+        <Y t="62">0.00046852</Y>
+        <Y t="63">0.000493103</Y>
+        <Y t="64">0.000517687</Y>
+        <Y t="65">0.00054227</Y>
+        <Y t="66">0.000566854</Y>
+        <Y t="67">0.000591437</Y>
+        <Y t="68">0.000616021</Y>
+        <Y t="69">0.000640605</Y>
+        <Y t="70">0.000665188</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

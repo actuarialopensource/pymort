@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2046</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Vital Statistics Section of the Health and Welfare Division, “Canadian Life Tables”, Minister of Trade and Commerce (Ottawa, 1960). Accessed: July, 2013 from http://www.prdh.umontreal.ca/BDLC/data/pdfs/84-510.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Canadian Life Table 1955-57 - Males, ANB</TableName>
+    <TableDescription>Canadian Life Table 1955-57 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 106</TableDescription>
+    <Comments>Study Data: The population used is that of the decennial census and the deaths are those of the three-year period surrounding the census. At the youngest ages, birth and death statistics are used in the place of census data to obtain the numbers at each age. Methodology: All life tables since 1931 (See SOA Table Identities 2042 and 2043) have computed basically by the same formula: the basic method is Pivotal Value Method. As a first step, deaths and populations are graduated by Jenkin’s Method at pivotal 5-year intervals by  the formula: q(x) = D(x) / [P(x) + ½ D(x)] where D(x) is the number of deaths at age x and P(x) is the mid-year population at age x. Essentially, the probability of dying, denoted q(x) is obtained by dividing the average annual number of deaths at each age by the number of the population plus one half the deaths at that age. For ages 12 though 82, interpolations between pivotal values are made by Karup-King third difference tangential formula. No adjustments are made for misstatement of age or under registration of deaths. Special handling accorded juvenile ages and older ages. Namely, ages 0 though 5 are taken from birth and death registrations with q(5) bridged to q(6) by a third difference formula. For ages 87 and above, the following formula was used: q(x+5) = 4q(x) – 6 q(x-5) + 4q(x-10) – q(x-15). Data Transcription Errors: None. Data Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canadian Life Table 1955-57 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 106</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>106</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.03472</Y>
+        <Y t="1">0.00250</Y>
+        <Y t="2">0.00144</Y>
+        <Y t="3">0.00115</Y>
+        <Y t="4">0.00095</Y>
+        <Y t="5">0.00083</Y>
+        <Y t="6">0.00076</Y>
+        <Y t="7">0.00070</Y>
+        <Y t="8">0.00063</Y>
+        <Y t="9">0.00058</Y>
+        <Y t="10">0.00057</Y>
+        <Y t="11">0.00059</Y>
+        <Y t="12">0.00061</Y>
+        <Y t="13">0.00070</Y>
+        <Y t="14">0.00083</Y>
+        <Y t="15">0.00099</Y>
+        <Y t="16">0.00114</Y>
+        <Y t="17">0.00127</Y>
+        <Y t="18">0.00139</Y>
+        <Y t="19">0.00150</Y>
+        <Y t="20">0.00160</Y>
+        <Y t="21">0.00168</Y>
+        <Y t="22">0.00173</Y>
+        <Y t="23">0.00175</Y>
+        <Y t="24">0.00173</Y>
+        <Y t="25">0.00169</Y>
+        <Y t="26">0.00166</Y>
+        <Y t="27">0.00165</Y>
+        <Y t="28">0.00166</Y>
+        <Y t="29">0.00168</Y>
+        <Y t="30">0.00172</Y>
+        <Y t="31">0.00176</Y>
+        <Y t="32">0.00181</Y>
+        <Y t="33">0.00187</Y>
+        <Y t="34">0.00194</Y>
+        <Y t="35">0.00202</Y>
+        <Y t="36">0.00212</Y>
+        <Y t="37">0.00227</Y>
+        <Y t="38">0.00244</Y>
+        <Y t="39">0.00264</Y>
+        <Y t="40">0.00288</Y>
+        <Y t="41">0.00315</Y>
+        <Y t="42">0.00348</Y>
+        <Y t="43">0.00385</Y>
+        <Y t="44">0.00426</Y>
+        <Y t="45">0.00472</Y>
+        <Y t="46">0.00524</Y>
+        <Y t="47">0.00582</Y>
+        <Y t="48">0.00647</Y>
+        <Y t="49">0.00717</Y>
+        <Y t="50">0.00794</Y>
+        <Y t="51">0.00878</Y>
+        <Y t="52">0.00969</Y>
+        <Y t="53">0.01066</Y>
+        <Y t="54">0.01170</Y>
+        <Y t="55">0.01282</Y>
+        <Y t="56">0.01405</Y>
+        <Y t="57">0.01542</Y>
+        <Y t="58">0.01695</Y>
+        <Y t="59">0.01860</Y>
+        <Y t="60">0.02037</Y>
+        <Y t="61">0.02225</Y>
+        <Y t="62">0.02423</Y>
+        <Y t="63">0.02626</Y>
+        <Y t="64">0.02835</Y>
+        <Y t="65">0.03057</Y>
+        <Y t="66">0.03297</Y>
+        <Y t="67">0.03560</Y>
+        <Y t="68">0.03835</Y>
+        <Y t="69">0.04117</Y>
+        <Y t="70">0.04425</Y>
+        <Y t="71">0.04778</Y>
+        <Y t="72">0.05196</Y>
+        <Y t="73">0.05673</Y>
+        <Y t="74">0.06198</Y>
+        <Y t="75">0.06776</Y>
+        <Y t="76">0.07415</Y>
+        <Y t="77">0.08122</Y>
+        <Y t="78">0.08891</Y>
+        <Y t="79">0.09719</Y>
+        <Y t="80">0.10611</Y>
+        <Y t="81">0.11576</Y>
+        <Y t="82">0.12619</Y>
+        <Y t="83">0.13737</Y>
+        <Y t="84">0.14924</Y>
+        <Y t="85">0.16187</Y>
+        <Y t="86">0.17533</Y>
+        <Y t="87">0.18970</Y>
+        <Y t="88">0.20491</Y>
+        <Y t="89">0.22094</Y>
+        <Y t="90">0.23784</Y>
+        <Y t="91">0.25569</Y>
+        <Y t="92">0.27454</Y>
+        <Y t="93">0.29437</Y>
+        <Y t="94">0.31511</Y>
+        <Y t="95">0.33684</Y>
+        <Y t="96">0.35963</Y>
+        <Y t="97">0.38355</Y>
+        <Y t="98">0.40854</Y>
+        <Y t="99">0.43457</Y>
+        <Y t="100">0.46169</Y>
+        <Y t="101">0.48999</Y>
+        <Y t="102">0.51952</Y>
+        <Y t="103">0.55024</Y>
+        <Y t="104">0.58211</Y>
+        <Y t="105">0.61520</Y>
+        <Y t="106">0.64956</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

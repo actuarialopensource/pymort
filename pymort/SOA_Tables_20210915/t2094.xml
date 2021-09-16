@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2094</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Cathy Ho and Nancy S. Muise, “U.S. Individual Life Persistency: A Joint Study Sponsored by the Society of Actuaries and LIMRA”, SOA and LL Global, Inc., (2011). Accessed: February, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2005-2007 Individual Life Persistency Study – 10 YLT by Face Amount Bands</TableName>
+    <TableDescription>2005-2007 Individual Life Persistency Study – 10 Yearly Level Term (YLT) by Face Amount Bands. Basis: Death Benefit. Minimum Policy Duration: 1. Maximum Policy Duration: Varies by Band</TableDescription>
+    <Comments>Study Data: Experience based on data provided by 31 individual life insurance writers and represents lapse experience for whole life, term life, universal life and variable universal life plans issued between 1910 and 2007. For consistency with prior studies, lapse is defined as termination for nonpayment of premium, insufficient cash value or full surrender of a policy, transfer to reduced paid-up or extended term status, and terminations for unknown reason. The data underlying this report was collected on a policy-level, seriatim basis as this allows for a more detailed analysis of the factors influencing lapse results than studies conducted on an aggregated data basis. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapse during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity, or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the policy year they were in-force. For lapse by face amount, data collected represented just under $11 trillion in face amount exposed; the average face amount exposed was $37,000. Methodology: Lapse rates calculated by the following formula: Annualized Policy Lapse Rate = 100% * (Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year). Industry lapse rates are calculated as a weighted average of the experience of all contributing companies; companies with larger in-force blocks will affect the overall results more than companies with smaller in-force blocks. Thus, results for each policy factor analyzed are also examined at the company level to ensure that reported experience is not overly affected by one or more large participant blocks. Lapse rates are not reported for any data cell for which there were fewer than three companies or less than 1,000 policies exposed. Experience was reported exactly as calculated. No attempts were made to level or smooth results. As lapse rates resulting from the formula were multiplied by 100, the rates loaded to this table have been divided by 100. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Individual Life Persistency Study – 10 Yearly Level Term (YLT) by Face Amount Bands. Basis: Death Benefit &lt; $200,000. Minimum Policy Duration: 1. Maximum Policy Duration: 21</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.124</Y>
+        <Y t="2">0.103</Y>
+        <Y t="3">0.082</Y>
+        <Y t="4">0.07</Y>
+        <Y t="5">0.065</Y>
+        <Y t="6">0.06</Y>
+        <Y t="7">0.057</Y>
+        <Y t="8">0.055</Y>
+        <Y t="9">0.056</Y>
+        <Y t="10">0.278</Y>
+        <Y t="11">0.308</Y>
+        <Y t="12">0.089</Y>
+        <Y t="13">0.061</Y>
+        <Y t="14">0.051</Y>
+        <Y t="15">0.061</Y>
+        <Y t="16">0.067</Y>
+        <Y t="17">0.058</Y>
+        <Y t="18">0.042</Y>
+        <Y t="19">0.028</Y>
+        <Y t="20">0.07</Y>
+        <Y t="21">0.072</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Individual Life Persistency Study – 10 Yearly Level Term (YLT) by Face Amount Bands. Basis: Death Benefit $200,000-499,999. Minimum Policy Duration: 1. Maximum Policy Duration: 19</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>19</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.082</Y>
+        <Y t="2">0.082</Y>
+        <Y t="3">0.071</Y>
+        <Y t="4">0.065</Y>
+        <Y t="5">0.06</Y>
+        <Y t="6">0.058</Y>
+        <Y t="7">0.055</Y>
+        <Y t="8">0.058</Y>
+        <Y t="9">0.059</Y>
+        <Y t="10">0.324</Y>
+        <Y t="11">0.472</Y>
+        <Y t="12">0.152</Y>
+        <Y t="13">0.11</Y>
+        <Y t="14">0.079</Y>
+        <Y t="15">0.117</Y>
+        <Y t="16">0.113</Y>
+        <Y t="17">0.107</Y>
+        <Y t="18">0.069</Y>
+        <Y t="19">0.042</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Individual Life Persistency Study – 10 Yearly Level Term (YLT) by Face Amount Bands. Basis: Death Benefit $500,000 and Over. Minimum Policy Duration: 1. Maximum Policy Duration: 12</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>12</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.065</Y>
+        <Y t="2">0.077</Y>
+        <Y t="3">0.068</Y>
+        <Y t="4">0.062</Y>
+        <Y t="5">0.06</Y>
+        <Y t="6">0.058</Y>
+        <Y t="7">0.06</Y>
+        <Y t="8">0.062</Y>
+        <Y t="9">0.069</Y>
+        <Y t="10">0.338</Y>
+        <Y t="11">0.609</Y>
+        <Y t="12">0.229</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1934</TableIdentity>
+    <ProviderDomain>http://babel/hathitrust.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Thoam F. Crocker, Jr., Harry M Sarason, and Byron W. Straight. “The Actuary’s Pension Handbook”, Pension Publications (1955). Accessed: March, 2014 from  http://catalog.hathitrust.org/Record/001741014</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>Sarason T-tables (T-9)</TableName>
+    <TableDescription>Sarason T-tables (T-9). Minimum Age: 20. Maximum Age: 75.</TableDescription>
+    <Comments>Study Data: Termination rates represent termination from all causes except retirement, i.e. withdrawal, transfer, death and disability. Eleven termination tables and six salary scale tables (S-tables) have been developed in order for the actuary to construct continuance tables to provide pension actuaries with range of choices. The S-tables varied the pay increase by age, not like the flat salary rates seen in later pension work Mortality tables recommended for use with the T-tables to account for both death and turnover are the 1951 Group Annuity Mortality Table (See SOA Table Identity 809), the 1937 Standard Annuity Table (See SOA Table Identity 806), and United States White Male 1949-51 Table (See SOA Table Identity 531). In the years when valuations were done with no vesting rules (pre-ERISA), the publication of books containing commutation functions utilizing a specific mortality table, interest rate and combination of T-tables and S-tables were a valid way to ascertain plan costs by simply looking up table values. Methodology: There are slight differences in the slopes and ending ages of the T-tables. Higher table numbers usually resulted in higher probability of termination. Data Transcription Errors: None. Data Certified: 03/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Sarason T-tables (T-9). Minimum Age: 20. Maximum Age: 75</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>75</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.180000</Y>
+        <Y t="21">0.178847</Y>
+        <Y t="22">0.177569</Y>
+        <Y t="23">0.176167</Y>
+        <Y t="24">0.174643</Y>
+        <Y t="25">0.173000</Y>
+        <Y t="26">0.171209</Y>
+        <Y t="27">0.168871</Y>
+        <Y t="28">0.166059</Y>
+        <Y t="29">0.162845</Y>
+        <Y t="30">0.159296</Y>
+        <Y t="31">0.155473</Y>
+        <Y t="32">0.151430</Y>
+        <Y t="33">0.147209</Y>
+        <Y t="34">0.142844</Y>
+        <Y t="35">0.138360</Y>
+        <Y t="36">0.133774</Y>
+        <Y t="37">0.129095</Y>
+        <Y t="38">0.124325</Y>
+        <Y t="39">0.119461</Y>
+        <Y t="40">0.114500</Y>
+        <Y t="41">0.109430</Y>
+        <Y t="42">0.104241</Y>
+        <Y t="43">0.098924</Y>
+        <Y t="44">0.093477</Y>
+        <Y t="45">0.087899</Y>
+        <Y t="46">0.082163</Y>
+        <Y t="47">0.076233</Y>
+        <Y t="48">0.070080</Y>
+        <Y t="49">0.063697</Y>
+        <Y t="50">0.057120</Y>
+        <Y t="51">0.050476</Y>
+        <Y t="52">0.043967</Y>
+        <Y t="53">0.037837</Y>
+        <Y t="54">0.032341</Y>
+        <Y t="55">0.027700</Y>
+        <Y t="56">0.023845</Y>
+        <Y t="57">0.020855</Y>
+        <Y t="58">0.018766</Y>
+        <Y t="59">0.017558</Y>
+        <Y t="60">0.017169</Y>
+        <Y t="61">0.017520</Y>
+        <Y t="62">0.018520</Y>
+        <Y t="63">0.020068</Y>
+        <Y t="64">0.022067</Y>
+        <Y t="65">0.024418</Y>
+        <Y t="66">0.027193</Y>
+        <Y t="67">0.030112</Y>
+        <Y t="68">0.032986</Y>
+        <Y t="69">0.035943</Y>
+        <Y t="70">0.039303</Y>
+        <Y t="71">0.043183</Y>
+        <Y t="72">0.047476</Y>
+        <Y t="73">0.052084</Y>
+        <Y t="74">0.057077</Y>
+        <Y t="75">0.062427</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

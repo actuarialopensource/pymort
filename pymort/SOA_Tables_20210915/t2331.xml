@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2331</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Continuous Mortality Investigation, “Continuous Mortality Investigation Reports Number 23”, Institute of Actuaries and Faculty of Actuaries (2009). Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/00-series-mortality-tables-assured-lives-annuitants-and-pensioners</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>IML00</TableName>
+    <TableDescription>Immediate Annuitants – Males (IML00) Basis: Age Exact. Minimum Age: 60. Maximum Age: 120.</TableDescription>
+    <Comments>Study Data: Based on 1999-2002 life office experience known as the “00” Series. The “00” Series tables were exposed to the profession in a consultation process via a series of Working Papers and public meetings. Covers (non-pension) purchased life annuities. There is very little new business currently being submitted to the Continuous Mortality Investigation thus the experience is effectively closed and ageing. Methodology: Ultimate rates were produced for males at durations 0 and over (i.e. no select rates were produced), and for females at durations 1 and over. Furthermore, a decision was taken that no rates below age 60 would be produced, since the results would not be supported by the data. Values of q(x) were derived from the values of μ(x)  by using the formula: q(x) = 1 – e ^(- integral from 0 t- 1 of µ(x+t)) where the integral was approximated by the formula: [7µ(x) + 32(µ(x+ .25)) + 12(µ(x+ .5)) + 32(µ(x+ .75)) + 7(µ(x+ 1))] / 90 .  A “run-in” age of 100 and a “curvature” parameter of 1.25 were adopted to produce rates at the oldest ages. There was inadequate data to produce select rates for males however tt was decided that a select period of 1 should be adopted for females, with the select duration 0 values of μ being calculated as: µ [x] = 0.84 × µ(x). Data Transcription Errors: None. Data Certified: 09/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Immediate Annuitants – Males (IML00) Basis: Age Exact. Minimum Age: 60. Maximum Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>60</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="60">0.006889</Y>
+        <Y t="61">0.00729</Y>
+        <Y t="62">0.007766</Y>
+        <Y t="63">0.008331</Y>
+        <Y t="64">0.008998</Y>
+        <Y t="65">0.009784</Y>
+        <Y t="66">0.010708</Y>
+        <Y t="67">0.011791</Y>
+        <Y t="68">0.013057</Y>
+        <Y t="69">0.014533</Y>
+        <Y t="70">0.016248</Y>
+        <Y t="71">0.018235</Y>
+        <Y t="72">0.020531</Y>
+        <Y t="73">0.023176</Y>
+        <Y t="74">0.026214</Y>
+        <Y t="75">0.029692</Y>
+        <Y t="76">0.033661</Y>
+        <Y t="77">0.038177</Y>
+        <Y t="78">0.043297</Y>
+        <Y t="79">0.049083</Y>
+        <Y t="80">0.055598</Y>
+        <Y t="81">0.062909</Y>
+        <Y t="82">0.071083</Y>
+        <Y t="83">0.080187</Y>
+        <Y t="84">0.090286</Y>
+        <Y t="85">0.101447</Y>
+        <Y t="86">0.113728</Y>
+        <Y t="87">0.127185</Y>
+        <Y t="88">0.141867</Y>
+        <Y t="89">0.157811</Y>
+        <Y t="90">0.175045</Y>
+        <Y t="91">0.193583</Y>
+        <Y t="92">0.213426</Y>
+        <Y t="93">0.234556</Y>
+        <Y t="94">0.256937</Y>
+        <Y t="95">0.280516</Y>
+        <Y t="96">0.305218</Y>
+        <Y t="97">0.330948</Y>
+        <Y t="98">0.357594</Y>
+        <Y t="99">0.385022</Y>
+        <Y t="100">0.40802</Y>
+        <Y t="101">0.425685</Y>
+        <Y t="102">0.442596</Y>
+        <Y t="103">0.45878</Y>
+        <Y t="104">0.474261</Y>
+        <Y t="105">0.489061</Y>
+        <Y t="106">0.503202</Y>
+        <Y t="107">0.516703</Y>
+        <Y t="108">0.52958</Y>
+        <Y t="109">0.541848</Y>
+        <Y t="110">0.553517</Y>
+        <Y t="111">0.564597</Y>
+        <Y t="112">0.575092</Y>
+        <Y t="113">0.585</Y>
+        <Y t="114">0.594315</Y>
+        <Y t="115">0.603018</Y>
+        <Y t="116">0.611074</Y>
+        <Y t="117">0.618418</Y>
+        <Y t="118">0.62492</Y>
+        <Y t="119">0.630216</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

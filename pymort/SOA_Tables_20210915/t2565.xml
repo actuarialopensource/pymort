@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2565</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Cathy Ho and Nancy Muise, “Long Term Care Insurance Persistency, A Joint Study Sponsored by LIMRA and the Society of Actuaries”, Society of Actuaries and LL Global, Inc. (2010) Accessed: November, 2013 from http://www.soa.org/Files/Xls/research-05-07-ltc-ins-persistency-report.pdf</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2005-2007 LTC Persistency Study – Total Termination by Issue Age Bands</TableName>
+    <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Total Termination by Issue Age Bands. Minimum Policy Year: 1. Maximum Policy Year: 22</TableDescription>
+    <Comments>Study Data: The data underlying the 2005–2007 experience study indicates that some companies may be incorrectly coding deaths as either lapses or termination for an unknown cause, thus it is important to examine total termination rates as well as voluntary lapse rates. Methodology: Termination rates are calculated as follows: Annualized Termination Rate = 100 x Number of Lives Terminated During the Year / Number of Lives Exposed to Termination During the Year. Hence terminations due to death, expiry, maturity or conversion are lumped together with voluntary lapses, that is, termination for non-payment of premium, expiration of benefits, conversion, and in most cases, terminations for an unknown reason. As voluntary lapse rates trend toward a decline, total termination rates begin to increase gradually as the impact of mortality is greater on total terminations. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. NOTE: The table database does not currently support a type of “total termination”, that is termination due to the combination of lapses and deaths. Hence “termination voluntary” was selected as the type given the source material is listed as a “persistency study”. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Total Termination for Issue Age Less than 50. Minimum Policy Year: 1. Maximum Policy Year: 17</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>17</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.148</Y>
+        <Y t="2">0.122</Y>
+        <Y t="3">0.093</Y>
+        <Y t="4">0.073</Y>
+        <Y t="5">0.056</Y>
+        <Y t="6">0.051</Y>
+        <Y t="7">0.047</Y>
+        <Y t="8">0.042</Y>
+        <Y t="9">0.039</Y>
+        <Y t="10">0.037</Y>
+        <Y t="11">0.029</Y>
+        <Y t="12">0.024</Y>
+        <Y t="13">0.018</Y>
+        <Y t="14">0.017</Y>
+        <Y t="15">0.026</Y>
+        <Y t="16">0.015</Y>
+        <Y t="17">0.007</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Total Termination for Issue Ages 50-59. Minimum Policy Year: 1. Maximum Policy Year: 20</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>20</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.058</Y>
+        <Y t="2">0.043</Y>
+        <Y t="3">0.031</Y>
+        <Y t="4">0.026</Y>
+        <Y t="5">0.023</Y>
+        <Y t="6">0.024</Y>
+        <Y t="7">0.021</Y>
+        <Y t="8">0.02</Y>
+        <Y t="9">0.022</Y>
+        <Y t="10">0.021</Y>
+        <Y t="11">0.017</Y>
+        <Y t="12">0.018</Y>
+        <Y t="13">0.015</Y>
+        <Y t="14">0.016</Y>
+        <Y t="15">0.029</Y>
+        <Y t="16">0.015</Y>
+        <Y t="17">0.016</Y>
+        <Y t="18">0.024</Y>
+        <Y t="19">0.03</Y>
+        <Y t="20">0.033</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Total Termination for Issue Ages 60-69. Minimum Policy Year: 1. Maximum Policy Year: 22</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>22</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.05</Y>
+        <Y t="2">0.035</Y>
+        <Y t="3">0.026</Y>
+        <Y t="4">0.023</Y>
+        <Y t="5">0.021</Y>
+        <Y t="6">0.026</Y>
+        <Y t="7">0.023</Y>
+        <Y t="8">0.024</Y>
+        <Y t="9">0.026</Y>
+        <Y t="10">0.029</Y>
+        <Y t="11">0.03</Y>
+        <Y t="12">0.034</Y>
+        <Y t="13">0.034</Y>
+        <Y t="14">0.039</Y>
+        <Y t="15">0.05</Y>
+        <Y t="16">0.045</Y>
+        <Y t="17">0.05</Y>
+        <Y t="18">0.064</Y>
+        <Y t="19">0.076</Y>
+        <Y t="20">0.084</Y>
+        <Y t="21">0.089</Y>
+        <Y t="22">0.117</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Total Termination for Issue Ages 70-79. Minimum Policy Year: 1. Maximum Policy Year: 21</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.066</Y>
+        <Y t="2">0.044</Y>
+        <Y t="3">0.037</Y>
+        <Y t="4">0.036</Y>
+        <Y t="5">0.041</Y>
+        <Y t="6">0.052</Y>
+        <Y t="7">0.053</Y>
+        <Y t="8">0.058</Y>
+        <Y t="9">0.063</Y>
+        <Y t="10">0.069</Y>
+        <Y t="11">0.076</Y>
+        <Y t="12">0.081</Y>
+        <Y t="13">0.09</Y>
+        <Y t="14">0.102</Y>
+        <Y t="15">0.114</Y>
+        <Y t="16">0.12</Y>
+        <Y t="17">0.136</Y>
+        <Y t="18">0.161</Y>
+        <Y t="19">0.172</Y>
+        <Y t="20">0.189</Y>
+        <Y t="21">0.211</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Total Termination for Issue Ages 80 andOver. Minimum Policy Year: 1. Maximum Policy Year: 16</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>16</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.125</Y>
+        <Y t="2">0.09</Y>
+        <Y t="3">0.068</Y>
+        <Y t="4">0.072</Y>
+        <Y t="5">0.099</Y>
+        <Y t="6">0.125</Y>
+        <Y t="7">0.137</Y>
+        <Y t="8">0.144</Y>
+        <Y t="9">0.157</Y>
+        <Y t="10">0.174</Y>
+        <Y t="11">0.193</Y>
+        <Y t="12">0.211</Y>
+        <Y t="13">0.213</Y>
+        <Y t="14">0.231</Y>
+        <Y t="15">0.266</Y>
+        <Y t="16">0.242</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

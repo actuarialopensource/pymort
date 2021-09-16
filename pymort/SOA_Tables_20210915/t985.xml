@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>985</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Stephen J. Strommen</ProviderName>
+    <TableReference>Retirement Plans Experience Committee of the Society of Actuaries, “The RP-2000 Mortality Tables”, Society of Actuaries, (2000), p 34-36. Accessed: October, 2012 from www.soa.org/files/research/exp-study/rp00_mortalitytables.pdf.</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>RP-2000 - 1992 Base Mortality Table – Male Aggregate - Employee </TableName>
+    <TableDescription>Retirement Plan (RP) - 2000 Mortality Table - Male Aggregate - Employee, (Table 3-1), Base Year 1992.  Minimum Age: 1. Maximum Age: 70</TableDescription>
+    <Comments>Study Data: The Retirement Protection Act of 1994 (RPA) established mortality assumptions to be used when calculating Current Liabilities for pension plans. More than 100 pension plans submitted data from plan years 1990 through 1994. Note that the data behind the tables is from pension plans thereby having implications on annuity benefits. It is of no consequence that the various tables are labeled as "employee", "disabled retiree", etc.; all the RP-2000 tables are simply designated "annuitant mortality". Methodology: Contributors categorized their submissions as blue collar, white collar, or mixed collar. The data contributors summarized their mortality experience into cells by age, gender, and status (employee, retiree, disabled, and beneficiary). Data submissions that combined all inactive statuses (healthy retirees, beneficiaries, and/or disability retirees) or combined active employees with one or more inactive statuses were excluded. Data submitted in 5-year groups rather than single ages were also excluded. Data with unknown participant status were excluded. Also excluded was data of pension plans that are not directly affected by the RPA Current Liability rules so that the resulting mortality experience would be more appropriate for purposes of the Act. The central year of the data for these tables was estimated as 1992 and the tables were projected to the base year 2000 (See SOA Table Identities 1594-1599, 987 and 991). Three sources of data were reviewed to study recent trends in mortality: Social Security, Federal Civil Service, and the data collected for the study. Mortality improvement factors to project from 1992 to 2000 were based on analysis of these sources. To study long-term trends in mortality the data from four sources was examined: Social Security, Federal Civil Service, the Railroad Retirement Board, and the Society of Actuaries group annuity mortality studies. Liabilities for pension plans are automatically weighted by amounts thus mortality rates calculated were based on amounts. The resulting amount-adjusted mortality rates for employees, healthy annuitants, and disabled annuitants were graduated using Whittaker-Henderson Type B with third differences. Data Transcription Errors Detected: 10/5/2012.  Data Corrected and Certified: 10/2012</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord> United States of America</KeyWord>
+    <KeyWord> Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Retirement Plan (RP) - 2000 Mortality Table - Male Aggregate - Employee, (Table 3-1), Base Year 1992.  Minimum Age: 1. Maximum Age: 70</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>70</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000637</Y>
+        <Y t="2">0.000430</Y>
+        <Y t="3">0.000357</Y>
+        <Y t="4">0.000278</Y>
+        <Y t="5">0.000255</Y>
+        <Y t="6">0.000244</Y>
+        <Y t="7">0.000234</Y>
+        <Y t="8">0.000216</Y>
+        <Y t="9">0.000209</Y>
+        <Y t="10">0.000212</Y>
+        <Y t="11">0.000219</Y>
+        <Y t="12">0.000228</Y>
+        <Y t="13">0.000240</Y>
+        <Y t="14">0.000254</Y>
+        <Y t="15">0.000269</Y>
+        <Y t="16">0.000284</Y>
+        <Y t="17">0.000301</Y>
+        <Y t="18">0.000316</Y>
+        <Y t="19">0.000331</Y>
+        <Y t="20">0.000345</Y>
+        <Y t="21">0.000357</Y>
+        <Y t="22">0.000366</Y>
+        <Y t="23">0.000373</Y>
+        <Y t="24">0.000376</Y>
+        <Y t="25">0.000376</Y>
+        <Y t="26">0.000378</Y>
+        <Y t="27">0.000382</Y>
+        <Y t="28">0.000393</Y>
+        <Y t="29">0.000412</Y>
+        <Y t="30">0.000444</Y>
+        <Y t="31">0.000499</Y>
+        <Y t="32">0.000562</Y>
+        <Y t="33">0.000631</Y>
+        <Y t="34">0.000702</Y>
+        <Y t="35">0.000773</Y>
+        <Y t="36">0.000841</Y>
+        <Y t="37">0.000904</Y>
+        <Y t="38">0.000964</Y>
+        <Y t="39">0.001021</Y>
+        <Y t="40">0.001079</Y>
+        <Y t="41">0.001142</Y>
+        <Y t="42">0.001215</Y>
+        <Y t="43">0.001299</Y>
+        <Y t="44">0.001397</Y>
+        <Y t="45">0.001508</Y>
+        <Y t="46">0.001629</Y>
+        <Y t="47">0.001762</Y>
+        <Y t="48">0.001905</Y>
+        <Y t="49">0.002060</Y>
+        <Y t="50">0.002225</Y>
+        <Y t="51">0.002401</Y>
+        <Y t="52">0.002589</Y>
+        <Y t="53">0.002795</Y>
+        <Y t="54">0.003023</Y>
+        <Y t="55">0.003283</Y>
+        <Y t="56">0.003583</Y>
+        <Y t="57">0.003932</Y>
+        <Y t="58">0.004332</Y>
+        <Y t="59">0.004784</Y>
+        <Y t="60">0.005286</Y>
+        <Y t="61">0.005833</Y>
+        <Y t="62">0.006414</Y>
+        <Y t="63">0.007014</Y>
+        <Y t="64">0.007616</Y>
+        <Y t="65">0.008207</Y>
+        <Y t="66">0.008777</Y>
+        <Y t="67">0.009318</Y>
+        <Y t="68">0.009828</Y>
+        <Y t="69">0.010306</Y>
+        <Y t="70">0.010753</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

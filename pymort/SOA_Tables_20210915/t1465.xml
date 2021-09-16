@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1465</TableIdentity>
+    <ProviderDomain>actuaries.jp</ProviderDomain>
+    <ProviderName>The Institute of Actuaries of Japan (IAJ)</ProviderName>
+    <TableReference>The Institute of Actuaries of Japan, “ 標準生命表２００７の作成概要”,(The Making of Standard Life Table 2007), (2006). Accessed: September, 2012 from http://www.actuaries.jp/lib/standard-life-table/seimeihyo2007_B2.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>2007 Standard Mortality Table for Death Benefit Products - Male</TableName>
+    <TableDescription>2007 Standard Mortality Table for Death Benefit Products - Male. Minimum Age: 0. Maximum Age: 107.</TableDescription>
+    <Comments>Study Description: The Statistics and Information Department of the Ministry of Health, Labour and Welfare (MHLW) produces population life tables after each quinquennial census with The Institute of Actuaries of Japan (IAJ) producing life tables of insured lives. The 2007 Table was adopted as the mortality rate basis for calculating standard valuation reserves as of April, 2007. Methodology:  The 2007 Table was developed using “The 19th life tables” based on the Annual Vital Statistics and Population Census in 2000 from the Ministry of Health, Labour and Welfare (MHLW). Census mortality rates were smoothed using a third order, 9-term Greville’s formula. For advanced ages (over 90 for males and over 95 for females) rates were estimated and extrapolated using a Gompertz-Makeham function. It is not know at this time if the insured lives mortality rates were derived in the same fashion as the census mortality rates. Data Transcription Errors: None. Data Certified: 09/18/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Japan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="81">Japan</Nation>
+      <TableDescription>2007 Standard Mortality Table for Death Benefit Products - Male. Minimum Age: 0. Maximum Age: 107</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>107</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00108</Y>
+        <Y t="1">0.00075</Y>
+        <Y t="2">0.00049</Y>
+        <Y t="3">0.00031</Y>
+        <Y t="4">0.00021</Y>
+        <Y t="5">0.00017</Y>
+        <Y t="6">0.00016</Y>
+        <Y t="7">0.00016</Y>
+        <Y t="8">0.00016</Y>
+        <Y t="9">0.00015</Y>
+        <Y t="10">0.00014</Y>
+        <Y t="11">0.00013</Y>
+        <Y t="12">0.00014</Y>
+        <Y t="13">0.00018</Y>
+        <Y t="14">0.00025</Y>
+        <Y t="15">0.00036</Y>
+        <Y t="16">0.00049</Y>
+        <Y t="17">0.00062</Y>
+        <Y t="18">0.00073</Y>
+        <Y t="19">0.0008</Y>
+        <Y t="20">0.00084</Y>
+        <Y t="21">0.00086</Y>
+        <Y t="22">0.00085</Y>
+        <Y t="23">0.00084</Y>
+        <Y t="24">0.00083</Y>
+        <Y t="25">0.00082</Y>
+        <Y t="26">0.00081</Y>
+        <Y t="27">0.0008</Y>
+        <Y t="28">0.00081</Y>
+        <Y t="29">0.00083</Y>
+        <Y t="30">0.00086</Y>
+        <Y t="31">0.00089</Y>
+        <Y t="32">0.00092</Y>
+        <Y t="33">0.00096</Y>
+        <Y t="34">0.001</Y>
+        <Y t="35">0.00105</Y>
+        <Y t="36">0.00112</Y>
+        <Y t="37">0.00119</Y>
+        <Y t="38">0.00128</Y>
+        <Y t="39">0.00137</Y>
+        <Y t="40">0.00148</Y>
+        <Y t="41">0.00161</Y>
+        <Y t="42">0.00176</Y>
+        <Y t="43">0.00192</Y>
+        <Y t="44">0.00211</Y>
+        <Y t="45">0.00231</Y>
+        <Y t="46">0.00254</Y>
+        <Y t="47">0.00277</Y>
+        <Y t="48">0.00304</Y>
+        <Y t="49">0.00333</Y>
+        <Y t="50">0.00365</Y>
+        <Y t="51">0.00401</Y>
+        <Y t="52">0.0044</Y>
+        <Y t="53">0.0048</Y>
+        <Y t="54">0.00522</Y>
+        <Y t="55">0.00567</Y>
+        <Y t="56">0.00615</Y>
+        <Y t="57">0.00666</Y>
+        <Y t="58">0.00718</Y>
+        <Y t="59">0.00774</Y>
+        <Y t="60">0.00834</Y>
+        <Y t="61">0.00902</Y>
+        <Y t="62">0.00981</Y>
+        <Y t="63">0.01072</Y>
+        <Y t="64">0.0118</Y>
+        <Y t="65">0.01306</Y>
+        <Y t="66">0.01452</Y>
+        <Y t="67">0.01616</Y>
+        <Y t="68">0.01794</Y>
+        <Y t="69">0.01986</Y>
+        <Y t="70">0.02193</Y>
+        <Y t="71">0.02415</Y>
+        <Y t="72">0.02657</Y>
+        <Y t="73">0.02923</Y>
+        <Y t="74">0.03223</Y>
+        <Y t="75">0.03568</Y>
+        <Y t="76">0.03961</Y>
+        <Y t="77">0.044</Y>
+        <Y t="78">0.04877</Y>
+        <Y t="79">0.05425</Y>
+        <Y t="80">0.06039</Y>
+        <Y t="81">0.06728</Y>
+        <Y t="82">0.075</Y>
+        <Y t="83">0.08364</Y>
+        <Y t="84">0.09329</Y>
+        <Y t="85">0.10407</Y>
+        <Y t="86">0.11609</Y>
+        <Y t="87">0.12946</Y>
+        <Y t="88">0.14432</Y>
+        <Y t="89">0.16079</Y>
+        <Y t="90">0.179</Y>
+        <Y t="91">0.1991</Y>
+        <Y t="92">0.22119</Y>
+        <Y t="93">0.2454</Y>
+        <Y t="94">0.27184</Y>
+        <Y t="95">0.30058</Y>
+        <Y t="96">0.33166</Y>
+        <Y t="97">0.3651</Y>
+        <Y t="98">0.40085</Y>
+        <Y t="99">0.4388</Y>
+        <Y t="100">0.47877</Y>
+        <Y t="101">0.52048</Y>
+        <Y t="102">0.56359</Y>
+        <Y t="103">0.60761</Y>
+        <Y t="104">0.652</Y>
+        <Y t="105">0.69612</Y>
+        <Y t="106">0.73925</Y>
+        <Y t="107">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

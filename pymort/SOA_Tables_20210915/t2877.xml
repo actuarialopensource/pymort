@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2877</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Marcin Krzykowski</ProviderName>
+    <TableReference>Longina Rutkowska, “Trwanie Życia W 2011 R (Life Tables of Poland 2011)”, Informacje I Opracowania Statystyczne, Glówny Urząd Statystyczny (Warszawa, 2012). Accessed: July, 2014 from http://stat.gov.pl/cps/rde/xbcr/gus/LUD_trwanie_zycia_2011.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Tablica Trwania Życia 2011 - Mężczyzna</TableName>
+    <TableDescription>Tablica Trwania Życia (Life Table of Poland) 2011 - Mężczyzna (Male). Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: The principal data for the 2011 life tables were generated on the results of 2010 population and housing census. Tables are created for both genders separately and combined basis due to needs of social insurance programs. Data should be interpreted as representing a hypothetical group of people, numbering at birth 100,000 people, assuming that during the life of this group (i.e. over 100 years), the risk of death in each age would be the same as in the period considered. It should be emphasized that the rates do not apply to people living today, but determines the average age to which those who died in 2010, lived. Furthermore, a new category of “population” is defined as actually living persons (above 3 months) at a given territory. Methodology:  In order to enable the calculation of life expectancy parameters for small units, commencing with the data for 2006, modified extrapolation and equalizing the probabilities of death were implemented. The adoption of the new method resulted in a small reduction in the size of the average expectancy. Complete life tables are drawn up on the basis of data on persons deceased in 2010 classified by the year of birth and completed age, the number of births in 2011 and population by one year age – at the end of 2010 and 2011. The computation of the tables bases on probabilities of death are calculated up to the age of 84 (inclusive) by use of formulas that account for migration. The probabilities are extrapolated over the ages of 84 and over and then adjusted for ages 1-84. The probability of death q(x) is calculated by use of the formula: q(x) = 1- (1-q’(x))(1 – q”(x)) where q’(x) = Σ D(x, t) / [P(x, t-1) – ½ * R(x+1, t) ]  and q”(x) = Σ D”(x, t) / [P(x, t) + D”(x, t) + ½ * R(x, t) ] . In order to calculate the probabilities of death for persons aged 84 and over the polynomial-exponential function is fitted to the number of survivors. Fitting is done by use of the generalized least squares method (with application of Marquardt non-linear optimization method). Moving parabolic fit with different number of terms is employed as a method of graduation of the probabilities of death. The moving fit cycle is employed three times. The empirical value of q(0) remains intact. To ensure the comparability with previous methodology the life expectancy for total population have been calculated by use of method combining numbers of survivors of both sexes with the assumption of sex proportion at birth of 0.4845 for females and 0.5155 for males. Data Transcription Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Poland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="48">Poland</Nation>
+      <TableDescription>Tablica Trwania Życia (Life Table of Poland) 2011 - Mężczyzna (Male). Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00508</Y>
+        <Y t="1">0.00031</Y>
+        <Y t="2">0.00024</Y>
+        <Y t="3">0.00019</Y>
+        <Y t="4">0.00017</Y>
+        <Y t="5">0.00015</Y>
+        <Y t="6">0.00015</Y>
+        <Y t="7">0.00014</Y>
+        <Y t="8">0.00013</Y>
+        <Y t="9">0.00012</Y>
+        <Y t="10">0.00012</Y>
+        <Y t="11">0.00013</Y>
+        <Y t="12">0.00014</Y>
+        <Y t="13">0.00018</Y>
+        <Y t="14">0.00024</Y>
+        <Y t="15">0.00034</Y>
+        <Y t="16">0.00047</Y>
+        <Y t="17">0.00063</Y>
+        <Y t="18">0.0008</Y>
+        <Y t="19">0.00095</Y>
+        <Y t="20">0.00104</Y>
+        <Y t="21">0.00109</Y>
+        <Y t="22">0.00109</Y>
+        <Y t="23">0.00107</Y>
+        <Y t="24">0.00105</Y>
+        <Y t="25">0.00105</Y>
+        <Y t="26">0.00106</Y>
+        <Y t="27">0.0011</Y>
+        <Y t="28">0.00115</Y>
+        <Y t="29">0.00122</Y>
+        <Y t="30">0.0013</Y>
+        <Y t="31">0.00139</Y>
+        <Y t="32">0.0015</Y>
+        <Y t="33">0.00163</Y>
+        <Y t="34">0.00177</Y>
+        <Y t="35">0.00194</Y>
+        <Y t="36">0.00212</Y>
+        <Y t="37">0.00232</Y>
+        <Y t="38">0.00254</Y>
+        <Y t="39">0.00279</Y>
+        <Y t="40">0.00305</Y>
+        <Y t="41">0.00335</Y>
+        <Y t="42">0.00367</Y>
+        <Y t="43">0.00404</Y>
+        <Y t="44">0.00445</Y>
+        <Y t="45">0.0049</Y>
+        <Y t="46">0.00542</Y>
+        <Y t="47">0.006</Y>
+        <Y t="48">0.00663</Y>
+        <Y t="49">0.00733</Y>
+        <Y t="50">0.00808</Y>
+        <Y t="51">0.00889</Y>
+        <Y t="52">0.00974</Y>
+        <Y t="53">0.01065</Y>
+        <Y t="54">0.01159</Y>
+        <Y t="55">0.01259</Y>
+        <Y t="56">0.01363</Y>
+        <Y t="57">0.01473</Y>
+        <Y t="58">0.01588</Y>
+        <Y t="59">0.0171</Y>
+        <Y t="60">0.01838</Y>
+        <Y t="61">0.01972</Y>
+        <Y t="62">0.02113</Y>
+        <Y t="63">0.02261</Y>
+        <Y t="64">0.02415</Y>
+        <Y t="65">0.02577</Y>
+        <Y t="66">0.02747</Y>
+        <Y t="67">0.02929</Y>
+        <Y t="68">0.03123</Y>
+        <Y t="69">0.03334</Y>
+        <Y t="70">0.03566</Y>
+        <Y t="71">0.03823</Y>
+        <Y t="72">0.04109</Y>
+        <Y t="73">0.04429</Y>
+        <Y t="74">0.04787</Y>
+        <Y t="75">0.05187</Y>
+        <Y t="76">0.05631</Y>
+        <Y t="77">0.06122</Y>
+        <Y t="78">0.06662</Y>
+        <Y t="79">0.07253</Y>
+        <Y t="80">0.07894</Y>
+        <Y t="81">0.08588</Y>
+        <Y t="82">0.09337</Y>
+        <Y t="83">0.10141</Y>
+        <Y t="84">0.11003</Y>
+        <Y t="85">0.11925</Y>
+        <Y t="86">0.12913</Y>
+        <Y t="87">0.13968</Y>
+        <Y t="88">0.15095</Y>
+        <Y t="89">0.16298</Y>
+        <Y t="90">0.17575</Y>
+        <Y t="91">0.18944</Y>
+        <Y t="92">0.20392</Y>
+        <Y t="93">0.21919</Y>
+        <Y t="94">0.23524</Y>
+        <Y t="95">0.25207</Y>
+        <Y t="96">0.26967</Y>
+        <Y t="97">0.28802</Y>
+        <Y t="98">0.30709</Y>
+        <Y t="99">0.32686</Y>
+        <Y t="100">0.34728</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>573</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>John S. Brake</ProviderName>
+    <TableReference>Commonwealth Actuary, “Australian Life Tables 1965-67”, Commonwealth Bureau of Census and Statistics (Canberra, 1974). Accessed: February, 2014 from http://www.aga.gov.au/publications/life_tables_2005-07/downloads/males_alltables_qx.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Australian Life Tables 1965-67 Female</TableName>
+    <TableDescription>Australian Life Tables 1965-67 Female. Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Based on the census of 30 June 1966, deaths in the three years 1965, 1966 and 1967. Full-blooded Aborigines were included for the first time. Methodology: Spencer’s 21-term formula was found inadequate on this occasion so a graphic graduation was blended into it at younger ages and the formula m(x) = a + b*c^x applied at advanced ages. Derivation of q(x) and µ(x) were along English Life Table 12 lines (See SOA Table Identities 659 and 660). Data Transcription Errors Detected: 02/2014. Data Corrected and Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Life Tables 1965-67 Female. Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.01639</Y>
+        <Y t="1">0.00158</Y>
+        <Y t="2">0.00080</Y>
+        <Y t="3">0.00060</Y>
+        <Y t="4">0.00051</Y>
+        <Y t="5">0.00042</Y>
+        <Y t="6">0.00036</Y>
+        <Y t="7">0.00032</Y>
+        <Y t="8">0.00029</Y>
+        <Y t="9">0.00027</Y>
+        <Y t="10">0.00026</Y>
+        <Y t="11">0.00025</Y>
+        <Y t="12">0.00025</Y>
+        <Y t="13">0.00027</Y>
+        <Y t="14">0.00033</Y>
+        <Y t="15">0.00041</Y>
+        <Y t="16">0.00048</Y>
+        <Y t="17">0.00055</Y>
+        <Y t="18">0.00062</Y>
+        <Y t="19">0.00063</Y>
+        <Y t="20">0.00064</Y>
+        <Y t="21">0.00064</Y>
+        <Y t="22">0.00064</Y>
+        <Y t="23">0.00064</Y>
+        <Y t="24">0.00064</Y>
+        <Y t="25">0.00065</Y>
+        <Y t="26">0.00067</Y>
+        <Y t="27">0.00070</Y>
+        <Y t="28">0.00075</Y>
+        <Y t="29">0.00079</Y>
+        <Y t="30">0.00085</Y>
+        <Y t="31">0.00091</Y>
+        <Y t="32">0.00097</Y>
+        <Y t="33">0.00105</Y>
+        <Y t="34">0.00113</Y>
+        <Y t="35">0.00123</Y>
+        <Y t="36">0.00135</Y>
+        <Y t="37">0.00149</Y>
+        <Y t="38">0.00163</Y>
+        <Y t="39">0.00178</Y>
+        <Y t="40">0.00195</Y>
+        <Y t="41">0.00213</Y>
+        <Y t="42">0.00233</Y>
+        <Y t="43">0.00257</Y>
+        <Y t="44">0.00283</Y>
+        <Y t="45">0.00313</Y>
+        <Y t="46">0.00345</Y>
+        <Y t="47">0.00381</Y>
+        <Y t="48">0.00418</Y>
+        <Y t="49">0.00456</Y>
+        <Y t="50">0.00496</Y>
+        <Y t="51">0.00539</Y>
+        <Y t="52">0.00583</Y>
+        <Y t="53">0.00632</Y>
+        <Y t="54">0.00684</Y>
+        <Y t="55">0.00738</Y>
+        <Y t="56">0.00799</Y>
+        <Y t="57">0.00864</Y>
+        <Y t="58">0.00937</Y>
+        <Y t="59">0.01018</Y>
+        <Y t="60">0.01110</Y>
+        <Y t="61">0.01213</Y>
+        <Y t="62">0.01330</Y>
+        <Y t="63">0.01461</Y>
+        <Y t="64">0.01608</Y>
+        <Y t="65">0.01774</Y>
+        <Y t="66">0.01961</Y>
+        <Y t="67">0.02172</Y>
+        <Y t="68">0.02414</Y>
+        <Y t="69">0.02683</Y>
+        <Y t="70">0.02981</Y>
+        <Y t="71">0.03308</Y>
+        <Y t="72">0.03665</Y>
+        <Y t="73">0.04054</Y>
+        <Y t="74">0.04486</Y>
+        <Y t="75">0.04967</Y>
+        <Y t="76">0.05515</Y>
+        <Y t="77">0.06135</Y>
+        <Y t="78">0.06833</Y>
+        <Y t="79">0.07607</Y>
+        <Y t="80">0.08461</Y>
+        <Y t="81">0.09383</Y>
+        <Y t="82">0.10377</Y>
+        <Y t="83">0.11438</Y>
+        <Y t="84">0.12573</Y>
+        <Y t="85">0.13782</Y>
+        <Y t="86">0.15064</Y>
+        <Y t="87">0.16404</Y>
+        <Y t="88">0.17802</Y>
+        <Y t="89">0.19241</Y>
+        <Y t="90">0.20710</Y>
+        <Y t="91">0.22195</Y>
+        <Y t="92">0.23698</Y>
+        <Y t="93">0.25213</Y>
+        <Y t="94">0.26746</Y>
+        <Y t="95">0.28296</Y>
+        <Y t="96">0.29867</Y>
+        <Y t="97">0.31459</Y>
+        <Y t="98">0.33070</Y>
+        <Y t="99">0.34698</Y>
+        <Y t="100">0.36342</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1476</TableIdentity>
+    <ProviderDomain>naic.org</ProviderDomain>
+    <ProviderName>NAIC</ProviderName>
+    <TableReference>National Association of Insurance Commissioners, "1985 NAIC Cancer Claim Cost Tables", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1985 NAIC Cancer Claim Cost Table All-Payment Conversion Factors</TableName>
+    <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table All-Payment Conversion Factors. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+    <Comments>Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. Methodology: Conversion factors developed for use in combining individual claim categories (hospital, attending physician, chemotherapy, etc See SOA Table Identities 1460-1475, 1483-1485, and 2587-2596) into an all-payment claim cost. These factors may be helpful in determining claim reserves and liabilities of companies reserving on the all-payment basis. To convert each-payment claim cost to an all-payment claim cost multiply A x B x C where A: All payment Conversion Factor of this table; B: an interest rate factor specified in the application valuation standard, and C: each-payment claim cost. Data Transcription Errors: None. Data Certified: 12/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table All-Payment Conversion Factors. Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">1.1733</Y>
+        <Y t="16">1.1733</Y>
+        <Y t="17">1.1733</Y>
+        <Y t="18">1.1733</Y>
+        <Y t="19">1.1733</Y>
+        <Y t="20">1.1733</Y>
+        <Y t="21">1.1733</Y>
+        <Y t="22">1.1733</Y>
+        <Y t="23">1.1691</Y>
+        <Y t="24">1.1648</Y>
+        <Y t="25">1.1605</Y>
+        <Y t="26">1.1563</Y>
+        <Y t="27">1.152</Y>
+        <Y t="28">1.1477</Y>
+        <Y t="29">1.1435</Y>
+        <Y t="30">1.1392</Y>
+        <Y t="31">1.1349</Y>
+        <Y t="32">1.1307</Y>
+        <Y t="33">1.1264</Y>
+        <Y t="34">1.1221</Y>
+        <Y t="35">1.1179</Y>
+        <Y t="36">1.1136</Y>
+        <Y t="37">1.1093</Y>
+        <Y t="38">1.1051</Y>
+        <Y t="39">1.1008</Y>
+        <Y t="40">1.0965</Y>
+        <Y t="41">1.0923</Y>
+        <Y t="42">1.088</Y>
+        <Y t="43">1.0837</Y>
+        <Y t="44">1.0795</Y>
+        <Y t="45">1.0752</Y>
+        <Y t="46">1.0709</Y>
+        <Y t="47">1.0667</Y>
+        <Y t="48">1.0624</Y>
+        <Y t="49">1.0581</Y>
+        <Y t="50">1.0539</Y>
+        <Y t="51">1.0496</Y>
+        <Y t="52">1.0453</Y>
+        <Y t="53">1.0411</Y>
+        <Y t="54">1.0368</Y>
+        <Y t="55">1.0325</Y>
+        <Y t="56">1.0283</Y>
+        <Y t="57">1.024</Y>
+        <Y t="58">1.0197</Y>
+        <Y t="59">1.0155</Y>
+        <Y t="60">1.0112</Y>
+        <Y t="61">1.0069</Y>
+        <Y t="62">1.0027</Y>
+        <Y t="63">0.9984</Y>
+        <Y t="64">0.9941</Y>
+        <Y t="65">0.9899</Y>
+        <Y t="66">0.9856</Y>
+        <Y t="67">0.9813</Y>
+        <Y t="68">0.9771</Y>
+        <Y t="69">0.9728</Y>
+        <Y t="70">0.9685</Y>
+        <Y t="71">0.9643</Y>
+        <Y t="72">0.96</Y>
+        <Y t="73">0.96</Y>
+        <Y t="74">0.96</Y>
+        <Y t="75">0.96</Y>
+        <Y t="76">0.96</Y>
+        <Y t="77">0.96</Y>
+        <Y t="78">0.96</Y>
+        <Y t="79">0.96</Y>
+        <Y t="80">0.96</Y>
+        <Y t="81">0.96</Y>
+        <Y t="82">0.96</Y>
+        <Y t="83">0.96</Y>
+        <Y t="84">0.96</Y>
+        <Y t="85">0.96</Y>
+        <Y t="86">0.96</Y>
+        <Y t="87">0.96</Y>
+        <Y t="88">0.96</Y>
+        <Y t="89">0.96</Y>
+        <Y t="90">0.96</Y>
+        <Y t="91">0.96</Y>
+        <Y t="92">0.96</Y>
+        <Y t="93">0.96</Y>
+        <Y t="94">0.96</Y>
+        <Y t="95">0.96</Y>
+        <Y t="96">0.96</Y>
+        <Y t="97">0.96</Y>
+        <Y t="98">0.96</Y>
+        <Y t="99">0.96</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

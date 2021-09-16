@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>202</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>The New Zealand Society of Actuaries, “Report of the 1995 Mortality Investigation by the Experience Investigation Committee”, The New Zealand Society of Actuaries (1996)</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>NZ95M</TableName>
+    <TableDescription>1995 New Zealand Mortality – Males (NZ95M) Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Fifteen companies contributed data to the study. Only eight of the companies were able to supply data for the entire five year period from January, 1991 to December, 1995 thus the average mortality will relate to a slightly more recent time than the observation period suggests. As not all companies contributed data for 1991 but all did contribute for 1995, the committee felt the graduated tables should be named NZ95 rather than NZ91-95. Hence the departure in naming convention from the predecessor New Zealand table NZ84-87 (See SOA Table 204) and comparable Australian tables IA90-92 (See SOA Table Identities 237and 238).  The following classes of policies were excluded from the study: non-standard issues, reinsurance from other companies, children’s deferred insurances, policies issued as Industrial or Collector, group policies, and joint life policies. Investigation based on lives rather than policies. Methodology: Initial graduation attempt used a Whittaker-Henderson B formula as was used in the NZ84-87 tables however the method was rejected due to lack of smoothness. Eventually it was decided that a Heligman-Pollard Formula 3 to be the most appropriate. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>New Zealand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="64">New Zealand</Nation>
+      <TableDescription>1995 New Zealand Mortality Rates – Males (NZ95M) Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00048</Y>
+        <Y t="1">0.00040</Y>
+        <Y t="2">0.00038</Y>
+        <Y t="3">0.00037</Y>
+        <Y t="4">0.00036</Y>
+        <Y t="5">0.00035</Y>
+        <Y t="6">0.00035</Y>
+        <Y t="7">0.00035</Y>
+        <Y t="8">0.00034</Y>
+        <Y t="9">0.00034</Y>
+        <Y t="10">0.00035</Y>
+        <Y t="11">0.00037</Y>
+        <Y t="12">0.00041</Y>
+        <Y t="13">0.00047</Y>
+        <Y t="14">0.00055</Y>
+        <Y t="15">0.00064</Y>
+        <Y t="16">0.00074</Y>
+        <Y t="17">0.00083</Y>
+        <Y t="18">0.00092</Y>
+        <Y t="19">0.00098</Y>
+        <Y t="20">0.00102</Y>
+        <Y t="21">0.00104</Y>
+        <Y t="22">0.00104</Y>
+        <Y t="23">0.00102</Y>
+        <Y t="24">0.00098</Y>
+        <Y t="25">0.00094</Y>
+        <Y t="26">0.00090</Y>
+        <Y t="27">0.00085</Y>
+        <Y t="28">0.00081</Y>
+        <Y t="29">0.00077</Y>
+        <Y t="30">0.00074</Y>
+        <Y t="31">0.00072</Y>
+        <Y t="32">0.00071</Y>
+        <Y t="33">0.00071</Y>
+        <Y t="34">0.00071</Y>
+        <Y t="35">0.00073</Y>
+        <Y t="36">0.00076</Y>
+        <Y t="37">0.00079</Y>
+        <Y t="38">0.00084</Y>
+        <Y t="39">0.00090</Y>
+        <Y t="40">0.00097</Y>
+        <Y t="41">0.00105</Y>
+        <Y t="42">0.00115</Y>
+        <Y t="43">0.00126</Y>
+        <Y t="44">0.00139</Y>
+        <Y t="45">0.00153</Y>
+        <Y t="46">0.00170</Y>
+        <Y t="47">0.00189</Y>
+        <Y t="48">0.00211</Y>
+        <Y t="49">0.00235</Y>
+        <Y t="50">0.00263</Y>
+        <Y t="51">0.00294</Y>
+        <Y t="52">0.00329</Y>
+        <Y t="53">0.00368</Y>
+        <Y t="54">0.00413</Y>
+        <Y t="55">0.00463</Y>
+        <Y t="56">0.00519</Y>
+        <Y t="57">0.00582</Y>
+        <Y t="58">0.00653</Y>
+        <Y t="59">0.00733</Y>
+        <Y t="60">0.00822</Y>
+        <Y t="61">0.00921</Y>
+        <Y t="62">0.01032</Y>
+        <Y t="63">0.01157</Y>
+        <Y t="64">0.01296</Y>
+        <Y t="65">0.01451</Y>
+        <Y t="66">0.01624</Y>
+        <Y t="67">0.01817</Y>
+        <Y t="68">0.02031</Y>
+        <Y t="69">0.02269</Y>
+        <Y t="70">0.02534</Y>
+        <Y t="71">0.02828</Y>
+        <Y t="72">0.03153</Y>
+        <Y t="73">0.03514</Y>
+        <Y t="74">0.03913</Y>
+        <Y t="75">0.04353</Y>
+        <Y t="76">0.04839</Y>
+        <Y t="77">0.05374</Y>
+        <Y t="78">0.05962</Y>
+        <Y t="79">0.06608</Y>
+        <Y t="80">0.07316</Y>
+        <Y t="81">0.08090</Y>
+        <Y t="82">0.08936</Y>
+        <Y t="83">0.09857</Y>
+        <Y t="84">0.10857</Y>
+        <Y t="85">0.11943</Y>
+        <Y t="86">0.13116</Y>
+        <Y t="87">0.14382</Y>
+        <Y t="88">0.15743</Y>
+        <Y t="89">0.17202</Y>
+        <Y t="90">0.18760</Y>
+        <Y t="91">0.20420</Y>
+        <Y t="92">0.22180</Y>
+        <Y t="93">0.24040</Y>
+        <Y t="94">0.25997</Y>
+        <Y t="95">0.28048</Y>
+        <Y t="96">0.30188</Y>
+        <Y t="97">0.32411</Y>
+        <Y t="98">0.34708</Y>
+        <Y t="99">0.37072</Y>
+        <Y t="100">0.39492</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

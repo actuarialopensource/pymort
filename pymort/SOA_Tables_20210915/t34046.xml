@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>34046</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Tillinghast-Towers Perrin, Bertrand Cleuvenot</ProviderName>
+    <TableReference></TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>VZ2000_m: 2000 Switzerland VZ,  Pension Funds, Male - PENDING VALIDATION</TableName>
+    <TableDescription>TM-Country: Switzerland
+Source of data: City of Zurich Employees Pension Funds data
+Observation period: Unknown
+Minimum age: 18
+Maximum age: 100
+Number of decimal places: 5
+Hash value: -469342524
+</TableDescription>
+    <Comments>Versicherungskasse Stadt Zurich
+NOTE: the contents of this table have yet to be validated against a published source to ensure no transcription errors have occurred</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Switzerland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="41">Switzerland</Nation>
+      <TableDescription>VZ2000_m: 2000 Switzerland VZ,  Pension Funds, Male-Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00060</Y>
+        <Y t="19">0.00066</Y>
+        <Y t="20">0.00071</Y>
+        <Y t="21">0.00076</Y>
+        <Y t="22">0.00080</Y>
+        <Y t="23">0.00082</Y>
+        <Y t="24">0.00085</Y>
+        <Y t="25">0.00087</Y>
+        <Y t="26">0.00088</Y>
+        <Y t="27">0.00088</Y>
+        <Y t="28">0.00088</Y>
+        <Y t="29">0.00087</Y>
+        <Y t="30">0.00085</Y>
+        <Y t="31">0.00082</Y>
+        <Y t="32">0.00081</Y>
+        <Y t="33">0.00082</Y>
+        <Y t="34">0.00085</Y>
+        <Y t="35">0.00090</Y>
+        <Y t="36">0.00097</Y>
+        <Y t="37">0.00105</Y>
+        <Y t="38">0.00116</Y>
+        <Y t="39">0.00128</Y>
+        <Y t="40">0.00142</Y>
+        <Y t="41">0.00157</Y>
+        <Y t="42">0.00173</Y>
+        <Y t="43">0.00189</Y>
+        <Y t="44">0.00203</Y>
+        <Y t="45">0.00218</Y>
+        <Y t="46">0.00231</Y>
+        <Y t="47">0.00246</Y>
+        <Y t="48">0.00258</Y>
+        <Y t="49">0.00272</Y>
+        <Y t="50">0.00284</Y>
+        <Y t="51">0.00297</Y>
+        <Y t="52">0.00316</Y>
+        <Y t="53">0.00345</Y>
+        <Y t="54">0.00382</Y>
+        <Y t="55">0.00426</Y>
+        <Y t="56">0.00479</Y>
+        <Y t="57">0.00538</Y>
+        <Y t="58">0.00607</Y>
+        <Y t="59">0.00682</Y>
+        <Y t="60">0.00766</Y>
+        <Y t="61">0.00861</Y>
+        <Y t="62">0.00972</Y>
+        <Y t="63">0.01098</Y>
+        <Y t="64">0.01238</Y>
+        <Y t="65">0.01395</Y>
+        <Y t="66">0.01568</Y>
+        <Y t="67">0.01755</Y>
+        <Y t="68">0.01958</Y>
+        <Y t="69">0.02177</Y>
+        <Y t="70">0.02412</Y>
+        <Y t="71">0.02662</Y>
+        <Y t="72">0.02949</Y>
+        <Y t="73">0.03274</Y>
+        <Y t="74">0.03636</Y>
+        <Y t="75">0.04035</Y>
+        <Y t="76">0.04471</Y>
+        <Y t="77">0.04946</Y>
+        <Y t="78">0.05457</Y>
+        <Y t="79">0.06007</Y>
+        <Y t="80">0.06596</Y>
+        <Y t="81">0.07228</Y>
+        <Y t="82">0.07975</Y>
+        <Y t="83">0.08833</Y>
+        <Y t="84">0.09807</Y>
+        <Y t="85">0.10892</Y>
+        <Y t="86">0.12092</Y>
+        <Y t="87">0.13407</Y>
+        <Y t="88">0.14836</Y>
+        <Y t="89">0.16381</Y>
+        <Y t="90">0.18040</Y>
+        <Y t="91">0.19828</Y>
+        <Y t="92">0.21714</Y>
+        <Y t="93">0.23699</Y>
+        <Y t="94">0.25784</Y>
+        <Y t="95">0.27968</Y>
+        <Y t="96">0.30252</Y>
+        <Y t="97">0.32634</Y>
+        <Y t="98">0.35117</Y>
+        <Y t="99">0.37699</Y>
+        <Y t="100">0.40380</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

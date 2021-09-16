@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>784</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Manuel R. Cueto, “Monetary Values for Ordinary Disability Benefits, Based on Period 2 of the 1952 Inter-Company Study of the Society’s Committee with Interest at 2½ %”, Transactions of the Society of Actuaries, Vol. VI, No. 14. (1954) Table 1b. Accessed: June, 2013 from   http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1954/January/tsa54v6n1410.pdf.</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1952 Graduated Rates of Disablement - Benefit 1, Period 2, 90 day EP</TableName>
+    <TableDescription>1952 Graduated Rates of Disablement - Benefit 1. Time Period: 2. Elimination Period: 90 days. Minimum Age: 15. Maximum Age: 59</TableDescription>
+    <Comments>Study Data: The Committee on Disability and Double Indemnity presented in 1952 the results of an intercompany study of the experience of eleven companies under certain ordinary disability benefits between 1930 and 1950 anniversaries. (“Experience Under Certain Ordinary Disability Benefits Between the 1930 and 1950 Anniversaries”, Reports of the Society of Actuaries (1952)). Benefit 1 represents claims under the "total and permanent" clause, under which the probable permanence of the disability had to be established on the merits of each case; the benefit covered waiver of premiums plus a monthly life income during continuance of total permanent disability of $10 per thousand of life insurance. This benefit contained a 3 month waiting period which was a necessary, but not a sufficient, condition for establishing permanence. Issues of these contracts are chiefly from 1918 to early in 1930. Methodology: The rates of disablement were derived as the ratio of the amount of admissions to disability benefit with date of disablement in a particular policy year to the mean in force of active lives over such policy year, approximated in most cases as the December 31st valuation in force. While Period 2 rates of disablement (between 1935 and 1939 anniversaries) are not exactly midway between those for Period 1 (1930-1935) which are high, and Period 4 (1946--1950) which are low, they are believed to represent a reasonable approach to the problem of attempting to use what might be considered an average or "long-term" level of disability rates. The individual age disablement rates for Period 2 were graduated by the Whittaker-Henderson "A" formula minimizing third  differences, with a* = 4. At the youngest ages, rates based on exposures of less than $5 million of life insurance at a single age were excluded from the graduation. The Period 2 graduated rates of disablement for each of the Benefits 1 to 5, inclusive, were shown in the 1952 Disability Report for attained ages 18 to 59 inclusive. However, in the interest of making monetary values as complete as possible without serious inaccuracy, it was decided to extend the rates of disablement for Benefits 1 to 4 back to age 15 (the earliest age at which these benefits were generally issued) by arbitrarily using the rates at age 18 for ages below 18. Data Transcription Errors: None. Data Certified: 06/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1952 Graduated Rates of Disablement - Benefit 1. Time Period: 2. Elimination Period: 90 days. Minimum Age: 15. Maximum Age: 59</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>59</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00144</Y>
+        <Y t="16">0.00144</Y>
+        <Y t="17">0.00144</Y>
+        <Y t="18">0.00144</Y>
+        <Y t="19">0.00144</Y>
+        <Y t="20">0.00144</Y>
+        <Y t="21">0.00144</Y>
+        <Y t="22">0.00144</Y>
+        <Y t="23">0.00144</Y>
+        <Y t="24">0.00144</Y>
+        <Y t="25">0.00144</Y>
+        <Y t="26">0.00144</Y>
+        <Y t="27">0.00144</Y>
+        <Y t="28">0.00144</Y>
+        <Y t="29">0.00144</Y>
+        <Y t="30">0.00145</Y>
+        <Y t="31">0.00147</Y>
+        <Y t="32">0.00152</Y>
+        <Y t="33">0.00159</Y>
+        <Y t="34">0.00169</Y>
+        <Y t="35">0.00183</Y>
+        <Y t="36">0.00201</Y>
+        <Y t="37">0.00222</Y>
+        <Y t="38">0.00247</Y>
+        <Y t="39">0.00275</Y>
+        <Y t="40">0.00304</Y>
+        <Y t="41">0.00335</Y>
+        <Y t="42">0.00367</Y>
+        <Y t="43">0.00400</Y>
+        <Y t="44">0.00433</Y>
+        <Y t="45">0.00468</Y>
+        <Y t="46">0.00507</Y>
+        <Y t="47">0.00552</Y>
+        <Y t="48">0.00605</Y>
+        <Y t="49">0.00668</Y>
+        <Y t="50">0.00743</Y>
+        <Y t="51">0.00831</Y>
+        <Y t="52">0.00935</Y>
+        <Y t="53">0.01057</Y>
+        <Y t="54">0.01199</Y>
+        <Y t="55">0.01365</Y>
+        <Y t="56">0.01556</Y>
+        <Y t="57">0.01776</Y>
+        <Y t="58">0.02024</Y>
+        <Y t="59">0.02302</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

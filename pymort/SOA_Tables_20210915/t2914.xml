@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2914</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Joshua Milne (1815), reprinted Miles Menander Dawson, “Practial Lessons in Actuarial Science, An Elementary Text-Book”, The Spectator Company (New York, 1896). Accessed June, 2014 from https://archive.org/stream/practicallessons00dawsrich#page/n3/mode/2up</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>Milne’s Swedish Population Table - Males</TableName>
+    <TableDescription>Milne’s Swedish Population Table - Males.  Minimum Age: 0 Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Population statistics of Sweden and Finland for the period 1765-1796. Although the tables are drawn from insufficient data, they have nevertheless always been considered valuable. Methodology: Graduated by Milne but other information not available at this time. Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>Sweden</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="46">Sweden</Nation>
+      <TableDescription>Milne’s Swedish Population Table - Males.  Minimum Age: 0 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">10210</Y>
+        <Y t="1">8041</Y>
+        <Y t="2">7487</Y>
+        <Y t="3">7170</Y>
+        <Y t="4">6942</Y>
+        <Y t="5">6773</Y>
+        <Y t="6">6619</Y>
+        <Y t="7">6505</Y>
+        <Y t="8">6422</Y>
+        <Y t="9">6361</Y>
+        <Y t="10">6310</Y>
+        <Y t="11">6263</Y>
+        <Y t="12">6219</Y>
+        <Y t="13">6177</Y>
+        <Y t="14">6137</Y>
+        <Y t="15">6098</Y>
+        <Y t="16">6059</Y>
+        <Y t="17">6020</Y>
+        <Y t="18">5980</Y>
+        <Y t="19">5938</Y>
+        <Y t="20">5894</Y>
+        <Y t="21">5846</Y>
+        <Y t="22">5796</Y>
+        <Y t="23">5744</Y>
+        <Y t="24">5690</Y>
+        <Y t="25">5635</Y>
+        <Y t="26">5579</Y>
+        <Y t="27">5522</Y>
+        <Y t="28">5464</Y>
+        <Y t="29">5405</Y>
+        <Y t="30">5345</Y>
+        <Y t="31">5284</Y>
+        <Y t="32">5223</Y>
+        <Y t="33">5162</Y>
+        <Y t="34">5101</Y>
+        <Y t="35">5040</Y>
+        <Y t="36">4979</Y>
+        <Y t="37">4918</Y>
+        <Y t="38">4857</Y>
+        <Y t="39">4796</Y>
+        <Y t="40">4732</Y>
+        <Y t="41">4661</Y>
+        <Y t="42">4588</Y>
+        <Y t="43">4515</Y>
+        <Y t="44">4442</Y>
+        <Y t="45">4368</Y>
+        <Y t="46">4290</Y>
+        <Y t="47">4210</Y>
+        <Y t="48">4130</Y>
+        <Y t="49">4050</Y>
+        <Y t="50">3967</Y>
+        <Y t="51">3881</Y>
+        <Y t="52">3792</Y>
+        <Y t="53">3702</Y>
+        <Y t="54">3610</Y>
+        <Y t="55">3517</Y>
+        <Y t="56">3423</Y>
+        <Y t="57">3326</Y>
+        <Y t="58">3227</Y>
+        <Y t="59">3127</Y>
+        <Y t="60">3026</Y>
+        <Y t="61">2918</Y>
+        <Y t="62">2802</Y>
+        <Y t="63">2678</Y>
+        <Y t="64">2552</Y>
+        <Y t="65">2425</Y>
+        <Y t="66">2293</Y>
+        <Y t="67">2155</Y>
+        <Y t="68">2014</Y>
+        <Y t="69">1873</Y>
+        <Y t="70">1734</Y>
+        <Y t="71">1598</Y>
+        <Y t="72">1465</Y>
+        <Y t="73">1334</Y>
+        <Y t="74">1207</Y>
+        <Y t="75">1083</Y>
+        <Y t="76">964</Y>
+        <Y t="77">851</Y>
+        <Y t="78">745</Y>
+        <Y t="79">646</Y>
+        <Y t="80">550</Y>
+        <Y t="81">464</Y>
+        <Y t="82">388</Y>
+        <Y t="83">322</Y>
+        <Y t="84">264</Y>
+        <Y t="85">211</Y>
+        <Y t="86">166</Y>
+        <Y t="87">129</Y>
+        <Y t="88">100</Y>
+        <Y t="89">79</Y>
+        <Y t="90">60</Y>
+        <Y t="91">46</Y>
+        <Y t="92">34</Y>
+        <Y t="93">25</Y>
+        <Y t="94">17</Y>
+        <Y t="95">11</Y>
+        <Y t="96">7</Y>
+        <Y t="97">4</Y>
+        <Y t="98">2</Y>
+        <Y t="99">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

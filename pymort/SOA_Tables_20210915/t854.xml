@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>854</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Tony Hutchins</ProviderName>
+    <TableReference>Continuous Mortality Investigation Bureau, “Proposed Standard Tables for Life Office Pensioners and Annuitants”, Continuous Mortality Investigation Reports No. 3, Institute of Actuaries and the Faculty of Actuaries, (1978). Accessed: August, 2013 from http://www.actuaries.org.uk/research-and-resources/documents/cmi-report-3-whole-volume AND http://www.actuaries.org.uk/sites/all/files/documents/xls/pa90m.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PA(90)M</TableName>
+    <TableDescription>Pensioners Mortality 1967-70 Projected to 1990. Basis: Males by Amounts (PA(90)M). Minimum Age: 20. Maximum Age: 117</TableDescription>
+    <Comments>Study Data: Life Office pensioners and immediate annuitants experience tables for the period 1967-70 (See SOA Table Identities 258 and 259) were not felt a suitable tool for the calculation of premiums and reserves without adjustment for mortality improvement. The Continuous Mortality Investigation Bureau (CMIB) therefore set about to find an approach to accommodate the construction of full monetary functions suitable for general use. Although the mortality of females has in the past improved faster than that of males, there is no evidence to indicate that such will happen in the future. The CMIB thus employed the same improvement factor for male and female rates. Furthermore, as the mortality rates will be primarily used for the calculation of premiums and reserves, a single cautious, but not extreme, basis seems appropriate. Methodology: In addition to selecting a rate of reduction per period, the shape of the reduction factor must also be taken into account. Comparison of methodologies resulted in adoption of the formula:  log (qx/px) = A + B * (x – 70) / 50.  When rewritten, this formula shows that a constant reduction factor applied to (qx/px) is equivalent to a reduction of k years in the age for each year ahead forecasted. The CMIB reached a tentative conclusion that the projected mortality rates for all tables under consideration should incorporate a 20-year improvement factor of about 0.90. Thus the assumption of r^20 = .90 then implies the value of 1/k corresponding to each graduation can be calculated. Although 18 gives the closest fit to 0.9, the CMIB recommends that the best choice would be 1/k = 20. The complete double-entry table of mortality rates requires, for each of the eight tables under consideration, 20 columns of values of qx, one for the base year and one for each forecast year up to l9 years. An alternative method, particularly appropriate to pensioners, is to choose a particular year of birth, e.g. that for a life born in 1920 who will attain age 65 in 1985. This table would be reasonably appropriate for male pensioners retiring at age 65 during the 1980's. Such a table would be one of the diagonals of the double-entry table and values appropriate to other years of birth could be obtained by adjusting the age by 1/20, of a year for each year of birth. A third method, which is the one favored by the CMIB, is to choose the table for a particular calendar year, which will be broadly appropriate to themix of business in force over the medium-term future. The year 1990 seemed an appropriate year for use during the 1980s; thus the new tables incorporate “90” in the naming convention adopted for the new tables. For the calculation of monetary values, the CMIB felt use of the “amounts” as basis would be more prudent than the use of the “lives”.  Accordingly, despite tables identified as PL(90) for “lives” being constructed, monetary tables were built for only the PA(90) tables. CMIB extended table from age 50 down to age 20 and then from 114 to 117 following initial publication. Data Transcription Errors Detected: 08/2013. Data Corrected and Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Pensioners Mortality 1967-70 Projected to 1990. Basis: Males by Amounts (PA(90)M). Minimum Age: 20. Maximum Age: 117</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>117</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.001031</Y>
+        <Y t="21">0.0010075</Y>
+        <Y t="22">0.000969</Y>
+        <Y t="23">0.000905</Y>
+        <Y t="24">0.000825</Y>
+        <Y t="25">0.000745</Y>
+        <Y t="26">0.000686</Y>
+        <Y t="27">0.000642</Y>
+        <Y t="28">0.000613</Y>
+        <Y t="29">0.000598</Y>
+        <Y t="30">0.000584</Y>
+        <Y t="31">0.000570</Y>
+        <Y t="32">0.000613</Y>
+        <Y t="33">0.000666</Y>
+        <Y t="34">0.000725</Y>
+        <Y t="35">0.000791</Y>
+        <Y t="36">0.000864</Y>
+        <Y t="37">0.000947</Y>
+        <Y t="38">0.001041</Y>
+        <Y t="39">0.001149</Y>
+        <Y t="40">0.001274</Y>
+        <Y t="41">0.001419</Y>
+        <Y t="42">0.001589</Y>
+        <Y t="43">0.001788</Y>
+        <Y t="44">0.002022</Y>
+        <Y t="45">0.002298</Y>
+        <Y t="46">0.002623</Y>
+        <Y t="47">0.003006</Y>
+        <Y t="48">0.003456</Y>
+        <Y t="49">0.003984</Y>
+        <Y t="50">0.004601</Y>
+        <Y t="51">0.005318</Y>
+        <Y t="52">0.006147</Y>
+        <Y t="53">0.007099</Y>
+        <Y t="54">0.008184</Y>
+        <Y t="55">0.009412</Y>
+        <Y t="56">0.010789</Y>
+        <Y t="57">0.012321</Y>
+        <Y t="58">0.013517</Y>
+        <Y t="59">0.014765</Y>
+        <Y t="60">0.016127</Y>
+        <Y t="61">0.017612</Y>
+        <Y t="62">0.019232</Y>
+        <Y t="63">0.020997</Y>
+        <Y t="64">0.022920</Y>
+        <Y t="65">0.025015</Y>
+        <Y t="66">0.027296</Y>
+        <Y t="67">0.029778</Y>
+        <Y t="68">0.032479</Y>
+        <Y t="69">0.035416</Y>
+        <Y t="70">0.038608</Y>
+        <Y t="71">0.042075</Y>
+        <Y t="72">0.045838</Y>
+        <Y t="73">0.049920</Y>
+        <Y t="74">0.054346</Y>
+        <Y t="75">0.059139</Y>
+        <Y t="76">0.064326</Y>
+        <Y t="77">0.069935</Y>
+        <Y t="78">0.075992</Y>
+        <Y t="79">0.082528</Y>
+        <Y t="80">0.089572</Y>
+        <Y t="81">0.097153</Y>
+        <Y t="82">0.105301</Y>
+        <Y t="83">0.114047</Y>
+        <Y t="84">0.123418</Y>
+        <Y t="85">0.133444</Y>
+        <Y t="86">0.144150</Y>
+        <Y t="87">0.155561</Y>
+        <Y t="88">0.167699</Y>
+        <Y t="89">0.180580</Y>
+        <Y t="90">0.194221</Y>
+        <Y t="91">0.208629</Y>
+        <Y t="92">0.223809</Y>
+        <Y t="93">0.239760</Y>
+        <Y t="94">0.256471</Y>
+        <Y t="95">0.273928</Y>
+        <Y t="96">0.292106</Y>
+        <Y t="97">0.310973</Y>
+        <Y t="98">0.330491</Y>
+        <Y t="99">0.350609</Y>
+        <Y t="100">0.371274</Y>
+        <Y t="101">0.392420</Y>
+        <Y t="102">0.413978</Y>
+        <Y t="103">0.435871</Y>
+        <Y t="104">0.458016</Y>
+        <Y t="105">0.480329</Y>
+        <Y t="106">0.502720</Y>
+        <Y t="107">0.525100</Y>
+        <Y t="108">0.547380</Y>
+        <Y t="109">0.569472</Y>
+        <Y t="110">0.59129074</Y>
+        <Y t="111">0.61275551</Y>
+        <Y t="112">0.63379115</Y>
+        <Y t="113">0.65432873</Y>
+        <Y t="114">0.6743064</Y>
+        <Y t="115">0.69367002</Y>
+        <Y t="116">0.71237347</Y>
+        <Y t="117">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

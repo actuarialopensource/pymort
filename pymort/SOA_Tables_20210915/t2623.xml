@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2623</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Melville Jessup Weaver Consultants, "Report of the Investigation into the Mortality of New Zealand Insured Lives 1998-2001, The New Zealand Society of Actuaries (2002). Accessed: January, 2014 from http://www.actuaries.org.nz/Papers%202002/Mortality%20Investigation%2002rep.PDF</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>NZ01F</TableName>
+    <TableDescription>New Zealand Mortality of Insured Lives 1998-2001 (NZ01F) Ungraduated – Female. Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Experience covers the four year period 1998-2001 rather than a five year period as in previous studies. Eleven companies provided data for the investigation of which eight were able to provide data for the full four years. Due to mergers and acquisitions the number of companies involved is not directly comparable with numbers contributing to previous investigations. The results are the aggregate of all participating offices and of the different policy types over the period for which data were submitted. The investigation has been based on policies rather than lives. The following types of policies were excluded from the study: (a) policies issued on non-standard terms, (b) reinsurance received from other companies, (c) child's deferred policies (d) policies which were issued as Industrial or collector business (e) group policies, and (f) joint and contingent life policies. There are limited numbers of exposures and deaths in the young and old age groups. Methodology: The present results are in the form of ungraduated experience, rather than the graduated mortality tables presented in previous years. Taking into account the results of the exposures in each age and policy cell, it was determined that graduated NZ01 mortality tables would not be produced. Due to the variations in mix of business, the overall reduction in level of exposures in the NZ01 investigation and the lack of clear mortality patterns emerging, it was felt that full investigation of select rates was inappropriate. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>New Zealand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="64">New Zealand</Nation>
+      <TableDescription>New Zealand Mortality of Insured Lives 1998-2001 (NZ01F) Ungraduated – Female. Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0</Y>
+        <Y t="1">0</Y>
+        <Y t="2">0</Y>
+        <Y t="3">0</Y>
+        <Y t="4">0</Y>
+        <Y t="5">0</Y>
+        <Y t="6">0</Y>
+        <Y t="7">0</Y>
+        <Y t="8">0</Y>
+        <Y t="9">0</Y>
+        <Y t="10">0</Y>
+        <Y t="11">0</Y>
+        <Y t="12">0</Y>
+        <Y t="13">0</Y>
+        <Y t="14">0.00023</Y>
+        <Y t="15">0.000399</Y>
+        <Y t="16">0.000345</Y>
+        <Y t="17">0.000588</Y>
+        <Y t="18">0.000235</Y>
+        <Y t="19">0.000463</Y>
+        <Y t="20">0.000157</Y>
+        <Y t="21">0.000449</Y>
+        <Y t="22">0.000133</Y>
+        <Y t="23">0.000275</Y>
+        <Y t="24">0.000314</Y>
+        <Y t="25">0.00015</Y>
+        <Y t="26">0.000478</Y>
+        <Y t="27">0.000139</Y>
+        <Y t="28">0.000272</Y>
+        <Y t="29">0.000365</Y>
+        <Y t="30">0.000151</Y>
+        <Y t="31">0.000248</Y>
+        <Y t="32">0.00036</Y>
+        <Y t="33">0.000288</Y>
+        <Y t="34">0.000476</Y>
+        <Y t="35">0.000466</Y>
+        <Y t="36">0.000587</Y>
+        <Y t="37">0.000497</Y>
+        <Y t="38">0.000454</Y>
+        <Y t="39">0.000779</Y>
+        <Y t="40">0.000546</Y>
+        <Y t="41">0.000969</Y>
+        <Y t="42">0.000736</Y>
+        <Y t="43">0.000914</Y>
+        <Y t="44">0.000648</Y>
+        <Y t="45">0.001101</Y>
+        <Y t="46">0.001169</Y>
+        <Y t="47">0.001171</Y>
+        <Y t="48">0.001279</Y>
+        <Y t="49">0.001442</Y>
+        <Y t="50">0.002069</Y>
+        <Y t="51">0.002009</Y>
+        <Y t="52">0.002371</Y>
+        <Y t="53">0.001891</Y>
+        <Y t="54">0.002406</Y>
+        <Y t="55">0.003637</Y>
+        <Y t="56">0.00341</Y>
+        <Y t="57">0.003001</Y>
+        <Y t="58">0.004066</Y>
+        <Y t="59">0.003975</Y>
+        <Y t="60">0.003916</Y>
+        <Y t="61">0.005258</Y>
+        <Y t="62">0.00488</Y>
+        <Y t="63">0.007051</Y>
+        <Y t="64">0.005427</Y>
+        <Y t="65">0.009253</Y>
+        <Y t="66">0.008665</Y>
+        <Y t="67">0.011727</Y>
+        <Y t="68">0.01252</Y>
+        <Y t="69">0.016986</Y>
+        <Y t="70">0.016479</Y>
+        <Y t="71">0.01516</Y>
+        <Y t="72">0.0197</Y>
+        <Y t="73">0.019117</Y>
+        <Y t="74">0.02472</Y>
+        <Y t="75">0.018848</Y>
+        <Y t="76">0.023641</Y>
+        <Y t="77">0.024984</Y>
+        <Y t="78">0.021791</Y>
+        <Y t="79">0.033388</Y>
+        <Y t="80">0.034031</Y>
+        <Y t="81">0.042816</Y>
+        <Y t="82">0.048026</Y>
+        <Y t="83">0.069435</Y>
+        <Y t="84">0.062395</Y>
+        <Y t="85">0.081269</Y>
+        <Y t="86">0.053097</Y>
+        <Y t="87">0.078431</Y>
+        <Y t="88">0.099476</Y>
+        <Y t="89">0.067381</Y>
+        <Y t="90">0.101576</Y>
+        <Y t="91">0.104603</Y>
+        <Y t="92">0.126521</Y>
+        <Y t="93">0.073846</Y>
+        <Y t="94">0.070175</Y>
+        <Y t="95">0.052632</Y>
+        <Y t="96">0</Y>
+        <Y t="97">0</Y>
+        <Y t="98">0.4</Y>
+        <Y t="99">0</Y>
+        <Y t="100">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

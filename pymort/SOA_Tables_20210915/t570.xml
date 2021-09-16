@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>570</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>John S. Brake</ProviderName>
+    <TableReference>Keith McRae Archer, “Australian Life Tables 1960-62”, also titled “Census of the Commonwealth of Australia, 30th June 1961”, Commonwealth Bureau of Census and Statistics (Canberra, 1968). Accessed: February, 2014 from http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&amp;1961 Census - Volume VIII - Part V Australian Life Tables 1960 - 1962.pdf&amp;2107.0&amp;Publication&amp;871F7D08F2DC1496CA257879001B5ADE&amp;&amp;1961&amp;30.06.1961&amp;Latest</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Australian Life Tables 1960-62 Male</TableName>
+    <TableDescription>Australian Life Tables 1960-62 Male. Minimum Age: 0. Maximum Age: 109</TableDescription>
+    <Comments>Study Data: Based on the census of 30 June 1961, deaths in the three years 1960, 1961 and 1962 and births for the years 1954 to 1962. Adjustments for migration of persons made. Methodology:  Crude rates of mortality calculated. Aged 5 to 30 not graduated so as to not eliminate peaks that occurred about age 21.  For ages 31 and above, unadjusted mortality rates for high ages, as doubts existed as to the accuracy at these ages of the method of determining the exposed to risk, in view of possible age misstatements and the small numbers of surviving population. Some doubts were also held as to the accuracy of the reported ages at death. The unadjusted mortality rates for males from age 90 onwards and for females age 89 onwards were, therefore, replaced by a series of values derived from mathematical formulae which were calculated to provide a satisfactory representation of the rates of mortality at ages from 80 years onward. The resulting series of mortality rates were then graduated to produce a series of mortality rates which would properly represent the experience of the population. The graduation techniques are the same as those used to developed by the late John Spencer and employed in construction of the Australian Life Tables 1953-55   Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Life Tables 1960-62 Male. Minimum Age: 0. Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.02239</Y>
+        <Y t="1">0.00181</Y>
+        <Y t="2">0.00120</Y>
+        <Y t="3">0.00090</Y>
+        <Y t="4">0.00066</Y>
+        <Y t="5">0.00058</Y>
+        <Y t="6">0.00055</Y>
+        <Y t="7">0.00053</Y>
+        <Y t="8">0.00050</Y>
+        <Y t="9">0.00044</Y>
+        <Y t="10">0.00041</Y>
+        <Y t="11">0.00042</Y>
+        <Y t="12">0.00046</Y>
+        <Y t="13">0.00053</Y>
+        <Y t="14">0.00062</Y>
+        <Y t="15">0.00075</Y>
+        <Y t="16">0.00095</Y>
+        <Y t="17">0.00123</Y>
+        <Y t="18">0.00163</Y>
+        <Y t="19">0.00175</Y>
+        <Y t="20">0.00173</Y>
+        <Y t="21">0.00170</Y>
+        <Y t="22">0.00165</Y>
+        <Y t="23">0.00158</Y>
+        <Y t="24">0.00152</Y>
+        <Y t="25">0.00147</Y>
+        <Y t="26">0.00145</Y>
+        <Y t="27">0.00147</Y>
+        <Y t="28">0.00150</Y>
+        <Y t="29">0.00153</Y>
+        <Y t="30">0.00157</Y>
+        <Y t="31">0.00161</Y>
+        <Y t="32">0.00167</Y>
+        <Y t="33">0.00174</Y>
+        <Y t="34">0.00183</Y>
+        <Y t="35">0.00194</Y>
+        <Y t="36">0.00208</Y>
+        <Y t="37">0.00226</Y>
+        <Y t="38">0.00247</Y>
+        <Y t="39">0.00272</Y>
+        <Y t="40">0.00300</Y>
+        <Y t="41">0.00330</Y>
+        <Y t="42">0.00364</Y>
+        <Y t="43">0.00401</Y>
+        <Y t="44">0.00441</Y>
+        <Y t="45">0.00485</Y>
+        <Y t="46">0.00535</Y>
+        <Y t="47">0.00591</Y>
+        <Y t="48">0.00654</Y>
+        <Y t="49">0.00724</Y>
+        <Y t="50">0.00804</Y>
+        <Y t="51">0.00892</Y>
+        <Y t="52">0.00989</Y>
+        <Y t="53">0.01096</Y>
+        <Y t="54">0.01213</Y>
+        <Y t="55">0.01339</Y>
+        <Y t="56">0.01476</Y>
+        <Y t="57">0.01627</Y>
+        <Y t="58">0.01792</Y>
+        <Y t="59">0.01975</Y>
+        <Y t="60">0.02176</Y>
+        <Y t="61">0.02398</Y>
+        <Y t="62">0.02640</Y>
+        <Y t="63">0.02899</Y>
+        <Y t="64">0.03170</Y>
+        <Y t="65">0.03454</Y>
+        <Y t="66">0.03750</Y>
+        <Y t="67">0.04064</Y>
+        <Y t="68">0.04402</Y>
+        <Y t="69">0.04770</Y>
+        <Y t="70">0.05177</Y>
+        <Y t="71">0.05628</Y>
+        <Y t="72">0.06118</Y>
+        <Y t="73">0.06646</Y>
+        <Y t="74">0.07212</Y>
+        <Y t="75">0.07814</Y>
+        <Y t="76">0.08451</Y>
+        <Y t="77">0.09140</Y>
+        <Y t="78">0.09888</Y>
+        <Y t="79">0.10713</Y>
+        <Y t="80">0.11617</Y>
+        <Y t="81">0.12607</Y>
+        <Y t="82">0.13679</Y>
+        <Y t="83">0.14836</Y>
+        <Y t="84">0.16062</Y>
+        <Y t="85">0.17363</Y>
+        <Y t="86">0.18726</Y>
+        <Y t="87">0.20151</Y>
+        <Y t="88">0.21620</Y>
+        <Y t="89">0.23133</Y>
+        <Y t="90">0.24675</Y>
+        <Y t="91">0.26241</Y>
+        <Y t="92">0.27821</Y>
+        <Y t="93">0.29415</Y>
+        <Y t="94">0.31023</Y>
+        <Y t="95">0.32649</Y>
+        <Y t="96">0.34294</Y>
+        <Y t="97">0.35963</Y>
+        <Y t="98">0.37654</Y>
+        <Y t="99">0.39364</Y>
+        <Y t="100">0.41087</Y>
+        <Y t="101">0.42822</Y>
+        <Y t="102">0.44565</Y>
+        <Y t="103">0.46310</Y>
+        <Y t="104">0.48057</Y>
+        <Y t="105">0.49799</Y>
+        <Y t="106">0.51533</Y>
+        <Y t="107">0.53253</Y>
+        <Y t="108">0.54953</Y>
+        <Y t="109">0.56630</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

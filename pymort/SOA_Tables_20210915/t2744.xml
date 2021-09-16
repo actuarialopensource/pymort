@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2744</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>D. D. Marken, “Mortality of Indian Assured Lives”, Journal of the Institute of Actuaries (1886-1994), Vol. 95, No. 1, Cambridge University Press (1969). Accessed: April, 2014 from http://www.jstor.org/stable/41140022</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>LIC (1961-64)</TableName>
+    <TableDescription>Life Insurance Corporation of India (LIC) 1961-64. Minimum Select Age: 15. Maximum Select Age: 60. Minimum Ultimate Age: 16. Maximum Ultimate Age: 100</TableDescription>
+    <Comments>Study Data: Experience of nine Integrated Head Office Units of leading Indian Insurers and fifteen Divisional Offices of the Life Insurance Corporation of India. For purposes of construction of a standard table, the experience of medically examined male lives accepted at ordinary rates under whole life and endowment assurance plans under both with-profit and non-profit polices was used. Methodology: Given the composition of product types in the experience, graduation of the rates in a single mathematical formula presented considerable difficulties. Prime consideration was thus that of representing the ultimate experience by a smoothly progressing series of rates rather than to achieve the “best” fit (whereby the rates would satisfy rigorous statistical tests for adherence to the data). In graduating the rates, it was decided to have a flat curve for the range 20-29. Final formula chosen was: qx = A * f(x) + B * c^x * ø(x)  where A = .000812, B = .0000380658, c = 1.103164, and ø(x) = .3 + sin ((x-7)/50 * Π/2)). Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Insured Lives mortality</KeyWord>
+    <KeyWord>India</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Life Insurance Corporation of India (LIC) 1961-64. Minimum Select Age: 15. Maximum Select Age: 60.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>1</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="15">
+        <Axis>
+          <Y t="1">0.00087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="16">
+        <Axis>
+          <Y t="1">0.00087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="17">
+        <Axis>
+          <Y t="1">0.00087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="18">
+        <Axis>
+          <Y t="1">0.00087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="19">
+        <Axis>
+          <Y t="1">0.00087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="20">
+        <Axis>
+          <Y t="1">0.00087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="21">
+        <Axis>
+          <Y t="1">0.00088</Y>
+        </Axis>
+      </Axis>
+      <Axis t="22">
+        <Axis>
+          <Y t="1">0.00089</Y>
+        </Axis>
+      </Axis>
+      <Axis t="23">
+        <Axis>
+          <Y t="1">0.00090</Y>
+        </Axis>
+      </Axis>
+      <Axis t="24">
+        <Axis>
+          <Y t="1">0.00091</Y>
+        </Axis>
+      </Axis>
+      <Axis t="25">
+        <Axis>
+          <Y t="1">0.00092</Y>
+        </Axis>
+      </Axis>
+      <Axis t="26">
+        <Axis>
+          <Y t="1">0.00093</Y>
+        </Axis>
+      </Axis>
+      <Axis t="27">
+        <Axis>
+          <Y t="1">0.00095</Y>
+        </Axis>
+      </Axis>
+      <Axis t="28">
+        <Axis>
+          <Y t="1">0.00097</Y>
+        </Axis>
+      </Axis>
+      <Axis t="29">
+        <Axis>
+          <Y t="1">0.00100</Y>
+        </Axis>
+      </Axis>
+      <Axis t="30">
+        <Axis>
+          <Y t="1">0.00104</Y>
+        </Axis>
+      </Axis>
+      <Axis t="31">
+        <Axis>
+          <Y t="1">0.00108</Y>
+        </Axis>
+      </Axis>
+      <Axis t="32">
+        <Axis>
+          <Y t="1">0.00114</Y>
+        </Axis>
+      </Axis>
+      <Axis t="33">
+        <Axis>
+          <Y t="1">0.00120</Y>
+        </Axis>
+      </Axis>
+      <Axis t="34">
+        <Axis>
+          <Y t="1">0.00129</Y>
+        </Axis>
+      </Axis>
+      <Axis t="35">
+        <Axis>
+          <Y t="1">0.00138</Y>
+        </Axis>
+      </Axis>
+      <Axis t="36">
+        <Axis>
+          <Y t="1">0.00149</Y>
+        </Axis>
+      </Axis>
+      <Axis t="37">
+        <Axis>
+          <Y t="1">0.00161</Y>
+        </Axis>
+      </Axis>
+      <Axis t="38">
+        <Axis>
+          <Y t="1">0.00175</Y>
+        </Axis>
+      </Axis>
+      <Axis t="39">
+        <Axis>
+          <Y t="1">0.00191</Y>
+        </Axis>
+      </Axis>
+      <Axis t="40">
+        <Axis>
+          <Y t="1">0.00209</Y>
+        </Axis>
+      </Axis>
+      <Axis t="41">
+        <Axis>
+          <Y t="1">0.00229</Y>
+        </Axis>
+      </Axis>
+      <Axis t="42">
+        <Axis>
+          <Y t="1">0.00252</Y>
+        </Axis>
+      </Axis>
+      <Axis t="43">
+        <Axis>
+          <Y t="1">0.00277</Y>
+        </Axis>
+      </Axis>
+      <Axis t="44">
+        <Axis>
+          <Y t="1">0.00305</Y>
+        </Axis>
+      </Axis>
+      <Axis t="45">
+        <Axis>
+          <Y t="1">0.00335</Y>
+        </Axis>
+      </Axis>
+      <Axis t="46">
+        <Axis>
+          <Y t="1">0.00370</Y>
+        </Axis>
+      </Axis>
+      <Axis t="47">
+        <Axis>
+          <Y t="1">0.00408</Y>
+        </Axis>
+      </Axis>
+      <Axis t="48">
+        <Axis>
+          <Y t="1">0.00449</Y>
+        </Axis>
+      </Axis>
+      <Axis t="49">
+        <Axis>
+          <Y t="1">0.00495</Y>
+        </Axis>
+      </Axis>
+      <Axis t="50">
+        <Axis>
+          <Y t="1">0.00546</Y>
+        </Axis>
+      </Axis>
+      <Axis t="51">
+        <Axis>
+          <Y t="1">0.00602</Y>
+        </Axis>
+      </Axis>
+      <Axis t="52">
+        <Axis>
+          <Y t="1">0.00664</Y>
+        </Axis>
+      </Axis>
+      <Axis t="53">
+        <Axis>
+          <Y t="1">0.00733</Y>
+        </Axis>
+      </Axis>
+      <Axis t="54">
+        <Axis>
+          <Y t="1">0.00809</Y>
+        </Axis>
+      </Axis>
+      <Axis t="55">
+        <Axis>
+          <Y t="1">0.00892</Y>
+        </Axis>
+      </Axis>
+      <Axis t="56">
+        <Axis>
+          <Y t="1">0.00984</Y>
+        </Axis>
+      </Axis>
+      <Axis t="57">
+        <Axis>
+          <Y t="1">0.01085</Y>
+        </Axis>
+      </Axis>
+      <Axis t="58">
+        <Axis>
+          <Y t="1">0.01197</Y>
+        </Axis>
+      </Axis>
+      <Axis t="59">
+        <Axis>
+          <Y t="1">0.01321</Y>
+        </Axis>
+      </Axis>
+      <Axis t="60">
+        <Axis>
+          <Y t="1">0.01457</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Life Insurance Corporation of India (LIC) 1961-64. Minimum Ultimate Age: 16. Maximum Ultimate Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>16</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="16">0.00100</Y>
+        <Y t="17">0.00100</Y>
+        <Y t="18">0.00100</Y>
+        <Y t="19">0.00100</Y>
+        <Y t="20">0.00100</Y>
+        <Y t="21">0.00100</Y>
+        <Y t="22">0.00100</Y>
+        <Y t="23">0.00100</Y>
+        <Y t="24">0.00100</Y>
+        <Y t="25">0.00100</Y>
+        <Y t="26">0.00100</Y>
+        <Y t="27">0.00100</Y>
+        <Y t="28">0.00102</Y>
+        <Y t="29">0.00104</Y>
+        <Y t="30">0.00107</Y>
+        <Y t="31">0.00111</Y>
+        <Y t="32">0.00117</Y>
+        <Y t="33">0.00125</Y>
+        <Y t="34">0.00133</Y>
+        <Y t="35">0.00144</Y>
+        <Y t="36">0.00157</Y>
+        <Y t="37">0.00172</Y>
+        <Y t="38">0.00189</Y>
+        <Y t="39">0.00209</Y>
+        <Y t="40">0.00231</Y>
+        <Y t="41">0.00256</Y>
+        <Y t="42">0.00284</Y>
+        <Y t="43">0.00316</Y>
+        <Y t="44">0.00351</Y>
+        <Y t="45">0.00390</Y>
+        <Y t="46">0.00434</Y>
+        <Y t="47">0.00482</Y>
+        <Y t="48">0.00535</Y>
+        <Y t="49">0.00594</Y>
+        <Y t="50">0.00659</Y>
+        <Y t="51">0.00730</Y>
+        <Y t="52">0.00809</Y>
+        <Y t="53">0.00895</Y>
+        <Y t="54">0.00990</Y>
+        <Y t="55">0.01094</Y>
+        <Y t="56">0.01208</Y>
+        <Y t="57">0.01333</Y>
+        <Y t="58">0.01470</Y>
+        <Y t="59">0.01620</Y>
+        <Y t="60">0.01784</Y>
+        <Y t="61">0.01963</Y>
+        <Y t="62">0.02158</Y>
+        <Y t="63">0.02371</Y>
+        <Y t="64">0.02602</Y>
+        <Y t="65">0.02854</Y>
+        <Y t="66">0.03128</Y>
+        <Y t="67">0.03425</Y>
+        <Y t="68">0.03748</Y>
+        <Y t="69">0.04098</Y>
+        <Y t="70">0.04476</Y>
+        <Y t="71">0.04885</Y>
+        <Y t="72">0.05328</Y>
+        <Y t="73">0.05805</Y>
+        <Y t="74">0.06319</Y>
+        <Y t="75">0.06872</Y>
+        <Y t="76">0.07467</Y>
+        <Y t="77">0.08105</Y>
+        <Y t="78">0.08790</Y>
+        <Y t="79">0.09521</Y>
+        <Y t="80">0.10303</Y>
+        <Y t="81">0.11138</Y>
+        <Y t="82">0.12025</Y>
+        <Y t="83">0.12968</Y>
+        <Y t="84">0.13969</Y>
+        <Y t="85">0.15027</Y>
+        <Y t="86">0.16144</Y>
+        <Y t="87">0.17320</Y>
+        <Y t="88">0.18553</Y>
+        <Y t="89">0.19843</Y>
+        <Y t="90">0.21188</Y>
+        <Y t="91">0.22582</Y>
+        <Y t="92">0.24032</Y>
+        <Y t="93">0.25520</Y>
+        <Y t="94">0.27039</Y>
+        <Y t="95">0.28588</Y>
+        <Y t="96">0.30149</Y>
+        <Y t="97">0.31713</Y>
+        <Y t="98">0.33261</Y>
+        <Y t="99">0.34772</Y>
+        <Y t="100">0.36221</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

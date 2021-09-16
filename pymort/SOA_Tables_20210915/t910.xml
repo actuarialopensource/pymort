@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XTbML>
+	<ContentClassification>
+		<TableIdentity>910</TableIdentity>
+		<ProviderDomain>soa.org</ProviderDomain>
+		<ProviderName>Roger Scott Lumsden</ProviderName>
+		<TableReference>Committee on Annuities, “Development of the 1983 Group Annuity Mortality Table”, Transaction of the Society of Actuaries Vol. XXXV, (1983) Table 20. Accessed: March, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1983/January/tsa83v3527.pdf</TableReference>
+		<ContentType tc="22">Projection Scale</ContentType>
+		<TableName>Projection Scale H - Female</TableName>
+		<TableDescription>Mortality Improvement Projection Scale H – Female. Minimum Age: 5 Maximum Age: 110</TableDescription>
+		<Comments>Study Data: Developed in conjunction with the 1983 Group Annuity Mortality (GAM) Tables (See SOA Tables 825 &amp; 826). Methodology: Since the 1983 GAM Tables were to be used on an interim basis only, the committee decided to support the use of a modified Scale G, to be called Projection Scale H. Scale H differs from Scale G (See SOA Table Identities 908 and 909) at the higher ages. Scale G drops from 1.25 percent at age 87 to 1.0 percent at ages 92 and over for males and from 1.5 percent at age 87 to 1.25 percent at ages 92 and over for females. Scale H gradually decreases from 1.25 percent at age 82 to 0.0 percent at age 100 for males and from 1.5 percent at age 82 to 0.0 percent at age 100 for females. Linear interpolation is used to develop values for the ages between those shown. In addition, values for ages five and six are the same as at age seven, and values above age 100 are zero. Data Transcription Errors: None. Data Certified: 04/2013</Comments>
+		<KeyWord>Aggregate</KeyWord>
+		<KeyWord>Projection scale</KeyWord>
+		<KeyWord>United States of America</KeyWord>
+	</ContentClassification>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>Mortality Improvement Projection Scale H – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>5</MinScaleValue>
+				<MaxScaleValue>110</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis>
+				<Y t="5">0.01500</Y><Y t="6">0.01500</Y><Y t="7">0.01500</Y><Y t="8">0.01400</Y><Y t="9">0.01300</Y><Y t="10">0.01200</Y><Y t="11">0.01100</Y><Y t="12">0.01000</Y><Y t="13">0.00900</Y><Y t="14">0.00800</Y><Y t="15">0.00700</Y><Y t="16">0.00600</Y><Y t="17">0.00500</Y><Y t="18">0.00500</Y><Y t="19">0.00500</Y><Y t="20">0.00500</Y><Y t="21">0.00500</Y><Y t="22">0.00500</Y><Y t="23">0.00550</Y><Y t="24">0.00600</Y><Y t="25">0.00650</Y><Y t="26">0.00700</Y><Y t="27">0.00750</Y><Y t="28">0.00850</Y><Y t="29">0.00950</Y><Y t="30">0.01050</Y><Y t="31">0.01150</Y><Y t="32">0.01250</Y><Y t="33">0.01450</Y><Y t="34">0.01650</Y><Y t="35">0.01850</Y><Y t="36">0.02050</Y><Y t="37">0.02250</Y><Y t="38">0.02250</Y><Y t="39">0.02250</Y><Y t="40">0.02250</Y><Y t="41">0.02250</Y><Y t="42">0.02250</Y><Y t="43">0.02200</Y><Y t="44">0.02150</Y><Y t="45">0.02100</Y><Y t="46">0.02050</Y><Y t="47">0.02000</Y><Y t="48">0.02000</Y><Y t="49">0.02000</Y><Y t="50">0.02000</Y><Y t="51">0.02000</Y><Y t="52">0.02000</Y><Y t="53">0.01950</Y><Y t="54">0.01900</Y><Y t="55">0.01850</Y><Y t="56">0.01800</Y><Y t="57">0.01750</Y><Y t="58">0.01750</Y><Y t="59">0.01750</Y><Y t="60">0.01750</Y><Y t="61">0.01750</Y><Y t="62">0.01750</Y><Y t="63">0.01750</Y><Y t="64">0.01750</Y><Y t="65">0.01750</Y><Y t="66">0.01750</Y><Y t="67">0.01750</Y><Y t="68">0.01750</Y><Y t="69">0.01750</Y><Y t="70">0.01750</Y><Y t="71">0.01750</Y><Y t="72">0.01750</Y><Y t="73">0.01700</Y><Y t="74">0.01650</Y><Y t="75">0.01600</Y><Y t="76">0.01550</Y><Y t="77">0.01500</Y><Y t="78">0.01500</Y><Y t="79">0.01500</Y><Y t="80">0.01500</Y><Y t="81">0.01500</Y><Y t="82">0.01500</Y><Y t="83">0.01400</Y><Y t="84">0.01300</Y><Y t="85">0.01200</Y><Y t="86">0.01100</Y><Y t="87">0.01000</Y><Y t="88">0.00900</Y><Y t="89">0.00800</Y><Y t="90">0.00700</Y><Y t="91">0.00600</Y><Y t="92">0.00500</Y><Y t="93">0.00450</Y><Y t="94">0.00400</Y><Y t="95">0.00350</Y><Y t="96">0.00300</Y><Y t="97">0.00250</Y><Y t="98">0.00167</Y><Y t="99">0.00083</Y><Y t="100">0.00000</Y><Y t="101">0.00000</Y><Y t="102">0.00000</Y><Y t="103">0.00000</Y><Y t="104">0.00000</Y><Y t="105">0.00000</Y><Y t="106">0.00000</Y><Y t="107">0.00000</Y><Y t="108">0.00000</Y><Y t="109">0.00000</Y><Y t="110">0.00000</Y>
+			</Axis>
+		</Values>
+	</Table>
+</XTbML>

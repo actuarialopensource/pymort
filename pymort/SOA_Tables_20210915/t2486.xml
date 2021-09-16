@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2486</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Cathy Ho and Nancy Muise, “U.S. Individual Life Insurance Persistency, A Joint Study Sponsored by LIMRA International and the Society of Actuaries”, Society of Actuaries and LIMRA (2009) Accessed: October, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2004-2005 U.S. Individual Life Persistency Study – Universal Life on an Attained Age Basis</TableName>
+    <TableDescription>2004-2005 Individual Life Persistency Study – Universal Life Insurance by Number of Policies AND by Face Amounts. Basis: Attained Age. Minimum Age: 0. Maximum Age: 89</TableDescription>
+    <Comments>Study Data: The observation period for the study is calendar years 2004 and 2005. The study is based on data provided by 39 individual life insurance writers and it presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1902 and 2004. Of these participants, 33 provided whole life data, 36 provided term data,32 provided universal life data, and 18 provided variable universal life data. Lapse includes termination for nonpayment of premium, insufficient cash value, or full surrender of a policy, transfer to reduced paid-up or extended term status, and in most cases, terminations for unknown reason. Methodology: Lapse rates are calculated as follows: Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 Individual Life Persistency Study – Universal Life Insurance by Number of Policies. Basis: Attained Age. Minimum Age: 0. Maximum Age: 89</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.052</Y>
+        <Y t="1">0.062</Y>
+        <Y t="2">0.061</Y>
+        <Y t="3">0.056</Y>
+        <Y t="4">0.058</Y>
+        <Y t="5">0.055</Y>
+        <Y t="6">0.051</Y>
+        <Y t="7">0.048</Y>
+        <Y t="8">0.041</Y>
+        <Y t="9">0.042</Y>
+        <Y t="10">0.039</Y>
+        <Y t="11">0.037</Y>
+        <Y t="12">0.037</Y>
+        <Y t="13">0.035</Y>
+        <Y t="14">0.032</Y>
+        <Y t="15">0.03</Y>
+        <Y t="16">0.031</Y>
+        <Y t="17">0.031</Y>
+        <Y t="18">0.038</Y>
+        <Y t="19">0.04</Y>
+        <Y t="20">0.043</Y>
+        <Y t="21">0.045</Y>
+        <Y t="22">0.049</Y>
+        <Y t="23">0.051</Y>
+        <Y t="24">0.055</Y>
+        <Y t="25">0.056</Y>
+        <Y t="26">0.057</Y>
+        <Y t="27">0.057</Y>
+        <Y t="28">0.057</Y>
+        <Y t="29">0.057</Y>
+        <Y t="30">0.054</Y>
+        <Y t="31">0.054</Y>
+        <Y t="32">0.052</Y>
+        <Y t="33">0.052</Y>
+        <Y t="34">0.049</Y>
+        <Y t="35">0.049</Y>
+        <Y t="36">0.049</Y>
+        <Y t="37">0.044</Y>
+        <Y t="38">0.044</Y>
+        <Y t="39">0.043</Y>
+        <Y t="40">0.043</Y>
+        <Y t="41">0.04</Y>
+        <Y t="42">0.039</Y>
+        <Y t="43">0.039</Y>
+        <Y t="44">0.039</Y>
+        <Y t="45">0.038</Y>
+        <Y t="46">0.038</Y>
+        <Y t="47">0.037</Y>
+        <Y t="48">0.037</Y>
+        <Y t="49">0.037</Y>
+        <Y t="50">0.038</Y>
+        <Y t="51">0.037</Y>
+        <Y t="52">0.037</Y>
+        <Y t="53">0.038</Y>
+        <Y t="54">0.039</Y>
+        <Y t="55">0.038</Y>
+        <Y t="56">0.038</Y>
+        <Y t="57">0.039</Y>
+        <Y t="58">0.04</Y>
+        <Y t="59">0.04</Y>
+        <Y t="60">0.041</Y>
+        <Y t="61">0.04</Y>
+        <Y t="62">0.04</Y>
+        <Y t="63">0.04</Y>
+        <Y t="64">0.042</Y>
+        <Y t="65">0.043</Y>
+        <Y t="66">0.042</Y>
+        <Y t="67">0.04</Y>
+        <Y t="68">0.041</Y>
+        <Y t="69">0.041</Y>
+        <Y t="70">0.041</Y>
+        <Y t="71">0.039</Y>
+        <Y t="72">0.037</Y>
+        <Y t="73">0.038</Y>
+        <Y t="74">0.038</Y>
+        <Y t="75">0.038</Y>
+        <Y t="76">0.037</Y>
+        <Y t="77">0.038</Y>
+        <Y t="78">0.038</Y>
+        <Y t="79">0.036</Y>
+        <Y t="80">0.037</Y>
+        <Y t="81">0.036</Y>
+        <Y t="82">0.039</Y>
+        <Y t="83">0.035</Y>
+        <Y t="84">0.035</Y>
+        <Y t="85">0.035</Y>
+        <Y t="86">0.038</Y>
+        <Y t="87">0.032</Y>
+        <Y t="88">0.039</Y>
+        <Y t="89">0.04</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 Individual Life Persistency Study – Universal Life Insurance by Face Amounts. Basis: Attained Age. Minimum Age: 0. Maximum Age: 89</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.05</Y>
+        <Y t="1">0.064</Y>
+        <Y t="2">0.067</Y>
+        <Y t="3">0.063</Y>
+        <Y t="4">0.063</Y>
+        <Y t="5">0.061</Y>
+        <Y t="6">0.055</Y>
+        <Y t="7">0.055</Y>
+        <Y t="8">0.047</Y>
+        <Y t="9">0.047</Y>
+        <Y t="10">0.044</Y>
+        <Y t="11">0.042</Y>
+        <Y t="12">0.042</Y>
+        <Y t="13">0.039</Y>
+        <Y t="14">0.037</Y>
+        <Y t="15">0.037</Y>
+        <Y t="16">0.035</Y>
+        <Y t="17">0.037</Y>
+        <Y t="18">0.045</Y>
+        <Y t="19">0.048</Y>
+        <Y t="20">0.051</Y>
+        <Y t="21">0.054</Y>
+        <Y t="22">0.06</Y>
+        <Y t="23">0.061</Y>
+        <Y t="24">0.067</Y>
+        <Y t="25">0.066</Y>
+        <Y t="26">0.067</Y>
+        <Y t="27">0.066</Y>
+        <Y t="28">0.067</Y>
+        <Y t="29">0.067</Y>
+        <Y t="30">0.057</Y>
+        <Y t="31">0.064</Y>
+        <Y t="32">0.058</Y>
+        <Y t="33">0.055</Y>
+        <Y t="34">0.052</Y>
+        <Y t="35">0.051</Y>
+        <Y t="36">0.052</Y>
+        <Y t="37">0.049</Y>
+        <Y t="38">0.048</Y>
+        <Y t="39">0.043</Y>
+        <Y t="40">0.046</Y>
+        <Y t="41">0.042</Y>
+        <Y t="42">0.04</Y>
+        <Y t="43">0.04</Y>
+        <Y t="44">0.039</Y>
+        <Y t="45">0.04</Y>
+        <Y t="46">0.041</Y>
+        <Y t="47">0.04</Y>
+        <Y t="48">0.04</Y>
+        <Y t="49">0.038</Y>
+        <Y t="50">0.038</Y>
+        <Y t="51">0.041</Y>
+        <Y t="52">0.04</Y>
+        <Y t="53">0.04</Y>
+        <Y t="54">0.04</Y>
+        <Y t="55">0.04</Y>
+        <Y t="56">0.043</Y>
+        <Y t="57">0.04</Y>
+        <Y t="58">0.041</Y>
+        <Y t="59">0.042</Y>
+        <Y t="60">0.045</Y>
+        <Y t="61">0.041</Y>
+        <Y t="62">0.039</Y>
+        <Y t="63">0.043</Y>
+        <Y t="64">0.04</Y>
+        <Y t="65">0.04</Y>
+        <Y t="66">0.045</Y>
+        <Y t="67">0.038</Y>
+        <Y t="68">0.044</Y>
+        <Y t="69">0.04</Y>
+        <Y t="70">0.039</Y>
+        <Y t="71">0.036</Y>
+        <Y t="72">0.032</Y>
+        <Y t="73">0.039</Y>
+        <Y t="74">0.031</Y>
+        <Y t="75">0.034</Y>
+        <Y t="76">0.033</Y>
+        <Y t="77">0.029</Y>
+        <Y t="78">0.029</Y>
+        <Y t="79">0.033</Y>
+        <Y t="80">0.022</Y>
+        <Y t="81">0.02</Y>
+        <Y t="82">0.029</Y>
+        <Y t="83">0.019</Y>
+        <Y t="84">0.021</Y>
+        <Y t="85">0.021</Y>
+        <Y t="86">0.021</Y>
+        <Y t="87">0.018</Y>
+        <Y t="88">0.017</Y>
+        <Y t="89">0.031</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1484</TableIdentity>
+    <ProviderDomain>naic.org</ProviderDomain>
+    <ProviderName>NAIC</ProviderName>
+    <TableReference>National Association of Insurance Commissioners, "1985 NAIC Cancer Claim Cost Tables", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1985 NAIC Cancer Claim Cost Tables, Hospital Benefit of $100 per Day - Female</TableName>
+    <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: Benefit Confinement Bands. Minimum Age: 15. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. Claim costs are separated by gender and confinement continuance. Methodology: Tables loaded at a uniform 5% (applied to the incidence rate elements) plus a small amount believed to be 1-2% with regard to the continuance element. Data Transcription Errors: None. Data Certified: 12/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: No Limit on Confinement. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">2.1615</Y>
+        <Y t="16">2.1615</Y>
+        <Y t="17">2.1615</Y>
+        <Y t="18">2.1664</Y>
+        <Y t="19">2.1718</Y>
+        <Y t="20">2.1772</Y>
+        <Y t="21">2.1835</Y>
+        <Y t="22">2.1899</Y>
+        <Y t="23">2.1968</Y>
+        <Y t="24">2.2056</Y>
+        <Y t="25">2.7104</Y>
+        <Y t="26">3.1969</Y>
+        <Y t="27">3.5802</Y>
+        <Y t="28">3.8131</Y>
+        <Y t="29">3.9404</Y>
+        <Y t="30">4.0263</Y>
+        <Y t="31">4.1372</Y>
+        <Y t="32">4.3402</Y>
+        <Y t="33">4.6508</Y>
+        <Y t="34">5.025</Y>
+        <Y t="35">5.483</Y>
+        <Y t="36">6.0141</Y>
+        <Y t="37">6.5707</Y>
+        <Y t="38">7.1281</Y>
+        <Y t="39">7.699</Y>
+        <Y t="40">8.3197</Y>
+        <Y t="41">9.0265</Y>
+        <Y t="42">9.8648</Y>
+        <Y t="43">10.874</Y>
+        <Y t="44">12.0353</Y>
+        <Y t="45">13.3039</Y>
+        <Y t="46">14.6206</Y>
+        <Y t="47">15.9344</Y>
+        <Y t="48">17.2169</Y>
+        <Y t="49">18.5068</Y>
+        <Y t="50">19.8361</Y>
+        <Y t="51">21.238</Y>
+        <Y t="52">22.7514</Y>
+        <Y t="53">24.377</Y>
+        <Y t="54">26.0977</Y>
+        <Y t="55">27.7025</Y>
+        <Y t="56">29.1624</Y>
+        <Y t="57">30.6746</Y>
+        <Y t="58">32.3363</Y>
+        <Y t="59">34.1457</Y>
+        <Y t="60">35.9629</Y>
+        <Y t="61">37.6439</Y>
+        <Y t="62">39.052</Y>
+        <Y t="63">40.1129</Y>
+        <Y t="64">40.9245</Y>
+        <Y t="65">41.5878</Y>
+        <Y t="66">42.2118</Y>
+        <Y t="67">42.8973</Y>
+        <Y t="68">43.6789</Y>
+        <Y t="69">44.4849</Y>
+        <Y t="70">45.2711</Y>
+        <Y t="71">45.9812</Y>
+        <Y t="72">46.571</Y>
+        <Y t="73">46.9763</Y>
+        <Y t="74">47.2266</Y>
+        <Y t="75">47.4222</Y>
+        <Y t="76">47.6564</Y>
+        <Y t="77">48.0241</Y>
+        <Y t="78">48.541</Y>
+        <Y t="79">49.1455</Y>
+        <Y t="80">49.8118</Y>
+        <Y t="81">50.5148</Y>
+        <Y t="82">51.2348</Y>
+        <Y t="83">52.0723</Y>
+        <Y t="84">53.0447</Y>
+        <Y t="85">53.995</Y>
+        <Y t="86">54.766</Y>
+        <Y t="87">55.2013</Y>
+        <Y t="88">55.3845</Y>
+        <Y t="89">55.417</Y>
+        <Y t="90">55.1794</Y>
+        <Y t="91">54.54</Y>
+        <Y t="92">53.3784</Y>
+        <Y t="93">51.7739</Y>
+        <Y t="94">49.8132</Y>
+        <Y t="95">47.3707</Y>
+        <Y t="96">44.3194</Y>
+        <Y t="97">40.5352</Y>
+        <Y t="98">40.5352</Y>
+        <Y t="99">40.5352</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: Covers Only First 7 Days of Confinement. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">1.2978</Y>
+        <Y t="16">1.2978</Y>
+        <Y t="17">1.2978</Y>
+        <Y t="18">1.3007</Y>
+        <Y t="19">1.3038</Y>
+        <Y t="20">1.307</Y>
+        <Y t="21">1.3107</Y>
+        <Y t="22">1.3145</Y>
+        <Y t="23">1.3185</Y>
+        <Y t="24">1.3237</Y>
+        <Y t="25">1.6188</Y>
+        <Y t="26">1.8911</Y>
+        <Y t="27">2.0979</Y>
+        <Y t="28">2.2137</Y>
+        <Y t="29">2.2662</Y>
+        <Y t="30">2.2946</Y>
+        <Y t="31">2.3364</Y>
+        <Y t="32">2.4291</Y>
+        <Y t="33">2.5799</Y>
+        <Y t="34">2.7626</Y>
+        <Y t="35">2.9688</Y>
+        <Y t="36">3.1878</Y>
+        <Y t="37">3.4113</Y>
+        <Y t="38">3.6264</Y>
+        <Y t="39">3.8402</Y>
+        <Y t="40">4.1602</Y>
+        <Y t="41">4.5233</Y>
+        <Y t="42">4.9542</Y>
+        <Y t="43">5.4722</Y>
+        <Y t="44">6.0681</Y>
+        <Y t="45">6.6595</Y>
+        <Y t="46">7.2031</Y>
+        <Y t="47">7.7286</Y>
+        <Y t="48">8.2219</Y>
+        <Y t="49">8.705</Y>
+        <Y t="50">9.1924</Y>
+        <Y t="51">9.6995</Y>
+        <Y t="52">10.2436</Y>
+        <Y t="53">10.8222</Y>
+        <Y t="54">11.4297</Y>
+        <Y t="55">12.0661</Y>
+        <Y t="56">12.733</Y>
+        <Y t="57">13.4254</Y>
+        <Y t="58">14.1863</Y>
+        <Y t="59">15.0158</Y>
+        <Y t="60">15.8547</Y>
+        <Y t="61">16.6341</Y>
+        <Y t="62">17.2957</Y>
+        <Y t="63">17.8053</Y>
+        <Y t="64">18.2055</Y>
+        <Y t="65">18.5674</Y>
+        <Y t="66">18.9438</Y>
+        <Y t="67">19.3508</Y>
+        <Y t="68">19.8043</Y>
+        <Y t="69">20.2721</Y>
+        <Y t="70">20.7348</Y>
+        <Y t="71">21.0593</Y>
+        <Y t="72">21.3298</Y>
+        <Y t="73">21.5174</Y>
+        <Y t="74">21.6351</Y>
+        <Y t="75">21.7284</Y>
+        <Y t="76">21.84</Y>
+        <Y t="77">22.0132</Y>
+        <Y t="78">22.2549</Y>
+        <Y t="79">22.5374</Y>
+        <Y t="80">22.8487</Y>
+        <Y t="81">23.1771</Y>
+        <Y t="82">23.5137</Y>
+        <Y t="83">23.9044</Y>
+        <Y t="84">24.3574</Y>
+        <Y t="85">24.8005</Y>
+        <Y t="86">25.162</Y>
+        <Y t="87">25.3703</Y>
+        <Y t="88">25.4636</Y>
+        <Y t="89">25.4883</Y>
+        <Y t="90">25.39</Y>
+        <Y t="91">25.1081</Y>
+        <Y t="92">24.5881</Y>
+        <Y t="93">23.8659</Y>
+        <Y t="94">22.9813</Y>
+        <Y t="95">21.8769</Y>
+        <Y t="96">20.4946</Y>
+        <Y t="97">18.7777</Y>
+        <Y t="98">18.7777</Y>
+        <Y t="99">18.7777</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table, Hospital Benefit of $100 per Day – Female. Basis: Covers Only First 14 Days of Confinement. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">1.7917</Y>
+        <Y t="16">1.7917</Y>
+        <Y t="17">1.7917</Y>
+        <Y t="18">1.7952</Y>
+        <Y t="19">1.799</Y>
+        <Y t="20">1.8028</Y>
+        <Y t="21">1.8073</Y>
+        <Y t="22">1.8118</Y>
+        <Y t="23">1.8166</Y>
+        <Y t="24">1.8229</Y>
+        <Y t="25">2.2293</Y>
+        <Y t="26">2.6043</Y>
+        <Y t="27">2.8889</Y>
+        <Y t="28">3.0478</Y>
+        <Y t="29">3.1198</Y>
+        <Y t="30">3.1584</Y>
+        <Y t="31">3.2154</Y>
+        <Y t="32">3.3429</Y>
+        <Y t="33">3.5504</Y>
+        <Y t="34">3.8022</Y>
+        <Y t="35">4.0863</Y>
+        <Y t="36">4.3881</Y>
+        <Y t="37">4.6956</Y>
+        <Y t="38">4.9913</Y>
+        <Y t="39">5.2848</Y>
+        <Y t="40">5.8127</Y>
+        <Y t="41">6.4135</Y>
+        <Y t="42">7.1208</Y>
+        <Y t="43">7.9679</Y>
+        <Y t="44">8.9454</Y>
+        <Y t="45">9.897</Y>
+        <Y t="46">10.7491</Y>
+        <Y t="47">11.5792</Y>
+        <Y t="48">12.3695</Y>
+        <Y t="49">13.1501</Y>
+        <Y t="50">13.9415</Y>
+        <Y t="51">14.7694</Y>
+        <Y t="52">15.6569</Y>
+        <Y t="53">16.6045</Y>
+        <Y t="54">17.6011</Y>
+        <Y t="55">18.6245</Y>
+        <Y t="56">19.6769</Y>
+        <Y t="57">20.7694</Y>
+        <Y t="58">21.9727</Y>
+        <Y t="59">23.2848</Y>
+        <Y t="60">24.6084</Y>
+        <Y t="61">25.8495</Y>
+        <Y t="62">26.9106</Y>
+        <Y t="63">27.7355</Y>
+        <Y t="64">28.3951</Y>
+        <Y t="65">29.1382</Y>
+        <Y t="66">30.0482</Y>
+        <Y t="67">31.0167</Y>
+        <Y t="68">32.0714</Y>
+        <Y t="69">33.1621</Y>
+        <Y t="70">34.2561</Y>
+        <Y t="71">34.7937</Y>
+        <Y t="72">35.2398</Y>
+        <Y t="73">35.5458</Y>
+        <Y t="74">35.7341</Y>
+        <Y t="75">35.8806</Y>
+        <Y t="76">36.0561</Y>
+        <Y t="77">36.3324</Y>
+        <Y t="78">36.7216</Y>
+        <Y t="79">37.1768</Y>
+        <Y t="80">37.6786</Y>
+        <Y t="81">38.2081</Y>
+        <Y t="82">38.7501</Y>
+        <Y t="83">39.381</Y>
+        <Y t="84">40.1139</Y>
+        <Y t="85">40.8299</Y>
+        <Y t="86">41.41</Y>
+        <Y t="87">41.7359</Y>
+        <Y t="88">41.8708</Y>
+        <Y t="89">41.8915</Y>
+        <Y t="90">41.7077</Y>
+        <Y t="91">41.2195</Y>
+        <Y t="92">40.3359</Y>
+        <Y t="93">39.1167</Y>
+        <Y t="94">37.6278</Y>
+        <Y t="95">35.7739</Y>
+        <Y t="96">33.4592</Y>
+        <Y t="97">30.5893</Y>
+        <Y t="98">30.5893</Y>
+        <Y t="99">30.5893</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

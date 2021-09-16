@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>647</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Central Bureau of Statistics - Centraal Bureau voor de Statistiek. Reprinted by A.S. MacDonald, "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>GBM 1985-90</TableName>
+    <TableDescription>Gehele Bevolking Mannen (GBM) 1985-1990. Minimum Age: 0. Maximum Age: 109</TableDescription>
+    <Comments>Study Data: Statistics Netherlands uses the Municipal Personal Records Databases to calculate quotients directly from observed numbers of deceased and survivors in the period considered. Mortality tables are determined for a period of five years on the basis of these data. In doing so, the number of children in their first year of life is set at 100,000 and, on the basis of observations, the number of persons alive is determined for each subsequent age. The mortality quotients can be derived from this. Although population-based, it is customary for many companies to use these tables for the valuation and pricing of assurance and annuities by way of age adjustments. Methodology: The mortality tables published by Statistics Netherlands show an irregular trend. For actuarial applications, such a trend is undesirable. For this reason, the respective mortality tables are smoothed. For this generation, Makeham formula was employed. Data Transcription Errors: None. Data Certified: 10/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Netherlands</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="31">Netherlands</Nation>
+      <TableDescription>Gehele Bevolking Mannen (GBM) 1985-1990. Minimum Age: 0. Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00020530</Y>
+        <Y t="1">0.00020534</Y>
+        <Y t="2">0.00020528</Y>
+        <Y t="3">0.00020533</Y>
+        <Y t="4">0.00020537</Y>
+        <Y t="5">0.00020531</Y>
+        <Y t="6">0.00020535</Y>
+        <Y t="7">0.00020529</Y>
+        <Y t="8">0.00020534</Y>
+        <Y t="9">0.00020528</Y>
+        <Y t="10">0.00020532</Y>
+        <Y t="11">0.00020536</Y>
+        <Y t="12">0.00020531</Y>
+        <Y t="13">0.00020525</Y>
+        <Y t="14">0.00031099</Y>
+        <Y t="15">0.00040960</Y>
+        <Y t="16">0.00049207</Y>
+        <Y t="17">0.00055958</Y>
+        <Y t="18">0.00061375</Y>
+        <Y t="19">0.00065624</Y>
+        <Y t="20">0.00068856</Y>
+        <Y t="21">0.00071229</Y>
+        <Y t="22">0.00072881</Y>
+        <Y t="23">0.00074003</Y>
+        <Y t="24">0.00074704</Y>
+        <Y t="25">0.00075194</Y>
+        <Y t="26">0.00075574</Y>
+        <Y t="27">0.00076025</Y>
+        <Y t="28">0.00076710</Y>
+        <Y t="29">0.00077782</Y>
+        <Y t="30">0.00079383</Y>
+        <Y t="31">0.00081667</Y>
+        <Y t="32">0.00084809</Y>
+        <Y t="33">0.00088945</Y>
+        <Y t="34">0.00094241</Y>
+        <Y t="35">0.00100854</Y>
+        <Y t="36">0.00108933</Y>
+        <Y t="37">0.00118629</Y>
+        <Y t="38">0.00120822</Y>
+        <Y t="39">0.00137153</Y>
+        <Y t="40">0.00155247</Y>
+        <Y t="41">0.00175268</Y>
+        <Y t="42">0.00197445</Y>
+        <Y t="43">0.00222011</Y>
+        <Y t="44">0.00249211</Y>
+        <Y t="45">0.00279336</Y>
+        <Y t="46">0.00312690</Y>
+        <Y t="47">0.00349621</Y>
+        <Y t="48">0.00390525</Y>
+        <Y t="49">0.00435799</Y>
+        <Y t="50">0.00485945</Y>
+        <Y t="51">0.00541436</Y>
+        <Y t="52">0.00602895</Y>
+        <Y t="53">0.00670906</Y>
+        <Y t="54">0.00746195</Y>
+        <Y t="55">0.00829529</Y>
+        <Y t="56">0.00921758</Y>
+        <Y t="57">0.01023806</Y>
+        <Y t="58">0.01136748</Y>
+        <Y t="59">0.01261666</Y>
+        <Y t="60">0.01399889</Y>
+        <Y t="61">0.01552747</Y>
+        <Y t="62">0.01721799</Y>
+        <Y t="63">0.01908728</Y>
+        <Y t="64">0.02115359</Y>
+        <Y t="65">0.02343736</Y>
+        <Y t="66">0.02596105</Y>
+        <Y t="67">0.02874873</Y>
+        <Y t="68">0.03182743</Y>
+        <Y t="69">0.03522619</Y>
+        <Y t="70">0.03897706</Y>
+        <Y t="71">0.04311501</Y>
+        <Y t="72">0.04767780</Y>
+        <Y t="73">0.05279593</Y>
+        <Y t="74">0.05725956</Y>
+        <Y t="75">0.06217932</Y>
+        <Y t="76">0.06759891</Y>
+        <Y t="77">0.07356556</Y>
+        <Y t="78">0.08013019</Y>
+        <Y t="79">0.08734787</Y>
+        <Y t="80">0.09527645</Y>
+        <Y t="81">0.10397850</Y>
+        <Y t="82">0.11352041</Y>
+        <Y t="83">0.12397117</Y>
+        <Y t="84">0.13540323</Y>
+        <Y t="85">0.14789348</Y>
+        <Y t="86">0.16151698</Y>
+        <Y t="87">0.17635484</Y>
+        <Y t="88">0.19248402</Y>
+        <Y t="89">0.20998144</Y>
+        <Y t="90">0.22892108</Y>
+        <Y t="91">0.24937092</Y>
+        <Y t="92">0.27139205</Y>
+        <Y t="93">0.29502796</Y>
+        <Y t="94">0.32031782</Y>
+        <Y t="95">0.34727774</Y>
+        <Y t="96">0.37588538</Y>
+        <Y t="97">0.40612067</Y>
+        <Y t="98">0.43789302</Y>
+        <Y t="99">0.47111240</Y>
+        <Y t="100">0.50563135</Y>
+        <Y t="101">0.54121134</Y>
+        <Y t="102">0.57771498</Y>
+        <Y t="103">0.61472275</Y>
+        <Y t="104">0.65260546</Y>
+        <Y t="105">0.68571429</Y>
+        <Y t="106">0.72727273</Y>
+        <Y t="107">0.75000000</Y>
+        <Y t="108">0.66666667</Y>
+        <Y t="109">1.00000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

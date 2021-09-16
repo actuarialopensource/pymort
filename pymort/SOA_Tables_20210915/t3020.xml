@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3020</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Robert J. Meyers, "Further Remarriage Experience", Proceedings of the Casualty Actuaries Society, Volume XXXVI, Number 66 (1949). Accessed: September, 2014 from https://www.casact.org/pubs/proceed/proceed49/49073.pdf</TableReference>
+    <ContentType tc="14">Remarriage</ContentType>
+    <TableName>American Remarriage Table 1939-41 - White Females</TableName>
+    <TableDescription>American Remarriage Table 1939-41. Select Minimum Age: 18. Select Maximum Age: 73. Minimum Ultimate Age: 23. Maximum Ultimate Age: 78</TableDescription>
+    <Comments>Study Data: Since the passage of the 1939 Amendments to the Social Security Act and the 1946 Amendments to the Railroad Retirement Act, actuaries engaged in social insurance work have been concerned with the element of remarriage as these two systems now provide monthly payments to widows subject to their not remarrying. For this study, actual remarriage experience under the Employees' Compensation system, which is in effect the workmen's compensation program for Federal Government employees, and under the Old-Age and Survivors Insurance system has been used. Statistics used cover the period from 1916 (when the system began) to the middle of 1945. There is one major difficulty with the actual data available up to now, specifically, data are based on date of administrative action rather than date of demographic event (i.e., date of widowhood). A second concern is that a very significant proportion of the widowed population does not receive benefits, principally because of covered employment. Methodology: Due to the detailed nature ofthe data, it was possible to build up the exposures on a full-year basis. The experience has been traced through on a select basis for the first five years of widowhood. However for data on an ultimate basis, it was necessary to redistribute the data and arrange them in age groups; this was done by osculatory interpolation. Adjustements were then made to the data. The nature of the adjustments is best described by exmaple: the awards of 1940 were shown by age at widowhood, and the number of these who continued in force on December 31, 1940 was also shown. Using these continuance probabilities, the "in force" on December 31, 1940 were projected to December 31,1941; similarly, the new entrants (or awards of 1941) were projected for an average of 1/2 year to the same date. These projected figures were then adjustedage by age so that their total equalled the actual beneficiaries "in force".Then these adjusted figures were projected for one full year by using the proper continuance probabilities. A further adjustment was necessary to take account of the fact that observation in the Old-Age and Survivors Insurance data did not start at date of widowhood, but rather at the
+later date of administrative action, herein assumed to be three months after widowhood. Lastly, an adjustment was also required since the American Remarriage Table is tabulated according to age last birthday, whereas the Old-Age and Survivors Insurance data are shown by age in year of award, or on the average, nearest birthday at date of award. Data Transcription Errors:  None.  Data Certified: 09/2014</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Remarriage Probabilities</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>American Remarriage Table 1939-41 - White Females. Select Minimum Age: 18. Select Maximum Age: 73. </TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>73</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>5</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="18">
+        <Axis>
+          <Y t="1">0.0689</Y>
+          <Y t="2">0.1688</Y>
+          <Y t="3">0.1332</Y>
+          <Y t="4">0.1299</Y>
+          <Y t="5">0.079</Y>
+        </Axis>
+      </Axis>
+      <Axis t="19">
+        <Axis>
+          <Y t="1">0.0643</Y>
+          <Y t="2">0.1586</Y>
+          <Y t="3">0.1252</Y>
+          <Y t="4">0.1221</Y>
+          <Y t="5">0.0742</Y>
+        </Axis>
+      </Axis>
+      <Axis t="20">
+        <Axis>
+          <Y t="1">0.0608</Y>
+          <Y t="2">0.1489</Y>
+          <Y t="3">0.1175</Y>
+          <Y t="4">0.1146</Y>
+          <Y t="5">0.0697</Y>
+        </Axis>
+      </Axis>
+      <Axis t="21">
+        <Axis>
+          <Y t="1">0.057</Y>
+          <Y t="2">0.1395</Y>
+          <Y t="3">0.1101</Y>
+          <Y t="4">0.1074</Y>
+          <Y t="5">0.0663</Y>
+        </Axis>
+      </Axis>
+      <Axis t="22">
+        <Axis>
+          <Y t="1">0.0533</Y>
+          <Y t="2">0.1305</Y>
+          <Y t="3">0.1029</Y>
+          <Y t="4">0.1004</Y>
+          <Y t="5">0.0611</Y>
+        </Axis>
+      </Axis>
+      <Axis t="23">
+        <Axis>
+          <Y t="1">0.0499</Y>
+          <Y t="2">0.1222</Y>
+          <Y t="3">0.0963</Y>
+          <Y t="4">0.094</Y>
+          <Y t="5">0.0571</Y>
+        </Axis>
+      </Axis>
+      <Axis t="24">
+        <Axis>
+          <Y t="1">0.0466</Y>
+          <Y t="2">0.1141</Y>
+          <Y t="3">0.09</Y>
+          <Y t="4">0.0877</Y>
+          <Y t="5">0.0533</Y>
+        </Axis>
+      </Axis>
+      <Axis t="25">
+        <Axis>
+          <Y t="1">0.0434</Y>
+          <Y t="2">0.1063</Y>
+          <Y t="3">0.0838</Y>
+          <Y t="4">0.0318</Y>
+          <Y t="5">0.0496</Y>
+        </Axis>
+      </Axis>
+      <Axis t="26">
+        <Axis>
+          <Y t="1">0.0404</Y>
+          <Y t="2">0.099</Y>
+          <Y t="3">0.0781</Y>
+          <Y t="4">0.0761</Y>
+          <Y t="5">0.0462</Y>
+        </Axis>
+      </Axis>
+      <Axis t="27">
+        <Axis>
+          <Y t="1">0.0376</Y>
+          <Y t="2">0.0921</Y>
+          <Y t="3">0.0726</Y>
+          <Y t="4">0.0708</Y>
+          <Y t="5">0.0431</Y>
+        </Axis>
+      </Axis>
+      <Axis t="28">
+        <Axis>
+          <Y t="1">0.0349</Y>
+          <Y t="2">0.0855</Y>
+          <Y t="3">0.0674</Y>
+          <Y t="4">0.065</Y>
+          <Y t="5">0.04</Y>
+        </Axis>
+      </Axis>
+      <Axis t="29">
+        <Axis>
+          <Y t="1">0.0324</Y>
+          <Y t="2">0.0793</Y>
+          <Y t="3">0.0626</Y>
+          <Y t="4">0.0611</Y>
+          <Y t="5">0.0372</Y>
+        </Axis>
+      </Axis>
+      <Axis t="30">
+        <Axis>
+          <Y t="1">0.03</Y>
+          <Y t="2">0.0733</Y>
+          <Y t="3">0.0579</Y>
+          <Y t="4">0.0565</Y>
+          <Y t="5">0.0344</Y>
+        </Axis>
+      </Axis>
+      <Axis t="31">
+        <Axis>
+          <Y t="1">0.0277</Y>
+          <Y t="2">0.0678</Y>
+          <Y t="3">0.0535</Y>
+          <Y t="4">0.0522</Y>
+          <Y t="5">0.0318</Y>
+        </Axis>
+      </Axis>
+      <Axis t="32">
+        <Axis>
+          <Y t="1">0.0257</Y>
+          <Y t="2">0.0627</Y>
+          <Y t="3">0.0495</Y>
+          <Y t="4">0.0483</Y>
+          <Y t="5">0.0294</Y>
+        </Axis>
+      </Axis>
+      <Axis t="33">
+        <Axis>
+          <Y t="1">0.0237</Y>
+          <Y t="2">0.0578</Y>
+          <Y t="3">0.0455</Y>
+          <Y t="4">0.0445</Y>
+          <Y t="5">0.0271</Y>
+        </Axis>
+      </Axis>
+      <Axis t="34">
+        <Axis>
+          <Y t="1">0.0218</Y>
+          <Y t="2">0.0532</Y>
+          <Y t="3">0.042</Y>
+          <Y t="4">0.0409</Y>
+          <Y t="5">0.0249</Y>
+        </Axis>
+      </Axis>
+      <Axis t="35">
+        <Axis>
+          <Y t="1">0.0201</Y>
+          <Y t="2">0.049</Y>
+          <Y t="3">0.0386</Y>
+          <Y t="4">0.0376</Y>
+          <Y t="5">0.023</Y>
+        </Axis>
+      </Axis>
+      <Axis t="36">
+        <Axis>
+          <Y t="1">0.0184</Y>
+          <Y t="2">0.0449</Y>
+          <Y t="3">0.0354</Y>
+          <Y t="4">0.0345</Y>
+          <Y t="5">0.0211</Y>
+        </Axis>
+      </Axis>
+      <Axis t="37">
+        <Axis>
+          <Y t="1">0.0169</Y>
+          <Y t="2">0.0412</Y>
+          <Y t="3">0.0324</Y>
+          <Y t="4">0.0316</Y>
+          <Y t="5">0.0193</Y>
+        </Axis>
+      </Axis>
+      <Axis t="38">
+        <Axis>
+          <Y t="1">0.0155</Y>
+          <Y t="2">0.0377</Y>
+          <Y t="3">0.0297</Y>
+          <Y t="4">0.029</Y>
+          <Y t="5">0.0177</Y>
+        </Axis>
+      </Axis>
+      <Axis t="39">
+        <Axis>
+          <Y t="1">0.0142</Y>
+          <Y t="2">0.0345</Y>
+          <Y t="3">0.0272</Y>
+          <Y t="4">0.0266</Y>
+          <Y t="5">0.0162</Y>
+        </Axis>
+      </Axis>
+      <Axis t="40">
+        <Axis>
+          <Y t="1">0.013</Y>
+          <Y t="2">0.0315</Y>
+          <Y t="3">0.0249</Y>
+          <Y t="4">0.0243</Y>
+          <Y t="5">0.14</Y>
+        </Axis>
+      </Axis>
+      <Axis t="41">
+        <Axis>
+          <Y t="1">0.0118</Y>
+          <Y t="2">0.0288</Y>
+          <Y t="3">0.0228</Y>
+          <Y t="4">0.0222</Y>
+          <Y t="5">0.0136</Y>
+        </Axis>
+      </Axis>
+      <Axis t="42">
+        <Axis>
+          <Y t="1">0.0107</Y>
+          <Y t="2">0.0263</Y>
+          <Y t="3">0.0208</Y>
+          <Y t="4">0.0202</Y>
+          <Y t="5">0.0124</Y>
+        </Axis>
+      </Axis>
+      <Axis t="43">
+        <Axis>
+          <Y t="1">0.0098</Y>
+          <Y t="2">0.0241</Y>
+          <Y t="3">0.0191</Y>
+          <Y t="4">0.0185</Y>
+          <Y t="5">0.0114</Y>
+        </Axis>
+      </Axis>
+      <Axis t="44">
+        <Axis>
+          <Y t="1">0.009</Y>
+          <Y t="2">0.022</Y>
+          <Y t="3">0.0174</Y>
+          <Y t="4">0.0169</Y>
+          <Y t="5">0.0104</Y>
+        </Axis>
+      </Axis>
+      <Axis t="45">
+        <Axis>
+          <Y t="1">0.0082</Y>
+          <Y t="2">0.02</Y>
+          <Y t="3">0.0159</Y>
+          <Y t="4">0.0154</Y>
+          <Y t="5">0.0095</Y>
+        </Axis>
+      </Axis>
+      <Axis t="46">
+        <Axis>
+          <Y t="1">0.0076</Y>
+          <Y t="2">0.0184</Y>
+          <Y t="3">0.0146</Y>
+          <Y t="4">0.0141</Y>
+          <Y t="5">0.0087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="47">
+        <Axis>
+          <Y t="1">0.0069</Y>
+          <Y t="2">0.0169</Y>
+          <Y t="3">0.0134</Y>
+          <Y t="4">0.0131</Y>
+          <Y t="5">0.008</Y>
+        </Axis>
+      </Axis>
+      <Axis t="48">
+        <Axis>
+          <Y t="1">0.0063</Y>
+          <Y t="2">0.0155</Y>
+          <Y t="3">0.0124</Y>
+          <Y t="4">0.0121</Y>
+          <Y t="5">0.0074</Y>
+        </Axis>
+      </Axis>
+      <Axis t="49">
+        <Axis>
+          <Y t="1">0.0058</Y>
+          <Y t="2">0.0142</Y>
+          <Y t="3">0.0113</Y>
+          <Y t="4">0.011</Y>
+          <Y t="5">0.0067</Y>
+        </Axis>
+      </Axis>
+      <Axis t="50">
+        <Axis>
+          <Y t="1">0.0054</Y>
+          <Y t="2">0.0132</Y>
+          <Y t="3">0.0105</Y>
+          <Y t="4">0.0102</Y>
+          <Y t="5">0.0063</Y>
+        </Axis>
+      </Axis>
+      <Axis t="51">
+        <Axis>
+          <Y t="1">0.005</Y>
+          <Y t="2">0.0123</Y>
+          <Y t="3">0.0096</Y>
+          <Y t="4">0.0095</Y>
+          <Y t="5">0.005</Y>
+        </Axis>
+      </Axis>
+      <Axis t="52">
+        <Axis>
+          <Y t="1">0.0047</Y>
+          <Y t="2">0.0115</Y>
+          <Y t="3">0.0092</Y>
+          <Y t="4">0.0089</Y>
+          <Y t="5">0.0055</Y>
+        </Axis>
+      </Axis>
+      <Axis t="53">
+        <Axis>
+          <Y t="1">0.0044</Y>
+          <Y t="2">0.0106</Y>
+          <Y t="3">0.0086</Y>
+          <Y t="4">0.0083</Y>
+          <Y t="5">0.0051</Y>
+        </Axis>
+      </Axis>
+      <Axis t="54">
+        <Axis>
+          <Y t="1">0.0041</Y>
+          <Y t="2">0.0102</Y>
+          <Y t="3">0.0081</Y>
+          <Y t="4">0.0076</Y>
+          <Y t="5">0.0049</Y>
+        </Axis>
+      </Axis>
+      <Axis t="55">
+        <Axis>
+          <Y t="1">0.004</Y>
+          <Y t="2">0.0097</Y>
+          <Y t="3">0.0077</Y>
+          <Y t="4">0.0075</Y>
+          <Y t="5">0.0046</Y>
+        </Axis>
+      </Axis>
+      <Axis t="56">
+        <Axis>
+          <Y t="1">0.0038</Y>
+          <Y t="2">0.0093</Y>
+          <Y t="3">0.0073</Y>
+          <Y t="4">0.0071</Y>
+          <Y t="5">0.0044</Y>
+        </Axis>
+      </Axis>
+      <Axis t="57">
+        <Axis>
+          <Y t="1">0.0036</Y>
+          <Y t="2">0.0088</Y>
+          <Y t="3">0.007</Y>
+          <Y t="4">0.0068</Y>
+          <Y t="5">0.0042</Y>
+        </Axis>
+      </Axis>
+      <Axis t="58">
+        <Axis>
+          <Y t="1">0.0035</Y>
+          <Y t="2">0.0085</Y>
+          <Y t="3">0.0067</Y>
+          <Y t="4">0.0066</Y>
+          <Y t="5">0.0041</Y>
+        </Axis>
+      </Axis>
+      <Axis t="59">
+        <Axis>
+          <Y t="1">0.0034</Y>
+          <Y t="2">0.0084</Y>
+          <Y t="3">0.0066</Y>
+          <Y t="4">0.0064</Y>
+          <Y t="5">0.004</Y>
+        </Axis>
+      </Axis>
+      <Axis t="60">
+        <Axis>
+          <Y t="1">0.0034</Y>
+          <Y t="2">0.0082</Y>
+          <Y t="3">0.0066</Y>
+          <Y t="4">0.0063</Y>
+          <Y t="5">0.0039</Y>
+        </Axis>
+      </Axis>
+      <Axis t="61">
+        <Axis>
+          <Y t="1">0.0032</Y>
+          <Y t="2">0.0079</Y>
+          <Y t="3">0.0063</Y>
+          <Y t="4">0.0061</Y>
+          <Y t="5">0.0037</Y>
+        </Axis>
+      </Axis>
+      <Axis t="62">
+        <Axis>
+          <Y t="1">0.0032</Y>
+          <Y t="2">0.0078</Y>
+          <Y t="3">0.0061</Y>
+          <Y t="4">0.006</Y>
+          <Y t="5">0.0036</Y>
+        </Axis>
+      </Axis>
+      <Axis t="63">
+        <Axis>
+          <Y t="1">0.0032</Y>
+          <Y t="2">0.0076</Y>
+          <Y t="3">0.006</Y>
+          <Y t="4">0.0059</Y>
+          <Y t="5">0.0036</Y>
+        </Axis>
+      </Axis>
+      <Axis t="64">
+        <Axis>
+          <Y t="1">0.0032</Y>
+          <Y t="2">0.0076</Y>
+          <Y t="3">0.006</Y>
+          <Y t="4">0.0059</Y>
+          <Y t="5">0.0036</Y>
+        </Axis>
+      </Axis>
+      <Axis t="65">
+        <Axis>
+          <Y t="1">0.0032</Y>
+          <Y t="2">0.0076</Y>
+          <Y t="3">0.0059</Y>
+          <Y t="4">0.0058</Y>
+          <Y t="5">0.0035</Y>
+        </Axis>
+      </Axis>
+      <Axis t="66">
+        <Axis>
+          <Y t="1">0.0031</Y>
+          <Y t="2">0.0074</Y>
+          <Y t="3">0.0058</Y>
+          <Y t="4">0.0056</Y>
+          <Y t="5">0.0034</Y>
+        </Axis>
+      </Axis>
+      <Axis t="67">
+        <Axis>
+          <Y t="1">0.003</Y>
+          <Y t="2">0.0071</Y>
+          <Y t="3">0.0055</Y>
+          <Y t="4">0.0056</Y>
+          <Y t="5">0.0033</Y>
+        </Axis>
+      </Axis>
+      <Axis t="68">
+        <Axis>
+          <Y t="1">0.0028</Y>
+          <Y t="2">0.007</Y>
+          <Y t="3">0.0055</Y>
+          <Y t="4">0.0054</Y>
+          <Y t="5">0.0032</Y>
+        </Axis>
+      </Axis>
+      <Axis t="69">
+        <Axis>
+          <Y t="1">0.0027</Y>
+          <Y t="2">0.0067</Y>
+          <Y t="3">0.0053</Y>
+          <Y t="4">0.0052</Y>
+          <Y t="5">0.0031</Y>
+        </Axis>
+      </Axis>
+      <Axis t="70">
+        <Axis>
+          <Y t="1">0.0025</Y>
+          <Y t="2">0.0062</Y>
+          <Y t="3">0.0049</Y>
+          <Y t="4">0.0048</Y>
+          <Y t="5">0.0029</Y>
+        </Axis>
+      </Axis>
+      <Axis t="71">
+        <Axis>
+          <Y t="1">0.0024</Y>
+          <Y t="2">0.0058</Y>
+          <Y t="3">0.0047</Y>
+          <Y t="4">0.0046</Y>
+          <Y t="5">0.0027</Y>
+        </Axis>
+      </Axis>
+      <Axis t="72">
+        <Axis>
+          <Y t="1">0.0021</Y>
+          <Y t="2">0.0052</Y>
+          <Y t="3">0.0042</Y>
+          <Y t="4">0.0041</Y>
+          <Y t="5">0.0024</Y>
+        </Axis>
+      </Axis>
+      <Axis t="73">
+        <Axis>
+          <Y t="1">0.0019</Y>
+          <Y t="2">0.0046</Y>
+          <Y t="3">0.0038</Y>
+          <Y t="4">0.0037</Y>
+          <Y t="5">0.0022</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>American Remarriage Table 1939-41 - White Females. Minimum Ultimate Age: 23. Maximum Ultimate Age: 78</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>23</MinScaleValue>
+        <MaxScaleValue>78</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="23">0.0558</Y>
+        <Y t="24">0.0525</Y>
+        <Y t="25">0.0493</Y>
+        <Y t="26">0.0452</Y>
+        <Y t="27">0.0432</Y>
+        <Y t="28">0.0404</Y>
+        <Y t="29">0.0376</Y>
+        <Y t="30">0.0352</Y>
+        <Y t="31">0.0328</Y>
+        <Y t="32">0.0305</Y>
+        <Y t="33">0.0283</Y>
+        <Y t="34">0.0263</Y>
+        <Y t="35">0.0243</Y>
+        <Y t="36">0.0225</Y>
+        <Y t="37">0.0208</Y>
+        <Y t="38">0.0192</Y>
+        <Y t="39">0.0176</Y>
+        <Y t="40">0.0163</Y>
+        <Y t="41">0.0149</Y>
+        <Y t="42">0.0137</Y>
+        <Y t="43">0.0126</Y>
+        <Y t="44">0.0115</Y>
+        <Y t="45">0.0105</Y>
+        <Y t="46">0.0096</Y>
+        <Y t="47">0.0087</Y>
+        <Y t="48">0.008</Y>
+        <Y t="49">0.0073</Y>
+        <Y t="50">0.0066</Y>
+        <Y t="51">0.0061</Y>
+        <Y t="52">0.0056</Y>
+        <Y t="53">0.0051</Y>
+        <Y t="54">0.0047</Y>
+        <Y t="55">0.0043</Y>
+        <Y t="56">0.0041</Y>
+        <Y t="57">0.0038</Y>
+        <Y t="58">0.0036</Y>
+        <Y t="59">0.0034</Y>
+        <Y t="60">0.0032</Y>
+        <Y t="61">0.0031</Y>
+        <Y t="62">0.0029</Y>
+        <Y t="63">0.0028</Y>
+        <Y t="64">0.0028</Y>
+        <Y t="65">0.0028</Y>
+        <Y t="66">0.0027</Y>
+        <Y t="67">0.0027</Y>
+        <Y t="68">0.0026</Y>
+        <Y t="69">0.0026</Y>
+        <Y t="70">0.0025</Y>
+        <Y t="71">0.0024</Y>
+        <Y t="72">0.0023</Y>
+        <Y t="73">0.0023</Y>
+        <Y t="74">0.0022</Y>
+        <Y t="75">0.002</Y>
+        <Y t="76">0.0019</Y>
+        <Y t="77">0.0017</Y>
+        <Y t="78">0.0015</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

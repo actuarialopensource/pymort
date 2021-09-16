@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>896</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Union Professionnelle des Entreprises d’Assurances. Reprinted by A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1987-91 U.P.E.A. -  Female</TableName>
+    <TableDescription>1987-91 Union Professionnelle des Entreprises d’Assurances (U.P.E.A.) - Female. Minimum Age: 0 Maximum Age: 119</TableDescription>
+    <Comments>Study Data: Observation of mortality between 1987 and 1991 for ordinary life assurances providing a benefit in case of survival, excluding group insurance. Methodology: Data graduated by the Makeham formula l(x) = k*s^x*g^(c^x). One set of values for the variables c, g , and s taken for ages 0-65 and another set for ages 65-69. Data Transcription Errors: None. Data Certified: 09/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Belgium</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="32">Belgium</Nation>
+      <TableDescription>1987-91 Union Professionnelle des Entreprises d’Assurances (U.P.E.A.) - Female. Minimum Age: 0 Maximum Age: 119</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>119</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.000285</Y>
+        <Y t="1">0.000286</Y>
+        <Y t="2">0.000287</Y>
+        <Y t="3">0.000288</Y>
+        <Y t="4">0.000289</Y>
+        <Y t="5">0.000290</Y>
+        <Y t="6">0.000292</Y>
+        <Y t="7">0.000293</Y>
+        <Y t="8">0.000295</Y>
+        <Y t="9">0.000297</Y>
+        <Y t="10">0.000299</Y>
+        <Y t="11">0.000302</Y>
+        <Y t="12">0.000305</Y>
+        <Y t="13">0.000308</Y>
+        <Y t="14">0.000311</Y>
+        <Y t="15">0.000315</Y>
+        <Y t="16">0.000319</Y>
+        <Y t="17">0.000324</Y>
+        <Y t="18">0.000329</Y>
+        <Y t="19">0.000335</Y>
+        <Y t="20">0.000341</Y>
+        <Y t="21">0.000349</Y>
+        <Y t="22">0.000357</Y>
+        <Y t="23">0.000365</Y>
+        <Y t="24">0.000375</Y>
+        <Y t="25">0.000386</Y>
+        <Y t="26">0.000398</Y>
+        <Y t="27">0.000412</Y>
+        <Y t="28">0.000426</Y>
+        <Y t="29">0.000443</Y>
+        <Y t="30">0.000461</Y>
+        <Y t="31">0.000482</Y>
+        <Y t="32">0.000505</Y>
+        <Y t="33">0.000530</Y>
+        <Y t="34">0.000558</Y>
+        <Y t="35">0.000589</Y>
+        <Y t="36">0.000624</Y>
+        <Y t="37">0.000662</Y>
+        <Y t="38">0.000705</Y>
+        <Y t="39">0.000752</Y>
+        <Y t="40">0.000805</Y>
+        <Y t="41">0.000863</Y>
+        <Y t="42">0.000928</Y>
+        <Y t="43">0.001000</Y>
+        <Y t="44">0.001081</Y>
+        <Y t="45">0.001170</Y>
+        <Y t="46">0.001268</Y>
+        <Y t="47">0.001378</Y>
+        <Y t="48">0.001500</Y>
+        <Y t="49">0.001636</Y>
+        <Y t="50">0.001786</Y>
+        <Y t="51">0.001954</Y>
+        <Y t="52">0.002139</Y>
+        <Y t="53">0.002346</Y>
+        <Y t="54">0.002575</Y>
+        <Y t="55">0.002829</Y>
+        <Y t="56">0.003111</Y>
+        <Y t="57">0.003425</Y>
+        <Y t="58">0.003774</Y>
+        <Y t="59">0.004160</Y>
+        <Y t="60">0.004590</Y>
+        <Y t="61">0.005067</Y>
+        <Y t="62">0.005596</Y>
+        <Y t="63">0.006184</Y>
+        <Y t="64">0.024528</Y>
+        <Y t="65">0.007478</Y>
+        <Y t="66">0.008093</Y>
+        <Y t="67">0.008761</Y>
+        <Y t="68">0.009485</Y>
+        <Y t="69">0.010271</Y>
+        <Y t="70">0.011124</Y>
+        <Y t="71">0.012049</Y>
+        <Y t="72">0.013052</Y>
+        <Y t="73">0.014140</Y>
+        <Y t="74">0.015320</Y>
+        <Y t="75">0.016600</Y>
+        <Y t="76">0.017988</Y>
+        <Y t="77">0.019492</Y>
+        <Y t="78">0.021123</Y>
+        <Y t="79">0.022891</Y>
+        <Y t="80">0.024807</Y>
+        <Y t="81">0.026883</Y>
+        <Y t="82">0.029132</Y>
+        <Y t="83">0.031568</Y>
+        <Y t="84">0.034206</Y>
+        <Y t="85">0.037062</Y>
+        <Y t="86">0.040154</Y>
+        <Y t="87">0.043500</Y>
+        <Y t="88">0.047119</Y>
+        <Y t="89">0.051033</Y>
+        <Y t="90">0.055265</Y>
+        <Y t="91">0.059839</Y>
+        <Y t="92">0.064780</Y>
+        <Y t="93">0.070115</Y>
+        <Y t="94">0.075873</Y>
+        <Y t="95">0.082085</Y>
+        <Y t="96">0.088783</Y>
+        <Y t="97">0.095999</Y>
+        <Y t="98">0.103770</Y>
+        <Y t="99">0.708172</Y>
+        <Y t="100">0.251792</Y>
+        <Y t="101">0.275446</Y>
+        <Y t="102">0.300847</Y>
+        <Y t="103">0.328020</Y>
+        <Y t="104">0.356970</Y>
+        <Y t="105">0.387668</Y>
+        <Y t="106">0.420055</Y>
+        <Y t="107">0.454027</Y>
+        <Y t="108">0.489437</Y>
+        <Y t="109">0.526087</Y>
+        <Y t="110">0.563723</Y>
+        <Y t="111">0.602037</Y>
+        <Y t="112">0.640666</Y>
+        <Y t="113">0.679198</Y>
+        <Y t="114">0.717177</Y>
+        <Y t="115">0.754117</Y>
+        <Y t="116">0.789524</Y>
+        <Y t="117">0.822912</Y>
+        <Y t="118">0.853828</Y>
+        <Y t="119">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

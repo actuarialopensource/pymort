@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2340</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Continuous Mortality Investigation, “Continuous Mortality Investigation Reports Number 23”, Institute of Actuaries and Faculty of Actuaries (2009). Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/00-series-mortality-tables-assured-lives-annuitants-and-pensioners</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PNFA00</TableName>
+    <TableDescription>Pensioners Normal Retirements – Females by Amounts  (PNFA00) Basis: Age Exact. Minimum Age: 20. Maximum Age: 120.</TableDescription>
+    <Comments>Study Data: Based on 1999-2002 life office experience known as the “00” Series. The “00” Series tables were exposed to the profession in a consultation process via a series of Working Papers and public meetings. Data covers the mortality experience of life office pensioners, i.e. retirements from occupational schemes where the benefits have been insured. Data is further sub-divided into those who retired at or after the normal retirement age for their scheme (referred to as ‘Normal’ retirements) and those who retired before their normal retirement age (referred to as ‘Early’ retirements). In previous studies, only tables produced from the ‘Normal’ experience were officially adopted. For the “00” Series it was decided to expand the range of life office pensioner tables to also include graduations of the ‘Early’ experience, and an aggregated ‘Normal’ and ‘Early’ experience, designated ‘Combined’ retirements. Methodology: Separate graduations were carried out for lives and amounts, as was the case with the “92” Series. For the amounts experience, exposures and deaths were divided by a ‘scaling factor’ based on the average pension size. This does not affect the crude or graduated mortality rates, but does allow more meaningful statistical tests to be carried out. Very little data exists at younger ages but it was recognized that rates would likely be needed.  The method adopted was to find a GM(1,2) formula that satisfied the following: (1) μ20 = μ20 from AMC00 (males) or AFC00 (females);(2) Dμ20 = Dμ20 from AMC00 (males) or AFC00 (females); and (3) μ65 = μ65 from graduated pensioner table for ‘Normals’ where Dμ20 represents the derivative of the curve at age 20. The choice of a GM(1,2) function was arbitrary in order to generate the appropriate shape. As some of the resultant curves crossed over in undesirable ways, generally at the younger or older ages and these crossings tended to be features of the curves, rather than the actual data, a number of constraints were therefore applied to ensure that the relativities of the different tables remained sensible. Some further adjustments were made, for example to ensure that female rates did not exceed equivalent male rates and that amounts rates did not exceed equivalent lives rates. Data Transcription Errors: None. Data Certified: 09/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Pensioners Normal Retirements – Females by Amounts  (PNFA00) Basis: Age Exact. Minimum Age: 20. Maximum Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.000194</Y>
+        <Y t="21">0.000199</Y>
+        <Y t="22">0.000206</Y>
+        <Y t="23">0.000213</Y>
+        <Y t="24">0.000221</Y>
+        <Y t="25">0.00023</Y>
+        <Y t="26">0.00024</Y>
+        <Y t="27">0.000251</Y>
+        <Y t="28">0.000263</Y>
+        <Y t="29">0.000277</Y>
+        <Y t="30">0.000292</Y>
+        <Y t="31">0.000309</Y>
+        <Y t="32">0.000328</Y>
+        <Y t="33">0.000349</Y>
+        <Y t="34">0.000372</Y>
+        <Y t="35">0.000398</Y>
+        <Y t="36">0.000427</Y>
+        <Y t="37">0.000459</Y>
+        <Y t="38">0.000495</Y>
+        <Y t="39">0.000535</Y>
+        <Y t="40">0.000579</Y>
+        <Y t="41">0.000629</Y>
+        <Y t="42">0.000684</Y>
+        <Y t="43">0.000745</Y>
+        <Y t="44">0.000813</Y>
+        <Y t="45">0.000889</Y>
+        <Y t="46">0.000973</Y>
+        <Y t="47">0.001067</Y>
+        <Y t="48">0.001172</Y>
+        <Y t="49">0.001288</Y>
+        <Y t="50">0.001418</Y>
+        <Y t="51">0.001562</Y>
+        <Y t="52">0.001722</Y>
+        <Y t="53">0.001901</Y>
+        <Y t="54">0.0021</Y>
+        <Y t="55">0.002321</Y>
+        <Y t="56">0.002567</Y>
+        <Y t="57">0.002841</Y>
+        <Y t="58">0.003145</Y>
+        <Y t="59">0.003485</Y>
+        <Y t="60">0.003862</Y>
+        <Y t="61">0.004282</Y>
+        <Y t="62">0.004749</Y>
+        <Y t="63">0.005268</Y>
+        <Y t="64">0.005846</Y>
+        <Y t="65">0.006537</Y>
+        <Y t="66">0.007386</Y>
+        <Y t="67">0.008375</Y>
+        <Y t="68">0.009518</Y>
+        <Y t="69">0.010833</Y>
+        <Y t="70">0.012335</Y>
+        <Y t="71">0.014043</Y>
+        <Y t="72">0.015979</Y>
+        <Y t="73">0.018166</Y>
+        <Y t="74">0.020627</Y>
+        <Y t="75">0.02339</Y>
+        <Y t="76">0.026484</Y>
+        <Y t="77">0.029942</Y>
+        <Y t="78">0.033799</Y>
+        <Y t="79">0.038093</Y>
+        <Y t="80">0.042863</Y>
+        <Y t="81">0.048156</Y>
+        <Y t="82">0.054019</Y>
+        <Y t="83">0.060502</Y>
+        <Y t="84">0.067662</Y>
+        <Y t="85">0.075556</Y>
+        <Y t="86">0.084246</Y>
+        <Y t="87">0.093799</Y>
+        <Y t="88">0.104282</Y>
+        <Y t="89">0.115676</Y>
+        <Y t="90">0.127766</Y>
+        <Y t="91">0.140859</Y>
+        <Y t="92">0.155048</Y>
+        <Y t="93">0.170393</Y>
+        <Y t="94">0.186955</Y>
+        <Y t="95">0.204789</Y>
+        <Y t="96">0.223947</Y>
+        <Y t="97">0.244887</Y>
+        <Y t="98">0.266347</Y>
+        <Y t="99">0.287292</Y>
+        <Y t="100">0.307737</Y>
+        <Y t="101">0.327696</Y>
+        <Y t="102">0.347184</Y>
+        <Y t="103">0.366213</Y>
+        <Y t="104">0.384799</Y>
+        <Y t="105">0.40279</Y>
+        <Y t="106">0.418999</Y>
+        <Y t="107">0.434641</Y>
+        <Y t="108">0.450104</Y>
+        <Y t="109">0.465405</Y>
+        <Y t="110">0.480562</Y>
+        <Y t="111">0.4956</Y>
+        <Y t="112">0.510546</Y>
+        <Y t="113">0.525437</Y>
+        <Y t="114">0.540323</Y>
+        <Y t="115">0.555271</Y>
+        <Y t="116">0.570389</Y>
+        <Y t="117">0.585858</Y>
+        <Y t="118">0.602053</Y>
+        <Y t="119">0.620322</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

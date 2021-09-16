@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2625</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>C. E. Adams, “An Investigation into the Rates of Mortality in New Zealand During the Period 1881-1891”, Transactions and Proceedings of the New Zealand Institute 1896, Vol. XXIX (Wellington, 1897) Table E. Accessed January, 2014 from: http://www.biodiversitylibrary.org/item/107568#page/7/mode/1up</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1881-1991 Population Period Life Table - Male</TableName>
+    <TableDescription>1881-1991 Population Period Life Table - Male. Minimum Age: 0 Maximum Age: 74</TableDescription>
+    <Comments>Study Data: Tables of mortality are deduced from the censuses for 1881, 1886, and 1891, and from the deaths for each year during the period. It would have been possible to have computed the tables from one census and the deaths in that census year, but it was considered preferable to use average results, and for this purpose the average population as given by the three censuses has been employed, and the average number of deaths has also been used. In adopting this method, there is a greater chance of the final results exhibiting correctly the general mortality of the colony than there would have been had the figures relating to one year only been employed. Methodology: It was assumed that the population on the 1st July was the mean of the populations on the 1st January and the 31st December. The numbers living in each age-group, as given by the census, were increased in the same proportion as the whole population had increased from the date of the census to the 1st July. This adjustment was made for each of the three censuses. An attempt was made to ascertain mortality rates at individual ages from quinquennial age bands for ages 5-75 using Milne’s Graphic Method but was abandoned in favor of a mathematical process of distribution based on the method employed by G. W. Berridge ("Journal of the Institute of Actuaries" and "Text-book of the Institute of Actuaries"). For ages 0 to 5, the annual births and deaths of children five years of age and under for each of the years 1880-92 was utilized. From these figures, by means of a modification of the method used by Dr. Farr ("Journal of the Institute of Actuaries"), the probabilities of living a year at each age was determined. A slight adjustment was made to make the rates for ages 0-5 join smoothly on to the rest of the table. NOTE: This study has historical merit as it was frequently referenced to indicate New Zealanders were healthier and had longer life expectations than other British Colonies. However, as the indigenous Maori population was ignored, the table actually overstated life expectancies. Data Transcription Errors: None. Data Certified: 01/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>New Zealand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="64">New Zealand</Nation>
+      <TableDescription>1881-1991 Population Period Life Table - Male. Minimum Age: 0 Maximum Age: 74</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>74</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0967</Y>
+        <Y t="1">0.0182</Y>
+        <Y t="2">0.0076</Y>
+        <Y t="3">0.0050</Y>
+        <Y t="4">0.0042</Y>
+        <Y t="5">0.0039</Y>
+        <Y t="6">0.0036</Y>
+        <Y t="7">0.0032</Y>
+        <Y t="8">0.0027</Y>
+        <Y t="9">0.0023</Y>
+        <Y t="10">0.0021</Y>
+        <Y t="11">0.0021</Y>
+        <Y t="12">0.0021</Y>
+        <Y t="13">0.0023</Y>
+        <Y t="14">0.0025</Y>
+        <Y t="15">0.0029</Y>
+        <Y t="16">0.0033</Y>
+        <Y t="17">0.0038</Y>
+        <Y t="18">0.0042</Y>
+        <Y t="19">0.0046</Y>
+        <Y t="20">0.0050</Y>
+        <Y t="21">0.0052</Y>
+        <Y t="22">0.0054</Y>
+        <Y t="23">0.0055</Y>
+        <Y t="24">0.0056</Y>
+        <Y t="25">0.0053</Y>
+        <Y t="26">0.0053</Y>
+        <Y t="27">0.0053</Y>
+        <Y t="28">0.0054</Y>
+        <Y t="29">0.0055</Y>
+        <Y t="30">0.0059</Y>
+        <Y t="31">0.0061</Y>
+        <Y t="32">0.0063</Y>
+        <Y t="33">0.0065</Y>
+        <Y t="34">0.0067</Y>
+        <Y t="35">0.0068</Y>
+        <Y t="36">0.0071</Y>
+        <Y t="37">0.0073</Y>
+        <Y t="38">0.0075</Y>
+        <Y t="39">0.0080</Y>
+        <Y t="40">0.0083</Y>
+        <Y t="41">0.0087</Y>
+        <Y t="42">0.0091</Y>
+        <Y t="43">0.0096</Y>
+        <Y t="44">0.0101</Y>
+        <Y t="45">0.0109</Y>
+        <Y t="46">0.0115</Y>
+        <Y t="47">0.0122</Y>
+        <Y t="48">0.0128</Y>
+        <Y t="49">0.0134</Y>
+        <Y t="50">0.0138</Y>
+        <Y t="51">0.0144</Y>
+        <Y t="52">0.0152</Y>
+        <Y t="53">0.0161</Y>
+        <Y t="54">0.0174</Y>
+        <Y t="55">0.0188</Y>
+        <Y t="56">0.0203</Y>
+        <Y t="57">0.0220</Y>
+        <Y t="58">0.0239</Y>
+        <Y t="59">0.0257</Y>
+        <Y t="60">0.0264</Y>
+        <Y t="61">0.0280</Y>
+        <Y t="62">0.0300</Y>
+        <Y t="63">0.0323</Y>
+        <Y t="64">0.0351</Y>
+        <Y t="65">0.0411</Y>
+        <Y t="66">0.0455</Y>
+        <Y t="67">0.0499</Y>
+        <Y t="68">0.0541</Y>
+        <Y t="69">0.0574</Y>
+        <Y t="70">0.0582</Y>
+        <Y t="71">0.0586</Y>
+        <Y t="72">0.0599</Y>
+        <Y t="73">0.0618</Y>
+        <Y t="74">0.0647</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

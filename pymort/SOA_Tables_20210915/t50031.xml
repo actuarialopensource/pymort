@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50031</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>John Hancock Financial Services, Inc.</ProviderName>
+    <TableReference>“Insurance Act (Chapter 142, Sections 11, 39, 42 (4), 48 (1), 52 (1), 56A (3), 60 (1) and (3), 61 and 64)”,  Insurance (General Provisions) Regulations, Monetary Authority of Singapore, (1994) Accessed 10/2013 from: http://www.mas.gov.sg/~/media/resource/legislation_guidelines/insurance/sub_legislation/Insurance_SL/INSURANCE%20GENERAL%20PROVISIONS%20REGULATIONS.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>1992 CVT - Male</TableName>
+    <TableDescription>1992 Commissioner’s Valuation Table (CVT) – Males.  Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Based on the mortality experience of the insured population. Regulation 26(5) of the Insurance Regulations 1992 in Singapore specifies that minimum reserves for the valuation of policies, other than annuities, be based on the 1992 Commissioners Valuation Table (CVT). For female lives, a three-year age setback of the male table may be used. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 10/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Singapore</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="65">Singapore</Nation>
+      <TableDescription>1992 Commissioner’s Valuation Table (CVT) – Males.  Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00081</Y>
+        <Y t="1">0.00081</Y>
+        <Y t="2">0.00075</Y>
+        <Y t="3">0.00069</Y>
+        <Y t="4">0.00063</Y>
+        <Y t="5">0.00058</Y>
+        <Y t="6">0.00054</Y>
+        <Y t="7">0.00050</Y>
+        <Y t="8">0.00048</Y>
+        <Y t="9">0.00045</Y>
+        <Y t="10">0.00044</Y>
+        <Y t="11">0.00047</Y>
+        <Y t="12">0.00057</Y>
+        <Y t="13">0.00067</Y>
+        <Y t="14">0.00076</Y>
+        <Y t="15">0.00085</Y>
+        <Y t="16">0.00092</Y>
+        <Y t="17">0.00099</Y>
+        <Y t="18">0.00104</Y>
+        <Y t="19">0.00109</Y>
+        <Y t="20">0.00113</Y>
+        <Y t="21">0.00116</Y>
+        <Y t="22">0.00115</Y>
+        <Y t="23">0.00109</Y>
+        <Y t="24">0.00109</Y>
+        <Y t="25">0.00108</Y>
+        <Y t="26">0.00108</Y>
+        <Y t="27">0.00107</Y>
+        <Y t="28">0.00108</Y>
+        <Y t="29">0.00108</Y>
+        <Y t="30">0.00109</Y>
+        <Y t="31">0.00112</Y>
+        <Y t="32">0.00115</Y>
+        <Y t="33">0.00119</Y>
+        <Y t="34">0.00125</Y>
+        <Y t="35">0.00136</Y>
+        <Y t="36">0.00149</Y>
+        <Y t="37">0.00167</Y>
+        <Y t="38">0.00184</Y>
+        <Y t="39">0.00202</Y>
+        <Y t="40">0.00220</Y>
+        <Y t="41">0.00236</Y>
+        <Y t="42">0.00250</Y>
+        <Y t="43">0.00264</Y>
+        <Y t="44">0.00279</Y>
+        <Y t="45">0.00296</Y>
+        <Y t="46">0.00316</Y>
+        <Y t="47">0.00343</Y>
+        <Y t="48">0.00380</Y>
+        <Y t="49">0.00423</Y>
+        <Y t="50">0.00475</Y>
+        <Y t="51">0.00540</Y>
+        <Y t="52">0.00620</Y>
+        <Y t="53">0.00709</Y>
+        <Y t="54">0.00805</Y>
+        <Y t="55">0.00903</Y>
+        <Y t="56">0.01003</Y>
+        <Y t="57">0.01106</Y>
+        <Y t="58">0.01212</Y>
+        <Y t="59">0.01320</Y>
+        <Y t="60">0.01430</Y>
+        <Y t="61">0.01555</Y>
+        <Y t="62">0.01693</Y>
+        <Y t="63">0.01831</Y>
+        <Y t="64">0.01989</Y>
+        <Y t="65">0.02169</Y>
+        <Y t="66">0.02378</Y>
+        <Y t="67">0.02622</Y>
+        <Y t="68">0.02900</Y>
+        <Y t="69">0.03214</Y>
+        <Y t="70">0.03562</Y>
+        <Y t="71">0.03937</Y>
+        <Y t="72">0.04335</Y>
+        <Y t="73">0.04757</Y>
+        <Y t="74">0.05204</Y>
+        <Y t="75">0.05684</Y>
+        <Y t="76">0.06202</Y>
+        <Y t="77">0.06766</Y>
+        <Y t="78">0.07377</Y>
+        <Y t="79">0.08041</Y>
+        <Y t="80">0.08756</Y>
+        <Y t="81">0.09529</Y>
+        <Y t="82">0.10360</Y>
+        <Y t="83">0.11253</Y>
+        <Y t="84">0.12211</Y>
+        <Y t="85">0.13125</Y>
+        <Y t="86">0.14007</Y>
+        <Y t="87">0.15020</Y>
+        <Y t="88">0.16339</Y>
+        <Y t="89">0.18134</Y>
+        <Y t="90">0.20580</Y>
+        <Y t="91">0.23848</Y>
+        <Y t="92">0.28111</Y>
+        <Y t="93">0.33541</Y>
+        <Y t="94">0.40312</Y>
+        <Y t="95">0.48595</Y>
+        <Y t="96">0.58563</Y>
+        <Y t="97">0.70389</Y>
+        <Y t="98">0.84246</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

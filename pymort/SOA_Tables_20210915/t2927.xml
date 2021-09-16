@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2927</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Hermann Böhlau, “Mortality Statistics of the Gotha Life Insurance Cmpany for the 50 years 1829-1878”, Weimer (1880) reprinted Dr. A. Emminghaus, “The Condition and Progress of German Life Insurance Companies in the Year 1881”, Journal of the Institute of Actuaries, Volume 24, Charles and Edwin Layton (London, 1884)</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Gotha Mortality Table – Karup Graduation</TableName>
+    <TableDescription>Gotha Mortality Table – Karup Graduation. Minimum Age: 20 Maximum Age: 90</TableDescription>
+    <Comments>Study Data: Experience of the Gotha Insurance Company of Germany first published in 1880 for the years 1829-1878. Methodology: This particular table was graduated by Dr. Karup. The same data was graduated by a German actuary and published in the German Insurance Times, “Zeitschrift fur Versicherungswesen” and is referred to as the Zeitschrift graduation (See SOA Table Identity 2928). The Zeitschrift table uses an initial lx of 100,000 at age 20 while the Karup table was adjusted such that the lx with a value of 100,000 occurs at age 25. The two tables are notable for demonstrating the superiority of Karup’s graduation method. Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>Gotha Mortality Table – Karup Graduation. Minimum Age: 20 Maximum Age: 90</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>90</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.004892</Y>
+        <Y t="21">0.004964</Y>
+        <Y t="22">0.005042</Y>
+        <Y t="23">0.005126</Y>
+        <Y t="24">0.005220</Y>
+        <Y t="25">0.005320</Y>
+        <Y t="26">0.005432</Y>
+        <Y t="27">0.005557</Y>
+        <Y t="28">0.005692</Y>
+        <Y t="29">0.005838</Y>
+        <Y t="30">0.005998</Y>
+        <Y t="31">0.006177</Y>
+        <Y t="32">0.006370</Y>
+        <Y t="33">0.006582</Y>
+        <Y t="34">0.006815</Y>
+        <Y t="35">0.007070</Y>
+        <Y t="36">0.007348</Y>
+        <Y t="37">0.007652</Y>
+        <Y t="38">0.007985</Y>
+        <Y t="39">0.008352</Y>
+        <Y t="40">0.008752</Y>
+        <Y t="41">0.009192</Y>
+        <Y t="42">0.009672</Y>
+        <Y t="43">0.010198</Y>
+        <Y t="44">0.010775</Y>
+        <Y t="45">0.011404</Y>
+        <Y t="46">0.012097</Y>
+        <Y t="47">0.012852</Y>
+        <Y t="48">0.013680</Y>
+        <Y t="49">0.014585</Y>
+        <Y t="50">0.015578</Y>
+        <Y t="51">0.016662</Y>
+        <Y t="52">0.017850</Y>
+        <Y t="53">0.019150</Y>
+        <Y t="54">0.020570</Y>
+        <Y t="55">0.022126</Y>
+        <Y t="56">0.023824</Y>
+        <Y t="57">0.025684</Y>
+        <Y t="58">0.027718</Y>
+        <Y t="59">0.029940</Y>
+        <Y t="60">0.032368</Y>
+        <Y t="61">0.035022</Y>
+        <Y t="62">0.037920</Y>
+        <Y t="63">0.041087</Y>
+        <Y t="64">0.044544</Y>
+        <Y t="65">0.048316</Y>
+        <Y t="66">0.052432</Y>
+        <Y t="67">0.056922</Y>
+        <Y t="68">0.061814</Y>
+        <Y t="69">0.067142</Y>
+        <Y t="70">0.072950</Y>
+        <Y t="71">0.079268</Y>
+        <Y t="72">0.086142</Y>
+        <Y t="73">0.093612</Y>
+        <Y t="74">0.101726</Y>
+        <Y t="75">0.110530</Y>
+        <Y t="76">0.120080</Y>
+        <Y t="77">0.130424</Y>
+        <Y t="78">0.141614</Y>
+        <Y t="79">0.153708</Y>
+        <Y t="80">0.166764</Y>
+        <Y t="81">0.180836</Y>
+        <Y t="82">0.195978</Y>
+        <Y t="83">0.212247</Y>
+        <Y t="84">0.229692</Y>
+        <Y t="85">0.248360</Y>
+        <Y t="86">0.268292</Y>
+        <Y t="87">0.289523</Y>
+        <Y t="88">0.312075</Y>
+        <Y t="89">0.335962</Y>
+        <Y t="90">0.361178</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

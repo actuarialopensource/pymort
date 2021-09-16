@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1439</TableIdentity>
+    <ProviderDomain>aga.gov.au</ProviderDomain>
+    <ProviderName>Australian Government</ProviderName>
+    <TableReference>Australian Government Actuary, “Australian Life Tables 2005-07”, Department of the Treasury (Commonwealth of Australia, 2009). Accessed: January, 2014 from http://www.aga.gov.au/publications/life_tables_2005-07/downloads/australian_life_tables_2005-07.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Australian Life Tables 2005-07-Males</TableName>
+    <TableDescription>Australian Life Tables 2005-07-Males. Minimum Age: 0. Maximum Age: 109 </TableDescription>
+    <Comments>Study Data: Based on the mortality of Australians over the three year period centered on the 2006 Census of Population and Housing (the Census). Estimates of the numbers of males and females resident in Australia at each age (last birthday) up to 99 years and over, as at 30 June 2006 are made. These estimates are based on the 2006 Census of Population and Housing adjusted for under-enumeration and the lapse of time between 30 June and 8 August 2006. Next, the numbers of deaths occurring inside Australia for each month from January 2005 to December 2007, classified by sex and age last birthday at the time of death are collated. This covered all registrations of deaths to the end of 2008 and is considered to be effectively a complete record of all deaths occurring over the three year period. The number of births, classified by gender in each month from January 2001 to December 2007, is tabulated. Lastly, the numbers of persons moving into and out of Australia in each month from January 2005 to December 2007 for those aged 4 or more, and from January 2001 to December 2007 for those aged less than 4, grouped by age last birthday and gender. The 2006 Census was the first to record individual ages for those aged 100 or more. Methodology: First, the exposed-to-risk is derived and crude mortality rates from the information provided by the Australian Bureau of Statistics (ABS). The crude mortality rates are calculated by dividing the number of deaths at a particular age by the exposed-to-risk for that age. Next, crude rates are graduated. As with the six previous Life Tables, a combination of manual graduation and fitted cubic splines was used. Cubic splines were fitted over all but the two youngest ages and the very top of the age distribution. At the oldest ages, there is little exposure and few deaths and a different approach is required. The method of cubic splines involves fitting a series of cubic polynomials to the crude rates of mortality. These polynomials are constrained to be not only continuous at the 'knots' where they join, but also to have equal first and second derivatives at those points. The choice of the number and location of knots, therefore, involves a balance between achieving a smooth curve and deriving fitted rates that are reasonably consistent with the observed mortality rates. Graduated rates for the uppermost ages were constructed by extrapolating the trend of the crude rates from age 95 to an age where there were sufficient deaths to make the crude rates meaningful; age 104 for males and 111 for females. The trend result was determined by fitting a Makeham curve to the crude rates over this age range. The Makeham curve was then used to extrapolate the graduated rates from age 105 for males and 107 for females. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Life Tables 2005-07-Males. Minimum Age: 0. Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00523</Y>
+        <Y t="1">0.0004</Y>
+        <Y t="2">0.00028</Y>
+        <Y t="3">0.00018</Y>
+        <Y t="4">0.00014</Y>
+        <Y t="5">0.00013</Y>
+        <Y t="6">0.00012</Y>
+        <Y t="7">0.00011</Y>
+        <Y t="8">0.0001</Y>
+        <Y t="9">0.0001</Y>
+        <Y t="10">0.0001</Y>
+        <Y t="11">0.00011</Y>
+        <Y t="12">0.00012</Y>
+        <Y t="13">0.00013</Y>
+        <Y t="14">0.00016</Y>
+        <Y t="15">0.00022</Y>
+        <Y t="16">0.00035</Y>
+        <Y t="17">0.00054</Y>
+        <Y t="18">0.0007</Y>
+        <Y t="19">0.00073</Y>
+        <Y t="20">0.00074</Y>
+        <Y t="21">0.00076</Y>
+        <Y t="22">0.00077</Y>
+        <Y t="23">0.00079</Y>
+        <Y t="24">0.00081</Y>
+        <Y t="25">0.00083</Y>
+        <Y t="26">0.00085</Y>
+        <Y t="27">0.00088</Y>
+        <Y t="28">0.0009</Y>
+        <Y t="29">0.00093</Y>
+        <Y t="30">0.00095</Y>
+        <Y t="31">0.00098</Y>
+        <Y t="32">0.00101</Y>
+        <Y t="33">0.00105</Y>
+        <Y t="34">0.00108</Y>
+        <Y t="35">0.00112</Y>
+        <Y t="36">0.00117</Y>
+        <Y t="37">0.00123</Y>
+        <Y t="38">0.00129</Y>
+        <Y t="39">0.00136</Y>
+        <Y t="40">0.00145</Y>
+        <Y t="41">0.00154</Y>
+        <Y t="42">0.00165</Y>
+        <Y t="43">0.00176</Y>
+        <Y t="44">0.0019</Y>
+        <Y t="45">0.00204</Y>
+        <Y t="46">0.00221</Y>
+        <Y t="47">0.00238</Y>
+        <Y t="48">0.00258</Y>
+        <Y t="49">0.0028</Y>
+        <Y t="50">0.00303</Y>
+        <Y t="51">0.00329</Y>
+        <Y t="52">0.00357</Y>
+        <Y t="53">0.00386</Y>
+        <Y t="54">0.00419</Y>
+        <Y t="55">0.00454</Y>
+        <Y t="56">0.00493</Y>
+        <Y t="57">0.00538</Y>
+        <Y t="58">0.00591</Y>
+        <Y t="59">0.00652</Y>
+        <Y t="60">0.00721</Y>
+        <Y t="61">0.00799</Y>
+        <Y t="62">0.00885</Y>
+        <Y t="63">0.00981</Y>
+        <Y t="64">0.01085</Y>
+        <Y t="65">0.012</Y>
+        <Y t="66">0.01323</Y>
+        <Y t="67">0.01457</Y>
+        <Y t="68">0.01601</Y>
+        <Y t="69">0.01755</Y>
+        <Y t="70">0.0192</Y>
+        <Y t="71">0.021</Y>
+        <Y t="72">0.0232</Y>
+        <Y t="73">0.02602</Y>
+        <Y t="74">0.02938</Y>
+        <Y t="75">0.03312</Y>
+        <Y t="76">0.03716</Y>
+        <Y t="77">0.04153</Y>
+        <Y t="78">0.04634</Y>
+        <Y t="79">0.05167</Y>
+        <Y t="80">0.0576</Y>
+        <Y t="81">0.06422</Y>
+        <Y t="82">0.0716</Y>
+        <Y t="83">0.07983</Y>
+        <Y t="84">0.08896</Y>
+        <Y t="85">0.09907</Y>
+        <Y t="86">0.1102</Y>
+        <Y t="87">0.12236</Y>
+        <Y t="88">0.13534</Y>
+        <Y t="89">0.14892</Y>
+        <Y t="90">0.16286</Y>
+        <Y t="91">0.17696</Y>
+        <Y t="92">0.19102</Y>
+        <Y t="93">0.20484</Y>
+        <Y t="94">0.21824</Y>
+        <Y t="95">0.23106</Y>
+        <Y t="96">0.24315</Y>
+        <Y t="97">0.25437</Y>
+        <Y t="98">0.26458</Y>
+        <Y t="99">0.27366</Y>
+        <Y t="100">0.28205</Y>
+        <Y t="101">0.29175</Y>
+        <Y t="102">0.3002</Y>
+        <Y t="103">0.30768</Y>
+        <Y t="104">0.31443</Y>
+        <Y t="105">0.32069</Y>
+        <Y t="106">0.3261</Y>
+        <Y t="107">0.3311</Y>
+        <Y t="108">0.33657</Y>
+        <Y t="109">0.34192</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

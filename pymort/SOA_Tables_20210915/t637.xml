@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>637</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Central Bureau of Statistics. Reprinted by A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>CBS88_M</TableName>
+    <TableDescription>Central Bureau of Statistics 1986-90 Finland – Male (CBS88_M). Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Population mortality for the period 1986-1990. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 10/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Finland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="358">Finland</Nation>
+      <TableDescription>Central Bureau of Statistics 1986-90 Finland – Male (CBS88_M). Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00665</Y>
+        <Y t="1">0.00036</Y>
+        <Y t="2">0.00022</Y>
+        <Y t="3">0.00025</Y>
+        <Y t="4">0.00021</Y>
+        <Y t="5">0.00029</Y>
+        <Y t="6">0.00015</Y>
+        <Y t="7">0.00021</Y>
+        <Y t="8">0.00025</Y>
+        <Y t="9">0.00031</Y>
+        <Y t="10">0.00015</Y>
+        <Y t="11">0.00024</Y>
+        <Y t="12">0.00021</Y>
+        <Y t="13">0.00018</Y>
+        <Y t="14">0.00023</Y>
+        <Y t="15">0.00044</Y>
+        <Y t="16">0.00091</Y>
+        <Y t="17">0.00086</Y>
+        <Y t="18">0.00125</Y>
+        <Y t="19">0.00113</Y>
+        <Y t="20">0.00149</Y>
+        <Y t="21">0.00156</Y>
+        <Y t="22">0.00113</Y>
+        <Y t="23">0.00124</Y>
+        <Y t="24">0.00124</Y>
+        <Y t="25">0.00132</Y>
+        <Y t="26">0.00143</Y>
+        <Y t="27">0.00137</Y>
+        <Y t="28">0.00202</Y>
+        <Y t="29">0.00141</Y>
+        <Y t="30">0.00169</Y>
+        <Y t="31">0.00211</Y>
+        <Y t="32">0.00163</Y>
+        <Y t="33">0.00257</Y>
+        <Y t="34">0.00208</Y>
+        <Y t="35">0.00247</Y>
+        <Y t="36">0.00301</Y>
+        <Y t="37">0.00245</Y>
+        <Y t="38">0.00336</Y>
+        <Y t="39">0.00326</Y>
+        <Y t="40">0.00383</Y>
+        <Y t="41">0.00369</Y>
+        <Y t="42">0.00408</Y>
+        <Y t="43">0.00424</Y>
+        <Y t="44">0.00499</Y>
+        <Y t="45">0.00406</Y>
+        <Y t="46">0.00539</Y>
+        <Y t="47">0.00529</Y>
+        <Y t="48">0.00698</Y>
+        <Y t="49">0.00726</Y>
+        <Y t="50">0.00821</Y>
+        <Y t="51">0.00758</Y>
+        <Y t="52">0.00866</Y>
+        <Y t="53">0.00906</Y>
+        <Y t="54">0.00988</Y>
+        <Y t="55">0.01119</Y>
+        <Y t="56">0.01389</Y>
+        <Y t="57">0.01366</Y>
+        <Y t="58">0.01623</Y>
+        <Y t="59">0.01573</Y>
+        <Y t="60">0.01765</Y>
+        <Y t="61">0.01938</Y>
+        <Y t="62">0.02126</Y>
+        <Y t="63">0.02324</Y>
+        <Y t="64">0.02588</Y>
+        <Y t="65">0.02898</Y>
+        <Y t="66">0.03118</Y>
+        <Y t="67">0.03469</Y>
+        <Y t="68">0.03891</Y>
+        <Y t="69">0.03646</Y>
+        <Y t="70">0.04421</Y>
+        <Y t="71">0.04860</Y>
+        <Y t="72">0.05323</Y>
+        <Y t="73">0.05745</Y>
+        <Y t="74">0.06302</Y>
+        <Y t="75">0.06937</Y>
+        <Y t="76">0.07490</Y>
+        <Y t="77">0.08315</Y>
+        <Y t="78">0.08862</Y>
+        <Y t="79">0.09186</Y>
+        <Y t="80">0.10690</Y>
+        <Y t="81">0.11587</Y>
+        <Y t="82">0.12109</Y>
+        <Y t="83">0.13228</Y>
+        <Y t="84">0.13976</Y>
+        <Y t="85">0.14917</Y>
+        <Y t="86">0.17525</Y>
+        <Y t="87">0.16719</Y>
+        <Y t="88">0.19584</Y>
+        <Y t="89">0.21420</Y>
+        <Y t="90">0.21208</Y>
+        <Y t="91">0.23893</Y>
+        <Y t="92">0.25372</Y>
+        <Y t="93">0.27967</Y>
+        <Y t="94">0.27837</Y>
+        <Y t="95">0.34599</Y>
+        <Y t="96">0.27536</Y>
+        <Y t="97">0.25161</Y>
+        <Y t="98">0.40863</Y>
+        <Y t="99">0.21797</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

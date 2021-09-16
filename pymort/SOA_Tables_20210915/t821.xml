@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>821</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Society of Actuaries, “Report of the Committee to Recommend a New Mortality Table Basis for Individual Annuity Valuation (Derivation of the 1983 Table a)”, Transactions of the Society of Actuaries, Vol. 33. (1981) Table 7. Accessed: April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1981/January/tsa81v3325.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1973 Annuity Experience Table - Female</TableName>
+    <TableDescription>1973 Annuity Experience Table – Female. Minimum Age: 5. Maximum Age: 115</TableDescription>
+    <Comments>Study Data: Society of Actuaries intercompany study on individual annuities and settlement options observed from 1971-1976 with pension trust business eventually excluded. For younger ages, recent U.S. population data was available but not deemed expressive of annuitant experience. Similarly, an attempt was made to use the recent 1980 Commissioners Standard Ordinary (CSO) data but results produced high rates at juvenile ages. Ultimately, the 1971 Individual Annuity Mortality (IAM) Table (See SOA Table Identities 819 and 820) rates were felt to be more representative. Methodology: Ratios of actual to expected deaths on the 1971 IAM Table were calculated by five-year age groups for the total of immediate refund and non-refund annuities, matured deferred annuities, and all settlement options from death claims, maturities, and surrenders, for contract durations 1 and over. To obtain more accurate experience mortality rates at the central ages, the A/E mortality ratio for each five-year age group was applied to the 1971 IAM Table qx for the central age of each five-year age group to obtain an experience qx at the central, age. The resulting mortality rates, for males and females separately, were graduated and interpolated by a Jenkins fifth-difference osculatory interpolation formula computer program that included a cubic equation to close out the highest ages with qx = 1.0 at age 115. The committee decided to use the 1971 IAM Table mortality rates at ages 47 and under. The loading added to the 1971 IAM Table for use as a valuation table was offset by dividing the rates by 0.90. A cubic curve was used to connect the unloaded 1971 IAM Table mortality rates to the 1971-76 graduated rates at ages 67 and over. The entire set of rates was then re-graduated by the Jenkins fifth-difference modified Osculatory graduation formula. NOTE: a prior generation of this table included rates for ages 0-4 that were not from a published or verifiable source and have accordingly been removed. Data Transcription Errors Detected: 04/2013. Data Corrected and Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1973 Annuity Experience Table – Female. Minimum Age: 5. Maximum Age: 115</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>115</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000260</Y>
+        <Y t="6">0.000214</Y>
+        <Y t="7">0.000180</Y>
+        <Y t="8">0.000169</Y>
+        <Y t="9">0.000163</Y>
+        <Y t="10">0.000162</Y>
+        <Y t="11">0.000165</Y>
+        <Y t="12">0.000172</Y>
+        <Y t="13">0.000182</Y>
+        <Y t="14">0.000194</Y>
+        <Y t="15">0.000208</Y>
+        <Y t="16">0.000224</Y>
+        <Y t="17">0.000240</Y>
+        <Y t="18">0.000256</Y>
+        <Y t="19">0.000272</Y>
+        <Y t="20">0.000289</Y>
+        <Y t="21">0.000306</Y>
+        <Y t="22">0.000324</Y>
+        <Y t="23">0.000343</Y>
+        <Y t="24">0.000363</Y>
+        <Y t="25">0.000385</Y>
+        <Y t="26">0.000408</Y>
+        <Y t="27">0.000433</Y>
+        <Y t="28">0.000460</Y>
+        <Y t="29">0.000489</Y>
+        <Y t="30">0.000520</Y>
+        <Y t="31">0.000554</Y>
+        <Y t="32">0.000591</Y>
+        <Y t="33">0.000631</Y>
+        <Y t="34">0.000675</Y>
+        <Y t="35">0.000723</Y>
+        <Y t="36">0.000775</Y>
+        <Y t="37">0.000832</Y>
+        <Y t="38">0.000895</Y>
+        <Y t="39">0.000963</Y>
+        <Y t="40">0.001038</Y>
+        <Y t="41">0.001119</Y>
+        <Y t="42">0.001208</Y>
+        <Y t="43">0.001305</Y>
+        <Y t="44">0.001414</Y>
+        <Y t="45">0.001538</Y>
+        <Y t="46">0.001682</Y>
+        <Y t="47">0.001850</Y>
+        <Y t="48">0.002046</Y>
+        <Y t="49">0.002268</Y>
+        <Y t="50">0.002515</Y>
+        <Y t="51">0.002787</Y>
+        <Y t="52">0.003083</Y>
+        <Y t="53">0.003401</Y>
+        <Y t="54">0.003736</Y>
+        <Y t="55">0.004084</Y>
+        <Y t="56">0.004440</Y>
+        <Y t="57">0.004801</Y>
+        <Y t="58">0.005167</Y>
+        <Y t="59">0.005568</Y>
+        <Y t="60">0.006040</Y>
+        <Y t="61">0.006618</Y>
+        <Y t="62">0.007340</Y>
+        <Y t="63">0.008227</Y>
+        <Y t="64">0.009248</Y>
+        <Y t="65">0.010357</Y>
+        <Y t="66">0.011511</Y>
+        <Y t="67">0.012664</Y>
+        <Y t="68">0.013793</Y>
+        <Y t="69">0.014964</Y>
+        <Y t="70">0.016264</Y>
+        <Y t="71">0.017779</Y>
+        <Y t="72">0.019596</Y>
+        <Y t="73">0.021790</Y>
+        <Y t="74">0.024380</Y>
+        <Y t="75">0.027370</Y>
+        <Y t="76">0.030766</Y>
+        <Y t="77">0.034574</Y>
+        <Y t="78">0.038804</Y>
+        <Y t="79">0.043484</Y>
+        <Y t="80">0.048648</Y>
+        <Y t="81">0.054327</Y>
+        <Y t="82">0.060554</Y>
+        <Y t="83">0.067389</Y>
+        <Y t="84">0.074986</Y>
+        <Y t="85">0.083528</Y>
+        <Y t="86">0.093197</Y>
+        <Y t="87">0.104173</Y>
+        <Y t="88">0.116566</Y>
+        <Y t="89">0.130197</Y>
+        <Y t="90">0.144815</Y>
+        <Y t="91">0.160170</Y>
+        <Y t="92">0.176010</Y>
+        <Y t="93">0.192093</Y>
+        <Y t="94">0.208211</Y>
+        <Y t="95">0.224167</Y>
+        <Y t="96">0.239762</Y>
+        <Y t="97">0.254797</Y>
+        <Y t="98">0.269772</Y>
+        <Y t="99">0.285189</Y>
+        <Y t="100">0.301546</Y>
+        <Y t="101">0.319345</Y>
+        <Y t="102">0.339085</Y>
+        <Y t="103">0.361267</Y>
+        <Y t="104">0.386391</Y>
+        <Y t="105">0.414958</Y>
+        <Y t="106">0.447466</Y>
+        <Y t="107">0.484418</Y>
+        <Y t="108">0.526312</Y>
+        <Y t="109">0.573650</Y>
+        <Y t="110">0.626931</Y>
+        <Y t="111">0.686656</Y>
+        <Y t="112">0.753325</Y>
+        <Y t="113">0.827438</Y>
+        <Y t="114">0.909496</Y>
+        <Y t="115">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

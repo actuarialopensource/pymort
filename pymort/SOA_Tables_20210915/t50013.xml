@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50013</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Soo Chin</ProviderName>
+    <TableReference>Persatuan Aktuaris Indonesia (1999) reprinted Ayulina Sugihar, “Perhitungan remi Tahunan Pada Asuransi Joint Life Dan Penerapannya, Skripsi Diajakuan Kepada Fakultas Matematika dan Ilmu Pengetahuan Alam, Univeristas Negeri Yogyakarta” (“Calculation of the Annual Premium of Joint Life Insurance and its Application, Thesis Submitted to the Faculty of Mathematics and Natural Science of State University of Yogyakarta”), Universitas Negeri Yogyakarta (2011). Accessed: March, 2014 from http://eprints.uny.ac.id/1443/1/SKRIPSI_AYULINA_SUGIHAR.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>TMI ‘99 – Laki-laki</TableName>
+    <TableDescription>Tabel Mortalitas Indonesia 1999 (TMI ‘99) – Laki-laki (Male). Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Tables created by Union of the Actuary in 1999 from observations of the population for the period 1993-1995 primarily for use with annuities. Methodology: Not available at this time. Data Transcription Errors Detected: 03/2014. Data Corrected and Certified: 03/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Indonesia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="62">Indonesia</Nation>
+      <TableDescription>Tabel Mortalitas Indonesia 1999 (TMI ‘99) – Laki-laki (Male). Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00321000</Y>
+        <Y t="1">0.0008226</Y>
+        <Y t="2">0.0007530</Y>
+        <Y t="3">0.0007536</Y>
+        <Y t="4">0.0007341</Y>
+        <Y t="5">0.0006843</Y>
+        <Y t="6">0.0006646</Y>
+        <Y t="7">0.0006147</Y>
+        <Y t="8">0.0005848</Y>
+        <Y t="9">0.0005650</Y>
+        <Y t="10">0.0005653</Y>
+        <Y t="11">0.0005858</Y>
+        <Y t="12">0.0006569</Y>
+        <Y t="13">0.0007584</Y>
+        <Y t="14">0.0008805</Y>
+        <Y t="15">0.0010129</Y>
+        <Y t="16">0.0011660</Y>
+        <Y t="17">0.0012791</Y>
+        <Y t="18">0.0013722</Y>
+        <Y t="19">0.0014250</Y>
+        <Y t="20">0.0014576</Y>
+        <Y t="21">0.0014699</Y>
+        <Y t="22">0.0014516</Y>
+        <Y t="23">0.0014333</Y>
+        <Y t="24">0.0013841</Y>
+        <Y t="25">0.0013757</Y>
+        <Y t="26">0.0013570</Y>
+        <Y t="27">0.0013486</Y>
+        <Y t="28">0.0013607</Y>
+        <Y t="29">0.0013729</Y>
+        <Y t="30">0.0013748</Y>
+        <Y t="31">0.0013870</Y>
+        <Y t="32">0.0014201</Y>
+        <Y t="33">0.0014636</Y>
+        <Y t="34">0.0015593</Y>
+        <Y t="35">0.0016346</Y>
+        <Y t="36">0.0017520</Y>
+        <Y t="37">0.0018804</Y>
+        <Y t="38">0.0020096</Y>
+        <Y t="39">0.0021395</Y>
+        <Y t="40">0.0022702</Y>
+        <Y t="41">0.0024228</Y>
+        <Y t="42">0.0025871</Y>
+        <Y t="43">0.0027950</Y>
+        <Y t="44">0.0030576</Y>
+        <Y t="45">0.0033758</Y>
+        <Y t="46">0.0037933</Y>
+        <Y t="47">0.0042904</Y>
+        <Y t="48">0.0048475</Y>
+        <Y t="49">0.0054557</Y>
+        <Y t="50">0.0060951</Y>
+        <Y t="51">0.0067129</Y>
+        <Y t="52">0.0073095</Y>
+        <Y t="53">0.0078409</Y>
+        <Y t="54">0.0084066</Y>
+        <Y t="55">0.0090761</Y>
+        <Y t="56">0.0099339</Y>
+        <Y t="57">0.0110001</Y>
+        <Y t="58">0.0122859</Y>
+        <Y t="59">0.0136873</Y>
+        <Y t="60">0.0150596</Y>
+        <Y t="61">0.0165509</Y>
+        <Y t="62">0.0181856</Y>
+        <Y t="63">0.0199917</Y>
+        <Y t="64">0.0219628</Y>
+        <Y t="65">0.0241592</Y>
+        <Y t="66">0.0265295</Y>
+        <Y t="67">0.0291420</Y>
+        <Y t="68">0.0320340</Y>
+        <Y t="69">0.0351781</Y>
+        <Y t="70">0.0386359</Y>
+        <Y t="71">0.0424195</Y>
+        <Y t="72">0.0465624</Y>
+        <Y t="73">0.0511239</Y>
+        <Y t="74">0.0560883</Y>
+        <Y t="75">0.0615495</Y>
+        <Y t="76">0.0674831</Y>
+        <Y t="77">0.0740028</Y>
+        <Y t="78">0.0811108</Y>
+        <Y t="79">0.0888681</Y>
+        <Y t="80">0.0973363</Y>
+        <Y t="81">0.1065369</Y>
+        <Y t="82">0.1165883</Y>
+        <Y t="83">0.1274918</Y>
+        <Y t="84">0.1393311</Y>
+        <Y t="85">0.1521855</Y>
+        <Y t="86">0.1661113</Y>
+        <Y t="87">0.1811807</Y>
+        <Y t="88">0.1973297</Y>
+        <Y t="89">0.2148675</Y>
+        <Y t="90">0.2337814</Y>
+        <Y t="91">0.2538139</Y>
+        <Y t="92">0.2754919</Y>
+        <Y t="93">0.2984127</Y>
+        <Y t="94">0.3232780</Y>
+        <Y t="95">0.3491828</Y>
+        <Y t="96">0.3755708</Y>
+        <Y t="97">0.4058501</Y>
+        <Y t="98">0.4338462</Y>
+        <Y t="99">0.4673913</Y>
+        <Y t="100">1.0000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

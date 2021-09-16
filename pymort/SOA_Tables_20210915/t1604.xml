@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1604</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Institute of Actuaries, “The Mortality Experience of Life Assurance Companies Collected By the Institute of Actuaries”, Charles &amp; Edwin Layton (London, 1869) p. Accessed: February, 2013 from http://archive.org/stream/practicallessons00dawsrich#page/364/mode/2up</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>1869 Twenty Offices H^F – Female, ANB</TableName>
+    <TableDescription>1869 Twenty Offices H^F – Female, Basis: Age Nearest Birthday. Minimum Age: 10 Maximum Age: 97</TableDescription>
+    <Comments>Study Data: Experience submitted by 20 British companies belonging to the Institutes of Actuaries (thus also referred to as Institute of Actuaries Life Table). Data segregated by health status and gender with the healthy males comprising the H^M table (See SOA Table Identity 253), healthy females the H^F table, diseased males the D^M and then diseased females designated as the D^F table. Multiple assurances on the same life where time elapsed between the termination of the first and commencement of the second were treated as two separate lives. If however  multiple contracts of assurance were in force simultaneously, they were combined to represent a single life. Data submissions included all contracts issued prior to 1862 and extended as far back as inception. Given the underlying data extended back to the earliest history of the oldest companies, when sanitary and economic conditions were quite different, relevance of the resulting tables were at times subject to debate. Upon finding that low mortality rates among recent entrants dissipated after 5 years, other tables were formed, H^M(5) and H^F(5), excluding the initial 5 years of experience. These two tables, published in 1879, constituted the first two-dimensional mortality tables (i.e. first select &amp; ultimate format tables) Methodology: All healthy male lives combined by attained age for raw qx. Data graduated by Woolhouse's formula that involved five interpolations of the data by means of five quinquennial curves. Shortly after publication, William Makeham developed his law for graduation and the raw data underlying both H^M and H^F was re-graduated by George King and G. F. Hardy to produce new tables. Data Transcription Errors: None. Data Certified: 02/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>1869 Twenty Offices H^F – Female, Basis: Age Nearest Birthday. Minimum Age: 10 Maximum Age: 97</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.0031400</Y>
+        <Y t="11">0.00421332</Y>
+        <Y t="12">0.0051377</Y>
+        <Y t="13">0.0058832</Y>
+        <Y t="14">0.0064375</Y>
+        <Y t="15">0.0068380</Y>
+        <Y t="16">0.0070502</Y>
+        <Y t="17">0.0070691</Y>
+        <Y t="18">0.0068996</Y>
+        <Y t="19">0.0066945</Y>
+        <Y t="20">0.0068776</Y>
+        <Y t="21">0.0072886</Y>
+        <Y t="22">0.0079234</Y>
+        <Y t="23">0.0088223</Y>
+        <Y t="24">0.0098423</Y>
+        <Y t="25">0.0108137</Y>
+        <Y t="26">0.0118153</Y>
+        <Y t="27">0.0120137</Y>
+        <Y t="28">0.0119514</Y>
+        <Y t="29">0.0118498</Y>
+        <Y t="30">0.0117072</Y>
+        <Y t="31">0.0115698</Y>
+        <Y t="32">0.0116567</Y>
+        <Y t="33">0.0117205</Y>
+        <Y t="34">0.0117600</Y>
+        <Y t="35">0.0119000</Y>
+        <Y t="36">0.0120433</Y>
+        <Y t="37">0.0121901</Y>
+        <Y t="38">0.0123405</Y>
+        <Y t="39">0.0125475</Y>
+        <Y t="40">0.0127471</Y>
+        <Y t="41">0.0129388</Y>
+        <Y t="42">0.0131496</Y>
+        <Y t="43">0.0133804</Y>
+        <Y t="44">0.0136183</Y>
+        <Y t="45">0.0137634</Y>
+        <Y t="46">0.0138831</Y>
+        <Y t="47">0.0140050</Y>
+        <Y t="48">0.0141592</Y>
+        <Y t="49">0.0144533</Y>
+        <Y t="50">0.0156199</Y>
+        <Y t="51">0.0164056</Y>
+        <Y t="52">0.0173870</Y>
+        <Y t="53">0.0182675</Y>
+        <Y t="54">0.0190743</Y>
+        <Y t="55">0.0198871</Y>
+        <Y t="56">0.0207416</Y>
+        <Y t="57">0.0218007</Y>
+        <Y t="58">0.0236806</Y>
+        <Y t="59">0.0258683</Y>
+        <Y t="60">0.0284588</Y>
+        <Y t="61">0.0313694</Y>
+        <Y t="62">0.0345093</Y>
+        <Y t="63">0.0373769</Y>
+        <Y t="64">0.0401776</Y>
+        <Y t="65">0.0434014</Y>
+        <Y t="66">0.0469824</Y>
+        <Y t="67">0.0509900</Y>
+        <Y t="68">0.0556429</Y>
+        <Y t="69">0.0619467</Y>
+        <Y t="70">0.0691736</Y>
+        <Y t="71">0.0770796</Y>
+        <Y t="72">0.0857556</Y>
+        <Y t="73">0.0948542</Y>
+        <Y t="74">0.1040453</Y>
+        <Y t="75">0.1097640</Y>
+        <Y t="76">0.1150535</Y>
+        <Y t="77">0.1193396</Y>
+        <Y t="78">0.1217863</Y>
+        <Y t="79">0.1235801</Y>
+        <Y t="80">0.1316980</Y>
+        <Y t="81">0.1452615</Y>
+        <Y t="82">0.1627989</Y>
+        <Y t="83">0.1856362</Y>
+        <Y t="84">0.2121368</Y>
+        <Y t="85">0.2369627</Y>
+        <Y t="86">0.2582214</Y>
+        <Y t="87">0.2725520</Y>
+        <Y t="88">0.2750397</Y>
+        <Y t="89">0.2690058</Y>
+        <Y t="90">0.2320000</Y>
+        <Y t="91">0.1796875</Y>
+        <Y t="92">0.1867143</Y>
+        <Y t="93">0.2085770</Y>
+        <Y t="94">0.2561576</Y>
+        <Y t="95">0.3377484</Y>
+        <Y t="96">0.5000000</Y>
+        <Y t="97">1.0000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>715</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden  75147,2620</ProviderName>
+    <TableReference>Giles Binet, “Mortalite Accidentelle au Quebec 1975-1977”, Laval University (1983.</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>1975-77 Quebec ADB Experience - Female</TableName>
+    <TableDescription>1975-77 Quebec Accidental Death Experience - Female. Minimum Age: 0 Maximum Age: 105</TableDescription>
+    <Comments>Study Data: Accidental deaths of 7,452 observed over 1975 to 1977 for deaths with the 1976 Quebec census serving as the exposure. Methodology: Quebec Census of 1976 for exposures in quinquennial age groups. Number of deaths, also by quinquennial age groups, taken from the 3 years centering on 1976. Accidental causes only were considered. Certain causes (mostly suicide) were excluded as not insured causes. Pivot ages graduated by Jenkins 5th difference. Rates for individual ages developed by Karup-King tangential formula. Special handling for very high and very low ages. Data Transcription Errors Detected: 12/2013. Data Corrected and Certified: 12/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>1975-77 Quebec Accidental Death Experience - Female. Minimum Age: 0 Maximum Age: 105</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0002934</Y>
+        <Y t="1">0.0003306</Y>
+        <Y t="2">0.0002490</Y>
+        <Y t="3">0.0001991</Y>
+        <Y t="4">0.0001676</Y>
+        <Y t="5">0.0001688</Y>
+        <Y t="6">0.0001835</Y>
+        <Y t="7">0.0001927</Y>
+        <Y t="8">0.0001772</Y>
+        <Y t="9">0.0001641</Y>
+        <Y t="10">0.0001553</Y>
+        <Y t="11">0.0001482</Y>
+        <Y t="12">0.0001449</Y>
+        <Y t="13">0.0001621</Y>
+        <Y t="14">0.0001921</Y>
+        <Y t="15">0.0002264</Y>
+        <Y t="16">0.0002565</Y>
+        <Y t="17">0.0002739</Y>
+        <Y t="18">0.0002759</Y>
+        <Y t="19">0.0002679</Y>
+        <Y t="20">0.0002544</Y>
+        <Y t="21">0.0002398</Y>
+        <Y t="22">0.0002285</Y>
+        <Y t="23">0.0002202</Y>
+        <Y t="24">0.0002120</Y>
+        <Y t="25">0.0002043</Y>
+        <Y t="26">0.0001975</Y>
+        <Y t="27">0.0001920</Y>
+        <Y t="28">0.0001877</Y>
+        <Y t="29">0.0001844</Y>
+        <Y t="30">0.0001822</Y>
+        <Y t="31">0.0001812</Y>
+        <Y t="32">0.0001816</Y>
+        <Y t="33">0.0001841</Y>
+        <Y t="34">0.0001885</Y>
+        <Y t="35">0.0001940</Y>
+        <Y t="36">0.0001992</Y>
+        <Y t="37">0.0002033</Y>
+        <Y t="38">0.0002055</Y>
+        <Y t="39">0.0002064</Y>
+        <Y t="40">0.0002073</Y>
+        <Y t="41">0.0002090</Y>
+        <Y t="42">0.0002127</Y>
+        <Y t="43">0.0002190</Y>
+        <Y t="44">0.0002273</Y>
+        <Y t="45">0.0002365</Y>
+        <Y t="46">0.0002455</Y>
+        <Y t="47">0.0002531</Y>
+        <Y t="48">0.0002593</Y>
+        <Y t="49">0.0002647</Y>
+        <Y t="50">0.0002696</Y>
+        <Y t="51">0.0002741</Y>
+        <Y t="52">0.0002784</Y>
+        <Y t="53">0.0002822</Y>
+        <Y t="54">0.0002852</Y>
+        <Y t="55">0.0002880</Y>
+        <Y t="56">0.0002914</Y>
+        <Y t="57">0.0002958</Y>
+        <Y t="58">0.0003008</Y>
+        <Y t="59">0.0003061</Y>
+        <Y t="60">0.0003123</Y>
+        <Y t="61">0.0003200</Y>
+        <Y t="62">0.0003297</Y>
+        <Y t="63">0.0003403</Y>
+        <Y t="64">0.0003512</Y>
+        <Y t="65">0.0003645</Y>
+        <Y t="66">0.0003821</Y>
+        <Y t="67">0.0004058</Y>
+        <Y t="68">0.0004345</Y>
+        <Y t="69">0.0004669</Y>
+        <Y t="70">0.0005048</Y>
+        <Y t="71">0.0005502</Y>
+        <Y t="72">0.0006050</Y>
+        <Y t="73">0.0006680</Y>
+        <Y t="74">0.0007378</Y>
+        <Y t="75">0.0008165</Y>
+        <Y t="76">0.0009059</Y>
+        <Y t="77">0.0010079</Y>
+        <Y t="78">0.0011214</Y>
+        <Y t="79">0.0012449</Y>
+        <Y t="80">0.0013805</Y>
+        <Y t="81">0.0015300</Y>
+        <Y t="82">0.0016954</Y>
+        <Y t="83">0.0018755</Y>
+        <Y t="84">0.0020689</Y>
+        <Y t="85">0.0022775</Y>
+        <Y t="86">0.0025033</Y>
+        <Y t="87">0.0027483</Y>
+        <Y t="88">0.0030110</Y>
+        <Y t="89">0.0032905</Y>
+        <Y t="90">0.0035883</Y>
+        <Y t="91">0.0039066</Y>
+        <Y t="92">0.0042472</Y>
+        <Y t="93">0.0046090</Y>
+        <Y t="94">0.0049905</Y>
+        <Y t="95">0.0053937</Y>
+        <Y t="96">0.0058206</Y>
+        <Y t="97">0.0062731</Y>
+        <Y t="98">0.0067499</Y>
+        <Y t="99">0.0072497</Y>
+        <Y t="100">0.0077744</Y>
+        <Y t="101">0.0083261</Y>
+        <Y t="102">0.0089065</Y>
+        <Y t="103">0.0095146</Y>
+        <Y t="104">0.0101488</Y>
+        <Y t="105">0.0108113</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

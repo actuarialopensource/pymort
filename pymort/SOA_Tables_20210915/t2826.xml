@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2826</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Dov Raphael</ProviderName>
+    <TableReference>Pnina Zadka, “Complete Life Tables of Israel 2007-2011”, Publication No. 1521,  Israel Central Bureau of Statistics (Jerusalem, 2013), Accessed: September, 2014 from http://www1.cbs.gov.il/publications13/1521/pdf/t02.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>2007-2011 Israel – Female, ANB</TableName>
+    <TableDescription>2007-2011 Israel – Female. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 100 and over</TableDescription>
+    <Comments>Study Data: Population data for the period 2007 to 2011. Two types of tables, abridged and complete, are produced by the Central Bureau of Statistics. Data in the complete life tables may differ from those in the abridged tables, especially in older age groups, owing to differences in the methods of calculation. Methodology: Stochastic variation is not the only source of "error" in life table functions. Therefore, in order to overcome irregularities from all sources, it is customary to use a “smoothing” technique of some kind. Complete life tables in Israel for 1986-1990 until 1995-1999 were computed using the MORTPAK2 software package, which was provided by the United Nations. Since 2000, it was found that this program does not produce reasonable results for Israeli data. For these reasons, a new method of smoothing was developed by means of a two-stage polynomial function, and is used as the basis for the complete life tables since 1996-2000.The model is based on the Local Maximum Likelihood method, as well as on a technique for estimating change points. Data Transcription Errors: None. Data Certified: 09/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Israel</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="972">Israel</Nation>
+      <TableDescription>2007-2011 Israel – Female. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 100 and over</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.003391</Y>
+        <Y t="1">0.000412</Y>
+        <Y t="2">0.000192</Y>
+        <Y t="3">0.000155</Y>
+        <Y t="4">0.000143</Y>
+        <Y t="5">0.00013</Y>
+        <Y t="6">0.000112</Y>
+        <Y t="7">9.8E-05</Y>
+        <Y t="8">9.1E-05</Y>
+        <Y t="9">9.2E-05</Y>
+        <Y t="10">9.9E-05</Y>
+        <Y t="11">0.000106</Y>
+        <Y t="12">0.000105</Y>
+        <Y t="13">9.6E-05</Y>
+        <Y t="14">9E-05</Y>
+        <Y t="15">0.00012</Y>
+        <Y t="16">0.00015</Y>
+        <Y t="17">0.000153</Y>
+        <Y t="18">0.000157</Y>
+        <Y t="19">0.000161</Y>
+        <Y t="20">0.000167</Y>
+        <Y t="21">0.000172</Y>
+        <Y t="22">0.000179</Y>
+        <Y t="23">0.000187</Y>
+        <Y t="24">0.000196</Y>
+        <Y t="25">0.000206</Y>
+        <Y t="26">0.000218</Y>
+        <Y t="27">0.000231</Y>
+        <Y t="28">0.000246</Y>
+        <Y t="29">0.000263</Y>
+        <Y t="30">0.000282</Y>
+        <Y t="31">0.000303</Y>
+        <Y t="32">0.000327</Y>
+        <Y t="33">0.000354</Y>
+        <Y t="34">0.000385</Y>
+        <Y t="35">0.000419</Y>
+        <Y t="36">0.000456</Y>
+        <Y t="37">0.000499</Y>
+        <Y t="38">0.000546</Y>
+        <Y t="39">0.000598</Y>
+        <Y t="40">0.000657</Y>
+        <Y t="41">0.000722</Y>
+        <Y t="42">0.000794</Y>
+        <Y t="43">0.000875</Y>
+        <Y t="44">0.000964</Y>
+        <Y t="45">0.001062</Y>
+        <Y t="46">0.001171</Y>
+        <Y t="47">0.001291</Y>
+        <Y t="48">0.001424</Y>
+        <Y t="49">0.001571</Y>
+        <Y t="50">0.001732</Y>
+        <Y t="51">0.00191</Y>
+        <Y t="52">0.002105</Y>
+        <Y t="53">0.002321</Y>
+        <Y t="54">0.002558</Y>
+        <Y t="55">0.002819</Y>
+        <Y t="56">0.003106</Y>
+        <Y t="57">0.003422</Y>
+        <Y t="58">0.003771</Y>
+        <Y t="59">0.004156</Y>
+        <Y t="60">0.004582</Y>
+        <Y t="61">0.005053</Y>
+        <Y t="62">0.005575</Y>
+        <Y t="63">0.006155</Y>
+        <Y t="64">0.006801</Y>
+        <Y t="65">0.007521</Y>
+        <Y t="66">0.008327</Y>
+        <Y t="67">0.00923</Y>
+        <Y t="68">0.010246</Y>
+        <Y t="69">0.01139</Y>
+        <Y t="70">0.012683</Y>
+        <Y t="71">0.014149</Y>
+        <Y t="72">0.015813</Y>
+        <Y t="73">0.017707</Y>
+        <Y t="74">0.019868</Y>
+        <Y t="75">0.022339</Y>
+        <Y t="76">0.025167</Y>
+        <Y t="77">0.02841</Y>
+        <Y t="78">0.032132</Y>
+        <Y t="79">0.036405</Y>
+        <Y t="80">0.04131</Y>
+        <Y t="81">0.046937</Y>
+        <Y t="82">0.053383</Y>
+        <Y t="83">0.060749</Y>
+        <Y t="84">0.069141</Y>
+        <Y t="85">0.07866</Y>
+        <Y t="86">0.089398</Y>
+        <Y t="87">0.101428</Y>
+        <Y t="88">0.114796</Y>
+        <Y t="89">0.129505</Y>
+        <Y t="90">0.145501</Y>
+        <Y t="91">0.162661</Y>
+        <Y t="92">0.180782</Y>
+        <Y t="93">0.199572</Y>
+        <Y t="94">0.218643</Y>
+        <Y t="95">0.237522</Y>
+        <Y t="96">0.255653</Y>
+        <Y t="97">0.272416</Y>
+        <Y t="98">0.287145</Y>
+        <Y t="99">0.299146</Y>
+        <Y t="100">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

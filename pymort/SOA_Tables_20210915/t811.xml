@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>811</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Institute of Actuaries (Great Britain) and the Faculty of Actuaries in Scotland, “The a (55) Tables for Annuitants”, Cambridge University Press (1953). Accessed: October 2012 from http://www.actuaries.org.uk/research-and-resources/documents/a55f-immediate-annuitants-females-lives.</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>a(55) Table for Annuitants - Female</TableName>
+    <TableDescription>a(55) Table for Annuitants – Female. Minimum Select Age: 20. Maximum Select Age: 99. Minimum Ultimate Age: 21. Maximum Ultimate Age: 117</TableDescription>
+    <Comments>Study Description: Continuous Mortality Investigation (CMI) analyzed data supplied by U.K. life assurance companies and actuarial consultants. The Revenue Commissioners, in exercise of powers conferred on them by the Finance Act of 1959, selected the a(55) Tables for Annuitants as the prescribed mortality tables for income tax purposes. There was a shortage of annuitant data at younger ages thus no figures are shown for ages under 20. Methodology: The method used for constructing the a(55) tables and the earlier a(m) and a(f) tables (See SOA Table Identities 801 and 802) was to estimate the average number of years before the entrants in a particular year would attain each particular age, and to project the base-year table that many years ahead, plus, a further eight years to make the rates appropriate to entrants in 1955, as the base year was 1947. Most of the fundamental assumption underlying the a(55) Tables are the same as those upon which the a-1949 Tables were based: (1) the death rate at each attained age decreases in a geometric progression with the passage of time, (2) the annual progression factors decrease with increasing attained age and are the same for both sexes and (3) the factors are applied to base-year mortality without ultimate limits of the type assumed for the a(m) and a(f) projections. When the a(55) tables were constructed it was possible to calculate reduction factors from the experience of annuitants from 1880-1945. Graduation of the table was by Perks formula. NOTE: There is a 1-year select period on this table but the SOA Website could not initially accommodate this structure thus a predecessor version of the table had an incorrect structure. Data Transcriptions Errors Detected: 10/2013. Data Corrected and Certified: 03/2013</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>a(55) Table for Annuitants – Female. Minimum Select Age: 20. Maximum Select Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00070</Y>
+        <Y t="21">0.00071</Y>
+        <Y t="22">0.00071</Y>
+        <Y t="23">0.00072</Y>
+        <Y t="24">0.00073</Y>
+        <Y t="25">0.00074</Y>
+        <Y t="26">0.00074</Y>
+        <Y t="27">0.00076</Y>
+        <Y t="28">0.00077</Y>
+        <Y t="29">0.00078</Y>
+        <Y t="30">0.00079</Y>
+        <Y t="31">0.00081</Y>
+        <Y t="32">0.00083</Y>
+        <Y t="33">0.00085</Y>
+        <Y t="34">0.00088</Y>
+        <Y t="35">0.00092</Y>
+        <Y t="36">0.00095</Y>
+        <Y t="37">0.00096</Y>
+        <Y t="38">0.00104</Y>
+        <Y t="39">0.00109</Y>
+        <Y t="40">0.00115</Y>
+        <Y t="41">0.00122</Y>
+        <Y t="42">0.00130</Y>
+        <Y t="43">0.00137</Y>
+        <Y t="44">0.00147</Y>
+        <Y t="45">0.00157</Y>
+        <Y t="46">0.00168</Y>
+        <Y t="47">0.00181</Y>
+        <Y t="48">0.00194</Y>
+        <Y t="49">0.00209</Y>
+        <Y t="50">0.00206</Y>
+        <Y t="51">0.00243</Y>
+        <Y t="52">0.00262</Y>
+        <Y t="53">0.00283</Y>
+        <Y t="54">0.00306</Y>
+        <Y t="55">0.00332</Y>
+        <Y t="56">0.00360</Y>
+        <Y t="57">0.00392</Y>
+        <Y t="58">0.00428</Y>
+        <Y t="59">0.00467</Y>
+        <Y t="60">0.00513</Y>
+        <Y t="61">0.00563</Y>
+        <Y t="62">0.00619</Y>
+        <Y t="63">0.00682</Y>
+        <Y t="64">0.00752</Y>
+        <Y t="65">0.00831</Y>
+        <Y t="66">0.00919</Y>
+        <Y t="67">0.01017</Y>
+        <Y t="68">0.01126</Y>
+        <Y t="69">0.01248</Y>
+        <Y t="70">0.01384</Y>
+        <Y t="71">0.01535</Y>
+        <Y t="72">0.01703</Y>
+        <Y t="73">0.01891</Y>
+        <Y t="74">0.02099</Y>
+        <Y t="75">0.02329</Y>
+        <Y t="76">0.02609</Y>
+        <Y t="77">0.02923</Y>
+        <Y t="78">0.03272</Y>
+        <Y t="79">0.03660</Y>
+        <Y t="80">0.04092</Y>
+        <Y t="81">0.04591</Y>
+        <Y t="82">0.05144</Y>
+        <Y t="83">0.05755</Y>
+        <Y t="84">0.06431</Y>
+        <Y t="85">0.07174</Y>
+        <Y t="86">0.07988</Y>
+        <Y t="87">0.08876</Y>
+        <Y t="88">0.09843</Y>
+        <Y t="89">0.10890</Y>
+        <Y t="90">0.12020</Y>
+        <Y t="91">0.13069</Y>
+        <Y t="92">0.14172</Y>
+        <Y t="93">0.15328</Y>
+        <Y t="94">0.16531</Y>
+        <Y t="95">0.17775</Y>
+        <Y t="96">0.19055</Y>
+        <Y t="97">0.20362</Y>
+        <Y t="98">0.21689</Y>
+        <Y t="99">0.23028</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>a(55) Table for Annuitants – Female. Minimum Ultimate Age: 21. Maximum Ultimate Age: 117</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>21</MinScaleValue>
+        <MaxScaleValue>117</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="21">0.00117</Y>
+        <Y t="22">0.00118</Y>
+        <Y t="23">0.00119</Y>
+        <Y t="24">0.00120</Y>
+        <Y t="25">0.00121</Y>
+        <Y t="26">0.00123</Y>
+        <Y t="27">0.00124</Y>
+        <Y t="28">0.00126</Y>
+        <Y t="29">0.00128</Y>
+        <Y t="30">0.00130</Y>
+        <Y t="31">0.00132</Y>
+        <Y t="32">0.00135</Y>
+        <Y t="33">0.00138</Y>
+        <Y t="34">0.00142</Y>
+        <Y t="35">0.00147</Y>
+        <Y t="36">0.00153</Y>
+        <Y t="37">0.00158</Y>
+        <Y t="38">0.00165</Y>
+        <Y t="39">0.00173</Y>
+        <Y t="40">0.00182</Y>
+        <Y t="41">0.00191</Y>
+        <Y t="42">0.00203</Y>
+        <Y t="43">0.00216</Y>
+        <Y t="44">0.00229</Y>
+        <Y t="45">0.00245</Y>
+        <Y t="46">0.00261</Y>
+        <Y t="47">0.00280</Y>
+        <Y t="48">0.00302</Y>
+        <Y t="49">0.00324</Y>
+        <Y t="50">0.00348</Y>
+        <Y t="51">0.00376</Y>
+        <Y t="52">0.00405</Y>
+        <Y t="53">0.00437</Y>
+        <Y t="54">0.00472</Y>
+        <Y t="55">0.00510</Y>
+        <Y t="56">0.00553</Y>
+        <Y t="57">0.00600</Y>
+        <Y t="58">0.00653</Y>
+        <Y t="59">0.00713</Y>
+        <Y t="60">0.00779</Y>
+        <Y t="61">0.00855</Y>
+        <Y t="62">0.00939</Y>
+        <Y t="63">0.01032</Y>
+        <Y t="64">0.01137</Y>
+        <Y t="65">0.01254</Y>
+        <Y t="66">0.01385</Y>
+        <Y t="67">0.01531</Y>
+        <Y t="68">0.01695</Y>
+        <Y t="69">0.01877</Y>
+        <Y t="70">0.02080</Y>
+        <Y t="71">0.02307</Y>
+        <Y t="72">0.02559</Y>
+        <Y t="73">0.02839</Y>
+        <Y t="74">0.03151</Y>
+        <Y t="75">0.03498</Y>
+        <Y t="76">0.03881</Y>
+        <Y t="77">0.04306</Y>
+        <Y t="78">0.04776</Y>
+        <Y t="79">0.05295</Y>
+        <Y t="80">0.05866</Y>
+        <Y t="81">0.06495</Y>
+        <Y t="82">0.07184</Y>
+        <Y t="83">0.07938</Y>
+        <Y t="84">0.08760</Y>
+        <Y t="85">0.09656</Y>
+        <Y t="86">0.10628</Y>
+        <Y t="87">0.11678</Y>
+        <Y t="88">0.12808</Y>
+        <Y t="89">0.14021</Y>
+        <Y t="90">0.15316</Y>
+        <Y t="91">0.16694</Y>
+        <Y t="92">0.18151</Y>
+        <Y t="93">0.19684</Y>
+        <Y t="94">0.21289</Y>
+        <Y t="95">0.22960</Y>
+        <Y t="96">0.24688</Y>
+        <Y t="97">0.26465</Y>
+        <Y t="98">0.28280</Y>
+        <Y t="99">0.30124</Y>
+        <Y t="100">0.31983</Y>
+        <Y t="101">0.33846</Y>
+        <Y t="102">0.35700</Y>
+        <Y t="103">0.37600</Y>
+        <Y t="104">0.39600</Y>
+        <Y t="105">0.41700</Y>
+        <Y t="106">0.44000</Y>
+        <Y t="107">0.46500</Y>
+        <Y t="108">0.49300</Y>
+        <Y t="109">0.52400</Y>
+        <Y t="110">0.55900</Y>
+        <Y t="111">0.59900</Y>
+        <Y t="112">0.64500</Y>
+        <Y t="113">0.69800</Y>
+        <Y t="114">0.75900</Y>
+        <Y t="115">0.82900</Y>
+        <Y t="116">0.90900</Y>
+        <Y t="117">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

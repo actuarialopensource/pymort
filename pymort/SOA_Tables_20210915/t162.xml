@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>162</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Robert J. Johansen</ProviderName>
+    <TableReference>Robert J. Johansen, et al., “Report of the Society of Actuaries Committee on Nonforfeiture and Valuation Mortality Problems - Individual Life Insurance and Annuities, November 28, 1983 Blended 1980 CSO and 1980 CET Mortality Tables”, Transactions of the Society of Actuaries Vol. XXXVII , Society of Actuaries (1983) Appendix E, p. 424-425. Accessed: February, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1985/January/tsa85v3712.pdf, p. 32-33</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1980 CET - Table B (80% Male Blend), ANB</TableName>
+    <TableDescription>1980 Commissioners Extended Term (CET) Table B (80% Male / 20% Female Blend). Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data:  In response to the U.S. Supreme Court’s Norris decision, a set of five blended, non-sex-distinct mortality tables were developed from the 1980 Commissioners Standard Ordinary (CSO) tables (See SOA Table Identities 17 and 20) to provide for minimum non-forfeiture values on life insurance policies issued on a non-sex-distinct basis for employee benefit plans. Blended Commissioners Extended Term (CET) tables were also created. Methodology: Unlike the 1980 CSO Blended Tables, the CET tables were not built by blending male and female lx’s but rather by applying the same loading to the corresponding blended tables as that used to create the base CET tables (See SOA Table Identities 23 and 29) from the base CSO tables. Data Transcription Errors: None. Data Certified: 03/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980 Commissioners Extended Term (CET) Table B (80% Male / 20% Female Blend). Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00510</Y>
+        <Y t="1">0.00179</Y>
+        <Y t="2">0.00170</Y>
+        <Y t="3">0.00169</Y>
+        <Y t="4">0.00166</Y>
+        <Y t="5">0.00162</Y>
+        <Y t="6">0.00158</Y>
+        <Y t="7">0.00154</Y>
+        <Y t="8">0.00150</Y>
+        <Y t="9">0.00148</Y>
+        <Y t="10">0.00147</Y>
+        <Y t="11">0.00150</Y>
+        <Y t="12">0.00158</Y>
+        <Y t="13">0.00169</Y>
+        <Y t="14">0.00183</Y>
+        <Y t="15">0.00199</Y>
+        <Y t="16">0.00214</Y>
+        <Y t="17">0.00228</Y>
+        <Y t="18">0.00237</Y>
+        <Y t="19">0.00244</Y>
+        <Y t="20">0.00249</Y>
+        <Y t="21">0.00250</Y>
+        <Y t="22">0.00248</Y>
+        <Y t="23">0.00246</Y>
+        <Y t="24">0.00244</Y>
+        <Y t="25">0.00240</Y>
+        <Y t="26">0.00238</Y>
+        <Y t="27">0.00236</Y>
+        <Y t="28">0.00236</Y>
+        <Y t="29">0.00238</Y>
+        <Y t="30">0.00240</Y>
+        <Y t="31">0.00245</Y>
+        <Y t="32">0.00250</Y>
+        <Y t="33">0.00258</Y>
+        <Y t="34">0.00266</Y>
+        <Y t="35">0.00277</Y>
+        <Y t="36">0.00289</Y>
+        <Y t="37">0.00305</Y>
+        <Y t="38">0.00322</Y>
+        <Y t="39">0.00348</Y>
+        <Y t="40">0.00377</Y>
+        <Y t="41">0.00411</Y>
+        <Y t="42">0.00445</Y>
+        <Y t="43">0.00484</Y>
+        <Y t="44">0.00521</Y>
+        <Y t="45">0.00566</Y>
+        <Y t="46">0.00611</Y>
+        <Y t="47">0.00659</Y>
+        <Y t="48">0.00709</Y>
+        <Y t="49">0.00766</Y>
+        <Y t="50">0.00827</Y>
+        <Y t="51">0.00897</Y>
+        <Y t="52">0.00975</Y>
+        <Y t="53">0.01065</Y>
+        <Y t="54">0.01165</Y>
+        <Y t="55">0.01271</Y>
+        <Y t="56">0.01387</Y>
+        <Y t="57">0.01505</Y>
+        <Y t="58">0.01630</Y>
+        <Y t="59">0.01764</Y>
+        <Y t="60">0.01914</Y>
+        <Y t="61">0.02080</Y>
+        <Y t="62">0.02271</Y>
+        <Y t="63">0.02491</Y>
+        <Y t="64">0.02737</Y>
+        <Y t="65">0.03004</Y>
+        <Y t="66">0.03288</Y>
+        <Y t="67">0.03589</Y>
+        <Y t="68">0.03904</Y>
+        <Y t="69">0.04246</Y>
+        <Y t="70">0.04627</Y>
+        <Y t="71">0.05064</Y>
+        <Y t="72">0.05569</Y>
+        <Y t="73">0.06153</Y>
+        <Y t="74">0.06808</Y>
+        <Y t="75">0.07519</Y>
+        <Y t="76">0.08275</Y>
+        <Y t="77">0.09061</Y>
+        <Y t="78">0.09874</Y>
+        <Y t="79">0.10734</Y>
+        <Y t="80">0.11678</Y>
+        <Y t="81">0.12732</Y>
+        <Y t="82">0.13933</Y>
+        <Y t="83">0.15295</Y>
+        <Y t="84">0.16783</Y>
+        <Y t="85">0.18379</Y>
+        <Y t="86">0.20042</Y>
+        <Y t="87">0.21774</Y>
+        <Y t="88">0.23561</Y>
+        <Y t="89">0.25420</Y>
+        <Y t="90">0.27369</Y>
+        <Y t="91">0.29446</Y>
+        <Y t="92">0.31737</Y>
+        <Y t="93">0.34325</Y>
+        <Y t="94">0.37617</Y>
+        <Y t="95">0.42236</Y>
+        <Y t="96">0.49526</Y>
+        <Y t="97">0.62100</Y>
+        <Y t="98">0.85459</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2906</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>George D. Kravvaritis</ProviderName>
+    <TableReference>George D. Kravvaritis, “The New Greek Valuation Tables EAE 2005”, Hellenic Actuarial Society (2006). Accessed: August, 2014 from http://www.actuar.aegean.gr/samos2006/Abstracts/Kravvaritis_1.pdf</TableReference>
+    <ContentType tc="22">Projection Scale</ContentType>
+    <TableName>EAE 2005 K - Females</TableName>
+    <TableDescription>Hellenic Actuarial Society 2005 Projection Scale (EAE 2005 K) - Females. Minimum Age: 0 Maximum Age: 120</TableDescription>
+    <Comments>Study Data: The EAE 2005 tables are based on the mortality experience over the years 2000-2003 from individual insurance policies. The data were contributed in 2004 by Greek insurance companies. A selection period of 5 years has been chosen in order to eliminate the temporary initial selection effect. Methodology: The projection scale EAE 2005 K is for use in the  projection of mortality rates beyond calendar year 2005. Specifically, q(x)^(2005 + n) = [q(x)^2005] * (1 − K(x))^n. Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Projection scale</KeyWord>
+    <KeyWord>Greece</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="30">Greece</Nation>
+      <TableDescription>Hellenic Actuarial Society 2005 Projection Scale (EAE 2005 K) - Females. Minimum Age: 0 Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0165</Y>
+        <Y t="1">0.0165</Y>
+        <Y t="2">0.0165</Y>
+        <Y t="3">0.0165</Y>
+        <Y t="4">0.0165</Y>
+        <Y t="5">0.0165</Y>
+        <Y t="6">0.0165</Y>
+        <Y t="7">0.0165</Y>
+        <Y t="8">0.0165</Y>
+        <Y t="9">0.0165</Y>
+        <Y t="10">0.0165</Y>
+        <Y t="11">0.0165</Y>
+        <Y t="12">0.0165</Y>
+        <Y t="13">0.0165</Y>
+        <Y t="14">0.0165</Y>
+        <Y t="15">0.0165</Y>
+        <Y t="16">0.0165</Y>
+        <Y t="17">0.0165</Y>
+        <Y t="18">0.0165</Y>
+        <Y t="19">0.0165</Y>
+        <Y t="20">0.0165</Y>
+        <Y t="21">0.0165</Y>
+        <Y t="22">0.0165</Y>
+        <Y t="23">0.0165</Y>
+        <Y t="24">0.0165</Y>
+        <Y t="25">0.0165</Y>
+        <Y t="26">0.0165</Y>
+        <Y t="27">0.0165</Y>
+        <Y t="28">0.0165</Y>
+        <Y t="29">0.0165</Y>
+        <Y t="30">0.0165</Y>
+        <Y t="31">0.0165</Y>
+        <Y t="32">0.0165</Y>
+        <Y t="33">0.0165</Y>
+        <Y t="34">0.0165</Y>
+        <Y t="35">0.0165</Y>
+        <Y t="36">0.0165</Y>
+        <Y t="37">0.0165</Y>
+        <Y t="38">0.0165</Y>
+        <Y t="39">0.0165</Y>
+        <Y t="40">0.0165</Y>
+        <Y t="41">0.0165</Y>
+        <Y t="42">0.0165</Y>
+        <Y t="43">0.0165</Y>
+        <Y t="44">0.0165</Y>
+        <Y t="45">0.0166</Y>
+        <Y t="46">0.0166</Y>
+        <Y t="47">0.0168</Y>
+        <Y t="48">0.0173</Y>
+        <Y t="49">0.0176</Y>
+        <Y t="50">0.0188</Y>
+        <Y t="51">0.0204</Y>
+        <Y t="52">0.022</Y>
+        <Y t="53">0.0234</Y>
+        <Y t="54">0.0248</Y>
+        <Y t="55">0.0259</Y>
+        <Y t="56">0.0267</Y>
+        <Y t="57">0.0275</Y>
+        <Y t="58">0.0282</Y>
+        <Y t="59">0.0288</Y>
+        <Y t="60">0.0292</Y>
+        <Y t="61">0.0295</Y>
+        <Y t="62">0.0296</Y>
+        <Y t="63">0.0295</Y>
+        <Y t="64">0.0293</Y>
+        <Y t="65">0.0288</Y>
+        <Y t="66">0.0283</Y>
+        <Y t="67">0.0275</Y>
+        <Y t="68">0.0266</Y>
+        <Y t="69">0.0256</Y>
+        <Y t="70">0.0246</Y>
+        <Y t="71">0.0235</Y>
+        <Y t="72">0.0226</Y>
+        <Y t="73">0.0215</Y>
+        <Y t="74">0.0205</Y>
+        <Y t="75">0.0194</Y>
+        <Y t="76">0.0183</Y>
+        <Y t="77">0.0172</Y>
+        <Y t="78">0.0161</Y>
+        <Y t="79">0.0149</Y>
+        <Y t="80">0.0138</Y>
+        <Y t="81">0.0127</Y>
+        <Y t="82">0.0116</Y>
+        <Y t="83">0.0105</Y>
+        <Y t="84">0.0094</Y>
+        <Y t="85">0.0084</Y>
+        <Y t="86">0.0076</Y>
+        <Y t="87">0.007</Y>
+        <Y t="88">0.0067</Y>
+        <Y t="89">0.0066</Y>
+        <Y t="90">0.0066</Y>
+        <Y t="91">0.0066</Y>
+        <Y t="92">0.0066</Y>
+        <Y t="93">0.0066</Y>
+        <Y t="94">0.0066</Y>
+        <Y t="95">0.0066</Y>
+        <Y t="96">0.0066</Y>
+        <Y t="97">0.0066</Y>
+        <Y t="98">0.0066</Y>
+        <Y t="99">0.0066</Y>
+        <Y t="100">0.0066</Y>
+        <Y t="101">0.0066</Y>
+        <Y t="102">0.0066</Y>
+        <Y t="103">0.0066</Y>
+        <Y t="104">0.0066</Y>
+        <Y t="105">0.0066</Y>
+        <Y t="106">0.0066</Y>
+        <Y t="107">0.0066</Y>
+        <Y t="108">0.0066</Y>
+        <Y t="109">0.0066</Y>
+        <Y t="110">0.0066</Y>
+        <Y t="111">0.0066</Y>
+        <Y t="112">0.0066</Y>
+        <Y t="113">0.0066</Y>
+        <Y t="114">0.0066</Y>
+        <Y t="115">0.0066</Y>
+        <Y t="116">0.0066</Y>
+        <Y t="117">0.0066</Y>
+        <Y t="118">0.0066</Y>
+        <Y t="119">0.0066</Y>
+        <Y t="120">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

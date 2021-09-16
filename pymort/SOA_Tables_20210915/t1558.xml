@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1558</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Retirement Plans Experience Committee of the Society of Actuaries, “Supplement to the RP-2000 Mortality Table Report”, Society of Actuaries, (2000), p 6-8. Accessed: October, 2012 from www.soa.org/files/research/exp-study/rp2000_supplement.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>RP-2000 Mortality Table - Female Aggregate – Blue Collar</TableName>
+    <TableDescription>Retirement Plan (RP) - 2000 Mortality Table - Female Aggregate - Blue Collar, (Table S-1), Base Year 2000. Minimum Age: 1. Maximum Age: 120</TableDescription>
+    <Comments>Study Data: The RP-2000 Mortality Table Report published in 2000 by the Retirement Plans Experience Committee of the Society of Actuaries included adjustment factors by collar type and amount as statistical analysis showed both as significant predicators of mortality. Although the methodology to produce adjusted mortality tables was in the report, given the degree of complexity, to ensure consistent application the Society of Actuaries published tables in 2003 reflecting the application of the factors. Note that the data behind the tables is from pension plans thereby having implications on annuity benefits. It is of no consequence that the various tables are labeled as "employee", "disabled retiree", etc.; all the RP-2000 tables are simply designated "annuitant mortality". Methodology: Blue collar adjustment factors only exist for ages 30-95, inclusive. At ages less than 30 the table equals the Table 4-5 Combined Healthy table (SOA table identity 991). For ages 30-49, qx values equal the Employee qx values from Table 4-5 adjusted by the factors from Table 5-5. For ages 50-70 blended values were created; for the exact blending procedure the Supplement should be consulted. For ages 71-95, qx values equal the Table 4-5 Healthy Annuitant qx values (SOA table identity 990) adjusted by the Blue Collar Healthy Annuitant factors from Table 5-6.  Data Transcription Errors Detected: 10/2012.  Data Corrected and Certified: 10/2012</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Retirement Plan (RP) - 2000 Mortality Table - Female Aggregate - Blue Collar, (Table S-1), Base Year 2000. Minimum Age: 1. Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000571</Y>
+        <Y t="2">0.000372</Y>
+        <Y t="3">0.000278</Y>
+        <Y t="4">0.000208</Y>
+        <Y t="5">0.000188</Y>
+        <Y t="6">0.000176</Y>
+        <Y t="7">0.000165</Y>
+        <Y t="8">0.000147</Y>
+        <Y t="9">0.000140</Y>
+        <Y t="10">0.000141</Y>
+        <Y t="11">0.000143</Y>
+        <Y t="12">0.000148</Y>
+        <Y t="13">0.000155</Y>
+        <Y t="14">0.000162</Y>
+        <Y t="15">0.000170</Y>
+        <Y t="16">0.000177</Y>
+        <Y t="17">0.000184</Y>
+        <Y t="18">0.000188</Y>
+        <Y t="19">0.000190</Y>
+        <Y t="20">0.000191</Y>
+        <Y t="21">0.000192</Y>
+        <Y t="22">0.000194</Y>
+        <Y t="23">0.000197</Y>
+        <Y t="24">0.000201</Y>
+        <Y t="25">0.000207</Y>
+        <Y t="26">0.000214</Y>
+        <Y t="27">0.000223</Y>
+        <Y t="28">0.000235</Y>
+        <Y t="29">0.000248</Y>
+        <Y t="30">0.000293</Y>
+        <Y t="31">0.000328</Y>
+        <Y t="32">0.000367</Y>
+        <Y t="33">0.000413</Y>
+        <Y t="34">0.000463</Y>
+        <Y t="35">0.000519</Y>
+        <Y t="36">0.000579</Y>
+        <Y t="37">0.000644</Y>
+        <Y t="38">0.000715</Y>
+        <Y t="39">0.000793</Y>
+        <Y t="40">0.000878</Y>
+        <Y t="41">0.000971</Y>
+        <Y t="42">0.001073</Y>
+        <Y t="43">0.001176</Y>
+        <Y t="44">0.001282</Y>
+        <Y t="45">0.001387</Y>
+        <Y t="46">0.001492</Y>
+        <Y t="47">0.001600</Y>
+        <Y t="48">0.001712</Y>
+        <Y t="49">0.001832</Y>
+        <Y t="50">0.001963</Y>
+        <Y t="51">0.002098</Y>
+        <Y t="52">0.002247</Y>
+        <Y t="53">0.002408</Y>
+        <Y t="54">0.002589</Y>
+        <Y t="55">0.002795</Y>
+        <Y t="56">0.003059</Y>
+        <Y t="57">0.003390</Y>
+        <Y t="58">0.003798</Y>
+        <Y t="59">0.004309</Y>
+        <Y t="60">0.004949</Y>
+        <Y t="61">0.005794</Y>
+        <Y t="62">0.006781</Y>
+        <Y t="63">0.007979</Y>
+        <Y t="64">0.009135</Y>
+        <Y t="65">0.010398</Y>
+        <Y t="66">0.011838</Y>
+        <Y t="67">0.013217</Y>
+        <Y t="68">0.014716</Y>
+        <Y t="69">0.016387</Y>
+        <Y t="70">0.018634</Y>
+        <Y t="71">0.020734</Y>
+        <Y t="72">0.023062</Y>
+        <Y t="73">0.025566</Y>
+        <Y t="74">0.028182</Y>
+        <Y t="75">0.030888</Y>
+        <Y t="76">0.033784</Y>
+        <Y t="77">0.036902</Y>
+        <Y t="78">0.040415</Y>
+        <Y t="79">0.044370</Y>
+        <Y t="80">0.048953</Y>
+        <Y t="81">0.054233</Y>
+        <Y t="82">0.060235</Y>
+        <Y t="83">0.067006</Y>
+        <Y t="84">0.074661</Y>
+        <Y t="85">0.083100</Y>
+        <Y t="86">0.092336</Y>
+        <Y t="87">0.102406</Y>
+        <Y t="88">0.113312</Y>
+        <Y t="89">0.124754</Y>
+        <Y t="90">0.136686</Y>
+        <Y t="91">0.148653</Y>
+        <Y t="92">0.160455</Y>
+        <Y t="93">0.171967</Y>
+        <Y t="94">0.182616</Y>
+        <Y t="95">0.192564</Y>
+        <Y t="96">0.205379</Y>
+        <Y t="97">0.215240</Y>
+        <Y t="98">0.223947</Y>
+        <Y t="99">0.231387</Y>
+        <Y t="100">0.237467</Y>
+        <Y t="101">0.244834</Y>
+        <Y t="102">0.254498</Y>
+        <Y t="103">0.266044</Y>
+        <Y t="104">0.279055</Y>
+        <Y t="105">0.293116</Y>
+        <Y t="106">0.307811</Y>
+        <Y t="107">0.322725</Y>
+        <Y t="108">0.337441</Y>
+        <Y t="109">0.351544</Y>
+        <Y t="110">0.364617</Y>
+        <Y t="111">0.376246</Y>
+        <Y t="112">0.386015</Y>
+        <Y t="113">0.393507</Y>
+        <Y t="114">0.398308</Y>
+        <Y t="115">0.400000</Y>
+        <Y t="116">0.400000</Y>
+        <Y t="117">0.400000</Y>
+        <Y t="118">0.400000</Y>
+        <Y t="119">0.400000</Y>
+        <Y t="120">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

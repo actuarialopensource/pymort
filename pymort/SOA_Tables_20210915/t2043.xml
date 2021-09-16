@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2043</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Minister of Commerce, “Life Tables for Canada and Regions – 1941 and 1931”, Federal Bureau of Statistics (Ottawa, 1947). Accessed: July, 2013 from http://www.prdh.umontreal.ca/BDLC/data/pdfs/84-515.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Canadian Life Table No. 1 - Females, ANB</TableName>
+    <TableDescription>Canadian Life Table No. 1 (1930-32) – Females. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 107</TableDescription>
+    <Comments>Study Data: The population used is that of the decennial census and the deaths are those of the three-year period surrounding the census. At the youngest ages, birth and death statistics are used in the place of census data to obtain the numbers at each age. Methodology: Based on the conventions usually adopted in the construction of life tables for insurance and population purposes. Essentially, an artificial stationary population in which (1) births are equal to deaths; (2) no immigration or emigration occurs; and (3) age specific death rates are those of the years to which the life table applies. An arbitrary number of births (100,000) of each sex is take as the starting point. Probability of dying, denoted q(x), is obtained by dividing the average annual number of deaths at each age by the number of the population plus one half the deaths at that age. In practice, five-year totals of population and deaths are graduated to obtain figures by single years of age. Data Transcription Errors: None. Data Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canadian Life Table No. 1 (1930-32) – Females. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 107</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>107</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.06931</Y>
+        <Y t="1">0.01080</Y>
+        <Y t="2">0.00496</Y>
+        <Y t="3">0.00374</Y>
+        <Y t="4">0.00290</Y>
+        <Y t="5">0.00232</Y>
+        <Y t="6">0.00197</Y>
+        <Y t="7">0.00171</Y>
+        <Y t="8">0.00154</Y>
+        <Y t="9">0.00144</Y>
+        <Y t="10">0.00140</Y>
+        <Y t="11">0.00142</Y>
+        <Y t="12">0.00149</Y>
+        <Y t="13">0.00159</Y>
+        <Y t="14">0.00175</Y>
+        <Y t="15">0.00195</Y>
+        <Y t="16">0.00216</Y>
+        <Y t="17">0.00235</Y>
+        <Y t="18">0.00254</Y>
+        <Y t="19">0.00275</Y>
+        <Y t="20">0.00295</Y>
+        <Y t="21">0.00313</Y>
+        <Y t="22">0.00330</Y>
+        <Y t="23">0.00344</Y>
+        <Y t="24">0.00356</Y>
+        <Y t="25">0.00367</Y>
+        <Y t="26">0.00376</Y>
+        <Y t="27">0.00385</Y>
+        <Y t="28">0.00391</Y>
+        <Y t="29">0.00395</Y>
+        <Y t="30">0.00398</Y>
+        <Y t="31">0.00402</Y>
+        <Y t="32">0.00409</Y>
+        <Y t="33">0.00420</Y>
+        <Y t="34">0.00433</Y>
+        <Y t="35">0.00448</Y>
+        <Y t="36">0.00463</Y>
+        <Y t="37">0.00477</Y>
+        <Y t="38">0.00489</Y>
+        <Y t="39">0.00500</Y>
+        <Y t="40">0.00512</Y>
+        <Y t="41">0.00526</Y>
+        <Y t="42">0.00544</Y>
+        <Y t="43">0.00565</Y>
+        <Y t="44">0.00588</Y>
+        <Y t="45">0.00615</Y>
+        <Y t="46">0.00645</Y>
+        <Y t="47">0.00680</Y>
+        <Y t="48">0.00718</Y>
+        <Y t="49">0.00759</Y>
+        <Y t="50">0.00804</Y>
+        <Y t="51">0.00857</Y>
+        <Y t="52">0.00920</Y>
+        <Y t="53">0.00992</Y>
+        <Y t="54">0.01073</Y>
+        <Y t="55">0.01162</Y>
+        <Y t="56">0.01259</Y>
+        <Y t="57">0.01364</Y>
+        <Y t="58">0.01475</Y>
+        <Y t="59">0.01589</Y>
+        <Y t="60">0.01714</Y>
+        <Y t="61">0.01855</Y>
+        <Y t="62">0.02017</Y>
+        <Y t="63">0.02196</Y>
+        <Y t="64">0.02390</Y>
+        <Y t="65">0.02603</Y>
+        <Y t="66">0.02842</Y>
+        <Y t="67">0.03114</Y>
+        <Y t="68">0.03406</Y>
+        <Y t="69">0.03714</Y>
+        <Y t="70">0.04057</Y>
+        <Y t="71">0.04453</Y>
+        <Y t="72">0.04920</Y>
+        <Y t="73">0.05464</Y>
+        <Y t="74">0.06071</Y>
+        <Y t="75">0.06735</Y>
+        <Y t="76">0.07450</Y>
+        <Y t="77">0.08211</Y>
+        <Y t="78">0.09016</Y>
+        <Y t="79">0.09867</Y>
+        <Y t="80">0.10769</Y>
+        <Y t="81">0.11725</Y>
+        <Y t="82">0.12736</Y>
+        <Y t="83">0.13800</Y>
+        <Y t="84">0.14915</Y>
+        <Y t="85">0.16086</Y>
+        <Y t="86">0.17316</Y>
+        <Y t="87">0.18610</Y>
+        <Y t="88">0.19965</Y>
+        <Y t="89">0.21381</Y>
+        <Y t="90">0.22860</Y>
+        <Y t="91">0.24403</Y>
+        <Y t="92">0.26010</Y>
+        <Y t="93">0.27682</Y>
+        <Y t="94">0.29421</Y>
+        <Y t="95">0.31227</Y>
+        <Y t="96">0.33101</Y>
+        <Y t="97">0.35045</Y>
+        <Y t="98">0.37058</Y>
+        <Y t="99">0.39142</Y>
+        <Y t="100">0.41299</Y>
+        <Y t="101">0.43528</Y>
+        <Y t="102">0.45830</Y>
+        <Y t="103">0.48208</Y>
+        <Y t="104">0.50661</Y>
+        <Y t="105">0.53190</Y>
+        <Y t="106">0.55797</Y>
+        <Y t="107">0.58483</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

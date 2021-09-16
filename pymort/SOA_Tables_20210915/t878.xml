@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>878</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Javier Suarez and Jose F. Rojas,  104551.43@compuserve.com</ProviderName>
+    <TableReference>Res. 1439/72 (Banking Superintendency)</TableReference>
+    <ContentType tc="1">Healthy Lives Mortality</ContentType>
+    <TableName>1955-69 Colombia TCMR, Unisex - PENDING VALIDATION</TableName>
+    <TableDescription>TM-Country: Colombia
+Source of data: 6 life insurance companies
+Observation period: 1955 to 1969
+Unit of observation: Number of lives
+Construction method: Graduated using King
+Minimum age: 20
+Maximum age: 109
+Number of decimal places: 5
+Hash value: 1307296453
+</TableDescription>
+    <Comments>Adopted for annuities
+TCMR stands for "Tabla Colombiana de Mortalidad de Rentistas"
+NOTE: the contents of this table have yet to be validated against a published source to ensure not transcription errors have occurred.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Colombia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="57">Columbia</Nation>
+      <TableDescription>1955-69 Colombia TCMR, Unisex-Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00131</Y>
+        <Y t="21">0.00134</Y>
+        <Y t="22">0.00137</Y>
+        <Y t="23">0.00140</Y>
+        <Y t="24">0.00143</Y>
+        <Y t="25">0.00146</Y>
+        <Y t="26">0.00149</Y>
+        <Y t="27">0.00152</Y>
+        <Y t="28">0.00155</Y>
+        <Y t="29">0.00158</Y>
+        <Y t="30">0.00162</Y>
+        <Y t="31">0.00166</Y>
+        <Y t="32">0.00174</Y>
+        <Y t="33">0.00185</Y>
+        <Y t="34">0.00199</Y>
+        <Y t="35">0.00215</Y>
+        <Y t="36">0.00231</Y>
+        <Y t="37">0.00245</Y>
+        <Y t="38">0.00258</Y>
+        <Y t="39">0.00268</Y>
+        <Y t="40">0.00281</Y>
+        <Y t="41">0.00299</Y>
+        <Y t="42">0.00321</Y>
+        <Y t="43">0.00346</Y>
+        <Y t="44">0.00374</Y>
+        <Y t="45">0.00406</Y>
+        <Y t="46">0.00442</Y>
+        <Y t="47">0.00483</Y>
+        <Y t="48">0.00530</Y>
+        <Y t="49">0.00581</Y>
+        <Y t="50">0.00635</Y>
+        <Y t="51">0.00696</Y>
+        <Y t="52">0.00764</Y>
+        <Y t="53">0.00841</Y>
+        <Y t="54">0.00929</Y>
+        <Y t="55">0.01027</Y>
+        <Y t="56">0.01133</Y>
+        <Y t="57">0.01242</Y>
+        <Y t="58">0.01354</Y>
+        <Y t="59">0.01450</Y>
+        <Y t="60">0.01531</Y>
+        <Y t="61">0.01625</Y>
+        <Y t="62">0.01757</Y>
+        <Y t="63">0.01954</Y>
+        <Y t="64">0.02159</Y>
+        <Y t="65">0.02421</Y>
+        <Y t="66">0.02757</Y>
+        <Y t="67">0.03185</Y>
+        <Y t="68">0.03726</Y>
+        <Y t="69">0.04159</Y>
+        <Y t="70">0.04548</Y>
+        <Y t="71">0.04884</Y>
+        <Y t="72">0.05135</Y>
+        <Y t="73">0.05269</Y>
+        <Y t="74">0.05433</Y>
+        <Y t="75">0.05777</Y>
+        <Y t="76">0.06271</Y>
+        <Y t="77">0.06885</Y>
+        <Y t="78">0.07588</Y>
+        <Y t="79">0.08350</Y>
+        <Y t="80">0.09142</Y>
+        <Y t="81">0.09972</Y>
+        <Y t="82">0.10873</Y>
+        <Y t="83">0.11850</Y>
+        <Y t="84">0.12909</Y>
+        <Y t="85">0.14055</Y>
+        <Y t="86">0.15293</Y>
+        <Y t="87">0.16631</Y>
+        <Y t="88">0.18073</Y>
+        <Y t="89">0.19625</Y>
+        <Y t="90">0.21292</Y>
+        <Y t="91">0.23080</Y>
+        <Y t="92">0.24993</Y>
+        <Y t="93">0.27035</Y>
+        <Y t="94">0.29210</Y>
+        <Y t="95">0.31520</Y>
+        <Y t="96">0.33965</Y>
+        <Y t="97">0.36546</Y>
+        <Y t="98">0.39258</Y>
+        <Y t="99">0.42099</Y>
+        <Y t="100">0.45060</Y>
+        <Y t="101">0.48132</Y>
+        <Y t="102">0.51302</Y>
+        <Y t="103">0.54556</Y>
+        <Y t="104">0.57872</Y>
+        <Y t="105">0.61231</Y>
+        <Y t="106">0.64605</Y>
+        <Y t="107">0.67967</Y>
+        <Y t="108">0.71287</Y>
+        <Y t="109">0.74532</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

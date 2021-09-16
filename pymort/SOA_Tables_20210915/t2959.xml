@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2959</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Sandra Haaas</ProviderName>
+    <TableReference>Reinhold Kainhofer, Martin Predota and Uwe Schmock, "The New Austrian Annuity Valuation Table AVO 2005R", Vienna University of Technology (2006). Accessed: September, 2014 from www.avoe.at/pdf/mitteilungen/H13_w3.pdf‎</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>AVÖ 2005 R Einzel - 2001 Base Year Mortality - Männer </TableName>
+    <TableDescription>Actuarial Association of Austria (AVÖ) - 2005 Rentenversicherungen  - Einzel (Individual Annuity Contracts) 2001 Base Year Mortality - Männer (Male). Minimum Age: 0. Maximum Age: 120</TableDescription>
+    <Comments>Study Data: The table is a two-dimensional dynamic life table comprised of a base table for the year 2001 and age-dependent yearly trends for extrapolation into the future. The table is derived from statistical data of the Austrian population (census of 2001, earlier censuses and yearly data since 1972), as well as from comparisons with similar German and Swiss annuity valuation tables. As it was the case for the AVO 1996R (See SOA Table Identites 2863-2866), there is no data available about Austrian annuitants as the total volume of annuity contracts is relatively small. In contrast to the AVO 1996R, the AVO 2005R includes security margins for model and parameter risk to account for a possible adverse development of future mortality. Methodology: The latest Austrian census data of the year 2001, adjusted using data from 2000 to 2002, as published by Statistics Austria, contains the adjusted and graduated mortality of the Austrian population in the year 2001 by sex and age with an available age range of up to 112 years. This base table was manually extrapolated for the AVO 2005R to ages x ≥ 113 using a Weibull-like function. As there are no records about Austrian annuitants, the German selection factors are used as a reference for the AVO 2005R. These selection effects were calculated from the data pooled by Gen Re and the Munich Re Group from more than 20 German insurance companies. A combination of the population mortality with the selection factors leads to the static base table for annuitants in the year 2001. NOTE: The AVO 2005R is implemented as a dynamic life table with a static base mortality table and extrapolation factors, trend functions (See SOA Table Identies 2963-2964), to model mortality reduction in the future. Formula for the death probability of an annuitant of age x in calendar year t ≥ 2001 is qx(t) = qbasex (2001)*e^[−G(t)λ(x)] with G(t) = t(1/2) arctan [(t − 2001)/t(1/2)] where t(1/2) = 100 and λ(x) is the trend. The tables for individual contracts and group contracts employ the same trend, but use a different base table. Data Transcription Errors: None. Data Certified: 07/2014
+</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Austria</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="43">Austria</Nation>
+      <TableDescription>Actuarial Association of Austria (AVÖ) - 2005 Rentenversicherungen  - Einzel (Individual Annuity Contracts) 2001 Base Year Mortality - Männer (Male). Minimum Age: 0. Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.004274</Y>
+        <Y t="1">0.000276</Y>
+        <Y t="2">0.000211</Y>
+        <Y t="3">0.000159</Y>
+        <Y t="4">0.000121</Y>
+        <Y t="5">0.000104</Y>
+        <Y t="6">9.8E-05</Y>
+        <Y t="7">9.4E-05</Y>
+        <Y t="8">8.8E-05</Y>
+        <Y t="9">8.9E-05</Y>
+        <Y t="10">9.1E-05</Y>
+        <Y t="11">9E-05</Y>
+        <Y t="12">9.2E-05</Y>
+        <Y t="13">0.000114</Y>
+        <Y t="14">0.000177</Y>
+        <Y t="15">0.000294</Y>
+        <Y t="16">0.00045</Y>
+        <Y t="17">0.00062</Y>
+        <Y t="18">0.000758</Y>
+        <Y t="19">0.000817</Y>
+        <Y t="20">0.000821</Y>
+        <Y t="21">0.000819</Y>
+        <Y t="22">0.000813</Y>
+        <Y t="23">0.000805</Y>
+        <Y t="24">0.0008</Y>
+        <Y t="25">0.000798</Y>
+        <Y t="26">0.000788</Y>
+        <Y t="27">0.00077</Y>
+        <Y t="28">0.000743</Y>
+        <Y t="29">0.000717</Y>
+        <Y t="30">0.000703</Y>
+        <Y t="31">0.000712</Y>
+        <Y t="32">0.000747</Y>
+        <Y t="33">0.000793</Y>
+        <Y t="34">0.000842</Y>
+        <Y t="35">0.000893</Y>
+        <Y t="36">0.000958</Y>
+        <Y t="37">0.001053</Y>
+        <Y t="38">0.001176</Y>
+        <Y t="39">0.001318</Y>
+        <Y t="40">0.001472</Y>
+        <Y t="41">0.001601</Y>
+        <Y t="42">0.001725</Y>
+        <Y t="43">0.001852</Y>
+        <Y t="44">0.001991</Y>
+        <Y t="45">0.002146</Y>
+        <Y t="46">0.002321</Y>
+        <Y t="47">0.002512</Y>
+        <Y t="48">0.002724</Y>
+        <Y t="49">0.002961</Y>
+        <Y t="50">0.003221</Y>
+        <Y t="51">0.003495</Y>
+        <Y t="52">0.003769</Y>
+        <Y t="53">0.004034</Y>
+        <Y t="54">0.004285</Y>
+        <Y t="55">0.004521</Y>
+        <Y t="56">0.004747</Y>
+        <Y t="57">0.004967</Y>
+        <Y t="58">0.005187</Y>
+        <Y t="59">0.005416</Y>
+        <Y t="60">0.005669</Y>
+        <Y t="61">0.00614</Y>
+        <Y t="62">0.0067</Y>
+        <Y t="63">0.007367</Y>
+        <Y t="64">0.008146</Y>
+        <Y t="65">0.009033</Y>
+        <Y t="66">0.010028</Y>
+        <Y t="67">0.011137</Y>
+        <Y t="68">0.012373</Y>
+        <Y t="69">0.013747</Y>
+        <Y t="70">0.015275</Y>
+        <Y t="71">0.016979</Y>
+        <Y t="72">0.018887</Y>
+        <Y t="73">0.021041</Y>
+        <Y t="74">0.023487</Y>
+        <Y t="75">0.026281</Y>
+        <Y t="76">0.029487</Y>
+        <Y t="77">0.033173</Y>
+        <Y t="78">0.037423</Y>
+        <Y t="79">0.042336</Y>
+        <Y t="80">0.048029</Y>
+        <Y t="81">0.054635</Y>
+        <Y t="82">0.06231</Y>
+        <Y t="83">0.070771</Y>
+        <Y t="84">0.079759</Y>
+        <Y t="85">0.089559</Y>
+        <Y t="86">0.100315</Y>
+        <Y t="87">0.112297</Y>
+        <Y t="88">0.12578</Y>
+        <Y t="89">0.141175</Y>
+        <Y t="90">0.15874</Y>
+        <Y t="91">0.178703</Y>
+        <Y t="92">0.200998</Y>
+        <Y t="93">0.225437</Y>
+        <Y t="94">0.251801</Y>
+        <Y t="95">0.279916</Y>
+        <Y t="96">0.309689</Y>
+        <Y t="97">0.34109</Y>
+        <Y t="98">0.374103</Y>
+        <Y t="99">0.408723</Y>
+        <Y t="100">0.444942</Y>
+        <Y t="101">0.471086</Y>
+        <Y t="102">0.497257</Y>
+        <Y t="103">0.523434</Y>
+        <Y t="104">0.549612</Y>
+        <Y t="105">0.57579</Y>
+        <Y t="106">0.601969</Y>
+        <Y t="107">0.628148</Y>
+        <Y t="108">0.654329</Y>
+        <Y t="109">0.680513</Y>
+        <Y t="110">0.706699</Y>
+        <Y t="111">0.732889</Y>
+        <Y t="112">0.759082</Y>
+        <Y t="113">0.787559</Y>
+        <Y t="114">0.810683</Y>
+        <Y t="115">0.832543</Y>
+        <Y t="116">0.85304</Y>
+        <Y t="117">0.872094</Y>
+        <Y t="118">0.889648</Y>
+        <Y t="119">0.905666</Y>
+        <Y t="120">0.920139</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>
