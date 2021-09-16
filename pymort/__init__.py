@@ -26,7 +26,7 @@ class UltimateTable:
 class MortalityTable:
   select: Union[None, SelectTable]
   ultimate: UltimateTable
-  def rates(self, issue_age):
+  def rates(self, issue_age: int) -> list[float]:
     if issue_age < self.select.minAge or issue_age > self.select.maxAge:
       raise ValueError('issue_age must be between {} and {}'.format(self.select.minAge, self.select.maxAge))
     if self.select is None:
