@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1552</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Raymond B. Krieger, "Reserves for Lives Disabled under Group Insurance Extended Death Benefit Provisions of the Premium-Waiver Type", Transactions of the Society of Actuaries, Vol. XXIII, No. 67, Part I: Appendix 2A (1971) p. 440. Accessed: 12/2012 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1971/january/tsa71v23pt1n6722.pdf, p. 22</TableReference>
+    <ContentType tc="82">Claim Termination</ContentType>
+    <TableName>Krieger Table with Extension – Select Period, Disability Termination Rates</TableName>
+    <TableDescription>Select Period Termination Rates for Disability Years 1-10 Based on Lives for Both Sexes Combined. Age Ranges Converted to Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+    <Comments>Study Data:  Intercompany group experience was used to propose an actuarial basis appropriate for setting up disabled life reserves held under extended death benefit provisions of the premium-waiver type. Data is limited to a nine-month presumptive provision, that is, one in which total disability is presumed to be permanent after a nine-month waiting period from date of disablement and where proof of continued disability must be provided annually. The starting point for the study was data published in the 1968 Reports of the Transactions of the Society of Actuaries. The 1968 Study was based on the same types of cases as are included in the quinquennial studies of group life mortality experience; that is, it excludes union, trusteeship, and association cases as well as group indebtedness experience. The study covers the group term life experience of 12 companies in the Unites States and Canada between 1955 and 1965 anniversaries of the date of disablement for all disabilities approved before 1965. Termination rates encompass recovery following disability (SOA Table 1553) and death following disability (SOA Table 1554). Extensions for ages 67 and 72 at disablement were derived from North American Re's 1992 Group Waiver Study. Methodology:  As the original publication is extensively detailed with respect to the methodology used to construct the table, the “Transactions” publication should be consulted.  Data Transcription Errors Detected: 12/2012. Data Corrected and Certified: 12/2012</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Claim Termination</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Select Period Termination Rates for Disability. Fourth Quarter, Year 1 through Fourth Quarter Year 2 Quarterly Termination Rates Following 9-month Waiting Period. Based on Lives for Both Sexes Combined. Age Ranges Converted to Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Month</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>9</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>3</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.118</Y>
+          <Y t="22">0.113</Y>
+          <Y t="27">0.11</Y>
+          <Y t="32">0.108</Y>
+          <Y t="37">0.106</Y>
+          <Y t="42">0.099</Y>
+          <Y t="47">0.085</Y>
+          <Y t="52">0.072</Y>
+          <Y t="57">0.055</Y>
+          <Y t="62">0.043</Y>
+          <Y t="67">0.036</Y>
+          <Y t="72">0.027</Y>
+        </Axis>
+      </Axis>
+      <Axis t="12">
+        <Axis>
+          <Y t="17">0.115</Y>
+          <Y t="22">0.107</Y>
+          <Y t="27">0.1</Y>
+          <Y t="32">0.095</Y>
+          <Y t="37">0.091</Y>
+          <Y t="42">0.081</Y>
+          <Y t="47">0.069</Y>
+          <Y t="52">0.06</Y>
+          <Y t="57">0.048</Y>
+          <Y t="62">0.04</Y>
+          <Y t="67">0.037</Y>
+          <Y t="72">0.033</Y>
+        </Axis>
+      </Axis>
+      <Axis t="15">
+        <Axis>
+          <Y t="17">0.111</Y>
+          <Y t="22">0.099</Y>
+          <Y t="27">0.09</Y>
+          <Y t="32">0.083</Y>
+          <Y t="37">0.078</Y>
+          <Y t="42">0.069</Y>
+          <Y t="47">0.059</Y>
+          <Y t="52">0.05</Y>
+          <Y t="57">0.041</Y>
+          <Y t="62">0.036</Y>
+          <Y t="67">0.035</Y>
+          <Y t="72">0.033</Y>
+        </Axis>
+      </Axis>
+      <Axis t="18">
+        <Axis>
+          <Y t="17">0.106</Y>
+          <Y t="22">0.095</Y>
+          <Y t="27">0.083</Y>
+          <Y t="32">0.075</Y>
+          <Y t="37">0.07</Y>
+          <Y t="42">0.061</Y>
+          <Y t="47">0.051</Y>
+          <Y t="52">0.043</Y>
+          <Y t="57">0.036</Y>
+          <Y t="62">0.033</Y>
+          <Y t="67">0.033</Y>
+          <Y t="72">0.032</Y>
+        </Axis>
+      </Axis>
+      <Axis t="21">
+        <Axis>
+          <Y t="17">0.102</Y>
+          <Y t="22">0.091</Y>
+          <Y t="27">0.079</Y>
+          <Y t="32">0.071</Y>
+          <Y t="37">0.065</Y>
+          <Y t="42">0.056</Y>
+          <Y t="47">0.046</Y>
+          <Y t="52">0.04</Y>
+          <Y t="57">0.034</Y>
+          <Y t="62">0.033</Y>
+          <Y t="67">0.034</Y>
+          <Y t="72">0.034</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Select Period Termination Rates for Disability. Annual Termination Rates for Year 2 -10 following 9-month Waiting Period. Based on Lives for Both Sexes Combined. Age Ranges Converted to Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Year">
+        <ScaleType tc="0">Year</ScaleType>
+        <AxisName>Year</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="2">
+        <Axis>
+          <Y t="17">0.369</Y>
+          <Y t="22">0.338</Y>
+          <Y t="27">0.308</Y>
+          <Y t="32">0.287</Y>
+          <Y t="37">0.271</Y>
+          <Y t="42">0.241</Y>
+          <Y t="47">0.207</Y>
+          <Y t="52">0.18</Y>
+          <Y t="57">0.15</Y>
+          <Y t="62">0.135</Y>
+          <Y t="67">0.127</Y>
+          <Y t="72">0.123</Y>
+        </Axis>
+      </Axis>
+      <Axis t="3">
+        <Axis>
+          <Y t="17">0.34</Y>
+          <Y t="22">0.277</Y>
+          <Y t="27">0.24</Y>
+          <Y t="32">0.214</Y>
+          <Y t="37">0.196</Y>
+          <Y t="42">0.17</Y>
+          <Y t="47">0.143</Y>
+          <Y t="52">0.121</Y>
+          <Y t="57">0.106</Y>
+          <Y t="62">0.102</Y>
+          <Y t="67">0.104</Y>
+          <Y t="72">0.106</Y>
+        </Axis>
+      </Axis>
+      <Axis t="4">
+        <Axis>
+          <Y t="17">0.272</Y>
+          <Y t="22">0.232</Y>
+          <Y t="27">0.194</Y>
+          <Y t="32">0.164</Y>
+          <Y t="37">0.153</Y>
+          <Y t="42">0.13</Y>
+          <Y t="47">0.11</Y>
+          <Y t="52">0.094</Y>
+          <Y t="57">0.093</Y>
+          <Y t="62">0.092</Y>
+          <Y t="67">0.096</Y>
+          <Y t="72">0.101</Y>
+        </Axis>
+      </Axis>
+      <Axis t="5">
+        <Axis>
+          <Y t="17">0.203</Y>
+          <Y t="22">0.172</Y>
+          <Y t="27">0.143</Y>
+          <Y t="32">0.121</Y>
+          <Y t="37">0.113</Y>
+          <Y t="42">0.100</Y>
+          <Y t="47">0.088</Y>
+          <Y t="52">0.085</Y>
+          <Y t="57">0.088</Y>
+          <Y t="62">0.088</Y>
+          <Y t="67">0.095</Y>
+          <Y t="72">0.101</Y>
+        </Axis>
+      </Axis>
+      <Axis t="6">
+        <Axis>
+          <Y t="17">0.136</Y>
+          <Y t="22">0.114</Y>
+          <Y t="27">0.094</Y>
+          <Y t="32">0.091</Y>
+          <Y t="37">0.090</Y>
+          <Y t="42">0.087</Y>
+          <Y t="47">0.080</Y>
+          <Y t="52">0.082</Y>
+          <Y t="57">0.085</Y>
+          <Y t="62">0.086</Y>
+          <Y t="67">0.095</Y>
+          <Y t="72">0.102</Y>
+        </Axis>
+      </Axis>
+      <Axis t="7">
+        <Axis>
+          <Y t="17">0.096</Y>
+          <Y t="22">0.084</Y>
+          <Y t="27">0.073</Y>
+          <Y t="32">0.074</Y>
+          <Y t="37">0.073</Y>
+          <Y t="42">0.073</Y>
+          <Y t="47">0.073</Y>
+          <Y t="52">0.077</Y>
+          <Y t="57">0.083</Y>
+          <Y t="62">0.090</Y>
+          <Y t="67">0.100</Y>
+          <Y t="72">0.109</Y>
+        </Axis>
+      </Axis>
+      <Axis t="8">
+        <Axis>
+          <Y t="17">0.071</Y>
+          <Y t="22">0.069</Y>
+          <Y t="27">0.064</Y>
+          <Y t="32">0.065</Y>
+          <Y t="37">0.065</Y>
+          <Y t="42">0.065</Y>
+          <Y t="47">0.066</Y>
+          <Y t="52">0.073</Y>
+          <Y t="57">0.082</Y>
+          <Y t="62">0.094</Y>
+          <Y t="67">0.105</Y>
+          <Y t="72">0.118</Y>
+        </Axis>
+      </Axis>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.058</Y>
+          <Y t="22">0.057</Y>
+          <Y t="27">0.053</Y>
+          <Y t="32">0.057</Y>
+          <Y t="37">0.060</Y>
+          <Y t="42">0.061</Y>
+          <Y t="47">0.061</Y>
+          <Y t="52">0.070</Y>
+          <Y t="57">0.082</Y>
+          <Y t="62">0.097</Y>
+          <Y t="67">0.110</Y>
+          <Y t="72">0.125</Y>
+        </Axis>
+      </Axis>
+      <Axis t="10">
+        <Axis>
+          <Y t="17">0.046</Y>
+          <Y t="22">0.046</Y>
+          <Y t="27">0.043</Y>
+          <Y t="32">0.049</Y>
+          <Y t="37">0.053</Y>
+          <Y t="42">0.054</Y>
+          <Y t="47">0.056</Y>
+          <Y t="52">0.066</Y>
+          <Y t="57">0.081</Y>
+          <Y t="62">0.099</Y>
+          <Y t="67">0.114</Y>
+          <Y t="72">0.130</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2840</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Edwin L. Bartleson and James J. Olsen, "Reserves for Individual Hospital and Surgical Expense Insurance”, Transactions of the Society of Actuaries, Vol. IX, No. 25 (1957). Accessed: June, 2014 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1957/January/tsa57v9n2532.pdf</TableReference>
+    <ContentType tc="50">Claim Cost (in Disability)</ContentType>
+    <TableName>1956 Intercompany Hospital - Maternity Benefit</TableName>
+    <TableDescription>1956 Intercompany Hospital Table - $1 Maternity Benefit - Net Annual Claim Cost. Minimum Age: 15. Maximum Age: 46</TableDescription>
+    <Comments>Study Data: Task Force 4, appointed by the Joint Committee on Health Insurance, was assigned the task of studying reserves for accident and health insurance. The basic tables for hospital and surgical expense insurance were adopted by the National Association of Insurance Commissioners (NAIC) in December, 1956. Maternity benefits were kept separate from other hospital stays. The net annual claim cost is the product of the annual rate of claim from this table and then the average claim value. Methodology: Task Force 4 prepared tables with a minimum age of 20 and maximum age of 46 for maternity benefits. In order to cover all pregnancy ages, the table was extended by the authors. There are relatively few contracts issued at age 15 to 19 thus extension was simply to use the same cost as for age 20. Transcription Errors: None. Data Certified: 07/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Cost</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Hospital Table - $1 Maternity Benefit - Net Annual Claim Cost. Minimum Age: 15. Maximum Age: 46</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>46</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.3284</Y>
+        <Y t="16">0.3284</Y>
+        <Y t="17">0.3284</Y>
+        <Y t="18">0.3284</Y>
+        <Y t="19">0.3284</Y>
+        <Y t="20">0.3284</Y>
+        <Y t="21">0.3062</Y>
+        <Y t="22">0.285</Y>
+        <Y t="23">0.2652</Y>
+        <Y t="24">0.2469</Y>
+        <Y t="25">0.2295</Y>
+        <Y t="26">0.2127</Y>
+        <Y t="27">0.196</Y>
+        <Y t="28">0.1792</Y>
+        <Y t="29">0.1626</Y>
+        <Y t="30">0.1465</Y>
+        <Y t="31">0.1312</Y>
+        <Y t="32">0.117</Y>
+        <Y t="33">0.104</Y>
+        <Y t="34">0.092</Y>
+        <Y t="35">0.0808</Y>
+        <Y t="36">0.0702</Y>
+        <Y t="37">0.06</Y>
+        <Y t="38">0.0499</Y>
+        <Y t="39">0.0401</Y>
+        <Y t="40">0.031</Y>
+        <Y t="41">0.0228</Y>
+        <Y t="42">0.016</Y>
+        <Y t="43">0.0108</Y>
+        <Y t="44">0.0068</Y>
+        <Y t="45">0.0039</Y>
+        <Y t="46">0.0017</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

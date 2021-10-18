@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2399</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Self-Administered Pension Schemes Mortality Committee, “Working Pare 35: The Graduations of the CMI Self-Administered Pension Schemes 2000-2006 Mortality Experience – Final “S1” Series of Mortality Tables”, Continuous Mortality Investigation, Institute and Faculty of Actuaries (2009) Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/s1-series-tables</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>S1IFA</TableName>
+    <TableDescription>Self-Administered Pension Schemes Mortality for Ill-health Pensioners - Female by Amounts (S1IFA). Basis: Age Last Birthday. Minimum Age: 16. Maximum Age: 120</TableDescription>
+    <Comments>Study Data: Table is part of the "S1" series of mortality tables for self-administered pension schemes (SAPS). Utilizes SAPS 2000-2006 experience, based on data received by June, 2007. The datasets comprised all scheme data which had not been overwritten by a resubmission. Deaths are allocated according to the amount of pension in payment at the date of death. For a particular calendar year, the contribution to the exposed to risk from each member is calculated as the number of days that the life is observed to be at the risk of death during the calendar year (subject to any adjustment for late-reported deaths). Continuous Mortality Investigation subdivided data into four types: (1) The “Ill-health” tables are based on data where pensioners were specified to have retired (before their normal retirement date) as a result of ill-health; (2)- The “Normal Health” tables are based on data where pensioners were specified to have retired other than as a result of ill-health; (3) The “All pensioner (excluding dependants)” tables are based not only on the data in the previous two categories, but also on schemes where data contributors were unable to differentiate between normal and ill-health retirement; and (4) The “Dependants” tables are based on data where the beneficiary is not the ex-employee, but their spouse (or other dependant). Methodology: In all cases the tables cover ages 16 to 120 (inclusive) however the data that has been graduated spans a much narrower age range, reflecting where there is credible data. This varies between the tables, for example the Normal Health tables are based on data from ages 60 to 95 whereas the Ill-health tables are based on data from age 35 to age 95. Outside these ages, there was too little data to derive graduations and arbitrary approaches have been adopted. Indeed at the older ages, there is little data even at a United Kingdom (UK) population level. The predominant reason given for extending all the tables back to younger ages was that it would ensure consistency in the rates used for the younger ages by different actuaries. Graduation performed utilizing methodology developed by Forfar, McCutcheon and Wilkie, specifically, a Gompertz-Makeham formula of the type: μx = GM(r,s). For each table, the graduation was performed over an age range that was considered to be sufficiently large for reliable results to be calculated. Extensions to higher and lower ages were then considered separately. Extending the graduated tables from age 95 to 120 has been carried out using cubic splines such that the following four criteria are met(1) The value of μx is continuous at age 95; (2) The first differential of μx is continuous at age 95; (3) μx is constrained to meet a fixed value of 1.0 at age 120; and (4) The gradient of the curve of μx is 1 at age 120. To extend the tables down to age 16, the Committee used a GM(1,3) curve. NOTE: The Committee urges users of table values at lower ages and higher ages should be aware of how they have been constructed and should only use them when it is deemed appropriate by the user to do so. Data Transcription Errors: None. Data Certified: 09/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Self-Administered Pension Schemes Mortality for Ill-health Pensioners - Female by Amounts (S1IFA). Basis: Age Last Birthday. Minimum Age: 16. Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>16</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="16">0.002982</Y>
+        <Y t="17">0.003137</Y>
+        <Y t="18">0.003291</Y>
+        <Y t="19">0.003446</Y>
+        <Y t="20">0.003601</Y>
+        <Y t="21">0.003755</Y>
+        <Y t="22">0.00391</Y>
+        <Y t="23">0.004064</Y>
+        <Y t="24">0.004219</Y>
+        <Y t="25">0.004373</Y>
+        <Y t="26">0.004528</Y>
+        <Y t="27">0.004682</Y>
+        <Y t="28">0.004837</Y>
+        <Y t="29">0.004991</Y>
+        <Y t="30">0.005146</Y>
+        <Y t="31">0.0053</Y>
+        <Y t="32">0.005454</Y>
+        <Y t="33">0.005609</Y>
+        <Y t="34">0.005763</Y>
+        <Y t="35">0.005917</Y>
+        <Y t="36">0.006071</Y>
+        <Y t="37">0.006226</Y>
+        <Y t="38">0.00638</Y>
+        <Y t="39">0.006534</Y>
+        <Y t="40">0.006688</Y>
+        <Y t="41">0.006843</Y>
+        <Y t="42">0.006997</Y>
+        <Y t="43">0.007151</Y>
+        <Y t="44">0.007306</Y>
+        <Y t="45">0.007461</Y>
+        <Y t="46">0.007617</Y>
+        <Y t="47">0.007773</Y>
+        <Y t="48">0.00793</Y>
+        <Y t="49">0.008089</Y>
+        <Y t="50">0.00825</Y>
+        <Y t="51">0.008414</Y>
+        <Y t="52">0.008582</Y>
+        <Y t="53">0.008756</Y>
+        <Y t="54">0.008938</Y>
+        <Y t="55">0.00913</Y>
+        <Y t="56">0.009337</Y>
+        <Y t="57">0.009562</Y>
+        <Y t="58">0.009813</Y>
+        <Y t="59">0.010095</Y>
+        <Y t="60">0.010419</Y>
+        <Y t="61">0.010796</Y>
+        <Y t="62">0.01124</Y>
+        <Y t="63">0.011768</Y>
+        <Y t="64">0.012399</Y>
+        <Y t="65">0.013157</Y>
+        <Y t="66">0.014068</Y>
+        <Y t="67">0.015164</Y>
+        <Y t="68">0.016478</Y>
+        <Y t="69">0.018046</Y>
+        <Y t="70">0.01991</Y>
+        <Y t="71">0.02211</Y>
+        <Y t="72">0.024689</Y>
+        <Y t="73">0.027689</Y>
+        <Y t="74">0.031151</Y>
+        <Y t="75">0.035108</Y>
+        <Y t="76">0.03959</Y>
+        <Y t="77">0.044618</Y>
+        <Y t="78">0.0502</Y>
+        <Y t="79">0.056334</Y>
+        <Y t="80">0.062999</Y>
+        <Y t="81">0.070162</Y>
+        <Y t="82">0.077769</Y>
+        <Y t="83">0.085749</Y>
+        <Y t="84">0.094017</Y>
+        <Y t="85">0.10247</Y>
+        <Y t="86">0.11099</Y>
+        <Y t="87">0.119452</Y>
+        <Y t="88">0.127722</Y>
+        <Y t="89">0.13566</Y>
+        <Y t="90">0.14313</Y>
+        <Y t="91">0.149998</Y>
+        <Y t="92">0.156138</Y>
+        <Y t="93">0.161437</Y>
+        <Y t="94">0.165795</Y>
+        <Y t="95">0.170068</Y>
+        <Y t="96">0.177816</Y>
+        <Y t="97">0.189554</Y>
+        <Y t="98">0.204796</Y>
+        <Y t="99">0.223027</Y>
+        <Y t="100">0.243729</Y>
+        <Y t="101">0.266389</Y>
+        <Y t="102">0.290515</Y>
+        <Y t="103">0.315644</Y>
+        <Y t="104">0.341351</Y>
+        <Y t="105">0.367251</Y>
+        <Y t="106">0.393002</Y>
+        <Y t="107">0.418308</Y>
+        <Y t="108">0.442916</Y>
+        <Y t="109">0.466612</Y>
+        <Y t="110">0.489222</Y>
+        <Y t="111">0.510604</Y>
+        <Y t="112">0.530647</Y>
+        <Y t="113">0.549264</Y>
+        <Y t="114">0.566389</Y>
+        <Y t="115">0.581971</Y>
+        <Y t="116">0.595971</Y>
+        <Y t="117">0.608356</Y>
+        <Y t="118">0.619097</Y>
+        <Y t="119">0.628162</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

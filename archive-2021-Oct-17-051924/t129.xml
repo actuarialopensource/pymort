@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>129</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Robert J. Johansen</ProviderName>
+    <TableReference>James N. Van Elsen, “XXX Manual”, Van Elsen Consulting (1999) Appendix C p. 17-19. Accessed: March, 2013 from http://www.veconsulting.com/uploads/1/1/4/4/11445803/xxx_handbook.pdf, p. 179-181</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1980 CSO - Table SE (40% Male Blend - Smoker), ALB</TableName>
+    <TableDescription>1980 Commissioners Standard Ordinary (CSO) Table SE (40% Male / 60% Female Blend - Smoker). Basis: Age Last Birthday. Minimum Age: 15. Maximum Age: 99</TableDescription>
+    <Comments>Study Data:  In response to the U.S. Supreme Court’s Norris decision, a set of five blended, non-sex-distinct mortality tables were developed from the 1980 CSO tables (See SOA Table Identities 17, 20, 23, and 29) to provide for minimum non-forfeiture values on life insurance policies issued on a non-sex-distinct basis for employee benefit plans. Methodology: A simple combining of mortality rates is not appropriate due to differences in the relative mortality rates of males and females. Such a blending of mortality rates would produce a somewhat higher proportion of males at ages below the pivotal age and a lower proportion at the older ages. Therefore the Committee used the Teachers Insurance and Annuity Association (TIAA) method of blending male and female lx's. Age 45 was selected as the pivotal age (age at which the proportion of males and females would be fixed) as it did not result in any sizable change in the values of the mortality rates at the important ages where pension-life insurance policies are likely to be in force. Values of lx were taken from the tables in the report of the Committee on Specifications for Monetary Values--1980 CSO Tables. The values of lx in these tables were based on a radix of 200 at age 99. At the pivotal age in each case two ratios were formed. The ratio to be applied to all the male lx's is MR = [(lx(male) + lx (female) )× Z ] / lx(male).  In the formula, Z is the chosen ratio of male lx to total lx. For females the ratio is FR = [(lx(male) + lx(female)) × (1 – Z)] / lx(female). Totals of the adjusted male and female lx's were formed at each age and used to calculate mortality rates. These mortality rates were then used to calculate new blended lx's starting from a radix of 200 at age 99. NOTE: the original publication (“Report of the Society of Actuaries Committee on Nonforfeiture and Valuation Mortality Problems - Individual Life Insurance and Annuities, November 28, 1983 Blended 1980 CSO and 1980 CET Mortality Tables”, Transactions of the Society of Actuaries Vol. XXXVII , Society of Actuaries (1983) p. 41) did not include age last birthday tables, only a reference to the methodology to use to construct them: “Age last birthday mortality rates can be derived from the age nearest birthday rates using the method described in the Transactions of the Society of Actuaries XXXIII (1981) p. 671”. Accordingly, another published source has been relied upon for validation of transcription accuracy.  Data Transcription Errors: None. Data Certified: 03/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980 Commissioners Standard Ordinary (CSO) Table SE (40% Male / 60% Female Blend - Smoker). Basis: Age Last Birthday. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00128</Y>
+        <Y t="16">0.00140</Y>
+        <Y t="17">0.00148</Y>
+        <Y t="18">0.00155</Y>
+        <Y t="19">0.00161</Y>
+        <Y t="20">0.00164</Y>
+        <Y t="21">0.00165</Y>
+        <Y t="22">0.00165</Y>
+        <Y t="23">0.00165</Y>
+        <Y t="24">0.00165</Y>
+        <Y t="25">0.00164</Y>
+        <Y t="26">0.00165</Y>
+        <Y t="27">0.00166</Y>
+        <Y t="28">0.00169</Y>
+        <Y t="29">0.00174</Y>
+        <Y t="30">0.00180</Y>
+        <Y t="31">0.00187</Y>
+        <Y t="32">0.00195</Y>
+        <Y t="33">0.00205</Y>
+        <Y t="34">0.00216</Y>
+        <Y t="35">0.00230</Y>
+        <Y t="36">0.00248</Y>
+        <Y t="37">0.00270</Y>
+        <Y t="38">0.00295</Y>
+        <Y t="39">0.00323</Y>
+        <Y t="40">0.00355</Y>
+        <Y t="41">0.00391</Y>
+        <Y t="42">0.00427</Y>
+        <Y t="43">0.00465</Y>
+        <Y t="44">0.00506</Y>
+        <Y t="45">0.00549</Y>
+        <Y t="46">0.00593</Y>
+        <Y t="47">0.00640</Y>
+        <Y t="48">0.00690</Y>
+        <Y t="49">0.00745</Y>
+        <Y t="50">0.00805</Y>
+        <Y t="51">0.00871</Y>
+        <Y t="52">0.00947</Y>
+        <Y t="53">0.01030</Y>
+        <Y t="54">0.01119</Y>
+        <Y t="55">0.01213</Y>
+        <Y t="56">0.01309</Y>
+        <Y t="57">0.01404</Y>
+        <Y t="58">0.01501</Y>
+        <Y t="59">0.01606</Y>
+        <Y t="60">0.01724</Y>
+        <Y t="61">0.01863</Y>
+        <Y t="62">0.02028</Y>
+        <Y t="63">0.02219</Y>
+        <Y t="64">0.02429</Y>
+        <Y t="65">0.02650</Y>
+        <Y t="66">0.02875</Y>
+        <Y t="67">0.03100</Y>
+        <Y t="68">0.03329</Y>
+        <Y t="69">0.03575</Y>
+        <Y t="70">0.03855</Y>
+        <Y t="71">0.04187</Y>
+        <Y t="72">0.04580</Y>
+        <Y t="73">0.05031</Y>
+        <Y t="74">0.05534</Y>
+        <Y t="75">0.06078</Y>
+        <Y t="76">0.06643</Y>
+        <Y t="77">0.07222</Y>
+        <Y t="78">0.07821</Y>
+        <Y t="79">0.08464</Y>
+        <Y t="80">0.09179</Y>
+        <Y t="81">0.09983</Y>
+        <Y t="82">0.10897</Y>
+        <Y t="83">0.11940</Y>
+        <Y t="84">0.13063</Y>
+        <Y t="85">0.14249</Y>
+        <Y t="86">0.15481</Y>
+        <Y t="87">0.16766</Y>
+        <Y t="88">0.18112</Y>
+        <Y t="89">0.19508</Y>
+        <Y t="90">0.21049</Y>
+        <Y t="91">0.22706</Y>
+        <Y t="92">0.24565</Y>
+        <Y t="93">0.26799</Y>
+        <Y t="94">0.29811</Y>
+        <Y t="95">0.34310</Y>
+        <Y t="96">0.41532</Y>
+        <Y t="97">0.53805</Y>
+        <Y t="98">0.74410</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

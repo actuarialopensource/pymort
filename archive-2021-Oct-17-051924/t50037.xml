@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50037</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Milliman Asia</ProviderName>
+    <TableReference>Institute of Actuaries of Japan booklet</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Japan qx_ins male 1979 to 1980(4th) - PENDING VALIDATION</TableName>
+    <TableDescription>TM-Country: Japan
+Minimum age: 0
+Maximum age: 105
+Number of decimal places: 5
+Hash value: 1168065405
+</TableDescription>
+    <Comments>It would require too much time to find detail information.
+NOTE: the contents of this table have yet to be validated against a published source to ensure no transcription errors have occurred</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Japan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="81">Japan</Nation>
+      <TableDescription>Japan qx_ins male 1979 to 1980(4th)-Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00128</Y>
+        <Y t="1">0.00106</Y>
+        <Y t="2">0.00085</Y>
+        <Y t="3">0.00067</Y>
+        <Y t="4">0.00054</Y>
+        <Y t="5">0.00046</Y>
+        <Y t="6">0.00041</Y>
+        <Y t="7">0.00038</Y>
+        <Y t="8">0.00035</Y>
+        <Y t="9">0.00029</Y>
+        <Y t="10">0.00025</Y>
+        <Y t="11">0.00024</Y>
+        <Y t="12">0.00026</Y>
+        <Y t="13">0.00031</Y>
+        <Y t="14">0.00042</Y>
+        <Y t="15">0.00058</Y>
+        <Y t="16">0.00076</Y>
+        <Y t="17">0.00095</Y>
+        <Y t="18">0.00109</Y>
+        <Y t="19">0.00117</Y>
+        <Y t="20">0.00119</Y>
+        <Y t="21">0.00115</Y>
+        <Y t="22">0.00109</Y>
+        <Y t="23">0.00103</Y>
+        <Y t="24">0.00098</Y>
+        <Y t="25">0.00095</Y>
+        <Y t="26">0.00092</Y>
+        <Y t="27">0.00090</Y>
+        <Y t="28">0.00088</Y>
+        <Y t="29">0.00087</Y>
+        <Y t="30">0.00087</Y>
+        <Y t="31">0.00089</Y>
+        <Y t="32">0.00094</Y>
+        <Y t="33">0.00100</Y>
+        <Y t="34">0.00108</Y>
+        <Y t="35">0.00116</Y>
+        <Y t="36">0.00126</Y>
+        <Y t="37">0.00136</Y>
+        <Y t="38">0.00147</Y>
+        <Y t="39">0.00160</Y>
+        <Y t="40">0.00173</Y>
+        <Y t="41">0.00188</Y>
+        <Y t="42">0.00207</Y>
+        <Y t="43">0.00229</Y>
+        <Y t="44">0.00257</Y>
+        <Y t="45">0.00288</Y>
+        <Y t="46">0.00323</Y>
+        <Y t="47">0.00358</Y>
+        <Y t="48">0.00392</Y>
+        <Y t="49">0.00425</Y>
+        <Y t="50">0.00459</Y>
+        <Y t="51">0.00496</Y>
+        <Y t="52">0.00538</Y>
+        <Y t="53">0.00587</Y>
+        <Y t="54">0.00643</Y>
+        <Y t="55">0.00705</Y>
+        <Y t="56">0.00770</Y>
+        <Y t="57">0.00840</Y>
+        <Y t="58">0.00917</Y>
+        <Y t="59">0.01006</Y>
+        <Y t="60">0.01106</Y>
+        <Y t="61">0.01219</Y>
+        <Y t="62">0.01342</Y>
+        <Y t="63">0.01477</Y>
+        <Y t="64">0.01632</Y>
+        <Y t="65">0.01804</Y>
+        <Y t="66">0.01996</Y>
+        <Y t="67">0.02210</Y>
+        <Y t="68">0.02449</Y>
+        <Y t="69">0.02715</Y>
+        <Y t="70">0.03012</Y>
+        <Y t="71">0.03342</Y>
+        <Y t="72">0.03710</Y>
+        <Y t="73">0.04119</Y>
+        <Y t="74">0.04574</Y>
+        <Y t="75">0.05080</Y>
+        <Y t="76">0.05643</Y>
+        <Y t="77">0.06267</Y>
+        <Y t="78">0.06960</Y>
+        <Y t="79">0.07727</Y>
+        <Y t="80">0.08578</Y>
+        <Y t="81">0.09519</Y>
+        <Y t="82">0.10559</Y>
+        <Y t="83">0.11706</Y>
+        <Y t="84">0.12972</Y>
+        <Y t="85">0.14364</Y>
+        <Y t="86">0.15893</Y>
+        <Y t="87">0.17569</Y>
+        <Y t="88">0.19402</Y>
+        <Y t="89">0.21403</Y>
+        <Y t="90">0.23579</Y>
+        <Y t="91">0.25939</Y>
+        <Y t="92">0.28491</Y>
+        <Y t="93">0.31238</Y>
+        <Y t="94">0.34182</Y>
+        <Y t="95">0.37323</Y>
+        <Y t="96">0.40656</Y>
+        <Y t="97">0.44171</Y>
+        <Y t="98">0.47852</Y>
+        <Y t="99">0.51679</Y>
+        <Y t="100">0.55623</Y>
+        <Y t="101">0.59651</Y>
+        <Y t="102">0.63721</Y>
+        <Y t="103">0.67784</Y>
+        <Y t="104">0.71788</Y>
+        <Y t="105">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

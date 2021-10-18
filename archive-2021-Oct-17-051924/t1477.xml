@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1477</TableIdentity>
+    <ProviderDomain>naic.org</ProviderDomain>
+    <ProviderName>NAIC</ProviderName>
+    <TableReference>National Association of Insurance Commissioners, "1985 NAIC Cancer Claim Cost Tables", Proceedings of the National Association of Insurance Commissioners, Vol. I. (Kansas City, Mo. 1986)</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1985 NAIC Cancer Claim Cost Table First Occurrence Benefit - Male</TableName>
+    <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Male. Basis: First Occurrence Benefit (Per $100 Benefit). Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+    <Comments>Study Data: Based on lives insured under cancer expense policies. Claim information includes payments during 1978 and 1979. It is believed 80% of all applicable experience is included in the study. First occurrence claim costs are considered appropriate for valuing lump sum benefits for first occurrence of internal cancers. When a covered individual is diagnosed with cancer, benefits may be provided for hospital confinement, radiation, chemotherapy and surgery, among others.  A cancer policy also helps by providing benefits to help with the many non-medical expenses associated with cancer (See SOA Table identities 1460-1475, 1483-1485, and 2587-2596). Benefits may be paid as expense incurred, per diem or a lump sum. Cancer policies may also pay an optional Initial Diagnosis benefit or First Occurrence benefit when a covered individual is first diagnosed as having internal cancer. This table represents the costs associated with the latter. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 12/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 National Association of Insurance Commissioners (NAIC) Cancer Claim Cost Table – Male. Basis: First Occurrence Benefit (Per $100 Benefit). Minimum Attained Age: 15. Maximum Attained Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.0588</Y>
+        <Y t="16">0.0588</Y>
+        <Y t="17">0.0588</Y>
+        <Y t="18">0.0588</Y>
+        <Y t="19">0.0588</Y>
+        <Y t="20">0.0588</Y>
+        <Y t="21">0.0588</Y>
+        <Y t="22">0.0588</Y>
+        <Y t="23">0.0588</Y>
+        <Y t="24">0.0588</Y>
+        <Y t="25">0.0588</Y>
+        <Y t="26">0.0588</Y>
+        <Y t="27">0.0588</Y>
+        <Y t="28">0.0588</Y>
+        <Y t="29">0.0599</Y>
+        <Y t="30">0.0608</Y>
+        <Y t="31">0.0618</Y>
+        <Y t="32">0.0629</Y>
+        <Y t="33">0.0684</Y>
+        <Y t="34">0.0752</Y>
+        <Y t="35">0.0836</Y>
+        <Y t="36">0.0932</Y>
+        <Y t="37">0.1043</Y>
+        <Y t="38">0.1161</Y>
+        <Y t="39">0.1289</Y>
+        <Y t="40">0.1433</Y>
+        <Y t="41">0.1599</Y>
+        <Y t="42">0.1794</Y>
+        <Y t="43">0.202</Y>
+        <Y t="44">0.2271</Y>
+        <Y t="45">0.2546</Y>
+        <Y t="46">0.2843</Y>
+        <Y t="47">0.3161</Y>
+        <Y t="48">0.3485</Y>
+        <Y t="49">0.382</Y>
+        <Y t="50">0.4181</Y>
+        <Y t="51">0.4589</Y>
+        <Y t="52">0.506</Y>
+        <Y t="53">0.5608</Y>
+        <Y t="54">0.6219</Y>
+        <Y t="55">0.6878</Y>
+        <Y t="56">0.7563</Y>
+        <Y t="57">0.8261</Y>
+        <Y t="58">0.8961</Y>
+        <Y t="59">0.9674</Y>
+        <Y t="60">1.0415</Y>
+        <Y t="61">1.1197</Y>
+        <Y t="62">1.2036</Y>
+        <Y t="63">1.2966</Y>
+        <Y t="64">1.3978</Y>
+        <Y t="65">1.5018</Y>
+        <Y t="66">1.6036</Y>
+        <Y t="67">1.6979</Y>
+        <Y t="68">1.7843</Y>
+        <Y t="69">1.8664</Y>
+        <Y t="70">1.9446</Y>
+        <Y t="71">2.0194</Y>
+        <Y t="72">2.0912</Y>
+        <Y t="73">2.161</Y>
+        <Y t="74">2.2286</Y>
+        <Y t="75">2.2924</Y>
+        <Y t="76">2.3508</Y>
+        <Y t="77">2.4024</Y>
+        <Y t="78">2.4459</Y>
+        <Y t="79">2.4822</Y>
+        <Y t="80">2.5134</Y>
+        <Y t="81">2.5411</Y>
+        <Y t="82">2.5674</Y>
+        <Y t="83">2.5968</Y>
+        <Y t="84">2.628</Y>
+        <Y t="85">2.6542</Y>
+        <Y t="86">2.6683</Y>
+        <Y t="87">2.6631</Y>
+        <Y t="88">2.6324</Y>
+        <Y t="89">2.5807</Y>
+        <Y t="90">2.5178</Y>
+        <Y t="91">2.4533</Y>
+        <Y t="92">2.3968</Y>
+        <Y t="93">2.342</Y>
+        <Y t="94">2.2824</Y>
+        <Y t="95">2.2276</Y>
+        <Y t="96">2.1873</Y>
+        <Y t="97">2.1712</Y>
+        <Y t="98">2.1712</Y>
+        <Y t="99">2.1712</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

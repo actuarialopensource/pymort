@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2883</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Sandra Haas</ProviderName>
+    <TableReference>Peter Findl, "Mortalität und Lebenserwartung in den österreichischen Alpenländern im Zeitalter der Hochindustrialisierung (1868–1912)", Geschichte und Ergebnisse der zentralen amtlichen Statistik in Österreich 1829-1979, Österreichisches Statistisches Zentralamt( 1979). Accessed: July, 2014 from http://www.statistik.at/web_de/static/sterbetafeln_186871_bis_201012_nach_dem_geschlecht_022541.xlsx</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Sterbetafel 1879/82 - Männlich</TableName>
+    <TableDescription>Sterbetafel 1879/82 - Männlich (Males) Minimum Age: 0. Maximum Age: 90</TableDescription>
+    <Comments>Study Data: Life tables are compiled for the years around the population census by relating the deaths grouped according to age and sex to the corresponding structured population.  In order to compensate for chance fluctuations of the thus determined mortalities, they are submitted to a rounding procedure. For the 1879-82 study, data relates to areas referred to in the monarchy as Austrian alpine countries.It is not unitl the 1930/33 tables that the data relates to today's territory. Methodology: Based on vital statistics and census-adjusted population figures of the period 1879 to 1882. To estimate death probabilities for the very old population the method of extinct generations was used. The age and sex-specific death probabilities q(x) were smoothed by cubic spline functions. Data Transcriptions Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Austria</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="43">Austria</Nation>
+      <TableDescription>Sterbetafel 1879/82 - Männlich (Males) Minimum Age: 0. Maximum Age: 90</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>90</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.274107</Y>
+        <Y t="1">0.070981</Y>
+        <Y t="2">0.037701</Y>
+        <Y t="3">0.026774</Y>
+        <Y t="4">0.022588</Y>
+        <Y t="5">0.014015</Y>
+        <Y t="6">0.012792</Y>
+        <Y t="7">0.010159</Y>
+        <Y t="8">0.008413</Y>
+        <Y t="9">0.006897</Y>
+        <Y t="10">0.005606</Y>
+        <Y t="11">0.004749</Y>
+        <Y t="12">0.004245</Y>
+        <Y t="13">0.004064</Y>
+        <Y t="14">0.004252</Y>
+        <Y t="15">0.00474</Y>
+        <Y t="16">0.005446</Y>
+        <Y t="17">0.006276</Y>
+        <Y t="18">0.00713</Y>
+        <Y t="19">0.007934</Y>
+        <Y t="20">0.008637</Y>
+        <Y t="21">0.009188</Y>
+        <Y t="22">0.009539</Y>
+        <Y t="23">0.009691</Y>
+        <Y t="24">0.009688</Y>
+        <Y t="25">0.0096</Y>
+        <Y t="26">0.009535</Y>
+        <Y t="27">0.00957</Y>
+        <Y t="28">0.009709</Y>
+        <Y t="29">0.009919</Y>
+        <Y t="30">0.010162</Y>
+        <Y t="31">0.010388</Y>
+        <Y t="32">0.010586</Y>
+        <Y t="33">0.010784</Y>
+        <Y t="34">0.01099</Y>
+        <Y t="35">0.011225</Y>
+        <Y t="36">0.011515</Y>
+        <Y t="37">0.011868</Y>
+        <Y t="38">0.012276</Y>
+        <Y t="39">0.012743</Y>
+        <Y t="40">0.013242</Y>
+        <Y t="41">0.013739</Y>
+        <Y t="42">0.014222</Y>
+        <Y t="43">0.01469</Y>
+        <Y t="44">0.015174</Y>
+        <Y t="45">0.015725</Y>
+        <Y t="46">0.016394</Y>
+        <Y t="47">0.017201</Y>
+        <Y t="48">0.018148</Y>
+        <Y t="49">0.019207</Y>
+        <Y t="50">0.020333</Y>
+        <Y t="51">0.021489</Y>
+        <Y t="52">0.022663</Y>
+        <Y t="53">0.02386</Y>
+        <Y t="54">0.025106</Y>
+        <Y t="55">0.026454</Y>
+        <Y t="56">0.027938</Y>
+        <Y t="57">0.02958</Y>
+        <Y t="58">0.031426</Y>
+        <Y t="59">0.033521</Y>
+        <Y t="60">0.035905</Y>
+        <Y t="61">0.038604</Y>
+        <Y t="62">0.041612</Y>
+        <Y t="63">0.044851</Y>
+        <Y t="64">0.048292</Y>
+        <Y t="65">0.051949</Y>
+        <Y t="66">0.055938</Y>
+        <Y t="67">0.060462</Y>
+        <Y t="68">0.065723</Y>
+        <Y t="69">0.071819</Y>
+        <Y t="70">0.078746</Y>
+        <Y t="71">0.0864</Y>
+        <Y t="72">0.094551</Y>
+        <Y t="73">0.103053</Y>
+        <Y t="74">0.111852</Y>
+        <Y t="75">0.120988</Y>
+        <Y t="76">0.130587</Y>
+        <Y t="77">0.14104</Y>
+        <Y t="78">0.152882</Y>
+        <Y t="79">0.166417</Y>
+        <Y t="80">0.181762</Y>
+        <Y t="81">0.19861</Y>
+        <Y t="82">0.216114</Y>
+        <Y t="83">0.233184</Y>
+        <Y t="84">0.247671</Y>
+        <Y t="85">0.260158</Y>
+        <Y t="86">0.272825</Y>
+        <Y t="87">0.289031</Y>
+        <Y t="88">0.309983</Y>
+        <Y t="89">0.337542</Y>
+        <Y t="90">0.327006</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>12</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Society of Actuaries, “Report of the Committee for the Preparation of Monetary Tables. I. 1958 CSO and CET Mortality Tables on the Age Last Birthday Basis.” Transactions of the Society of Actuaries Vol. 13, No. 37. (1961) p. 612-613. Accessed November, 2012 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1961/january/tsa61v13pt1n37ab31.pdf. p 6-7</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1958 CET -  Female, ALB</TableName>
+    <TableDescription>1958 Commissioners Extended Term (CET) Mortality – Female. Basis: Age Last Birthday. Minimum Age: 0. Maximum Age: 102.</TableDescription>
+    <Comments>Study Data: The data used for constructing the age last birthday tables is the same as that used for the age nearest birthday tables and should be consulted accordingly  (SOA table identity 7 for males and SOA table identity 8 for females).  Methodology: At the time of construction, it was believed that after the first year of life, it is generally acceptable to assume that deaths are uniformly distributed over the year of age. Thus, to construct the age last birthday tables, lx’s from the age nearest birthday tables were averaged and then rounded to the nearest even integer. Data Transcription Errors: None. Data Certified: 11/2012</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1958 Commissioners Extended Term (CET) Insurance – Female. Basis: Age Last Birthday. Minimum Age: 0. Maximum Age: 102</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>102</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0046929</Y>
+        <Y t="1">0.0022901</Y>
+        <Y t="2">0.0021301</Y>
+        <Y t="3">0.0020700</Y>
+        <Y t="4">0.0020151</Y>
+        <Y t="5">0.0019649</Y>
+        <Y t="6">0.0019201</Y>
+        <Y t="7">0.0018850</Y>
+        <Y t="8">0.0018650</Y>
+        <Y t="9">0.0018600</Y>
+        <Y t="10">0.0018651</Y>
+        <Y t="11">0.0018799</Y>
+        <Y t="12">0.0019050</Y>
+        <Y t="13">0.0019399</Y>
+        <Y t="14">0.0019849</Y>
+        <Y t="15">0.0020400</Y>
+        <Y t="16">0.0021050</Y>
+        <Y t="17">0.0021750</Y>
+        <Y t="18">0.0022500</Y>
+        <Y t="19">0.0023299</Y>
+        <Y t="20">0.0024050</Y>
+        <Y t="21">0.0024650</Y>
+        <Y t="22">0.0025150</Y>
+        <Y t="23">0.0025600</Y>
+        <Y t="24">0.0025949</Y>
+        <Y t="25">0.0026249</Y>
+        <Y t="26">0.0026500</Y>
+        <Y t="27">0.0026701</Y>
+        <Y t="28">0.0026950</Y>
+        <Y t="29">0.0027249</Y>
+        <Y t="30">0.0027600</Y>
+        <Y t="31">0.0028049</Y>
+        <Y t="32">0.0028551</Y>
+        <Y t="33">0.0029099</Y>
+        <Y t="34">0.0029700</Y>
+        <Y t="35">0.0030349</Y>
+        <Y t="36">0.0031100</Y>
+        <Y t="37">0.0032049</Y>
+        <Y t="38">0.0033448</Y>
+        <Y t="39">0.0035348</Y>
+        <Y t="40">0.0037748</Y>
+        <Y t="41">0.0040696</Y>
+        <Y t="42">0.0044097</Y>
+        <Y t="43">0.0047895</Y>
+        <Y t="44">0.0052045</Y>
+        <Y t="45">0.0056543</Y>
+        <Y t="46">0.0061442</Y>
+        <Y t="47">0.0066791</Y>
+        <Y t="48">0.0072690</Y>
+        <Y t="49">0.0079237</Y>
+        <Y t="50">0.0086534</Y>
+        <Y t="51">0.0094581</Y>
+        <Y t="52">0.0103476</Y>
+        <Y t="53">0.0113273</Y>
+        <Y t="54">0.0123917</Y>
+        <Y t="55">0.0135510</Y>
+        <Y t="56">0.0148103</Y>
+        <Y t="57">0.0161796</Y>
+        <Y t="58">0.0176783</Y>
+        <Y t="59">0.0193271</Y>
+        <Y t="60">0.0211402</Y>
+        <Y t="61">0.0231235</Y>
+        <Y t="62">0.0252910</Y>
+        <Y t="63">0.0276585</Y>
+        <Y t="64">0.0302352</Y>
+        <Y t="65">0.0330465</Y>
+        <Y t="66">0.0361168</Y>
+        <Y t="67">0.0394810</Y>
+        <Y t="68">0.0431791</Y>
+        <Y t="69">0.0472553</Y>
+        <Y t="70">0.0517552</Y>
+        <Y t="71">0.0566638</Y>
+        <Y t="72">0.0619270</Y>
+        <Y t="73">0.0674700</Y>
+        <Y t="74">0.0732183</Y>
+        <Y t="75">0.0791264</Y>
+        <Y t="76">0.0852645</Y>
+        <Y t="77">0.0918121</Y>
+        <Y t="78">0.0989658</Y>
+        <Y t="79">0.1069400</Y>
+        <Y t="80">0.1159127</Y>
+        <Y t="81">0.1259245</Y>
+        <Y t="82">0.1368579</Y>
+        <Y t="83">0.1485957</Y>
+        <Y t="84">0.1610040</Y>
+        <Y t="85">0.1739468</Y>
+        <Y t="86">0.1874113</Y>
+        <Y t="87">0.2014633</Y>
+        <Y t="88">0.2161877</Y>
+        <Y t="89">0.2316571</Y>
+        <Y t="90">0.2480334</Y>
+        <Y t="91">0.2655996</Y>
+        <Y t="92">0.2847607</Y>
+        <Y t="93">0.3060462</Y>
+        <Y t="94">0.3301050</Y>
+        <Y t="95">0.3577299</Y>
+        <Y t="96">0.3897392</Y>
+        <Y t="97">0.4283020</Y>
+        <Y t="98">0.4792189</Y>
+        <Y t="99">0.5577654</Y>
+        <Y t="100">0.6975079</Y>
+        <Y t="101">0.8844697</Y>
+        <Y t="102">1.0000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

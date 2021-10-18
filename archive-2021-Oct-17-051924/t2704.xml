@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2704</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Alessandro Lazzarini</ProviderName>
+    <TableReference>Associazione Nazionale fra le Imprese Assicuratrici, "IPS55 Base Demografica per le Assicurazioni di Rendita", Documento di Consoltazione (1995). Accessed: February, 2014 from http://mmenzietti.altervista.org/TAAV/IPS55_Nuova_base_demografica.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>IPS55 - Maschi</TableName>
+    <TableDescription>IPS55 - Maschi (Males) Minimum Age: 0 Maximum Age: 118</TableDescription>
+    <Comments>Study Data: The IPS55 life tables are based on population mortality projections performed by the Istituto Nazionale di Statistica (Italian National Institute for Statistics) or ISTAT. Period considered is 1960-2001 and initial age range was 50 to 100. Methdology: Projections obtained from the Lee-Carter Model, fitted to population data. Associazione Nazionale fra le Imprese Assicuratici (ANIA) then applied self-selection factors to the death probabilities of the projected 1955 cohort life table. Selection factors are consistent with those of the Continuous Mortality Investigation Reports, No. 17 from the United Kingdom. IPS55 was initially set to begin at age 50, that is, for the most affected age to which annuity products are applicable. For the sake of completeness it is therefore necessary to extend the table of mortality to lower ages. Since the ISTAT projections start from 2000 relating to the generation born in 1955, it is not possible to reconstruct the mortality rates for ages less than 45 years using the available data. As a small percentage of contracts are expected at these younger ages, ANIA opted for a contemporary reading of ISTAT data for the calendar year 2000 for ages less than 50 years old, with subsequent application of the relevant selection factors. To account for generational differences, the ISP55 tables are used with age shifts. In order to allow continuity for pension plans, in the presence of undifferentiated obligation for the sex factor, ANIA proceeded to develop a version of the  tables but in a unisex basis: IPS55U. In practice, for immediate annuities, a correction factor is applied to IPS55 on the basis of the deviations observed in data from the UK market between the selection of pensioners (tables PA92 - Pensioners, for amounts) and that of annuitants (tables IA92 - Immediate annnuitants for amounts). Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Italy</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="39">Italy</Nation>
+      <TableDescription>IPS55 - Maschi (Males) Minimum Age: 0 Maximum Age: 118</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>118</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.003179</Y>
+        <Y t="1">0.000182</Y>
+        <Y t="2">0.000148</Y>
+        <Y t="3">0.000119</Y>
+        <Y t="4">9.7E-05</Y>
+        <Y t="5">8.1E-05</Y>
+        <Y t="6">7.6E-05</Y>
+        <Y t="7">8.1E-05</Y>
+        <Y t="8">8.1E-05</Y>
+        <Y t="9">7.6E-05</Y>
+        <Y t="10">7.2E-05</Y>
+        <Y t="11">7.2E-05</Y>
+        <Y t="12">8.1E-05</Y>
+        <Y t="13">0.000106</Y>
+        <Y t="14">0.000144</Y>
+        <Y t="15">0.000212</Y>
+        <Y t="16">0.00028</Y>
+        <Y t="17">0.000332</Y>
+        <Y t="18">0.000379</Y>
+        <Y t="19">0.0004</Y>
+        <Y t="20">0.000405</Y>
+        <Y t="21">0.00041</Y>
+        <Y t="22">0.000414</Y>
+        <Y t="23">0.00041</Y>
+        <Y t="24">0.000415</Y>
+        <Y t="25">0.000424</Y>
+        <Y t="26">0.000446</Y>
+        <Y t="27">0.000485</Y>
+        <Y t="28">0.000537</Y>
+        <Y t="29">0.000589</Y>
+        <Y t="30">0.000651</Y>
+        <Y t="31">0.000682</Y>
+        <Y t="32">0.000705</Y>
+        <Y t="33">0.000693</Y>
+        <Y t="34">0.000677</Y>
+        <Y t="35">0.00066</Y>
+        <Y t="36">0.000657</Y>
+        <Y t="37">0.000662</Y>
+        <Y t="38">0.000685</Y>
+        <Y t="39">0.000704</Y>
+        <Y t="40">0.000753</Y>
+        <Y t="41">0.000757</Y>
+        <Y t="42">0.000771</Y>
+        <Y t="43">0.000801</Y>
+        <Y t="44">0.000861</Y>
+        <Y t="45">0.000917</Y>
+        <Y t="46">0.000964</Y>
+        <Y t="47">0.001034</Y>
+        <Y t="48">0.001108</Y>
+        <Y t="49">0.001186</Y>
+        <Y t="50">0.001279</Y>
+        <Y t="51">0.001389</Y>
+        <Y t="52">0.001521</Y>
+        <Y t="53">0.001681</Y>
+        <Y t="54">0.001862</Y>
+        <Y t="55">0.002053</Y>
+        <Y t="56">0.002257</Y>
+        <Y t="57">0.002467</Y>
+        <Y t="58">0.002701</Y>
+        <Y t="59">0.002983</Y>
+        <Y t="60">0.003351</Y>
+        <Y t="61">0.003843</Y>
+        <Y t="62">0.004381</Y>
+        <Y t="63">0.004955</Y>
+        <Y t="64">0.005598</Y>
+        <Y t="65">0.006339</Y>
+        <Y t="66">0.007163</Y>
+        <Y t="67">0.008061</Y>
+        <Y t="68">0.009062</Y>
+        <Y t="69">0.010207</Y>
+        <Y t="70">0.011512</Y>
+        <Y t="71">0.012897</Y>
+        <Y t="72">0.014316</Y>
+        <Y t="73">0.015813</Y>
+        <Y t="74">0.017484</Y>
+        <Y t="75">0.019389</Y>
+        <Y t="76">0.021898</Y>
+        <Y t="77">0.025063</Y>
+        <Y t="78">0.028968</Y>
+        <Y t="79">0.033295</Y>
+        <Y t="80">0.037737</Y>
+        <Y t="81">0.042277</Y>
+        <Y t="82">0.046822</Y>
+        <Y t="83">0.051614</Y>
+        <Y t="84">0.057911</Y>
+        <Y t="85">0.064226</Y>
+        <Y t="86">0.071416</Y>
+        <Y t="87">0.079061</Y>
+        <Y t="88">0.087663</Y>
+        <Y t="89">0.097757</Y>
+        <Y t="90">0.108231</Y>
+        <Y t="91">0.119778</Y>
+        <Y t="92">0.133483</Y>
+        <Y t="93">0.148387</Y>
+        <Y t="94">0.164602</Y>
+        <Y t="95">0.183176</Y>
+        <Y t="96">0.203587</Y>
+        <Y t="97">0.225639</Y>
+        <Y t="98">0.249467</Y>
+        <Y t="99">0.274854</Y>
+        <Y t="100">0.302018</Y>
+        <Y t="101">0.326615</Y>
+        <Y t="102">0.353503</Y>
+        <Y t="103">0.381381</Y>
+        <Y t="104">0.40981</Y>
+        <Y t="105">0.438593</Y>
+        <Y t="106">0.467535</Y>
+        <Y t="107">0.49644</Y>
+        <Y t="108">0.525123</Y>
+        <Y t="109">0.553417</Y>
+        <Y t="110">0.581066</Y>
+        <Y t="111">0.61118</Y>
+        <Y t="112">0.64081</Y>
+        <Y t="113">0.669869</Y>
+        <Y t="114">0.698285</Y>
+        <Y t="115">0.726012</Y>
+        <Y t="116">0.753022</Y>
+        <Y t="117">0.779306</Y>
+        <Y t="118">0.804867</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

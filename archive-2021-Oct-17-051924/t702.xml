@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>702</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden </ProviderName>
+    <TableReference>Committee on Disability and Double Indemnity, “Experience Under Accidental Death Benefit Provisions in Ordinary Insurance Policies Between 1951 and 1956 Policy Anniversaries”, Transactions of the Society of Actuaries, 1958 Reports (1958) Accessed: July, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1949-59/1958/january/tsr583.aspx</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>1951-56 ADB Experience - Male</TableName>
+    <TableDescription>1951-56 Accidental Death Benefit (ADB) Experience - Male. Minimum Age: 1. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Committee on Disability and Double Indemnity intercompany study of data from 17 companies. The basic material for the study was derived from the issues of 1935 to 1940 and 1946 to 1955. From this experience, adequate data from 10 companies existed such that construction of a male-only table was possible. Methodology: The male-only table was derived by applying ratios to the 1951-56 ADB Aggregate Table (See SOA Table Identity 701). Ten of the 17 companies submitted experience by gender and thus graduated ratios of the claim rates on males to the claim rates on males and females combined were calculated and applied. The claim rates in this table ted to approach those of the aggregate table with advancing age, because of the decreasing proportions of female lives, and in fact match those of the aggregate table for ages 84 and over. Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1951-56 Accidental Death Benefit (ADB) Experience - Male. Minimum Age: 1. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000466</Y>
+        <Y t="2">0.000382</Y>
+        <Y t="3">0.000329</Y>
+        <Y t="4">0.000293</Y>
+        <Y t="5">0.000267</Y>
+        <Y t="6">0.000248</Y>
+        <Y t="7">0.000236</Y>
+        <Y t="8">0.000235</Y>
+        <Y t="9">0.000233</Y>
+        <Y t="10">0.000241</Y>
+        <Y t="11">0.000252</Y>
+        <Y t="12">0.000274</Y>
+        <Y t="13">0.000310</Y>
+        <Y t="14">0.000358</Y>
+        <Y t="15">0.000434</Y>
+        <Y t="16">0.000579</Y>
+        <Y t="17">0.000656</Y>
+        <Y t="18">0.000680</Y>
+        <Y t="19">0.000685</Y>
+        <Y t="20">0.000675</Y>
+        <Y t="21">0.000649</Y>
+        <Y t="22">0.000605</Y>
+        <Y t="23">0.000546</Y>
+        <Y t="24">0.000482</Y>
+        <Y t="25">0.000428</Y>
+        <Y t="26">0.000387</Y>
+        <Y t="27">0.000359</Y>
+        <Y t="28">0.000339</Y>
+        <Y t="29">0.000326</Y>
+        <Y t="30">0.000317</Y>
+        <Y t="31">0.000311</Y>
+        <Y t="32">0.000306</Y>
+        <Y t="33">0.000304</Y>
+        <Y t="34">0.000304</Y>
+        <Y t="35">0.000303</Y>
+        <Y t="36">0.000304</Y>
+        <Y t="37">0.000306</Y>
+        <Y t="38">0.000307</Y>
+        <Y t="39">0.000309</Y>
+        <Y t="40">0.000310</Y>
+        <Y t="41">0.000313</Y>
+        <Y t="42">0.000318</Y>
+        <Y t="43">0.000326</Y>
+        <Y t="44">0.000334</Y>
+        <Y t="45">0.000342</Y>
+        <Y t="46">0.000350</Y>
+        <Y t="47">0.000357</Y>
+        <Y t="48">0.000361</Y>
+        <Y t="49">0.000365</Y>
+        <Y t="50">0.000368</Y>
+        <Y t="51">0.000372</Y>
+        <Y t="52">0.000377</Y>
+        <Y t="53">0.000385</Y>
+        <Y t="54">0.000396</Y>
+        <Y t="55">0.000409</Y>
+        <Y t="56">0.000424</Y>
+        <Y t="57">0.000441</Y>
+        <Y t="58">0.000458</Y>
+        <Y t="59">0.000476</Y>
+        <Y t="60">0.000495</Y>
+        <Y t="61">0.000517</Y>
+        <Y t="62">0.000541</Y>
+        <Y t="63">0.000569</Y>
+        <Y t="64">0.000600</Y>
+        <Y t="65">0.000634</Y>
+        <Y t="66">0.000668</Y>
+        <Y t="67">0.000704</Y>
+        <Y t="68">0.000742</Y>
+        <Y t="69">0.000783</Y>
+        <Y t="70">0.000830</Y>
+        <Y t="71">0.000889</Y>
+        <Y t="72">0.000963</Y>
+        <Y t="73">0.001058</Y>
+        <Y t="74">0.001178</Y>
+        <Y t="75">0.001327</Y>
+        <Y t="76">0.001506</Y>
+        <Y t="77">0.001715</Y>
+        <Y t="78">0.001955</Y>
+        <Y t="79">0.002227</Y>
+        <Y t="80">0.002531</Y>
+        <Y t="81">0.002861</Y>
+        <Y t="82">0.003212</Y>
+        <Y t="83">0.003588</Y>
+        <Y t="84">0.003988</Y>
+        <Y t="85">0.004419</Y>
+        <Y t="86">0.004878</Y>
+        <Y t="87">0.005367</Y>
+        <Y t="88">0.005886</Y>
+        <Y t="89">0.006437</Y>
+        <Y t="90">0.007022</Y>
+        <Y t="91">0.007642</Y>
+        <Y t="92">0.008298</Y>
+        <Y t="93">0.008991</Y>
+        <Y t="94">0.009723</Y>
+        <Y t="95">0.010495</Y>
+        <Y t="96">0.011308</Y>
+        <Y t="97">0.012164</Y>
+        <Y t="98">0.013064</Y>
+        <Y t="99">0.014009</Y>
+        <Y t="100">0.015000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

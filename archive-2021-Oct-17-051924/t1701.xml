@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1701</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>M. A. Linton, "Returns Under Agency Contracts", Record of the American Institute of Actuaries, Vol. XIII. (1924) Table I</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>1924 Linton Lapse Table B</TableName>
+    <TableDescription>1924 Linton Lapse Table B. Minimum Policy Duration: 1. Maximum Policy Duration: 19</TableDescription>
+    <Comments>Study Data: Table A (See SOA Table Identity 750) and Table B were both originally designed for illustration purposes but have been widely used. The goal in construction of the tables was to forecast agency income via assumptions of a typical production program. The yearly production tables approximate the unit results which an average agency is likely to attain in the course of time. A practicable course in doing so was to simplify the assumptions so that the final figures would portray average conditions. Methodology: Two sets of withdrawal rates were developed. To obtain the total termination rates, each series of withdrawal rates is combined with the death-rates corresponding to age 40 at entry taken from the American Men Select Table (See SOA Table Identity 301). The lower termination rates, upon which greater attention is bestowed, are designated as A rates; and the set of higher termination rates are designated as B rates. Data Transcription Errors: None. Data Certified: 04/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Premium Persistency</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1924 Linton Lapse Table B. Minimum Policy Duration: 1. Maximum Policy Duration: 19</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>19</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.200</Y>
+        <Y t="2">0.120</Y>
+        <Y t="3">0.100</Y>
+        <Y t="4">0.088</Y>
+        <Y t="5">0.080</Y>
+        <Y t="6">0.072</Y>
+        <Y t="7">0.064</Y>
+        <Y t="8">0.058</Y>
+        <Y t="9">0.054</Y>
+        <Y t="10">0.050</Y>
+        <Y t="11">0.048</Y>
+        <Y t="12">0.046</Y>
+        <Y t="13">0.044</Y>
+        <Y t="14">0.042</Y>
+        <Y t="15">0.040</Y>
+        <Y t="16">0.040</Y>
+        <Y t="17">0.040</Y>
+        <Y t="18">0.040</Y>
+        <Y t="19">0.040</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

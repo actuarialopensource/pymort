@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>810</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>William C. McCarter, “A New Annuity Mortality Table and a Graded System for the Life Income Settlement Options”, Transactions Society of Actuaries. Vol. VIII, No. 21, Society of Actuaries (1956), p. 144-145. Accessed: February, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1956/january/tsa56v8n2117.pdf, p. 18-19.</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1955 American Annuity - Male</TableName>
+    <TableDescription>1955 American Annuity Table – Male. Minimum Age: 5. Maximum Age: 114</TableDescription>
+    <Comments>Study Data: Individual immediate annuity intercompany experience from the period 1948-53 from the Committee on Mortality under Ordinary Insurances and Annuities. Utilizes  experience by number of contracts, rather than by amounts of annual income.  Rough graded experience rates were developed for both sexes for ages 60 and over from the non-refund annuity experience, excluding the first two contract years. Since some extension in the limiting age beyond 110 as used for both the 1937 Standard Annuity Table and the Annuity Table for 1949 seemed indicated by the recent improvement in mortality at the higher ages, it was arbitrarily increased 5 years to age 115. Separate tables for each sex or a dual reference table with constant age adjustment for sex was resolved in favor of the latter thus the male table was adopted as a base, with 5 year setback in age for females.  Methodology: Rates fro ages 60 and over were graduated using Makeham’s formula. The rates above age 109 as derived by formula were modified so as to give an orderly transition to the rate of unity at age 114. Lacking any up-to-date group annuity mortality data on which to base rates at ages under 60, the male rates in the Annuity Table for 1949 (See SOA Table Identity 808) for ages 10 to 40 were used as a starting point. Three formulas were used, one for ages 5-35, one for 35-50 and one for 50-60. The resulting rates below age 50 were checked for reasonableness against the 1948-53 mortality experience of the Northwestern Mutual under medically examined Ordinary insurance, excluding war deaths, by number of policies. Table incorporates no projection for future mortality improvements. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1955 American Annuity Table – Male. Minimum Age: 5. Maximum Age: 114</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>114</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000370</Y>
+        <Y t="6">0.000380</Y>
+        <Y t="7">0.000390</Y>
+        <Y t="8">0.000400</Y>
+        <Y t="9">0.000410</Y>
+        <Y t="10">0.000420</Y>
+        <Y t="11">0.000430</Y>
+        <Y t="12">0.000441</Y>
+        <Y t="13">0.000452</Y>
+        <Y t="14">0.000463</Y>
+        <Y t="15">0.000475</Y>
+        <Y t="16">0.000488</Y>
+        <Y t="17">0.000502</Y>
+        <Y t="18">0.000517</Y>
+        <Y t="19">0.000534</Y>
+        <Y t="20">0.000553</Y>
+        <Y t="21">0.000574</Y>
+        <Y t="22">0.000597</Y>
+        <Y t="23">0.000622</Y>
+        <Y t="24">0.000649</Y>
+        <Y t="25">0.000679</Y>
+        <Y t="26">0.000712</Y>
+        <Y t="27">0.000749</Y>
+        <Y t="28">0.000791</Y>
+        <Y t="29">0.000839</Y>
+        <Y t="30">0.000893</Y>
+        <Y t="31">0.000953</Y>
+        <Y t="32">0.001020</Y>
+        <Y t="33">0.001095</Y>
+        <Y t="34">0.001179</Y>
+        <Y t="35">0.001273</Y>
+        <Y t="36">0.001378</Y>
+        <Y t="37">0.001495</Y>
+        <Y t="38">0.001624</Y>
+        <Y t="39">0.001767</Y>
+        <Y t="40">0.001925</Y>
+        <Y t="41">0.002099</Y>
+        <Y t="42">0.002290</Y>
+        <Y t="43">0.002499</Y>
+        <Y t="44">0.002727</Y>
+        <Y t="45">0.002975</Y>
+        <Y t="46">0.003244</Y>
+        <Y t="47">0.003535</Y>
+        <Y t="48">0.003849</Y>
+        <Y t="49">0.004187</Y>
+        <Y t="50">0.004550</Y>
+        <Y t="51">0.004943</Y>
+        <Y t="52">0.005378</Y>
+        <Y t="53">0.005868</Y>
+        <Y t="54">0.006428</Y>
+        <Y t="55">0.007073</Y>
+        <Y t="56">0.007818</Y>
+        <Y t="57">0.008678</Y>
+        <Y t="58">0.009666</Y>
+        <Y t="59">0.010782</Y>
+        <Y t="60">0.012027</Y>
+        <Y t="61">0.013401</Y>
+        <Y t="62">0.014901</Y>
+        <Y t="63">0.016526</Y>
+        <Y t="64">0.018286</Y>
+        <Y t="65">0.020192</Y>
+        <Y t="66">0.022256</Y>
+        <Y t="67">0.024491</Y>
+        <Y t="68">0.026911</Y>
+        <Y t="69">0.029531</Y>
+        <Y t="70">0.032367</Y>
+        <Y t="71">0.035436</Y>
+        <Y t="72">0.038756</Y>
+        <Y t="73">0.042346</Y>
+        <Y t="74">0.046226</Y>
+        <Y t="75">0.050417</Y>
+        <Y t="76">0.054941</Y>
+        <Y t="77">0.059821</Y>
+        <Y t="78">0.065081</Y>
+        <Y t="79">0.070747</Y>
+        <Y t="80">0.076847</Y>
+        <Y t="81">0.083411</Y>
+        <Y t="82">0.090471</Y>
+        <Y t="83">0.098061</Y>
+        <Y t="84">0.106217</Y>
+        <Y t="85">0.114977</Y>
+        <Y t="86">0.124380</Y>
+        <Y t="87">0.134466</Y>
+        <Y t="88">0.145274</Y>
+        <Y t="89">0.156841</Y>
+        <Y t="90">0.169202</Y>
+        <Y t="91">0.182389</Y>
+        <Y t="92">0.196431</Y>
+        <Y t="93">0.211355</Y>
+        <Y t="94">0.227186</Y>
+        <Y t="95">0.243947</Y>
+        <Y t="96">0.261659</Y>
+        <Y t="97">0.280342</Y>
+        <Y t="98">0.300015</Y>
+        <Y t="99">0.320696</Y>
+        <Y t="100">0.342402</Y>
+        <Y t="101">0.365150</Y>
+        <Y t="102">0.388956</Y>
+        <Y t="103">0.413836</Y>
+        <Y t="104">0.439806</Y>
+        <Y t="105">0.466881</Y>
+        <Y t="106">0.495076</Y>
+        <Y t="107">0.524406</Y>
+        <Y t="108">0.554886</Y>
+        <Y t="109">0.587551</Y>
+        <Y t="110">0.624586</Y>
+        <Y t="111">0.670361</Y>
+        <Y t="112">0.733619</Y>
+        <Y t="113">0.831839</Y>
+        <Y t="114">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

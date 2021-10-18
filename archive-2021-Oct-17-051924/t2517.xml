@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2517</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>M.F.Amer</ProviderName>
+    <TableReference>Mohamed F. Amer, “Standard Life Table Mortality 2009 Egyptian Life Insurance Companies 2003 to 2006”, International News Issue No. 50, Society of Actuaries (2010). Accessed: October, 2013 from http://www.soa.org/library/newsletters/international-section-news/2010/april/isn-2010-iss50.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Egyptian Insurance Standard Mortality Table 2003-2006</TableName>
+    <TableDescription>Egyptian Insurance Standard Mortality Table 2003-2006. Minimum  Age: 20. Maximum Age: 71.</TableDescription>
+    <Comments>Study Data: males and females combined as gender was not recorded will the data. Medical and non-medical also combined. Data from two major companies that contributed to the preceding study published in 1996 (See SOA Table Identity 40001). Data from newer companies was excluded as most of their business would be in the select period. It is anticipated that a future study will incorporate the corresponding data. Methodology: Crude mortality graduated by reference to the British A49/52 ultimate table (See SOA Table Identity 257) as such gave the least deviation from the crude rates on a weighted sum of the squares of the differences where the weights were taken as exposures. Hence: graduated q(x) = -.00070 + 1.148*q(x) from A49-52 table. Data Transcription Errors: None. Data Certified: 10/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Egypt</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="20">Egypt</Nation>
+      <TableDescription>Egyptian Insurance Standard Mortality Table 2003-2006. Minimum  Age: 20. Maximum Age: 71</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>71</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.000575</Y>
+        <Y t="21">0.000575</Y>
+        <Y t="22">0.000575</Y>
+        <Y t="23">0.000586</Y>
+        <Y t="24">0.000586</Y>
+        <Y t="25">0.000586</Y>
+        <Y t="26">0.000598</Y>
+        <Y t="27">0.000598</Y>
+        <Y t="28">0.000609</Y>
+        <Y t="29">0.000621</Y>
+        <Y t="30">0.000632</Y>
+        <Y t="31">0.000655</Y>
+        <Y t="32">0.000678</Y>
+        <Y t="33">0.000713</Y>
+        <Y t="34">0.000759</Y>
+        <Y t="35">0.000816</Y>
+        <Y t="36">0.000896</Y>
+        <Y t="37">0.000988</Y>
+        <Y t="38">0.001114</Y>
+        <Y t="39">0.001264</Y>
+        <Y t="40">0.001459</Y>
+        <Y t="41">0.001688</Y>
+        <Y t="42">0.001952</Y>
+        <Y t="43">0.002274</Y>
+        <Y t="44">0.002653</Y>
+        <Y t="45">0.003089</Y>
+        <Y t="46">0.003571</Y>
+        <Y t="47">0.004122</Y>
+        <Y t="48">0.004742</Y>
+        <Y t="49">0.005431</Y>
+        <Y t="50">0.006177</Y>
+        <Y t="51">0.007003</Y>
+        <Y t="52">0.007910</Y>
+        <Y t="53">0.008909</Y>
+        <Y t="54">0.009988</Y>
+        <Y t="55">0.01118</Y>
+        <Y t="56">0.01248</Y>
+        <Y t="57">0.01390</Y>
+        <Y t="58">0.01546</Y>
+        <Y t="59">0.01717</Y>
+        <Y t="60">0.01905</Y>
+        <Y t="61">0.02110</Y>
+        <Y t="62">0.02336</Y>
+        <Y t="63">0.02584</Y>
+        <Y t="64">0.02856</Y>
+        <Y t="65">0.03156</Y>
+        <Y t="66">0.03483</Y>
+        <Y t="67">0.03843</Y>
+        <Y t="68">0.04238</Y>
+        <Y t="69">0.04671</Y>
+        <Y t="70">0.05145</Y>
+        <Y t="71">0.05664</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

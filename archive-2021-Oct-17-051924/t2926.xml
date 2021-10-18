@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2926</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>James Craufurd Dunlop, “Forty-Eighth Detailed Annual Report of the Registrar-General of Births, Deaths, and Marriages in Scotland”, Dr. James Hedderwick &amp; Sons Limited (Glasgow, 1905). Accessed: August, 2014 from http://histpop.org/ohpr/servlet/Show?page=Home</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>Life Table For Scotland 1881-90 - Females</TableName>
+    <TableDescription>Life Table For Scotland 1881-90 - Females.  Minimum Age: 0 Maximum Age: 95</TableDescription>
+    <Comments>Study Data: Population data from Scotland for the period 1881-90 and deaths registered in those years. Computations abbreviated, that is, detailed values for juvenile ages 0-4 but then only quinquennial data for ages 5-20 and finally decennial from age 25-95. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+    <KeyWord>Population</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Life Table For Scotland 1881-90 - Females.  Minimum Age: 0 Maximum Age: 5</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>4</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">1000000</Y>
+        <Y t="1">887079</Y>
+        <Y t="2">839981</Y>
+        <Y t="3">818955</Y>
+        <Y t="4">805683</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Life Table For Scotland 1881-90 - Females.  Minimum Age: 5 Maximum Age: 20</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>20</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">796236</Y>
+        <Y t="10">770309</Y>
+        <Y t="15">753469</Y>
+        <Y t="20">730646</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Life Table For Scotland 1881-90 - Females.  Minimum Age: 25 Maximum Age: 95</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>25</MinScaleValue>
+        <MaxScaleValue>95</MaxScaleValue>
+        <Increment>10</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="25">704722</Y>
+        <Y t="35">644488</Y>
+        <Y t="45">577615</Y>
+        <Y t="55">497022</Y>
+        <Y t="65">378190</Y>
+        <Y t="75">219062</Y>
+        <Y t="85">66793</Y>
+        <Y t="95">5017</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

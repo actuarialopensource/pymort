@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2845</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Anthony J. Houghton and Ronald M. Wolf, "Development of the 1974 Medical Expense Tables", Transactions of the Society of Actuaries, Vol. 30 (1978) Accessed: July, 2014 from https://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1978/January/tsa78v303.pdf</TableReference>
+    <ContentType tc="50">Claim Cost (in Disability)</ContentType>
+    <TableName>1974 Medical Expense Tables: $100 Hospital Confinement Benefit - Male</TableName>
+    <TableDescription>1974 Medical Expense Tables: $100 Hospital Confinement Benefit - Male. Minimum Age: 15. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: The sources of hospital frequency rates used in the 1974 Medical Expense Tables are the crude frequencies of hospitalization for individually underwritten lives for a daily hospital benefit with a 90-day maximum benefit period and no deductible. These frequencies, displayed in Transactions of the Society of Actuaries 1972 Reports and 1974 Reports, are based on the aggregate experience for all durations combined. Methodology: In order to eliminate the effects of selection and to bring the frequencies to an ultimate level of experience, each set of the crude frequencies were divided by ratios of aggregate experience for all durations to ultimate experience for durations 3 and later with one exception. The ratio of 100% for females in the 1972 Reports appeared to be illogical and was adjusted empirically to 98%. The two sets of crude frequency rates, adjusted to reflect experience in durations 3 and later, were combined into one set of crude frequency rates by weighting the two sets by the respective amounts of daily hospital benefits in force on claims in the two reports. For male lives the graduation method that gives a satisfactory combination of smoothness and fidelity to the crude data is to interpolate separately the crude frequency rates for every tenth attained age. Interpolations were then performed by passing a different cubic polynomial through each pair of consecutive points and then fitting these curves together to produce one smooth, continuous curve. The curve between each pair of consecutive points is determined by the three points on each side of the interval of interpolation. The exact method employed is taken from a paper written by Hiroshi Akima for
+the Environmental Science Services Administration of the United States Department of Commerce, entitled "A Method of Smooth Curve Fitting". The results of these two interpolations were
+then averaged to produce final graduated frequency rates. The resulting frequency rates at attained ages below 22 are lowered empirically by requiring that the rate at attained age 17 be 125 percent of the rate at attained age 22. For female lives, it was decided to modify these patterns in order to produce more conservative net premiums and reserves. A graphic graduation of the combined crude frequency rates was made, producing a smooth set of almost continuously increasing frequency rates. Hospital frequency rates above attained age 77 developed by formula. For ages 77 to 87 inclusive, F(x) = F(77) * (1 + 0.03 *(x - 77)) and for ages 87 to 99 inclusive, F(x) = F(87) * (1 + 0.02 *(x - 87)).Data Transcription Errors: None. Data Certified: 07/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Cost</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1974 Medical Expense Tables: $100 Hospital Confinement Benefit - Male. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">9.28</Y>
+        <Y t="16">9.28</Y>
+        <Y t="17">9.28</Y>
+        <Y t="18">8.79</Y>
+        <Y t="19">8.36</Y>
+        <Y t="20">7.99</Y>
+        <Y t="21">7.67</Y>
+        <Y t="22">7.42</Y>
+        <Y t="23">7.23</Y>
+        <Y t="24">7.09</Y>
+        <Y t="25">7.01</Y>
+        <Y t="26">6.97</Y>
+        <Y t="27">6.98</Y>
+        <Y t="28">7.03</Y>
+        <Y t="29">7.12</Y>
+        <Y t="30">7.25</Y>
+        <Y t="31">7.4</Y>
+        <Y t="32">7.57</Y>
+        <Y t="33">7.76</Y>
+        <Y t="34">7.97</Y>
+        <Y t="35">8.19</Y>
+        <Y t="36">8.42</Y>
+        <Y t="37">8.65</Y>
+        <Y t="38">8.88</Y>
+        <Y t="39">9.11</Y>
+        <Y t="40">9.35</Y>
+        <Y t="41">9.6</Y>
+        <Y t="42">9.85</Y>
+        <Y t="43">10.11</Y>
+        <Y t="44">10.37</Y>
+        <Y t="45">10.65</Y>
+        <Y t="46">10.93</Y>
+        <Y t="47">11.21</Y>
+        <Y t="48">11.5</Y>
+        <Y t="49">11.79</Y>
+        <Y t="50">12.09</Y>
+        <Y t="51">12.41</Y>
+        <Y t="52">12.75</Y>
+        <Y t="53">13.11</Y>
+        <Y t="54">13.49</Y>
+        <Y t="55">13.9</Y>
+        <Y t="56">14.35</Y>
+        <Y t="57">14.84</Y>
+        <Y t="58">15.38</Y>
+        <Y t="59">15.98</Y>
+        <Y t="60">16.61</Y>
+        <Y t="61">17.29</Y>
+        <Y t="62">17.99</Y>
+        <Y t="63">18.73</Y>
+        <Y t="64">19.5</Y>
+        <Y t="65">20.3</Y>
+        <Y t="66">21.11</Y>
+        <Y t="67">21.95</Y>
+        <Y t="68">22.8</Y>
+        <Y t="69">23.67</Y>
+        <Y t="70">24.56</Y>
+        <Y t="71">25.48</Y>
+        <Y t="72">26.41</Y>
+        <Y t="73">27.42</Y>
+        <Y t="74">28.53</Y>
+        <Y t="75">29.67</Y>
+        <Y t="76">30.78</Y>
+        <Y t="77">31.81</Y>
+        <Y t="78">32.76</Y>
+        <Y t="79">33.72</Y>
+        <Y t="80">34.67</Y>
+        <Y t="81">35.63</Y>
+        <Y t="82">36.58</Y>
+        <Y t="83">37.54</Y>
+        <Y t="84">38.49</Y>
+        <Y t="85">39.44</Y>
+        <Y t="86">40.4</Y>
+        <Y t="87">41.35</Y>
+        <Y t="88">42.18</Y>
+        <Y t="89">43</Y>
+        <Y t="90">43.83</Y>
+        <Y t="91">44.66</Y>
+        <Y t="92">45.49</Y>
+        <Y t="93">46.31</Y>
+        <Y t="94">4714</Y>
+        <Y t="95">47.97</Y>
+        <Y t="96">48.79</Y>
+        <Y t="97">49.62</Y>
+        <Y t="98">50.45</Y>
+        <Y t="99">51.27</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

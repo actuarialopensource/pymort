@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2743</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>L. S. Vaidyanathan, “Mortality of Indian Assured Lives”, Journal of the Institute of Actuaries (1886-1994), Vol. 60, No. 2, Cambridge University Press (1929). Accessed: April, 2014 from http://www.jstor.org/stable/41138365</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Mortality of Indian Assured Lives 1905-1925 – Hindu Male Experience</TableName>
+    <TableDescription>Mortality of Indian Assured Lives 1905-1925. Basis: Hindu Male Experience. Minimum Select Age: 19. Maximum Select Age: 60. Minimum Ultimate Age: 20. Maximum Ultimate Age: 96</TableDescription>
+    <Comments>Study Data: Lives assured by the Oriental Government Security Life Assurance Co. under Whole-Life, Whole-Life by Limited Payments and Endowment for the period 1905-1925. This period includes years of abnormal mortality caused by epidemics of Plague and Influenza, the latter being possibly one of the worst epidemics known to civilization. Following upon the Great War, India experienced a period of high prices and consequent economic strain leading to under-nourishment and difficulty in the maintenance of good health. Female lives were excluded. Methodology:  Based on the report by Messrs, Elderton and Oakley, selection, as between recent entrants and ultimate experience, ceases to operate after the first year. Similarly Mr. Arthur Hunter concluded the effect of medical selection among both natives and Europeans endures for a very short time, probably not more than one year. It was therefore decided to exhibit selection on this occasion for only one year. It was further decided to graduate only the Hindu experience with all Classes of Assurance combined and to adopt it as the Standard Table. Hindus form the bulk of lives assured in the Company, and, secondly, because it was known as a result of the previous Investigation that Hindus experienced the heaviest mortality of all races. The method of Graduation adopted is that advocated by Mr. George King. According to his method the ultimate table was graduated first by the method of graduation by reference to a standard table. In the case of the " Oriental " graduation, the Standard Table adopted was the O^M(5) (See SOA Table Identity 255) with an addition of 7 years to the age. Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Insured Lives mortality</KeyWord>
+    <KeyWord>India</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Mortality of Indian Assured Lives 1905-1925. Basis: Hindu Male Experience. Minimum Select Age: 19. Maximum Select Age: 60.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>19</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>1</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="19">
+        <Axis>
+          <Y t="1">0.00562</Y>
+        </Axis>
+      </Axis>
+      <Axis t="20">
+        <Axis>
+          <Y t="1">0.00572</Y>
+        </Axis>
+      </Axis>
+      <Axis t="21">
+        <Axis>
+          <Y t="1">0.00583</Y>
+        </Axis>
+      </Axis>
+      <Axis t="22">
+        <Axis>
+          <Y t="1">0.00595</Y>
+        </Axis>
+      </Axis>
+      <Axis t="23">
+        <Axis>
+          <Y t="1">0.00610</Y>
+        </Axis>
+      </Axis>
+      <Axis t="24">
+        <Axis>
+          <Y t="1">0.00622</Y>
+        </Axis>
+      </Axis>
+      <Axis t="25">
+        <Axis>
+          <Y t="1">0.00632</Y>
+        </Axis>
+      </Axis>
+      <Axis t="26">
+        <Axis>
+          <Y t="1">0.00640</Y>
+        </Axis>
+      </Axis>
+      <Axis t="27">
+        <Axis>
+          <Y t="1">0.00646</Y>
+        </Axis>
+      </Axis>
+      <Axis t="28">
+        <Axis>
+          <Y t="1">0.00652</Y>
+        </Axis>
+      </Axis>
+      <Axis t="29">
+        <Axis>
+          <Y t="1">0.00659</Y>
+        </Axis>
+      </Axis>
+      <Axis t="30">
+        <Axis>
+          <Y t="1">0.00667</Y>
+        </Axis>
+      </Axis>
+      <Axis t="31">
+        <Axis>
+          <Y t="1">0.00677</Y>
+        </Axis>
+      </Axis>
+      <Axis t="32">
+        <Axis>
+          <Y t="1">0.00689</Y>
+        </Axis>
+      </Axis>
+      <Axis t="33">
+        <Axis>
+          <Y t="1">0.00704</Y>
+        </Axis>
+      </Axis>
+      <Axis t="34">
+        <Axis>
+          <Y t="1">0.00722</Y>
+        </Axis>
+      </Axis>
+      <Axis t="35">
+        <Axis>
+          <Y t="1">0.00745</Y>
+        </Axis>
+      </Axis>
+      <Axis t="36">
+        <Axis>
+          <Y t="1">0.00772</Y>
+        </Axis>
+      </Axis>
+      <Axis t="37">
+        <Axis>
+          <Y t="1">0.00803</Y>
+        </Axis>
+      </Axis>
+      <Axis t="38">
+        <Axis>
+          <Y t="1">0.00840</Y>
+        </Axis>
+      </Axis>
+      <Axis t="39">
+        <Axis>
+          <Y t="1">0.00881</Y>
+        </Axis>
+      </Axis>
+      <Axis t="40">
+        <Axis>
+          <Y t="1">0.00927</Y>
+        </Axis>
+      </Axis>
+      <Axis t="41">
+        <Axis>
+          <Y t="1">0.00978</Y>
+        </Axis>
+      </Axis>
+      <Axis t="42">
+        <Axis>
+          <Y t="1">0.01036</Y>
+        </Axis>
+      </Axis>
+      <Axis t="43">
+        <Axis>
+          <Y t="1">0.01102</Y>
+        </Axis>
+      </Axis>
+      <Axis t="44">
+        <Axis>
+          <Y t="1">0.01176</Y>
+        </Axis>
+      </Axis>
+      <Axis t="45">
+        <Axis>
+          <Y t="1">0.01257</Y>
+        </Axis>
+      </Axis>
+      <Axis t="46">
+        <Axis>
+          <Y t="1">0.01349</Y>
+        </Axis>
+      </Axis>
+      <Axis t="47">
+        <Axis>
+          <Y t="1">0.01447</Y>
+        </Axis>
+      </Axis>
+      <Axis t="48">
+        <Axis>
+          <Y t="1">0.01552</Y>
+        </Axis>
+      </Axis>
+      <Axis t="49">
+        <Axis>
+          <Y t="1">0.01666</Y>
+        </Axis>
+      </Axis>
+      <Axis t="50">
+        <Axis>
+          <Y t="1">0.01789</Y>
+        </Axis>
+      </Axis>
+      <Axis t="51">
+        <Axis>
+          <Y t="1">0.01921</Y>
+        </Axis>
+      </Axis>
+      <Axis t="52">
+        <Axis>
+          <Y t="1">0.02063</Y>
+        </Axis>
+      </Axis>
+      <Axis t="53">
+        <Axis>
+          <Y t="1">0.02217</Y>
+        </Axis>
+      </Axis>
+      <Axis t="54">
+        <Axis>
+          <Y t="1">0.02381</Y>
+        </Axis>
+      </Axis>
+      <Axis t="55">
+        <Axis>
+          <Y t="1">0.02551</Y>
+        </Axis>
+      </Axis>
+      <Axis t="56">
+        <Axis>
+          <Y t="1">0.02728</Y>
+        </Axis>
+      </Axis>
+      <Axis t="57">
+        <Axis>
+          <Y t="1">0.02912</Y>
+        </Axis>
+      </Axis>
+      <Axis t="58">
+        <Axis>
+          <Y t="1">0.03097</Y>
+        </Axis>
+      </Axis>
+      <Axis t="59">
+        <Axis>
+          <Y t="1">0.03294</Y>
+        </Axis>
+      </Axis>
+      <Axis t="60">
+        <Axis>
+          <Y t="1">0.03488</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Mortality of Indian Assured Lives 1905-1925. Basis: Hindu Male Experience. Minimum Ultimate Age: 20. Maximum Ultimate Age: 96</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>96</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00725</Y>
+        <Y t="21">0.00741</Y>
+        <Y t="22">0.00760</Y>
+        <Y t="23">0.00781</Y>
+        <Y t="24">0.00800</Y>
+        <Y t="25">0.00817</Y>
+        <Y t="26">0.00832</Y>
+        <Y t="27">0.00846</Y>
+        <Y t="28">0.00860</Y>
+        <Y t="29">0.00873</Y>
+        <Y t="30">0.00887</Y>
+        <Y t="31">0.00903</Y>
+        <Y t="32">0.00920</Y>
+        <Y t="33">0.00942</Y>
+        <Y t="34">0.00968</Y>
+        <Y t="35">0.01001</Y>
+        <Y t="36">0.01040</Y>
+        <Y t="37">0.01085</Y>
+        <Y t="38">0.01139</Y>
+        <Y t="39">0.01196</Y>
+        <Y t="40">0.01263</Y>
+        <Y t="41">0.01339</Y>
+        <Y t="42">0.01425</Y>
+        <Y t="43">0.01520</Y>
+        <Y t="44">0.01626</Y>
+        <Y t="45">0.01743</Y>
+        <Y t="46">0.01874</Y>
+        <Y t="47">0.02015</Y>
+        <Y t="48">0.02166</Y>
+        <Y t="49">0.02331</Y>
+        <Y t="50">0.02513</Y>
+        <Y t="51">0.02709</Y>
+        <Y t="52">0.02923</Y>
+        <Y t="53">0.03158</Y>
+        <Y t="54">0.03405</Y>
+        <Y t="55">0.03663</Y>
+        <Y t="56">0.03933</Y>
+        <Y t="57">0.04209</Y>
+        <Y t="58">0.04495</Y>
+        <Y t="59">0.04801</Y>
+        <Y t="60">0.05097</Y>
+        <Y t="61">0.05388</Y>
+        <Y t="62">0.05688</Y>
+        <Y t="63">0.06006</Y>
+        <Y t="64">0.06341</Y>
+        <Y t="65">0.06685</Y>
+        <Y t="66">0.07051</Y>
+        <Y t="67">0.07433</Y>
+        <Y t="68">0.07831</Y>
+        <Y t="69">0.08235</Y>
+        <Y t="70">0.08643</Y>
+        <Y t="71">0.09081</Y>
+        <Y t="72">0.09560</Y>
+        <Y t="73">0.10097</Y>
+        <Y t="74">0.10665</Y>
+        <Y t="75">0.11254</Y>
+        <Y t="76">0.11932</Y>
+        <Y t="77">0.12644</Y>
+        <Y t="78">0.13432</Y>
+        <Y t="79">0.14261</Y>
+        <Y t="80">0.15145</Y>
+        <Y t="81">0.16076</Y>
+        <Y t="82">0.17063</Y>
+        <Y t="83">0.18135</Y>
+        <Y t="84">0.19161</Y>
+        <Y t="85">0.20351</Y>
+        <Y t="86">0.21530</Y>
+        <Y t="87">0.22960</Y>
+        <Y t="88">0.24125</Y>
+        <Y t="89">0.25736</Y>
+        <Y t="90">0.26890</Y>
+        <Y t="91">0.27650</Y>
+        <Y t="92">0.29173</Y>
+        <Y t="93">0.31143</Y>
+        <Y t="94">0.36267</Y>
+        <Y t="95">0.54300</Y>
+        <Y t="96">0.94997</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

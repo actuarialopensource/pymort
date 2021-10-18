@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>32001</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Sylvain Gadenne</ProviderName>
+    <TableReference>A. S. MacDonald, "The Second Actuarial Study of Mortality in Europe" (1997) Annex. Accessed February, 2014 from www.ressources-actuarielles.net</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>TPG 93</TableName>
+    <TableDescription>Table Générationnelle Prospective 1887-1993 (TPG 93). Minimum Age: 0 Maximum Age: 117</TableDescription>
+    <Comments>Study Data: National data on females published by Institut National de la Statistique et des Études Économiques (INSEE) observed for the period 1961-1987. Methodology: Prospective mortality rates in five-year groups derived from the data. To create annual death rates, an exponential progression of the probabilities of death between two five-year age blocks. The prospective probabilities of death in periods up to 110 years are calculated using a Gompertz formulae, NOTE: Technically, a series of tables, TPG 1887-1993, were constructed but use of 107 separate tables would have led to practical difficulties for assurers, so the supervisor authorized the use of TPRV 93 (See SOA Table Identity 955) for annuities for contracts written since July, 1993. Presented in this table is simply the data for the year 1993, not the full set of tables constituting TPG 1887-1993 as initially defined by the regulation. Data Transcription Errors: None. Data Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>France</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="33">France</Nation>
+      <TableDescription>Table Générationnelle Prospective 1887-1993 (TPG 93). Minimum Age: 0 Maximum Age: 117</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>117</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.005290</Y>
+        <Y t="1">0.001950</Y>
+        <Y t="2">0.000312</Y>
+        <Y t="3">0.000262</Y>
+        <Y t="4">0.000232</Y>
+        <Y t="5">0.000151</Y>
+        <Y t="6">0.000151</Y>
+        <Y t="7">0.000151</Y>
+        <Y t="8">0.000141</Y>
+        <Y t="9">0.000141</Y>
+        <Y t="10">0.000091</Y>
+        <Y t="11">0.000111</Y>
+        <Y t="12">0.000131</Y>
+        <Y t="13">0.000151</Y>
+        <Y t="14">0.000182</Y>
+        <Y t="15">0.000212</Y>
+        <Y t="16">0.000252</Y>
+        <Y t="17">0.000293</Y>
+        <Y t="18">0.000313</Y>
+        <Y t="19">0.000323</Y>
+        <Y t="20">0.000334</Y>
+        <Y t="21">0.000334</Y>
+        <Y t="22">0.000354</Y>
+        <Y t="23">0.000354</Y>
+        <Y t="24">0.000344</Y>
+        <Y t="25">0.000334</Y>
+        <Y t="26">0.000334</Y>
+        <Y t="27">0.000334</Y>
+        <Y t="28">0.000335</Y>
+        <Y t="29">0.000335</Y>
+        <Y t="30">0.000345</Y>
+        <Y t="31">0.000345</Y>
+        <Y t="32">0.000345</Y>
+        <Y t="33">0.000376</Y>
+        <Y t="34">0.000386</Y>
+        <Y t="35">0.000417</Y>
+        <Y t="36">0.000437</Y>
+        <Y t="37">0.000468</Y>
+        <Y t="38">0.000499</Y>
+        <Y t="39">0.000529</Y>
+        <Y t="40">0.000560</Y>
+        <Y t="41">0.000591</Y>
+        <Y t="42">0.000632</Y>
+        <Y t="43">0.000673</Y>
+        <Y t="44">0.000715</Y>
+        <Y t="45">0.000766</Y>
+        <Y t="46">0.000818</Y>
+        <Y t="47">0.000860</Y>
+        <Y t="48">0.000932</Y>
+        <Y t="49">0.001005</Y>
+        <Y t="50">0.001078</Y>
+        <Y t="51">0.001171</Y>
+        <Y t="52">0.001255</Y>
+        <Y t="53">0.001318</Y>
+        <Y t="54">0.001372</Y>
+        <Y t="55">0.001415</Y>
+        <Y t="56">0.001489</Y>
+        <Y t="57">0.001533</Y>
+        <Y t="58">0.001546</Y>
+        <Y t="59">0.001558</Y>
+        <Y t="60">0.001550</Y>
+        <Y t="61">0.001563</Y>
+        <Y t="62">0.001545</Y>
+        <Y t="63">0.001641</Y>
+        <Y t="64">0.001707</Y>
+        <Y t="65">0.001804</Y>
+        <Y t="66">0.001891</Y>
+        <Y t="67">0.001990</Y>
+        <Y t="68">0.002278</Y>
+        <Y t="69">0.002611</Y>
+        <Y t="70">0.003021</Y>
+        <Y t="71">0.003466</Y>
+        <Y t="72">0.004012</Y>
+        <Y t="73">0.004692</Y>
+        <Y t="74">0.005511</Y>
+        <Y t="75">0.006461</Y>
+        <Y t="76">0.007603</Y>
+        <Y t="77">0.008946</Y>
+        <Y t="78">0.010344</Y>
+        <Y t="79">0.011986</Y>
+        <Y t="80">0.013898</Y>
+        <Y t="81">0.016104</Y>
+        <Y t="82">0.018703</Y>
+        <Y t="83">0.021332</Y>
+        <Y t="84">0.024349</Y>
+        <Y t="85">0.027823</Y>
+        <Y t="86">0.031798</Y>
+        <Y t="87">0.036363</Y>
+        <Y t="88">0.040977</Y>
+        <Y t="89">0.046208</Y>
+        <Y t="90">0.052142</Y>
+        <Y t="91">0.058876</Y>
+        <Y t="92">0.066498</Y>
+        <Y t="93">0.073724</Y>
+        <Y t="94">0.081773</Y>
+        <Y t="95">0.090730</Y>
+        <Y t="96">0.100669</Y>
+        <Y t="97">0.111782</Y>
+        <Y t="98">0.124099</Y>
+        <Y t="99">0.137848</Y>
+        <Y t="100">0.153124</Y>
+        <Y t="101">0.170174</Y>
+        <Y t="102">0.189174</Y>
+        <Y t="103">0.210312</Y>
+        <Y t="104">0.233935</Y>
+        <Y t="105">0.260177</Y>
+        <Y t="106">0.289526</Y>
+        <Y t="107">0.322168</Y>
+        <Y t="108">0.358514</Y>
+        <Y t="109">0.399411</Y>
+        <Y t="110">0.444444</Y>
+        <Y t="111">0.495588</Y>
+        <Y t="112">0.551020</Y>
+        <Y t="113">0.616883</Y>
+        <Y t="114">0.677966</Y>
+        <Y t="115">0.789474</Y>
+        <Y t="116">0.750000</Y>
+        <Y t="117">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

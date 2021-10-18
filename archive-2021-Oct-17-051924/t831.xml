@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>831</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Paul H. Jackson and William W. Fellers, “The UP-1984: A Unisex Mortality Table for Non-insured Pension Plans”, International Association of Consulting Actuaries (1976). Accessed: 04/2013 from http://www.actuaries.org/IACA/Colloquia/Sydney1976/Vol_1/Jackson_Fellers.pdf</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>UP-1984</TableName>
+    <TableDescription>Unisex Pension (UP) - 1984. Minimum Age: 15 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Developed by The Committee on Self-Administered Retirement Plans from Society of Actuaries (SOA) mortality experience among non-insured private pensioners for 12 large pension plans observed over the years 1965-1970. Data included 2,182,436 life years of exposure and 118,942 deaths at attained age 65 or over. Resulting crude mortality rates reflect the fact that about 20% of the exposure is on female employees. For younger ages, SOA group life insurance mortality experience for calendar years 1965-1969, from all industries and all disability clauses combined, was used. Data at the very old ages was supplemented by U.S. Social Security Program, the U.S. Railroad Retirement System and Union Civil War Veterans. Methodology: The mortality improvement among pensioners under self-administered retirement plans for the 10-year period 1957-1967 amounted to approximately 6% for both male and female pensioners. This rate of mortality improvement was then assumed to apply from the mid-point of the pensioner experience in 1967 until calendar year 1984, i.e., 10 years from the date of construction of the table, and the crude mortality rates at ages over 65 were adjusted accordingly. The adjusted pensioner mortality rates and unadjusted group life mortality rates fit together very smoothly at age 65 to form a consistent mortality pattern. Individual age rates were then developed by logarithmic interpolation and graphic graduation. The basic experience data for pensioner mortality contained limited information at the very oldest age the mortality rates for central ages 97, 102 and 107 were obtained from the central age 92 composite rate by extension, using a factor of 1.50. The extension of the central mortality rates by the 1.50 pro-forma compounding factor was simply taken as the most practical means of extending the experience results to the end of the table. The reasoning behind this is that mortality rates at the extreme old ages are relatively unimportant in the determination of the cost of a pension plan because of the small number of retired lives at those ages that would be included in any actuarial valuation. Rather than force mortality rates into a strict Gompertz curve, an approximating set of uniform seniority values was developed to provide a consistent approach to approximating joint life annuity values for the UP-1984 Mortality Table. NOTE: This table is a composite table appropriate for use in standard industries where the employee group has approximately a 20% female composition. When the ages are advanced one year, the rates are appropriate for use with an all male population and, when ages are set back four years, the rates are appropriate for use with an all female population. Data Transcription Errors: None. Data Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Life</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Unisex Pension (UP) - 1984. Minimum Age: 15 Maximum Age: 111</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.001453</Y>
+        <Y t="16">0.001437</Y>
+        <Y t="17">0.001414</Y>
+        <Y t="18">0.001385</Y>
+        <Y t="19">0.001351</Y>
+        <Y t="20">0.001311</Y>
+        <Y t="21">0.001267</Y>
+        <Y t="22">0.001219</Y>
+        <Y t="23">0.001167</Y>
+        <Y t="24">0.001149</Y>
+        <Y t="25">0.001129</Y>
+        <Y t="26">0.001107</Y>
+        <Y t="27">0.001083</Y>
+        <Y t="28">0.001058</Y>
+        <Y t="29">0.001083</Y>
+        <Y t="30">0.001111</Y>
+        <Y t="31">0.001141</Y>
+        <Y t="32">0.001173</Y>
+        <Y t="33">0.001208</Y>
+        <Y t="34">0.001297</Y>
+        <Y t="35">0.001398</Y>
+        <Y t="36">0.001513</Y>
+        <Y t="37">0.001643</Y>
+        <Y t="38">0.001792</Y>
+        <Y t="39">0.001948</Y>
+        <Y t="40">0.002125</Y>
+        <Y t="41">0.002327</Y>
+        <Y t="42">0.002556</Y>
+        <Y t="43">0.002818</Y>
+        <Y t="44">0.003095</Y>
+        <Y t="45">0.003410</Y>
+        <Y t="46">0.003769</Y>
+        <Y t="47">0.004180</Y>
+        <Y t="48">0.004635</Y>
+        <Y t="49">0.005103</Y>
+        <Y t="50">0.005616</Y>
+        <Y t="51">0.006196</Y>
+        <Y t="52">0.006853</Y>
+        <Y t="53">0.007543</Y>
+        <Y t="54">0.008278</Y>
+        <Y t="55">0.009033</Y>
+        <Y t="56">0.009875</Y>
+        <Y t="57">0.010814</Y>
+        <Y t="58">0.011863</Y>
+        <Y t="59">0.012952</Y>
+        <Y t="60">0.014162</Y>
+        <Y t="61">0.015509</Y>
+        <Y t="62">0.017010</Y>
+        <Y t="63">0.018685</Y>
+        <Y t="64">0.020517</Y>
+        <Y t="65">0.022562</Y>
+        <Y t="66">0.024847</Y>
+        <Y t="67">0.027232</Y>
+        <Y t="68">0.029634</Y>
+        <Y t="69">0.032073</Y>
+        <Y t="70">0.034743</Y>
+        <Y t="71">0.037667</Y>
+        <Y t="72">0.040871</Y>
+        <Y t="73">0.044504</Y>
+        <Y t="74">0.048504</Y>
+        <Y t="75">0.052913</Y>
+        <Y t="76">0.057775</Y>
+        <Y t="77">0.063142</Y>
+        <Y t="78">0.068628</Y>
+        <Y t="79">0.074648</Y>
+        <Y t="80">0.081256</Y>
+        <Y t="81">0.088518</Y>
+        <Y t="82">0.096218</Y>
+        <Y t="83">0.104310</Y>
+        <Y t="84">0.112816</Y>
+        <Y t="85">0.122079</Y>
+        <Y t="86">0.132174</Y>
+        <Y t="87">0.143179</Y>
+        <Y t="88">0.155147</Y>
+        <Y t="89">0.168208</Y>
+        <Y t="90">0.182461</Y>
+        <Y t="91">0.198030</Y>
+        <Y t="92">0.215035</Y>
+        <Y t="93">0.232983</Y>
+        <Y t="94">0.252545</Y>
+        <Y t="95">0.273878</Y>
+        <Y t="96">0.297152</Y>
+        <Y t="97">0.322553</Y>
+        <Y t="98">0.349505</Y>
+        <Y t="99">0.378865</Y>
+        <Y t="100">0.410875</Y>
+        <Y t="101">0.445768</Y>
+        <Y t="102">0.483830</Y>
+        <Y t="103">0.524301</Y>
+        <Y t="104">0.568365</Y>
+        <Y t="105">0.616382</Y>
+        <Y t="106">0.668696</Y>
+        <Y t="107">0.725745</Y>
+        <Y t="108">0.786495</Y>
+        <Y t="109">0.852659</Y>
+        <Y t="110">0.924666</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

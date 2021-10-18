@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2757</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. William Farr, “Fifth Annual Report of the Registrar General of Births, Deaths and Marriages in England”, H. Claves and Sons for Her Majesty’s Stationer’s Office (London, 1843) Accessed: April, 2014 from http://histpop.org/ohpr/servlet/Show?page=Home.</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>ELT No. 1 (1841) - Male</TableName>
+    <TableDescription>English Life Tables (ELT) Number 1 (1841) - Male.  Minimum Age: 0 Maximum Age: 104</TableDescription>
+    <Comments>Study Data: Population data from England and Wales (i.e. not for all of the United Kingdom) for the period 1841. Methodology: The original published data was in lx format (See SOA Table Identities 2755-2756) however newer generations of the English Life Tables are published with both lx and qx with the qx version preferred for this database. To aid in tracking the data available, qx versions, such as this table, have been created for this and other older tables. Calculations of qx truncated at 6 decimals. Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 1 (1841) - Male.  Minimum Age: 0 Maximum Age: 104</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>104</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.159340</Y>
+        <Y t="1">0.063010</Y>
+        <Y t="2">0.033920</Y>
+        <Y t="3">0.024450</Y>
+        <Y t="4">0.017838</Y>
+        <Y t="5">0.014497</Y>
+        <Y t="6">0.011725</Y>
+        <Y t="7">0.009502</Y>
+        <Y t="8">0.007708</Y>
+        <Y t="9">0.006231</Y>
+        <Y t="10">0.005033</Y>
+        <Y t="11">0.005058</Y>
+        <Y t="12">0.005055</Y>
+        <Y t="13">0.006223</Y>
+        <Y t="14">0.006808</Y>
+        <Y t="15">0.006941</Y>
+        <Y t="16">0.007165</Y>
+        <Y t="17">0.007334</Y>
+        <Y t="18">0.007506</Y>
+        <Y t="19">0.007712</Y>
+        <Y t="20">0.007922</Y>
+        <Y t="21">0.008106</Y>
+        <Y t="22">0.008325</Y>
+        <Y t="23">0.008548</Y>
+        <Y t="24">0.008777</Y>
+        <Y t="25">0.008980</Y>
+        <Y t="26">0.009219</Y>
+        <Y t="27">0.009464</Y>
+        <Y t="28">0.009716</Y>
+        <Y t="29">0.009974</Y>
+        <Y t="30">0.010238</Y>
+        <Y t="31">0.010477</Y>
+        <Y t="32">0.010755</Y>
+        <Y t="33">0.011041</Y>
+        <Y t="34">0.011336</Y>
+        <Y t="35">0.011604</Y>
+        <Y t="36">0.011916</Y>
+        <Y t="37">0.012202</Y>
+        <Y t="38">0.012532</Y>
+        <Y t="39">0.012873</Y>
+        <Y t="40">0.013188</Y>
+        <Y t="41">0.013514</Y>
+        <Y t="42">0.013888</Y>
+        <Y t="43">0.014237</Y>
+        <Y t="44">0.014637</Y>
+        <Y t="45">0.014973</Y>
+        <Y t="46">0.015361</Y>
+        <Y t="47">0.015805</Y>
+        <Y t="48">0.016141</Y>
+        <Y t="49">0.016616</Y>
+        <Y t="50">0.017026</Y>
+        <Y t="51">0.017451</Y>
+        <Y t="52">0.017938</Y>
+        <Y t="53">0.018356</Y>
+        <Y t="54">0.018837</Y>
+        <Y t="55">0.021025</Y>
+        <Y t="56">0.023199</Y>
+        <Y t="57">0.025023</Y>
+        <Y t="58">0.026971</Y>
+        <Y t="59">0.029164</Y>
+        <Y t="60">0.031475</Y>
+        <Y t="61">0.033926</Y>
+        <Y t="62">0.036651</Y>
+        <Y t="63">0.039521</Y>
+        <Y t="64">0.042621</Y>
+        <Y t="65">0.045993</Y>
+        <Y t="66">0.049556</Y>
+        <Y t="67">0.053555</Y>
+        <Y t="68">0.057631</Y>
+        <Y t="69">0.062187</Y>
+        <Y t="70">0.066988</Y>
+        <Y t="71">0.072160</Y>
+        <Y t="72">0.077772</Y>
+        <Y t="73">0.083801</Y>
+        <Y t="74">0.090309</Y>
+        <Y t="75">0.097114</Y>
+        <Y t="76">0.104603</Y>
+        <Y t="77">0.112421</Y>
+        <Y t="78">0.120992</Y>
+        <Y t="79">0.130189</Y>
+        <Y t="80">0.139944</Y>
+        <Y t="81">0.150053</Y>
+        <Y t="82">0.161648</Y>
+        <Y t="83">0.173156</Y>
+        <Y t="84">0.186099</Y>
+        <Y t="85">0.199438</Y>
+        <Y t="86">0.213333</Y>
+        <Y t="87">0.229259</Y>
+        <Y t="88">0.245370</Y>
+        <Y t="89">0.262269</Y>
+        <Y t="90">0.280665</Y>
+        <Y t="91">0.300578</Y>
+        <Y t="92">0.318181</Y>
+        <Y t="93">0.339393</Y>
+        <Y t="94">0.366972</Y>
+        <Y t="95">0.362318</Y>
+        <Y t="96">0.363636</Y>
+        <Y t="97">0.357142</Y>
+        <Y t="98">0.388888</Y>
+        <Y t="99">0.363636</Y>
+        <Y t="100">0.285714</Y>
+        <Y t="101">0.400000</Y>
+        <Y t="102">0.333333</Y>
+        <Y t="103">0.500000</Y>
+        <Y t="104">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

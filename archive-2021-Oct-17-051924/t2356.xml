@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2356</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Continuous Mortality Investigation, “Continuous Mortality Investigation Reports Number 23”, Institute of Actuaries and Faculty of Actuaries (2009). Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/00-series-mortality-tables-assured-lives-annuitants-and-pensioners</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PPFD00</TableName>
+    <TableDescription>Personal Pensioners – Females  (PPFD00) Basis: Deferred. Minimum Age: 17. Maximum Age: 75.</TableDescription>
+    <Comments>Study Data: Based on 1999-2002 life office experience known as the “00” Series. The “00” Series tables were exposed to the profession in a consultation process via a series of Working Papers and public meetings. Data covers the mortality experience of holders of personal pension policies effected under Chapter IV of Part XIV of ICTA 1988. The data is further subdivided into two sections: deferred and vested, that together form combined tables. Methodology: As for both the 1979-1982 or “80” Series graduations and 1991-1994, or “92” Series graduations (See SOA Table Identities 261-264 and 2360-2377 respectively), the methodology employed in construction of the “00” Series was to use central exposed to risk, fit a formula of the μx = GM(r,s) class, and in the first place choose the parameters by maximum likelihood, taking account also of the usual diagnostic tests (numbers of positive and negative deviations, runs, Kolmogorov-Smirnov, serial correlations). In order to maintain sensible relationships between the different sections of the data it was also necessary to make some ad hoc adjustments to the resulting fitted rates, particularly at the extremes of age where there was very little data. Finally, values of q(x) were derived from the (adjusted as necessary) values of μ(x)  by using the formula: q(x) = 1 – e ^(- integral from 0 t- 1 of µ(x+t)) where the integral was approximated by the formula: [7µ(x) + 32(µ(x+ .25)) + 12(µ(x+ .5)) + 32(µ(x+ .75)) + 7(µ(x+ 1))] / 90 . To avoid spurious anomalies in the relationships at the younger ages and older ages adjustments were made to the graduated data. For example, the combined sections were set equal to the vested sections (males or females as appropriate) above certain ages and equal to the deferred sections (males or females as appropriate) below certain ages. Data Transcription Errors: None. Data Certified: 10/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Personal Pensioners – Females  (PPFD00) Basis: Deferred. Minimum Age: 17. Maximum Age: 75</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>75</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">6.1E-05</Y>
+        <Y t="18">6.9E-05</Y>
+        <Y t="19">7.8E-05</Y>
+        <Y t="20">8.7E-05</Y>
+        <Y t="21">9.8E-05</Y>
+        <Y t="22">0.00011</Y>
+        <Y t="23">0.000123</Y>
+        <Y t="24">0.000138</Y>
+        <Y t="25">0.000154</Y>
+        <Y t="26">0.000172</Y>
+        <Y t="27">0.000192</Y>
+        <Y t="28">0.000214</Y>
+        <Y t="29">0.000238</Y>
+        <Y t="30">0.000265</Y>
+        <Y t="31">0.000294</Y>
+        <Y t="32">0.000326</Y>
+        <Y t="33">0.000361</Y>
+        <Y t="34">0.000399</Y>
+        <Y t="35">0.000442</Y>
+        <Y t="36">0.000488</Y>
+        <Y t="37">0.000538</Y>
+        <Y t="38">0.000593</Y>
+        <Y t="39">0.000652</Y>
+        <Y t="40">0.000717</Y>
+        <Y t="41">0.000788</Y>
+        <Y t="42">0.000864</Y>
+        <Y t="43">0.000947</Y>
+        <Y t="44">0.001037</Y>
+        <Y t="45">0.001133</Y>
+        <Y t="46">0.001238</Y>
+        <Y t="47">0.001351</Y>
+        <Y t="48">0.001472</Y>
+        <Y t="49">0.001602</Y>
+        <Y t="50">0.001743</Y>
+        <Y t="51">0.001893</Y>
+        <Y t="52">0.002054</Y>
+        <Y t="53">0.002226</Y>
+        <Y t="54">0.00241</Y>
+        <Y t="55">0.002606</Y>
+        <Y t="56">0.002815</Y>
+        <Y t="57">0.003038</Y>
+        <Y t="58">0.003275</Y>
+        <Y t="59">0.003526</Y>
+        <Y t="60">0.003792</Y>
+        <Y t="61">0.004074</Y>
+        <Y t="62">0.004372</Y>
+        <Y t="63">0.004687</Y>
+        <Y t="64">0.005019</Y>
+        <Y t="65">0.005368</Y>
+        <Y t="66">0.005735</Y>
+        <Y t="67">0.006121</Y>
+        <Y t="68">0.006525</Y>
+        <Y t="69">0.006948</Y>
+        <Y t="70">0.007391</Y>
+        <Y t="71">0.007853</Y>
+        <Y t="72">0.008335</Y>
+        <Y t="73">0.008837</Y>
+        <Y t="74">0.009358</Y>
+        <Y t="75">0.0099</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

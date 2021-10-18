@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>530</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Thomas N. E. Greville, “United States Life Tables and Actuarial Tables: 1939-41”, National Office of Vital Statistics (Washington, 1947) Table 5. Accessed: July, 2013 from http://www.cdc.gov/nchs/data/lifetables/life39-41_acturial.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>U.S. Life Tables 1939-41 – White Males, ANB</TableName>
+    <TableDescription>United States (U.S.) Life Tables 1939-41 – While Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Based on the 1940 census of population and the deaths of the 3-year period 1939-1941. The statistics on which these life tables are based are subject to various errors, the magnitude of which is, in most cases, difficult to estimate with precision. There is a natural inclination to overstate the age until the attainment of majority, and then to understate at adult ages, with some over-statement in advanced years. Errors of this sort are not easy to detect, especially if the same type of error occurs in both population and death statistics. Systematic errors in reporting are believed to have been 1argely eliminated though the graduation of the data. The net immigration was estimated on the basis of information furnished by the Immigration and Naturalization Service, Department of Justice. Inasmuch as the statistics of births and infant deaths were assumed to be equally complete, mortality rates at age 0 were obtained directly from the reported figures. However, the populations at ages 1 to 4 used in determining the number exposed to risk at those ages were not obtained from the census, but, were calculated from birth and death statistics. For ages 5 and above, the populations required in the construction of life tables for the 3-year period 1939-1941 are those at the middle of the period: that is, on July 1, 1940. Since the census was taken as of April 1, 1940, an adjustment is necessary to arrive at the July 1, 1940, figures. Methodology: Deaths at ages 5 and over were not tabulated by single years of age during the period 1939-1941, but only in the 5-year age groups 5-9, 10-14, etc., with the final group at ages 100 and over. The method used in obtaining mortality rates for individual years at age from the grouped data at ages 5 and over was that of osculatory interpolation; specifically a Jenkins' modified fifth difference formula. The word "modified" in the name of this formula indicates that, although satisfying the conditions of smooth junction, it does not exactly reproduce the pivotal rates of mortality, but has a moderate graduating effect. The pivotal value formula employed for ages 7-97 was the usual King formula. The pivotal values at age 7 were obtained by special formula based on ordinary interpolation from sums of data for the three age groups 3-4, 5-9, and 10-14, assuming that the 12 single year values can be fitted by a second degree curve. At the very old ages (those above age 90, approximately) mortality rates obtained in the conventional manner were frequently found to be unreasonable thus a third-degree curve was applied to the last four pivotal rates. In the belief that the Makehamized table would find its chief use in the calculation of life annuity values, the graduation of the separate white male and white females tables was performed with the specific aim of reproducing as closely as possible the values of whole life annuities as calculated from the life table already prepared for the total white population. Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013. </Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>United States (U.S.) Life Tables 1939-41 – While Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.04812</Y>
+        <Y t="1">0.00487</Y>
+        <Y t="2">0.00265</Y>
+        <Y t="3">0.00190</Y>
+        <Y t="4">0.00153</Y>
+        <Y t="5">0.00138</Y>
+        <Y t="6">0.00124</Y>
+        <Y t="7">0.00114</Y>
+        <Y t="8">0.00106</Y>
+        <Y t="9">0.00102</Y>
+        <Y t="10">0.00100</Y>
+        <Y t="11">0.00101</Y>
+        <Y t="12">0.00106</Y>
+        <Y t="13">0.00114</Y>
+        <Y t="14">0.00127</Y>
+        <Y t="15">0.00143</Y>
+        <Y t="16">0.00158</Y>
+        <Y t="17">0.00172</Y>
+        <Y t="18">0.00186</Y>
+        <Y t="19">0.00199</Y>
+        <Y t="20">0.00212</Y>
+        <Y t="21">0.00223</Y>
+        <Y t="22">0.00232</Y>
+        <Y t="23">0.00238</Y>
+        <Y t="24">0.00241</Y>
+        <Y t="25">0.00243</Y>
+        <Y t="26">0.00245</Y>
+        <Y t="27">0.00251</Y>
+        <Y t="28">0.00259</Y>
+        <Y t="29">0.00268</Y>
+        <Y t="30">0.00279</Y>
+        <Y t="31">0.00291</Y>
+        <Y t="32">0.00306</Y>
+        <Y t="33">0.00323</Y>
+        <Y t="34">0.00342</Y>
+        <Y t="35">0.00363</Y>
+        <Y t="36">0.00387</Y>
+        <Y t="37">0.00414</Y>
+        <Y t="38">0.00443</Y>
+        <Y t="39">0.00476</Y>
+        <Y t="40">0.00513</Y>
+        <Y t="41">0.00554</Y>
+        <Y t="42">0.00600</Y>
+        <Y t="43">0.00650</Y>
+        <Y t="44">0.00706</Y>
+        <Y t="45">0.00766</Y>
+        <Y t="46">0.00833</Y>
+        <Y t="47">0.00904</Y>
+        <Y t="48">0.00981</Y>
+        <Y t="49">0.01064</Y>
+        <Y t="50">0.01155</Y>
+        <Y t="51">0.01253</Y>
+        <Y t="52">0.01360</Y>
+        <Y t="53">0.01476</Y>
+        <Y t="54">0.01602</Y>
+        <Y t="55">0.01737</Y>
+        <Y t="56">0.01881</Y>
+        <Y t="57">0.02034</Y>
+        <Y t="58">0.02195</Y>
+        <Y t="59">0.02366</Y>
+        <Y t="60">0.02548</Y>
+        <Y t="61">0.02743</Y>
+        <Y t="62">0.02952</Y>
+        <Y t="63">0.03177</Y>
+        <Y t="64">0.03420</Y>
+        <Y t="65">0.03685</Y>
+        <Y t="66">0.03975</Y>
+        <Y t="67">0.04293</Y>
+        <Y t="68">0.04643</Y>
+        <Y t="69">0.05028</Y>
+        <Y t="70">0.05454</Y>
+        <Y t="71">0.05924</Y>
+        <Y t="72">0.06443</Y>
+        <Y t="73">0.07014</Y>
+        <Y t="74">0.07637</Y>
+        <Y t="75">0.08313</Y>
+        <Y t="76">0.09040</Y>
+        <Y t="77">0.09818</Y>
+        <Y t="78">0.10647</Y>
+        <Y t="79">0.11530</Y>
+        <Y t="80">0.12471</Y>
+        <Y t="81">0.13472</Y>
+        <Y t="82">0.14537</Y>
+        <Y t="83">0.15668</Y>
+        <Y t="84">0.16859</Y>
+        <Y t="85">0.18104</Y>
+        <Y t="86">0.19395</Y>
+        <Y t="87">0.20727</Y>
+        <Y t="88">0.22091</Y>
+        <Y t="89">0.23482</Y>
+        <Y t="90">0.24894</Y>
+        <Y t="91">0.26322</Y>
+        <Y t="92">0.27760</Y>
+        <Y t="93">0.29202</Y>
+        <Y t="94">0.30642</Y>
+        <Y t="95">0.32076</Y>
+        <Y t="96">0.33496</Y>
+        <Y t="97">0.34898</Y>
+        <Y t="98">0.36275</Y>
+        <Y t="99">0.37623</Y>
+        <Y t="100">0.38935</Y>
+        <Y t="101">0.40205</Y>
+        <Y t="102">0.41429</Y>
+        <Y t="103">0.42599</Y>
+        <Y t="104">0.43712</Y>
+        <Y t="105">0.44760</Y>
+        <Y t="106">0.45738</Y>
+        <Y t="107">0.46640</Y>
+        <Y t="108">0.47462</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

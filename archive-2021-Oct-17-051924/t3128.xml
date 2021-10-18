@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3128</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, research-2014-rp-mort-tab-rates-exposure.xlsx, Sheet "White Collar", https://www.soa.org/files/research/exp-study/research-2014-rp-mort-tab-rates-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>RP-2014 Rates-White Collar</TableName>
+    <TableDescription>RP-2014 Rates-White Collar Female</TableDescription>
+    <Comments>Data Certified: 07/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>RP-2014 Rates-White Collar-Employee-Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.000132</Y>
+        <Y t="19">0.000137</Y>
+        <Y t="20">0.000137</Y>
+        <Y t="21">0.000137</Y>
+        <Y t="22">0.000137</Y>
+        <Y t="23">0.00014</Y>
+        <Y t="24">0.000143</Y>
+        <Y t="25">0.000146</Y>
+        <Y t="26">0.000151</Y>
+        <Y t="27">0.000158</Y>
+        <Y t="28">0.000165</Y>
+        <Y t="29">0.000174</Y>
+        <Y t="30">0.000184</Y>
+        <Y t="31">0.000195</Y>
+        <Y t="32">0.000206</Y>
+        <Y t="33">0.000218</Y>
+        <Y t="34">0.00023</Y>
+        <Y t="35">0.000241</Y>
+        <Y t="36">0.000253</Y>
+        <Y t="37">0.000268</Y>
+        <Y t="38">0.000286</Y>
+        <Y t="39">0.000308</Y>
+        <Y t="40">0.000334</Y>
+        <Y t="41">0.000365</Y>
+        <Y t="42">0.000402</Y>
+        <Y t="43">0.000446</Y>
+        <Y t="44">0.000497</Y>
+        <Y t="45">0.000554</Y>
+        <Y t="46">0.000618</Y>
+        <Y t="47">0.000689</Y>
+        <Y t="48">0.000764</Y>
+        <Y t="49">0.000845</Y>
+        <Y t="50">0.00093</Y>
+        <Y t="51">0.001018</Y>
+        <Y t="52">0.00111</Y>
+        <Y t="53">0.001206</Y>
+        <Y t="54">0.001306</Y>
+        <Y t="55">0.001412</Y>
+        <Y t="56">0.001523</Y>
+        <Y t="57">0.001642</Y>
+        <Y t="58">0.001769</Y>
+        <Y t="59">0.001908</Y>
+        <Y t="60">0.00206</Y>
+        <Y t="61">0.002229</Y>
+        <Y t="62">0.002417</Y>
+        <Y t="63">0.002627</Y>
+        <Y t="64">0.002859</Y>
+        <Y t="65">0.003119</Y>
+        <Y t="66">0.003485</Y>
+        <Y t="67">0.003894</Y>
+        <Y t="68">0.004351</Y>
+        <Y t="69">0.004862</Y>
+        <Y t="70">0.005433</Y>
+        <Y t="71">0.006071</Y>
+        <Y t="72">0.006784</Y>
+        <Y t="73">0.007581</Y>
+        <Y t="74">0.008472</Y>
+        <Y t="75">0.009467</Y>
+        <Y t="76">0.010579</Y>
+        <Y t="77">0.011822</Y>
+        <Y t="78">0.013211</Y>
+        <Y t="79">0.014763</Y>
+        <Y t="80">0.016497</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>RP-2014 Rates-White Collar-Healthy Annuitant-Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>50</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="50">0.002076</Y>
+        <Y t="51">0.002179</Y>
+        <Y t="52">0.002292</Y>
+        <Y t="53">0.002419</Y>
+        <Y t="54">0.002559</Y>
+        <Y t="55">0.002716</Y>
+        <Y t="56">0.002894</Y>
+        <Y t="57">0.003096</Y>
+        <Y t="58">0.003327</Y>
+        <Y t="59">0.003591</Y>
+        <Y t="60">0.003891</Y>
+        <Y t="61">0.004367</Y>
+        <Y t="62">0.004867</Y>
+        <Y t="63">0.005394</Y>
+        <Y t="64">0.005952</Y>
+        <Y t="65">0.006549</Y>
+        <Y t="66">0.007197</Y>
+        <Y t="67">0.007907</Y>
+        <Y t="68">0.008694</Y>
+        <Y t="69">0.009572</Y>
+        <Y t="70">0.010554</Y>
+        <Y t="71">0.011653</Y>
+        <Y t="72">0.012886</Y>
+        <Y t="73">0.01427</Y>
+        <Y t="74">0.015825</Y>
+        <Y t="75">0.017577</Y>
+        <Y t="76">0.019555</Y>
+        <Y t="77">0.021789</Y>
+        <Y t="78">0.024315</Y>
+        <Y t="79">0.027176</Y>
+        <Y t="80">0.030419</Y>
+        <Y t="81">0.034101</Y>
+        <Y t="82">0.038286</Y>
+        <Y t="83">0.043044</Y>
+        <Y t="84">0.048457</Y>
+        <Y t="85">0.054613</Y>
+        <Y t="86">0.061611</Y>
+        <Y t="87">0.069553</Y>
+        <Y t="88">0.07855</Y>
+        <Y t="89">0.088723</Y>
+        <Y t="90">0.100207</Y>
+        <Y t="91">0.112848</Y>
+        <Y t="92">0.126555</Y>
+        <Y t="93">0.141281</Y>
+        <Y t="94">0.157007</Y>
+        <Y t="95">0.173736</Y>
+        <Y t="96">0.191477</Y>
+        <Y t="97">0.210235</Y>
+        <Y t="98">0.229998</Y>
+        <Y t="99">0.250723</Y>
+        <Y t="100">0.270858</Y>
+        <Y t="101">0.29104</Y>
+        <Y t="102">0.311444</Y>
+        <Y t="103">0.3319</Y>
+        <Y t="104">0.352232</Y>
+        <Y t="105">0.372273</Y>
+        <Y t="106">0.39186</Y>
+        <Y t="107">0.410849</Y>
+        <Y t="108">0.429112</Y>
+        <Y t="109">0.446544</Y>
+        <Y t="110">0.463061</Y>
+        <Y t="111">0.478604</Y>
+        <Y t="112">0.493137</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>837</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>The Executive Committee of the Continuous Mortality Improvement Bureau, “Mortality of Assured Lives, Pensioners and Annuitants 1979-82”, Continuous Mortality Improvement Reports Number 9, Institute of Actuaries and Faculty of Actuaries (1988). Accessed: August, 2013 from http://www.actuaries.org.uk/research-and-resources/documents/cmi-report-9-whole-volume AND http://www.actuaries.org.uk/sites/all/files/documents/xls/pma80.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PMA80</TableName>
+    <TableDescription>Pensioners with Normal Retirement- Male. Basis: Amounts (PMA80). Minimum Issue Age: 16. Maximum Issue Age: 120</TableDescription>
+    <Comments>Study Data: Table is part of the "80" series of mortality tables for assured lives, annuitants and pensioners observed 1979-82. The Continuous Mortality Improvement Bureau carries out investigations for both sexes, on the basis both of Lives and of Amounts, and the experience is divided into those who retired at or after their normal pension age (referred to as 'normal') and those who retired before their normal age (referred to as 'early').  Methodology: Experiences graduated by fitting µx to a Gompertz-Makeham formula. Age ranges were fitted independently to a series of formulae which are extensions of the Gompertz-Makeham (GM), using Chebysheff polynomials. Three different formulae were used for different age ranges. Data Transcription Errors: None. Data Certified: 08/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Pensioners with Normal Retirement- Male. Basis: Amounts (PMA80). Minimum Issue Age: 16. Maximum Issue Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>16</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="16">0.000530</Y>
+        <Y t="17">0.000938</Y>
+        <Y t="18">0.000887</Y>
+        <Y t="19">0.000838</Y>
+        <Y t="20">0.000791</Y>
+        <Y t="21">0.000748</Y>
+        <Y t="22">0.000708</Y>
+        <Y t="23">0.000672</Y>
+        <Y t="24">0.000639</Y>
+        <Y t="25">0.000612</Y>
+        <Y t="26">0.000588</Y>
+        <Y t="27">0.000571</Y>
+        <Y t="28">0.000559</Y>
+        <Y t="29">0.000553</Y>
+        <Y t="30">0.000554</Y>
+        <Y t="31">0.000563</Y>
+        <Y t="32">0.000581</Y>
+        <Y t="33">0.000608</Y>
+        <Y t="34">0.000644</Y>
+        <Y t="35">0.000693</Y>
+        <Y t="36">0.000753</Y>
+        <Y t="37">0.000826</Y>
+        <Y t="38">0.000915</Y>
+        <Y t="39">0.001019</Y>
+        <Y t="40">0.001142</Y>
+        <Y t="41">0.001283</Y>
+        <Y t="42">0.001447</Y>
+        <Y t="43">0.001633</Y>
+        <Y t="44">0.001845</Y>
+        <Y t="45">0.002086</Y>
+        <Y t="46">0.002357</Y>
+        <Y t="47">0.002662</Y>
+        <Y t="48">0.003005</Y>
+        <Y t="49">0.003388</Y>
+        <Y t="50">0.003816</Y>
+        <Y t="51">0.004293</Y>
+        <Y t="52">0.004824</Y>
+        <Y t="53">0.005414</Y>
+        <Y t="54">0.006069</Y>
+        <Y t="55">0.006759</Y>
+        <Y t="56">0.007500</Y>
+        <Y t="57">0.008344</Y>
+        <Y t="58">0.009301</Y>
+        <Y t="59">0.010386</Y>
+        <Y t="60">0.011611</Y>
+        <Y t="61">0.012992</Y>
+        <Y t="62">0.014545</Y>
+        <Y t="63">0.016287</Y>
+        <Y t="64">0.018236</Y>
+        <Y t="65">0.020410</Y>
+        <Y t="66">0.022831</Y>
+        <Y t="67">0.025519</Y>
+        <Y t="68">0.028496</Y>
+        <Y t="69">0.031784</Y>
+        <Y t="70">0.035405</Y>
+        <Y t="71">0.039383</Y>
+        <Y t="72">0.043741</Y>
+        <Y t="73">0.048502</Y>
+        <Y t="74">0.053687</Y>
+        <Y t="75">0.059320</Y>
+        <Y t="76">0.065420</Y>
+        <Y t="77">0.072007</Y>
+        <Y t="78">0.079098</Y>
+        <Y t="79">0.086708</Y>
+        <Y t="80">0.094850</Y>
+        <Y t="81">0.103533</Y>
+        <Y t="82">0.112763</Y>
+        <Y t="83">0.122544</Y>
+        <Y t="84">0.132873</Y>
+        <Y t="85">0.143746</Y>
+        <Y t="86">0.155151</Y>
+        <Y t="87">0.167075</Y>
+        <Y t="88">0.179496</Y>
+        <Y t="89">0.192392</Y>
+        <Y t="90">0.205732</Y>
+        <Y t="91">0.219482</Y>
+        <Y t="92">0.233604</Y>
+        <Y t="93">0.248110</Y>
+        <Y t="94">0.263194</Y>
+        <Y t="95">0.278903</Y>
+        <Y t="96">0.295235</Y>
+        <Y t="97">0.312180</Y>
+        <Y t="98">0.329727</Y>
+        <Y t="99">0.347858</Y>
+        <Y t="100">0.366552</Y>
+        <Y t="101">0.385783</Y>
+        <Y t="102">0.405520</Y>
+        <Y t="103">0.425727</Y>
+        <Y t="104">0.446363</Y>
+        <Y t="105">0.467383</Y>
+        <Y t="106">0.488734</Y>
+        <Y t="107">0.510362</Y>
+        <Y t="108">0.532206</Y>
+        <Y t="109">0.554201</Y>
+        <Y t="110">0.576278</Y>
+        <Y t="111">0.598367</Y>
+        <Y t="112">0.620392</Y>
+        <Y t="113">0.642278</Y>
+        <Y t="114">0.663946</Y>
+        <Y t="115">0.685320</Y>
+        <Y t="116">0.706321</Y>
+        <Y t="117">0.726874</Y>
+        <Y t="118">0.746906</Y>
+        <Y t="119">0.766347</Y>
+        <Y t="120">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>309</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Joseph Musher, “Third Annual Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 1944”, Railroad Retirement Board (Chicago, 1946) Table 7. Reprinted by Joseph Musher, “Actuarial Aspects of the Railroad Retirement System”, Transactions of the Society of Actuaries Vol. II No.2 (Chicago, 1950). Accessed:  01/2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1950/January/tsa50v2n22.pdf, p. 5-6</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>Table 7: 1944 RRB Railway Employees Mortality Table</TableName>
+    <TableDescription>Table 7: 1944 Railroad Retirement Board (RRB) Railway Employees Mortality Table.  Minimum Age: 18. Maximum Age: 104</TableDescription>
+    <Comments>Study Data: Under the Railroad Retirement Act of 1937, the Railroad Retirement Board (RRB) was established to administer a benefits program that offered four different types of retirement annuities. Congress’ intent was to encourage the retirement of older railroad workers and to provide jobs to younger workers and generally improve the operation of the railroads with stronger, more able bodies (H.R. Rep. No. 1711, 74th Cong., 1st Sess. 10 [1935]). In conjunction with the Act, the RRB must prepare an annual report on the actuarial status of the railroad retirement system and to submit the report to the Congress. However, the information available to the RRB on deaths of covered employees was felt too incomplete and fragmentary to permit valid mortality investigations in 1944. Therefore data associated with group life insurance experience for steam railroad employees from the period 1939-1941 was used. Methodology: Data underlying the group life experience for steam railroad employees was derived from the reports of the Committee on Group Mortality Investigations for 1932-41 and for 1932-38. Any improvements in mortality between the periods of study and the term covered by the RRB’s annual report was accounted for by applying a 1-year set-back in age. Data Transcription Errors: None. Data Certified: 01/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Table 7: 1944 Railroad Retirement Board (RRB) Railway Employees Mortality Table.  Minimum Age: 18. Maximum Age: 104</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>104</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00156</Y>
+        <Y t="19">0.00162</Y>
+        <Y t="20">0.00166</Y>
+        <Y t="21">0.00172</Y>
+        <Y t="22">0.00178</Y>
+        <Y t="23">0.00185</Y>
+        <Y t="24">0.00194</Y>
+        <Y t="25">0.00204</Y>
+        <Y t="26">0.00214</Y>
+        <Y t="27">0.00226</Y>
+        <Y t="28">0.00237</Y>
+        <Y t="29">0.00249</Y>
+        <Y t="30">0.00261</Y>
+        <Y t="31">0.00274</Y>
+        <Y t="32">0.00287</Y>
+        <Y t="33">0.00302</Y>
+        <Y t="34">0.00318</Y>
+        <Y t="35">0.00336</Y>
+        <Y t="36">0.00357</Y>
+        <Y t="37">0.00380</Y>
+        <Y t="38">0.00405</Y>
+        <Y t="39">0.00432</Y>
+        <Y t="40">0.00464</Y>
+        <Y t="41">0.00498</Y>
+        <Y t="42">0.00538</Y>
+        <Y t="43">0.00581</Y>
+        <Y t="44">0.00630</Y>
+        <Y t="45">0.00683</Y>
+        <Y t="46">0.00742</Y>
+        <Y t="47">0.00804</Y>
+        <Y t="48">0.00873</Y>
+        <Y t="49">0.00948</Y>
+        <Y t="50">0.01028</Y>
+        <Y t="51">0.01118</Y>
+        <Y t="52">0.01214</Y>
+        <Y t="53">0.01320</Y>
+        <Y t="54">0.01435</Y>
+        <Y t="55">0.01560</Y>
+        <Y t="56">0.01696</Y>
+        <Y t="57">0.01842</Y>
+        <Y t="58">0.01998</Y>
+        <Y t="59">0.02168</Y>
+        <Y t="60">0.02352</Y>
+        <Y t="61">0.02554</Y>
+        <Y t="62">0.02774</Y>
+        <Y t="63">0.03015</Y>
+        <Y t="64">0.03279</Y>
+        <Y t="65">0.03564</Y>
+        <Y t="66">0.03870</Y>
+        <Y t="67">0.04196</Y>
+        <Y t="68">0.04539</Y>
+        <Y t="69">0.04904</Y>
+        <Y t="70">0.05294</Y>
+        <Y t="71">0.05716</Y>
+        <Y t="72">0.06176</Y>
+        <Y t="73">0.06677</Y>
+        <Y t="74">0.07224</Y>
+        <Y t="75">0.07818</Y>
+        <Y t="76">0.08463</Y>
+        <Y t="77">0.09156</Y>
+        <Y t="78">0.09898</Y>
+        <Y t="79">0.10694</Y>
+        <Y t="80">0.11546</Y>
+        <Y t="81">0.12460</Y>
+        <Y t="82">0.13434</Y>
+        <Y t="83">0.14473</Y>
+        <Y t="84">0.15581</Y>
+        <Y t="85">0.16760</Y>
+        <Y t="86">0.18021</Y>
+        <Y t="87">0.19358</Y>
+        <Y t="88">0.20776</Y>
+        <Y t="89">0.22280</Y>
+        <Y t="90">0.23866</Y>
+        <Y t="91">0.25542</Y>
+        <Y t="92">0.27298</Y>
+        <Y t="93">0.29134</Y>
+        <Y t="94">0.31020</Y>
+        <Y t="95">0.32896</Y>
+        <Y t="96">0.34718</Y>
+        <Y t="97">0.36408</Y>
+        <Y t="98">0.37962</Y>
+        <Y t="99">0.39616</Y>
+        <Y t="100">0.41840</Y>
+        <Y t="101">0.45182</Y>
+        <Y t="102">0.49902</Y>
+        <Y t="103">0.56004</Y>
+        <Y t="104">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>585</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Bruce D. Schobel and Robert J. Myers, “A Century of Japanese Mortality Experience”, Transactions of the Society of Actuaries, 1993-94 Reports (Chicago, 1994). Accessed: January, 2014 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1990-99/1993/january/tsr938.aspx</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>JLT 17 – Female, ANB</TableName>
+    <TableDescription>Japanese Life Table No. 17 (JLT17) – Female. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 111</TableDescription>
+    <Comments>Study Data: Issued by the Statistics and Information Department of the Japanese Ministry of Health and Welfare. At the time of publication, Official Life Tables produced for Japan numbered 1 through 6 and 8 through 17; no 7th Life Table was produced because of World War II. Table constructed based on the Annual Vital Statistics and the Population Census for the five-year period 1986-1990. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Japan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="81">Japan</Nation>
+      <TableDescription>Japanese Life Table No. 17 (JLT17) – Female. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 111</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>111</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00417</Y>
+        <Y t="1">0.00064</Y>
+        <Y t="2">0.00042</Y>
+        <Y t="3">0.00027</Y>
+        <Y t="4">0.00019</Y>
+        <Y t="5">0.00016</Y>
+        <Y t="6">0.00016</Y>
+        <Y t="7">0.00014</Y>
+        <Y t="8">0.00013</Y>
+        <Y t="9">0.00012</Y>
+        <Y t="10">0.00011</Y>
+        <Y t="11">0.00010</Y>
+        <Y t="12">0.00010</Y>
+        <Y t="13">0.00011</Y>
+        <Y t="14">0.00014</Y>
+        <Y t="15">0.00017</Y>
+        <Y t="16">0.00020</Y>
+        <Y t="17">0.00024</Y>
+        <Y t="18">0.00027</Y>
+        <Y t="19">0.00029</Y>
+        <Y t="20">0.00030</Y>
+        <Y t="21">0.00031</Y>
+        <Y t="22">0.00032</Y>
+        <Y t="23">0.00033</Y>
+        <Y t="24">0.00033</Y>
+        <Y t="25">0.00033</Y>
+        <Y t="26">0.00032</Y>
+        <Y t="27">0.00034</Y>
+        <Y t="28">0.00036</Y>
+        <Y t="29">0.00039</Y>
+        <Y t="30">0.00042</Y>
+        <Y t="31">0.00044</Y>
+        <Y t="32">0.00045</Y>
+        <Y t="33">0.00049</Y>
+        <Y t="34">0.00053</Y>
+        <Y t="35">0.00058</Y>
+        <Y t="36">0.00063</Y>
+        <Y t="37">0.00068</Y>
+        <Y t="38">0.00073</Y>
+        <Y t="39">0.00079</Y>
+        <Y t="40">0.00089</Y>
+        <Y t="41">0.00099</Y>
+        <Y t="42">0.00109</Y>
+        <Y t="43">0.00117</Y>
+        <Y t="44">0.00125</Y>
+        <Y t="45">0.00134</Y>
+        <Y t="46">0.00147</Y>
+        <Y t="47">0.00163</Y>
+        <Y t="48">0.00180</Y>
+        <Y t="49">0.00198</Y>
+        <Y t="50">0.00217</Y>
+        <Y t="51">0.00234</Y>
+        <Y t="52">0.00248</Y>
+        <Y t="53">0.00264</Y>
+        <Y t="54">0.00285</Y>
+        <Y t="55">0.00309</Y>
+        <Y t="56">0.00338</Y>
+        <Y t="57">0.00369</Y>
+        <Y t="58">0.00403</Y>
+        <Y t="59">0.00441</Y>
+        <Y t="60">0.00481</Y>
+        <Y t="61">0.00522</Y>
+        <Y t="62">0.00567</Y>
+        <Y t="63">0.00619</Y>
+        <Y t="64">0.00681</Y>
+        <Y t="65">0.00752</Y>
+        <Y t="66">0.00834</Y>
+        <Y t="67">0.00930</Y>
+        <Y t="68">0.01044</Y>
+        <Y t="69">0.01176</Y>
+        <Y t="70">0.01324</Y>
+        <Y t="71">0.01495</Y>
+        <Y t="72">0.01694</Y>
+        <Y t="73">0.01917</Y>
+        <Y t="74">0.02161</Y>
+        <Y t="75">0.02435</Y>
+        <Y t="76">0.02757</Y>
+        <Y t="77">0.03145</Y>
+        <Y t="78">0.03616</Y>
+        <Y t="79">0.04156</Y>
+        <Y t="80">0.04785</Y>
+        <Y t="81">0.05502</Y>
+        <Y t="82">0.06302</Y>
+        <Y t="83">0.07176</Y>
+        <Y t="84">0.08119</Y>
+        <Y t="85">0.09125</Y>
+        <Y t="86">0.10249</Y>
+        <Y t="87">0.11498</Y>
+        <Y t="88">0.12856</Y>
+        <Y t="89">0.14327</Y>
+        <Y t="90">0.15876</Y>
+        <Y t="91">0.17517</Y>
+        <Y t="92">0.19222</Y>
+        <Y t="93">0.21044</Y>
+        <Y t="94">0.22972</Y>
+        <Y t="95">0.24947</Y>
+        <Y t="96">0.27002</Y>
+        <Y t="97">0.29135</Y>
+        <Y t="98">0.31346</Y>
+        <Y t="99">0.33631</Y>
+        <Y t="100">0.35990</Y>
+        <Y t="101">0.38417</Y>
+        <Y t="102">0.40909</Y>
+        <Y t="103">0.43461</Y>
+        <Y t="104">0.46065</Y>
+        <Y t="105">0.48716</Y>
+        <Y t="106">0.51405</Y>
+        <Y t="107">0.54122</Y>
+        <Y t="108">0.56857</Y>
+        <Y t="109">0.59600</Y>
+        <Y t="110">0.62339</Y>
+        <Y t="111">0.65060</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

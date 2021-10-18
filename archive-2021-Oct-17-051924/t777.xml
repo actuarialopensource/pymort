@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>777</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Society of Actuaries, “II. Extension and Modification of Certain Basic Disability Values”, Transactions of the Society of Actuaries, Vol. XIII, No. 37 (1961) Table 8. Accessed: June, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1961/january/tsa61v13pt1n37ab32.pdf</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1952 Graduated Rates of Disablement - Benefit 4, Period 2, 360 day EP</TableName>
+    <TableDescription>1952 Graduated Rates of Disablement -  Benefit 4. Time Period: 2. Elimination Period: 360 days. Minimum Age: 15. Maximum Age: 59</TableDescription>
+    <Comments>Study Data: The rates of disablement developed in the 1952 Disability Study of the Society of Actuaries (SOA) for Benefit 4 provided for a 120-day waiting period clause (See SOA Table Identity 778). However, by the 1960’s, policies providing disability income benefits were generally based on a 6-month waiting period, thus it was felt that Benefit 4 values should be based on a 6-month waiting period, thereby eliminating the need for subsequent adjustments in net premiums and other values where such waiting period is used. Methodology: Rates developed by formula: rate (6-month) = rate(4-month) * l([x+½]+6/12) /  l([x+½]+4/12). In order to eliminate anomalies in results, slight adjustments were made in the figures produced by the aforementioned formula. Data Transcription Errors: None. Data Certified: 06/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1952 Claim Incidence Rates - Benefit 4. Time Period: 2. Elimination Period: 360 days. Minimum Age: 15. Maximum Age: 59.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>59</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00209</Y>
+        <Y t="16">0.00209</Y>
+        <Y t="17">0.00209</Y>
+        <Y t="18">0.00209</Y>
+        <Y t="19">0.00209</Y>
+        <Y t="20">0.00209</Y>
+        <Y t="21">0.00209</Y>
+        <Y t="22">0.00209</Y>
+        <Y t="23">0.00209</Y>
+        <Y t="24">0.00209</Y>
+        <Y t="25">0.00209</Y>
+        <Y t="26">0.00209</Y>
+        <Y t="27">0.00209</Y>
+        <Y t="28">0.00209</Y>
+        <Y t="29">0.00218</Y>
+        <Y t="30">0.00229</Y>
+        <Y t="31">0.00241</Y>
+        <Y t="32">0.00254</Y>
+        <Y t="33">0.00268</Y>
+        <Y t="34">0.00283</Y>
+        <Y t="35">0.00299</Y>
+        <Y t="36">0.00316</Y>
+        <Y t="37">0.00334</Y>
+        <Y t="38">0.00354</Y>
+        <Y t="39">0.00379</Y>
+        <Y t="40">0.00406</Y>
+        <Y t="41">0.00439</Y>
+        <Y t="42">0.00476</Y>
+        <Y t="43">0.00519</Y>
+        <Y t="44">0.00564</Y>
+        <Y t="45">0.00615</Y>
+        <Y t="46">0.00669</Y>
+        <Y t="47">0.00727</Y>
+        <Y t="48">0.00788</Y>
+        <Y t="49">0.00855</Y>
+        <Y t="50">0.00928</Y>
+        <Y t="51">0.01027</Y>
+        <Y t="52">0.01141</Y>
+        <Y t="53">0.01276</Y>
+        <Y t="54">0.01430</Y>
+        <Y t="55">0.01601</Y>
+        <Y t="56">0.01790</Y>
+        <Y t="57">0.02002</Y>
+        <Y t="58">0.02243</Y>
+        <Y t="59">0.02518</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

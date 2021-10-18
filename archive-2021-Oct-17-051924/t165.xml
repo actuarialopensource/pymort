@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>165</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Robert J. Johansen</ProviderName>
+    <TableReference>Committee to Recommend New Mortality Tables for Valuation, “1980 CSO and 1980 CET Mortality Tables on an Age Last Birthday Basis”, Transactions Society of Actuaries Vol.  XXXIII, Society of Actuaries (1981) p. 671. Accessed: February, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1981/January/tsa81v3324.pdf</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1980 CET – Table SB (80% Male Blend– Smoker) ALB</TableName>
+    <TableDescription>1980 Commissioners Extended Term (CET) - Table SB (80% Male / 20% Female Blend – Smoker) Basis: Age Last Birthday. Minimum Age: 15 Maximum Age: 99</TableDescription>
+    <Comments>Study Data:  In response to the U.S. Supreme Court’s Norris decision, a set of five blended, non-sex-distinct mortality tables were developed from the 1980 CSO tables (See SOA Table Identities 17, 20, 23, and 29) to provide for minimum non-forfeiture values on life insurance policies issued on a non-sex-distinct basis for employee benefit plans. Methodology: The 1980 Commissioners Extended Term (CET) age nearest birthday (ANB) tables were derived by adding to the 1980 Commissioners Standard Ordinary (CSO) ANB tables a loading equal to the greater of 0.75 deaths per thousand or 30% of the 1980 CSO mortality.  The 1980 CET age last birthday (ALB) tables were derived from the 1980 CSO ALB tables plus this same loading. This is a departure from the method used in 1958, when the CET ALB table was derived from the CET ANB table using the uniform distribution assumption. For this specific table, the 1980 CSO 80% Male Smoker ALB table (See SOA Table Identity 111) was used to validate the values using the prescribed formula from the publication referenced. Data Transcription Errors: None. Data Certified: 05/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980 Commissioners Extended Term (CET) - Table SB (80% Male / 20% Female Blend – Smoker) Basis: Age Last Birthday. Minimum Age: 15 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00235</Y>
+        <Y t="16">0.00252</Y>
+        <Y t="17">0.00265</Y>
+        <Y t="18">0.00274</Y>
+        <Y t="19">0.00281</Y>
+        <Y t="20">0.00284</Y>
+        <Y t="21">0.00285</Y>
+        <Y t="22">0.00283</Y>
+        <Y t="23">0.00280</Y>
+        <Y t="24">0.00275</Y>
+        <Y t="25">0.00270</Y>
+        <Y t="26">0.00268</Y>
+        <Y t="27">0.00267</Y>
+        <Y t="28">0.00268</Y>
+        <Y t="29">0.00271</Y>
+        <Y t="30">0.00277</Y>
+        <Y t="31">0.00284</Y>
+        <Y t="32">0.00293</Y>
+        <Y t="33">0.00304</Y>
+        <Y t="34">0.00317</Y>
+        <Y t="35">0.00335</Y>
+        <Y t="36">0.00361</Y>
+        <Y t="37">0.00391</Y>
+        <Y t="38">0.00426</Y>
+        <Y t="39">0.00467</Y>
+        <Y t="40">0.00512</Y>
+        <Y t="41">0.00563</Y>
+        <Y t="42">0.00618</Y>
+        <Y t="43">0.00675</Y>
+        <Y t="44">0.00738</Y>
+        <Y t="45">0.00805</Y>
+        <Y t="46">0.00875</Y>
+        <Y t="47">0.00949</Y>
+        <Y t="48">0.01030</Y>
+        <Y t="49">0.01118</Y>
+        <Y t="50">0.01214</Y>
+        <Y t="51">0.01323</Y>
+        <Y t="52">0.01447</Y>
+        <Y t="53">0.01586</Y>
+        <Y t="54">0.01737</Y>
+        <Y t="55">0.01898</Y>
+        <Y t="56">0.02066</Y>
+        <Y t="57">0.02240</Y>
+        <Y t="58">0.02423</Y>
+        <Y t="59">0.02618</Y>
+        <Y t="60">0.02837</Y>
+        <Y t="61">0.03084</Y>
+        <Y t="62">0.03368</Y>
+        <Y t="63">0.03687</Y>
+        <Y t="64">0.04034</Y>
+        <Y t="65">0.04403</Y>
+        <Y t="66">0.04784</Y>
+        <Y t="67">0.05175</Y>
+        <Y t="68">0.05580</Y>
+        <Y t="69">0.06015</Y>
+        <Y t="70">0.06499</Y>
+        <Y t="71">0.07050</Y>
+        <Y t="72">0.07678</Y>
+        <Y t="73">0.08380</Y>
+        <Y t="74">0.09153</Y>
+        <Y t="75">0.09978</Y>
+        <Y t="76">0.10821</Y>
+        <Y t="77">0.11669</Y>
+        <Y t="78">0.12529</Y>
+        <Y t="79">0.13433</Y>
+        <Y t="80">0.14417</Y>
+        <Y t="81">0.15509</Y>
+        <Y t="82">0.16730</Y>
+        <Y t="83">0.18083</Y>
+        <Y t="84">0.19512</Y>
+        <Y t="85">0.20985</Y>
+        <Y t="86">0.22473</Y>
+        <Y t="87">0.24019</Y>
+        <Y t="88">0.25641</Y>
+        <Y t="89">0.27296</Y>
+        <Y t="90">0.29073</Y>
+        <Y t="91">0.30970</Y>
+        <Y t="92">0.33132</Y>
+        <Y t="93">0.35825</Y>
+        <Y t="94">0.39536</Y>
+        <Y t="95">0.45174</Y>
+        <Y t="96">0.54334</Y>
+        <Y t="97">0.70114</Y>
+        <Y t="98">0.96825</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

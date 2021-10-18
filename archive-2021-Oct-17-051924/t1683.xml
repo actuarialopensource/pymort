@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1683</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Individual Disability Experience Committee, “Development of the 2012 IDEC Claim Termination Rate Table (Version 1.0)”, Society of Actuaries (2012). Accessed: May, 2013 from http://www.soa.org/files/research/exp-study/2012_idec_claim_termination_rate_table.pdf AND Individual Disability Experience Committee, “SOA IDEC 2012 Tables Workbook Version 1.0 Excel File”, Society of Actuaries (2012) Accessed: May, 2013 from http://www.soa.org/Files/Research/Exp-Study/soa_idec_2012_tables_workbook_excel.xls</TableReference>
+    <ContentType tc="82">Claim Termination</ContentType>
+    <TableName>2012 IDEC Ultimate Graduated Claim Termination Rates - Male</TableName>
+    <TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Termination Table – Male. Basis: Ultimate. Minimum Attained Age: 32. Maximum Attained Age: 119</TableDescription>
+    <Comments>Study Data: Data represents Version 1.0 and should be considered work in progress. Based on individual disability income (IDI) experience from 1990 to 2007 and contain no explicit margins for adverse deviations. One company’s policy and claim data was scaled down so as to represent only 40% of total exposure over the study period. Only Accident &amp; Sickness (A&amp;S) policies were included in the database used to calculate termination rates. Since not all of the contributors were able to split CTR’s between deaths and recoveries, the CTR’s in the
+2012 IDEC CTR Table combine deaths and recoveries. The 85 CIDA CTR’s combine deaths and recoveries, as well. Methodology: Experience in the ultimate durations of disablement was grouped by attained age and gender. All occupation classes and elimination periods were combined. In order to increase the exposure and terminations in the ultimate durations, experience for all benefit periods and COL benefits was included. The following describes the steps then taken to develop the ultimate CTR’s: a) Raw male and female CTR’s at pivotal ages 35, 45, 55, 62, 67, 72, 77 were derived by applying the adjusted A/E ratios to the corresponding 85 CIDA ultimate male and female CTR’s; b). The raw rates were then graduated using Whittaker‐Henderson Type B; c) Linear interpolation was used to calculate the ultimate CTR’s at the non‐pivotal ages; d). The ultimate CTR’s at ages less than 35 were derived by applying the ratio of the graduated CTR to 85 CIDA at age 35 to the 85 CIDA CTR’s below age 35; e) The ultimate CTR’s at ages over 77 were derived by applying the ratio of the graduated CTR to
+85 CIDA at age 77 to the 85 CIDA CTR’s over age 77. f) Since the claim terminations at the ultimate durations were assumed to be mainly from death, the ultimate CTR’s were set as the larger of (1) the ultimate CTR’s developed from steps (a)‐(e) and 125% of the 2001 Valuation Basic Table (2001 VBT) ultimate mortality rates. The 2001 VBT mortality rates used in step(f) were derived by taking a weighted average of the 2001 Nonsmoker and Smoker VBT ultimate mortality rates. The weightings were 94% nonsmoker and 6% smoker, which approximate the distribution of nonsmokers and smokers in the claim database. As a result of comparing the ultimate CTR’s to the 2001 VBT, the attained ages in the ultimate CTR table
+are extended to age 119. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Ultimate</KeyWord>
+    <KeyWord>Claim Termination</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2012 Individual Disability Experience Committee (IDEC) Claim Termination Table – Male. Basis: Ultimate. Minimum Attained Age: 32. Maximum Attained Age: 119</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>32</MinScaleValue>
+        <MaxScaleValue>119</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="32">0.03025</Y>
+        <Y t="33">0.0305</Y>
+        <Y t="34">0.03075</Y>
+        <Y t="35">0.031125</Y>
+        <Y t="36">0.03012</Y>
+        <Y t="37">0.02921</Y>
+        <Y t="38">0.02838</Y>
+        <Y t="39">0.027405</Y>
+        <Y t="40">0.0265</Y>
+        <Y t="41">0.02511</Y>
+        <Y t="42">0.02365</Y>
+        <Y t="43">0.02212</Y>
+        <Y t="44">0.020592</Y>
+        <Y t="45">0.01898</Y>
+        <Y t="46">0.0190363333333333</Y>
+        <Y t="47">0.019074</Y>
+        <Y t="48">0.019467</Y>
+        <Y t="49">0.0198504</Y>
+        <Y t="50">0.0202849333333333</Y>
+        <Y t="51">0.020769</Y>
+        <Y t="52">0.021301</Y>
+        <Y t="53">0.0217477777777778</Y>
+        <Y t="54">0.0222293333333333</Y>
+        <Y t="55">0.0228</Y>
+        <Y t="56">0.02303925</Y>
+        <Y t="57">0.023326</Y>
+        <Y t="58">0.0240768</Y>
+        <Y t="59">0.0249559</Y>
+        <Y t="60">0.0258542</Y>
+        <Y t="61">0.026871</Y>
+        <Y t="62">0.02795</Y>
+        <Y t="63">0.029008</Y>
+        <Y t="64">0.030096</Y>
+        <Y t="65">0.031255</Y>
+        <Y t="66">0.032522</Y>
+        <Y t="67">0.033885</Y>
+        <Y t="68">0.0351276</Y>
+        <Y t="69">0.0365082</Y>
+        <Y t="70">0.0379224</Y>
+        <Y t="71">0.0396372</Y>
+        <Y t="72">0.040989</Y>
+        <Y t="73">0.0426006</Y>
+        <Y t="74">0.044286</Y>
+        <Y t="75">0.0460554</Y>
+        <Y t="76">0.0478116</Y>
+        <Y t="77">0.049632</Y>
+        <Y t="78">0.05458</Y>
+        <Y t="79">0.06085</Y>
+        <Y t="80">0.06784</Y>
+        <Y t="81">0.07541</Y>
+        <Y t="82">0.08337</Y>
+        <Y t="83">0.09203</Y>
+        <Y t="84">0.10167</Y>
+        <Y t="85">0.11242</Y>
+        <Y t="86">0.12422</Y>
+        <Y t="87">0.13693</Y>
+        <Y t="88">0.15039</Y>
+        <Y t="89">0.16444</Y>
+        <Y t="90">0.17827</Y>
+        <Y t="91">0.19172</Y>
+        <Y t="92">0.20572</Y>
+        <Y t="93">0.2204</Y>
+        <Y t="94">0.23582</Y>
+        <Y t="95">0.25092</Y>
+        <Y t="96">0.2654</Y>
+        <Y t="97">0.28071</Y>
+        <Y t="98">0.2969</Y>
+        <Y t="99">0.31402</Y>
+        <Y t="100">0.33212</Y>
+        <Y t="101">0.35125</Y>
+        <Y t="102">0.37147</Y>
+        <Y t="103">0.39283</Y>
+        <Y t="104">0.41541</Y>
+        <Y t="105">0.43927</Y>
+        <Y t="106">0.46447</Y>
+        <Y t="107">0.4911</Y>
+        <Y t="108">0.51922</Y>
+        <Y t="109">0.54891</Y>
+        <Y t="110">0.58025</Y>
+        <Y t="111">0.61333</Y>
+        <Y t="112">0.64821</Y>
+        <Y t="113">0.68501</Y>
+        <Y t="114">0.72378</Y>
+        <Y t="115">0.76463</Y>
+        <Y t="116">0.80762</Y>
+        <Y t="117">0.85281</Y>
+        <Y t="118">0.90028</Y>
+        <Y t="119">0.94993</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

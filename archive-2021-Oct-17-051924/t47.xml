@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>47</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Special Committee to Recommend new Mortality Tables for Valuation, “Report on Development of Selection Factors to be Applied to Tables K as an Alternative Method of Determining Life Insurance Reserves and Deficiency Reserve Requirements”, Transactions of the Society of Actuaries, Vol. XXXIII, Society of Actuaries (1981) p. 669. Accessed: March, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1981/January/tsa81v3323.pdf</TableReference>
+    <ContentType tc="86">Selection Factors</ContentType>
+    <TableName>1980 CSO Selection Factors - Female</TableName>
+    <TableDescription>1980 Commissioners Standard Ordinary (CSO) Selection Factors – Female. Minimum Select Age: 0. Maximum Select Age: 70 and over.</TableDescription>
+    <Comments>Study Data: Society of Actuary (SOA) 1970-75 intercompany medical mortality data. Development of Tables K(M) and K(F) excluded the first five policy years of experience except for ages 0-4. In determining deficiency reserves, the absence of this data could result in strain on certain renewable term insurance plans priced on the basis of select mortality experience. Hence the Committee felt it would be reasonably conservative to develop ten-year selection factors to be used with the K Tables. The K tables were ultimately adopted as the 1980 Commissioners Standard Ordinary Tables (See SOA Table Identities 17 and 20). Methodology: Margins in Tables K(M) and K(F) were added to the crude select mortality rates from the 1970-75 intercompany medical data at central ages. Resulting loaded rates were divided by the appropriate Table K central age rates. Selection factors were modified to eliminate random fluctuations and then smoothed by an unspecified method so as to produce select mortality rates that increased with age. NOTE: For policy years 11 and over the selection factor is always 100%. Data Transcription Errors: None. Data Certified: 03/2013</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Selection factors</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980 Commissioners Standard Ordinary (CSO) Selection Factors – Female. Minimum Select Age: 0. Maximum Select Age: 70 and over.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>70</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="0">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="1">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="2">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="3">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="4">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="5">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="6">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="7">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="8">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="9">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="10">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="11">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="12">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="13">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="14">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="15">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="16">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="17">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="18">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="19">
+        <Axis>
+          <Y t="1">1.00</Y>
+          <Y t="2">1.00</Y>
+          <Y t="3">1.00</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="20">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="21">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="22">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="23">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="24">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="25">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="26">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="27">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="28">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="29">
+        <Axis>
+          <Y t="1">0.96</Y>
+          <Y t="2">0.96</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">1.00</Y>
+          <Y t="5">1.00</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="30">
+        <Axis>
+          <Y t="1">0.92</Y>
+          <Y t="2">0.92</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="31">
+        <Axis>
+          <Y t="1">0.92</Y>
+          <Y t="2">0.92</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="32">
+        <Axis>
+          <Y t="1">0.92</Y>
+          <Y t="2">0.92</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="33">
+        <Axis>
+          <Y t="1">0.92</Y>
+          <Y t="2">0.92</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="34">
+        <Axis>
+          <Y t="1">0.92</Y>
+          <Y t="2">0.92</Y>
+          <Y t="3">0.96</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">1.00</Y>
+          <Y t="7">1.00</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="35">
+        <Axis>
+          <Y t="1">0.88</Y>
+          <Y t="2">0.88</Y>
+          <Y t="3">0.92</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">0.96</Y>
+          <Y t="7">0.96</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="36">
+        <Axis>
+          <Y t="1">0.88</Y>
+          <Y t="2">0.88</Y>
+          <Y t="3">0.92</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">0.96</Y>
+          <Y t="7">0.96</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="37">
+        <Axis>
+          <Y t="1">0.88</Y>
+          <Y t="2">0.88</Y>
+          <Y t="3">0.92</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">0.96</Y>
+          <Y t="7">0.96</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="38">
+        <Axis>
+          <Y t="1">0.88</Y>
+          <Y t="2">0.88</Y>
+          <Y t="3">0.92</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">0.96</Y>
+          <Y t="7">0.96</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="39">
+        <Axis>
+          <Y t="1">0.88</Y>
+          <Y t="2">0.88</Y>
+          <Y t="3">0.92</Y>
+          <Y t="4">0.96</Y>
+          <Y t="5">0.96</Y>
+          <Y t="6">0.96</Y>
+          <Y t="7">0.96</Y>
+          <Y t="8">1.00</Y>
+          <Y t="9">1.00</Y>
+          <Y t="10">1.00</Y>
+        </Axis>
+      </Axis>
+      <Axis t="40">
+        <Axis>
+          <Y t="1">0.84</Y>
+          <Y t="2">0.84</Y>
+          <Y t="3">0.88</Y>
+          <Y t="4">0.92</Y>
+          <Y t="5">0.92</Y>
+          <Y t="6">0.92</Y>
+          <Y t="7">0.92</Y>
+          <Y t="8">0.95</Y>
+          <Y t="9">0.95</Y>
+          <Y t="10">0.95</Y>
+        </Axis>
+      </Axis>
+      <Axis t="41">
+        <Axis>
+          <Y t="1">0.84</Y>
+          <Y t="2">0.84</Y>
+          <Y t="3">0.88</Y>
+          <Y t="4">0.92</Y>
+          <Y t="5">0.92</Y>
+          <Y t="6">0.92</Y>
+          <Y t="7">0.92</Y>
+          <Y t="8">0.95</Y>
+          <Y t="9">0.95</Y>
+          <Y t="10">0.95</Y>
+        </Axis>
+      </Axis>
+      <Axis t="42">
+        <Axis>
+          <Y t="1">0.84</Y>
+          <Y t="2">0.84</Y>
+          <Y t="3">0.88</Y>
+          <Y t="4">0.92</Y>
+          <Y t="5">0.92</Y>
+          <Y t="6">0.92</Y>
+          <Y t="7">0.92</Y>
+          <Y t="8">0.95</Y>
+          <Y t="9">0.95</Y>
+          <Y t="10">0.95</Y>
+        </Axis>
+      </Axis>
+      <Axis t="43">
+        <Axis>
+          <Y t="1">0.84</Y>
+          <Y t="2">0.84</Y>
+          <Y t="3">0.88</Y>
+          <Y t="4">0.92</Y>
+          <Y t="5">0.92</Y>
+          <Y t="6">0.92</Y>
+          <Y t="7">0.92</Y>
+          <Y t="8">0.95</Y>
+          <Y t="9">0.95</Y>
+          <Y t="10">0.95</Y>
+        </Axis>
+      </Axis>
+      <Axis t="44">
+        <Axis>
+          <Y t="1">0.84</Y>
+          <Y t="2">0.84</Y>
+          <Y t="3">0.88</Y>
+          <Y t="4">0.92</Y>
+          <Y t="5">0.92</Y>
+          <Y t="6">0.92</Y>
+          <Y t="7">0.92</Y>
+          <Y t="8">0.95</Y>
+          <Y t="9">0.95</Y>
+          <Y t="10">0.95</Y>
+        </Axis>
+      </Axis>
+      <Axis t="45">
+        <Axis>
+          <Y t="1">0.80</Y>
+          <Y t="2">0.80</Y>
+          <Y t="3">0.84</Y>
+          <Y t="4">0.88</Y>
+          <Y t="5">0.88</Y>
+          <Y t="6">0.88</Y>
+          <Y t="7">0.88</Y>
+          <Y t="8">0.90</Y>
+          <Y t="9">0.90</Y>
+          <Y t="10">0.90</Y>
+        </Axis>
+      </Axis>
+      <Axis t="46">
+        <Axis>
+          <Y t="1">0.80</Y>
+          <Y t="2">0.80</Y>
+          <Y t="3">0.84</Y>
+          <Y t="4">0.88</Y>
+          <Y t="5">0.88</Y>
+          <Y t="6">0.88</Y>
+          <Y t="7">0.88</Y>
+          <Y t="8">0.90</Y>
+          <Y t="9">0.90</Y>
+          <Y t="10">0.90</Y>
+        </Axis>
+      </Axis>
+      <Axis t="47">
+        <Axis>
+          <Y t="1">0.80</Y>
+          <Y t="2">0.80</Y>
+          <Y t="3">0.84</Y>
+          <Y t="4">0.88</Y>
+          <Y t="5">0.88</Y>
+          <Y t="6">0.88</Y>
+          <Y t="7">0.88</Y>
+          <Y t="8">0.90</Y>
+          <Y t="9">0.90</Y>
+          <Y t="10">0.90</Y>
+        </Axis>
+      </Axis>
+      <Axis t="48">
+        <Axis>
+          <Y t="1">0.80</Y>
+          <Y t="2">0.80</Y>
+          <Y t="3">0.84</Y>
+          <Y t="4">0.88</Y>
+          <Y t="5">0.88</Y>
+          <Y t="6">0.88</Y>
+          <Y t="7">0.88</Y>
+          <Y t="8">0.90</Y>
+          <Y t="9">0.90</Y>
+          <Y t="10">0.90</Y>
+        </Axis>
+      </Axis>
+      <Axis t="49">
+        <Axis>
+          <Y t="1">0.80</Y>
+          <Y t="2">0.80</Y>
+          <Y t="3">0.84</Y>
+          <Y t="4">0.88</Y>
+          <Y t="5">0.88</Y>
+          <Y t="6">0.88</Y>
+          <Y t="7">0.88</Y>
+          <Y t="8">0.90</Y>
+          <Y t="9">0.90</Y>
+          <Y t="10">0.90</Y>
+        </Axis>
+      </Axis>
+      <Axis t="50">
+        <Axis>
+          <Y t="1">0.76</Y>
+          <Y t="2">0.76</Y>
+          <Y t="3">0.80</Y>
+          <Y t="4">0.84</Y>
+          <Y t="5">0.84</Y>
+          <Y t="6">0.84</Y>
+          <Y t="7">0.84</Y>
+          <Y t="8">0.85</Y>
+          <Y t="9">0.85</Y>
+          <Y t="10">0.85</Y>
+        </Axis>
+      </Axis>
+      <Axis t="51">
+        <Axis>
+          <Y t="1">0.76</Y>
+          <Y t="2">0.76</Y>
+          <Y t="3">0.80</Y>
+          <Y t="4">0.84</Y>
+          <Y t="5">0.84</Y>
+          <Y t="6">0.84</Y>
+          <Y t="7">0.84</Y>
+          <Y t="8">0.85</Y>
+          <Y t="9">0.85</Y>
+          <Y t="10">0.85</Y>
+        </Axis>
+      </Axis>
+      <Axis t="52">
+        <Axis>
+          <Y t="1">0.76</Y>
+          <Y t="2">0.76</Y>
+          <Y t="3">0.80</Y>
+          <Y t="4">0.84</Y>
+          <Y t="5">0.84</Y>
+          <Y t="6">0.84</Y>
+          <Y t="7">0.84</Y>
+          <Y t="8">0.85</Y>
+          <Y t="9">0.85</Y>
+          <Y t="10">0.85</Y>
+        </Axis>
+      </Axis>
+      <Axis t="53">
+        <Axis>
+          <Y t="1">0.76</Y>
+          <Y t="2">0.76</Y>
+          <Y t="3">0.80</Y>
+          <Y t="4">0.84</Y>
+          <Y t="5">0.84</Y>
+          <Y t="6">0.84</Y>
+          <Y t="7">0.84</Y>
+          <Y t="8">0.85</Y>
+          <Y t="9">0.85</Y>
+          <Y t="10">0.85</Y>
+        </Axis>
+      </Axis>
+      <Axis t="54">
+        <Axis>
+          <Y t="1">0.76</Y>
+          <Y t="2">0.76</Y>
+          <Y t="3">0.80</Y>
+          <Y t="4">0.84</Y>
+          <Y t="5">0.84</Y>
+          <Y t="6">0.84</Y>
+          <Y t="7">0.84</Y>
+          <Y t="8">0.85</Y>
+          <Y t="9">0.85</Y>
+          <Y t="10">0.85</Y>
+        </Axis>
+      </Axis>
+      <Axis t="55">
+        <Axis>
+          <Y t="1">0.72</Y>
+          <Y t="2">0.72</Y>
+          <Y t="3">0.76</Y>
+          <Y t="4">0.80</Y>
+          <Y t="5">0.80</Y>
+          <Y t="6">0.80</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="56">
+        <Axis>
+          <Y t="1">0.72</Y>
+          <Y t="2">0.72</Y>
+          <Y t="3">0.76</Y>
+          <Y t="4">0.80</Y>
+          <Y t="5">0.80</Y>
+          <Y t="6">0.80</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="57">
+        <Axis>
+          <Y t="1">0.72</Y>
+          <Y t="2">0.72</Y>
+          <Y t="3">0.76</Y>
+          <Y t="4">0.80</Y>
+          <Y t="5">0.80</Y>
+          <Y t="6">0.80</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="58">
+        <Axis>
+          <Y t="1">0.72</Y>
+          <Y t="2">0.72</Y>
+          <Y t="3">0.76</Y>
+          <Y t="4">0.80</Y>
+          <Y t="5">0.80</Y>
+          <Y t="6">0.80</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="59">
+        <Axis>
+          <Y t="1">0.72</Y>
+          <Y t="2">0.72</Y>
+          <Y t="3">0.76</Y>
+          <Y t="4">0.80</Y>
+          <Y t="5">0.80</Y>
+          <Y t="6">0.80</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="60">
+        <Axis>
+          <Y t="1">0.68</Y>
+          <Y t="2">0.68</Y>
+          <Y t="3">0.72</Y>
+          <Y t="4">0.76</Y>
+          <Y t="5">0.76</Y>
+          <Y t="6">0.76</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="61">
+        <Axis>
+          <Y t="1">0.68</Y>
+          <Y t="2">0.68</Y>
+          <Y t="3">0.72</Y>
+          <Y t="4">0.76</Y>
+          <Y t="5">0.76</Y>
+          <Y t="6">0.76</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="62">
+        <Axis>
+          <Y t="1">0.68</Y>
+          <Y t="2">0.68</Y>
+          <Y t="3">0.72</Y>
+          <Y t="4">0.76</Y>
+          <Y t="5">0.76</Y>
+          <Y t="6">0.76</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="63">
+        <Axis>
+          <Y t="1">0.68</Y>
+          <Y t="2">0.68</Y>
+          <Y t="3">0.72</Y>
+          <Y t="4">0.76</Y>
+          <Y t="5">0.76</Y>
+          <Y t="6">0.76</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="64">
+        <Axis>
+          <Y t="1">0.68</Y>
+          <Y t="2">0.68</Y>
+          <Y t="3">0.72</Y>
+          <Y t="4">0.76</Y>
+          <Y t="5">0.76</Y>
+          <Y t="6">0.76</Y>
+          <Y t="7">0.80</Y>
+          <Y t="8">0.80</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="65">
+        <Axis>
+          <Y t="1">0.64</Y>
+          <Y t="2">0.64</Y>
+          <Y t="3">0.68</Y>
+          <Y t="4">0.72</Y>
+          <Y t="5">0.72</Y>
+          <Y t="6">0.72</Y>
+          <Y t="7">0.75</Y>
+          <Y t="8">0.75</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="66">
+        <Axis>
+          <Y t="1">0.64</Y>
+          <Y t="2">0.64</Y>
+          <Y t="3">0.68</Y>
+          <Y t="4">0.72</Y>
+          <Y t="5">0.72</Y>
+          <Y t="6">0.72</Y>
+          <Y t="7">0.75</Y>
+          <Y t="8">0.75</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="67">
+        <Axis>
+          <Y t="1">0.64</Y>
+          <Y t="2">0.64</Y>
+          <Y t="3">0.68</Y>
+          <Y t="4">0.72</Y>
+          <Y t="5">0.72</Y>
+          <Y t="6">0.72</Y>
+          <Y t="7">0.75</Y>
+          <Y t="8">0.75</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="68">
+        <Axis>
+          <Y t="1">0.64</Y>
+          <Y t="2">0.64</Y>
+          <Y t="3">0.68</Y>
+          <Y t="4">0.72</Y>
+          <Y t="5">0.72</Y>
+          <Y t="6">0.72</Y>
+          <Y t="7">0.75</Y>
+          <Y t="8">0.75</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="69">
+        <Axis>
+          <Y t="1">0.64</Y>
+          <Y t="2">0.64</Y>
+          <Y t="3">0.68</Y>
+          <Y t="4">0.72</Y>
+          <Y t="5">0.72</Y>
+          <Y t="6">0.72</Y>
+          <Y t="7">0.75</Y>
+          <Y t="8">0.75</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+      <Axis t="70">
+        <Axis>
+          <Y t="1">0.60</Y>
+          <Y t="2">0.60</Y>
+          <Y t="3">0.64</Y>
+          <Y t="4">0.68</Y>
+          <Y t="5">0.68</Y>
+          <Y t="6">0.72</Y>
+          <Y t="7">0.75</Y>
+          <Y t="8">0.75</Y>
+          <Y t="9">0.80</Y>
+          <Y t="10">0.80</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

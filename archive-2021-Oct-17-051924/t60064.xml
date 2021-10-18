@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>60064</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Hangs Wagner</ProviderName>
+    <TableReference>IAAust Mortality Committee, “Institute of Actuaries of Australia Mortality Investigation IA 95-97 M and F: Graduated Mortality Tables”, Institute of Actuaries of Australia, (2001). Accessed: February, 2014 from http://www.actuaries.asn.au/Library/Reports/2001/MortalityTables9597.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>IA 95-97 Female</TableName>
+    <TableDescription>IA 95-97 Female. Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Based on data provided by 14 offices for the full three-year period 1995-1997. Policy types considered were as follows: whole of life/endowment unbundled, guaranteed term, reviewable term.  Methodology:  Mortality rates based on policies of durations two years and over. The rates shown for ages 0 to 14 years for both males and females are not based on insured lives’ data, but are drawn from the Australian Life Tables 1995-97 (See SOA Table Identities 60061 and 60062). Both male and female mortality rates were graduated by the Whittaker-Henderson method. Data Transcription Errors: None. Data Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Healthy Lives Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>IA 95-97 Female. Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00502</Y>
+        <Y t="1">0.00045</Y>
+        <Y t="2">0.00026</Y>
+        <Y t="3">0.00022</Y>
+        <Y t="4">0.00018</Y>
+        <Y t="5">0.00015</Y>
+        <Y t="6">0.00013</Y>
+        <Y t="7">0.00012</Y>
+        <Y t="8">0.00012</Y>
+        <Y t="9">0.00012</Y>
+        <Y t="10">0.00013</Y>
+        <Y t="11">0.00014</Y>
+        <Y t="12">0.00015</Y>
+        <Y t="13">0.00017</Y>
+        <Y t="14">0.00018</Y>
+        <Y t="15">0.00019</Y>
+        <Y t="16">0.00021</Y>
+        <Y t="17">0.00023</Y>
+        <Y t="18">0.00026</Y>
+        <Y t="19">0.00029</Y>
+        <Y t="20">0.00029</Y>
+        <Y t="21">0.00027</Y>
+        <Y t="22">0.00026</Y>
+        <Y t="23">0.00025</Y>
+        <Y t="24">0.00024</Y>
+        <Y t="25">0.00024</Y>
+        <Y t="26">0.00025</Y>
+        <Y t="27">0.00026</Y>
+        <Y t="28">0.00027</Y>
+        <Y t="29">0.00029</Y>
+        <Y t="30">0.00030</Y>
+        <Y t="31">0.00032</Y>
+        <Y t="32">0.00034</Y>
+        <Y t="33">0.00036</Y>
+        <Y t="34">0.00039</Y>
+        <Y t="35">0.00043</Y>
+        <Y t="36">0.00047</Y>
+        <Y t="37">0.00051</Y>
+        <Y t="38">0.00056</Y>
+        <Y t="39">0.00062</Y>
+        <Y t="40">0.00068</Y>
+        <Y t="41">0.00074</Y>
+        <Y t="42">0.00082</Y>
+        <Y t="43">0.00089</Y>
+        <Y t="44">0.00097</Y>
+        <Y t="45">0.00106</Y>
+        <Y t="46">0.00115</Y>
+        <Y t="47">0.00125</Y>
+        <Y t="48">0.00135</Y>
+        <Y t="49">0.00146</Y>
+        <Y t="50">0.00157</Y>
+        <Y t="51">0.00169</Y>
+        <Y t="52">0.00182</Y>
+        <Y t="53">0.00197</Y>
+        <Y t="54">0.00215</Y>
+        <Y t="55">0.00236</Y>
+        <Y t="56">0.00261</Y>
+        <Y t="57">0.00290</Y>
+        <Y t="58">0.00323</Y>
+        <Y t="59">0.00361</Y>
+        <Y t="60">0.00404</Y>
+        <Y t="61">0.00452</Y>
+        <Y t="62">0.00506</Y>
+        <Y t="63">0.00566</Y>
+        <Y t="64">0.00631</Y>
+        <Y t="65">0.00703</Y>
+        <Y t="66">0.00780</Y>
+        <Y t="67">0.00863</Y>
+        <Y t="68">0.00953</Y>
+        <Y t="69">0.01049</Y>
+        <Y t="70">0.01154</Y>
+        <Y t="71">0.01271</Y>
+        <Y t="72">0.01407</Y>
+        <Y t="73">0.01569</Y>
+        <Y t="74">0.01763</Y>
+        <Y t="75">0.01993</Y>
+        <Y t="76">0.02264</Y>
+        <Y t="77">0.02581</Y>
+        <Y t="78">0.02948</Y>
+        <Y t="79">0.03370</Y>
+        <Y t="80">0.03852</Y>
+        <Y t="81">0.04398</Y>
+        <Y t="82">0.05012</Y>
+        <Y t="83">0.05698</Y>
+        <Y t="84">0.06459</Y>
+        <Y t="85">0.07297</Y>
+        <Y t="86">0.08213</Y>
+        <Y t="87">0.09208</Y>
+        <Y t="88">0.10283</Y>
+        <Y t="89">0.11439</Y>
+        <Y t="90">0.12673</Y>
+        <Y t="91">0.13985</Y>
+        <Y t="92">0.15369</Y>
+        <Y t="93">0.16821</Y>
+        <Y t="94">0.18333</Y>
+        <Y t="95">0.19900</Y>
+        <Y t="96">0.21518</Y>
+        <Y t="97">0.23184</Y>
+        <Y t="98">0.24897</Y>
+        <Y t="99">0.26658</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

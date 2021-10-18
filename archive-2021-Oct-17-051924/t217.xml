@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>217</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>John S. Brake</ProviderName>
+    <TableReference></TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>1973-78 Phillipine Intercompany Table  - PENDING VALIDATION</TableName>
+    <TableDescription>Source of data: Data of 6 local insurance companies
+Volume of data: 7,644 deaths. Observation period: 1973 to 1978. Construction method: Data was graduated then a margin was added Minimum age: 0 Maximum age: 99</TableDescription>
+    <Comments>NOTE: the contents of this table have yet to be validated against a published source to ensure no transcription errors have occurred</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Phillipines</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="63">Philippines</Nation>
+      <TableDescription>1973-78 Phillipine Intercompany Table -Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00726</Y>
+        <Y t="1">0.00399</Y>
+        <Y t="2">0.00264</Y>
+        <Y t="3">0.00229</Y>
+        <Y t="4">0.00202</Y>
+        <Y t="5">0.00180</Y>
+        <Y t="6">0.00162</Y>
+        <Y t="7">0.00149</Y>
+        <Y t="8">0.00141</Y>
+        <Y t="9">0.00136</Y>
+        <Y t="10">0.00135</Y>
+        <Y t="11">0.00137</Y>
+        <Y t="12">0.00142</Y>
+        <Y t="13">0.00149</Y>
+        <Y t="14">0.00157</Y>
+        <Y t="15">0.00166</Y>
+        <Y t="16">0.00174</Y>
+        <Y t="17">0.00181</Y>
+        <Y t="18">0.00186</Y>
+        <Y t="19">0.00189</Y>
+        <Y t="20">0.00193</Y>
+        <Y t="21">0.00196</Y>
+        <Y t="22">0.00200</Y>
+        <Y t="23">0.00207</Y>
+        <Y t="24">0.00216</Y>
+        <Y t="25">0.00221</Y>
+        <Y t="26">0.00227</Y>
+        <Y t="27">0.00231</Y>
+        <Y t="28">0.00230</Y>
+        <Y t="29">0.00228</Y>
+        <Y t="30">0.00225</Y>
+        <Y t="31">0.00222</Y>
+        <Y t="32">0.00219</Y>
+        <Y t="33">0.00219</Y>
+        <Y t="34">0.00222</Y>
+        <Y t="35">0.00226</Y>
+        <Y t="36">0.00233</Y>
+        <Y t="37">0.00242</Y>
+        <Y t="38">0.00254</Y>
+        <Y t="39">0.00268</Y>
+        <Y t="40">0.00286</Y>
+        <Y t="41">0.00305</Y>
+        <Y t="42">0.00326</Y>
+        <Y t="43">0.00349</Y>
+        <Y t="44">0.00376</Y>
+        <Y t="45">0.00404</Y>
+        <Y t="46">0.00435</Y>
+        <Y t="47">0.00468</Y>
+        <Y t="48">0.00503</Y>
+        <Y t="49">0.00543</Y>
+        <Y t="50">0.00587</Y>
+        <Y t="51">0.00637</Y>
+        <Y t="52">0.00694</Y>
+        <Y t="53">0.00758</Y>
+        <Y t="54">0.00830</Y>
+        <Y t="55">0.00906</Y>
+        <Y t="56">0.00987</Y>
+        <Y t="57">0.01069</Y>
+        <Y t="58">0.01153</Y>
+        <Y t="59">0.01241</Y>
+        <Y t="60">0.01337</Y>
+        <Y t="61">0.01443</Y>
+        <Y t="62">0.01563</Y>
+        <Y t="63">0.01699</Y>
+        <Y t="64">0.01852</Y>
+        <Y t="65">0.02027</Y>
+        <Y t="66">0.02221</Y>
+        <Y t="67">0.02442</Y>
+        <Y t="68">0.02684</Y>
+        <Y t="69">0.02958</Y>
+        <Y t="70">0.03269</Y>
+        <Y t="71">0.03619</Y>
+        <Y t="72">0.04023</Y>
+        <Y t="73">0.04448</Y>
+        <Y t="74">0.04996</Y>
+        <Y t="75">0.05551</Y>
+        <Y t="76">0.06219</Y>
+        <Y t="77">0.06873</Y>
+        <Y t="78">0.07704</Y>
+        <Y t="79">0.08651</Y>
+        <Y t="80">0.09743</Y>
+        <Y t="81">0.11012</Y>
+        <Y t="82">0.12491</Y>
+        <Y t="83">0.14210</Y>
+        <Y t="84">0.16199</Y>
+        <Y t="85">0.18492</Y>
+        <Y t="86">0.21120</Y>
+        <Y t="87">0.24113</Y>
+        <Y t="88">0.27503</Y>
+        <Y t="89">0.31322</Y>
+        <Y t="90">0.35600</Y>
+        <Y t="91">0.40330</Y>
+        <Y t="92">0.45663</Y>
+        <Y t="93">0.51511</Y>
+        <Y t="94">0.57943</Y>
+        <Y t="95">0.64994</Y>
+        <Y t="96">0.72693</Y>
+        <Y t="97">0.81071</Y>
+        <Y t="98">0.90160</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

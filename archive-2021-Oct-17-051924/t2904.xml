@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2904</TableIdentity>
+    <ProviderDomain>www.bankofgreece.gr</ProviderDomain>
+    <ProviderName>George D. Kravvaritis</ProviderName>
+    <TableReference>George D. Kravvaritis, “The New Greek Valuation Tables EAE 2005”, Hellenic Actuarial Society (2006). Accessed: August, 2014 from http://www.actuar.aegean.gr/samos2006/Abstracts/Kravvaritis_1.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>EAE 2005 P - Females</TableName>
+    <TableDescription>Hellenic Actuarial Society 2005 Annuity Products Table (EAE 2012 P) - Females. Minimum Age: 0 Maximum Age: 120</TableDescription>
+    <Comments>Study Data: The EAE 2005 tables are based on the mortality experience over the years 2000-2003 from individual insurance policies. The data were contributed in 2004 by Greek insurance companies. A selection period of 5 years has been chosen in order to eliminate the temporary initial selection effect. Methodology: The crude mortality rates have been graduated using smoothing splines. At young ages, where the data were sparse, mortality rates have been blended with the general population mortality rates. Similarly mortality rates for the oldest ages have been extrapolated from a parametric curve fitted to mortality rates. To ensure the adequacy of the new EAE 2005 P table in the future, annual mortality improvement coefficients were calculated and projected using the logarithmic model based on data from the Greek general population. These coefficients enable the projection of the current mortality in the future. Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuity</KeyWord>
+    <KeyWord>Greece</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="30">Greece</Nation>
+      <TableDescription>Hellenic Actuarial Society 2005 Annuity Products Table (EAE 2012 P) - Females. Minimum Age: 0 Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00117102</Y>
+        <Y t="1">0.00017885</Y>
+        <Y t="2">0.00015717</Y>
+        <Y t="3">0.00013991</Y>
+        <Y t="4">0.00012643</Y>
+        <Y t="5">0.00011516</Y>
+        <Y t="6">0.00010522</Y>
+        <Y t="7">9.741E-05</Y>
+        <Y t="8">9.303E-05</Y>
+        <Y t="9">9.266E-05</Y>
+        <Y t="10">9.601E-05</Y>
+        <Y t="11">0.00010258</Y>
+        <Y t="12">0.00011201</Y>
+        <Y t="13">0.00012388</Y>
+        <Y t="14">0.00013739</Y>
+        <Y t="15">0.00015129</Y>
+        <Y t="16">0.00016423</Y>
+        <Y t="17">0.00017561</Y>
+        <Y t="18">0.00018573</Y>
+        <Y t="19">0.00019555</Y>
+        <Y t="20">0.00020474</Y>
+        <Y t="21">0.00021271</Y>
+        <Y t="22">0.00021946</Y>
+        <Y t="23">0.00022521</Y>
+        <Y t="24">0.00023018</Y>
+        <Y t="25">0.00023453</Y>
+        <Y t="26">0.00023859</Y>
+        <Y t="27">0.00024274</Y>
+        <Y t="28">0.00024734</Y>
+        <Y t="29">0.00025273</Y>
+        <Y t="30">0.00025931</Y>
+        <Y t="31">0.00026745</Y>
+        <Y t="32">0.00027757</Y>
+        <Y t="33">0.00028999</Y>
+        <Y t="34">0.00030484</Y>
+        <Y t="35">0.00032216</Y>
+        <Y t="36">0.00034235</Y>
+        <Y t="37">0.00036588</Y>
+        <Y t="38">0.0003931</Y>
+        <Y t="39">0.00042497</Y>
+        <Y t="40">0.00046272</Y>
+        <Y t="41">0.00050762</Y>
+        <Y t="42">0.00056058</Y>
+        <Y t="43">0.00062219</Y>
+        <Y t="44">0.00069289</Y>
+        <Y t="45">0.00077255</Y>
+        <Y t="46">0.00086158</Y>
+        <Y t="47">0.00095873</Y>
+        <Y t="48">0.00106362</Y>
+        <Y t="49">0.00117709</Y>
+        <Y t="50">0.00129404</Y>
+        <Y t="51">0.00141549</Y>
+        <Y t="52">0.00154132</Y>
+        <Y t="53">0.00167199</Y>
+        <Y t="54">0.00181099</Y>
+        <Y t="55">0.00197237</Y>
+        <Y t="56">0.00216547</Y>
+        <Y t="57">0.00239197</Y>
+        <Y t="58">0.00265544</Y>
+        <Y t="59">0.00295812</Y>
+        <Y t="60">0.00330718</Y>
+        <Y t="61">0.00370261</Y>
+        <Y t="62">0.00415036</Y>
+        <Y t="63">0.00465535</Y>
+        <Y t="64">0.00522345</Y>
+        <Y t="65">0.00586502</Y>
+        <Y t="66">0.00658723</Y>
+        <Y t="67">0.00740337</Y>
+        <Y t="68">0.00832268</Y>
+        <Y t="69">0.00935826</Y>
+        <Y t="70">0.01052051</Y>
+        <Y t="71">0.01182924</Y>
+        <Y t="72">0.01329192</Y>
+        <Y t="73">0.01493727</Y>
+        <Y t="74">0.01677408</Y>
+        <Y t="75">0.01883772</Y>
+        <Y t="76">0.02114685</Y>
+        <Y t="77">0.02372853</Y>
+        <Y t="78">0.02661229</Y>
+        <Y t="79">0.02984229</Y>
+        <Y t="80">0.03343044</Y>
+        <Y t="81">0.03742479</Y>
+        <Y t="82">0.04186512</Y>
+        <Y t="83">0.04679362</Y>
+        <Y t="84">0.05225459</Y>
+        <Y t="85">0.05827067</Y>
+        <Y t="86">0.06485517</Y>
+        <Y t="87">0.07203798</Y>
+        <Y t="88">0.07984549</Y>
+        <Y t="89">0.08829931</Y>
+        <Y t="90">0.09745402</Y>
+        <Y t="91">0.10737231</Y>
+        <Y t="92">0.11807883</Y>
+        <Y t="93">0.1295908</Y>
+        <Y t="94">0.14191633</Y>
+        <Y t="95">0.15505278</Y>
+        <Y t="96">0.16898529</Y>
+        <Y t="97">0.18368547</Y>
+        <Y t="98">0.19911038</Y>
+        <Y t="99">0.21520214</Y>
+        <Y t="100">0.23188776</Y>
+        <Y t="101">0.24908002</Y>
+        <Y t="102">0.26667867</Y>
+        <Y t="103">0.28457246</Y>
+        <Y t="104">0.30264183</Y>
+        <Y t="105">0.32076195</Y>
+        <Y t="106">0.3388062</Y>
+        <Y t="107">0.35664977</Y>
+        <Y t="108">0.3741732</Y>
+        <Y t="109">0.39126538</Y>
+        <Y t="110">0.40782658</Y>
+        <Y t="111">0.42377035</Y>
+        <Y t="112">0.43902498</Y>
+        <Y t="113">0.45353424</Y>
+        <Y t="114">0.4672574</Y>
+        <Y t="115">0.4801687</Y>
+        <Y t="116">0.4922561</Y>
+        <Y t="117">0.50352024</Y>
+        <Y t="118">0.51397237</Y>
+        <Y t="119">0.52361249</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

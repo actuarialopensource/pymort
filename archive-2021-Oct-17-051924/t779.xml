@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>779</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Society of Actuaries, “II. Extension and Modification of Certain Basic Disability Values”, Transactions of the Society of Actuaries, Vol. XIII, No. 37 (1961) Table 2. Accessed: June, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1961/january/tsa61v13pt1n37ab32.pdf and Manuel R. Cueto, “Monetary Values for Ordinary Disability Benefits, Based on Period 2 of the 1952 Inter-Company Study of the Society’s Committee with Interest at 2½ %”, Transactions of the Society of Actuaries, Vol. VI, No. 14. (1954) Table 5b. Accessed: June, 2013 from   http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1954/January/tsa54v6n1410.pdf</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1952 Graduated Rates of Disablement - Benefit 5, Period 2, 360 day EP</TableName>
+    <TableDescription>1952 Graduated Rates of Disablement- Benefit 5. Time Period: 2. Elimination Period: 360 days. Minimum Age: 5. Maximum Age: 65</TableDescription>
+    <Comments>Study Data: The rates of disablement developed in the 1952 Disability Study of the Society of Actuaries (SOA) for Benefit 5 (See SOA Table Identity 780) were extended at the younger ages down to age 5 and at the older ages from age 59 to age 64 in order to permit the preparation of monetary tables for disability benefits that would be as complete as possible. Methodology:  The rate of disablement for age 10 was used for ages 5 to 9, inclusive. The data available in the 1952 Disability Study was not sufficient to produce reliable results and there are presently no other statistics at young ages that are deemed acceptable for this purpose. Because of these facts, and also because the rates of disablement at the young ages are relatively low, so that any changes in rates would have only a minor effect on the net premiums, its was considered desirable to use the age 10 rate. With respect to the extension of the Benefit 5, Period 2, rates of disablement at the older ages 60 to 64, inclusive, it was decided to use a previously prepared extension of the Benefit 1, Period 2, rates of disablement as a guide in determining the Benefit 5 rate of disablement at age 64. Based on ratios of the Benefit 5 rates to the Benefit 1 rates at ages 55 through 59, it was deemed reasonable to assume that the Benefit 5 rate of disablement at age 64 would be equal to 50% of the Benefit 1 rate. Then for attained ages 60 to 63, a third degree formula, which reproduced the published Benefit 5 rate of disablement at attained age 59 and the ratio-based rate for attained age 64, was developed. Data Transcription Errors: None. Data Certified: 06/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1952 Graduated Rates of Disablement- Benefit 5. Time Period: 2. Elimination Period: 360 days. Minimum Age: 5. Maximum Age: 65</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>65</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.00052</Y>
+        <Y t="6">0.00052</Y>
+        <Y t="7">0.00052</Y>
+        <Y t="8">0.00052</Y>
+        <Y t="9">0.00052</Y>
+        <Y t="10">0.00052</Y>
+        <Y t="11">0.00052</Y>
+        <Y t="12">0.00052</Y>
+        <Y t="13">0.00052</Y>
+        <Y t="14">0.00052</Y>
+        <Y t="15">0.00052</Y>
+        <Y t="16">0.00052</Y>
+        <Y t="17">0.00052</Y>
+        <Y t="18">0.00061</Y>
+        <Y t="19">0.00069</Y>
+        <Y t="20">0.00076</Y>
+        <Y t="21">0.00082</Y>
+        <Y t="22">0.00088</Y>
+        <Y t="23">0.00092</Y>
+        <Y t="24">0.00096</Y>
+        <Y t="25">0.00100</Y>
+        <Y t="26">0.00102</Y>
+        <Y t="27">0.00105</Y>
+        <Y t="28">0.00107</Y>
+        <Y t="29">0.00110</Y>
+        <Y t="30">0.00112</Y>
+        <Y t="31">0.00115</Y>
+        <Y t="32">0.00118</Y>
+        <Y t="33">0.00121</Y>
+        <Y t="34">0.00124</Y>
+        <Y t="35">0.00129</Y>
+        <Y t="36">0.00134</Y>
+        <Y t="37">0.00140</Y>
+        <Y t="38">0.00147</Y>
+        <Y t="39">0.00155</Y>
+        <Y t="40">0.00164</Y>
+        <Y t="41">0.00173</Y>
+        <Y t="42">0.00184</Y>
+        <Y t="43">0.00195</Y>
+        <Y t="44">0.00207</Y>
+        <Y t="45">0.00221</Y>
+        <Y t="46">0.00236</Y>
+        <Y t="47">0.00256</Y>
+        <Y t="48">0.00279</Y>
+        <Y t="49">0.00309</Y>
+        <Y t="50">0.00347</Y>
+        <Y t="51">0.00395</Y>
+        <Y t="52">0.00454</Y>
+        <Y t="53">0.00525</Y>
+        <Y t="54">0.00611</Y>
+        <Y t="55">0.00712</Y>
+        <Y t="56">0.00838</Y>
+        <Y t="57">0.00933</Y>
+        <Y t="58">0.01035</Y>
+        <Y t="59">0.01144</Y>
+        <Y t="60">0.01264</Y>
+        <Y t="61">0.01415</Y>
+        <Y t="62">0.01621</Y>
+        <Y t="63">0.01907</Y>
+        <Y t="64">0.02295</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3417</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, public-pension-amount-exposure.xlsx, Sheet 'PubS-2010(A)', https://www.soa.org/resources/experience-studies/2018/public-pension-amount-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PubS-2010(A) Female Retiree</TableName>
+    <TableDescription>Pub-2010 Amount-weighted Safety Above-Median Mortality Table - Female Retiree. Ages 45-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pub-2010 Amount-weighted Safety Above-Median Mortality Table - Female Retiree. Ages 45-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>45</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="45">0.00081</Y>
+        <Y t="46">0.00091</Y>
+        <Y t="47">0.00101</Y>
+        <Y t="48">0.00113</Y>
+        <Y t="49">0.00126</Y>
+        <Y t="50">0.00141</Y>
+        <Y t="51">0.00157</Y>
+        <Y t="52">0.00175</Y>
+        <Y t="53">0.00195</Y>
+        <Y t="54">0.00218</Y>
+        <Y t="55">0.00243</Y>
+        <Y t="56">0.00271</Y>
+        <Y t="57">0.00302</Y>
+        <Y t="58">0.00337</Y>
+        <Y t="59">0.00376</Y>
+        <Y t="60">0.00419</Y>
+        <Y t="61">0.00468</Y>
+        <Y t="62">0.00522</Y>
+        <Y t="63">0.00582</Y>
+        <Y t="64">0.00649</Y>
+        <Y t="65">0.00724</Y>
+        <Y t="66">0.00808</Y>
+        <Y t="67">0.00901</Y>
+        <Y t="68">0.01005</Y>
+        <Y t="69">0.01121</Y>
+        <Y t="70">0.01251</Y>
+        <Y t="71">0.01395</Y>
+        <Y t="72">0.01556</Y>
+        <Y t="73">0.01736</Y>
+        <Y t="74">0.01936</Y>
+        <Y t="75">0.02159</Y>
+        <Y t="76">0.02409</Y>
+        <Y t="77">0.02687</Y>
+        <Y t="78">0.02997</Y>
+        <Y t="79">0.03343</Y>
+        <Y t="80">0.03729</Y>
+        <Y t="81">0.04159</Y>
+        <Y t="82">0.0464</Y>
+        <Y t="83">0.05175</Y>
+        <Y t="84">0.05773</Y>
+        <Y t="85">0.06439</Y>
+        <Y t="86">0.07183</Y>
+        <Y t="87">0.08012</Y>
+        <Y t="88">0.08937</Y>
+        <Y t="89">0.09969</Y>
+        <Y t="90">0.11119</Y>
+        <Y t="91">0.12384</Y>
+        <Y t="92">0.13757</Y>
+        <Y t="93">0.15236</Y>
+        <Y t="94">0.16817</Y>
+        <Y t="95">0.18498</Y>
+        <Y t="96">0.20273</Y>
+        <Y t="97">0.22136</Y>
+        <Y t="98">0.2408</Y>
+        <Y t="99">0.26093</Y>
+        <Y t="100">0.2816</Y>
+        <Y t="101">0.30265</Y>
+        <Y t="102">0.32382</Y>
+        <Y t="103">0.34494</Y>
+        <Y t="104">0.36581</Y>
+        <Y t="105">0.38625</Y>
+        <Y t="106">0.40609</Y>
+        <Y t="107">0.42519</Y>
+        <Y t="108">0.44341</Y>
+        <Y t="109">0.46067</Y>
+        <Y t="110">0.4769</Y>
+        <Y t="111">0.49205</Y>
+        <Y t="112">0.5</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

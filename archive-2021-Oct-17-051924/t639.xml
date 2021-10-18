@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>639</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Allgemeine Deutsche Sterbetafel. Reprinted A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>German Life Table 1990-92 (ADST 1990/92) – Male, ANB</TableName>
+    <TableDescription>German Life Table 1990-92 (ADST 1990/92) – Male. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 90</TableDescription>
+    <Comments>Study Data: Population data for the period 1990-92, of West Germany only, based on national census by the Federal Statistical Office separately for males and females. The reunification of Germany occurred on 3 October 1990. Thus the population increased by 25%. This new part of population had and still has a different mortality. It is however assumed that for the medium term mortality in both parts of Germany will converge through convergence of living conditions. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>German Life Table 1990-92 (ADST 1990/92) – Male. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 90</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>90</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00739176</Y>
+        <Y t="1">0.00060354</Y>
+        <Y t="2">0.00042261</Y>
+        <Y t="3">0.00035232</Y>
+        <Y t="4">0.00025504</Y>
+        <Y t="5">0.00024290</Y>
+        <Y t="6">0.00018695</Y>
+        <Y t="7">0.00018669</Y>
+        <Y t="8">0.00020268</Y>
+        <Y t="9">0.00016002</Y>
+        <Y t="10">0.00015393</Y>
+        <Y t="11">0.00017675</Y>
+        <Y t="12">0.00019233</Y>
+        <Y t="13">0.00017811</Y>
+        <Y t="14">0.00022444</Y>
+        <Y t="15">0.00032340</Y>
+        <Y t="16">0.00050552</Y>
+        <Y t="17">0.00061006</Y>
+        <Y t="18">0.00093730</Y>
+        <Y t="19">0.00106107</Y>
+        <Y t="20">0.00096806</Y>
+        <Y t="21">0.00107139</Y>
+        <Y t="22">0.00105958</Y>
+        <Y t="23">0.00106884</Y>
+        <Y t="24">0.00096705</Y>
+        <Y t="25">0.00102805</Y>
+        <Y t="26">0.00104172</Y>
+        <Y t="27">0.00104620</Y>
+        <Y t="28">0.00105421</Y>
+        <Y t="29">0.00116174</Y>
+        <Y t="30">0.00119721</Y>
+        <Y t="31">0.00124211</Y>
+        <Y t="32">0.00130687</Y>
+        <Y t="33">0.00138912</Y>
+        <Y t="34">0.00149289</Y>
+        <Y t="35">0.00160054</Y>
+        <Y t="36">0.00158769</Y>
+        <Y t="37">0.00179980</Y>
+        <Y t="38">0.00191640</Y>
+        <Y t="39">0.00202946</Y>
+        <Y t="40">0.00224384</Y>
+        <Y t="41">0.00242875</Y>
+        <Y t="42">0.00256261</Y>
+        <Y t="43">0.00293669</Y>
+        <Y t="44">0.00305211</Y>
+        <Y t="45">0.00350936</Y>
+        <Y t="46">0.00382082</Y>
+        <Y t="47">0.00416674</Y>
+        <Y t="48">0.00470399</Y>
+        <Y t="49">0.00501105</Y>
+        <Y t="50">0.00577058</Y>
+        <Y t="51">0.00613175</Y>
+        <Y t="52">0.00667524</Y>
+        <Y t="53">0.00740287</Y>
+        <Y t="54">0.00812852</Y>
+        <Y t="55">0.00909610</Y>
+        <Y t="56">0.00998865</Y>
+        <Y t="57">0.01116427</Y>
+        <Y t="58">0.01228787</Y>
+        <Y t="59">0.01382823</Y>
+        <Y t="60">0.01544204</Y>
+        <Y t="61">0.01683243</Y>
+        <Y t="62">0.01849769</Y>
+        <Y t="63">0.01994877</Y>
+        <Y t="64">0.02175480</Y>
+        <Y t="65">0.02329464</Y>
+        <Y t="66">0.02567903</Y>
+        <Y t="67">0.02798246</Y>
+        <Y t="68">0.03055966</Y>
+        <Y t="69">0.03378026</Y>
+        <Y t="70">0.03810847</Y>
+        <Y t="71">0.04085384</Y>
+        <Y t="72">0.04496220</Y>
+        <Y t="73">0.04720709</Y>
+        <Y t="74">0.05248824</Y>
+        <Y t="75">0.05946457</Y>
+        <Y t="76">0.06557956</Y>
+        <Y t="77">0.07184245</Y>
+        <Y t="78">0.07857074</Y>
+        <Y t="79">0.08661723</Y>
+        <Y t="80">0.09536674</Y>
+        <Y t="81">0.10547473</Y>
+        <Y t="82">0.11631937</Y>
+        <Y t="83">0.12760223</Y>
+        <Y t="84">0.13758499</Y>
+        <Y t="85">0.15134008</Y>
+        <Y t="86">0.16315378</Y>
+        <Y t="87">0.17657613</Y>
+        <Y t="88">0.19075219</Y>
+        <Y t="89">0.20095540</Y>
+        <Y t="90">1.00000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,1318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1534</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Cathy Ho and Nancy S. Muise, “U.S. Individual Life Persistency: A Joint Study Sponsored by the Society of Actuaries and LIMRA”, SOA and LL Global, Inc., (2009). Accessed: July, 2018 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2004-2005 U.S. Individual Life Persistency Study</TableName>
+    <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005)</TableDescription>
+    <Comments>Lapse experience for whole life, term life, universal life and variable universal life plans traced through 2005. Data Certified: 07/2018.</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT, Male, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.102</Y>
+        <Y t="2">0.102</Y>
+        <Y t="3">0.098</Y>
+        <Y t="4">0.087</Y>
+        <Y t="5">0.09</Y>
+        <Y t="6">0.087</Y>
+        <Y t="7">0.08</Y>
+        <Y t="8">0.079</Y>
+        <Y t="9">0.079</Y>
+        <Y t="10">0.093</Y>
+        <Y t="11">0.09</Y>
+        <Y t="12">0.077</Y>
+        <Y t="13">0.078</Y>
+        <Y t="14">0.075</Y>
+        <Y t="15">0.074</Y>
+        <Y t="16">0.074</Y>
+        <Y t="17">0.073</Y>
+        <Y t="18">0.073</Y>
+        <Y t="19">0.075</Y>
+        <Y t="20">0.081</Y>
+        <Y t="21">0.094</Y>
+        <Y t="22">0.083</Y>
+        <Y t="23">0.083</Y>
+        <Y t="24">0.091</Y>
+        <Y t="25">0.096</Y>
+        <Y t="26">0.1</Y>
+        <Y t="27">0.1</Y>
+        <Y t="28">0.1</Y>
+        <Y t="29">0.1</Y>
+        <Y t="30">0.096</Y>
+        <Y t="31">0.096</Y>
+        <Y t="32">0.096</Y>
+        <Y t="33">0.096</Y>
+        <Y t="34">0.096</Y>
+        <Y t="35">0.096</Y>
+        <Y t="36">0.096</Y>
+        <Y t="37">0.096</Y>
+        <Y t="38">0.096</Y>
+        <Y t="39">0.096</Y>
+        <Y t="40">0.096</Y>
+        <Y t="41">0.096</Y>
+        <Y t="42">0.096</Y>
+        <Y t="43">0.096</Y>
+        <Y t="44">0.096</Y>
+        <Y t="45">0.096</Y>
+        <Y t="46">0.096</Y>
+        <Y t="47">0.096</Y>
+        <Y t="48">0.096</Y>
+        <Y t="49">0.096</Y>
+        <Y t="50">0.096</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT, Female, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.105</Y>
+        <Y t="2">0.1</Y>
+        <Y t="3">0.101</Y>
+        <Y t="4">0.089</Y>
+        <Y t="5">0.085</Y>
+        <Y t="6">0.08</Y>
+        <Y t="7">0.073</Y>
+        <Y t="8">0.07</Y>
+        <Y t="9">0.069</Y>
+        <Y t="10">0.078</Y>
+        <Y t="11">0.076</Y>
+        <Y t="12">0.069</Y>
+        <Y t="13">0.068</Y>
+        <Y t="14">0.064</Y>
+        <Y t="15">0.064</Y>
+        <Y t="16">0.062</Y>
+        <Y t="17">0.062</Y>
+        <Y t="18">0.064</Y>
+        <Y t="19">0.065</Y>
+        <Y t="20">0.07</Y>
+        <Y t="21">0.08</Y>
+        <Y t="22">0.073</Y>
+        <Y t="23">0.075</Y>
+        <Y t="24">0.079</Y>
+        <Y t="25">0.088</Y>
+        <Y t="26">0.085</Y>
+        <Y t="27">0.085</Y>
+        <Y t="28">0.085</Y>
+        <Y t="29">0.085</Y>
+        <Y t="30">0.074</Y>
+        <Y t="31">0.074</Y>
+        <Y t="32">0.074</Y>
+        <Y t="33">0.074</Y>
+        <Y t="34">0.074</Y>
+        <Y t="35">0.074</Y>
+        <Y t="36">0.074</Y>
+        <Y t="37">0.074</Y>
+        <Y t="38">0.074</Y>
+        <Y t="39">0.074</Y>
+        <Y t="40">0.074</Y>
+        <Y t="41">0.074</Y>
+        <Y t="42">0.074</Y>
+        <Y t="43">0.074</Y>
+        <Y t="44">0.074</Y>
+        <Y t="45">0.074</Y>
+        <Y t="46">0.074</Y>
+        <Y t="47">0.074</Y>
+        <Y t="48">0.074</Y>
+        <Y t="49">0.074</Y>
+        <Y t="50">0.074</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, YRT, Male, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.073</Y>
+        <Y t="2">0.081</Y>
+        <Y t="3">0.074</Y>
+        <Y t="4">0.074</Y>
+        <Y t="5">0.083</Y>
+        <Y t="6">0.082</Y>
+        <Y t="7">0.077</Y>
+        <Y t="8">0.076</Y>
+        <Y t="9">0.078</Y>
+        <Y t="10">0.092</Y>
+        <Y t="11">0.089</Y>
+        <Y t="12">0.077</Y>
+        <Y t="13">0.079</Y>
+        <Y t="14">0.075</Y>
+        <Y t="15">0.074</Y>
+        <Y t="16">0.07</Y>
+        <Y t="17">0.068</Y>
+        <Y t="18">0.069</Y>
+        <Y t="19">0.071</Y>
+        <Y t="20">0.077</Y>
+        <Y t="21">0.088</Y>
+        <Y t="22">0.081</Y>
+        <Y t="23">0.081</Y>
+        <Y t="24">0.086</Y>
+        <Y t="25">0.087</Y>
+        <Y t="26">0.096</Y>
+        <Y t="27">0.096</Y>
+        <Y t="28">0.096</Y>
+        <Y t="29">0.096</Y>
+        <Y t="30">0.108</Y>
+        <Y t="31">0.108</Y>
+        <Y t="32">0.108</Y>
+        <Y t="33">0.108</Y>
+        <Y t="34">0.108</Y>
+        <Y t="35">0.108</Y>
+        <Y t="36">0.108</Y>
+        <Y t="37">0.108</Y>
+        <Y t="38">0.108</Y>
+        <Y t="39">0.108</Y>
+        <Y t="40">0.108</Y>
+        <Y t="41">0.108</Y>
+        <Y t="42">0.108</Y>
+        <Y t="43">0.108</Y>
+        <Y t="44">0.108</Y>
+        <Y t="45">0.108</Y>
+        <Y t="46">0.108</Y>
+        <Y t="47">0.108</Y>
+        <Y t="48">0.108</Y>
+        <Y t="49">0.108</Y>
+        <Y t="50">0.108</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, YRT, Female, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.081</Y>
+        <Y t="2">0.08</Y>
+        <Y t="3">0.074</Y>
+        <Y t="4">0.072</Y>
+        <Y t="5">0.074</Y>
+        <Y t="6">0.076</Y>
+        <Y t="7">0.067</Y>
+        <Y t="8">0.068</Y>
+        <Y t="9">0.066</Y>
+        <Y t="10">0.077</Y>
+        <Y t="11">0.072</Y>
+        <Y t="12">0.065</Y>
+        <Y t="13">0.066</Y>
+        <Y t="14">0.065</Y>
+        <Y t="15">0.063</Y>
+        <Y t="16">0.06</Y>
+        <Y t="17">0.057</Y>
+        <Y t="18">0.064</Y>
+        <Y t="19">0.065</Y>
+        <Y t="20">0.067</Y>
+        <Y t="21">0.074</Y>
+        <Y t="22">0.072</Y>
+        <Y t="23">0.069</Y>
+        <Y t="24">0.073</Y>
+        <Y t="25">0.077</Y>
+        <Y t="26">0.083</Y>
+        <Y t="27">0.083</Y>
+        <Y t="28">0.083</Y>
+        <Y t="29">0.083</Y>
+        <Y t="30">0.081</Y>
+        <Y t="31">0.081</Y>
+        <Y t="32">0.081</Y>
+        <Y t="33">0.081</Y>
+        <Y t="34">0.081</Y>
+        <Y t="35">0.081</Y>
+        <Y t="36">0.081</Y>
+        <Y t="37">0.081</Y>
+        <Y t="38">0.081</Y>
+        <Y t="39">0.081</Y>
+        <Y t="40">0.081</Y>
+        <Y t="41">0.081</Y>
+        <Y t="42">0.081</Y>
+        <Y t="43">0.081</Y>
+        <Y t="44">0.081</Y>
+        <Y t="45">0.081</Y>
+        <Y t="46">0.081</Y>
+        <Y t="47">0.081</Y>
+        <Y t="48">0.081</Y>
+        <Y t="49">0.081</Y>
+        <Y t="50">0.081</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Term, Male, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.065</Y>
+        <Y t="2">0.073</Y>
+        <Y t="3">0.062</Y>
+        <Y t="4">0.057</Y>
+        <Y t="5">0.056</Y>
+        <Y t="6">0.054</Y>
+        <Y t="7">0.055</Y>
+        <Y t="8">0.058</Y>
+        <Y t="9">0.052</Y>
+        <Y t="10">0.227</Y>
+        <Y t="11">0.404</Y>
+        <Y t="12">0.194</Y>
+        <Y t="13">0.111</Y>
+        <Y t="14">0.098</Y>
+        <Y t="15">0.089</Y>
+        <Y t="16">0.079</Y>
+        <Y t="17">0.066</Y>
+        <Y t="18">0.046</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Term, Female, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.07</Y>
+        <Y t="2">0.076</Y>
+        <Y t="3">0.065</Y>
+        <Y t="4">0.06</Y>
+        <Y t="5">0.057</Y>
+        <Y t="6">0.054</Y>
+        <Y t="7">0.053</Y>
+        <Y t="8">0.053</Y>
+        <Y t="9">0.047</Y>
+        <Y t="10">0.193</Y>
+        <Y t="11">0.319</Y>
+        <Y t="12">0.143</Y>
+        <Y t="13">0.082</Y>
+        <Y t="14">0.086</Y>
+        <Y t="15">0.077</Y>
+        <Y t="16">0.071</Y>
+        <Y t="17">0.058</Y>
+        <Y t="18">0.04</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amouint Lapse Rates, 10 Year Term, Male, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.054</Y>
+        <Y t="2">0.075</Y>
+        <Y t="3">0.063</Y>
+        <Y t="4">0.06</Y>
+        <Y t="5">0.061</Y>
+        <Y t="6">0.06</Y>
+        <Y t="7">0.064</Y>
+        <Y t="8">0.064</Y>
+        <Y t="9">0.057</Y>
+        <Y t="10">0.228</Y>
+        <Y t="11">0.445</Y>
+        <Y t="12">0.235</Y>
+        <Y t="13">0.135</Y>
+        <Y t="14">0.116</Y>
+        <Y t="15">0.104</Y>
+        <Y t="16">0.09</Y>
+        <Y t="17">0.074</Y>
+        <Y t="18">0.055</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, 10 Year Term, Female, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.055</Y>
+        <Y t="2">0.068</Y>
+        <Y t="3">0.057</Y>
+        <Y t="4">0.061</Y>
+        <Y t="5">0.056</Y>
+        <Y t="6">0.053</Y>
+        <Y t="7">0.058</Y>
+        <Y t="8">0.057</Y>
+        <Y t="9">0.049</Y>
+        <Y t="10">0.202</Y>
+        <Y t="11">0.37</Y>
+        <Y t="12">0.18</Y>
+        <Y t="13">0.103</Y>
+        <Y t="14">0.105</Y>
+        <Y t="15">0.091</Y>
+        <Y t="16">0.081</Y>
+        <Y t="17">0.068</Y>
+        <Y t="18">0.054</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Term, Male, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.05</Y>
+        <Y t="2">0.053</Y>
+        <Y t="3">0.046</Y>
+        <Y t="4">0.047</Y>
+        <Y t="5">0.044</Y>
+        <Y t="6">0.031</Y>
+        <Y t="7">0.031</Y>
+        <Y t="8">0.028</Y>
+        <Y t="9">0.027</Y>
+        <Y t="10">0.031</Y>
+        <Y t="11">0.035</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Term, Female, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.053</Y>
+        <Y t="2">0.056</Y>
+        <Y t="3">0.048</Y>
+        <Y t="4">0.047</Y>
+        <Y t="5">0.043</Y>
+        <Y t="6">0.031</Y>
+        <Y t="7">0.031</Y>
+        <Y t="8">0.027</Y>
+        <Y t="9">0.024</Y>
+        <Y t="10">0.029</Y>
+        <Y t="11">0.033</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, 20 Year Term, Male, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.04</Y>
+        <Y t="2">0.044</Y>
+        <Y t="3">0.039</Y>
+        <Y t="4">0.043</Y>
+        <Y t="5">0.044</Y>
+        <Y t="6">0.03</Y>
+        <Y t="7">0.031</Y>
+        <Y t="8">0.03</Y>
+        <Y t="9">0.029</Y>
+        <Y t="10">0.033</Y>
+        <Y t="11">0.038</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, 20 Year Term, Female, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.04</Y>
+        <Y t="2">0.047</Y>
+        <Y t="3">0.042</Y>
+        <Y t="4">0.042</Y>
+        <Y t="5">0.041</Y>
+        <Y t="6">0.029</Y>
+        <Y t="7">0.036</Y>
+        <Y t="8">0.028</Y>
+        <Y t="9">0.027</Y>
+        <Y t="10">0.03</Y>
+        <Y t="11">0.039</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT,  Death Benefit &lt; $200,000, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.147</Y>
+        <Y t="2">0.129</Y>
+        <Y t="3">0.138</Y>
+        <Y t="4">0.112</Y>
+        <Y t="5">0.103</Y>
+        <Y t="6">0.094</Y>
+        <Y t="7">0.083</Y>
+        <Y t="8">0.08</Y>
+        <Y t="9">0.077</Y>
+        <Y t="10">0.085</Y>
+        <Y t="11">0.085</Y>
+        <Y t="12">0.074</Y>
+        <Y t="13">0.074</Y>
+        <Y t="14">0.07</Y>
+        <Y t="15">0.071</Y>
+        <Y t="16">0.07</Y>
+        <Y t="17">0.07</Y>
+        <Y t="18">0.07</Y>
+        <Y t="19">0.07</Y>
+        <Y t="20">0.075</Y>
+        <Y t="21">0.088</Y>
+        <Y t="22">0.079</Y>
+        <Y t="23">0.079</Y>
+        <Y t="24">0.086</Y>
+        <Y t="25">0.094</Y>
+        <Y t="26">0.095</Y>
+        <Y t="27">0.095</Y>
+        <Y t="28">0.095</Y>
+        <Y t="29">0.095</Y>
+        <Y t="30">0.088</Y>
+        <Y t="31">0.088</Y>
+        <Y t="32">0.088</Y>
+        <Y t="33">0.088</Y>
+        <Y t="34">0.088</Y>
+        <Y t="35">0.088</Y>
+        <Y t="36">0.088</Y>
+        <Y t="37">0.088</Y>
+        <Y t="38">0.088</Y>
+        <Y t="39">0.088</Y>
+        <Y t="40">0.088</Y>
+        <Y t="41">0.088</Y>
+        <Y t="42">0.088</Y>
+        <Y t="43">0.088</Y>
+        <Y t="44">0.088</Y>
+        <Y t="45">0.088</Y>
+        <Y t="46">0.088</Y>
+        <Y t="47">0.088</Y>
+        <Y t="48">0.088</Y>
+        <Y t="49">0.088</Y>
+        <Y t="50">0.088</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT,  Death Benefit $200,000-499,999, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>23</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.096</Y>
+        <Y t="2">0.096</Y>
+        <Y t="3">0.086</Y>
+        <Y t="4">0.078</Y>
+        <Y t="5">0.081</Y>
+        <Y t="6">0.076</Y>
+        <Y t="7">0.072</Y>
+        <Y t="8">0.069</Y>
+        <Y t="9">0.069</Y>
+        <Y t="10">0.088</Y>
+        <Y t="11">0.079</Y>
+        <Y t="12">0.071</Y>
+        <Y t="13">0.071</Y>
+        <Y t="14">0.07</Y>
+        <Y t="15">0.067</Y>
+        <Y t="16">0.069</Y>
+        <Y t="17">0.065</Y>
+        <Y t="18">0.065</Y>
+        <Y t="19">0.074</Y>
+        <Y t="20">0.079</Y>
+        <Y t="21">0.077</Y>
+        <Y t="22">0.083</Y>
+        <Y t="23">0.08</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT,  Death Benefit $500,000 and over, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>19</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.064</Y>
+        <Y t="2">0.073</Y>
+        <Y t="3">0.067</Y>
+        <Y t="4">0.069</Y>
+        <Y t="5">0.074</Y>
+        <Y t="6">0.079</Y>
+        <Y t="7">0.074</Y>
+        <Y t="8">0.073</Y>
+        <Y t="9">0.075</Y>
+        <Y t="10">0.091</Y>
+        <Y t="11">0.086</Y>
+        <Y t="12">0.07</Y>
+        <Y t="13">0.076</Y>
+        <Y t="14">0.07</Y>
+        <Y t="15">0.069</Y>
+        <Y t="16">0.057</Y>
+        <Y t="17">0.059</Y>
+        <Y t="18">0.062</Y>
+        <Y t="19">0.055</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Level Term, Death Benefit &lt; $200,000, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.084</Y>
+        <Y t="2">0.084</Y>
+        <Y t="3">0.071</Y>
+        <Y t="4">0.064</Y>
+        <Y t="5">0.06</Y>
+        <Y t="6">0.055</Y>
+        <Y t="7">0.054</Y>
+        <Y t="8">0.054</Y>
+        <Y t="9">0.047</Y>
+        <Y t="10">0.206</Y>
+        <Y t="11">0.328</Y>
+        <Y t="12">0.146</Y>
+        <Y t="13">0.085</Y>
+        <Y t="14">0.082</Y>
+        <Y t="15">0.074</Y>
+        <Y t="16">0.068</Y>
+        <Y t="17">0.057</Y>
+        <Y t="18">0.039</Y>
+        <Y t="19">0.033</Y>
+        <Y t="20">0.053</Y>
+        <Y t="21">0.06</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Level Term, Death Benefit $200,000-499,999, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>17</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.063</Y>
+        <Y t="2">0.069</Y>
+        <Y t="3">0.061</Y>
+        <Y t="4">0.054</Y>
+        <Y t="5">0.052</Y>
+        <Y t="6">0.051</Y>
+        <Y t="7">0.051</Y>
+        <Y t="8">0.056</Y>
+        <Y t="9">0.051</Y>
+        <Y t="10">0.23</Y>
+        <Y t="11">0.427</Y>
+        <Y t="12">0.225</Y>
+        <Y t="13">0.137</Y>
+        <Y t="14">0.123</Y>
+        <Y t="15">0.108</Y>
+        <Y t="16">0.095</Y>
+        <Y t="17">0.079</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Level Term, Death Benefit $500,000 and over, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>16</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.053</Y>
+        <Y t="2">0.067</Y>
+        <Y t="3">0.055</Y>
+        <Y t="4">0.054</Y>
+        <Y t="5">0.056</Y>
+        <Y t="6">0.056</Y>
+        <Y t="7">0.061</Y>
+        <Y t="8">0.063</Y>
+        <Y t="9">0.058</Y>
+        <Y t="10">0.217</Y>
+        <Y t="11">0.456</Y>
+        <Y t="12">0.258</Y>
+        <Y t="13">0.14</Y>
+        <Y t="14">0.142</Y>
+        <Y t="15">0.133</Y>
+        <Y t="16">0.116</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Level Premium Term, Death Benefit &lt; $200,000, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.073</Y>
+        <Y t="2">0.071</Y>
+        <Y t="3">0.058</Y>
+        <Y t="4">0.055</Y>
+        <Y t="5">0.048</Y>
+        <Y t="6">0.035</Y>
+        <Y t="7">0.034</Y>
+        <Y t="8">0.028</Y>
+        <Y t="9">0.024</Y>
+        <Y t="10">0.027</Y>
+        <Y t="11">0.031</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Level Premium Term, Death Benefit $200,000-499,999, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.05</Y>
+        <Y t="2">0.054</Y>
+        <Y t="3">0.048</Y>
+        <Y t="4">0.045</Y>
+        <Y t="5">0.041</Y>
+        <Y t="6">0.03</Y>
+        <Y t="7">0.029</Y>
+        <Y t="8">0.027</Y>
+        <Y t="9">0.026</Y>
+        <Y t="10">0.031</Y>
+        <Y t="11">0.036</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Level Premiium Term, Death Benefit $500,000 and over, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.038</Y>
+        <Y t="2">0.043</Y>
+        <Y t="3">0.037</Y>
+        <Y t="4">0.041</Y>
+        <Y t="5">0.04</Y>
+        <Y t="6">0.028</Y>
+        <Y t="7">0.03</Y>
+        <Y t="8">0.031</Y>
+        <Y t="9">0.031</Y>
+        <Y t="10">0.036</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT, Nonsmokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.091</Y>
+        <Y t="2">0.092</Y>
+        <Y t="3">0.087</Y>
+        <Y t="4">0.079</Y>
+        <Y t="5">0.081</Y>
+        <Y t="6">0.079</Y>
+        <Y t="7">0.074</Y>
+        <Y t="8">0.073</Y>
+        <Y t="9">0.072</Y>
+        <Y t="10">0.083</Y>
+        <Y t="11">0.082</Y>
+        <Y t="12">0.072</Y>
+        <Y t="13">0.072</Y>
+        <Y t="14">0.069</Y>
+        <Y t="15">0.068</Y>
+        <Y t="16">0.068</Y>
+        <Y t="17">0.062</Y>
+        <Y t="18">0.064</Y>
+        <Y t="19">0.068</Y>
+        <Y t="20">0.067</Y>
+        <Y t="21">0.07</Y>
+        <Y t="22">0.073</Y>
+        <Y t="23">0.073</Y>
+        <Y t="24">0.063</Y>
+        <Y t="25">0.072</Y>
+        <Y t="26">0.069</Y>
+        <Y t="27">0.069</Y>
+        <Y t="28">0.069</Y>
+        <Y t="29">0.069</Y>
+        <Y t="30">0.069</Y>
+        <Y t="31">0.069</Y>
+        <Y t="32">0.069</Y>
+        <Y t="33">0.069</Y>
+        <Y t="34">0.069</Y>
+        <Y t="35">0.069</Y>
+        <Y t="36">0.069</Y>
+        <Y t="37">0.069</Y>
+        <Y t="38">0.069</Y>
+        <Y t="39">0.069</Y>
+        <Y t="40">0.069</Y>
+        <Y t="41">0.069</Y>
+        <Y t="42">0.069</Y>
+        <Y t="43">0.069</Y>
+        <Y t="44">0.069</Y>
+        <Y t="45">0.069</Y>
+        <Y t="46">0.069</Y>
+        <Y t="47">0.069</Y>
+        <Y t="48">0.069</Y>
+        <Y t="49">0.069</Y>
+        <Y t="50">0.069</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, YRT, Smokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.164</Y>
+        <Y t="2">0.16</Y>
+        <Y t="3">0.165</Y>
+        <Y t="4">0.14</Y>
+        <Y t="5">0.134</Y>
+        <Y t="6">0.123</Y>
+        <Y t="7">0.103</Y>
+        <Y t="8">0.094</Y>
+        <Y t="9">0.09</Y>
+        <Y t="10">0.105</Y>
+        <Y t="11">0.09</Y>
+        <Y t="12">0.081</Y>
+        <Y t="13">0.089</Y>
+        <Y t="14">0.082</Y>
+        <Y t="15">0.084</Y>
+        <Y t="16">0.074</Y>
+        <Y t="17">0.076</Y>
+        <Y t="18">0.072</Y>
+        <Y t="19">0.076</Y>
+        <Y t="20">0.064</Y>
+        <Y t="21">0.077</Y>
+        <Y t="22">0.072</Y>
+        <Y t="23">0.08</Y>
+        <Y t="24">0.07</Y>
+        <Y t="25">0.074</Y>
+        <Y t="26">0.069</Y>
+        <Y t="27">0.069</Y>
+        <Y t="28">0.069</Y>
+        <Y t="29">0.069</Y>
+        <Y t="30">0.144</Y>
+        <Y t="31">0.144</Y>
+        <Y t="32">0.144</Y>
+        <Y t="33">0.144</Y>
+        <Y t="34">0.144</Y>
+        <Y t="35">0.144</Y>
+        <Y t="36">0.144</Y>
+        <Y t="37">0.144</Y>
+        <Y t="38">0.144</Y>
+        <Y t="39">0.144</Y>
+        <Y t="40">0.144</Y>
+        <Y t="41">0.144</Y>
+        <Y t="42">0.144</Y>
+        <Y t="43">0.144</Y>
+        <Y t="44">0.144</Y>
+        <Y t="45">0.144</Y>
+        <Y t="46">0.144</Y>
+        <Y t="47">0.144</Y>
+        <Y t="48">0.144</Y>
+        <Y t="49">0.144</Y>
+        <Y t="50">0.144</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Level Premium Term, Nonsmokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.059</Y>
+        <Y t="2">0.068</Y>
+        <Y t="3">0.058</Y>
+        <Y t="4">0.055</Y>
+        <Y t="5">0.054</Y>
+        <Y t="6">0.052</Y>
+        <Y t="7">0.053</Y>
+        <Y t="8">0.055</Y>
+        <Y t="9">0.049</Y>
+        <Y t="10">0.214</Y>
+        <Y t="11">0.373</Y>
+        <Y t="12">0.171</Y>
+        <Y t="13">0.097</Y>
+        <Y t="14">0.093</Y>
+        <Y t="15">0.084</Y>
+        <Y t="16">0.075</Y>
+        <Y t="17">0.063</Y>
+        <Y t="18">0.043</Y>
+        <Y t="19">0.033</Y>
+        <Y t="20">0.061</Y>
+        <Y t="21">0.074</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 10 Year Level Premium Term, Smokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>16</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.119</Y>
+        <Y t="2">0.117</Y>
+        <Y t="3">0.096</Y>
+        <Y t="4">0.08</Y>
+        <Y t="5">0.075</Y>
+        <Y t="6">0.069</Y>
+        <Y t="7">0.067</Y>
+        <Y t="8">0.07</Y>
+        <Y t="9">0.058</Y>
+        <Y t="10">0.221</Y>
+        <Y t="11">0.359</Y>
+        <Y t="12">0.188</Y>
+        <Y t="13">0.123</Y>
+        <Y t="14">0.097</Y>
+        <Y t="15">0.085</Y>
+        <Y t="16">0.082</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Level Premium Term, Nonsmokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>11</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.046</Y>
+        <Y t="2">0.051</Y>
+        <Y t="3">0.044</Y>
+        <Y t="4">0.045</Y>
+        <Y t="5">0.042</Y>
+        <Y t="6">0.03</Y>
+        <Y t="7">0.03</Y>
+        <Y t="8">0.027</Y>
+        <Y t="9">0.025</Y>
+        <Y t="10">0.03</Y>
+        <Y t="11">0.034</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Policy Lapse Rates, 20 Year Level Premium Term, Smokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>9</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.124</Y>
+        <Y t="2">0.108</Y>
+        <Y t="3">0.087</Y>
+        <Y t="4">0.078</Y>
+        <Y t="5">0.068</Y>
+        <Y t="6">0.052</Y>
+        <Y t="7">0.049</Y>
+        <Y t="8">0.038</Y>
+        <Y t="9">0.037</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, YRT, Nonsmokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.068</Y>
+        <Y t="2">0.076</Y>
+        <Y t="3">0.071</Y>
+        <Y t="4">0.071</Y>
+        <Y t="5">0.079</Y>
+        <Y t="6">0.078</Y>
+        <Y t="7">0.072</Y>
+        <Y t="8">0.074</Y>
+        <Y t="9">0.074</Y>
+        <Y t="10">0.086</Y>
+        <Y t="11">0.083</Y>
+        <Y t="12">0.072</Y>
+        <Y t="13">0.074</Y>
+        <Y t="14">0.071</Y>
+        <Y t="15">0.07</Y>
+        <Y t="16">0.066</Y>
+        <Y t="17">0.058</Y>
+        <Y t="18">0.063</Y>
+        <Y t="19">0.067</Y>
+        <Y t="20">0.07</Y>
+        <Y t="21">0.074</Y>
+        <Y t="22">0.075</Y>
+        <Y t="23">0.073</Y>
+        <Y t="24">0.067</Y>
+        <Y t="25">0.074</Y>
+        <Y t="26">0.07</Y>
+        <Y t="27">0.07</Y>
+        <Y t="28">0.07</Y>
+        <Y t="29">0.07</Y>
+        <Y t="30">0.05</Y>
+        <Y t="31">0.05</Y>
+        <Y t="32">0.05</Y>
+        <Y t="33">0.05</Y>
+        <Y t="34">0.05</Y>
+        <Y t="35">0.05</Y>
+        <Y t="36">0.05</Y>
+        <Y t="37">0.05</Y>
+        <Y t="38">0.05</Y>
+        <Y t="39">0.05</Y>
+        <Y t="40">0.05</Y>
+        <Y t="41">0.05</Y>
+        <Y t="42">0.05</Y>
+        <Y t="43">0.05</Y>
+        <Y t="44">0.05</Y>
+        <Y t="45">0.05</Y>
+        <Y t="46">0.05</Y>
+        <Y t="47">0.05</Y>
+        <Y t="48">0.05</Y>
+        <Y t="49">0.05</Y>
+        <Y t="50">0.05</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2004-2005 U.S. Individual Life Persistency Study, Term Insurance Lapse Experience (Experience Period 2004-2005), Term Insurance, Face Amount Lapse Rates, YRT, Smokers, Duration</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>50</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.139</Y>
+        <Y t="2">0.145</Y>
+        <Y t="3">0.116</Y>
+        <Y t="4">0.111</Y>
+        <Y t="5">0.113</Y>
+        <Y t="6">0.105</Y>
+        <Y t="7">0.097</Y>
+        <Y t="8">0.081</Y>
+        <Y t="9">0.086</Y>
+        <Y t="10">0.114</Y>
+        <Y t="11">0.097</Y>
+        <Y t="12">0.09</Y>
+        <Y t="13">0.092</Y>
+        <Y t="14">0.092</Y>
+        <Y t="15">0.081</Y>
+        <Y t="16">0.077</Y>
+        <Y t="17">0.089</Y>
+        <Y t="18">0.065</Y>
+        <Y t="19">0.076</Y>
+        <Y t="20">0.062</Y>
+        <Y t="21">0.086</Y>
+        <Y t="22">0.074</Y>
+        <Y t="23">0.081</Y>
+        <Y t="24">0.08</Y>
+        <Y t="25">0.075</Y>
+        <Y t="26">0.086</Y>
+        <Y t="27">0.086</Y>
+        <Y t="28">0.086</Y>
+        <Y t="29">0.086</Y>
+        <Y t="30">0.111</Y>
+        <Y t="31">0.111</Y>
+        <Y t="32">0.111</Y>
+        <Y t="33">0.111</Y>
+        <Y t="34">0.111</Y>
+        <Y t="35">0.111</Y>
+        <Y t="36">0.111</Y>
+        <Y t="37">0.111</Y>
+        <Y t="38">0.111</Y>
+        <Y t="39">0.111</Y>
+        <Y t="40">0.111</Y>
+        <Y t="41">0.111</Y>
+        <Y t="42">0.111</Y>
+        <Y t="43">0.111</Y>
+        <Y t="44">0.111</Y>
+        <Y t="45">0.111</Y>
+        <Y t="46">0.111</Y>
+        <Y t="47">0.111</Y>
+        <Y t="48">0.111</Y>
+        <Y t="49">0.111</Y>
+        <Y t="50">0.111</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1876</TableIdentity>
+    <ProviderDomain>www.ib.gov.tw</ProviderDomain>
+    <ProviderName>Taiwan Government</ProviderName>
+    <TableReference>Executive Yuan of the Financial Supervisory Commission, “Taiwan Fifth Life Insurance Experience Life Table", Republic of China (2011). Accessed: July, 2013 from http://www.ib.gov.tw/ch/home.jsp?id=35&amp;parentpath=0,2&amp;mcustomize=multimessage_view.jsp&amp;dataserno=201202070002&amp;aplistdn=ou=bulletin,ou=multisite,ou=chinese,ou=ap_root,o=fsc,c=tw&amp;toolsflag=Y&amp;dtable=Law</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>2011 TSO Experience Table - Male (5th)</TableName>
+    <TableDescription>2011 Taiwan Standard Ordinary (TSO) Experience Table – Male (5th). Minimum Age: 0. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Taiwan Standard Ordinary (TSO) 2011 is the fifth industry table and will replace its predecessor TSO 2002 which has been in use since 2003. Industry experience from 2004 to 2008, with around 145,000 male claims and 74,000 female claims, serves as the main basis. Methodology: Rates for ages 0 to 59 were based on smoothed data from the industry experience. Rates for ages 60 to 92 are a function of smoothed industry data and Gompertz forecasts. Rates above 92 are based on Gompertz forecasts as there was little industry experience. Several smoothing techniques were tested with Kernel the final choice. Margins were not disclosed. Data Transcription Errors: None. Data Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Taiwan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="886">Taiwan</Nation>
+      <TableDescription>2011 Taiwan Standard Ordinary (TSO) Experience Table – Male (5th). Minimum Age: 0. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.000522</Y>
+        <Y t="1">0.000384</Y>
+        <Y t="2">0.000277</Y>
+        <Y t="3">0.000215</Y>
+        <Y t="4">0.000181</Y>
+        <Y t="5">0.000166</Y>
+        <Y t="6">0.000149</Y>
+        <Y t="7">0.000139</Y>
+        <Y t="8">0.000134</Y>
+        <Y t="9">0.000133</Y>
+        <Y t="10">0.000129</Y>
+        <Y t="11">0.000131</Y>
+        <Y t="12">0.000153</Y>
+        <Y t="13">0.000196</Y>
+        <Y t="14">0.000255</Y>
+        <Y t="15">0.000344</Y>
+        <Y t="16">0.000455</Y>
+        <Y t="17">0.00054</Y>
+        <Y t="18">0.000584</Y>
+        <Y t="19">0.000607</Y>
+        <Y t="20">0.000624</Y>
+        <Y t="21">0.000641</Y>
+        <Y t="22">0.000668</Y>
+        <Y t="23">0.00071</Y>
+        <Y t="24">0.000762</Y>
+        <Y t="25">0.000821</Y>
+        <Y t="26">0.000885</Y>
+        <Y t="27">0.000926</Y>
+        <Y t="28">0.000965</Y>
+        <Y t="29">0.001008</Y>
+        <Y t="30">0.001061</Y>
+        <Y t="31">0.001127</Y>
+        <Y t="32">0.001209</Y>
+        <Y t="33">0.001305</Y>
+        <Y t="34">0.001413</Y>
+        <Y t="35">0.001532</Y>
+        <Y t="36">0.001661</Y>
+        <Y t="37">0.001804</Y>
+        <Y t="38">0.001949</Y>
+        <Y t="39">0.002089</Y>
+        <Y t="40">0.002254</Y>
+        <Y t="41">0.002429</Y>
+        <Y t="42">0.002636</Y>
+        <Y t="43">0.002875</Y>
+        <Y t="44">0.003139</Y>
+        <Y t="45">0.003418</Y>
+        <Y t="46">0.003714</Y>
+        <Y t="47">0.004033</Y>
+        <Y t="48">0.004381</Y>
+        <Y t="49">0.004766</Y>
+        <Y t="50">0.005136</Y>
+        <Y t="51">0.005524</Y>
+        <Y t="52">0.005939</Y>
+        <Y t="53">0.006351</Y>
+        <Y t="54">0.006754</Y>
+        <Y t="55">0.007189</Y>
+        <Y t="56">0.007689</Y>
+        <Y t="57">0.00832</Y>
+        <Y t="58">0.009084</Y>
+        <Y t="59">0.01004</Y>
+        <Y t="60">0.010943</Y>
+        <Y t="61">0.01168</Y>
+        <Y t="62">0.012592</Y>
+        <Y t="63">0.013699</Y>
+        <Y t="64">0.014981</Y>
+        <Y t="65">0.016404</Y>
+        <Y t="66">0.017892</Y>
+        <Y t="67">0.019497</Y>
+        <Y t="68">0.021322</Y>
+        <Y t="69">0.023359</Y>
+        <Y t="70">0.025556</Y>
+        <Y t="71">0.027961</Y>
+        <Y t="72">0.030517</Y>
+        <Y t="73">0.03329</Y>
+        <Y t="74">0.036264</Y>
+        <Y t="75">0.039482</Y>
+        <Y t="76">0.042913</Y>
+        <Y t="77">0.046627</Y>
+        <Y t="78">0.050663</Y>
+        <Y t="79">0.05509</Y>
+        <Y t="80">0.059942</Y>
+        <Y t="81">0.065252</Y>
+        <Y t="82">0.070972</Y>
+        <Y t="83">0.077204</Y>
+        <Y t="84">0.083852</Y>
+        <Y t="85">0.091053</Y>
+        <Y t="86">0.098875</Y>
+        <Y t="87">0.107353</Y>
+        <Y t="88">0.116732</Y>
+        <Y t="89">0.127197</Y>
+        <Y t="90">0.139237</Y>
+        <Y t="91">0.153157</Y>
+        <Y t="92">0.16696</Y>
+        <Y t="93">0.182008</Y>
+        <Y t="94">0.198411</Y>
+        <Y t="95">0.216292</Y>
+        <Y t="96">0.235786</Y>
+        <Y t="97">0.257035</Y>
+        <Y t="98">0.280201</Y>
+        <Y t="99">0.305453</Y>
+        <Y t="100">0.332982</Y>
+        <Y t="101">0.362992</Y>
+        <Y t="102">0.395706</Y>
+        <Y t="103">0.431369</Y>
+        <Y t="104">0.470245</Y>
+        <Y t="105">0.512626</Y>
+        <Y t="106">0.558826</Y>
+        <Y t="107">0.609189</Y>
+        <Y t="108">0.664092</Y>
+        <Y t="109">0.723942</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1474</TableIdentity>
+    <ProviderDomain>rrb.gov</ProviderDomain>
+    <ProviderName>U.S. Railroad Retirement Board</ProviderName>
+    <TableReference>Frank J. Buzzi, “Twenty-Fourth Actuarial Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 2007 with Technical Supplement”, U.S. Railroad Retirement Board, Bureau of the Actuary, (2007): Table S-1, p. 43 Accessed September, 2012 from:   http://www.rrb.gov/pdf/act/valuation24.pdf, p. 54</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Table S-1: 2007 RRB Railway Non-Disabled Annuitants, ANB</TableName>
+    <TableDescription>Table S-1: 2007 Railroad Retirement Board (RRB) Railway Non-disabled Annuitant Mortality. Age Nearest Birthday. Minimum Age: 60.  Maximum Age: 110.</TableDescription>
+    <Comments>Study Data: Section 502 of the Railroad Retirement Solvency Act of 1983 requires the Railroad Retirement Board to prepare an annual report on the actuarial status of the railroad retirement system and to submit the report to the Congress by July 1. As warranted, the Railroad Board updates assumptions used for this report; this table is a reflection of one such update. Methodology: All data concerning current beneficiaries were derived from a “universe” file compiled as of December 21, 2007 for observation period 2003-2006.  Information needed to derive terminations for mortality studies were obtained from a similar universe file created at an earlier date (date not available). Data Transcription Errors:  None.  Data Certified: 09/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Table S-1: 2007 Railroad Retirement Board (RRB) Railway Non-disabled Annuitant Mortality. Age Nearest Birthday. Minimum Age: 60.  Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>60</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="60">0.00624</Y>
+        <Y t="61">0.00707</Y>
+        <Y t="62">0.00801</Y>
+        <Y t="63">0.00906</Y>
+        <Y t="64">0.01024</Y>
+        <Y t="65">0.01157</Y>
+        <Y t="66">0.01305</Y>
+        <Y t="67">0.01472</Y>
+        <Y t="68">0.01658</Y>
+        <Y t="69">0.01866</Y>
+        <Y t="70">0.02098</Y>
+        <Y t="71">0.02357</Y>
+        <Y t="72">0.02645</Y>
+        <Y t="73">0.02966</Y>
+        <Y t="74">0.03322</Y>
+        <Y t="75">0.03717</Y>
+        <Y t="76">0.04155</Y>
+        <Y t="77">0.0464</Y>
+        <Y t="78">0.05176</Y>
+        <Y t="79">0.05766</Y>
+        <Y t="80">0.06417</Y>
+        <Y t="81">0.07133</Y>
+        <Y t="82">0.07919</Y>
+        <Y t="83">0.08781</Y>
+        <Y t="84">0.09724</Y>
+        <Y t="85">0.10753</Y>
+        <Y t="86">0.11874</Y>
+        <Y t="87">0.13093</Y>
+        <Y t="88">0.14416</Y>
+        <Y t="89">0.15847</Y>
+        <Y t="90">0.17391</Y>
+        <Y t="91">0.19053</Y>
+        <Y t="92">0.20836</Y>
+        <Y t="93">0.22744</Y>
+        <Y t="94">0.24779</Y>
+        <Y t="95">0.26871</Y>
+        <Y t="96">0.28917</Y>
+        <Y t="97">0.3087</Y>
+        <Y t="98">0.32687</Y>
+        <Y t="99">0.34332</Y>
+        <Y t="100">0.35771</Y>
+        <Y t="101">0.36973</Y>
+        <Y t="102">0.3791</Y>
+        <Y t="103">0.38552</Y>
+        <Y t="104">0.38866</Y>
+        <Y t="105">0.39005</Y>
+        <Y t="106">0.39143</Y>
+        <Y t="107">0.39281</Y>
+        <Y t="108">0.39418</Y>
+        <Y t="109">0.39555</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

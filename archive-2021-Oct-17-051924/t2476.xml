@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2476</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Central Bureau of Statistics. Reprinted by A.S. MacDonald, "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>1988 Finland Assured Lives Mortality - Female</TableName>
+    <TableDescription>1988 Finland Assured Lives Mortality – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: All Finnish life insurance companies use mortality tables based on statistical analysis of their pooled experiences. Every year the experience of all life companies is collected and compared with the tariff assumptions. Methodology: The data are collected and analyzed by a committee of representatives of all the companies. A Makeham formula is traditionally adopted. For individual life products, the formula is as follows for men: µ(x + h) = 1.15(0.00048 + 10^0.055(x+h-94.5){(x+h); while for women: µ(x + h) = 1.15(0.00048 + 10^0.055(x+h-101.5){(x+h-7). In both formulas h is the duration since the beginning of the policy and {(x+h) = 10^-0.02(x+h-72). Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Finland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="358">Finland</Nation>
+      <TableDescription>1988 Finland Assured Lives Mortality – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00064600</Y>
+        <Y t="1">0.00065400</Y>
+        <Y t="2">0.00066200</Y>
+        <Y t="3">0.00067200</Y>
+        <Y t="4">0.00068200</Y>
+        <Y t="5">0.00069300</Y>
+        <Y t="6">0.00070400</Y>
+        <Y t="7">0.00071700</Y>
+        <Y t="8">0.00073100</Y>
+        <Y t="9">0.00074600</Y>
+        <Y t="10">0.00076200</Y>
+        <Y t="11">0.00078000</Y>
+        <Y t="12">0.00079900</Y>
+        <Y t="13">0.00082000</Y>
+        <Y t="14">0.00084300</Y>
+        <Y t="15">0.00086700</Y>
+        <Y t="16">0.00089300</Y>
+        <Y t="17">0.00092200</Y>
+        <Y t="18">0.00095300</Y>
+        <Y t="19">0.00098700</Y>
+        <Y t="20">0.00102300</Y>
+        <Y t="21">0.00106300</Y>
+        <Y t="22">0.00110600</Y>
+        <Y t="23">0.00115200</Y>
+        <Y t="24">0.00120200</Y>
+        <Y t="25">0.00125700</Y>
+        <Y t="26">0.00131600</Y>
+        <Y t="27">0.00138000</Y>
+        <Y t="28">0.00145000</Y>
+        <Y t="29">0.00152500</Y>
+        <Y t="30">0.00160700</Y>
+        <Y t="31">0.00169500</Y>
+        <Y t="32">0.00179100</Y>
+        <Y t="33">0.00189500</Y>
+        <Y t="34">0.00200800</Y>
+        <Y t="35">0.00213000</Y>
+        <Y t="36">0.00226300</Y>
+        <Y t="37">0.00240600</Y>
+        <Y t="38">0.00256200</Y>
+        <Y t="39">0.00273100</Y>
+        <Y t="40">0.00291400</Y>
+        <Y t="41">0.00311200</Y>
+        <Y t="42">0.00332700</Y>
+        <Y t="43">0.00355900</Y>
+        <Y t="44">0.00381200</Y>
+        <Y t="45">0.00408500</Y>
+        <Y t="46">0.00438200</Y>
+        <Y t="47">0.00470300</Y>
+        <Y t="48">0.00505200</Y>
+        <Y t="49">0.00543000</Y>
+        <Y t="50">0.00583900</Y>
+        <Y t="51">0.00628300</Y>
+        <Y t="52">0.00676400</Y>
+        <Y t="53">0.00728500</Y>
+        <Y t="54">0.00785000</Y>
+        <Y t="55">0.00846200</Y>
+        <Y t="56">0.00912600</Y>
+        <Y t="57">0.00984600</Y>
+        <Y t="58">0.01062600</Y>
+        <Y t="59">0.01147100</Y>
+        <Y t="60">0.01238800</Y>
+        <Y t="61">0.01338100</Y>
+        <Y t="62">0.01445800</Y>
+        <Y t="63">0.01562500</Y>
+        <Y t="64">0.01689000</Y>
+        <Y t="65">0.01826100</Y>
+        <Y t="66">0.01974700</Y>
+        <Y t="67">0.02135800</Y>
+        <Y t="68">0.02310500</Y>
+        <Y t="69">0.02499700</Y>
+        <Y t="70">0.02704900</Y>
+        <Y t="71">0.02927300</Y>
+        <Y t="72">0.03168300</Y>
+        <Y t="73">0.03429600</Y>
+        <Y t="74">0.03712800</Y>
+        <Y t="75">0.04019800</Y>
+        <Y t="76">0.04352500</Y>
+        <Y t="77">0.04713200</Y>
+        <Y t="78">0.05104100</Y>
+        <Y t="79">0.05527900</Y>
+        <Y t="80">0.05987200</Y>
+        <Y t="81">0.06485000</Y>
+        <Y t="82">0.07024600</Y>
+        <Y t="83">0.07609600</Y>
+        <Y t="84">0.08243600</Y>
+        <Y t="85">0.08930800</Y>
+        <Y t="86">0.09675700</Y>
+        <Y t="87">0.10483100</Y>
+        <Y t="88">0.11358300</Y>
+        <Y t="89">0.12306900</Y>
+        <Y t="90">0.13335200</Y>
+        <Y t="91">0.14449700</Y>
+        <Y t="92">0.15657800</Y>
+        <Y t="93">0.16967300</Y>
+        <Y t="94">0.18386700</Y>
+        <Y t="95">0.19925200</Y>
+        <Y t="96">0.21592800</Y>
+        <Y t="97">0.23400400</Y>
+        <Y t="98">0.25359700</Y>
+        <Y t="99">0.27483400</Y>
+        <Y t="100">0.29785400</Y>
+        <Y t="101">0.32280600</Y>
+        <Y t="102">0.34985100</Y>
+        <Y t="103">0.37916700</Y>
+        <Y t="104">0.41094300</Y>
+        <Y t="105">0.44538600</Y>
+        <Y t="106">0.48271900</Y>
+        <Y t="107">0.52318600</Y>
+        <Y t="108">0.56704900</Y>
+        <Y t="109">0.61459400</Y>
+        <Y t="110">0.66612800</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

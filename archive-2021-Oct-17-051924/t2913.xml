@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2913</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Continuous Mortality Investigation “Assured Lives 1944-48”, Journal of the Institute of Actuaries,  Vol. 77 No. 1,Institute and Faculty of Actuaries, Cambridge University Press, (1951). Accessed: August, 2014 from http://www.actuaries.org.uk/sites/all/files/documents/pdf/0103-0119.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>A1947-48</TableName>
+    <TableDescription>A1947-48 Mortality Table for Assured Lives. Minimum Age: 20. Maximum Age: 100.</TableDescription>
+    <Comments>Study Data: Experience from offices writing standard assured lives in the United Kingdom and who submit data to the Continuous Mortality Investigation. As little difference in mortality was seen between the non-medical class and the medical class was seen, they were combined. Although data was collected for the period 1944-48, the last two years of this period represent data free of war mortality and thus afford the opportunity of assessing the effects on assured lives experience. Methodology: In order to give some general indication of the current level of the mortality of assured lives, the data for the tow years 1947-1948, for all classes of business at durations 3 and over, have been combined and a set of mortality rates has been derived. The rates were graduated by Spencer’s 21-term formula, with adjustments at the young and old ages. Data Transcription Errors: None. Data Certified: 08/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>A1947-48 Mortality Table for Assured Lives. Minimum Age: 20. Maximum Age: 100.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00150</Y>
+        <Y t="21">0.00150</Y>
+        <Y t="22">0.00150</Y>
+        <Y t="23">0.00150</Y>
+        <Y t="24">0.00150</Y>
+        <Y t="25">0.00150</Y>
+        <Y t="26">0.00150</Y>
+        <Y t="27">0.00150</Y>
+        <Y t="28">0.00150</Y>
+        <Y t="29">0.00150</Y>
+        <Y t="30">0.00150</Y>
+        <Y t="31">0.00151</Y>
+        <Y t="32">0.00153</Y>
+        <Y t="33">0.00155</Y>
+        <Y t="34">0.00159</Y>
+        <Y t="35">0.00164</Y>
+        <Y t="36">0.00171</Y>
+        <Y t="37">0.00180</Y>
+        <Y t="38">0.00191</Y>
+        <Y t="39">0.00204</Y>
+        <Y t="40">0.00220</Y>
+        <Y t="41">0.00241</Y>
+        <Y t="42">0.00266</Y>
+        <Y t="43">0.00296</Y>
+        <Y t="44">0.00331</Y>
+        <Y t="45">0.00371</Y>
+        <Y t="46">0.00414</Y>
+        <Y t="47">0.00460</Y>
+        <Y t="48">0.00509</Y>
+        <Y t="49">0.00561</Y>
+        <Y t="50">0.00616</Y>
+        <Y t="51">0.00676</Y>
+        <Y t="52">0.00743</Y>
+        <Y t="53">0.00819</Y>
+        <Y t="54">0.00906</Y>
+        <Y t="55">0.01003</Y>
+        <Y t="56">0.01111</Y>
+        <Y t="57">0.01228</Y>
+        <Y t="58">0.01355</Y>
+        <Y t="59">0.01496</Y>
+        <Y t="60">0.01652</Y>
+        <Y t="61">0.01826</Y>
+        <Y t="62">0.02019</Y>
+        <Y t="63">0.02230</Y>
+        <Y t="64">0.02457</Y>
+        <Y t="65">0.02699</Y>
+        <Y t="66">0.02956</Y>
+        <Y t="67">0.03227</Y>
+        <Y t="68">0.03512</Y>
+        <Y t="69">0.03811</Y>
+        <Y t="70">0.04135</Y>
+        <Y t="71">0.04496</Y>
+        <Y t="72">0.04913</Y>
+        <Y t="73">0.05411</Y>
+        <Y t="74">0.06012</Y>
+        <Y t="75">0.06728</Y>
+        <Y t="76">0.07555</Y>
+        <Y t="77">0.08469</Y>
+        <Y t="78">0.09437</Y>
+        <Y t="79">0.10425</Y>
+        <Y t="80">0.11414</Y>
+        <Y t="81">0.12392</Y>
+        <Y t="82">0.13364</Y>
+        <Y t="83">0.14367</Y>
+        <Y t="84">0.15457</Y>
+        <Y t="85">0.16680</Y>
+        <Y t="86">0.18051</Y>
+        <Y t="87">0.19549</Y>
+        <Y t="88">0.21084</Y>
+        <Y t="89">0.22501</Y>
+        <Y t="90">0.23584</Y>
+        <Y t="91">0.24911</Y>
+        <Y t="92">0.26606</Y>
+        <Y t="93">0.28181</Y>
+        <Y t="94">0.29909</Y>
+        <Y t="95">0.32005</Y>
+        <Y t="96">0.34222</Y>
+        <Y t="97">0.36697</Y>
+        <Y t="98">0.39977</Y>
+        <Y t="99">0.4518</Y>
+        <Y t="100">0.51001</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

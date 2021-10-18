@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1630</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Cathy Ho and Nancy S. Muise, “U.S. Individual Life Persistency: A Joint Study Sponsored by the Society of Actuaries and LIMRA”, SOA and LL Global, Inc., (2011). Accessed: February, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2004-2005-ind-life-persistency/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2005-2007 Individual Life Persistency Study – Whole Life on an Attained Age Basis</TableName>
+    <TableDescription>2005-2007 Individual Life Persistency Study – Whole Life by Number of Policies AND by Face Amounts. Basis: Attained Age. Minimum Attained Age: 0. Maximum Attained Age: 89.</TableDescription>
+    <Comments>Study Data: Experience based on data provided by 31 individual life insurance writers and represents lapse experience for whole life, term life, universal life and variable universal life plans issued between 1910 and 2007. For consistency with prior studies, lapse is defined as termination for nonpayment of premium, insufficient cash value or full surrender of a policy, transfer to reduced paid-up or extended term status, and terminations for unknown reason. The data underlying this report was collected on a policy-level, seriatim basis as this allows for a more detailed analysis of the factors influencing lapse results than studies conducted on an aggregated data basis. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapse during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity, or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the policy year they were in-force. For lapse by face amount, data collected represented just under $11 trillion in face amount exposed; the average face amount exposed was $37,000. Methodology: Lapse rates calculated by the following formula: Annualized Policy Lapse Rate = 100% * (Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year). Industry lapse rates are calculated as a weighted average of the experience of all contributing companies; companies with larger in-force blocks will affect the overall results more than companies with smaller in-force blocks. Thus, results for each policy factor analyzed are also examined at the company level to ensure that reported experience is not overly affected by one or more large participant blocks. Lapse rates are not reported for any data cell for which there were fewer than three companies or less than 1,000 policies exposed. Experience was reported exactly as calculated. No attempts were made to level or smooth results. NOTE: As lapse rates resulting from the formula were multiplied by 100, the rates loaded to this table have been divided by 100. Data Transcription Errors: None. Data Certified: 03/2013</Comments>
+    <KeyWord>Attained Age</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Individual Life Persistency Study – Whole Life by Number of Policies. Basis: Attained Age. Minimum Attained Age: 0. Maximum Attained Age: 89.</TableDescription>
+      <AxisDef id="Attained Age">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.041</Y>
+        <Y t="1">0.049</Y>
+        <Y t="2">0.050</Y>
+        <Y t="3">0.048</Y>
+        <Y t="4">0.044</Y>
+        <Y t="5">0.041</Y>
+        <Y t="6">0.040</Y>
+        <Y t="7">0.038</Y>
+        <Y t="8">0.036</Y>
+        <Y t="9">0.035</Y>
+        <Y t="10">0.033</Y>
+        <Y t="11">0.033</Y>
+        <Y t="12">0.031</Y>
+        <Y t="13">0.030</Y>
+        <Y t="14">0.029</Y>
+        <Y t="15">0.028</Y>
+        <Y t="16">0.028</Y>
+        <Y t="17">0.029</Y>
+        <Y t="18">0.032</Y>
+        <Y t="19">0.032</Y>
+        <Y t="20">0.033</Y>
+        <Y t="21">0.036</Y>
+        <Y t="22">0.038</Y>
+        <Y t="23">0.041</Y>
+        <Y t="24">0.044</Y>
+        <Y t="25">0.047</Y>
+        <Y t="26">0.048</Y>
+        <Y t="27">0.048</Y>
+        <Y t="28">0.047</Y>
+        <Y t="29">0.047</Y>
+        <Y t="30">0.046</Y>
+        <Y t="31">0.045</Y>
+        <Y t="32">0.046</Y>
+        <Y t="33">0.045</Y>
+        <Y t="34">0.044</Y>
+        <Y t="35">0.043</Y>
+        <Y t="36">0.042</Y>
+        <Y t="37">0.041</Y>
+        <Y t="38">0.040</Y>
+        <Y t="39">0.040</Y>
+        <Y t="40">0.038</Y>
+        <Y t="41">0.036</Y>
+        <Y t="42">0.035</Y>
+        <Y t="43">0.035</Y>
+        <Y t="44">0.034</Y>
+        <Y t="45">0.034</Y>
+        <Y t="46">0.033</Y>
+        <Y t="47">0.032</Y>
+        <Y t="48">0.032</Y>
+        <Y t="49">0.030</Y>
+        <Y t="50">0.030</Y>
+        <Y t="51">0.030</Y>
+        <Y t="52">0.029</Y>
+        <Y t="53">0.028</Y>
+        <Y t="54">0.028</Y>
+        <Y t="55">0.028</Y>
+        <Y t="56">0.027</Y>
+        <Y t="57">0.027</Y>
+        <Y t="58">0.027</Y>
+        <Y t="59">0.027</Y>
+        <Y t="60">0.027</Y>
+        <Y t="61">0.026</Y>
+        <Y t="62">0.026</Y>
+        <Y t="63">0.027</Y>
+        <Y t="64">0.034</Y>
+        <Y t="65">0.038</Y>
+        <Y t="66">0.024</Y>
+        <Y t="67">0.021</Y>
+        <Y t="68">0.021</Y>
+        <Y t="69">0.022</Y>
+        <Y t="70">0.019</Y>
+        <Y t="71">0.019</Y>
+        <Y t="72">0.018</Y>
+        <Y t="73">0.017</Y>
+        <Y t="74">0.017</Y>
+        <Y t="75">0.018</Y>
+        <Y t="76">0.017</Y>
+        <Y t="77">0.017</Y>
+        <Y t="78">0.018</Y>
+        <Y t="79">0.018</Y>
+        <Y t="80">0.019</Y>
+        <Y t="81">0.019</Y>
+        <Y t="82">0.019</Y>
+        <Y t="83">0.022</Y>
+        <Y t="84">0.032</Y>
+        <Y t="85">0.039</Y>
+        <Y t="86">0.024</Y>
+        <Y t="87">0.024</Y>
+        <Y t="88">0.025</Y>
+        <Y t="89">0.026</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Individual Life Persistency Study – Whole Life by Face Amounts. Basis: Attained Age. Minimum Attained Age: 0. Maximum Attained Age: 89.</TableDescription>
+      <AxisDef id="Attained Age">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.032</Y>
+        <Y t="1">0.042</Y>
+        <Y t="2">0.043</Y>
+        <Y t="3">0.043</Y>
+        <Y t="4">0.039</Y>
+        <Y t="5">0.037</Y>
+        <Y t="6">0.038</Y>
+        <Y t="7">0.036</Y>
+        <Y t="8">0.035</Y>
+        <Y t="9">0.033</Y>
+        <Y t="10">0.031</Y>
+        <Y t="11">0.032</Y>
+        <Y t="12">0.030</Y>
+        <Y t="13">0.031</Y>
+        <Y t="14">0.028</Y>
+        <Y t="15">0.028</Y>
+        <Y t="16">0.027</Y>
+        <Y t="17">0.033</Y>
+        <Y t="18">0.032</Y>
+        <Y t="19">0.033</Y>
+        <Y t="20">0.033</Y>
+        <Y t="21">0.039</Y>
+        <Y t="22">0.039</Y>
+        <Y t="23">0.045</Y>
+        <Y t="24">0.047</Y>
+        <Y t="25">0.050</Y>
+        <Y t="26">0.052</Y>
+        <Y t="27">0.054</Y>
+        <Y t="28">0.054</Y>
+        <Y t="29">0.052</Y>
+        <Y t="30">0.052</Y>
+        <Y t="31">0.052</Y>
+        <Y t="32">0.050</Y>
+        <Y t="33">0.049</Y>
+        <Y t="34">0.048</Y>
+        <Y t="35">0.047</Y>
+        <Y t="36">0.046</Y>
+        <Y t="37">0.043</Y>
+        <Y t="38">0.042</Y>
+        <Y t="39">0.044</Y>
+        <Y t="40">0.040</Y>
+        <Y t="41">0.040</Y>
+        <Y t="42">0.037</Y>
+        <Y t="43">0.037</Y>
+        <Y t="44">0.037</Y>
+        <Y t="45">0.036</Y>
+        <Y t="46">0.037</Y>
+        <Y t="47">0.036</Y>
+        <Y t="48">0.036</Y>
+        <Y t="49">0.034</Y>
+        <Y t="50">0.034</Y>
+        <Y t="51">0.035</Y>
+        <Y t="52">0.035</Y>
+        <Y t="53">0.032</Y>
+        <Y t="54">0.035</Y>
+        <Y t="55">0.035</Y>
+        <Y t="56">0.035</Y>
+        <Y t="57">0.035</Y>
+        <Y t="58">0.035</Y>
+        <Y t="59">0.033</Y>
+        <Y t="60">0.036</Y>
+        <Y t="61">0.038</Y>
+        <Y t="62">0.035</Y>
+        <Y t="63">0.040</Y>
+        <Y t="64">0.041</Y>
+        <Y t="65">0.040</Y>
+        <Y t="66">0.040</Y>
+        <Y t="67">0.034</Y>
+        <Y t="68">0.033</Y>
+        <Y t="69">0.034</Y>
+        <Y t="70">0.036</Y>
+        <Y t="71">0.033</Y>
+        <Y t="72">0.034</Y>
+        <Y t="73">0.029</Y>
+        <Y t="74">0.028</Y>
+        <Y t="75">0.030</Y>
+        <Y t="76">0.025</Y>
+        <Y t="77">0.026</Y>
+        <Y t="78">0.026</Y>
+        <Y t="79">0.026</Y>
+        <Y t="80">0.023</Y>
+        <Y t="81">0.022</Y>
+        <Y t="82">0.022</Y>
+        <Y t="83">0.022</Y>
+        <Y t="84">0.026</Y>
+        <Y t="85">0.024</Y>
+        <Y t="86">0.017</Y>
+        <Y t="87">0.018</Y>
+        <Y t="88">0.020</Y>
+        <Y t="89">0.020</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

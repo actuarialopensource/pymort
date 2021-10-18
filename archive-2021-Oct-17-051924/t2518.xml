@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2518</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Siu-Hang Li and Wai-Sum Chan, “Estimation of Complete Period Life Tables for Singaporeans”, Journal of Actuarial Practice, Vol. 11 (2004) Accessed 10/2013 from: http://jofap.org/documents/vol11/v11_chan.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>2001 Period Life Table - Females</TableName>
+    <TableDescription>2001 Period Life Table – Females.  Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Derived from abridged life tables published by Singapore Department of Statistics. Methodology: Construction involved deriving raw estimates of central death rates using interpolative methods, graduation of raw rates to produce a smooth representation of the underlying pattern of mortality using a Whittaker-Henderson model and extrapolation of the rates to individual ages above 70. Data Transcription Errors: None. Data Certified: 10/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Singapore</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="65">Singapore</Nation>
+      <TableDescription>2001 Period Life Table – Females.  Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0021</Y>
+        <Y t="1">0.0003</Y>
+        <Y t="2">0.0003</Y>
+        <Y t="3">0.0003</Y>
+        <Y t="4">0.0002</Y>
+        <Y t="5">0.0002</Y>
+        <Y t="6">0.0001</Y>
+        <Y t="7">0.0001</Y>
+        <Y t="8">0.0001</Y>
+        <Y t="9">0.0001</Y>
+        <Y t="10">0.0001</Y>
+        <Y t="11">0.0001</Y>
+        <Y t="12">0.0001</Y>
+        <Y t="13">0.0001</Y>
+        <Y t="14">0.0002</Y>
+        <Y t="15">0.0002</Y>
+        <Y t="16">0.0003</Y>
+        <Y t="17">0.0003</Y>
+        <Y t="18">0.0003</Y>
+        <Y t="19">0.0003</Y>
+        <Y t="20">0.0002</Y>
+        <Y t="21">0.0002</Y>
+        <Y t="22">0.0002</Y>
+        <Y t="23">0.0002</Y>
+        <Y t="24">0.0002</Y>
+        <Y t="25">0.0002</Y>
+        <Y t="26">0.0002</Y>
+        <Y t="27">0.0002</Y>
+        <Y t="28">0.0003</Y>
+        <Y t="29">0.0003</Y>
+        <Y t="30">0.0004</Y>
+        <Y t="31">0.0004</Y>
+        <Y t="32">0.0005</Y>
+        <Y t="33">0.0005</Y>
+        <Y t="34">0.0005</Y>
+        <Y t="35">0.0006</Y>
+        <Y t="36">0.0006</Y>
+        <Y t="37">0.0006</Y>
+        <Y t="38">0.0007</Y>
+        <Y t="39">0.0007</Y>
+        <Y t="40">0.0008</Y>
+        <Y t="41">0.0008</Y>
+        <Y t="42">0.0009</Y>
+        <Y t="43">0.0010</Y>
+        <Y t="44">0.0011</Y>
+        <Y t="45">0.0013</Y>
+        <Y t="46">0.0014</Y>
+        <Y t="47">0.0015</Y>
+        <Y t="48">0.0017</Y>
+        <Y t="49">0.0019</Y>
+        <Y t="50">0.0021</Y>
+        <Y t="51">0.0024</Y>
+        <Y t="52">0.0026</Y>
+        <Y t="53">0.0030</Y>
+        <Y t="54">0.0034</Y>
+        <Y t="55">0.0038</Y>
+        <Y t="56">0.0042</Y>
+        <Y t="57">0.0046</Y>
+        <Y t="58">0.0051</Y>
+        <Y t="59">0.0056</Y>
+        <Y t="60">0.0061</Y>
+        <Y t="61">0.0066</Y>
+        <Y t="62">0.0073</Y>
+        <Y t="63">0.0083</Y>
+        <Y t="64">0.0093</Y>
+        <Y t="65">0.0104</Y>
+        <Y t="66">0.0116</Y>
+        <Y t="67">0.0130</Y>
+        <Y t="68">0.0148</Y>
+        <Y t="69">0.0169</Y>
+        <Y t="70">0.0192</Y>
+        <Y t="71">0.0218</Y>
+        <Y t="72">0.0247</Y>
+        <Y t="73">0.0279</Y>
+        <Y t="74">0.0315</Y>
+        <Y t="75">0.0355</Y>
+        <Y t="76">0.0400</Y>
+        <Y t="77">0.0449</Y>
+        <Y t="78">0.0503</Y>
+        <Y t="79">0.0563</Y>
+        <Y t="80">0.0628</Y>
+        <Y t="81">0.0700</Y>
+        <Y t="82">0.0779</Y>
+        <Y t="83">0.0864</Y>
+        <Y t="84">0.0957</Y>
+        <Y t="85">0.1058</Y>
+        <Y t="86">0.1167</Y>
+        <Y t="87">0.1285</Y>
+        <Y t="88">0.1412</Y>
+        <Y t="89">0.1548</Y>
+        <Y t="90">0.1693</Y>
+        <Y t="91">0.1847</Y>
+        <Y t="92">0.2012</Y>
+        <Y t="93">0.2186</Y>
+        <Y t="94">0.2370</Y>
+        <Y t="95">0.2564</Y>
+        <Y t="96">0.2767</Y>
+        <Y t="97">0.2979</Y>
+        <Y t="98">0.3200</Y>
+        <Y t="99">0.3430</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

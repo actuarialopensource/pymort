@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1490</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Jay M. Jaffe, “Accidental Death Experience: A Review of Recent Experience for the Practicing actuary and the 1996 Accidental Death Benefits Table”, Transactions of the Society of Actuaries, 1997-1998 Reports, Society of Actuaries (1998) p. 172-173. Accessed: March, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1990-99/1997/january/TSR976.pdf</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>1996 ADB Central Age and Individual Age Tables – Female</TableName>
+    <TableDescription>1996 Accidental Death and Disablement (ADB) Central Age (Table 9) and Individual Age (Table 10) Tables – Female. Minimum Central Age: 0-4. Maximum Central Age: 100 and over. Minimum Individual Age: 0. Maximum Individual Age: 99</TableDescription>
+    <Comments>Study Data: Accidental death benefits (ADB) cover deaths resulting from falls, drowning, motor vehicle accidents, and other accidents, but such contracts also pay benefits when an insured's death results from homicide and the specific cause is otherwise not excluded by the contract. Current, publicly available, data on accidental death experience from non-insurance industry sources was used. As current percentages covered by individual life insurance are nearly identical, tables for both males (See SOA Table Identity 1479) and females have been developed. Methodology: Consistent with the 1959 ADB table (See SOA Table Identities 703 and 704) the 1996 table has been constructed to represent standard underwritten accidental death coverage such as would occur in ADB riders attached to ordinary life policies. NOTE: The Central Age Table is listed first then Individual Age Table. For the Central Age Table, values apply to a range of ages, such as 0-4, accordingly the table is coded with the value applying to the central age in the range. Data Transcription Errors Detected: 03/2013. Data Corrected and Certified: 03/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1996 Accidental Death and Disablement (ADB) Central Age (Table 9) Table – Female. Minimum Central Age: 0-4. Maximum Central Age: 100 and over.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="2">0.000157</Y>
+        <Y t="7">0.000061</Y>
+        <Y t="12">0.000056</Y>
+        <Y t="17">0.000160</Y>
+        <Y t="22">0.000125</Y>
+        <Y t="27">0.000122</Y>
+        <Y t="32">0.000133</Y>
+        <Y t="37">0.000136</Y>
+        <Y t="42">0.000134</Y>
+        <Y t="47">0.000145</Y>
+        <Y t="52">0.000135</Y>
+        <Y t="57">0.000143</Y>
+        <Y t="62">0.000173</Y>
+        <Y t="67">0.000223</Y>
+        <Y t="72">0.000325</Y>
+        <Y t="77">0.000584</Y>
+        <Y t="82">0.001021</Y>
+        <Y t="87">0.001796</Y>
+        <Y t="92">0.002896</Y>
+        <Y t="97">0.004077</Y>
+        <Y t="100">0.005000</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1996 Accidental Death and Disablement (ADB) Individual Age (Table 10) Table – Female. Minimum Individual Age: 0. Maximum Individual Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.000272</Y>
+        <Y t="1">0.000237</Y>
+        <Y t="2">0.000207</Y>
+        <Y t="3">0.000181</Y>
+        <Y t="4">0.000159</Y>
+        <Y t="5">0.000139</Y>
+        <Y t="6">0.000123</Y>
+        <Y t="7">0.000111</Y>
+        <Y t="8">0.000102</Y>
+        <Y t="9">0.000098</Y>
+        <Y t="10">0.000098</Y>
+        <Y t="11">0.000103</Y>
+        <Y t="12">0.000113</Y>
+        <Y t="13">0.000130</Y>
+        <Y t="14">0.000149</Y>
+        <Y t="15">0.000169</Y>
+        <Y t="16">0.000186</Y>
+        <Y t="17">0.000198</Y>
+        <Y t="18">0.000203</Y>
+        <Y t="19">0.000201</Y>
+        <Y t="20">0.000195</Y>
+        <Y t="21">0.000188</Y>
+        <Y t="22">0.000180</Y>
+        <Y t="23">0.000175</Y>
+        <Y t="24">0.000172</Y>
+        <Y t="25">0.000171</Y>
+        <Y t="26">0.000171</Y>
+        <Y t="27">0.000172</Y>
+        <Y t="28">0.000174</Y>
+        <Y t="29">0.000176</Y>
+        <Y t="30">0.000178</Y>
+        <Y t="31">0.000180</Y>
+        <Y t="32">0.000182</Y>
+        <Y t="33">0.000184</Y>
+        <Y t="34">0.000185</Y>
+        <Y t="35">0.000185</Y>
+        <Y t="36">0.000186</Y>
+        <Y t="37">0.000186</Y>
+        <Y t="38">0.000185</Y>
+        <Y t="39">0.000185</Y>
+        <Y t="40">0.000185</Y>
+        <Y t="41">0.000185</Y>
+        <Y t="42">0.000185</Y>
+        <Y t="43">0.000187</Y>
+        <Y t="44">0.000189</Y>
+        <Y t="45">0.000191</Y>
+        <Y t="46">0.000192</Y>
+        <Y t="47">0.000193</Y>
+        <Y t="48">0.000192</Y>
+        <Y t="49">0.000191</Y>
+        <Y t="50">0.000189</Y>
+        <Y t="51">0.000187</Y>
+        <Y t="52">0.000186</Y>
+        <Y t="53">0.000186</Y>
+        <Y t="54">0.000186</Y>
+        <Y t="55">0.000187</Y>
+        <Y t="56">0.000190</Y>
+        <Y t="57">0.000193</Y>
+        <Y t="58">0.000197</Y>
+        <Y t="59">0.000202</Y>
+        <Y t="60">0.000208</Y>
+        <Y t="61">0.000214</Y>
+        <Y t="62">0.000221</Y>
+        <Y t="63">0.000228</Y>
+        <Y t="64">0.000236</Y>
+        <Y t="65">0.000245</Y>
+        <Y t="66">0.000258</Y>
+        <Y t="67">0.000274</Y>
+        <Y t="68">0.000294</Y>
+        <Y t="69">0.000319</Y>
+        <Y t="70">0.000349</Y>
+        <Y t="71">0.000384</Y>
+        <Y t="72">0.000426</Y>
+        <Y t="73">0.000474</Y>
+        <Y t="74">0.000528</Y>
+        <Y t="75">0.000589</Y>
+        <Y t="76">0.000656</Y>
+        <Y t="77">0.000729</Y>
+        <Y t="78">0.000808</Y>
+        <Y t="79">0.000895</Y>
+        <Y t="80">0.000993</Y>
+        <Y t="81">0.001103</Y>
+        <Y t="82">0.001229</Y>
+        <Y t="83">0.001371</Y>
+        <Y t="84">0.001530</Y>
+        <Y t="85">0.001704</Y>
+        <Y t="86">0.001894</Y>
+        <Y t="87">0.002098</Y>
+        <Y t="88">0.002316</Y>
+        <Y t="89">0.002546</Y>
+        <Y t="90">0.002786</Y>
+        <Y t="91">0.003037</Y>
+        <Y t="92">0.003296</Y>
+        <Y t="93">0.003562</Y>
+        <Y t="94">0.003835</Y>
+        <Y t="95">0.004112</Y>
+        <Y t="96">0.004393</Y>
+        <Y t="97">0.004677</Y>
+        <Y t="98">0.004964</Y>
+        <Y t="99">0.005254</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

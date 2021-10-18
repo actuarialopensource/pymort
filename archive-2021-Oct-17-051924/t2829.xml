@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2829</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>James M. Craig, “Observations on Impaired Lives”, Actuarial Society of America (1890) reprinted Miles Menander Dawson, “Practical Lesson in Actuarial Science”, The Spectator Company (New York, 1898). Accessed: June, 2014 from  https://archive.org/stream/practicallessons00dawsrich#page/334/mode/2up/search/%22impaired+lives%22</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>Craig’s Impaired Life Table</TableName>
+    <TableDescription>Craig’s Impaired Life Table. Minimum Age: 10 Maximum Age: 98</TableDescription>
+    <Comments>Study Data: Mr. James Craig was an actuary of the Metropolitan Life Insurance Company. As no experience existed for impaired or sub-standard lives, Mr. Craig modified the Actuaries’ Table (See SOA Table Identity 252), a British table based on those who have passed a medical examination. When initially reproduced, Mr. Dawson was of the opinion that the table was suitable for use in industrial insurance. Mr. Craig protested this form and hence in subsequent publications, the original name, that of “impaired lives” was restored. Methodology: Modification consisted of doubling the rate of mortality to age 60 after which it gradually declines towards the Actuaries’ Table ratios. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Craig’s Impaired Life Table. Minimum Age: 10 Maximum Age: 98</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>98</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">100000</Y>
+        <Y t="2">98648</Y>
+        <Y t="3">97309</Y>
+        <Y t="4">95983</Y>
+        <Y t="5">94668</Y>
+        <Y t="6">93362</Y>
+        <Y t="7">92065</Y>
+        <Y t="8">90776</Y>
+        <Y t="9">80494</Y>
+        <Y t="10">88217</Y>
+        <Y t="11">86946</Y>
+        <Y t="12">85678</Y>
+        <Y t="13">84414</Y>
+        <Y t="14">83154</Y>
+        <Y t="15">81896</Y>
+        <Y t="16">80640</Y>
+        <Y t="17">79387</Y>
+        <Y t="18">78135</Y>
+        <Y t="19">76884</Y>
+        <Y t="20">75632</Y>
+        <Y t="21">74380</Y>
+        <Y t="22">73127</Y>
+        <Y t="23">71872</Y>
+        <Y t="24">70615</Y>
+        <Y t="25">69355</Y>
+        <Y t="26">68093</Y>
+        <Y t="27">66827</Y>
+        <Y t="28">65559</Y>
+        <Y t="29">64289</Y>
+        <Y t="30">63015</Y>
+        <Y t="31">61738</Y>
+        <Y t="32">60459</Y>
+        <Y t="33">59176</Y>
+        <Y t="34">57887</Y>
+        <Y t="35">56584</Y>
+        <Y t="36">55260</Y>
+        <Y t="37">53910</Y>
+        <Y t="38">52526</Y>
+        <Y t="39">51106</Y>
+        <Y t="40">49648</Y>
+        <Y t="41">48153</Y>
+        <Y t="42">46618</Y>
+        <Y t="43">45043</Y>
+        <Y t="44">43426</Y>
+        <Y t="45">41768</Y>
+        <Y t="46">40071</Y>
+        <Y t="47">38335</Y>
+        <Y t="48">36652</Y>
+        <Y t="49">34757</Y>
+        <Y t="50">32923</Y>
+        <Y t="51">31063</Y>
+        <Y t="52">29216</Y>
+        <Y t="53">27387</Y>
+        <Y t="54">25579</Y>
+        <Y t="55">23798</Y>
+        <Y t="56">22049</Y>
+        <Y t="57">20338</Y>
+        <Y t="58">18673</Y>
+        <Y t="59">17059</Y>
+        <Y t="60">15503</Y>
+        <Y t="61">14013</Y>
+        <Y t="62">12594</Y>
+        <Y t="63">11251</Y>
+        <Y t="64">9989</Y>
+        <Y t="65">8812</Y>
+        <Y t="66">7721</Y>
+        <Y t="67">6718</Y>
+        <Y t="68">5804</Y>
+        <Y t="69">4976</Y>
+        <Y t="70">4233</Y>
+        <Y t="71">3572</Y>
+        <Y t="72">2991</Y>
+        <Y t="73">2484</Y>
+        <Y t="74">2047</Y>
+        <Y t="75">1673</Y>
+        <Y t="76">1356</Y>
+        <Y t="77">1078</Y>
+        <Y t="78">838</Y>
+        <Y t="79">636</Y>
+        <Y t="80">468</Y>
+        <Y t="81">332</Y>
+        <Y t="82">225</Y>
+        <Y t="83">144</Y>
+        <Y t="84">86</Y>
+        <Y t="85">47</Y>
+        <Y t="86">23</Y>
+        <Y t="87">10</Y>
+        <Y t="88">4</Y>
+        <Y t="89">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2860</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Edwin L. Bartleson and James J. Olsen, "Reserves for Individual Hospital and Surgical Expense Insurance”, Transactions of the Society of Actuaries, Vol. IX, No. 25 (1957). Accessed: June, 2014 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1957/January/tsa57v9n2532.pdf</TableReference>
+    <ContentType tc="50">Claim Cost (in Disability)</ContentType>
+    <TableName>1956 Intercompany Miscellaneous Hospital Expense Table, All Benefit Maximums - Male</TableName>
+    <TableDescription>1956 Intercompany Miscellaneous Hospital Expense Table, All Benefit Maximums - Male. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data: Task Force 4, appointed by the Joint Committee on Health Insurance, was assigned the task of studying reserves for accident and health insurance. The basic tables for hospital and surgical expense insurance were adopted by the National Association of Insurance Commissioners (NAIC) in December, 1956. The net annual claim cost is the product of the annual rate of claim from this table and then the average claim value. A total of 5 maximum miscellaneous benefit schemes were considerd: $25, $50, $100, $150, and $250. Methodology: Task Force 4 prepared tables with a minimum age of 20 and maximum age of 80. In order to cover all "adult" ages and all expiry ages, the table was extended by the authors. There are relatively few adult contracts issued at age 15 to 19 thus extension was simply to use the same cost as for age 20. Likewise, it has been assumed that hospital expenses at age 80 apply to ages over 80 while surgical costs at age 65 apply to ages over 65. Data Transcription Errors: None. Data Certified: 07/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Cost</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Miscellaneous Hospital Expense Table, $25 Benefit Maximum - Male. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">1.96</Y>
+        <Y t="16">1.96</Y>
+        <Y t="17">1.96</Y>
+        <Y t="18">1.96</Y>
+        <Y t="19">1.96</Y>
+        <Y t="20">1.96</Y>
+        <Y t="21">1.96</Y>
+        <Y t="22">1.95</Y>
+        <Y t="23">1.94</Y>
+        <Y t="24">1.94</Y>
+        <Y t="25">1.93</Y>
+        <Y t="26">1.91</Y>
+        <Y t="27">1.9</Y>
+        <Y t="28">1.88</Y>
+        <Y t="29">1.86</Y>
+        <Y t="30">1.86</Y>
+        <Y t="31">1.86</Y>
+        <Y t="32">1.87</Y>
+        <Y t="33">1.88</Y>
+        <Y t="34">1.9</Y>
+        <Y t="35">1.93</Y>
+        <Y t="36">1.96</Y>
+        <Y t="37">1.99</Y>
+        <Y t="38">2.04</Y>
+        <Y t="39">2.08</Y>
+        <Y t="40">2.13</Y>
+        <Y t="41">2.18</Y>
+        <Y t="42">2.22</Y>
+        <Y t="43">2.28</Y>
+        <Y t="44">2.33</Y>
+        <Y t="45">2.39</Y>
+        <Y t="46">2.45</Y>
+        <Y t="47">2.51</Y>
+        <Y t="48">2.58</Y>
+        <Y t="49">2.65</Y>
+        <Y t="50">2.72</Y>
+        <Y t="51">2.8</Y>
+        <Y t="52">2.88</Y>
+        <Y t="53">2.96</Y>
+        <Y t="54">3.05</Y>
+        <Y t="55">3.14</Y>
+        <Y t="56">3.24</Y>
+        <Y t="57">3.35</Y>
+        <Y t="58">3.46</Y>
+        <Y t="59">3.57</Y>
+        <Y t="60">3.67</Y>
+        <Y t="61">3.76</Y>
+        <Y t="62">3.84</Y>
+        <Y t="63">3.92</Y>
+        <Y t="64">3.99</Y>
+        <Y t="65">4.06</Y>
+        <Y t="66">4.12</Y>
+        <Y t="67">4.16</Y>
+        <Y t="68">4.21</Y>
+        <Y t="69">4.24</Y>
+        <Y t="70">4.28</Y>
+        <Y t="71">4.3</Y>
+        <Y t="72">4.32</Y>
+        <Y t="73">4.34</Y>
+        <Y t="74">4.35</Y>
+        <Y t="75">4.36</Y>
+        <Y t="76">4.37</Y>
+        <Y t="77">4.38</Y>
+        <Y t="78">4.39</Y>
+        <Y t="79">4.39</Y>
+        <Y t="80">4.39</Y>
+        <Y t="81">4.39</Y>
+        <Y t="82">4.39</Y>
+        <Y t="83">4.39</Y>
+        <Y t="84">4.39</Y>
+        <Y t="85">4.39</Y>
+        <Y t="86">4.39</Y>
+        <Y t="87">4.39</Y>
+        <Y t="88">4.39</Y>
+        <Y t="89">4.39</Y>
+        <Y t="90">4.39</Y>
+        <Y t="91">4.39</Y>
+        <Y t="92">4.39</Y>
+        <Y t="93">4.39</Y>
+        <Y t="94">4.39</Y>
+        <Y t="95">4.39</Y>
+        <Y t="96">4.39</Y>
+        <Y t="97">4.39</Y>
+        <Y t="98">4.39</Y>
+        <Y t="99">4.39</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Miscellaneous Hospital Expense Table, $50 Benefit Maximum - Male. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">3.13</Y>
+        <Y t="16">3.13</Y>
+        <Y t="17">3.13</Y>
+        <Y t="18">3.13</Y>
+        <Y t="19">3.13</Y>
+        <Y t="20">3.13</Y>
+        <Y t="21">3.14</Y>
+        <Y t="22">3.15</Y>
+        <Y t="23">3.15</Y>
+        <Y t="24">3.16</Y>
+        <Y t="25">3.16</Y>
+        <Y t="26">3.15</Y>
+        <Y t="27">3.14</Y>
+        <Y t="28">3.12</Y>
+        <Y t="29">3.11</Y>
+        <Y t="30">3.12</Y>
+        <Y t="31">3.14</Y>
+        <Y t="32">3.17</Y>
+        <Y t="33">3.21</Y>
+        <Y t="34">3.25</Y>
+        <Y t="35">3.31</Y>
+        <Y t="36">3.38</Y>
+        <Y t="37">3.46</Y>
+        <Y t="38">3.55</Y>
+        <Y t="39">3.65</Y>
+        <Y t="40">3.74</Y>
+        <Y t="41">3.85</Y>
+        <Y t="42">3.95</Y>
+        <Y t="43">4.06</Y>
+        <Y t="44">4.17</Y>
+        <Y t="45">4.29</Y>
+        <Y t="46">4.42</Y>
+        <Y t="47">4.55</Y>
+        <Y t="48">4.7</Y>
+        <Y t="49">4.85</Y>
+        <Y t="50">5</Y>
+        <Y t="51">5.17</Y>
+        <Y t="52">5.34</Y>
+        <Y t="53">5.51</Y>
+        <Y t="54">5.7</Y>
+        <Y t="55">5.9</Y>
+        <Y t="56">6.11</Y>
+        <Y t="57">6.35</Y>
+        <Y t="58">6.58</Y>
+        <Y t="59">6.82</Y>
+        <Y t="60">7.04</Y>
+        <Y t="61">7.24</Y>
+        <Y t="62">7.43</Y>
+        <Y t="63">7.62</Y>
+        <Y t="64">7.79</Y>
+        <Y t="65">7.95</Y>
+        <Y t="66">8.1</Y>
+        <Y t="67">8.23</Y>
+        <Y t="68">8.34</Y>
+        <Y t="69">8.45</Y>
+        <Y t="70">8.55</Y>
+        <Y t="71">8.61</Y>
+        <Y t="72">8.64</Y>
+        <Y t="73">8.68</Y>
+        <Y t="74">8.7</Y>
+        <Y t="75">8.72</Y>
+        <Y t="76">8.74</Y>
+        <Y t="77">8.76</Y>
+        <Y t="78">8.77</Y>
+        <Y t="79">8.78</Y>
+        <Y t="80">8.78</Y>
+        <Y t="81">8.78</Y>
+        <Y t="82">8.78</Y>
+        <Y t="83">8.78</Y>
+        <Y t="84">8.78</Y>
+        <Y t="85">8.78</Y>
+        <Y t="86">8.78</Y>
+        <Y t="87">8.78</Y>
+        <Y t="88">8.78</Y>
+        <Y t="89">8.78</Y>
+        <Y t="90">8.78</Y>
+        <Y t="91">8.78</Y>
+        <Y t="92">8.78</Y>
+        <Y t="93">8.78</Y>
+        <Y t="94">8.78</Y>
+        <Y t="95">8.78</Y>
+        <Y t="96">8.78</Y>
+        <Y t="97">8.78</Y>
+        <Y t="98">8.78</Y>
+        <Y t="99">8.78</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Miscellaneous Hospital Expense Table, $100 Benefit Maximum - Male. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">4.9</Y>
+        <Y t="16">4.9</Y>
+        <Y t="17">4.9</Y>
+        <Y t="18">4.9</Y>
+        <Y t="19">4.9</Y>
+        <Y t="20">4.9</Y>
+        <Y t="21">4.95</Y>
+        <Y t="22">4.98</Y>
+        <Y t="23">5.01</Y>
+        <Y t="24">5.04</Y>
+        <Y t="25">5.07</Y>
+        <Y t="26">5.08</Y>
+        <Y t="27">5.08</Y>
+        <Y t="28">5.09</Y>
+        <Y t="29">5.09</Y>
+        <Y t="30">5.13</Y>
+        <Y t="31">5.18</Y>
+        <Y t="32">5.25</Y>
+        <Y t="33">5.34</Y>
+        <Y t="34">5.44</Y>
+        <Y t="35">5.56</Y>
+        <Y t="36">5.7</Y>
+        <Y t="37">5.86</Y>
+        <Y t="38">6.03</Y>
+        <Y t="39">6.23</Y>
+        <Y t="40">6.42</Y>
+        <Y t="41">6.62</Y>
+        <Y t="42">6.82</Y>
+        <Y t="43">7.04</Y>
+        <Y t="44">7.26</Y>
+        <Y t="45">7.5</Y>
+        <Y t="46">7.75</Y>
+        <Y t="47">8.01</Y>
+        <Y t="48">8.29</Y>
+        <Y t="49">8.59</Y>
+        <Y t="50">8.89</Y>
+        <Y t="51">9.22</Y>
+        <Y t="52">9.55</Y>
+        <Y t="53">9.9</Y>
+        <Y t="54">10.28</Y>
+        <Y t="55">10.67</Y>
+        <Y t="56">11.09</Y>
+        <Y t="57">11.55</Y>
+        <Y t="58">12.02</Y>
+        <Y t="59">12.49</Y>
+        <Y t="60">12.93</Y>
+        <Y t="61">13.34</Y>
+        <Y t="62">13.74</Y>
+        <Y t="63">14.13</Y>
+        <Y t="64">14.49</Y>
+        <Y t="65">14.83</Y>
+        <Y t="66">15.15</Y>
+        <Y t="67">15.43</Y>
+        <Y t="68">15.7</Y>
+        <Y t="69">15.95</Y>
+        <Y t="70">16.18</Y>
+        <Y t="71">16.39</Y>
+        <Y t="72">16.57</Y>
+        <Y t="73">16.75</Y>
+        <Y t="74">16.9</Y>
+        <Y t="75">17.06</Y>
+        <Y t="76">17.21</Y>
+        <Y t="77">17.35</Y>
+        <Y t="78">17.49</Y>
+        <Y t="79">17.55</Y>
+        <Y t="80">17.56</Y>
+        <Y t="81">17.56</Y>
+        <Y t="82">17.56</Y>
+        <Y t="83">17.56</Y>
+        <Y t="84">17.56</Y>
+        <Y t="85">17.56</Y>
+        <Y t="86">17.56</Y>
+        <Y t="87">17.56</Y>
+        <Y t="88">17.56</Y>
+        <Y t="89">17.56</Y>
+        <Y t="90">17.56</Y>
+        <Y t="91">17.56</Y>
+        <Y t="92">17.56</Y>
+        <Y t="93">17.56</Y>
+        <Y t="94">17.56</Y>
+        <Y t="95">17.56</Y>
+        <Y t="96">17.56</Y>
+        <Y t="97">17.56</Y>
+        <Y t="98">17.56</Y>
+        <Y t="99">17.56</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Miscellaneous Hospital Expense Table, $150 Benefit Maximum - Male. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">5.96</Y>
+        <Y t="16">5.96</Y>
+        <Y t="17">5.96</Y>
+        <Y t="18">5.96</Y>
+        <Y t="19">5.96</Y>
+        <Y t="20">5.96</Y>
+        <Y t="21">6.02</Y>
+        <Y t="22">6.07</Y>
+        <Y t="23">6.13</Y>
+        <Y t="24">6.18</Y>
+        <Y t="25">6.22</Y>
+        <Y t="26">6.25</Y>
+        <Y t="27">6.26</Y>
+        <Y t="28">6.27</Y>
+        <Y t="29">6.29</Y>
+        <Y t="30">6.35</Y>
+        <Y t="31">6.42</Y>
+        <Y t="32">6.52</Y>
+        <Y t="33">6.64</Y>
+        <Y t="34">6.77</Y>
+        <Y t="35">6.93</Y>
+        <Y t="36">7.11</Y>
+        <Y t="37">7.33</Y>
+        <Y t="38">7.56</Y>
+        <Y t="39">7.81</Y>
+        <Y t="40">8.06</Y>
+        <Y t="41">8.32</Y>
+        <Y t="42">8.58</Y>
+        <Y t="43">8.87</Y>
+        <Y t="44">9.16</Y>
+        <Y t="45">9.48</Y>
+        <Y t="46">9.81</Y>
+        <Y t="47">10.15</Y>
+        <Y t="48">10.52</Y>
+        <Y t="49">10.9</Y>
+        <Y t="50">11.3</Y>
+        <Y t="51">11.73</Y>
+        <Y t="52">12.17</Y>
+        <Y t="53">12.63</Y>
+        <Y t="54">13.12</Y>
+        <Y t="55">13.64</Y>
+        <Y t="56">14.19</Y>
+        <Y t="57">14.8</Y>
+        <Y t="58">15.41</Y>
+        <Y t="59">16.04</Y>
+        <Y t="60">16.61</Y>
+        <Y t="61">17.16</Y>
+        <Y t="62">17.69</Y>
+        <Y t="63">18.2</Y>
+        <Y t="64">18.69</Y>
+        <Y t="65">19.14</Y>
+        <Y t="66">19.57</Y>
+        <Y t="67">19.95</Y>
+        <Y t="68">20.31</Y>
+        <Y t="69">20.65</Y>
+        <Y t="70">20.96</Y>
+        <Y t="71">21.26</Y>
+        <Y t="72">21.51</Y>
+        <Y t="73">21.76</Y>
+        <Y t="74">21.97</Y>
+        <Y t="75">22.19</Y>
+        <Y t="76">22.41</Y>
+        <Y t="77">22.61</Y>
+        <Y t="78">22.81</Y>
+        <Y t="79">22.99</Y>
+        <Y t="80">23.16</Y>
+        <Y t="81">23.16</Y>
+        <Y t="82">23.16</Y>
+        <Y t="83">23.16</Y>
+        <Y t="84">23.16</Y>
+        <Y t="85">23.16</Y>
+        <Y t="86">23.16</Y>
+        <Y t="87">23.16</Y>
+        <Y t="88">23.16</Y>
+        <Y t="89">23.16</Y>
+        <Y t="90">23.16</Y>
+        <Y t="91">23.16</Y>
+        <Y t="92">23.16</Y>
+        <Y t="93">23.16</Y>
+        <Y t="94">23.16</Y>
+        <Y t="95">23.16</Y>
+        <Y t="96">23.16</Y>
+        <Y t="97">23.16</Y>
+        <Y t="98">23.16</Y>
+        <Y t="99">23.16</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Miscellaneous Hospital Expense Table, $250 Benefit Maximum - Male. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">7.44</Y>
+        <Y t="16">7.44</Y>
+        <Y t="17">7.44</Y>
+        <Y t="18">7.44</Y>
+        <Y t="19">7.44</Y>
+        <Y t="20">7.44</Y>
+        <Y t="21">7.53</Y>
+        <Y t="22">7.6</Y>
+        <Y t="23">7.68</Y>
+        <Y t="24">7.75</Y>
+        <Y t="25">7.81</Y>
+        <Y t="26">7.86</Y>
+        <Y t="27">7.89</Y>
+        <Y t="28">7.91</Y>
+        <Y t="29">7.94</Y>
+        <Y t="30">8.02</Y>
+        <Y t="31">8.12</Y>
+        <Y t="32">8.25</Y>
+        <Y t="33">8.42</Y>
+        <Y t="34">8.59</Y>
+        <Y t="35">8.8</Y>
+        <Y t="36">9.04</Y>
+        <Y t="37">9.32</Y>
+        <Y t="38">9.62</Y>
+        <Y t="39">9.96</Y>
+        <Y t="40">10.28</Y>
+        <Y t="41">10.62</Y>
+        <Y t="42">10.97</Y>
+        <Y t="43">11.34</Y>
+        <Y t="44">11.73</Y>
+        <Y t="45">12.14</Y>
+        <Y t="46">12.57</Y>
+        <Y t="47">13.02</Y>
+        <Y t="48">13.51</Y>
+        <Y t="49">14.01</Y>
+        <Y t="50">14.53</Y>
+        <Y t="51">15.09</Y>
+        <Y t="52">15.67</Y>
+        <Y t="53">16.27</Y>
+        <Y t="54">16.91</Y>
+        <Y t="55">17.59</Y>
+        <Y t="56">18.32</Y>
+        <Y t="57">19.11</Y>
+        <Y t="58">19.92</Y>
+        <Y t="59">20.74</Y>
+        <Y t="60">21.49</Y>
+        <Y t="61">22.21</Y>
+        <Y t="62">22.91</Y>
+        <Y t="63">23.59</Y>
+        <Y t="64">24.24</Y>
+        <Y t="65">24.84</Y>
+        <Y t="66">25.4</Y>
+        <Y t="67">25.91</Y>
+        <Y t="68">26.39</Y>
+        <Y t="69">26.85</Y>
+        <Y t="70">27.27</Y>
+        <Y t="71">27.67</Y>
+        <Y t="72">28.01</Y>
+        <Y t="73">28.34</Y>
+        <Y t="74">28.63</Y>
+        <Y t="75">28.94</Y>
+        <Y t="76">29.23</Y>
+        <Y t="77">29.51</Y>
+        <Y t="78">29.79</Y>
+        <Y t="79">30.03</Y>
+        <Y t="80">30.27</Y>
+        <Y t="81">30.27</Y>
+        <Y t="82">30.27</Y>
+        <Y t="83">30.27</Y>
+        <Y t="84">30.27</Y>
+        <Y t="85">30.27</Y>
+        <Y t="86">30.27</Y>
+        <Y t="87">30.27</Y>
+        <Y t="88">30.27</Y>
+        <Y t="89">30.27</Y>
+        <Y t="90">30.27</Y>
+        <Y t="91">30.27</Y>
+        <Y t="92">30.27</Y>
+        <Y t="93">30.27</Y>
+        <Y t="94">30.27</Y>
+        <Y t="95">30.27</Y>
+        <Y t="96">30.27</Y>
+        <Y t="97">30.27</Y>
+        <Y t="98">30.27</Y>
+        <Y t="99">30.27</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

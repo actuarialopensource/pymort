@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3139</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, research-2014-mort-imp-scale-rates.xlsx, Sheet "Factoring Out Factors", https://www.soa.org/Files/Research/Exp-Study/research-2014-mort-imp-scale-rates.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Scale MP-2014-Factoring out factors-male</TableName>
+    <TableDescription>Scale MP-2014-Factoring out factors-male</TableDescription>
+    <Comments>The primary focus of this study was a comprehensive analysis of mortality improvement trends for pension plans in the United States.  The starting historical array for Scale MP-2014 was based on the most recent Social Security mortality dataset (through calendar year 2009) supplied by the Office of the Chief Actuary.  These historical rates were graduated using two-dimensional Whittaker-Henderson graduation techniques. A two-year step-back from 2009 was used, making 2007 the final year of improvement rates based solely on graduated historical data.  The ultimate mortality improvement assumption was selected to be 1.0 percent per annum through age 85, followed first by a linear decrease to 0.85 percent at age 95, and then by a linear decrease to zero at age 115.  A 20-year convergence period was selected for the smooth transition between 2007 and the year that these long-term, ultimate rates are first attained.  Hence, the age-specific Scale MP-2014 rates are constant starting in calendar year 2027. Data Certified: 07/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Scale MP-2014-Factoring out factors-male</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.7964225950142</Y>
+        <Y t="21">0.813361687272922</Y>
+        <Y t="22">0.831029399301647</Y>
+        <Y t="23">0.849633898061617</Y>
+        <Y t="24">0.868333164203655</Y>
+        <Y t="25">0.887306787033906</Y>
+        <Y t="26">0.905827216833818</Y>
+        <Y t="27">0.923766952538888</Y>
+        <Y t="28">0.940330363411566</Y>
+        <Y t="29">0.953024226528568</Y>
+        <Y t="30">0.961418839157782</Y>
+        <Y t="31">0.964734323595661</Y>
+        <Y t="32">0.962826840397439</Y>
+        <Y t="33">0.956297658255933</Y>
+        <Y t="34">0.950958164628573</Y>
+        <Y t="35">0.939458572233468</Y>
+        <Y t="36">0.922650583750857</Y>
+        <Y t="37">0.902254109791948</Y>
+        <Y t="38">0.880012709321008</Y>
+        <Y t="39">0.857815112519832</Y>
+        <Y t="40">0.83782128698634</Y>
+        <Y t="41">0.824380894894987</Y>
+        <Y t="42">0.814216480573837</Y>
+        <Y t="43">0.80772226745214</Y>
+        <Y t="44">0.805069673560356</Y>
+        <Y t="45">0.805810539457254</Y>
+        <Y t="46">0.809702520894384</Y>
+        <Y t="47">0.816869790853868</Y>
+        <Y t="48">0.826542166767752</Y>
+        <Y t="49">0.838365314986967</Y>
+        <Y t="50">0.851900927079657</Y>
+        <Y t="51">0.866509251048595</Y>
+        <Y t="52">0.881341412044049</Y>
+        <Y t="53">0.901610076815955</Y>
+        <Y t="54">0.922016519779974</Y>
+        <Y t="55">0.939791874482272</Y>
+        <Y t="56">0.953059527542201</Y>
+        <Y t="57">0.960289686810611</Y>
+        <Y t="58">0.961166489700467</Y>
+        <Y t="59">0.956251828721756</Y>
+        <Y t="60">0.946385303094382</Y>
+        <Y t="61">0.933115443549646</Y>
+        <Y t="62">0.91787117955734</Y>
+        <Y t="63">0.902025592834766</Y>
+        <Y t="64">0.88669428043604</Y>
+        <Y t="65">0.872571167909908</Y>
+        <Y t="66">0.860050085484881</Y>
+        <Y t="67">0.849508093076504</Y>
+        <Y t="68">0.840538602279076</Y>
+        <Y t="69">0.832843910584606</Y>
+        <Y t="70">0.826563106074939</Y>
+        <Y t="71">0.821669908570288</Y>
+        <Y t="72">0.817471343129852</Y>
+        <Y t="73">0.814210151913858</Y>
+        <Y t="74">0.811709183040339</Y>
+        <Y t="75">0.81012986017975</Y>
+        <Y t="76">0.80930057440627</Y>
+        <Y t="77">0.809135893527852</Y>
+        <Y t="78">0.809719541433532</Y>
+        <Y t="79">0.811052017894331</Y>
+        <Y t="80">0.812803072418378</Y>
+        <Y t="81">0.815142434375394</Y>
+        <Y t="82">0.81773885878915</Y>
+        <Y t="83">0.820594655170718</Y>
+        <Y t="84">0.823290246772668</Y>
+        <Y t="85">0.826416640526579</Y>
+        <Y t="86">0.829722852958617</Y>
+        <Y t="87">0.833040643444093</Y>
+        <Y t="88">0.836797377236446</Y>
+        <Y t="89">0.840998280344091</Y>
+        <Y t="90">0.8457351795686</Y>
+        <Y t="91">0.851363318887007</Y>
+        <Y t="92">0.857897602111772</Y>
+        <Y t="93">0.865443981455044</Y>
+        <Y t="94">0.874025493765342</Y>
+        <Y t="95">0.883935985677801</Y>
+        <Y t="96">0.889429085715944</Y>
+        <Y t="97">0.895132919077137</Y>
+        <Y t="98">0.900595112264695</Y>
+        <Y t="99">0.906177913397945</Y>
+        <Y t="100">0.911791167589045</Y>
+        <Y t="101">0.91752739789986</Y>
+        <Y t="102">0.923294467515034</Y>
+        <Y t="103">0.928906132636462</Y>
+        <Y t="104">0.934641844287303</Y>
+        <Y t="105">0.940597737062213</Y>
+        <Y t="106">0.946110220529748</Y>
+        <Y t="107">0.952034183184681</Y>
+        <Y t="108">0.957990037474551</Y>
+        <Y t="109">0.963784970088037</Y>
+        <Y t="110">0.96980512449611</Y>
+        <Y t="111">0.975662166345604</Y>
+        <Y t="112">0.981746957431357</Y>
+        <Y t="113">0.987765739195515</Y>
+        <Y t="114">0.993916175564939</Y>
+        <Y t="115">1</Y>
+        <Y t="116">1</Y>
+        <Y t="117">1</Y>
+        <Y t="118">1</Y>
+        <Y t="119">1</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

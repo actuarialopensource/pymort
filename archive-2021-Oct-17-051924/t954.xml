@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>954</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>A. S. MacDonald, "The Second Actuarial Study of Mortality in Europe" (1997). Accessed November, 2012 from http://www.actuaris.com/fr/infotech/actuariat/tables_de_mortalit-/table_tv_88-90.html</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>TV 88-90</TableName>
+    <TableDescription>TV 88-90. Minimum Age: 0. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Based on data from the Institut National de la Statistique et des Études Économiques (INSEE) for the period 1988-1990.  TD 88-90 (See SOA Table Identity 32003) applies to the calculation of rates for life insurance contracts while TV 88-90 applies to the calculation of rates of insurance in case of death contracts. TD 88-90 and TV88-90 have been since been superseded by TH 00-02 and TF 00-02 developed by INSEE and adopted in 2007. Methodology: Table established by INSEE on the observations made ​​between 1988 and 1990 in a population of women. Consult the INSEE for further details regarding construction methodology. NOTE: The source material contains Lx and thus was converted to qx for purposes of this table. Data Transcriptions Errors: None. Data Certified: 11/2012.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>France</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="33">France</Nation>
+      <TableDescription>TV 88-90. Minimum Age: 0. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.006480</Y>
+        <Y t="1">0.000584</Y>
+        <Y t="2">0.000332</Y>
+        <Y t="3">0.000252</Y>
+        <Y t="4">0.000222</Y>
+        <Y t="5">0.000202</Y>
+        <Y t="6">0.000171</Y>
+        <Y t="7">0.000161</Y>
+        <Y t="8">0.000161</Y>
+        <Y t="9">0.000161</Y>
+        <Y t="10">0.000171</Y>
+        <Y t="11">0.000161</Y>
+        <Y t="12">0.000151</Y>
+        <Y t="13">0.000192</Y>
+        <Y t="14">0.000212</Y>
+        <Y t="15">0.000232</Y>
+        <Y t="16">0.000293</Y>
+        <Y t="17">0.000343</Y>
+        <Y t="18">0.000424</Y>
+        <Y t="19">0.000445</Y>
+        <Y t="20">0.000465</Y>
+        <Y t="21">0.000455</Y>
+        <Y t="22">0.000445</Y>
+        <Y t="23">0.000456</Y>
+        <Y t="24">0.000497</Y>
+        <Y t="25">0.000507</Y>
+        <Y t="26">0.000538</Y>
+        <Y t="27">0.000558</Y>
+        <Y t="28">0.000548</Y>
+        <Y t="29">0.000579</Y>
+        <Y t="30">0.000620</Y>
+        <Y t="31">0.000641</Y>
+        <Y t="32">0.000662</Y>
+        <Y t="33">0.000723</Y>
+        <Y t="34">0.000815</Y>
+        <Y t="35">0.000908</Y>
+        <Y t="36">0.000929</Y>
+        <Y t="37">0.001002</Y>
+        <Y t="38">0.001074</Y>
+        <Y t="39">0.001167</Y>
+        <Y t="40">0.001241</Y>
+        <Y t="41">0.001345</Y>
+        <Y t="42">0.001480</Y>
+        <Y t="43">0.001616</Y>
+        <Y t="44">0.001763</Y>
+        <Y t="45">0.001942</Y>
+        <Y t="46">0.002049</Y>
+        <Y t="47">0.002136</Y>
+        <Y t="48">0.002318</Y>
+        <Y t="49">0.002531</Y>
+        <Y t="50">0.002757</Y>
+        <Y t="51">0.002995</Y>
+        <Y t="52">0.003256</Y>
+        <Y t="53">0.003499</Y>
+        <Y t="54">0.003648</Y>
+        <Y t="55">0.003895</Y>
+        <Y t="56">0.004273</Y>
+        <Y t="57">0.004634</Y>
+        <Y t="58">0.005042</Y>
+        <Y t="59">0.005349</Y>
+        <Y t="60">0.005725</Y>
+        <Y t="61">0.006217</Y>
+        <Y t="62">0.006718</Y>
+        <Y t="63">0.007261</Y>
+        <Y t="64">0.007905</Y>
+        <Y t="65">0.008452</Y>
+        <Y t="66">0.009260</Y>
+        <Y t="67">0.010251</Y>
+        <Y t="68">0.011455</Y>
+        <Y t="69">0.012652</Y>
+        <Y t="70">0.014081</Y>
+        <Y t="71">0.015796</Y>
+        <Y t="72">0.017721</Y>
+        <Y t="73">0.019929</Y>
+        <Y t="74">0.022515</Y>
+        <Y t="75">0.025524</Y>
+        <Y t="76">0.028681</Y>
+        <Y t="77">0.032666</Y>
+        <Y t="78">0.037325</Y>
+        <Y t="79">0.042950</Y>
+        <Y t="80">0.049060</Y>
+        <Y t="81">0.056150</Y>
+        <Y t="82">0.064492</Y>
+        <Y t="83">0.073040</Y>
+        <Y t="84">0.082370</Y>
+        <Y t="85">0.093101</Y>
+        <Y t="86">0.104249</Y>
+        <Y t="87">0.116540</Y>
+        <Y t="88">0.130774</Y>
+        <Y t="89">0.146342</Y>
+        <Y t="90">0.163103</Y>
+        <Y t="91">0.180883</Y>
+        <Y t="92">0.199245</Y>
+        <Y t="93">0.216789</Y>
+        <Y t="94">0.236743</Y>
+        <Y t="95">0.253880</Y>
+        <Y t="96">0.277200</Y>
+        <Y t="97">0.292828</Y>
+        <Y t="98">0.294574</Y>
+        <Y t="99">0.322802</Y>
+        <Y t="100">0.350237</Y>
+        <Y t="101">0.376691</Y>
+        <Y t="102">0.402337</Y>
+        <Y t="103">0.427374</Y>
+        <Y t="104">0.448780</Y>
+        <Y t="105">0.477876</Y>
+        <Y t="106">0.491525</Y>
+        <Y t="107">0.533333</Y>
+        <Y t="108">0.571429</Y>
+        <Y t="109">0.666667</Y>
+        <Y t="110">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2794</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Jack Luff</ProviderName>
+    <TableReference>Pension Experience Subcommittee, “Final Report: Canadian Pensioners’ Mortality”, Memorandum, Canadian Institute of Actuaries, (Ottawa, 2014). Accessed June, 2014 from http://www.cia-ica.ca/docs/default-source/2014/214013e.pdf?sfvrsn=4 and http://www.cia-ica.ca/docs/default-source/2014/214013t1e.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>CPM2014 Private – Male</TableName>
+    <TableDescription>Canadian Pensioners’ Mortality (CPM) 2014 – Male. Basis: Private Sector. Minimum Age: 18 Maximum Age: 115</TableDescription>
+    <Comments>Study Data: The Canadian Institute of Actuaries commissioned two experience studies: (1) The Canadian Pension Plan and Quebec Pension Plan Study (C/QPP) reviewed the experience of pensioners under the Canada Pension Plan, the Québec Pension Plan, and in combination. For the purpose of developing mortality tables, the C/QPP Study reviewed the mortality experience of all persons receiving a retirement pension from the CPP and QPP for the calendar years 2005, 2006, and 2007. (2) The second study, the Canadian Registered Pension Plans (RPP) Study, looked at data, gathered by MIB solutions, from a number of Canadian registered pension plans, including both public sector and private sector plans for calendar years 1999 to 2008. In total, 19 companies contributed from which data of 13 companies was used. The subcommittee concluded that including the beneficiary data would bias mortality rates upward and excluded those records. All pensioner records with a monthly income of less than $10 were also excluded. There was insufficient data to develop mortality tables by industry however. Similarly, analysis did not yield satisfactory results and therefore no specific experience by blue-collar/white-collar type is provided. The Subcommittee did identify significant experience variation by size of pension and accordingly size adjustment factors were developed. Adequate data was available by sector (public and private) thus additional tables were also developed (See SOA Table Identities 2792-2795). In conjunction with the new mortality tables, a two-dimensional mortality improvement scale and a transitional one-dimensional scale (See SOA Table Identities 2796-2799) have been developed. The one-dimensional scale approximates, in the near term, the financial effect of the two-dimensional scale. Methodology: Data collected was analyzed by Mr. Bob Howard in accordance with the scope and methodology approved by the subcommittee. The subcommittee decided to adjust the data by industry so that it would be more representative of Canadian pension plans membership and referred to Statistics Canada Data CANSIM series 280-0011. Mortality rates, weighted by amount of pension, experienced over ages 55 to 100 were determined based on the data provided by contributors, subject to the adjustments. Reported deaths were adjusted to 2014 using the CPM Mortality Improvement Scale B. Death amounts were adjusted using the experience mortality rates on a standard distribution by amounts so that the actual varying distributions by size band for each age will have no effect on the resulting table. The modified data at each age were added across all sectors and size bands then graduated using the Whittaker-Henderson method. Mortality rates at ages below 54 were based on the ultimate, non-smoker individual Canadian life insurance mortality rates from the recently-published CIA 97–04 table, with rates from ages 54–60 obtained by fitting a 5th order polynomial to the rates already obtained for ages 51, 52, 53, 61, 62, and 63. Mortality rates at ages over 102 were obtained from the paper delivered by Bob Howard at the 2011 Living to 100 Symposium. Similarly to the foregoing, male rates from age 95 (98 for females) to age 102 were obtained by fitting a 4th order polynomial to ages 92, 93, 94, 103, and 104 (95, 96, 97, 103, and 104 for females. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canadian Pensioners’ Mortality (CPM) 2014 – Male. Basis: Private Sector. Minimum Age: 18 Maximum Age: 115</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>115</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00076</Y>
+        <Y t="19">0.00085</Y>
+        <Y t="20">0.00093</Y>
+        <Y t="21">0.00101</Y>
+        <Y t="22">0.00108</Y>
+        <Y t="23">0.00115</Y>
+        <Y t="24">0.0012</Y>
+        <Y t="25">0.00123</Y>
+        <Y t="26">0.00128</Y>
+        <Y t="27">0.00131</Y>
+        <Y t="28">0.00133</Y>
+        <Y t="29">0.00135</Y>
+        <Y t="30">0.00136</Y>
+        <Y t="31">0.00138</Y>
+        <Y t="32">0.00138</Y>
+        <Y t="33">0.00136</Y>
+        <Y t="34">0.00136</Y>
+        <Y t="35">0.00136</Y>
+        <Y t="36">0.00136</Y>
+        <Y t="37">0.00138</Y>
+        <Y t="38">0.00142</Y>
+        <Y t="39">0.00147</Y>
+        <Y t="40">0.00154</Y>
+        <Y t="41">0.00163</Y>
+        <Y t="42">0.00174</Y>
+        <Y t="43">0.00187</Y>
+        <Y t="44">0.00201</Y>
+        <Y t="45">0.00216</Y>
+        <Y t="46">0.00232</Y>
+        <Y t="47">0.00249</Y>
+        <Y t="48">0.00265</Y>
+        <Y t="49">0.00283</Y>
+        <Y t="50">0.00301</Y>
+        <Y t="51">0.00323</Y>
+        <Y t="52">0.00349</Y>
+        <Y t="53">0.00378</Y>
+        <Y t="54">0.00412</Y>
+        <Y t="55">0.00453</Y>
+        <Y t="56">0.005</Y>
+        <Y t="57">0.00552</Y>
+        <Y t="58">0.00608</Y>
+        <Y t="59">0.00667</Y>
+        <Y t="60">0.00727</Y>
+        <Y t="61">0.00787</Y>
+        <Y t="62">0.00847</Y>
+        <Y t="63">0.00905</Y>
+        <Y t="64">0.00964</Y>
+        <Y t="65">0.01024</Y>
+        <Y t="66">0.01089</Y>
+        <Y t="67">0.01163</Y>
+        <Y t="68">0.01253</Y>
+        <Y t="69">0.01361</Y>
+        <Y t="70">0.01488</Y>
+        <Y t="71">0.01636</Y>
+        <Y t="72">0.01808</Y>
+        <Y t="73">0.02007</Y>
+        <Y t="74">0.02236</Y>
+        <Y t="75">0.025</Y>
+        <Y t="76">0.02801</Y>
+        <Y t="77">0.03146</Y>
+        <Y t="78">0.03541</Y>
+        <Y t="79">0.03993</Y>
+        <Y t="80">0.04507</Y>
+        <Y t="81">0.05092</Y>
+        <Y t="82">0.05753</Y>
+        <Y t="83">0.06496</Y>
+        <Y t="84">0.07327</Y>
+        <Y t="85">0.08252</Y>
+        <Y t="86">0.09277</Y>
+        <Y t="87">0.10412</Y>
+        <Y t="88">0.11667</Y>
+        <Y t="89">0.13054</Y>
+        <Y t="90">0.14587</Y>
+        <Y t="91">0.16282</Y>
+        <Y t="92">0.18159</Y>
+        <Y t="93">0.20238</Y>
+        <Y t="94">0.22543</Y>
+        <Y t="95">0.2497</Y>
+        <Y t="96">0.27436</Y>
+        <Y t="97">0.29882</Y>
+        <Y t="98">0.32267</Y>
+        <Y t="99">0.34575</Y>
+        <Y t="100">0.36811</Y>
+        <Y t="101">0.39</Y>
+        <Y t="102">0.41191</Y>
+        <Y t="103">0.43454</Y>
+        <Y t="104">0.45879</Y>
+        <Y t="105">0.47904</Y>
+        <Y t="106">0.49928</Y>
+        <Y t="107">0.5195</Y>
+        <Y t="108">0.5397</Y>
+        <Y t="109">0.55987</Y>
+        <Y t="110">0.58</Y>
+        <Y t="111">0.6</Y>
+        <Y t="112">0.62</Y>
+        <Y t="113">0.64</Y>
+        <Y t="114">0.66</Y>
+        <Y t="115">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

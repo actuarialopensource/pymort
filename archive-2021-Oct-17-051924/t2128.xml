@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2128</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Robert J. Johansen, “Blended Mortality Tables – Life Insurance and Annuities”, Transactions of the Society of Actuaries Vol. XXXIX, Society of Actuaries (1987) Appendix D, p. 103. Accessed: August, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1987/January/tsa87v396.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1983 GAM - Table F (20% Male Blend), ANB</TableName>
+    <TableDescription>1983 Group Annuity Mortality (GAM) Table F (20% Male / 80% Female Blend Table). Basis: Age Nearest Birthday. Minimum Age: 5 Maximum Age: 110.</TableDescription>
+    <Comments>Study Data:  In response to the U.S. Supreme Court’s Norris decision, a set of five blended, non-sex-distinct mortality tables were developed from the 1980 CSO tables (See SOA Table Identities 17 and 20) to provide for minimum non-forfeiture values on life insurance policies issued on a non-sex-distinct basis for employee benefit plans. The paper presenting the blended CSO/CET tables also provided for blended versions of the 1983 IAM (See SOA Table Identities 823 and 824) and 1983 GAM (See SOA Table Identity 827 and 828). Methodology: Whereas the CSO/CET blended tables use age 45 as the pivotal value, considering that a blended annuity table is intended primarily for use with a retirement plan, age 65 was selected as the pivotal age at which the ratio of male lx to total lx would be applied. Precedent can be cited in the choice of age 65 by the Teachers Insurance &amp; Annuity Association / College Retirement Equities Fund. NOTE: The Committee on Annuities found that the 80% male and 20% male tables can be closely approximated by one-year and five-year set-backs, respectively. Set-backs could not be found for the 60% and 40% blends. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1983 Group Annuity Mortality (GAM) Table F (20% Male / 80% Female Blend Table). Basis: Age Nearest Birthday. Minimum Age: 5 Maximum Age: 110.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000208</Y>
+        <Y t="6">0.000178</Y>
+        <Y t="7">0.000157</Y>
+        <Y t="8">0.000145</Y>
+        <Y t="9">0.000139</Y>
+        <Y t="10">0.000138</Y>
+        <Y t="11">0.000145</Y>
+        <Y t="12">0.000154</Y>
+        <Y t="13">0.000162</Y>
+        <Y t="14">0.000171</Y>
+        <Y t="15">0.000180</Y>
+        <Y t="16">0.000188</Y>
+        <Y t="17">0.000198</Y>
+        <Y t="18">0.000208</Y>
+        <Y t="19">0.000219</Y>
+        <Y t="20">0.000229</Y>
+        <Y t="21">0.000242</Y>
+        <Y t="22">0.000254</Y>
+        <Y t="23">0.000267</Y>
+        <Y t="24">0.000283</Y>
+        <Y t="25">0.000298</Y>
+        <Y t="26">0.000315</Y>
+        <Y t="27">0.000333</Y>
+        <Y t="28">0.000353</Y>
+        <Y t="29">0.000374</Y>
+        <Y t="30">0.000398</Y>
+        <Y t="31">0.000424</Y>
+        <Y t="32">0.000452</Y>
+        <Y t="33">0.000482</Y>
+        <Y t="34">0.000516</Y>
+        <Y t="35">0.000558</Y>
+        <Y t="36">0.000588</Y>
+        <Y t="37">0.000628</Y>
+        <Y t="38">0.000672</Y>
+        <Y t="39">0.000726</Y>
+        <Y t="40">0.000787</Y>
+        <Y t="41">0.000855</Y>
+        <Y t="42">0.000935</Y>
+        <Y t="43">0.001027</Y>
+        <Y t="44">0.001134</Y>
+        <Y t="45">0.001259</Y>
+        <Y t="46">0.001404</Y>
+        <Y t="47">0.001565</Y>
+        <Y t="48">0.001740</Y>
+        <Y t="49">0.001929</Y>
+        <Y t="50">0.002123</Y>
+        <Y t="51">0.002325</Y>
+        <Y t="52">0.002538</Y>
+        <Y t="53">0.002765</Y>
+        <Y t="54">0.003014</Y>
+        <Y t="55">0.003289</Y>
+        <Y t="56">0.003595</Y>
+        <Y t="57">0.003939</Y>
+        <Y t="58">0.004326</Y>
+        <Y t="59">0.004760</Y>
+        <Y t="60">0.005249</Y>
+        <Y t="61">0.005797</Y>
+        <Y t="62">0.006414</Y>
+        <Y t="63">0.007109</Y>
+        <Y t="64">0.007891</Y>
+        <Y t="65">0.008770</Y>
+        <Y t="66">0.009756</Y>
+        <Y t="67">0.010873</Y>
+        <Y t="68">0.012148</Y>
+        <Y t="69">0.013608</Y>
+        <Y t="70">0.015279</Y>
+        <Y t="71">0.017190</Y>
+        <Y t="72">0.019364</Y>
+        <Y t="73">0.021821</Y>
+        <Y t="74">0.024579</Y>
+        <Y t="75">0.027656</Y>
+        <Y t="76">0.031064</Y>
+        <Y t="77">0.034800</Y>
+        <Y t="78">0.038860</Y>
+        <Y t="79">0.043237</Y>
+        <Y t="80">0.047924</Y>
+        <Y t="81">0.052917</Y>
+        <Y t="82">0.058217</Y>
+        <Y t="83">0.063827</Y>
+        <Y t="84">0.069747</Y>
+        <Y t="85">0.075989</Y>
+        <Y t="86">0.082733</Y>
+        <Y t="87">0.090051</Y>
+        <Y t="88">0.098070</Y>
+        <Y t="89">0.107328</Y>
+        <Y t="90">0.117518</Y>
+        <Y t="91">0.128583</Y>
+        <Y t="92">0.140794</Y>
+        <Y t="93">0.154318</Y>
+        <Y t="94">0.169519</Y>
+        <Y t="95">0.186488</Y>
+        <Y t="96">0.205218</Y>
+        <Y t="97">0.224983</Y>
+        <Y t="98">0.246357</Y>
+        <Y t="99">0.270153</Y>
+        <Y t="100">0.296651</Y>
+        <Y t="101">0.326162</Y>
+        <Y t="102">0.359253</Y>
+        <Y t="103">0.395686</Y>
+        <Y t="104">0.437722</Y>
+        <Y t="105">0.486745</Y>
+        <Y t="106">0.544437</Y>
+        <Y t="107">0.612544</Y>
+        <Y t="108">0.692878</Y>
+        <Y t="109">0.787313</Y>
+        <Y t="110">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

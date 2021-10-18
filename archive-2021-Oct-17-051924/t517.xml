@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>517</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>National Center for Health Statistics, “U.S. Decennial Life Tables for 1979-81”, United States Life Tables, Vol. 1, No. 1. (Washington, 1985) p. 1.6-1.7. Accessed: April, 2013 from http://www.cdc.gov/nchs/data/lifetables/life79_1_1.pdf, p. 12-13</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>U.S. Life Tables 1979-81 – Total Population, ANB</TableName>
+    <TableDescription>United States (U.S.) Life Tables 1979-81 – Total Population. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+    <Comments>Study Data: The official decennial United States (U.S.) Life Tables for 1979-81 consist of 12 separate tables: total persons, white persons, other-than-white persons, and black persons, each by sex and also for both sexes combined. As previously, the principal data involved in their preparation were the enumerated population in the latest census (taken on April 1, 1980) and the registered deaths in the three calendar years centered on the census year. To improve the reliability at the lowest ages, data on births in the years surrounding the census were used. Similarly, experience at high ages was deemed not as reliable and thus supplemented by Medicare experience. Methodology: In general, except for extremely high ages, the data were sufficiently accurate and only a minimum of graduation was needed. Data was grouped in into quinquennial age groups and interpolating the needed values. Minor adjustments were needed at the teenage years to assure that mortality rates for white persons were lower than for other persons. The data for the very highest ages were not considered reliable, and accordingly, the tables were terminated using the mortality experience of the Medicare program. Data Transcription Errors: None. Data Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>United States (U.S.) Life Tables 1979-81 – Total Population. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.01260</Y>
+        <Y t="1">0.00093</Y>
+        <Y t="2">0.00065</Y>
+        <Y t="3">0.00050</Y>
+        <Y t="4">0.00040</Y>
+        <Y t="5">0.00037</Y>
+        <Y t="6">0.00033</Y>
+        <Y t="7">0.00030</Y>
+        <Y t="8">0.00027</Y>
+        <Y t="9">0.00023</Y>
+        <Y t="10">0.00020</Y>
+        <Y t="11">0.00019</Y>
+        <Y t="12">0.00025</Y>
+        <Y t="13">0.00037</Y>
+        <Y t="14">0.00053</Y>
+        <Y t="15">0.00069</Y>
+        <Y t="16">0.00083</Y>
+        <Y t="17">0.00095</Y>
+        <Y t="18">0.00105</Y>
+        <Y t="19">0.00112</Y>
+        <Y t="20">0.00120</Y>
+        <Y t="21">0.00127</Y>
+        <Y t="22">0.00132</Y>
+        <Y t="23">0.00134</Y>
+        <Y t="24">0.00133</Y>
+        <Y t="25">0.00132</Y>
+        <Y t="26">0.00131</Y>
+        <Y t="27">0.00130</Y>
+        <Y t="28">0.00130</Y>
+        <Y t="29">0.00131</Y>
+        <Y t="30">0.00133</Y>
+        <Y t="31">0.00134</Y>
+        <Y t="32">0.00137</Y>
+        <Y t="33">0.00142</Y>
+        <Y t="34">0.00150</Y>
+        <Y t="35">0.00159</Y>
+        <Y t="36">0.00170</Y>
+        <Y t="37">0.00183</Y>
+        <Y t="38">0.00197</Y>
+        <Y t="39">0.00213</Y>
+        <Y t="40">0.00232</Y>
+        <Y t="41">0.00254</Y>
+        <Y t="42">0.00279</Y>
+        <Y t="43">0.00306</Y>
+        <Y t="44">0.00335</Y>
+        <Y t="45">0.00366</Y>
+        <Y t="46">0.00401</Y>
+        <Y t="47">0.00442</Y>
+        <Y t="48">0.00488</Y>
+        <Y t="49">0.00538</Y>
+        <Y t="50">0.00589</Y>
+        <Y t="51">0.00642</Y>
+        <Y t="52">0.00699</Y>
+        <Y t="53">0.00761</Y>
+        <Y t="54">0.00830</Y>
+        <Y t="55">0.00902</Y>
+        <Y t="56">0.00978</Y>
+        <Y t="57">0.01059</Y>
+        <Y t="58">0.01151</Y>
+        <Y t="59">0.01254</Y>
+        <Y t="60">0.01368</Y>
+        <Y t="61">0.01493</Y>
+        <Y t="62">0.01628</Y>
+        <Y t="63">0.01767</Y>
+        <Y t="64">0.01911</Y>
+        <Y t="65">0.02059</Y>
+        <Y t="66">0.02216</Y>
+        <Y t="67">0.02389</Y>
+        <Y t="68">0.02585</Y>
+        <Y t="69">0.02806</Y>
+        <Y t="70">0.03052</Y>
+        <Y t="71">0.03315</Y>
+        <Y t="72">0.03593</Y>
+        <Y t="73">0.03882</Y>
+        <Y t="74">0.04184</Y>
+        <Y t="75">0.04507</Y>
+        <Y t="76">0.04867</Y>
+        <Y t="77">0.05274</Y>
+        <Y t="78">0.05742</Y>
+        <Y t="79">0.06277</Y>
+        <Y t="80">0.06882</Y>
+        <Y t="81">0.07552</Y>
+        <Y t="82">0.08278</Y>
+        <Y t="83">0.09041</Y>
+        <Y t="84">0.09842</Y>
+        <Y t="85">0.10725</Y>
+        <Y t="86">0.11712</Y>
+        <Y t="87">0.12717</Y>
+        <Y t="88">0.13708</Y>
+        <Y t="89">0.14728</Y>
+        <Y t="90">0.15868</Y>
+        <Y t="91">0.17169</Y>
+        <Y t="92">0.18570</Y>
+        <Y t="93">0.20023</Y>
+        <Y t="94">0.21495</Y>
+        <Y t="95">0.22976</Y>
+        <Y t="96">0.24338</Y>
+        <Y t="97">0.25637</Y>
+        <Y t="98">0.26868</Y>
+        <Y t="99">0.28030</Y>
+        <Y t="100">0.29120</Y>
+        <Y t="101">0.30139</Y>
+        <Y t="102">0.31089</Y>
+        <Y t="103">0.31970</Y>
+        <Y t="104">0.32786</Y>
+        <Y t="105">0.33539</Y>
+        <Y t="106">0.34233</Y>
+        <Y t="107">0.34870</Y>
+        <Y t="108">0.35453</Y>
+        <Y t="109">0.35988</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

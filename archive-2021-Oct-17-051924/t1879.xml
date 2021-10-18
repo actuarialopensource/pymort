@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1879</TableIdentity>
+    <ProviderDomain>http://www.ib.gov.tw</ProviderDomain>
+    <ProviderName>Taiwan Government</ProviderName>
+    <TableReference>Executive Yuan of the Financial Supervisory Commission, “2012 Taiwan Life Insurance Non-smoking and smoking body Body Life Table ", Republic of China (2012). Accessed: July, 2013 from: http://www.ib.gov.tw/uploaddowndoc?file=Law/201206111140460.doc&amp;filedisplay=2012%E5%B9%B4%E8%87%BA%E7%81%A3%E5%A3%BD%E9%9A%AA%E6%A5%AD%E9%9D%9E%E5%90%B8%E7%85%99%E9%AB%94%E5%8F%8A%E5%90%B8%E7%85%99%E9%AB%94%E7%94%9F%E5%91%BD%E8%A1%A8%E9%9B%BB%E5%AD%90%E6%AA%94.doc&amp;flag=doc</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>2012 Taiwan Body Life Table - Male, Smoking Body</TableName>
+    <TableDescription>2012 Taiwan Body Life Table - Male, Smoking Body. Minimum Age: 18. Maximum Age: 110.</TableDescription>
+    <Comments>Study Data: Developed in conjunction with the Taiwan Standard Ordinary (TSO) 2011 tables (see SOA Table Identities 1876 &amp; 1877) thus industry experience from 2004 to 2008 serves as the main basis. Smoking body data from the Bureau of Health Office of Management who each year conducts an adult telephone survey of smoking behavior based on a sample from the Taiwan Area (including Kinmen, Lienchiang County) of those nationals aged 18 or more. Sampling method based on geometric probability utilizing post code and the last four digits of two random numbers randomly generated. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Taiwan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="886">Taiwan</Nation>
+      <TableDescription>2012 Taiwan Body Life Table - Male, Non-Smoking Body. Minimum Age: 18. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00063</Y>
+        <Y t="19">0.000692</Y>
+        <Y t="20">0.000738</Y>
+        <Y t="21">0.000778</Y>
+        <Y t="22">0.000834</Y>
+        <Y t="23">0.000908</Y>
+        <Y t="24">0.001</Y>
+        <Y t="25">0.001098</Y>
+        <Y t="26">0.001187</Y>
+        <Y t="27">0.001241</Y>
+        <Y t="28">0.0013</Y>
+        <Y t="29">0.001365</Y>
+        <Y t="30">0.001436</Y>
+        <Y t="31">0.001531</Y>
+        <Y t="32">0.001645</Y>
+        <Y t="33">0.001781</Y>
+        <Y t="34">0.001946</Y>
+        <Y t="35">0.002105</Y>
+        <Y t="36">0.002291</Y>
+        <Y t="37">0.002499</Y>
+        <Y t="38">0.002709</Y>
+        <Y t="39">0.002913</Y>
+        <Y t="40">0.003171</Y>
+        <Y t="41">0.003439</Y>
+        <Y t="42">0.003747</Y>
+        <Y t="43">0.004131</Y>
+        <Y t="44">0.004544</Y>
+        <Y t="45">0.004967</Y>
+        <Y t="46">0.005414</Y>
+        <Y t="47">0.005897</Y>
+        <Y t="48">0.006433</Y>
+        <Y t="49">0.007025</Y>
+        <Y t="50">0.007594</Y>
+        <Y t="51">0.008196</Y>
+        <Y t="52">0.008826</Y>
+        <Y t="53">0.009453</Y>
+        <Y t="54">0.010061</Y>
+        <Y t="55">0.010655</Y>
+        <Y t="56">0.011353</Y>
+        <Y t="57">0.012224</Y>
+        <Y t="58">0.013253</Y>
+        <Y t="59">0.014543</Y>
+        <Y t="60">0.015747</Y>
+        <Y t="61">0.016706</Y>
+        <Y t="62">0.017883</Y>
+        <Y t="63">0.019323</Y>
+        <Y t="64">0.020982</Y>
+        <Y t="65">0.022752</Y>
+        <Y t="66">0.02456</Y>
+        <Y t="67">0.026481</Y>
+        <Y t="68">0.028667</Y>
+        <Y t="69">0.031063</Y>
+        <Y t="70">0.03358</Y>
+        <Y t="71">0.036278</Y>
+        <Y t="72">0.039091</Y>
+        <Y t="73">0.042067</Y>
+        <Y t="74">0.045174</Y>
+        <Y t="75">0.048719</Y>
+        <Y t="76">0.05242</Y>
+        <Y t="77">0.056358</Y>
+        <Y t="78">0.060565</Y>
+        <Y t="79">0.065097</Y>
+        <Y t="80">0.069975</Y>
+        <Y t="81">0.075213</Y>
+        <Y t="82">0.080734</Y>
+        <Y t="83">0.086612</Y>
+        <Y t="84">0.092722</Y>
+        <Y t="85">0.099737</Y>
+        <Y t="86">0.107251</Y>
+        <Y t="87">0.115278</Y>
+        <Y t="88">0.124042</Y>
+        <Y t="89">0.133725</Y>
+        <Y t="90">0.144756</Y>
+        <Y t="91">0.157405</Y>
+        <Y t="92">0.169567</Y>
+        <Y t="93">0.1826</Y>
+        <Y t="94">0.198411</Y>
+        <Y t="95">0.216292</Y>
+        <Y t="96">0.235786</Y>
+        <Y t="97">0.257035</Y>
+        <Y t="98">0.280201</Y>
+        <Y t="99">0.305453</Y>
+        <Y t="100">0.332982</Y>
+        <Y t="101">0.362992</Y>
+        <Y t="102">0.395706</Y>
+        <Y t="103">0.431369</Y>
+        <Y t="104">0.470245</Y>
+        <Y t="105">0.512626</Y>
+        <Y t="106">0.558826</Y>
+        <Y t="107">0.609189</Y>
+        <Y t="108">0.664092</Y>
+        <Y t="109">0.723942</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

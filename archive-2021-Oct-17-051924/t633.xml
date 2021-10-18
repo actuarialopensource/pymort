@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>633</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Institut National de Statistiques – Nationaal Instituut voor de Statiskiek. Reprinted by A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1988-90 Belgium Population Mortality - Male, ANB</TableName>
+    <TableDescription>1988-90 Belgium Population Mortality – Male. Basis: Age Nearest Birthday. Minimum Age: 20. Maximum Age: 65</TableDescription>
+    <Comments>Study Data: Triennial population study for the period 1988 to 1990. Used to establish reference tables (See SOA Table Identities 897-898 and 30007-30009) given in the Royal Decree of December, 1992 on assured lives mortality and pensioner’s mortality. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 09/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Belgium</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="32">Belgium</Nation>
+      <TableDescription>1988-90 Belgium Population Mortality – Male. Basis: Age Nearest Birthday. Minimum Age: 20. Maximum Age: 65</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>65</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.001475</Y>
+        <Y t="21">0.001437</Y>
+        <Y t="22">0.001275</Y>
+        <Y t="23">0.001305</Y>
+        <Y t="24">0.001395</Y>
+        <Y t="25">0.001213</Y>
+        <Y t="26">0.001094</Y>
+        <Y t="27">0.001131</Y>
+        <Y t="28">0.001202</Y>
+        <Y t="29">0.001042</Y>
+        <Y t="30">0.001327</Y>
+        <Y t="31">0.001295</Y>
+        <Y t="32">0.001558</Y>
+        <Y t="33">0.001332</Y>
+        <Y t="34">0.001386</Y>
+        <Y t="35">0.001723</Y>
+        <Y t="36">0.001696</Y>
+        <Y t="37">0.001713</Y>
+        <Y t="38">0.001765</Y>
+        <Y t="39">0.002032</Y>
+        <Y t="40">0.002114</Y>
+        <Y t="41">0.002360</Y>
+        <Y t="42">0.002629</Y>
+        <Y t="43">0.002777</Y>
+        <Y t="44">0.003626</Y>
+        <Y t="45">0.003405</Y>
+        <Y t="46">0.003587</Y>
+        <Y t="47">0.004274</Y>
+        <Y t="48">0.004505</Y>
+        <Y t="49">0.004874</Y>
+        <Y t="50">0.004964</Y>
+        <Y t="51">0.005640</Y>
+        <Y t="52">0.006364</Y>
+        <Y t="53">0.006952</Y>
+        <Y t="54">0.007649</Y>
+        <Y t="55">0.008737</Y>
+        <Y t="56">0.009555</Y>
+        <Y t="57">0.010465</Y>
+        <Y t="58">0.012337</Y>
+        <Y t="59">0.013702</Y>
+        <Y t="60">0.014979</Y>
+        <Y t="61">0.016811</Y>
+        <Y t="62">0.017907</Y>
+        <Y t="63">0.019389</Y>
+        <Y t="64">0.021645</Y>
+        <Y t="65">0.024669</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

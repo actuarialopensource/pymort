@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>20002</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Jorge Noronha</ProviderName>
+    <TableReference>Instituto Nacional de Estadistica y Censos, “Tabla Completa de Mortalidad de la Argentina Por Sexo”, Rebulica Argentina Ministerio de Economia  y Obras y Servicios Publicos (Buenos Aires, 1995)</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Tabla Completa de Mortalidad de la Argentina 1990-1992 – Mujeres</TableName>
+    <TableDescription>Tabla Completa de Mortalidad (Complete Table of Mortality) de la Argentina 1990-1992 - Mujeres (Females) Minimum Age: 0. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data: Instituto Nacional de Estadistica y Censos (INDEC) prepares, approximately every ten years, mortality tables based on the census population and the registered deaths in a bi- or tri-annual period around a census year. Thus for this study, population and deaths for the years 1990, 1991, and 1992 were used. Methodology: Not available at this time. Data Transcription Errors Detected: 10/2013. Data Corrected and Certified: 10/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Argentina</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="54">Argentina</Nation>
+      <TableDescription>Tabla Completa de Mortalidad (Complete Table of Mortality) de la Argentina 1990-1992 - Mujeres (Females) Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.02218</Y>
+        <Y t="1">0.00208</Y>
+        <Y t="2">0.00100</Y>
+        <Y t="3">0.00050</Y>
+        <Y t="4">0.00041</Y>
+        <Y t="5">0.00032</Y>
+        <Y t="6">0.00029</Y>
+        <Y t="7">0.00028</Y>
+        <Y t="8">0.00027</Y>
+        <Y t="9">0.00026</Y>
+        <Y t="10">0.00025</Y>
+        <Y t="11">0.00026</Y>
+        <Y t="12">0.00027</Y>
+        <Y t="13">0.00290</Y>
+        <Y t="14">0.00033</Y>
+        <Y t="15">0.00039</Y>
+        <Y t="16">0.00044</Y>
+        <Y t="17">0.00049</Y>
+        <Y t="18">0.00053</Y>
+        <Y t="19">0.00056</Y>
+        <Y t="20">0.00057</Y>
+        <Y t="21">0.00060</Y>
+        <Y t="22">0.00063</Y>
+        <Y t="23">0.00065</Y>
+        <Y t="24">0.00068</Y>
+        <Y t="25">0.00071</Y>
+        <Y t="26">0.00076</Y>
+        <Y t="27">0.00080</Y>
+        <Y t="28">0.00084</Y>
+        <Y t="29">0.00087</Y>
+        <Y t="30">0.00093</Y>
+        <Y t="31">0.00098</Y>
+        <Y t="32">0.00102</Y>
+        <Y t="33">0.00110</Y>
+        <Y t="34">0.00118</Y>
+        <Y t="35">0.00127</Y>
+        <Y t="36">0.00138</Y>
+        <Y t="37">0.00151</Y>
+        <Y t="38">0.00162</Y>
+        <Y t="39">0.00180</Y>
+        <Y t="40">0.00190</Y>
+        <Y t="41">0.00205</Y>
+        <Y t="42">0.00222</Y>
+        <Y t="43">0.00240</Y>
+        <Y t="44">0.00257</Y>
+        <Y t="45">0.00280</Y>
+        <Y t="46">0.00301</Y>
+        <Y t="47">0.00325</Y>
+        <Y t="48">0.00351</Y>
+        <Y t="49">0.00387</Y>
+        <Y t="50">0.00419</Y>
+        <Y t="51">0.00447</Y>
+        <Y t="52">0.00475</Y>
+        <Y t="53">0.00513</Y>
+        <Y t="54">0.00540</Y>
+        <Y t="55">0.00587</Y>
+        <Y t="56">0.00643</Y>
+        <Y t="57">0.00702</Y>
+        <Y t="58">0.00743</Y>
+        <Y t="59">0.00822</Y>
+        <Y t="60">0.00878</Y>
+        <Y t="61">0.00950</Y>
+        <Y t="62">0.01029</Y>
+        <Y t="63">0.01131</Y>
+        <Y t="64">0.01215</Y>
+        <Y t="65">0.01334</Y>
+        <Y t="66">0.01458</Y>
+        <Y t="67">0.01628</Y>
+        <Y t="68">0.01790</Y>
+        <Y t="69">0.02033</Y>
+        <Y t="70">0.02239</Y>
+        <Y t="71">0.02510</Y>
+        <Y t="72">0.02756</Y>
+        <Y t="73">0.03122</Y>
+        <Y t="74">0.03387</Y>
+        <Y t="75">0.03823</Y>
+        <Y t="76">0.04257</Y>
+        <Y t="77">0.04827</Y>
+        <Y t="78">0.05379</Y>
+        <Y t="79">0.06195</Y>
+        <Y t="80">0.06924</Y>
+        <Y t="81">0.07910</Y>
+        <Y t="82">0.08950</Y>
+        <Y t="83">0.10054</Y>
+        <Y t="84">0.11228</Y>
+        <Y t="85">0.12473</Y>
+        <Y t="86">0.13782</Y>
+        <Y t="87">0.15140</Y>
+        <Y t="88">0.16526</Y>
+        <Y t="89">0.17919</Y>
+        <Y t="90">0.19297</Y>
+        <Y t="91">0.20639</Y>
+        <Y t="92">0.21937</Y>
+        <Y t="93">0.23180</Y>
+        <Y t="94">0.24358</Y>
+        <Y t="95">0.25468</Y>
+        <Y t="96">0.26522</Y>
+        <Y t="97">0.27538</Y>
+        <Y t="98">0.28554</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

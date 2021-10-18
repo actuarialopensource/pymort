@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2622</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Melville Jessup Weaver Consultants, "Report of the Investigation into the Mortality of New Zealand Insured Lives 1998-2001, The New Zealand Society of Actuaries (2002). Accessed: January, 2014 from http://www.actuaries.org.nz/Papers%202002/Mortality%20Investigation%2002rep.PDF</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>NZ97M</TableName>
+    <TableDescription>New Zealand Mortality of Insured Lives 1993-1997 (NZ97M) – Male. Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Experience covers the five year period 1993-1997. The results are the aggregate of all participating offices and of the different policy types over the period for which data were submitted. The investigation has been based on policies rather than lives. The following types of policies were excluded from the study: (a) policies issued on non-standard terms, (b) reinsurance received from other companies, (c) child's deferred policies (d) policies which were issued as Industrial or collector business (e) group policies, and (f) joint and contingent life policies. There are limited numbers of exposures and deaths in the young and old age groups. Methodology: Rates graduated but technique detials not available at this time. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>New Zealand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="64">New Zealand</Nation>
+      <TableDescription>New Zealand Mortality of Insured Lives 1993-1997 (NZ97M) – Male. Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00062</Y>
+        <Y t="1">0.000179</Y>
+        <Y t="2">0.000117</Y>
+        <Y t="3">9E-05</Y>
+        <Y t="4">7.4E-05</Y>
+        <Y t="5">6.5E-05</Y>
+        <Y t="6">5.9E-05</Y>
+        <Y t="7">5.8E-05</Y>
+        <Y t="8">6.7E-05</Y>
+        <Y t="9">9.1E-05</Y>
+        <Y t="10">0.000139</Y>
+        <Y t="11">0.000214</Y>
+        <Y t="12">0.000315</Y>
+        <Y t="13">0.000437</Y>
+        <Y t="14">0.000571</Y>
+        <Y t="15">0.000704</Y>
+        <Y t="16">0.000828</Y>
+        <Y t="17">0.000933</Y>
+        <Y t="18">0.001015</Y>
+        <Y t="19">0.001071</Y>
+        <Y t="20">0.001101</Y>
+        <Y t="21">0.001108</Y>
+        <Y t="22">0.001095</Y>
+        <Y t="23">0.001067</Y>
+        <Y t="24">0.001028</Y>
+        <Y t="25">0.000981</Y>
+        <Y t="26">0.000932</Y>
+        <Y t="27">0.000882</Y>
+        <Y t="28">0.000836</Y>
+        <Y t="29">0.000794</Y>
+        <Y t="30">0.000759</Y>
+        <Y t="31">0.000733</Y>
+        <Y t="32">0.000715</Y>
+        <Y t="33">0.000706</Y>
+        <Y t="34">0.000708</Y>
+        <Y t="35">0.000721</Y>
+        <Y t="36">0.000745</Y>
+        <Y t="37">0.000781</Y>
+        <Y t="38">0.000829</Y>
+        <Y t="39">0.00089</Y>
+        <Y t="40">0.000965</Y>
+        <Y t="41">0.001054</Y>
+        <Y t="42">0.001159</Y>
+        <Y t="43">0.001281</Y>
+        <Y t="44">0.001421</Y>
+        <Y t="45">0.001582</Y>
+        <Y t="46">0.001764</Y>
+        <Y t="47">0.001971</Y>
+        <Y t="48">0.002204</Y>
+        <Y t="49">0.002467</Y>
+        <Y t="50">0.002763</Y>
+        <Y t="51">0.003095</Y>
+        <Y t="52">0.003468</Y>
+        <Y t="53">0.003885</Y>
+        <Y t="54">0.004353</Y>
+        <Y t="55">0.004876</Y>
+        <Y t="56">0.00546</Y>
+        <Y t="57">0.006113</Y>
+        <Y t="58">0.006842</Y>
+        <Y t="59">0.007656</Y>
+        <Y t="60">0.008564</Y>
+        <Y t="61">0.009575</Y>
+        <Y t="62">0.010702</Y>
+        <Y t="63">0.011957</Y>
+        <Y t="64">0.013354</Y>
+        <Y t="65">0.014908</Y>
+        <Y t="66">0.016635</Y>
+        <Y t="67">0.018553</Y>
+        <Y t="68">0.020683</Y>
+        <Y t="69">0.023046</Y>
+        <Y t="70">0.025666</Y>
+        <Y t="71">0.028567</Y>
+        <Y t="72">0.031779</Y>
+        <Y t="73">0.03533</Y>
+        <Y t="74">0.039252</Y>
+        <Y t="75">0.04358</Y>
+        <Y t="76">0.048351</Y>
+        <Y t="77">0.053604</Y>
+        <Y t="78">0.059378</Y>
+        <Y t="79">0.065718</Y>
+        <Y t="80">0.072667</Y>
+        <Y t="81">0.080272</Y>
+        <Y t="82">0.088579</Y>
+        <Y t="83">0.097636</Y>
+        <Y t="84">0.10749</Y>
+        <Y t="85">0.118186</Y>
+        <Y t="86">0.12977</Y>
+        <Y t="87">0.14228</Y>
+        <Y t="88">0.155755</Y>
+        <Y t="89">0.170225</Y>
+        <Y t="90">0.185715</Y>
+        <Y t="91">0.202239</Y>
+        <Y t="92">0.219805</Y>
+        <Y t="93">0.238406</Y>
+        <Y t="94">0.258026</Y>
+        <Y t="95">0.278634</Y>
+        <Y t="96">0.300183</Y>
+        <Y t="97">0.322615</Y>
+        <Y t="98">0.345855</Y>
+        <Y t="99">0.369815</Y>
+        <Y t="100">0.394393</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

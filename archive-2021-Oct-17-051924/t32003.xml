@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>32003</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Sylvain Gadenne</ProviderName>
+    <TableReference>A. S. MacDonald, "The Second Actuarial Study of Mortality in Europe" (1997). Accessed November, 2012 from http://www.actuaris.com/fr/infotech/actuariat/tables_de_mortalit-/table_td_88-90.html</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>TD 88-90</TableName>
+    <TableDescription>TD 88-90. Minimum Age: 0. Maximum Age: 106</TableDescription>
+    <Comments>Study Data: Based on data from the Institut National de la Statistique et des Études Économiques (INSEE) for the period 1988-1990.  TD 88-90 applies to the calculation of rates for life insurance contracts while TV 88-90 (See SOA Table Identity 954) applies to the calculation of rates of insurance in case of death contracts. TD 88-90 and TV 88-90 have since been superseded by TH 00-02 and TF 00-02 developed by INSEE and adopted in 2007. Methodology: Table established by INSEE on the observations made ​​between 1988 and 1990 in a population of men. Consult the INSEE for further details regarding construction methodology. NOTE: The source material contains Lx and thus was converted to qx for purposes of this table. Data Transcriptions Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives mortality</KeyWord>
+    <KeyWord>France</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="33">France</Nation>
+      <TableDescription>TD 88-90. Minimum Age: 0. Maximum Age: 106</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>106</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0087100000</Y>
+        <Y t="1">0.0007263263</Y>
+        <Y t="2">0.0004744743</Y>
+        <Y t="3">0.0003332997</Y>
+        <Y t="4">0.0002929974</Y>
+        <Y t="5">0.0002728706</Y>
+        <Y t="6">0.0002426178</Y>
+        <Y t="7">0.0002123421</Y>
+        <Y t="8">0.0002123872</Y>
+        <Y t="9">0.0002023165</Y>
+        <Y t="10">0.0002124753</Y>
+        <Y t="11">0.0002125205</Y>
+        <Y t="12">0.0002226878</Y>
+        <Y t="13">0.0002632352</Y>
+        <Y t="14">0.0003341941</Y>
+        <Y t="15">0.0004558716</Y>
+        <Y t="16">0.0006182412</Y>
+        <Y t="17">0.0008721579</Y>
+        <Y t="18">0.0011571255</Y>
+        <Y t="19">0.0013108957</Y>
+        <Y t="20">0.0014245449</Y>
+        <Y t="21">0.0015284755</Y>
+        <Y t="22">0.0016022534</Y>
+        <Y t="23">0.0015639374</Y>
+        <Y t="24">0.0015663872</Y>
+        <Y t="25">0.0015483368</Y>
+        <Y t="26">0.0015507379</Y>
+        <Y t="27">0.0015634321</Y>
+        <Y t="28">0.0015864840</Y>
+        <Y t="29">0.0016199596</Y>
+        <Y t="30">0.0016742629</Y>
+        <Y t="31">0.0017391844</Y>
+        <Y t="32">0.0018044364</Y>
+        <Y t="33">0.0019115890</Y>
+        <Y t="34">0.0020089309</Y>
+        <Y t="35">0.0021068441</Y>
+        <Y t="36">0.0022262636</Y>
+        <Y t="37">0.0023674094</Y>
+        <Y t="38">0.0025200290</Y>
+        <Y t="39">0.0026421887</Y>
+        <Y t="40">0.0028497245</Y>
+        <Y t="41">0.0031119014</Y>
+        <Y t="42">0.0033339704</Y>
+        <Y t="43">0.0037606000</Y>
+        <Y t="44">0.0040849062</Y>
+        <Y t="45">0.0043593570</Y>
+        <Y t="46">0.0046588372</Y>
+        <Y t="47">0.0050056883</Y>
+        <Y t="48">0.0054555552</Y>
+        <Y t="49">0.0060657820</Y>
+        <Y t="50">0.0066866421</Y>
+        <Y t="51">0.0073194264</Y>
+        <Y t="52">0.0080437041</Y>
+        <Y t="53">0.0087846741</Y>
+        <Y t="54">0.0096124348</Y>
+        <Y t="55">0.0106005851</Y>
+        <Y t="56">0.0114214817</Y>
+        <Y t="57">0.0122572018</Y>
+        <Y t="58">0.0133949247</Y>
+        <Y t="59">0.0144313518</Y>
+        <Y t="60">0.0156562943</Y>
+        <Y t="61">0.0168606238</Y>
+        <Y t="62">0.0181214745</Y>
+        <Y t="63">0.0194326989</Y>
+        <Y t="64">0.0206435546</Y>
+        <Y t="65">0.0220155246</Y>
+        <Y t="66">0.0233869312</Y>
+        <Y t="67">0.0253201805</Y>
+        <Y t="68">0.0273724464</Y>
+        <Y t="69">0.0296504323</Y>
+        <Y t="70">0.0320796966</Y>
+        <Y t="71">0.0355349921</Y>
+        <Y t="72">0.0387370482</Y>
+        <Y t="73">0.0423520225</Y>
+        <Y t="74">0.0460507657</Y>
+        <Y t="75">0.0507636850</Y>
+        <Y t="76">0.0554946561</Y>
+        <Y t="77">0.0614909536</Y>
+        <Y t="78">0.0680372759</Y>
+        <Y t="79">0.0749235836</Y>
+        <Y t="80">0.0824005533</Y>
+        <Y t="81">0.0922845020</Y>
+        <Y t="82">0.1014207516</Y>
+        <Y t="83">0.1114989733</Y>
+        <Y t="84">0.1225637470</Y>
+        <Y t="85">0.1341088674</Y>
+        <Y t="86">0.1461089987</Y>
+        <Y t="87">0.1608977023</Y>
+        <Y t="88">0.1774570155</Y>
+        <Y t="89">0.1923440860</Y>
+        <Y t="90">0.2077963574</Y>
+        <Y t="91">0.2251949449</Y>
+        <Y t="92">0.2451847996</Y>
+        <Y t="93">0.2618390805</Y>
+        <Y t="94">0.2790407973</Y>
+        <Y t="95">0.2937365011</Y>
+        <Y t="96">0.3180428135</Y>
+        <Y t="97">0.3363228700</Y>
+        <Y t="98">0.3878378378</Y>
+        <Y t="99">0.4194260486</Y>
+        <Y t="100">0.4486692015</Y>
+        <Y t="101">0.4758620690</Y>
+        <Y t="102">0.5131578947</Y>
+        <Y t="103">0.5405405405</Y>
+        <Y t="104">0.5882352941</Y>
+        <Y t="105">0.7142857143</Y>
+        <Y t="106">1.0000000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

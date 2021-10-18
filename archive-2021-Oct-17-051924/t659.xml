@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>659</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>“English Life Tables No. 12”, Office of Population Census and Surveys, Her Majesty's Stationery Office. (London). Reprinted by A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>ELT No.12 (1960-62) – Male, ANB</TableName>
+    <TableDescription>English Life Tables (ELT) Number 12 (1960-62) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Population estimates and registrations of deaths from England and Wales (i.e. not the whole United Kingdom) for the years 1960, 1961, and 1962. The decennial population censuses provide the base figures from which the estimates are derived.  The estimates are then obtained by rolling forward the estimates by age and sex using data on births, deaths and net migration. Methodology:  Rather than use King’s method to graduate the rates, through a study of the pivotal values of the central rate of mortality denoted m(x), and, in particular, of the ratios of m(x+5)/m(x), it was found that for males from age 21 on and for females from age 27 on, national mortality rates could be represented very closely by a mathematical formula of similar form for each sex. These curves consisted of a combination of a logistic curve and a normal curve of the form: m(x) = a + b/[1 + e^(-a(x-k)] + c*e^(-a(x-n)^2).  The graduated mortality rates gave higher expected deaths at ages 95 and over. The crude rates however were felt low and attributed to misstatements of age. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 12 (1960-62) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.02449</Y>
+        <Y t="1">0.00157</Y>
+        <Y t="2">0.00099</Y>
+        <Y t="3">0.00069</Y>
+        <Y t="4">0.00062</Y>
+        <Y t="5">0.00057</Y>
+        <Y t="6">0.00052</Y>
+        <Y t="7">0.00048</Y>
+        <Y t="8">0.00044</Y>
+        <Y t="9">0.00041</Y>
+        <Y t="10">0.00039</Y>
+        <Y t="11">0.00038</Y>
+        <Y t="12">0.00038</Y>
+        <Y t="13">0.00041</Y>
+        <Y t="14">0.00047</Y>
+        <Y t="15">0.00059</Y>
+        <Y t="16">0.00078</Y>
+        <Y t="17">0.00099</Y>
+        <Y t="18">0.00112</Y>
+        <Y t="19">0.00117</Y>
+        <Y t="20">0.00119</Y>
+        <Y t="21">0.00118</Y>
+        <Y t="22">0.00114</Y>
+        <Y t="23">0.00108</Y>
+        <Y t="24">0.00102</Y>
+        <Y t="25">0.00099</Y>
+        <Y t="26">0.00098</Y>
+        <Y t="27">0.00100</Y>
+        <Y t="28">0.00104</Y>
+        <Y t="29">0.00109</Y>
+        <Y t="30">0.00115</Y>
+        <Y t="31">0.00121</Y>
+        <Y t="32">0.00128</Y>
+        <Y t="33">0.00136</Y>
+        <Y t="34">0.00145</Y>
+        <Y t="35">0.00155</Y>
+        <Y t="36">0.00167</Y>
+        <Y t="37">0.00181</Y>
+        <Y t="38">0.00196</Y>
+        <Y t="39">0.00214</Y>
+        <Y t="40">0.00235</Y>
+        <Y t="41">0.00259</Y>
+        <Y t="42">0.00287</Y>
+        <Y t="43">0.00319</Y>
+        <Y t="44">0.00356</Y>
+        <Y t="45">0.00399</Y>
+        <Y t="46">0.00448</Y>
+        <Y t="47">0.00505</Y>
+        <Y t="48">0.00570</Y>
+        <Y t="49">0.00644</Y>
+        <Y t="50">0.00728</Y>
+        <Y t="51">0.00823</Y>
+        <Y t="52">0.00930</Y>
+        <Y t="53">0.01051</Y>
+        <Y t="54">0.01184</Y>
+        <Y t="55">0.01331</Y>
+        <Y t="56">0.01492</Y>
+        <Y t="57">0.01668</Y>
+        <Y t="58">0.01859</Y>
+        <Y t="59">0.02065</Y>
+        <Y t="60">0.02287</Y>
+        <Y t="61">0.02525</Y>
+        <Y t="62">0.02778</Y>
+        <Y t="63">0.03049</Y>
+        <Y t="64">0.03339</Y>
+        <Y t="65">0.03648</Y>
+        <Y t="66">0.03978</Y>
+        <Y t="67">0.04332</Y>
+        <Y t="68">0.04712</Y>
+        <Y t="69">0.05122</Y>
+        <Y t="70">0.05566</Y>
+        <Y t="71">0.06047</Y>
+        <Y t="72">0.06570</Y>
+        <Y t="73">0.07139</Y>
+        <Y t="74">0.07759</Y>
+        <Y t="75">0.08434</Y>
+        <Y t="76">0.09167</Y>
+        <Y t="77">0.09963</Y>
+        <Y t="78">0.10824</Y>
+        <Y t="79">0.11752</Y>
+        <Y t="80">0.12747</Y>
+        <Y t="81">0.13808</Y>
+        <Y t="82">0.14934</Y>
+        <Y t="83">0.16122</Y>
+        <Y t="84">0.17366</Y>
+        <Y t="85">0.18659</Y>
+        <Y t="86">0.19997</Y>
+        <Y t="87">0.21369</Y>
+        <Y t="88">0.22765</Y>
+        <Y t="89">0.24177</Y>
+        <Y t="90">0.25593</Y>
+        <Y t="91">0.27003</Y>
+        <Y t="92">0.28396</Y>
+        <Y t="93">0.29764</Y>
+        <Y t="94">0.31096</Y>
+        <Y t="95">0.32385</Y>
+        <Y t="96">0.33623</Y>
+        <Y t="97">0.34806</Y>
+        <Y t="98">0.35929</Y>
+        <Y t="99">0.36989</Y>
+        <Y t="100">0.37983</Y>
+        <Y t="101">0.38912</Y>
+        <Y t="102">0.39776</Y>
+        <Y t="103">0.40575</Y>
+        <Y t="104">0.41312</Y>
+        <Y t="105">0.41989</Y>
+        <Y t="106">0.42609</Y>
+        <Y t="107">0.43175</Y>
+        <Y t="108">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

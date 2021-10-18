@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2755</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. William Farr, “Fifth Annual Report of the Registrar General of Births, Deaths and Marriages in England”, H. Claves and Sons for Her Majesty’s Stationer’s Office (London, 1843) Accessed: April, 2014 from http://histpop.org/ohpr/servlet/Show?page=Home.</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>ELT No. 1 (1841) - Male</TableName>
+    <TableDescription>English Life Tables (ELT) Number 1 (1841) - Male.  Minimum Age: 0 Maximum Age: 104</TableDescription>
+    <Comments>Study Data: Population data from England and Wales (i.e. not for all of the United Kingdom) for the census period 1941 comprising approximately 16,000,000 lives and 344,000 deaths. As registration of death before a body can be buried or cremated has been a requirement in each county of the United Kingdom for many years, registration of deaths is believed to be virtually complete.  Methodology: The principle of construction was relatively simple, based on use of a ratio with a numerator and a denominator. The numerator was supplied from the deaths for 1841 in the new death register, distributed by sex and by age from birth to 105 years. The denominator was supplied by the 1841 census for England and Wales, the persons living at the census count distributed in the same way. By repeating this calculation at every quinquennial period, it became evident that the force of mortality is regulated by a law, and may be represented by a curve. These annual mortality rates were graduated. Selection of 100,000 as a radix (that is, the assumed number born) was purely arbitrary. The 100,000 were allocated to males and females proportionality. The respective tables were calculated separately by two persons and the results compared. NOTE: Initial English Life Tables were printed with just lx values. Over time, the tables were expanded to include qx values that then became the predominant format for the tables of this database. To aid in tracking the data available, qx versions have been created for this and other older tables. (Counterpart qx tables for ELT No 1 have SOA Table Identities 2757-2758). Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+    <KeyWord>Population</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 1 (1841) - Male.  Minimum Age: 0 Maximum Age: 104</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>104</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">51274</Y>
+        <Y t="1">43104</Y>
+        <Y t="2">40388</Y>
+        <Y t="3">39018</Y>
+        <Y t="4">38064</Y>
+        <Y t="5">37385</Y>
+        <Y t="6">36843</Y>
+        <Y t="7">36411</Y>
+        <Y t="8">36065</Y>
+        <Y t="9">35787</Y>
+        <Y t="10">35564</Y>
+        <Y t="11">35385</Y>
+        <Y t="12">35206</Y>
+        <Y t="13">35028</Y>
+        <Y t="14">34810</Y>
+        <Y t="15">34573</Y>
+        <Y t="16">34333</Y>
+        <Y t="17">34087</Y>
+        <Y t="18">33837</Y>
+        <Y t="19">33583</Y>
+        <Y t="20">33324</Y>
+        <Y t="21">33060</Y>
+        <Y t="22">32792</Y>
+        <Y t="23">32519</Y>
+        <Y t="24">32241</Y>
+        <Y t="25">31958</Y>
+        <Y t="26">31671</Y>
+        <Y t="27">31379</Y>
+        <Y t="28">31082</Y>
+        <Y t="29">30780</Y>
+        <Y t="30">30473</Y>
+        <Y t="31">30161</Y>
+        <Y t="32">29845</Y>
+        <Y t="33">29524</Y>
+        <Y t="34">29198</Y>
+        <Y t="35">28867</Y>
+        <Y t="36">28532</Y>
+        <Y t="37">28192</Y>
+        <Y t="38">27848</Y>
+        <Y t="39">27499</Y>
+        <Y t="40">27145</Y>
+        <Y t="41">26787</Y>
+        <Y t="42">26425</Y>
+        <Y t="43">26058</Y>
+        <Y t="44">25687</Y>
+        <Y t="45">25311</Y>
+        <Y t="46">24932</Y>
+        <Y t="47">24549</Y>
+        <Y t="48">24161</Y>
+        <Y t="49">23771</Y>
+        <Y t="50">23376</Y>
+        <Y t="51">22978</Y>
+        <Y t="52">22577</Y>
+        <Y t="53">22172</Y>
+        <Y t="54">21765</Y>
+        <Y t="55">21355</Y>
+        <Y t="56">20906</Y>
+        <Y t="57">20421</Y>
+        <Y t="58">19910</Y>
+        <Y t="59">19373</Y>
+        <Y t="60">18808</Y>
+        <Y t="61">18216</Y>
+        <Y t="62">17598</Y>
+        <Y t="63">16953</Y>
+        <Y t="64">16283</Y>
+        <Y t="65">15589</Y>
+        <Y t="66">14872</Y>
+        <Y t="67">14135</Y>
+        <Y t="68">13378</Y>
+        <Y t="69">12607</Y>
+        <Y t="70">11823</Y>
+        <Y t="71">11031</Y>
+        <Y t="72">10235</Y>
+        <Y t="73">9439</Y>
+        <Y t="74">8648</Y>
+        <Y t="75">7867</Y>
+        <Y t="76">7103</Y>
+        <Y t="77">6360</Y>
+        <Y t="78">5645</Y>
+        <Y t="79">4962</Y>
+        <Y t="80">4316</Y>
+        <Y t="81">3712</Y>
+        <Y t="82">3155</Y>
+        <Y t="83">2645</Y>
+        <Y t="84">2187</Y>
+        <Y t="85">1780</Y>
+        <Y t="86">1425</Y>
+        <Y t="87">1121</Y>
+        <Y t="88">864</Y>
+        <Y t="89">652</Y>
+        <Y t="90">481</Y>
+        <Y t="91">346</Y>
+        <Y t="92">242</Y>
+        <Y t="93">165</Y>
+        <Y t="94">109</Y>
+        <Y t="95">69</Y>
+        <Y t="96">44</Y>
+        <Y t="97">28</Y>
+        <Y t="98">18</Y>
+        <Y t="99">11</Y>
+        <Y t="100">7</Y>
+        <Y t="101">5</Y>
+        <Y t="102">3</Y>
+        <Y t="103">2</Y>
+        <Y t="104">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

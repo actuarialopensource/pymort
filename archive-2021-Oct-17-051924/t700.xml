@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>700</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Joint Committee on Mortality, “Report of Joint Committee  On Mortality: Mortality Under the Accidental Death Benefit in Life Insurance Policies”, Transactions of the Society of Actuaries (1934). Reprinted by Norman Brodie and William J. November, “A New Table for Accidental Death Benefits”, Transactions of the Society of Actuaries, Vol. XI No. 31. (1959). Accessed: July, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1959/January/tsa59v11n3177.pdf</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>1926-33 Intercompany Double Indemnity Table</TableName>
+    <TableDescription>1926-33 Intercompany Double Indemnity Table. Minimum Age: 1. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: The Joint Committee approached 10 insurance companies of which six contributed experience data for the study of mortality for the period 1918 to 1933. Material was confined to the accident double indemnity provision in Ordinary insurance policies irrespective of whether a 60 day or 90 day clause was used. At ages above 70, U.S. Census Bureau information used. Methodology: Data studied to determine if a split should be made into “liberal” and “conservative” with respect to selection but no distinction was found.  That is, nor evidence of selection appeared evident. Likewise, data for both sexes was combined.  Death rates for age 10 through 70 were graduated by the graphic method applied mechanically; a technique developed by Mr. Robert Henderson. The high rates of accidental deaths observed at ages 15 to 19 were preserved in the graduation. Material from the contributing companies did not extend beyond age 70 thus data from the U.S. Census Bureau relied upon. For the purposes of accidental death, consideration of white lives only was taken as appropriate. In regards to gender, there seemed uniformity among the principal companies as to the proportion of business written on each gender. In determining rates above age 64, the Committee used census statistics covering accidents and homicide but only one-fourth of those deaths from suicide as company experience suggested that in the case of double indemnity, payments were made in cases which were really suicides. The goal of these modifications and procedures was to modify census death rate data for the period 1926-33 at quinquennial ages 62, 67, etc so as to obtain rates applicable to conditions under double indemnity provisions.  The death rates were then subjected to the Henderson interpolation formula. NOTE: The table as originally published only went from age 15 to age 95. At some time thereafter, the table was extended down to age 1 and up to age 99. When reprinted in 1959 in conjunction with the release of a new accidental death table, no mention is made of when the 1926-33 table was extended. Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1926-33 Intercompany Double Indemnity Table. Minimum Age: 1. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000875</Y>
+        <Y t="2">0.000860</Y>
+        <Y t="3">0.000845</Y>
+        <Y t="4">0.000830</Y>
+        <Y t="5">0.000815</Y>
+        <Y t="6">0.000800</Y>
+        <Y t="7">0.000767</Y>
+        <Y t="8">0.000733</Y>
+        <Y t="9">0.000699</Y>
+        <Y t="10">0.000662</Y>
+        <Y t="11">0.000644</Y>
+        <Y t="12">0.000662</Y>
+        <Y t="13">0.000796</Y>
+        <Y t="14">0.000887</Y>
+        <Y t="15">0.000882</Y>
+        <Y t="16">0.000854</Y>
+        <Y t="17">0.000827</Y>
+        <Y t="18">0.000801</Y>
+        <Y t="19">0.000776</Y>
+        <Y t="20">0.000752</Y>
+        <Y t="21">0.000728</Y>
+        <Y t="22">0.000697</Y>
+        <Y t="23">0.000654</Y>
+        <Y t="24">0.000605</Y>
+        <Y t="25">0.000555</Y>
+        <Y t="26">0.000509</Y>
+        <Y t="27">0.000473</Y>
+        <Y t="28">0.000449</Y>
+        <Y t="29">0.000439</Y>
+        <Y t="30">0.000438</Y>
+        <Y t="31">0.000447</Y>
+        <Y t="32">0.000464</Y>
+        <Y t="33">0.000481</Y>
+        <Y t="34">0.000494</Y>
+        <Y t="35">0.000502</Y>
+        <Y t="36">0.000511</Y>
+        <Y t="37">0.000523</Y>
+        <Y t="38">0.000544</Y>
+        <Y t="39">0.000571</Y>
+        <Y t="40">0.000598</Y>
+        <Y t="41">0.000621</Y>
+        <Y t="42">0.000637</Y>
+        <Y t="43">0.000649</Y>
+        <Y t="44">0.000660</Y>
+        <Y t="45">0.000675</Y>
+        <Y t="46">0.000696</Y>
+        <Y t="47">0.000726</Y>
+        <Y t="48">0.000765</Y>
+        <Y t="49">0.000815</Y>
+        <Y t="50">0.000873</Y>
+        <Y t="51">0.000936</Y>
+        <Y t="52">0.000999</Y>
+        <Y t="53">0.001050</Y>
+        <Y t="54">0.001088</Y>
+        <Y t="55">0.001115</Y>
+        <Y t="56">0.001146</Y>
+        <Y t="57">0.001180</Y>
+        <Y t="58">0.001244</Y>
+        <Y t="59">0.001310</Y>
+        <Y t="60">0.001378</Y>
+        <Y t="61">0.001448</Y>
+        <Y t="62">0.001519</Y>
+        <Y t="63">0.001589</Y>
+        <Y t="64">0.001656</Y>
+        <Y t="65">0.001720</Y>
+        <Y t="66">0.001783</Y>
+        <Y t="67">0.001844</Y>
+        <Y t="68">0.001906</Y>
+        <Y t="69">0.001974</Y>
+        <Y t="70">0.002053</Y>
+        <Y t="71">0.002148</Y>
+        <Y t="72">0.002264</Y>
+        <Y t="73">0.002409</Y>
+        <Y t="74">0.002586</Y>
+        <Y t="75">0.002801</Y>
+        <Y t="76">0.003059</Y>
+        <Y t="77">0.003362</Y>
+        <Y t="78">0.003711</Y>
+        <Y t="79">0.004100</Y>
+        <Y t="80">0.004519</Y>
+        <Y t="81">0.004956</Y>
+        <Y t="82">0.005405</Y>
+        <Y t="83">0.005867</Y>
+        <Y t="84">0.006363</Y>
+        <Y t="85">0.006926</Y>
+        <Y t="86">0.007585</Y>
+        <Y t="87">0.008364</Y>
+        <Y t="88">0.009270</Y>
+        <Y t="89">0.010278</Y>
+        <Y t="90">0.011344</Y>
+        <Y t="91">0.012411</Y>
+        <Y t="92">0.013408</Y>
+        <Y t="93">0.014259</Y>
+        <Y t="94">0.014892</Y>
+        <Y t="95">0.015265</Y>
+        <Y t="96">0.015450</Y>
+        <Y t="97">0.015590</Y>
+        <Y t="98">0.015710</Y>
+        <Y t="99">0.015820</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

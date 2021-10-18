@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2514</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>The Executive Committee of the Continuous Mortality Improvement Bureau, “Extension to Young Ages of the “92” Series Tables for Assured Lives”, Continuous Mortality Improvement Reports Number 19, Institute of Actuaries and Faculty of Actuaries (1999). Accessed: November, 2013 from   http://www.actuaries.org.uk/sites/all/files/documents/pdf/cmir19all.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>AF92 Ultimate Rates with Extension to Juvenile Ages</TableName>
+    <TableDescription>Assured Lives - Female 1991-94 Ultimate Rates with Extension to Juvenile Ages. Minimum Age: 0. Maximum Age: 120</TableDescription>
+    <Comments>Study Data: Table is part of the "92" series of mortality tables for assured lives, annuitants and pensioners. The original tables (See SOA Table Identity 2360-2364) were based on the graduated rates from age 17 upwards. Below that age, the available data were too sparse to provide a basis for realistic mortality rates for assured lives. It is, however, convenient for certain purposes to have available mortality rates for assured lives at childhood ages. For this reason the Committee extended the assured lives tables down to age 0. These extensions have been carried out having regard to population mortality at young ages. Methodology: For each of the extended tables the rate of mortality at age 1 was set equal to the ELT 15 value (for the appropriate sex). Between age 1 and age 17 the assured lives rates were blended into the population rates, namely ELT 15 (see SOA Table Identity 1704 and 1705), the population table for roughly the corresponding period of time, by formula. For females, in order to avoid minor irregularities in the progression of the mortality rates, a further very small adjustment was made to the results of the above calculations. For age 0, special formula applied to ELT 15 to remove the effect of relatively high mortality in the first 28 days of life. Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Assured Lives - Female 1991-94 Ultimate Rates with Extension to Juvenile Ages. Minimum Age: 0. Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.002615</Y>
+        <Y t="1">0.000550</Y>
+        <Y t="2">0.000292</Y>
+        <Y t="3">0.000208</Y>
+        <Y t="4">0.000165</Y>
+        <Y t="5">0.000142</Y>
+        <Y t="6">0.000129</Y>
+        <Y t="7">0.000117</Y>
+        <Y t="8">0.000113</Y>
+        <Y t="9">0.000101</Y>
+        <Y t="10">0.000101</Y>
+        <Y t="11">0.000101</Y>
+        <Y t="12">0.000101</Y>
+        <Y t="13">0.000101</Y>
+        <Y t="14">0.000115</Y>
+        <Y t="15">0.000134</Y>
+        <Y t="16">0.000151</Y>
+        <Y t="17">0.000172</Y>
+        <Y t="18">0.000178</Y>
+        <Y t="19">0.000185</Y>
+        <Y t="20">0.000193</Y>
+        <Y t="21">0.000202</Y>
+        <Y t="22">0.000212</Y>
+        <Y t="23">0.000223</Y>
+        <Y t="24">0.000235</Y>
+        <Y t="25">0.000248</Y>
+        <Y t="26">0.000263</Y>
+        <Y t="27">0.000279</Y>
+        <Y t="28">0.000297</Y>
+        <Y t="29">0.000317</Y>
+        <Y t="30">0.000339</Y>
+        <Y t="31">0.000364</Y>
+        <Y t="32">0.000391</Y>
+        <Y t="33">0.000422</Y>
+        <Y t="34">0.000455</Y>
+        <Y t="35">0.000492</Y>
+        <Y t="36">0.000533</Y>
+        <Y t="37">0.000579</Y>
+        <Y t="38">0.000629</Y>
+        <Y t="39">0.000685</Y>
+        <Y t="40">0.000747</Y>
+        <Y t="41">0.000816</Y>
+        <Y t="42">0.000892</Y>
+        <Y t="43">0.000977</Y>
+        <Y t="44">0.00107</Y>
+        <Y t="45">0.001174</Y>
+        <Y t="46">0.001288</Y>
+        <Y t="47">0.001416</Y>
+        <Y t="48">0.001556</Y>
+        <Y t="49">0.001713</Y>
+        <Y t="50">0.001886</Y>
+        <Y t="51">0.002077</Y>
+        <Y t="52">0.00229</Y>
+        <Y t="53">0.002525</Y>
+        <Y t="54">0.002786</Y>
+        <Y t="55">0.003075</Y>
+        <Y t="56">0.003395</Y>
+        <Y t="57">0.003749</Y>
+        <Y t="58">0.004142</Y>
+        <Y t="59">0.004577</Y>
+        <Y t="60">0.005058</Y>
+        <Y t="61">0.005592</Y>
+        <Y t="62">0.006183</Y>
+        <Y t="63">0.006838</Y>
+        <Y t="64">0.007562</Y>
+        <Y t="65">0.008365</Y>
+        <Y t="66">0.009254</Y>
+        <Y t="67">0.010238</Y>
+        <Y t="68">0.011327</Y>
+        <Y t="69">0.012533</Y>
+        <Y t="70">0.013867</Y>
+        <Y t="71">0.015343</Y>
+        <Y t="72">0.016977</Y>
+        <Y t="73">0.018784</Y>
+        <Y t="74">0.020783</Y>
+        <Y t="75">0.022994</Y>
+        <Y t="76">0.025438</Y>
+        <Y t="77">0.028138</Y>
+        <Y t="78">0.031123</Y>
+        <Y t="79">0.034419</Y>
+        <Y t="80">0.038059</Y>
+        <Y t="81">0.042077</Y>
+        <Y t="82">0.04651</Y>
+        <Y t="83">0.051398</Y>
+        <Y t="84">0.056786</Y>
+        <Y t="85">0.062721</Y>
+        <Y t="86">0.069254</Y>
+        <Y t="87">0.076441</Y>
+        <Y t="88">0.08434</Y>
+        <Y t="89">0.093016</Y>
+        <Y t="90">0.102533</Y>
+        <Y t="91">0.112964</Y>
+        <Y t="92">0.124381</Y>
+        <Y t="93">0.136862</Y>
+        <Y t="94">0.150486</Y>
+        <Y t="95">0.165332</Y>
+        <Y t="96">0.181481</Y>
+        <Y t="97">0.199012</Y>
+        <Y t="98">0.218002</Y>
+        <Y t="99">0.23852</Y>
+        <Y t="100">0.26063</Y>
+        <Y t="101">0.284383</Y>
+        <Y t="102">0.309814</Y>
+        <Y t="103">0.336943</Y>
+        <Y t="104">0.365762</Y>
+        <Y t="105">0.396238</Y>
+        <Y t="106">0.428303</Y>
+        <Y t="107">0.461851</Y>
+        <Y t="108">0.496734</Y>
+        <Y t="109">0.532756</Y>
+        <Y t="110">0.56967</Y>
+        <Y t="111">0.607181</Y>
+        <Y t="112">0.644942</Y>
+        <Y t="113">0.682563</Y>
+        <Y t="114">0.719616</Y>
+        <Y t="115">0.755647</Y>
+        <Y t="116">0.790192</Y>
+        <Y t="117">0.8228</Y>
+        <Y t="118">0.85305</Y>
+        <Y t="119">0.880579</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

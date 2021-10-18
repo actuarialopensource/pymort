@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3480</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, public-pension-headcount-exposure.xlsx, Sheet 'Juvenile', https://www.soa.org/resources/experience-studies/2018/public-pension-headcount-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Pub-2010 Male Juvenile</TableName>
+    <TableDescription>Pub-2010 Mortality Table - Male Juvenile. Ages 0-17. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pub-2010 Mortality Table - Male Juvenile. Ages 0-17. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>17</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00026</Y>
+        <Y t="1">0.00015</Y>
+        <Y t="2">0.00013</Y>
+        <Y t="3">0.00011</Y>
+        <Y t="4">0.0001</Y>
+        <Y t="5">0.0001</Y>
+        <Y t="6">9E-05</Y>
+        <Y t="7">9E-05</Y>
+        <Y t="8">9E-05</Y>
+        <Y t="9">8E-05</Y>
+        <Y t="10">9E-05</Y>
+        <Y t="11">9E-05</Y>
+        <Y t="12">0.00011</Y>
+        <Y t="13">0.00012</Y>
+        <Y t="14">0.00014</Y>
+        <Y t="15">0.00017</Y>
+        <Y t="16">0.00023</Y>
+        <Y t="17">0.00031</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

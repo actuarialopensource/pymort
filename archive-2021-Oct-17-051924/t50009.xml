@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50009</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Milliman Asia</ProviderName>
+    <TableReference>Actuarial Society of Hong Kong, “Report on Hong Kong Assured Lives Mortality 1997”, and “Report on Hong Kong Assured Lives Mortality 2001”, Actuarial Society of Hong Kong (2001).  Accessed: July, 2013 from http://www.actuaries.org.hk/upload/File/ESR01.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>HKA97 (F)</TableName>
+    <TableDescription>Hong Kong Assured Lives Mortality Table HKA97 – Female. Basis: Age Last Birthday. Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Experience collected from 1991 – 1996. Non-medical and medically underwritten policies combined. Data excludes the first two years of policy duration Methodology: The numbers relating to exposed to risk and deaths were grouped into five year age intervals. Pivotal exposure and pivotal deaths are computed based on the third differences King's formula for age 9, 14, 19, etc. up to 79. The crude death rates for duration 2 and over graduated using the Whittaker Henderson method. The graduation was carried out over the age range 14 to 74 for both sexes.  Due to sparseness of data, the mortality rates above and below this age range were taken as a constant proportion of the Hong Kong Life Tables from 1995 (See SOA Table Identities 1972 and 1973). Data Transcription Errors: None. Data Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Hong Kong</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="852">Hong Kong</Nation>
+      <TableDescription>Hong Kong Assured Lives Mortality Table HKA97 – Female. Basis: Age Last Birthday. Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00501400</Y>
+        <Y t="1">0.00036514</Y>
+        <Y t="2">0.00026921</Y>
+        <Y t="3">0.00021018</Y>
+        <Y t="4">0.00017387</Y>
+        <Y t="5">0.00015152</Y>
+        <Y t="6">0.00013778</Y>
+        <Y t="7">0.00012931</Y>
+        <Y t="8">0.00012411</Y>
+        <Y t="9">0.00012090</Y>
+        <Y t="10">0.00013461</Y>
+        <Y t="11">0.00014254</Y>
+        <Y t="12">0.00015220</Y>
+        <Y t="13">0.00016353</Y>
+        <Y t="14">0.00017636</Y>
+        <Y t="15">0.00018108</Y>
+        <Y t="16">0.00018526</Y>
+        <Y t="17">0.00018942</Y>
+        <Y t="18">0.00019405</Y>
+        <Y t="19">0.00019967</Y>
+        <Y t="20">0.00020555</Y>
+        <Y t="21">0.00021136</Y>
+        <Y t="22">0.00021818</Y>
+        <Y t="23">0.00022708</Y>
+        <Y t="24">0.00023915</Y>
+        <Y t="25">0.00025379</Y>
+        <Y t="26">0.00027029</Y>
+        <Y t="27">0.00028952</Y>
+        <Y t="28">0.00031237</Y>
+        <Y t="29">0.00033970</Y>
+        <Y t="30">0.00037158</Y>
+        <Y t="31">0.00040742</Y>
+        <Y t="32">0.00044714</Y>
+        <Y t="33">0.00049064</Y>
+        <Y t="34">0.00053785</Y>
+        <Y t="35">0.00059003</Y>
+        <Y t="36">0.00064723</Y>
+        <Y t="37">0.00070756</Y>
+        <Y t="38">0.00076911</Y>
+        <Y t="39">0.00082997</Y>
+        <Y t="40">0.00088878</Y>
+        <Y t="41">0.00094680</Y>
+        <Y t="42">0.00100609</Y>
+        <Y t="43">0.00106869</Y>
+        <Y t="44">0.00113664</Y>
+        <Y t="45">0.00120572</Y>
+        <Y t="46">0.00127455</Y>
+        <Y t="47">0.00134948</Y>
+        <Y t="48">0.00143686</Y>
+        <Y t="49">0.00154302</Y>
+        <Y t="50">0.00166118</Y>
+        <Y t="51">0.00178713</Y>
+        <Y t="52">0.00193100</Y>
+        <Y t="53">0.00210292</Y>
+        <Y t="54">0.00231304</Y>
+        <Y t="55">0.00255278</Y>
+        <Y t="56">0.00281539</Y>
+        <Y t="57">0.00311361</Y>
+        <Y t="58">0.00346021</Y>
+        <Y t="59">0.00386791</Y>
+        <Y t="60">0.00432878</Y>
+        <Y t="61">0.00483423</Y>
+        <Y t="62">0.00539597</Y>
+        <Y t="63">0.00602569</Y>
+        <Y t="64">0.00673501</Y>
+        <Y t="65">0.00751940</Y>
+        <Y t="66">0.00837084</Y>
+        <Y t="67">0.00929572</Y>
+        <Y t="68">0.01030036</Y>
+        <Y t="69">0.01139108</Y>
+        <Y t="70">0.01256584</Y>
+        <Y t="71">0.01382001</Y>
+        <Y t="72">0.01515588</Y>
+        <Y t="73">0.01657568</Y>
+        <Y t="74">0.01808164</Y>
+        <Y t="75">0.02293917</Y>
+        <Y t="76">0.02549563</Y>
+        <Y t="77">0.02833412</Y>
+        <Y t="78">0.03148462</Y>
+        <Y t="79">0.03498002</Y>
+        <Y t="80">0.03885635</Y>
+        <Y t="81">0.04315294</Y>
+        <Y t="82">0.04791275</Y>
+        <Y t="83">0.05318241</Y>
+        <Y t="84">0.05901254</Y>
+        <Y t="85">0.06545777</Y>
+        <Y t="86">0.07257689</Y>
+        <Y t="87">0.08043287</Y>
+        <Y t="88">0.08909276</Y>
+        <Y t="89">0.09862753</Y>
+        <Y t="90">0.10911173</Y>
+        <Y t="91">0.12062297</Y>
+        <Y t="92">0.13324120</Y>
+        <Y t="93">0.14704770</Y>
+        <Y t="94">0.16212373</Y>
+        <Y t="95">0.17854884</Y>
+        <Y t="96">0.19639876</Y>
+        <Y t="97">0.21574275</Y>
+        <Y t="98">0.23664048</Y>
+        <Y t="99">0.25913832</Y>
+        <Y t="100">1.00000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

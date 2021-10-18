@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2775</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Financial Supervisory Service in Korea</ProviderName>
+    <TableReference>Korean Insurance Development Institute, “Detailed Regulations on Supervision of Insurance Business (100625)”, Financial Supervisory Regulations of the Republic of Korea (2010). Accessed: April, 2014 from http://english.fss.or.kr/fss/en/laws/insurance/list.jsp?bbsid=1289368675296</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>6th Standard Retirement Pension Insurance Death Rates - Male</TableName>
+    <TableDescription>6th Standard Retirement Pension Insurance Death Rates - Male. Minimum Age: 15. Maximum Age: 70</TableDescription>
+    <Comments>Study Data: Korea retirement pension insurance data for 2003-2007. Methodology: Constructed by Korean Insurance Development Institute (KIDI) but other details not available at this time. Data Transcription Errors: None. Data Certified: 05/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Korea</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="82">Korea</Nation>
+      <TableDescription>6th Standard Retirement Pension Insurance Death Rates - Male. Minimum Age: 15. Maximum Age: 70</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>70</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">9E-05</Y>
+        <Y t="16">0.00011</Y>
+        <Y t="17">0.00013</Y>
+        <Y t="18">0.00014</Y>
+        <Y t="19">0.00015</Y>
+        <Y t="20">0.00016</Y>
+        <Y t="21">0.00018</Y>
+        <Y t="22">0.00019</Y>
+        <Y t="23">0.00019</Y>
+        <Y t="24">0.0002</Y>
+        <Y t="25">0.00021</Y>
+        <Y t="26">0.00021</Y>
+        <Y t="27">0.00022</Y>
+        <Y t="28">0.00022</Y>
+        <Y t="29">0.00021</Y>
+        <Y t="30">0.00021</Y>
+        <Y t="31">0.00021</Y>
+        <Y t="32">0.00021</Y>
+        <Y t="33">0.00021</Y>
+        <Y t="34">0.00022</Y>
+        <Y t="35">0.00023</Y>
+        <Y t="36">0.00023</Y>
+        <Y t="37">0.00025</Y>
+        <Y t="38">0.00029</Y>
+        <Y t="39">0.00032</Y>
+        <Y t="40">0.00037</Y>
+        <Y t="41">0.00041</Y>
+        <Y t="42">0.00045</Y>
+        <Y t="43">0.00049</Y>
+        <Y t="44">0.00051</Y>
+        <Y t="45">0.00054</Y>
+        <Y t="46">0.00058</Y>
+        <Y t="47">0.00062</Y>
+        <Y t="48">0.00068</Y>
+        <Y t="49">0.00075</Y>
+        <Y t="50">0.00083</Y>
+        <Y t="51">0.0009</Y>
+        <Y t="52">0.00097</Y>
+        <Y t="53">0.00104</Y>
+        <Y t="54">0.00111</Y>
+        <Y t="55">0.00117</Y>
+        <Y t="56">0.00123</Y>
+        <Y t="57">0.0013</Y>
+        <Y t="58">0.00135</Y>
+        <Y t="59">0.0014</Y>
+        <Y t="60">0.00146</Y>
+        <Y t="61">0.00153</Y>
+        <Y t="62">0.00164</Y>
+        <Y t="63">0.00178</Y>
+        <Y t="64">0.00195</Y>
+        <Y t="65">0.00215</Y>
+        <Y t="66">0.00236</Y>
+        <Y t="67">0.00259</Y>
+        <Y t="68">0.00284</Y>
+        <Y t="69">0.00311</Y>
+        <Y t="70">0.0034</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

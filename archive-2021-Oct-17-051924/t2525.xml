@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2525</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Allessandro Lazzarini</ProviderName>
+    <TableReference>Istituto Italiano di Statistica (1976), Reprinted by A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>SIF71</TableName>
+    <TableDescription>1971 Population Experience – Females (SIF71) Minimum Age: 0. Maximum Age: 106</TableDescription>
+    <Comments>Study Data: Population mortality drawn from the 1971 census. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Italy</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="39">Italy</Nation>
+      <TableDescription>1971 Population Experience – Females (SIF71) Minimum Age: 0. Maximum Age: 106</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>106</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.02475</Y>
+        <Y t="1">0.00144</Y>
+        <Y t="2">0.00077</Y>
+        <Y t="3">0.00055</Y>
+        <Y t="4">0.0005</Y>
+        <Y t="5">0.00044</Y>
+        <Y t="6">0.00038</Y>
+        <Y t="7">0.00034</Y>
+        <Y t="8">0.0003</Y>
+        <Y t="9">0.00028</Y>
+        <Y t="10">0.00027</Y>
+        <Y t="11">0.00027</Y>
+        <Y t="12">0.00029</Y>
+        <Y t="13">0.0003</Y>
+        <Y t="14">0.00033</Y>
+        <Y t="15">0.00035</Y>
+        <Y t="16">0.00038</Y>
+        <Y t="17">0.0004</Y>
+        <Y t="18">0.00043</Y>
+        <Y t="19">0.00045</Y>
+        <Y t="20">0.00047</Y>
+        <Y t="21">0.00049</Y>
+        <Y t="22">0.0005</Y>
+        <Y t="23">0.00052</Y>
+        <Y t="24">0.00054</Y>
+        <Y t="25">0.00056</Y>
+        <Y t="26">0.00059</Y>
+        <Y t="27">0.00061</Y>
+        <Y t="28">0.00063</Y>
+        <Y t="29">0.00065</Y>
+        <Y t="30">0.00068</Y>
+        <Y t="31">0.00072</Y>
+        <Y t="32">0.00078</Y>
+        <Y t="33">0.00085</Y>
+        <Y t="34">0.00092</Y>
+        <Y t="35">0.001</Y>
+        <Y t="36">0.00109</Y>
+        <Y t="37">0.00118</Y>
+        <Y t="38">0.00128</Y>
+        <Y t="39">0.00138</Y>
+        <Y t="40">0.00149</Y>
+        <Y t="41">0.00161</Y>
+        <Y t="42">0.00175</Y>
+        <Y t="43">0.00191</Y>
+        <Y t="44">0.00209</Y>
+        <Y t="45">0.00231</Y>
+        <Y t="46">0.00255</Y>
+        <Y t="47">0.00283</Y>
+        <Y t="48">0.00313</Y>
+        <Y t="49">0.00346</Y>
+        <Y t="50">0.0038</Y>
+        <Y t="51">0.00415</Y>
+        <Y t="52">0.00451</Y>
+        <Y t="53">0.00488</Y>
+        <Y t="54">0.00528</Y>
+        <Y t="55">0.00572</Y>
+        <Y t="56">0.00621</Y>
+        <Y t="57">0.00677</Y>
+        <Y t="58">0.00739</Y>
+        <Y t="59">0.00809</Y>
+        <Y t="60">0.00889</Y>
+        <Y t="61">0.00978</Y>
+        <Y t="62">0.01081</Y>
+        <Y t="63">0.01192</Y>
+        <Y t="64">0.01315</Y>
+        <Y t="65">0.01453</Y>
+        <Y t="66">0.01609</Y>
+        <Y t="67">0.01783</Y>
+        <Y t="68">0.01985</Y>
+        <Y t="69">0.02232</Y>
+        <Y t="70">0.02524</Y>
+        <Y t="71">0.02882</Y>
+        <Y t="72">0.03299</Y>
+        <Y t="73">0.03751</Y>
+        <Y t="74">0.04251</Y>
+        <Y t="75">0.04787</Y>
+        <Y t="76">0.05382</Y>
+        <Y t="77">0.06046</Y>
+        <Y t="78">0.06767</Y>
+        <Y t="79">0.07557</Y>
+        <Y t="80">0.08404</Y>
+        <Y t="81">0.09355</Y>
+        <Y t="82">0.10391</Y>
+        <Y t="83">0.115</Y>
+        <Y t="84">0.12683</Y>
+        <Y t="85">0.13926</Y>
+        <Y t="86">0.15227</Y>
+        <Y t="87">0.1658</Y>
+        <Y t="88">0.17973</Y>
+        <Y t="89">0.19407</Y>
+        <Y t="90">0.2087</Y>
+        <Y t="91">0.22364</Y>
+        <Y t="92">0.23867</Y>
+        <Y t="93">0.25396</Y>
+        <Y t="94">0.26909</Y>
+        <Y t="95">0.28473</Y>
+        <Y t="96">0.2997</Y>
+        <Y t="97">0.31499</Y>
+        <Y t="98">0.33087</Y>
+        <Y t="99">0.34439</Y>
+        <Y t="100">0.36145</Y>
+        <Y t="101">0.37736</Y>
+        <Y t="102">0.38788</Y>
+        <Y t="103">0.40594</Y>
+        <Y t="104">0.41837</Y>
+        <Y t="105">0.43232</Y>
+        <Y t="106">0.44567</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

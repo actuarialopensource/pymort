@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2332</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Continuous Mortality Investigation, “Continuous Mortality Investigation Reports Number 23”, Institute of Actuaries and Faculty of Actuaries (2009). Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/00-series-mortality-tables-assured-lives-annuitants-and-pensioners</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>IFL00</TableName>
+    <TableDescription>Immediate Annuitants – Males (IFL00) Basis: Age Exact. Minimum Select Age: 60. Maximum Select Age: 100. Minimum Ultimate Age: 61. Maximum Ultimate Age: 120.</TableDescription>
+    <Comments>Study Data: Based on 1999-2002 life office experience known as the “00” Series. The “00” Series tables were exposed to the profession in a consultation process via a series of Working Papers and public meetings. Covers (non-pension) purchased life annuities. There is very little new business currently being submitted to the Continuous Mortality Investigation thus the experience is effectively closed and ageing. Methodology: Ultimate rates were produced for males at durations 0 and over (i.e. no select rates were produced), and for females at durations 1 and over. Furthermore, a decision was taken that no rates below age 60 would be produced, since the results would not be supported by the data. Values of q(x) were derived from the values of μ(x)  by using the formula: q(x) = 1 – e ^(- integral from 0 t- 1 of µ(x+t)) where the integral was approximated by the formula: [7µ(x) + 32(µ(x+ .25)) + 12(µ(x+ .5)) + 32(µ(x+ .75)) + 7(µ(x+ 1))] / 90 .  A “run-in” age of 100 and a “curvature” parameter of 1.25 were adopted to produce rates at the oldest ages. There was inadequate data to produce select rates for males however tt was decided that a select period of 1 should be adopted for females, with the select duration 0 values of μ being calculated as: µ [x] = 0.84 × µ(x). Data Transcription Errors: None. Data Certified: 09/2013.</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Immediate Annuitants – Males (IFL00) Basis: Age Exact. Minimum Select Age: 60. Maximum Select Age: 100. Minimum Ultimate Age: 61. Maximum Ultimate Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>60</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>1</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="60">
+        <Axis>
+          <Y t="1">0.002746</Y>
+        </Axis>
+      </Axis>
+      <Axis t="61">
+        <Axis>
+          <Y t="1">0.002873</Y>
+        </Axis>
+      </Axis>
+      <Axis t="62">
+        <Axis>
+          <Y t="1">0.003033</Y>
+        </Axis>
+      </Axis>
+      <Axis t="63">
+        <Axis>
+          <Y t="1">0.003235</Y>
+        </Axis>
+      </Axis>
+      <Axis t="64">
+        <Axis>
+          <Y t="1">0.003487</Y>
+        </Axis>
+      </Axis>
+      <Axis t="65">
+        <Axis>
+          <Y t="1">0.003801</Y>
+        </Axis>
+      </Axis>
+      <Axis t="66">
+        <Axis>
+          <Y t="1">0.004189</Y>
+        </Axis>
+      </Axis>
+      <Axis t="67">
+        <Axis>
+          <Y t="1">0.004668</Y>
+        </Axis>
+      </Axis>
+      <Axis t="68">
+        <Axis>
+          <Y t="1">0.005256</Y>
+        </Axis>
+      </Axis>
+      <Axis t="69">
+        <Axis>
+          <Y t="1">0.005972</Y>
+        </Axis>
+      </Axis>
+      <Axis t="70">
+        <Axis>
+          <Y t="1">0.006841</Y>
+        </Axis>
+      </Axis>
+      <Axis t="71">
+        <Axis>
+          <Y t="1">0.00789</Y>
+        </Axis>
+      </Axis>
+      <Axis t="72">
+        <Axis>
+          <Y t="1">0.009148</Y>
+        </Axis>
+      </Axis>
+      <Axis t="73">
+        <Axis>
+          <Y t="1">0.010651</Y>
+        </Axis>
+      </Axis>
+      <Axis t="74">
+        <Axis>
+          <Y t="1">0.012436</Y>
+        </Axis>
+      </Axis>
+      <Axis t="75">
+        <Axis>
+          <Y t="1">0.014543</Y>
+        </Axis>
+      </Axis>
+      <Axis t="76">
+        <Axis>
+          <Y t="1">0.017017</Y>
+        </Axis>
+      </Axis>
+      <Axis t="77">
+        <Axis>
+          <Y t="1">0.019907</Y>
+        </Axis>
+      </Axis>
+      <Axis t="78">
+        <Axis>
+          <Y t="1">0.023261</Y>
+        </Axis>
+      </Axis>
+      <Axis t="79">
+        <Axis>
+          <Y t="1">0.027132</Y>
+        </Axis>
+      </Axis>
+      <Axis t="80">
+        <Axis>
+          <Y t="1">0.031573</Y>
+        </Axis>
+      </Axis>
+      <Axis t="81">
+        <Axis>
+          <Y t="1">0.036637</Y>
+        </Axis>
+      </Axis>
+      <Axis t="82">
+        <Axis>
+          <Y t="1">0.042376</Y>
+        </Axis>
+      </Axis>
+      <Axis t="83">
+        <Axis>
+          <Y t="1">0.048839</Y>
+        </Axis>
+      </Axis>
+      <Axis t="84">
+        <Axis>
+          <Y t="1">0.056072</Y>
+        </Axis>
+      </Axis>
+      <Axis t="85">
+        <Axis>
+          <Y t="1">0.064113</Y>
+        </Axis>
+      </Axis>
+      <Axis t="86">
+        <Axis>
+          <Y t="1">0.072993</Y>
+        </Axis>
+      </Axis>
+      <Axis t="87">
+        <Axis>
+          <Y t="1">0.082733</Y>
+        </Axis>
+      </Axis>
+      <Axis t="88">
+        <Axis>
+          <Y t="1">0.093344</Y>
+        </Axis>
+      </Axis>
+      <Axis t="89">
+        <Axis>
+          <Y t="1">0.104823</Y>
+        </Axis>
+      </Axis>
+      <Axis t="90">
+        <Axis>
+          <Y t="1">0.117151</Y>
+        </Axis>
+      </Axis>
+      <Axis t="91">
+        <Axis>
+          <Y t="1">0.130296</Y>
+        </Axis>
+      </Axis>
+      <Axis t="92">
+        <Axis>
+          <Y t="1">0.144208</Y>
+        </Axis>
+      </Axis>
+      <Axis t="93">
+        <Axis>
+          <Y t="1">0.158823</Y>
+        </Axis>
+      </Axis>
+      <Axis t="94">
+        <Axis>
+          <Y t="1">0.174059</Y>
+        </Axis>
+      </Axis>
+      <Axis t="95">
+        <Axis>
+          <Y t="1">0.189819</Y>
+        </Axis>
+      </Axis>
+      <Axis t="96">
+        <Axis>
+          <Y t="1">0.205993</Y>
+        </Axis>
+      </Axis>
+      <Axis t="97">
+        <Axis>
+          <Y t="1">0.222459</Y>
+        </Axis>
+      </Axis>
+      <Axis t="98">
+        <Axis>
+          <Y t="1">0.239087</Y>
+        </Axis>
+      </Axis>
+      <Axis t="99">
+        <Axis>
+          <Y t="1">0.255737</Y>
+        </Axis>
+      </Axis>
+      <Axis t="100">
+        <Axis>
+          <Y t="1">0.276136</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Immediate Annuitants – Males (IFL00) Basis: Age Exact. Minimum Ultimate Age: 61. Maximum Ultimate Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>61</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>2</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="61">0.003419</Y>
+        <Y t="62">0.00361</Y>
+        <Y t="63">0.00385</Y>
+        <Y t="64">0.00415</Y>
+        <Y t="65">0.004523</Y>
+        <Y t="66">0.004985</Y>
+        <Y t="67">0.005555</Y>
+        <Y t="68">0.006254</Y>
+        <Y t="69">0.007105</Y>
+        <Y t="70">0.008139</Y>
+        <Y t="71">0.009385</Y>
+        <Y t="72">0.010881</Y>
+        <Y t="73">0.012667</Y>
+        <Y t="74">0.014787</Y>
+        <Y t="75">0.017289</Y>
+        <Y t="76">0.020226</Y>
+        <Y t="77">0.023653</Y>
+        <Y t="78">0.02763</Y>
+        <Y t="79">0.032215</Y>
+        <Y t="80">0.037472</Y>
+        <Y t="81">0.043461</Y>
+        <Y t="82">0.050241</Y>
+        <Y t="83">0.057868</Y>
+        <Y t="84">0.06639</Y>
+        <Y t="85">0.07585</Y>
+        <Y t="86">0.08628</Y>
+        <Y t="87">0.097698</Y>
+        <Y t="88">0.11011</Y>
+        <Y t="89">0.123506</Y>
+        <Y t="90">0.137857</Y>
+        <Y t="91">0.153117</Y>
+        <Y t="92">0.169221</Y>
+        <Y t="93">0.186083</Y>
+        <Y t="94">0.203602</Y>
+        <Y t="95">0.22166</Y>
+        <Y t="96">0.240123</Y>
+        <Y t="97">0.258846</Y>
+        <Y t="98">0.277676</Y>
+        <Y t="99">0.296453</Y>
+        <Y t="100">0.319348</Y>
+        <Y t="101">0.345503</Y>
+        <Y t="102">0.370321</Y>
+        <Y t="103">0.393866</Y>
+        <Y t="104">0.416195</Y>
+        <Y t="105">0.437364</Y>
+        <Y t="106">0.457423</Y>
+        <Y t="107">0.476418</Y>
+        <Y t="108">0.49439</Y>
+        <Y t="109">0.511378</Y>
+        <Y t="110">0.527415</Y>
+        <Y t="111">0.542528</Y>
+        <Y t="112">0.556739</Y>
+        <Y t="113">0.570063</Y>
+        <Y t="114">0.582503</Y>
+        <Y t="115">0.59405</Y>
+        <Y t="116">0.604673</Y>
+        <Y t="117">0.614302</Y>
+        <Y t="118">0.622781</Y>
+        <Y t="119">0.629655</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>828</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Committee on Annuities, “Development of the 1983 Group Annuity Mortality Table”, Transaction of the Society of Actuaries Vol. XXXV, (1983). Accessed: March, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1983/January/tsa83v3527.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1983 GAM Basic Table -  Male</TableName>
+    <TableDescription>1983 Group Annuity Mortality (GAM) Basic Table – Male. Formerly Table 17-A. Minimum Age: 5 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Intended as an interim table for valuation pending the development of a new mortality table while the committee collected data to produce a new table based upon intercompany experience for the years 1981-85. The committee limited its review of insured group annuity data to experience submitted by Prudential for calendar years 1976-80 inclusive and by the Bankers Life for the years 1973-74 and 1980-81. Because of the shortage of data covering insured annuitants, the committee decided to review the private mortality studies conducted by George B. Buck Consulting Actuaries in 1974 and 1979 (See SOA Table Identities 865 -868). The data still did not yet include sufficient information to form the basis for a new or updated mortality table. Consequently, the committee turned to population statistics. The committee analyzed U.S. white population statistics for the period from 1965 through 1978. Canadian population statistics were also reviewed for two quinquennial periods from 1966 to 1976. Finally, the committee analyzed the average annual percent decreases in mortality rates for persons covered under Medicare between 1973 and 1977. Methodology: The graduation method used in the construction of the 1971 GAM Table was a nine-factor linear compound, minimum smoothing coefficient formula. However as the committee had data only at quinquennial ages, it had to select a method that was appropriate for grouped data and for obtaining intermediate values. With these objectives in mind, the committee decided to use Jenkins' fifth difference modified osculatory interpolation formula to graduate the unadjusted 1983 rates. The Jenkins formula was applied to all ages between 35 and 85. Graduated values at the extreme ages were fitted by graduation with reference to the 1966 Experience Table. For valuation purposes, margins are added for a degree of safety to reserves. The loaded tables associated with 1983 GAM Basic Tables can be found at SOA Table Identities 825 and 826. Data Transcription Errors: None. Data Certified: 03/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1983 Group Annuity Mortality (GAM) Basic Table – Male. Formerly Table 17-A. Minimum Age: 5 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000380</Y>
+        <Y t="6">0.000353</Y>
+        <Y t="7">0.000336</Y>
+        <Y t="8">0.000327</Y>
+        <Y t="9">0.000324</Y>
+        <Y t="10">0.000325</Y>
+        <Y t="11">0.000331</Y>
+        <Y t="12">0.000338</Y>
+        <Y t="13">0.000344</Y>
+        <Y t="14">0.000352</Y>
+        <Y t="15">0.000361</Y>
+        <Y t="16">0.000370</Y>
+        <Y t="17">0.000381</Y>
+        <Y t="18">0.000392</Y>
+        <Y t="19">0.000405</Y>
+        <Y t="20">0.000419</Y>
+        <Y t="21">0.000435</Y>
+        <Y t="22">0.000453</Y>
+        <Y t="23">0.000471</Y>
+        <Y t="24">0.000493</Y>
+        <Y t="25">0.000515</Y>
+        <Y t="26">0.000542</Y>
+        <Y t="27">0.000570</Y>
+        <Y t="28">0.000602</Y>
+        <Y t="29">0.000636</Y>
+        <Y t="30">0.000674</Y>
+        <Y t="31">0.000717</Y>
+        <Y t="32">0.000763</Y>
+        <Y t="33">0.000815</Y>
+        <Y t="34">0.000872</Y>
+        <Y t="35">0.000955</Y>
+        <Y t="36">0.001008</Y>
+        <Y t="37">0.001073</Y>
+        <Y t="38">0.001154</Y>
+        <Y t="39">0.001253</Y>
+        <Y t="40">0.001375</Y>
+        <Y t="41">0.001522</Y>
+        <Y t="42">0.001697</Y>
+        <Y t="43">0.001905</Y>
+        <Y t="44">0.002147</Y>
+        <Y t="45">0.002426</Y>
+        <Y t="46">0.002745</Y>
+        <Y t="47">0.003100</Y>
+        <Y t="48">0.003487</Y>
+        <Y t="49">0.003903</Y>
+        <Y t="50">0.004343</Y>
+        <Y t="51">0.004804</Y>
+        <Y t="52">0.005283</Y>
+        <Y t="53">0.005778</Y>
+        <Y t="54">0.006289</Y>
+        <Y t="55">0.006812</Y>
+        <Y t="56">0.007353</Y>
+        <Y t="57">0.007932</Y>
+        <Y t="58">0.008577</Y>
+        <Y t="59">0.009315</Y>
+        <Y t="60">0.010175</Y>
+        <Y t="61">0.011182</Y>
+        <Y t="62">0.012370</Y>
+        <Y t="63">0.013768</Y>
+        <Y t="64">0.015409</Y>
+        <Y t="65">0.017324</Y>
+        <Y t="66">0.019532</Y>
+        <Y t="67">0.022004</Y>
+        <Y t="68">0.024699</Y>
+        <Y t="69">0.027574</Y>
+        <Y t="70">0.030589</Y>
+        <Y t="71">0.033727</Y>
+        <Y t="72">0.037078</Y>
+        <Y t="73">0.040756</Y>
+        <Y t="74">0.044876</Y>
+        <Y t="75">0.049552</Y>
+        <Y t="76">0.054876</Y>
+        <Y t="77">0.060842</Y>
+        <Y t="78">0.067420</Y>
+        <Y t="79">0.074583</Y>
+        <Y t="80">0.082300</Y>
+        <Y t="81">0.090538</Y>
+        <Y t="82">0.099244</Y>
+        <Y t="83">0.108361</Y>
+        <Y t="84">0.117830</Y>
+        <Y t="85">0.127595</Y>
+        <Y t="86">0.137967</Y>
+        <Y t="87">0.148744</Y>
+        <Y t="88">0.160081</Y>
+        <Y t="89">0.172066</Y>
+        <Y t="90">0.184785</Y>
+        <Y t="91">0.198016</Y>
+        <Y t="92">0.211622</Y>
+        <Y t="93">0.225563</Y>
+        <Y t="94">0.242116</Y>
+        <Y t="95">0.260096</Y>
+        <Y t="96">0.276040</Y>
+        <Y t="97">0.293282</Y>
+        <Y t="98">0.312003</Y>
+        <Y t="99">0.332393</Y>
+        <Y t="100">0.354650</Y>
+        <Y t="101">0.378984</Y>
+        <Y t="102">0.405613</Y>
+        <Y t="103">0.436780</Y>
+        <Y t="104">0.474728</Y>
+        <Y t="105">0.521701</Y>
+        <Y t="106">0.579939</Y>
+        <Y t="107">0.651687</Y>
+        <Y t="108">0.739187</Y>
+        <Y t="109">0.844683</Y>
+        <Y t="110">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

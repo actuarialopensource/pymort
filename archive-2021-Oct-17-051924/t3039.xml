@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3039</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Fernando Ulloa</ProviderName>
+    <TableReference>CEPAL/CELADE, “Latin America and the Caribbean, Demographic Observatory No. 4. Mortality”, United Nations Publication, (Santiago, Chile 2007). Accessed: September, 2014 from http://www.eclac.cl/publicaciones/xml/9/33269/OD-4-cuadros-tables.pdf AND http://www.cepal.org/publicaciones/xml/9/33269/OD-4-methodology.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Guatemala Abridged Life Tables 1985-90 Males</TableName>
+    <TableDescription>Guatemala Abridged Life Tables 1985-90 Males. Minimum Age: 0 Maximum Age: 80.</TableDescription>
+    <Comments>Study Data: Tables were calculated using the Components Method, which is based on fertility, mortality and migration rates. The basic data used in calculating the tables was provided by national statistical institutes and health ministries and by the Pan-American Health Organization (PAHO) database on deaths by sex and age group. Methodology: Abridged life tables by sex and five-year age group were prepared for the period spanned by the population projections 1950-2050. As a consequence of problems related to the coverage or quality of vital statistics, in many countries indirect methods were used for the estimation of child and adult mortality rates based on data from population censuses and demographic surveys. NOTE: As there are significant differences in mortality between age 0 and age 1, the abridged tables also included mortality rates for age 1. The structure of MORT requires even increments thus to go from age 0 to 1 to 5 is not a supported format. Hence sub-tables are utilized: the first table has 1 year increments for the rates of age 0 and 1 and the second table has 5 year increments for quinquennial ages 5 to 80. Data Transcription Errors: None. Data Certified: 09/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Guatemala</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="502">Guatemala</Nation>
+      <TableDescription>Guatemala Abridged Life Tables 1985-90 Males. Minimum Age: 0 Maximum Age: 1</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>1</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0716</Y>
+        <Y t="1">0.03</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="502">Guatemala</Nation>
+      <TableDescription>Guatemala Life Tables 1985-90 Males. Minimum Age: 5 Maximum Age: 80.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.01072</Y>
+        <Y t="10">0.00663</Y>
+        <Y t="15">0.01265</Y>
+        <Y t="20">0.02232</Y>
+        <Y t="25">0.02903</Y>
+        <Y t="30">0.03274</Y>
+        <Y t="35">0.03972</Y>
+        <Y t="40">0.04308</Y>
+        <Y t="45">0.05208</Y>
+        <Y t="50">0.06442</Y>
+        <Y t="55">0.08809</Y>
+        <Y t="60">0.11747</Y>
+        <Y t="65">0.16369</Y>
+        <Y t="70">0.2345</Y>
+        <Y t="75">0.3455</Y>
+        <Y t="80">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

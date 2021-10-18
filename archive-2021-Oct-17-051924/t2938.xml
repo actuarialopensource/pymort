@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2938</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Government Acutaries Department, "Scottish Decennial Life Tables", General Register Office for Scotland (Edinburgh, 2014). Accessed: August, 2014 from http://www.gro-scotland.gov.uk/files2/stats/life-expectancy-at-scotland-level/table3-scot-dlt-historical.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Scottish Decennial Life Tables 1930-32 Males</TableName>
+    <TableDescription>Scottish Decennial Life Tables 1930-32 Males. Minimum Age: 0. Maximum Age: 103</TableDescription>
+    <Comments>Study Data: Decennial life tables (also known as period, graduated or smoothed life tables) for males and females are constructed based on the mortality experience of the population of Scotland during the three years based around the Census year. Methodology: Crude rates of mortality for each year are obtained by dividing total deaths in each of the three calendar years by an exposed-to-risk population derived from the mid-year population estimates for the three years added together. These crude death rates are not suitable as the basis for a full life table because they tend to vary erratically from age to age owing to the small numbers of deaths involved. This is particularly so in childhood and at very advanced ages. The intention of smoothing is to replace the crude rates by a series of graduated rates which, while forming a smooth progression over the whole age range covered, still preserves the general shape of the mortality curve. Data Transcription Errors Detected: None.  Data Certified: 08/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Scottish Decennial Life Tables 1930-32 Males. Minimum Age: 0. Maximum Age: 103</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>103</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.09346</Y>
+        <Y t="1">0.02231</Y>
+        <Y t="2">0.00906</Y>
+        <Y t="3">0.00524</Y>
+        <Y t="4">0.00379</Y>
+        <Y t="5">0.00336</Y>
+        <Y t="6">0.00302</Y>
+        <Y t="7">0.00263</Y>
+        <Y t="8">0.0023</Y>
+        <Y t="9">0.00202</Y>
+        <Y t="10">0.0018</Y>
+        <Y t="11">0.00166</Y>
+        <Y t="12">0.0016</Y>
+        <Y t="13">0.00163</Y>
+        <Y t="14">0.00176</Y>
+        <Y t="15">0.00198</Y>
+        <Y t="16">0.00232</Y>
+        <Y t="17">0.00262</Y>
+        <Y t="18">0.00289</Y>
+        <Y t="19">0.0031</Y>
+        <Y t="20">0.00326</Y>
+        <Y t="21">0.00337</Y>
+        <Y t="22">0.00345</Y>
+        <Y t="23">0.00351</Y>
+        <Y t="24">0.00352</Y>
+        <Y t="25">0.00352</Y>
+        <Y t="26">0.00353</Y>
+        <Y t="27">0.00357</Y>
+        <Y t="28">0.00364</Y>
+        <Y t="29">0.00372</Y>
+        <Y t="30">0.00383</Y>
+        <Y t="31">0.00397</Y>
+        <Y t="32">0.00416</Y>
+        <Y t="33">0.00441</Y>
+        <Y t="34">0.00471</Y>
+        <Y t="35">0.00504</Y>
+        <Y t="36">0.0054</Y>
+        <Y t="37">0.00574</Y>
+        <Y t="38">0.00607</Y>
+        <Y t="39">0.00641</Y>
+        <Y t="40">0.00676</Y>
+        <Y t="41">0.00712</Y>
+        <Y t="42">0.00753</Y>
+        <Y t="43">0.00797</Y>
+        <Y t="44">0.00845</Y>
+        <Y t="45">0.00896</Y>
+        <Y t="46">0.00948</Y>
+        <Y t="47">0.01002</Y>
+        <Y t="48">0.01052</Y>
+        <Y t="49">0.01099</Y>
+        <Y t="50">0.01151</Y>
+        <Y t="51">0.01214</Y>
+        <Y t="52">0.01297</Y>
+        <Y t="53">0.01401</Y>
+        <Y t="54">0.0152</Y>
+        <Y t="55">0.01656</Y>
+        <Y t="56">0.01805</Y>
+        <Y t="57">0.01967</Y>
+        <Y t="58">0.02138</Y>
+        <Y t="59">0.02319</Y>
+        <Y t="60">0.02518</Y>
+        <Y t="61">0.02741</Y>
+        <Y t="62">0.02999</Y>
+        <Y t="63">0.03294</Y>
+        <Y t="64">0.03625</Y>
+        <Y t="65">0.03989</Y>
+        <Y t="66">0.04385</Y>
+        <Y t="67">0.04813</Y>
+        <Y t="68">0.0527</Y>
+        <Y t="69">0.05762</Y>
+        <Y t="70">0.06295</Y>
+        <Y t="71">0.06879</Y>
+        <Y t="72">0.07522</Y>
+        <Y t="73">0.08239</Y>
+        <Y t="74">0.09034</Y>
+        <Y t="75">0.09897</Y>
+        <Y t="76">0.10819</Y>
+        <Y t="77">0.11787</Y>
+        <Y t="78">0.12817</Y>
+        <Y t="79">0.13926</Y>
+        <Y t="80">0.15098</Y>
+        <Y t="81">0.16312</Y>
+        <Y t="82">0.17542</Y>
+        <Y t="83">0.18744</Y>
+        <Y t="84">0.19927</Y>
+        <Y t="85">0.21154</Y>
+        <Y t="86">0.22498</Y>
+        <Y t="87">0.24044</Y>
+        <Y t="88">0.25729</Y>
+        <Y t="89">0.2751</Y>
+        <Y t="90">0.29388</Y>
+        <Y t="91">0.31363</Y>
+        <Y t="92">0.33437</Y>
+        <Y t="93">0.35611</Y>
+        <Y t="94">0.37882</Y>
+        <Y t="95">0.40248</Y>
+        <Y t="96">0.42706</Y>
+        <Y t="97">0.45251</Y>
+        <Y t="98">0.47876</Y>
+        <Y t="99">0.50572</Y>
+        <Y t="100">0.53333</Y>
+        <Y t="101">0.56147</Y>
+        <Y t="102">0.58998</Y>
+        <Y t="103">0.61873</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

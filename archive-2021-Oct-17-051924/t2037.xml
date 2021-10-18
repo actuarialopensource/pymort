@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2037</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “Report of the Society of Actuaries Group Life Insurance Experience Committee”, Society of Actuaries (2006). Accessed: July, 2013 from http://www.soa.org/files/research/exp-study/research-05-gl-waiver.pdf</TableReference>
+    <ContentType tc="8">Disability Recovery</ContentType>
+    <TableName>2005 Group Term Life Waiver Study – Female, Select Period, Disabled Recovery Rates</TableName>
+    <TableDescription>2005 Group Term Life Waiver Study - Select Period Recovery Rates for Disabled - Female. Years 1-10 (Exhibit 5) Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+    <Comments>Study Data: Twenty-four companies contributed to the Society of Actuaries study, but the Committee had to exclude data from six for various reasons. Covers waiver claims open at some point during the 10-year period of January 1, 1993 through December 31, 2002. Exposure starts after a 9-month elimination period, which remains the most common elimination period used within the industry. The last such study was done in 1970 and produced the Intercompany Group Life Disability Experience Table, also known as the Krieger Table (See SOA Table Identity 1553). The 2005 Table uses the same structure as the 1970 Table, namely separate “Select” and “Ultimate” tables. Claims in the first ten years form the Select Table, which is constructed using two variables: age at disability and duration of disability. Claims in durations beyond the first ten years form the Ultimate Table, which is based on one variable: attained age. Because there was relatively little female exposure (Krieger estimated 15%), the 1970 study results were presented on a unisex basis. In contrast, female composition for the 2005 study was 39%, and the Committee was able to present results separately for males and females. Methodology: The Committee reviewed raw experience rates and smoothed them to develop graduated experience values. After the results were smoothed, the Committee developed margins to create a valuation table. The Committee selected margins of 25% for deaths and 35% for recoveries, i.e., death rates are multiplied by 125% and recoveries are multiplied by 65%. There is a higher margin for recoveries because there was more variance among companies for recoveries than for deaths. The Committee reviewed raw experience rates and smoothed them to develop graduated experience values, using 2nd degree polynomial trend lines and other spreadsheet application tools in Excel, as well as some manual adjustments. There was far less exposure data available at the youngest and oldest age bands. This was expected since there are relatively few longer-term disabilities at young ages and many contracts require that disability begin prior to age 60. Because of a lack of data on recoveries at the younger ages, the Committee opted to use the slopeof the recovery rates from the 1970 Table to set the rates for age 22 and set rates for age 17 equal to those for age 22. Data Transcription Errors: None. Data Certified: 07/2018</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Group Life</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Female. Select Period Recovery Rates for Disabled. Fourth Quarter Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>9</MinScaleValue>
+        <MaxScaleValue>9</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.094</Y>
+          <Y t="22">0.094</Y>
+          <Y t="27">0.077</Y>
+          <Y t="32">0.063</Y>
+          <Y t="37">0.044</Y>
+          <Y t="42">0.038</Y>
+          <Y t="47">0.026</Y>
+          <Y t="52">0.025</Y>
+          <Y t="57">0.02</Y>
+          <Y t="62">0.013</Y>
+          <Y t="67">0.01</Y>
+          <Y t="72">0.008</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Female. Select Period Recovery Rates for Disabled. First Quarter Recovery Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>12</MinScaleValue>
+        <MaxScaleValue>12</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="12">
+        <Axis>
+          <Y t="17">0.071</Y>
+          <Y t="22">0.071</Y>
+          <Y t="27">0.059</Y>
+          <Y t="32">0.049</Y>
+          <Y t="37">0.041</Y>
+          <Y t="42">0.034</Y>
+          <Y t="47">0.025</Y>
+          <Y t="52">0.023</Y>
+          <Y t="57">0.018</Y>
+          <Y t="62">0.013</Y>
+          <Y t="67">0.011</Y>
+          <Y t="72">0.009</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Female. Select Period Recovery Rates for Disabled. Second Quarter Recovery Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>15</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="15">
+        <Axis>
+          <Y t="17">0.059</Y>
+          <Y t="22">0.059</Y>
+          <Y t="27">0.048</Y>
+          <Y t="32">0.039</Y>
+          <Y t="37">0.038</Y>
+          <Y t="42">0.03</Y>
+          <Y t="47">0.022</Y>
+          <Y t="52">0.021</Y>
+          <Y t="57">0.015</Y>
+          <Y t="62">0.011</Y>
+          <Y t="67">0.009</Y>
+          <Y t="72">0.007</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Female. Select Period Recovery Rates for Disabled. Third Quarter Recovery Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="18">
+        <Axis>
+          <Y t="17">0.053</Y>
+          <Y t="22">0.053</Y>
+          <Y t="27">0.044</Y>
+          <Y t="32">0.036</Y>
+          <Y t="37">0.035</Y>
+          <Y t="42">0.026</Y>
+          <Y t="47">0.018</Y>
+          <Y t="52">0.017</Y>
+          <Y t="57">0.012</Y>
+          <Y t="62">0.009</Y>
+          <Y t="67">0.007</Y>
+          <Y t="72">0.006</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Female. Select Period Recovery Rates for Disabled. Foruth Quarter Recovery Rates for Year 2 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>21</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="21">
+        <Axis>
+          <Y t="17">0.046</Y>
+          <Y t="22">0.046</Y>
+          <Y t="27">0.038</Y>
+          <Y t="32">0.032</Y>
+          <Y t="37">0.031</Y>
+          <Y t="42">0.023</Y>
+          <Y t="47">0.014</Y>
+          <Y t="52">0.013</Y>
+          <Y t="57">0.009</Y>
+          <Y t="62">0.006</Y>
+          <Y t="67">0.005</Y>
+          <Y t="72">0.004</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study – Female. Select Period Recovery Rates for Disabled. Annual Recovery Rates for Year 2 -10 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Year">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Year</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="2">
+        <Axis>
+          <Y t="17">0.2078</Y>
+          <Y t="22">0.2072</Y>
+          <Y t="27">0.1729</Y>
+          <Y t="32">0.1441</Y>
+          <Y t="37">0.1343</Y>
+          <Y t="42">0.1057</Y>
+          <Y t="47">0.0745</Y>
+          <Y t="52">0.0697</Y>
+          <Y t="57">0.0513</Y>
+          <Y t="62">0.0372</Y>
+          <Y t="67">0.0307</Y>
+          <Y t="72">0.0251</Y>
+        </Axis>
+      </Axis>
+      <Axis t="3">
+        <Axis>
+          <Y t="17">0.199</Y>
+          <Y t="22">0.199</Y>
+          <Y t="27">0.162</Y>
+          <Y t="32">0.132</Y>
+          <Y t="37">0.108</Y>
+          <Y t="42">0.091</Y>
+          <Y t="47">0.065</Y>
+          <Y t="52">0.049</Y>
+          <Y t="57">0.031</Y>
+          <Y t="62">0.022</Y>
+          <Y t="67">0.017</Y>
+          <Y t="72">0.015</Y>
+        </Axis>
+      </Axis>
+      <Axis t="4">
+        <Axis>
+          <Y t="17">0.193</Y>
+          <Y t="22">0.193</Y>
+          <Y t="27">0.145</Y>
+          <Y t="32">0.109</Y>
+          <Y t="37">0.085</Y>
+          <Y t="42">0.068</Y>
+          <Y t="47">0.045</Y>
+          <Y t="52">0.035</Y>
+          <Y t="57">0.021</Y>
+          <Y t="62">0.018</Y>
+          <Y t="67">0.011</Y>
+          <Y t="72">0.009</Y>
+        </Axis>
+      </Axis>
+      <Axis t="5">
+        <Axis>
+          <Y t="17">0.164</Y>
+          <Y t="22">0.164</Y>
+          <Y t="27">0.12</Y>
+          <Y t="32">0.088</Y>
+          <Y t="37">0.067</Y>
+          <Y t="42">0.053</Y>
+          <Y t="47">0.033</Y>
+          <Y t="52">0.023</Y>
+          <Y t="57">0.018</Y>
+          <Y t="62">0.016</Y>
+          <Y t="67">0.012</Y>
+          <Y t="72">0.01</Y>
+        </Axis>
+      </Axis>
+      <Axis t="6">
+        <Axis>
+          <Y t="17">0.101</Y>
+          <Y t="22">0.101</Y>
+          <Y t="27">0.086</Y>
+          <Y t="32">0.073</Y>
+          <Y t="37">0.055</Y>
+          <Y t="42">0.041</Y>
+          <Y t="47">0.027</Y>
+          <Y t="52">0.017</Y>
+          <Y t="57">0.015</Y>
+          <Y t="62">0.015</Y>
+          <Y t="67">0.01</Y>
+          <Y t="72">0.008</Y>
+        </Axis>
+      </Axis>
+      <Axis t="7">
+        <Axis>
+          <Y t="17">0.075</Y>
+          <Y t="22">0.075</Y>
+          <Y t="27">0.067</Y>
+          <Y t="32">0.06</Y>
+          <Y t="37">0.047</Y>
+          <Y t="42">0.034</Y>
+          <Y t="47">0.025</Y>
+          <Y t="52">0.014</Y>
+          <Y t="57">0.012</Y>
+          <Y t="62">0.012</Y>
+          <Y t="67">0.008</Y>
+          <Y t="72">0.006</Y>
+        </Axis>
+      </Axis>
+      <Axis t="8">
+        <Axis>
+          <Y t="17">0.062</Y>
+          <Y t="22">0.062</Y>
+          <Y t="27">0.056</Y>
+          <Y t="32">0.05</Y>
+          <Y t="37">0.04</Y>
+          <Y t="42">0.028</Y>
+          <Y t="47">0.023</Y>
+          <Y t="52">0.013</Y>
+          <Y t="57">0.011</Y>
+          <Y t="62">0.009</Y>
+          <Y t="67">0.005</Y>
+          <Y t="72">0.003</Y>
+        </Axis>
+      </Axis>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.049</Y>
+          <Y t="22">0.049</Y>
+          <Y t="27">0.046</Y>
+          <Y t="32">0.043</Y>
+          <Y t="37">0.035</Y>
+          <Y t="42">0.024</Y>
+          <Y t="47">0.019</Y>
+          <Y t="52">0.011</Y>
+          <Y t="57">0.009</Y>
+          <Y t="62">0.007</Y>
+          <Y t="67">0.003</Y>
+          <Y t="72">0.001</Y>
+        </Axis>
+      </Axis>
+      <Axis t="10">
+        <Axis>
+          <Y t="17">0.042</Y>
+          <Y t="22">0.042</Y>
+          <Y t="27">0.038</Y>
+          <Y t="32">0.035</Y>
+          <Y t="37">0.029</Y>
+          <Y t="42">0.018</Y>
+          <Y t="47">0.011</Y>
+          <Y t="52">0.008</Y>
+          <Y t="57">0.008</Y>
+          <Y t="62">0.005</Y>
+          <Y t="67">0.003</Y>
+          <Y t="72">0</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

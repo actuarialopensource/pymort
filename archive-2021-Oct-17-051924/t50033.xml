@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50033</TableIdentity>
+    <ProviderDomain>www.actuaries.jp/english</ProviderDomain>
+    <ProviderName>The Institute of Actuaries of Japan</ProviderName>
+    <TableReference>The Institute of Actuaries of Japan, Standard_Mortality_Table.xlsx, Sheet "SMT", http://www.actuaries.jp/english/lib/Standard_Mortality_Table.xlsx</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>1996 Japan All Company, Female</TableName>
+    <TableDescription>TM-Country: Japan
+Source of data: Intercompany study by Standard Mortality Investigation Committee of Institute of Actuaries of Japan
+Experience based on medically examined insured lives accepted at standard rates.
+(In case of under 15(M),16(F) years old, it includes also non-medical. And if under 5(MF),
+ it includes only non-medical.)
+Rates based on experience for durations 2 to 27.
+Exclude policies of under or equal certain policy years on account of selection effect(Below Table).
+                            Issued Age
+Policy Year            Female
+         1                   1 to 24
+         2                 25 to 34
+         3                 35 to 44
+         4                 45 to 54
+         5                 55 to . . . 
+(In case of 0 years old, exclude 1st policy year.)
+Observation period: FY1989 to FY1991
+(In case of under 15(M),16(F) years old, FY1986 to 1991. And if 0(MF), FY1981 to 1991.)
+Construction method: Rates are added 2sigma assuming mortality follows Normal distribution.
+Smoothed by Greville method. 
+Rates of old ages are calculated by Gompertz-Makeham method.
+Minimum age: 0
+Maximum age: 109
+Number of decimal places: 5
+Hash value: -1388719164
+</TableDescription>
+    <Comments>Known as Sixth Experience Table
+No differentiation by smoking status, high proportion of smokers
+Data Certified: 07/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Japan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="81">Japan</Nation>
+      <TableDescription>1996 Japan All Company, Female-Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00094</Y>
+        <Y t="1">0.00069</Y>
+        <Y t="2">0.00048</Y>
+        <Y t="3">0.00031</Y>
+        <Y t="4">0.00020</Y>
+        <Y t="5">0.00014</Y>
+        <Y t="6">0.00013</Y>
+        <Y t="7">0.00013</Y>
+        <Y t="8">0.00013</Y>
+        <Y t="9">0.00012</Y>
+        <Y t="10">0.00011</Y>
+        <Y t="11">0.00010</Y>
+        <Y t="12">0.00010</Y>
+        <Y t="13">0.00013</Y>
+        <Y t="14">0.00017</Y>
+        <Y t="15">0.00021</Y>
+        <Y t="16">0.00025</Y>
+        <Y t="17">0.00029</Y>
+        <Y t="18">0.00031</Y>
+        <Y t="19">0.00032</Y>
+        <Y t="20">0.00033</Y>
+        <Y t="21">0.00033</Y>
+        <Y t="22">0.00034</Y>
+        <Y t="23">0.00036</Y>
+        <Y t="24">0.00037</Y>
+        <Y t="25">0.00038</Y>
+        <Y t="26">0.00039</Y>
+        <Y t="27">0.00040</Y>
+        <Y t="28">0.00042</Y>
+        <Y t="29">0.00044</Y>
+        <Y t="30">0.00046</Y>
+        <Y t="31">0.00049</Y>
+        <Y t="32">0.00053</Y>
+        <Y t="33">0.00057</Y>
+        <Y t="34">0.00063</Y>
+        <Y t="35">0.00069</Y>
+        <Y t="36">0.00076</Y>
+        <Y t="37">0.00083</Y>
+        <Y t="38">0.00090</Y>
+        <Y t="39">0.00097</Y>
+        <Y t="40">0.00105</Y>
+        <Y t="41">0.00114</Y>
+        <Y t="42">0.00124</Y>
+        <Y t="43">0.00134</Y>
+        <Y t="44">0.00146</Y>
+        <Y t="45">0.00158</Y>
+        <Y t="46">0.00169</Y>
+        <Y t="47">0.00183</Y>
+        <Y t="48">0.00199</Y>
+        <Y t="49">0.00215</Y>
+        <Y t="50">0.00233</Y>
+        <Y t="51">0.00252</Y>
+        <Y t="52">0.00270</Y>
+        <Y t="53">0.00287</Y>
+        <Y t="54">0.00306</Y>
+        <Y t="55">0.00328</Y>
+        <Y t="56">0.00353</Y>
+        <Y t="57">0.00378</Y>
+        <Y t="58">0.00407</Y>
+        <Y t="59">0.00438</Y>
+        <Y t="60">0.00469</Y>
+        <Y t="61">0.00503</Y>
+        <Y t="62">0.00537</Y>
+        <Y t="63">0.00588</Y>
+        <Y t="64">0.00645</Y>
+        <Y t="65">0.00710</Y>
+        <Y t="66">0.00784</Y>
+        <Y t="67">0.00869</Y>
+        <Y t="68">0.00966</Y>
+        <Y t="69">0.01076</Y>
+        <Y t="70">0.01202</Y>
+        <Y t="71">0.01345</Y>
+        <Y t="72">0.01508</Y>
+        <Y t="73">0.01694</Y>
+        <Y t="74">0.01906</Y>
+        <Y t="75">0.02147</Y>
+        <Y t="76">0.02421</Y>
+        <Y t="77">0.02733</Y>
+        <Y t="78">0.03088</Y>
+        <Y t="79">0.03491</Y>
+        <Y t="80">0.03949</Y>
+        <Y t="81">0.04469</Y>
+        <Y t="82">0.05059</Y>
+        <Y t="83">0.05727</Y>
+        <Y t="84">0.06484</Y>
+        <Y t="85">0.07341</Y>
+        <Y t="86">0.08309</Y>
+        <Y t="87">0.09401</Y>
+        <Y t="88">0.10631</Y>
+        <Y t="89">0.12015</Y>
+        <Y t="90">0.13567</Y>
+        <Y t="91">0.15305</Y>
+        <Y t="92">0.17246</Y>
+        <Y t="93">0.19406</Y>
+        <Y t="94">0.21802</Y>
+        <Y t="95">0.24449</Y>
+        <Y t="96">0.27361</Y>
+        <Y t="97">0.30546</Y>
+        <Y t="98">0.34010</Y>
+        <Y t="99">0.37637</Y>
+        <Y t="100">0.41434</Y>
+        <Y t="101">0.45459</Y>
+        <Y t="102">0.49688</Y>
+        <Y t="103">0.54085</Y>
+        <Y t="104">0.58606</Y>
+        <Y t="105">0.63195</Y>
+        <Y t="106">0.67783</Y>
+        <Y t="107">0.72297</Y>
+        <Y t="108">0.76652</Y>
+        <Y t="109">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

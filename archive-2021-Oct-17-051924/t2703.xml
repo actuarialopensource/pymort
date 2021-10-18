@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2703</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Alessandro Lazzarini</ProviderName>
+    <TableReference>Paulo Rosa, "Il Futuro Dei Coefficienti", Previdenza Opinione, La Previdenza Forense (2006). Accessed: February, 2014 from https://www.cassaforense.it/Cassafor/RivisteCassa/LaPrevidenzaForense/PrevForense/Anno2006/Num2/previdenza_opinione00_2-2006.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>RGS48 - Femmine</TableName>
+    <TableDescription>Generale dello Stato 1948 (RGS48) - Femmine (Females) Minimum Age: 20 Maximum Age: 109</TableDescription>
+    <Comments>Study Data: The RGS48 life tables are based on population mortality performed by the Accountant General, General of the State that was published in 1996. Methdology: Associazione Nazionale fra le Imprese Assicuratici (ANIA) applied self-selection factors to the death probabilities of the projected 1948 cohort life tables. Due to self-selection of healthier individuals, the annuitants' expected life expectancy is longer than the whole population's. As a cohort table, employs use of "age-shifting" in actuarial calculations. Later supplanted by IPS55 tables (See S SOA Table Identities (2704-2705). Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Italy</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="39">Italy</Nation>
+      <TableDescription>Generale dello Stato 1948 (RGS48) - Femmine (Females) Minimum Age: 20 Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00015</Y>
+        <Y t="21">0.00016</Y>
+        <Y t="22">0.00017</Y>
+        <Y t="23">0.00018</Y>
+        <Y t="24">0.00018</Y>
+        <Y t="25">0.0002</Y>
+        <Y t="26">0.00021</Y>
+        <Y t="27">0.00022</Y>
+        <Y t="28">0.00023</Y>
+        <Y t="29">0.00024</Y>
+        <Y t="30">0.00025</Y>
+        <Y t="31">0.00026</Y>
+        <Y t="32">0.00028</Y>
+        <Y t="33">0.00029</Y>
+        <Y t="34">0.00031</Y>
+        <Y t="35">0.00034</Y>
+        <Y t="36">0.00037</Y>
+        <Y t="37">0.0004</Y>
+        <Y t="38">0.00043</Y>
+        <Y t="39">0.00047</Y>
+        <Y t="40">0.00052</Y>
+        <Y t="41">0.00056</Y>
+        <Y t="42">0.00062</Y>
+        <Y t="43">0.00068</Y>
+        <Y t="44">0.00074</Y>
+        <Y t="45">0.00081</Y>
+        <Y t="46">0.0009</Y>
+        <Y t="47">0.00095</Y>
+        <Y t="48">0.00098</Y>
+        <Y t="49">0.001</Y>
+        <Y t="50">0.00103</Y>
+        <Y t="51">0.00105</Y>
+        <Y t="52">0.00108</Y>
+        <Y t="53">0.00112</Y>
+        <Y t="54">0.00115</Y>
+        <Y t="55">0.0012</Y>
+        <Y t="56">0.00124</Y>
+        <Y t="57">0.0013</Y>
+        <Y t="58">0.00137</Y>
+        <Y t="59">0.00144</Y>
+        <Y t="60">0.00155</Y>
+        <Y t="61">0.00167</Y>
+        <Y t="62">0.00182</Y>
+        <Y t="63">0.00199</Y>
+        <Y t="64">0.0022</Y>
+        <Y t="65">0.00244</Y>
+        <Y t="66">0.00272</Y>
+        <Y t="67">0.00304</Y>
+        <Y t="68">0.0034</Y>
+        <Y t="69">0.00383</Y>
+        <Y t="70">0.00436</Y>
+        <Y t="71">0.00501</Y>
+        <Y t="72">0.0058</Y>
+        <Y t="73">0.00676</Y>
+        <Y t="74">0.00794</Y>
+        <Y t="75">0.00938</Y>
+        <Y t="76">0.01114</Y>
+        <Y t="77">0.01329</Y>
+        <Y t="78">0.01589</Y>
+        <Y t="79">0.019</Y>
+        <Y t="80">0.02273</Y>
+        <Y t="81">0.02729</Y>
+        <Y t="82">0.03285</Y>
+        <Y t="83">0.03962</Y>
+        <Y t="84">0.04778</Y>
+        <Y t="85">0.05752</Y>
+        <Y t="86">0.06902</Y>
+        <Y t="87">0.08248</Y>
+        <Y t="88">0.09809</Y>
+        <Y t="89">0.11594</Y>
+        <Y t="90">0.13449</Y>
+        <Y t="91">0.15737</Y>
+        <Y t="92">0.18057</Y>
+        <Y t="93">0.20405</Y>
+        <Y t="94">0.22784</Y>
+        <Y t="95">0.25193</Y>
+        <Y t="96">0.27633</Y>
+        <Y t="97">0.30102</Y>
+        <Y t="98">0.32606</Y>
+        <Y t="99">0.35136</Y>
+        <Y t="100">0.37697</Y>
+        <Y t="101">0.40028</Y>
+        <Y t="102">0.42359</Y>
+        <Y t="103">0.4469</Y>
+        <Y t="104">0.47021</Y>
+        <Y t="105">0.49352</Y>
+        <Y t="106">0.51683</Y>
+        <Y t="107">0.54014</Y>
+        <Y t="108">0.56345</Y>
+        <Y t="109">0.0005</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

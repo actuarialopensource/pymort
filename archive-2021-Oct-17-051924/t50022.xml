@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>50022</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Prepared by Chi Hong An, Milliman USAData provided by Iqyu Jang (KIDI)</ProviderName>
+    <TableReference>"3rd Mortality Tables (1988 - 1992) by Korea Insurance Development Institute"</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1988-92 Korea Annuity Table, Female - PENDING VALIDATION</TableName>
+    <TableDescription>TM-Country: Korea
+Source of data: Direct standard individual insurance ( KIDI mortality study)
+Volume of data: Based on 100,684 death claims (male: 74,327, female:26,357)
+Observation period: 1988 to 1992 policy years
+Unit of observation: Number of Lives
+Construction method: Based on policies issued after January 1, 1976.
+Data from 6 largest companies 
+Excluded claim data during first policy year due to underwriting effects, high lapse rates, antiselection.
+Mortality Improvement: Rate = 1 - (qx(new) / qx(old)) ^ (new - old)
+                                  Period = Max (x-40, 15)
+Graduation order  1) Jenkins  2) Greville  3) Gompertz  4) Compared with 1994 Individual Annuity Table
+   1) Jenkins: only apply to calculate mortality rates for age 12 to 67.
+   2) Greville: for fitness of data.
+   3) Gompertz: after age 67
+   4) Compared with 1994 Individual Annuity Table:
+                        = Min ( Rates from (3), Rates from 1994 Individual Annuity table)
+Note: Death claims don't include the first degree disability claims
+Minimum age: 45
+Maximum age: 110
+Number of decimal places: 5
+Hash value: 1942074795
+</TableDescription>
+    <Comments>Based on same data as 3rd life insurance mortality tables.
+NOTE: the contents of this table have yet to be validated against a published source to ensure no transcription errors have occurred</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Korea</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="82">Korea</Nation>
+      <TableDescription>1988-92 Korea Annuity Table, Female-Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>45</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="45">0.00103</Y>
+        <Y t="46">0.00116</Y>
+        <Y t="47">0.00128</Y>
+        <Y t="48">0.00143</Y>
+        <Y t="49">0.00160</Y>
+        <Y t="50">0.00179</Y>
+        <Y t="51">0.00200</Y>
+        <Y t="52">0.00224</Y>
+        <Y t="53">0.00250</Y>
+        <Y t="54">0.00279</Y>
+        <Y t="55">0.00312</Y>
+        <Y t="56">0.00349</Y>
+        <Y t="57">0.00391</Y>
+        <Y t="58">0.00437</Y>
+        <Y t="59">0.00488</Y>
+        <Y t="60">0.00546</Y>
+        <Y t="61">0.00610</Y>
+        <Y t="62">0.00682</Y>
+        <Y t="63">0.00762</Y>
+        <Y t="64">0.00852</Y>
+        <Y t="65">0.00953</Y>
+        <Y t="66">0.01065</Y>
+        <Y t="67">0.01190</Y>
+        <Y t="68">0.01330</Y>
+        <Y t="69">0.01486</Y>
+        <Y t="70">0.01660</Y>
+        <Y t="71">0.01854</Y>
+        <Y t="72">0.02071</Y>
+        <Y t="73">0.02314</Y>
+        <Y t="74">0.02584</Y>
+        <Y t="75">0.02885</Y>
+        <Y t="76">0.03221</Y>
+        <Y t="77">0.03595</Y>
+        <Y t="78">0.04011</Y>
+        <Y t="79">0.04475</Y>
+        <Y t="80">0.04991</Y>
+        <Y t="81">0.05564</Y>
+        <Y t="82">0.06202</Y>
+        <Y t="83">0.06909</Y>
+        <Y t="84">0.07694</Y>
+        <Y t="85">0.08564</Y>
+        <Y t="86">0.09527</Y>
+        <Y t="87">0.10592</Y>
+        <Y t="88">0.11769</Y>
+        <Y t="89">0.13066</Y>
+        <Y t="90">0.14494</Y>
+        <Y t="91">0.16063</Y>
+        <Y t="92">0.17783</Y>
+        <Y t="93">0.19666</Y>
+        <Y t="94">0.21720</Y>
+        <Y t="95">0.23954</Y>
+        <Y t="96">0.26378</Y>
+        <Y t="97">0.28997</Y>
+        <Y t="98">0.31747</Y>
+        <Y t="99">0.34397</Y>
+        <Y t="100">0.37203</Y>
+        <Y t="101">0.40161</Y>
+        <Y t="102">0.43263</Y>
+        <Y t="103">0.46502</Y>
+        <Y t="104">0.49861</Y>
+        <Y t="105">0.53325</Y>
+        <Y t="106">0.56791</Y>
+        <Y t="107">0.60209</Y>
+        <Y t="108">0.63652</Y>
+        <Y t="109">0.67717</Y>
+        <Y t="110">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

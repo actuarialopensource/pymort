@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2031</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “Report of the Society of Actuaries Group Life Insurance Experience Committee”, Society of Actuaries (2006). Accessed: July, 2013 from http://www.soa.org/files/research/exp-study/research-05-gl-waiver.pdf</TableReference>
+    <ContentType tc="8">Disability Recovery</ContentType>
+    <TableName>2005 Group Term Life Waiver Study – Ultimate Probability of Recovery Following Disability - Female</TableName>
+    <TableDescription>2005 Group Term Life Waiver Study - Ultimate Probability of Recovery Following Disability – Female. Years 11 and over (Exhibit 6). Rates by Attained Age. Minimum Age: 27. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Twenty-four companies contributed to the Society of Actuaries study, but the Committee had to exclude data from six for various reasons. Covers waiver claims open at some point during the 10-year period of January 1, 1993 through December 31, 2002. Exposure starts after a 9-month elimination period, which remains the most common elimination period used within the industry. The last such study was done in 1970 and produced the Intercompany Group Life Disability Experience Table, also known as the Krieger Table (See SOA Table Identity 1584). The 2005 Table uses the same structure as the 1970 Table, namely separate “Select” and “Ultimate” tables. Claims in the first ten years form the Select Table, which is constructed using two variables: age at disability and duration of disability. Claims in durations beyond the first ten years form the Ultimate Table, which is based on one variable: attained age. Because there was relatively little female exposure (Krieger estimated 15%), the 1970 study results were presented on a unisex basis. In contrast, female composition for the 2005 study was 39%, and the Committee was able to present results separately for males and females. Methodology: The Committee reviewed raw experience rates and smoothed them to develop graduated experience values. After the results were smoothed, the Committee developed margins to create a valuation table. The Committee selected margins of 25% for deaths and 35% for recoveries, i.e., death rates are multiplied by 125% and recoveries are multiplied by 65%. There is a higher margin for recoveries because there was more variance among companies for recoveries than for deaths. The Committee reviewed raw experience rates and smoothed them to develop graduated experience values, using 2nd degree polynomial trend lines and other spreadsheet application tools in Excel, as well as some manual adjustments. In some cases, the slope of the 1970 Table was used. Due to a lack of data on recoveries at the younger ages, the Committee opted to use the slope of the recovery rates from the 1970 Table to set the rates for age 22 and set rates for age 17 equal to those for age 22. Data Transcription Errors: None. Data Certified: 07/2018</Comments>
+    <KeyWord>Ultimate</KeyWord>
+    <KeyWord> Waiver Recovery</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005 Group Term Life Waiver Study - Ultimate Probability of Recovery Following Disability – Female. Years 11 and over (Exhibit 6). Rates by Attained Age. Minimum Age: 27. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>27</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="27">0.025</Y>
+        <Y t="28">0.025</Y>
+        <Y t="29">0.025</Y>
+        <Y t="30">0.025</Y>
+        <Y t="31">0.025</Y>
+        <Y t="32">0.025</Y>
+        <Y t="33">0.026</Y>
+        <Y t="34">0.027</Y>
+        <Y t="35">0.029</Y>
+        <Y t="36">0.031</Y>
+        <Y t="37">0.033</Y>
+        <Y t="38">0.032</Y>
+        <Y t="39">0.031</Y>
+        <Y t="40">0.03</Y>
+        <Y t="41">0.028</Y>
+        <Y t="42">0.027</Y>
+        <Y t="43">0.027</Y>
+        <Y t="44">0.027</Y>
+        <Y t="45">0.026</Y>
+        <Y t="46">0.026</Y>
+        <Y t="47">0.026</Y>
+        <Y t="48">0.024</Y>
+        <Y t="49">0.022</Y>
+        <Y t="50">0.02</Y>
+        <Y t="51">0.018</Y>
+        <Y t="52">0.017</Y>
+        <Y t="53">0.016</Y>
+        <Y t="54">0.015</Y>
+        <Y t="55">0.014</Y>
+        <Y t="56">0.012</Y>
+        <Y t="57">0.011</Y>
+        <Y t="58">0.01</Y>
+        <Y t="59">0.01</Y>
+        <Y t="60">0.009</Y>
+        <Y t="61">0.009</Y>
+        <Y t="62">0.008</Y>
+        <Y t="63">0.008</Y>
+        <Y t="64">0.008</Y>
+        <Y t="65">0.007</Y>
+        <Y t="66">0.007</Y>
+        <Y t="67">0.007</Y>
+        <Y t="68">0.006</Y>
+        <Y t="69">0.004</Y>
+        <Y t="70">0.003</Y>
+        <Y t="71">0.002</Y>
+        <Y t="72">0.001</Y>
+        <Y t="73">0.001</Y>
+        <Y t="74">0.001</Y>
+        <Y t="75">0.001</Y>
+        <Y t="76">0.001</Y>
+        <Y t="77">0.001</Y>
+        <Y t="78">0.001</Y>
+        <Y t="79">0.001</Y>
+        <Y t="80">0</Y>
+        <Y t="81">0</Y>
+        <Y t="82">0</Y>
+        <Y t="83">0</Y>
+        <Y t="84">0</Y>
+        <Y t="85">0</Y>
+        <Y t="86">0</Y>
+        <Y t="87">0</Y>
+        <Y t="88">0</Y>
+        <Y t="89">0</Y>
+        <Y t="90">0</Y>
+        <Y t="91">0</Y>
+        <Y t="92">0</Y>
+        <Y t="93">0</Y>
+        <Y t="94">0</Y>
+        <Y t="95">0</Y>
+        <Y t="96">0</Y>
+        <Y t="97">0</Y>
+        <Y t="98">0</Y>
+        <Y t="99">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

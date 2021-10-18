@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2771</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Financial Supervisory Service in Korea</ProviderName>
+    <TableReference>Korean Insurance Development Institute, “Detailed Regulations on Supervision of Insurance Business (100625)”, Financial Supervisory Regulations of the Republic of Korea (2010). Accessed: April, 2014 from http://english.fss.or.kr/fss/en/laws/insurance/list.jsp?bbsid=1289368675296</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>6th Standard Accident Death Rate – Male</TableName>
+    <TableDescription>6th Standard Accident Death Rate (ADB) - Male. Minimum Age: 0. Maximum Age: 80 and Over</TableDescription>
+    <Comments>Study Data: Composite of general accident and traffic accident death data for 2003-2007. The value for age 80 is considered applicable to ages above 80. Methodology: Constructed by Korean Insurance Development Institute (KIDI) but other details not available at this time. Data Transcription Errors: None. Data Certified: 05/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>Korea</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="82">Korea</Nation>
+      <TableDescription>6th Standard Accident Death Rate (ADB) - Male. Minimum Age: 0. Maximum Age: 80 and Over</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">7.5E-05</Y>
+        <Y t="1">9.3E-05</Y>
+        <Y t="2">0.000108</Y>
+        <Y t="3">0.000117</Y>
+        <Y t="4">0.00012</Y>
+        <Y t="5">0.000118</Y>
+        <Y t="6">0.000113</Y>
+        <Y t="7">0.000107</Y>
+        <Y t="8">9.9E-05</Y>
+        <Y t="9">8.8E-05</Y>
+        <Y t="10">7.9E-05</Y>
+        <Y t="11">7.4E-05</Y>
+        <Y t="12">7.9E-05</Y>
+        <Y t="13">9.4E-05</Y>
+        <Y t="14">0.000118</Y>
+        <Y t="15">0.000147</Y>
+        <Y t="16">0.000176</Y>
+        <Y t="17">0.000202</Y>
+        <Y t="18">0.000225</Y>
+        <Y t="19">0.000247</Y>
+        <Y t="20">0.000266</Y>
+        <Y t="21">0.000283</Y>
+        <Y t="22">0.000294</Y>
+        <Y t="23">0.000301</Y>
+        <Y t="24">0.000303</Y>
+        <Y t="25">0.000302</Y>
+        <Y t="26">0.000299</Y>
+        <Y t="27">0.000295</Y>
+        <Y t="28">0.000289</Y>
+        <Y t="29">0.000282</Y>
+        <Y t="30">0.000274</Y>
+        <Y t="31">0.000268</Y>
+        <Y t="32">0.000266</Y>
+        <Y t="33">0.000269</Y>
+        <Y t="34">0.000275</Y>
+        <Y t="35">0.000283</Y>
+        <Y t="36">0.000292</Y>
+        <Y t="37">0.000302</Y>
+        <Y t="38">0.000312</Y>
+        <Y t="39">0.000323</Y>
+        <Y t="40">0.000334</Y>
+        <Y t="41">0.000347</Y>
+        <Y t="42">0.000361</Y>
+        <Y t="43">0.000378</Y>
+        <Y t="44">0.000397</Y>
+        <Y t="45">0.000417</Y>
+        <Y t="46">0.000438</Y>
+        <Y t="47">0.000459</Y>
+        <Y t="48">0.00048</Y>
+        <Y t="49">0.000502</Y>
+        <Y t="50">0.000525</Y>
+        <Y t="51">0.000548</Y>
+        <Y t="52">0.00057</Y>
+        <Y t="53">0.000592</Y>
+        <Y t="54">0.000612</Y>
+        <Y t="55">0.000635</Y>
+        <Y t="56">0.000663</Y>
+        <Y t="57">0.000702</Y>
+        <Y t="58">0.000752</Y>
+        <Y t="59">0.000812</Y>
+        <Y t="60">0.000878</Y>
+        <Y t="61">0.00095</Y>
+        <Y t="62">0.001027</Y>
+        <Y t="63">0.001109</Y>
+        <Y t="64">0.001198</Y>
+        <Y t="65">0.00129</Y>
+        <Y t="66">0.001379</Y>
+        <Y t="67">0.00146</Y>
+        <Y t="68">0.001532</Y>
+        <Y t="69">0.001596</Y>
+        <Y t="70">0.001658</Y>
+        <Y t="71">0.001723</Y>
+        <Y t="72">0.001798</Y>
+        <Y t="73">0.001865</Y>
+        <Y t="74">0.001922</Y>
+        <Y t="75">0.002008</Y>
+        <Y t="76">0.00221</Y>
+        <Y t="77">0.002588</Y>
+        <Y t="78">0.003122</Y>
+        <Y t="79">0.003706</Y>
+        <Y t="80">0.004203</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

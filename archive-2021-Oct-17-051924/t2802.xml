@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2802</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Edwin L. Bartleson and James J. Olsen, "Reserves for Individual Hospital and Surgical Expense Insurance”, Transactions of the Society of Actuaries, Vol. IX, No. 25 (1957). Accessed: June, 2014 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1957/January/tsa57v9n2532.pdf</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1956 Intercompany Hospital Table - Males</TableName>
+    <TableDescription>1956 Intercompany Hospital Table - Males. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data: Task Force 4, appointed by the Joint Committee on Health Insurance, was assigned the task of studying reserves for accident and health insurance. The basic tables for hospital and surgical expense insurance were adopted by the National Association of Insurance Commissioners (NAIC) in December, 1956. The net annual claim cost is the product of the annual rate of claim from this table and then the average claim value. Methodology: Task Force 4 prepared tables with a minimum age of 20 and maximum age of 80. In order to cover all "adult" ages and all expiry ages, the table was extended by the authors. There are relatively few adult contracts issued at age 15 to 19 thus extension was simply to use the same cost as for age 20. Likewise, it has been assumed that hospital expenses age 80 apply to ages over 80 while surgical costs at age 65 apply to ages over 65. Data Transcription Errors: None. Data Certified: 06/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1956 Intercompany Hospital Table - Males. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.0783</Y>
+        <Y t="16">0.0783</Y>
+        <Y t="17">0.0783</Y>
+        <Y t="18">0.0783</Y>
+        <Y t="19">0.0783</Y>
+        <Y t="20">0.0783</Y>
+        <Y t="21">0.0782</Y>
+        <Y t="22">0.0779</Y>
+        <Y t="23">0.0777</Y>
+        <Y t="24">0.0774</Y>
+        <Y t="25">0.077</Y>
+        <Y t="26">0.0765</Y>
+        <Y t="27">0.0758</Y>
+        <Y t="28">0.0751</Y>
+        <Y t="29">0.0745</Y>
+        <Y t="30">0.0743</Y>
+        <Y t="31">0.0744</Y>
+        <Y t="32">0.0747</Y>
+        <Y t="33">0.0753</Y>
+        <Y t="34">0.076</Y>
+        <Y t="35">0.077</Y>
+        <Y t="36">0.0782</Y>
+        <Y t="37">0.0797</Y>
+        <Y t="38">0.0814</Y>
+        <Y t="39">0.0833</Y>
+        <Y t="40">0.0851</Y>
+        <Y t="41">0.087</Y>
+        <Y t="42">0.0889</Y>
+        <Y t="43">0.091</Y>
+        <Y t="44">0.0931</Y>
+        <Y t="45">0.0954</Y>
+        <Y t="46">0.0978</Y>
+        <Y t="47">0.1003</Y>
+        <Y t="48">0.103</Y>
+        <Y t="49">0.1058</Y>
+        <Y t="50">0.1087</Y>
+        <Y t="51">0.1118</Y>
+        <Y t="52">0.115</Y>
+        <Y t="53">0.1183</Y>
+        <Y t="54">0.1218</Y>
+        <Y t="55">0.1255</Y>
+        <Y t="56">0.1295</Y>
+        <Y t="57">0.1339</Y>
+        <Y t="58">0.1383</Y>
+        <Y t="59">0.1427</Y>
+        <Y t="60">0.1466</Y>
+        <Y t="61">0.1502</Y>
+        <Y t="62">0.1536</Y>
+        <Y t="63">0.1568</Y>
+        <Y t="64">0.1597</Y>
+        <Y t="65">0.1623</Y>
+        <Y t="66">0.1646</Y>
+        <Y t="67">0.1665</Y>
+        <Y t="68">0.1682</Y>
+        <Y t="69">0.1697</Y>
+        <Y t="70">0.171</Y>
+        <Y t="71">0.1721</Y>
+        <Y t="72">0.1728</Y>
+        <Y t="73">0.1735</Y>
+        <Y t="74">0.1739</Y>
+        <Y t="75">0.1744</Y>
+        <Y t="76">0.1748</Y>
+        <Y t="77">0.1751</Y>
+        <Y t="78">0.1754</Y>
+        <Y t="79">0.1755</Y>
+        <Y t="80">0.1756</Y>
+        <Y t="81">0.1756</Y>
+        <Y t="82">0.1756</Y>
+        <Y t="83">0.1756</Y>
+        <Y t="84">0.1756</Y>
+        <Y t="85">0.1756</Y>
+        <Y t="86">0.1756</Y>
+        <Y t="87">0.1756</Y>
+        <Y t="88">0.1756</Y>
+        <Y t="89">0.1756</Y>
+        <Y t="90">0.1756</Y>
+        <Y t="91">0.1756</Y>
+        <Y t="92">0.1756</Y>
+        <Y t="93">0.1756</Y>
+        <Y t="94">0.1756</Y>
+        <Y t="95">0.1756</Y>
+        <Y t="96">0.1756</Y>
+        <Y t="97">0.1756</Y>
+        <Y t="98">0.1756</Y>
+        <Y t="99">0.1756</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

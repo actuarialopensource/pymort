@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>562</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden and Tony Hutchins</ProviderName>
+    <TableReference>Publishing and Media Services Division, “New Zealand Life Tables: 1990-92”, New Zealand Department of Statistics (Wellington, 1994). Accessed January, 2014 from: http://www.stats.govt.nz/browse_for_stats/health/life_expectancy/period-life-tables.aspx</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1990-92 Population Period Life Table – Total Male</TableName>
+    <TableDescription>1990-92 Population Period Life Table – Total Male. Minimum Age: 0 Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Total table includes Māori and non Māori lives combined. Māori classified as people with 'half or more Māori blood' while Non-Māori people are those not included in the Māori life tables. Methodology: Deaths registered in New Zealand of people resident in New Zealand and people visiting from overseas for the period 1990-92. Base from estimated de facto population mean year ended 31 December 1990–1992 (i.e. based on census night population count at 24 March 1991). Age 0 had special handling. Central death rates for each age calculated and smoothed using cubic spline. Values for very high ages had some minor adjustments. Data Transcription Errors Detected: 01/2014. Data Corrected and Certified: 01/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>New Zealand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="64">New Zealand</Nation>
+      <TableDescription>1990-92 Population Period Life Table – Total Male. Minimum Age: 0 Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00922</Y>
+        <Y t="1">0.00083</Y>
+        <Y t="2">0.00059</Y>
+        <Y t="3">0.00052</Y>
+        <Y t="4">0.00045</Y>
+        <Y t="5">0.00038</Y>
+        <Y t="6">0.00032</Y>
+        <Y t="7">0.00026</Y>
+        <Y t="8">0.00021</Y>
+        <Y t="9">0.00019</Y>
+        <Y t="10">0.00020</Y>
+        <Y t="11">0.00023</Y>
+        <Y t="12">0.00031</Y>
+        <Y t="13">0.00042</Y>
+        <Y t="14">0.00059</Y>
+        <Y t="15">0.00080</Y>
+        <Y t="16">0.00103</Y>
+        <Y t="17">0.00129</Y>
+        <Y t="18">0.00153</Y>
+        <Y t="19">0.00174</Y>
+        <Y t="20">0.00189</Y>
+        <Y t="21">0.00197</Y>
+        <Y t="22">0.00198</Y>
+        <Y t="23">0.00193</Y>
+        <Y t="24">0.00184</Y>
+        <Y t="25">0.00173</Y>
+        <Y t="26">0.00162</Y>
+        <Y t="27">0.00151</Y>
+        <Y t="28">0.00141</Y>
+        <Y t="29">0.00134</Y>
+        <Y t="30">0.00130</Y>
+        <Y t="31">0.00131</Y>
+        <Y t="32">0.00136</Y>
+        <Y t="33">0.00143</Y>
+        <Y t="34">0.00152</Y>
+        <Y t="35">0.00161</Y>
+        <Y t="36">0.00168</Y>
+        <Y t="37">0.00175</Y>
+        <Y t="38">0.00182</Y>
+        <Y t="39">0.00189</Y>
+        <Y t="40">0.00197</Y>
+        <Y t="41">0.00205</Y>
+        <Y t="42">0.00214</Y>
+        <Y t="43">0.00228</Y>
+        <Y t="44">0.00249</Y>
+        <Y t="45">0.00279</Y>
+        <Y t="46">0.00317</Y>
+        <Y t="47">0.00358</Y>
+        <Y t="48">0.00400</Y>
+        <Y t="49">0.00443</Y>
+        <Y t="50">0.00490</Y>
+        <Y t="51">0.00541</Y>
+        <Y t="52">0.00600</Y>
+        <Y t="53">0.00667</Y>
+        <Y t="54">0.00745</Y>
+        <Y t="55">0.00831</Y>
+        <Y t="56">0.00926</Y>
+        <Y t="57">0.01028</Y>
+        <Y t="58">0.01136</Y>
+        <Y t="59">0.01249</Y>
+        <Y t="60">0.01368</Y>
+        <Y t="61">0.01498</Y>
+        <Y t="62">0.01646</Y>
+        <Y t="63">0.01819</Y>
+        <Y t="64">0.02016</Y>
+        <Y t="65">0.02235</Y>
+        <Y t="66">0.02477</Y>
+        <Y t="67">0.02738</Y>
+        <Y t="68">0.03018</Y>
+        <Y t="69">0.03317</Y>
+        <Y t="70">0.03635</Y>
+        <Y t="71">0.03975</Y>
+        <Y t="72">0.04339</Y>
+        <Y t="73">0.04730</Y>
+        <Y t="74">0.05150</Y>
+        <Y t="75">0.05608</Y>
+        <Y t="76">0.06139</Y>
+        <Y t="77">0.06786</Y>
+        <Y t="78">0.07571</Y>
+        <Y t="79">0.08442</Y>
+        <Y t="80">0.09331</Y>
+        <Y t="81">0.10187</Y>
+        <Y t="82">0.11021</Y>
+        <Y t="83">0.11860</Y>
+        <Y t="84">0.12726</Y>
+        <Y t="85">0.13645</Y>
+        <Y t="86">0.14638</Y>
+        <Y t="87">0.15725</Y>
+        <Y t="88">0.16912</Y>
+        <Y t="89">0.18204</Y>
+        <Y t="90">0.19603</Y>
+        <Y t="91">0.21112</Y>
+        <Y t="92">0.22732</Y>
+        <Y t="93">0.24463</Y>
+        <Y t="94">0.26306</Y>
+        <Y t="95">0.28259</Y>
+        <Y t="96">0.30321</Y>
+        <Y t="97">0.32488</Y>
+        <Y t="98">0.34759</Y>
+        <Y t="99">0.37130</Y>
+        <Y t="100">0.39610</Y>
+        <Y t="101">0.42208</Y>
+        <Y t="102">0.44928</Y>
+        <Y t="103">0.47775</Y>
+        <Y t="104">0.50747</Y>
+        <Y t="105">0.53827</Y>
+        <Y t="106">0.56934</Y>
+        <Y t="107">0.59985</Y>
+        <Y t="108">0.62920</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

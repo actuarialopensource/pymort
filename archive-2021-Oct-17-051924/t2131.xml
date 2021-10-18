@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2131</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Marianne Purushotham, “U.S. Individual Life Persistency Update”, LIMRA International and the Society of Actuaries (Connecticut, 2005). Accessed August, 2013 from: https://www.soa.org/resources/experience-studies/2005-2009/pd-us-individual-life-persistency-update/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2001-2002 Individual Life Persistency Study – Whole Life by Face Amount Bands</TableName>
+    <TableDescription>2001-2002 Individual Life Persistency Study – Whole Life Insurance by Face Amount Bands. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over</TableDescription>
+    <Comments>Study Data: Study of individual life insurance lapse experience in the United States conducted jointly by LIMRA International and the Society of Actuaries. The study is based on data provided by 22 individual life insurance companies. The observation period for the study is calendar years 2001 and 2002. As the participants in the study do not represent the entire industry and results for specific companies can vary, these results should be used as a supplement to the experience of the individual carrier. “Lapse” includes termination for nonpayment of premium, insufficient cash value, full surrender of a policy, transfer to reduced paid-up or extended term status, and terminations for unknown reason. This is consistent with the definition of lapse applied for other LIMRA and Society of Actuaries experience studies and allows for comparison of results over time. Methodology: Lapse rates are calculated as follows: Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute exposure for only the fraction of the year they were in force. Rates for policy years 30 and above were all set to the same rate. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2001-2002 Individual Life Persistency Study – Whole Life Insurance by Face Amount Bands. Basis: Under $100,000. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>30</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.138</Y>
+        <Y t="2">0.114</Y>
+        <Y t="3">0.08</Y>
+        <Y t="4">0.068</Y>
+        <Y t="5">0.065</Y>
+        <Y t="6">0.061</Y>
+        <Y t="7">0.058</Y>
+        <Y t="8">0.054</Y>
+        <Y t="9">0.052</Y>
+        <Y t="10">0.05</Y>
+        <Y t="11">0.046</Y>
+        <Y t="12">0.044</Y>
+        <Y t="13">0.039</Y>
+        <Y t="14">0.036</Y>
+        <Y t="15">0.035</Y>
+        <Y t="16">0.035</Y>
+        <Y t="17">0.035</Y>
+        <Y t="18">0.035</Y>
+        <Y t="19">0.033</Y>
+        <Y t="20">0.036</Y>
+        <Y t="21">0.036</Y>
+        <Y t="22">0.037</Y>
+        <Y t="23">0.039</Y>
+        <Y t="24">0.038</Y>
+        <Y t="25">0.039</Y>
+        <Y t="26">0.036</Y>
+        <Y t="27">0.036</Y>
+        <Y t="28">0.036</Y>
+        <Y t="29">0.036</Y>
+        <Y t="30">0.028</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2001-2002 Individual Life Persistency Study – Whole Life Insurance by Face Amount Bands. Basis: $100,000 and Over. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and over</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>30</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.095</Y>
+        <Y t="2">0.081</Y>
+        <Y t="3">0.065</Y>
+        <Y t="4">0.056</Y>
+        <Y t="5">0.057</Y>
+        <Y t="6">0.057</Y>
+        <Y t="7">0.058</Y>
+        <Y t="8">0.056</Y>
+        <Y t="9">0.055</Y>
+        <Y t="10">0.054</Y>
+        <Y t="11">0.05</Y>
+        <Y t="12">0.044</Y>
+        <Y t="13">0.041</Y>
+        <Y t="14">0.04</Y>
+        <Y t="15">0.037</Y>
+        <Y t="16">0.037</Y>
+        <Y t="17">0.039</Y>
+        <Y t="18">0.039</Y>
+        <Y t="19">0.04</Y>
+        <Y t="20">0.045</Y>
+        <Y t="21">0.048</Y>
+        <Y t="22">0.046</Y>
+        <Y t="23">0.041</Y>
+        <Y t="24">0.047</Y>
+        <Y t="25">0.044</Y>
+        <Y t="26">0.041</Y>
+        <Y t="27">0.041</Y>
+        <Y t="28">0.041</Y>
+        <Y t="29">0.041</Y>
+        <Y t="30">0.038</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

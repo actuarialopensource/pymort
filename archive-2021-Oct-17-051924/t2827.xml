@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2827</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Antoine de Parcieux, “Essai Sur Les Probabilities de La Vie Humaine", (France, 1746) reprinted Gustavus Woodson Smith, “Notes on Life Insurance with Appendix, Second Edition", S. W. Green, Printer (New York, 1875). Accessed June, 2014 from https://archive.org/stream/notesonlifeinsu00smitgoog#page/n6/mode/2up</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>de Parcieux Table of Mortality</TableName>
+    <TableDescription>de Parcieux Table of Mortality.  Minimum Age: 3 Maximum Age: 95</TableDescription>
+    <Comments>Study Data: Three tables were initially published, one from the experience of Tontine funds of 1689, 1669, and 1734 and then two tables developed from mortuary registers of 14 monasteries covering 8,700 male lives and then 26 convents covering 1519 female lives. The table is regarded as having slow mortality compared to the Duvillard table (See SOA Table Identity 2817) and was adopted as the French standard for assurances (insurance upon death) while the latter was adopted as the French Standard for annuities (insurance upon survival). Methodology: Results deduced from the mortuary registers. Data ranged from the age of three years to the age of 95. Subseqeunt to publication, extensions down to age 0 and up to age 100 were added. The version herin is consistent with M. de Parcieux's original. The work also contained an algebraic theory of annuities calculated from the table of mortality for the tontine annuitants. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>France</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="33">France</Nation>
+      <TableDescription>de Parcieux Table of Mortality.  Minimum Age: 3 Maximum Age: 95</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>3</MinScaleValue>
+        <MaxScaleValue>95</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="3">1000</Y>
+        <Y t="4">970</Y>
+        <Y t="5">948</Y>
+        <Y t="6">930</Y>
+        <Y t="7">915</Y>
+        <Y t="8">902</Y>
+        <Y t="9">890</Y>
+        <Y t="10">880</Y>
+        <Y t="11">872</Y>
+        <Y t="12">866</Y>
+        <Y t="13">860</Y>
+        <Y t="14">854</Y>
+        <Y t="15">848</Y>
+        <Y t="16">842</Y>
+        <Y t="17">835</Y>
+        <Y t="18">828</Y>
+        <Y t="19">821</Y>
+        <Y t="20">814</Y>
+        <Y t="21">806</Y>
+        <Y t="22">798</Y>
+        <Y t="23">790</Y>
+        <Y t="24">782</Y>
+        <Y t="25">774</Y>
+        <Y t="26">766</Y>
+        <Y t="27">758</Y>
+        <Y t="28">750</Y>
+        <Y t="29">742</Y>
+        <Y t="30">734</Y>
+        <Y t="31">726</Y>
+        <Y t="32">718</Y>
+        <Y t="33">710</Y>
+        <Y t="34">702</Y>
+        <Y t="35">694</Y>
+        <Y t="36">686</Y>
+        <Y t="37">678</Y>
+        <Y t="38">671</Y>
+        <Y t="39">664</Y>
+        <Y t="40">657</Y>
+        <Y t="41">650</Y>
+        <Y t="42">643</Y>
+        <Y t="43">636</Y>
+        <Y t="44">629</Y>
+        <Y t="45">622</Y>
+        <Y t="46">615</Y>
+        <Y t="47">607</Y>
+        <Y t="48">599</Y>
+        <Y t="49">590</Y>
+        <Y t="50">581</Y>
+        <Y t="51">571</Y>
+        <Y t="52">560</Y>
+        <Y t="53">549</Y>
+        <Y t="54">538</Y>
+        <Y t="55">526</Y>
+        <Y t="56">514</Y>
+        <Y t="57">502</Y>
+        <Y t="58">489</Y>
+        <Y t="59">476</Y>
+        <Y t="60">463</Y>
+        <Y t="61">450</Y>
+        <Y t="62">437</Y>
+        <Y t="63">423</Y>
+        <Y t="64">409</Y>
+        <Y t="65">395</Y>
+        <Y t="66">380</Y>
+        <Y t="67">364</Y>
+        <Y t="68">347</Y>
+        <Y t="69">329</Y>
+        <Y t="70">310</Y>
+        <Y t="71">291</Y>
+        <Y t="72">271</Y>
+        <Y t="73">251</Y>
+        <Y t="74">231</Y>
+        <Y t="75">211</Y>
+        <Y t="76">192</Y>
+        <Y t="77">173</Y>
+        <Y t="78">154</Y>
+        <Y t="79">136</Y>
+        <Y t="80">118</Y>
+        <Y t="81">101</Y>
+        <Y t="82">85</Y>
+        <Y t="83">71</Y>
+        <Y t="84">59</Y>
+        <Y t="85">48</Y>
+        <Y t="86">38</Y>
+        <Y t="87">29</Y>
+        <Y t="88">22</Y>
+        <Y t="89">16</Y>
+        <Y t="90">11</Y>
+        <Y t="91">7</Y>
+        <Y t="92">4</Y>
+        <Y t="93">2</Y>
+        <Y t="94">1</Y>
+        <Y t="95">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

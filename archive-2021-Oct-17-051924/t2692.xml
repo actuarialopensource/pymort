@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2692</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Ministry of Health</ProviderName>
+    <TableReference>Statistics and Information Department “The 21st Life Tables”, Minister's Secretariat, Ministry of Health, Labor and Welfare (Tokyo, 2010). Accessed: January, 2014 from http://www.mhlw.go.jp/english/database/db-hw/lifetb21th/dl/tables.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>JLT 21 – Female, ANB</TableName>
+    <TableDescription>Japanese Life Table No. 21 (JLT21) – Female. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 114</TableDescription>
+    <Comments>Study Data: In Japan, The Ministry of Health, Labor and Welfare have prepared two series of life tables – the Complete and the Abridged. The former are constructed every five years based on the Annual Vital Statistics and the Population Census. The latter are based on Provisional Annual Vital Statistics and Population Estimates. The Japanese Institute of Actuaries does not produce select tables. Methodology: Mortality rates smoothed by using Greville’s formula (3rd order, 9 terms). In addition, mortality rates estimated and extrapolated by using a Gompertz-Makeham function for advanced ages (over 90 for males and over 95 for females). NOTE: The Japanese Mortality Database (JMD) is a database optimized for mortality research and consistent with the Human Mortality Database (HMD). As the JMD is designed to provide the life tables in a format compatible with HMD, the life tables do not necessarily exhibit the same values as ones, such as this table, by the official life tables prepared and released by the Statistics and Information Department, Minister's Secretariat, Ministry of Health, Labor and Welfare. Data Transcription Errors: None. Data Certified: 01/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Japan</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="81">Japan</Nation>
+      <TableDescription>Japanese Life Table No. 21 (JLT21) – Female. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 114</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>114</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00210</Y>
+        <Y t="1">0.00033</Y>
+        <Y t="2">0.00023</Y>
+        <Y t="3">0.00015</Y>
+        <Y t="4">0.00011</Y>
+        <Y t="5">0.00009</Y>
+        <Y t="6">0.00008</Y>
+        <Y t="7">0.00008</Y>
+        <Y t="8">0.00007</Y>
+        <Y t="9">0.00006</Y>
+        <Y t="10">0.00006</Y>
+        <Y t="11">0.00006</Y>
+        <Y t="12">0.00007</Y>
+        <Y t="13">0.00008</Y>
+        <Y t="14">0.00010</Y>
+        <Y t="15">0.00012</Y>
+        <Y t="16">0.00014</Y>
+        <Y t="17">0.00016</Y>
+        <Y t="18">0.00019</Y>
+        <Y t="19">0.00021</Y>
+        <Y t="20">0.00024</Y>
+        <Y t="21">0.00025</Y>
+        <Y t="22">0.00026</Y>
+        <Y t="23">0.00026</Y>
+        <Y t="24">0.00026</Y>
+        <Y t="25">0.00026</Y>
+        <Y t="26">0.00027</Y>
+        <Y t="27">0.00028</Y>
+        <Y t="28">0.00031</Y>
+        <Y t="29">0.00034</Y>
+        <Y t="30">0.00036</Y>
+        <Y t="31">0.00038</Y>
+        <Y t="32">0.00040</Y>
+        <Y t="33">0.00042</Y>
+        <Y t="34">0.00045</Y>
+        <Y t="35">0.00048</Y>
+        <Y t="36">0.00052</Y>
+        <Y t="37">0.00056</Y>
+        <Y t="38">0.00061</Y>
+        <Y t="39">0.00066</Y>
+        <Y t="40">0.00071</Y>
+        <Y t="41">0.00076</Y>
+        <Y t="42">0.00082</Y>
+        <Y t="43">0.00091</Y>
+        <Y t="44">0.00100</Y>
+        <Y t="45">0.00108</Y>
+        <Y t="46">0.00115</Y>
+        <Y t="47">0.00124</Y>
+        <Y t="48">0.00138</Y>
+        <Y t="49">0.00153</Y>
+        <Y t="50">0.00167</Y>
+        <Y t="51">0.00179</Y>
+        <Y t="52">0.00191</Y>
+        <Y t="53">0.00204</Y>
+        <Y t="54">0.00219</Y>
+        <Y t="55">0.00236</Y>
+        <Y t="56">0.00254</Y>
+        <Y t="57">0.00273</Y>
+        <Y t="58">0.00292</Y>
+        <Y t="59">0.00313</Y>
+        <Y t="60">0.00340</Y>
+        <Y t="61">0.00370</Y>
+        <Y t="62">0.00401</Y>
+        <Y t="63">0.00434</Y>
+        <Y t="64">0.00465</Y>
+        <Y t="65">0.00498</Y>
+        <Y t="66">0.00537</Y>
+        <Y t="67">0.00584</Y>
+        <Y t="68">0.00634</Y>
+        <Y t="69">0.00692</Y>
+        <Y t="70">0.00767</Y>
+        <Y t="71">0.00856</Y>
+        <Y t="72">0.00961</Y>
+        <Y t="73">0.01083</Y>
+        <Y t="74">0.01224</Y>
+        <Y t="75">0.01381</Y>
+        <Y t="76">0.01558</Y>
+        <Y t="77">0.01763</Y>
+        <Y t="78">0.02006</Y>
+        <Y t="79">0.02284</Y>
+        <Y t="80">0.02600</Y>
+        <Y t="81">0.02956</Y>
+        <Y t="82">0.03371</Y>
+        <Y t="83">0.03867</Y>
+        <Y t="84">0.04458</Y>
+        <Y t="85">0.05155</Y>
+        <Y t="86">0.05937</Y>
+        <Y t="87">0.06837</Y>
+        <Y t="88">0.07843</Y>
+        <Y t="89">0.08949</Y>
+        <Y t="90">0.10160</Y>
+        <Y t="91">0.11490</Y>
+        <Y t="92">0.12964</Y>
+        <Y t="93">0.14628</Y>
+        <Y t="94">0.16458</Y>
+        <Y t="95">0.18367</Y>
+        <Y t="96">0.20330</Y>
+        <Y t="97">0.22398</Y>
+        <Y t="98">0.24573</Y>
+        <Y t="99">0.26854</Y>
+        <Y t="100">0.29242</Y>
+        <Y t="101">0.31734</Y>
+        <Y t="102">0.34328</Y>
+        <Y t="103">0.37021</Y>
+        <Y t="104">0.39806</Y>
+        <Y t="105">0.42678</Y>
+        <Y t="106">0.45627</Y>
+        <Y t="107">0.48643</Y>
+        <Y t="108">0.51715</Y>
+        <Y t="109">0.54827</Y>
+        <Y t="110">0.57965</Y>
+        <Y t="111">0.61112</Y>
+        <Y t="112">0.64247</Y>
+        <Y t="113">0.67352</Y>
+        <Y t="114">0.70404</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2577</TableIdentity>
+    <ProviderDomain>www.cso.ie</ProviderDomain>
+    <ProviderName>Kieren O’Shea</ProviderName>
+    <TableReference>Vital Statistics, “Irish Life Table No. 14 (2001-03)”, Irish Statistical Bulletin, Central Statistics Office (Ireland, 2004) Accessed: December, 2013 from http://www.cso.ie/en/media/csoie/newsevents/documents/irishlife.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Irish Life Table No. 14 (2001-03) Males</TableName>
+    <TableDescription>Irish Life Table No. 14 (2001-03) Males. Minimum Age: 0. Maximum Age: 105</TableDescription>
+    <Comments>Study Data: Life tables were constructed for males and females which are representative of the mortality experience in Ireland in 2002 by using the 2002 Census of Population and deaths enumerated in the three years 2001, 2002 and 2003. The life table should reflect the normal mortality conditions at about the time of the Census. Methodology: The probability of dying is the ratio of the number of deaths at exact age x divided by the number of persons surviving at that exact age. Hence the life table is based on current mortality rates only and that no assumptions are made about future changes. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Ireland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="353">Ireland</Nation>
+      <TableDescription>Irish Life Table No. 14 (2001-03) Males. Minimum Age: 0. Maximum Age: 105</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00651</Y>
+        <Y t="1">0.00048</Y>
+        <Y t="2">0.00041</Y>
+        <Y t="3">0.00021</Y>
+        <Y t="4">0.00021</Y>
+        <Y t="5">0.00015</Y>
+        <Y t="6">0.00011</Y>
+        <Y t="7">0.00015</Y>
+        <Y t="8">0.00012</Y>
+        <Y t="9">0.0001</Y>
+        <Y t="10">0.0001</Y>
+        <Y t="11">0.00011</Y>
+        <Y t="12">0.00015</Y>
+        <Y t="13">0.00023</Y>
+        <Y t="14">0.00035</Y>
+        <Y t="15">0.00048</Y>
+        <Y t="16">0.00061</Y>
+        <Y t="17">0.00072</Y>
+        <Y t="18">0.00081</Y>
+        <Y t="19">0.00091</Y>
+        <Y t="20">0.00099</Y>
+        <Y t="21">0.00106</Y>
+        <Y t="22">0.00111</Y>
+        <Y t="23">0.00114</Y>
+        <Y t="24">0.00115</Y>
+        <Y t="25">0.00114</Y>
+        <Y t="26">0.00113</Y>
+        <Y t="27">0.00112</Y>
+        <Y t="28">0.00111</Y>
+        <Y t="29">0.00109</Y>
+        <Y t="30">0.00107</Y>
+        <Y t="31">0.00106</Y>
+        <Y t="32">0.00107</Y>
+        <Y t="33">0.00108</Y>
+        <Y t="34">0.00111</Y>
+        <Y t="35">0.00115</Y>
+        <Y t="36">0.0012</Y>
+        <Y t="37">0.00127</Y>
+        <Y t="38">0.00135</Y>
+        <Y t="39">0.00145</Y>
+        <Y t="40">0.00156</Y>
+        <Y t="41">0.00169</Y>
+        <Y t="42">0.00183</Y>
+        <Y t="43">0.00197</Y>
+        <Y t="44">0.00213</Y>
+        <Y t="45">0.0023</Y>
+        <Y t="46">0.00251</Y>
+        <Y t="47">0.00277</Y>
+        <Y t="48">0.00308</Y>
+        <Y t="49">0.00344</Y>
+        <Y t="50">0.00384</Y>
+        <Y t="51">0.00428</Y>
+        <Y t="52">0.00477</Y>
+        <Y t="53">0.00527</Y>
+        <Y t="54">0.00579</Y>
+        <Y t="55">0.00637</Y>
+        <Y t="56">0.00703</Y>
+        <Y t="57">0.00781</Y>
+        <Y t="58">0.00869</Y>
+        <Y t="59">0.00967</Y>
+        <Y t="60">0.01075</Y>
+        <Y t="61">0.01196</Y>
+        <Y t="62">0.01332</Y>
+        <Y t="63">0.01483</Y>
+        <Y t="64">0.01647</Y>
+        <Y t="65">0.01828</Y>
+        <Y t="66">0.0203</Y>
+        <Y t="67">0.02255</Y>
+        <Y t="68">0.02502</Y>
+        <Y t="69">0.02768</Y>
+        <Y t="70">0.03063</Y>
+        <Y t="71">0.03395</Y>
+        <Y t="72">0.03773</Y>
+        <Y t="73">0.04201</Y>
+        <Y t="74">0.04677</Y>
+        <Y t="75">0.05207</Y>
+        <Y t="76">0.05796</Y>
+        <Y t="77">0.06451</Y>
+        <Y t="78">0.07191</Y>
+        <Y t="79">0.08022</Y>
+        <Y t="80">0.08936</Y>
+        <Y t="81">0.09922</Y>
+        <Y t="82">0.10962</Y>
+        <Y t="83">0.1207</Y>
+        <Y t="84">0.13267</Y>
+        <Y t="85">0.14545</Y>
+        <Y t="86">0.15895</Y>
+        <Y t="87">0.17307</Y>
+        <Y t="88">0.18796</Y>
+        <Y t="89">0.20358</Y>
+        <Y t="90">0.21994</Y>
+        <Y t="91">0.23703</Y>
+        <Y t="92">0.25485</Y>
+        <Y t="93">0.27341</Y>
+        <Y t="94">0.2927</Y>
+        <Y t="95">0.31272</Y>
+        <Y t="96">0.33348</Y>
+        <Y t="97">0.35497</Y>
+        <Y t="98">0.37719</Y>
+        <Y t="99">0.40015</Y>
+        <Y t="100">0.42384</Y>
+        <Y t="101">0.44826</Y>
+        <Y t="102">0.47342</Y>
+        <Y t="103">0.49931</Y>
+        <Y t="104">0.52593</Y>
+        <Y t="105">0.55329</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

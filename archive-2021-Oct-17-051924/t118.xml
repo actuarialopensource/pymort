@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>118</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Robert J. Johansen</ProviderName>
+    <TableReference>Robert J. Johansen, “Blended Mortality Tables – Life Insurance and Annuities”, Transactions of the Society of Actuaries Vol. XXXIX, Society of Actuaries (1987) Appendix A, p. 77. Accessed: March, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1987/January/tsa87v396.pdf</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1980 CSO - Table SC (60% Male Blend - Smoker), ANB</TableName>
+    <TableDescription>1980 Commissioners Standard Ordinary (CSO) Table SC (60% Male / 40% Female Blend - Smoker). Basis: Age Nearest Birthday. Minimum Age: 15 Maximum Age: 99</TableDescription>
+    <Comments>Study Data:  In response to the U.S. Supreme Court’s Norris decision, a set of five blended, non-sex-distinct mortality tables were developed from the 1980 CSO tables (See SOA Table Identities 17 and 20) to provide for minimum non-forfeiture values on life insurance policies issued on a non-sex-distinct basis for employee benefit plans. With the increasing prevalence of nonsmoker policies, the actuarial community deemed there would be a growing need for blended 1980 CSO Smoker and Non-smoker tables (See SOA Table Identities 21 and 22 for males; 38 and 40 for females) for employee benefit plans. Methodology: Same methodology and pivotal age as adopted in construction of the composite blended tables (See SOA Table Identities 108, 114, 120, 126, and 132). The more rapid fall-off in the ratio of male lx to total lx with increasing age among smokers and Smoker and Nonsmoker tables being identical for males after age 94 and females after age 93 appeared responsible for an apparent anomaly at the very high ages: the blended smoker mortality rates, as originally calculated, were lower than the corresponding nonsmoker rates, and the nonsmoker rates were higher than the composite rates. To remove the anomalies, the blended smoker mortality rates at the very high ages were arbitrarily adjusted so as to be not less than the corresponding composite blended rates. Similarly the nonsmoker rates were adjusted to be not more than the composite rates. Finally, the blended smoker and nonsmoker rates were adjusted to equal the respective blended composite tables after age 93, following the example of the separate male and female smoker and nonsmoker tables. Data Transcription Errors: None. Data Certified: 03/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980 Commissioners Standard Ordinary (CSO) Table SC (60% Male / 40% Female Blend - Smoker). Basis: Age Nearest Birthday. Minimum Age: 15 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00137</Y>
+        <Y t="16">0.00152</Y>
+        <Y t="17">0.00165</Y>
+        <Y t="18">0.00174</Y>
+        <Y t="19">0.00182</Y>
+        <Y t="20">0.00186</Y>
+        <Y t="21">0.00188</Y>
+        <Y t="22">0.00187</Y>
+        <Y t="23">0.00185</Y>
+        <Y t="24">0.00184</Y>
+        <Y t="25">0.00181</Y>
+        <Y t="26">0.00179</Y>
+        <Y t="27">0.00179</Y>
+        <Y t="28">0.00179</Y>
+        <Y t="29">0.00183</Y>
+        <Y t="30">0.00188</Y>
+        <Y t="31">0.00195</Y>
+        <Y t="32">0.00202</Y>
+        <Y t="33">0.00211</Y>
+        <Y t="34">0.00223</Y>
+        <Y t="35">0.00235</Y>
+        <Y t="36">0.00252</Y>
+        <Y t="37">0.00274</Y>
+        <Y t="38">0.00298</Y>
+        <Y t="39">0.00325</Y>
+        <Y t="40">0.00356</Y>
+        <Y t="41">0.00394</Y>
+        <Y t="42">0.00431</Y>
+        <Y t="43">0.00471</Y>
+        <Y t="44">0.00514</Y>
+        <Y t="45">0.00561</Y>
+        <Y t="46">0.00608</Y>
+        <Y t="47">0.00659</Y>
+        <Y t="48">0.00712</Y>
+        <Y t="49">0.00771</Y>
+        <Y t="50">0.00835</Y>
+        <Y t="51">0.00905</Y>
+        <Y t="52">0.00984</Y>
+        <Y t="53">0.01075</Y>
+        <Y t="54">0.01175</Y>
+        <Y t="55">0.01280</Y>
+        <Y t="56">0.01392</Y>
+        <Y t="57">0.01505</Y>
+        <Y t="58">0.01621</Y>
+        <Y t="59">0.01741</Y>
+        <Y t="60">0.01874</Y>
+        <Y t="61">0.02027</Y>
+        <Y t="62">0.02202</Y>
+        <Y t="63">0.02408</Y>
+        <Y t="64">0.02636</Y>
+        <Y t="65">0.02883</Y>
+        <Y t="66">0.03135</Y>
+        <Y t="67">0.03397</Y>
+        <Y t="68">0.03655</Y>
+        <Y t="69">0.03931</Y>
+        <Y t="70">0.04229</Y>
+        <Y t="71">0.04573</Y>
+        <Y t="72">0.04975</Y>
+        <Y t="73">0.05437</Y>
+        <Y t="74">0.05953</Y>
+        <Y t="75">0.06521</Y>
+        <Y t="76">0.07112</Y>
+        <Y t="77">0.07716</Y>
+        <Y t="78">0.08323</Y>
+        <Y t="79">0.08955</Y>
+        <Y t="80">0.09642</Y>
+        <Y t="81">0.10408</Y>
+        <Y t="82">0.11272</Y>
+        <Y t="83">0.12247</Y>
+        <Y t="84">0.13348</Y>
+        <Y t="85">0.14459</Y>
+        <Y t="86">0.15667</Y>
+        <Y t="87">0.16841</Y>
+        <Y t="88">0.18166</Y>
+        <Y t="89">0.19445</Y>
+        <Y t="90">0.20876</Y>
+        <Y t="91">0.22398</Y>
+        <Y t="92">0.24065</Y>
+        <Y t="93">0.26028</Y>
+        <Y t="94">0.28517</Y>
+        <Y t="95">0.32203</Y>
+        <Y t="96">0.37856</Y>
+        <Y t="97">0.47670</Y>
+        <Y t="98">0.65710</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

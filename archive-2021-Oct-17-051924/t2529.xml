@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2529</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Mortality Standing Committee of the Actuarial Society of South Africa, “Mortality of Assured Lives in South Africa, Continuous Investigation 1956-58”, Transactions of the Faculty of Actuaries (1961).  Accessed November, 2013 from: http://www.actuaries.org.uk/sites/all/files/documents/pdf/0273-0287.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>SA 56/58</TableName>
+    <TableDescription>South Africa 1956-58 Assured Lives Mortality (SA56/58). Minimum Age: 15. Maximum Age: 104.</TableDescription>
+    <Comments>Study Data: Medical and nonmedical combined for the period 1956-58 from thirteen Life Offices. Cases not accepted at ordinary rates for the race concerned were excluded.  Time did not permit an investigation of the select portion of the data, that is, the first three years of data. A small proportion of non-European lives is included in the experience. The experience is also preponderantly in respect of male lives, the proportion of female lives being small. Methodology: The ungraduated values of q(x–½) for x from 17 to 96 inclusive were used to produce graduated values of q(x–½) for x from 27 to 86 inclusive, using the Spencer 21-term summation formula. The graduated values for x from 77 to 82 inclusive were adjusted by inspection toimprove the run of the figures. At the young ages the data shows a “ hump ” in the curve round about ages 18-22, presumably due to accidental deaths. There is a corresponding “ hollow ” about age 28. It was decided to complete this portion of the curve by graphic graduation, and to preserve the features shown by the crude rates of mortality. At the high ages an attempt at a graphic graduation showed that a second degree polynomial would be appropriate. Data Transcription Errors: None. Data Certified: 11/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>South Africa</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="27">South Africa</Nation>
+      <TableDescription>South Africa 1956-58 Assured Lives Mortality (SA56/58). Minimum Age: 15. Maximum Age: 104</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>104</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00150</Y>
+        <Y t="16">0.00179</Y>
+        <Y t="17">0.00201</Y>
+        <Y t="18">0.00209</Y>
+        <Y t="19">0.00209</Y>
+        <Y t="20">0.00203</Y>
+        <Y t="21">0.00192</Y>
+        <Y t="22">0.00180</Y>
+        <Y t="23">0.00167</Y>
+        <Y t="24">0.00153</Y>
+        <Y t="25">0.00140</Y>
+        <Y t="26">0.00130</Y>
+        <Y t="27">0.00124</Y>
+        <Y t="28">0.00122</Y>
+        <Y t="29">0.00125</Y>
+        <Y t="30">0.00131</Y>
+        <Y t="31">0.00140</Y>
+        <Y t="32">0.00152</Y>
+        <Y t="33">0.00165</Y>
+        <Y t="34">0.00180</Y>
+        <Y t="35">0.00196</Y>
+        <Y t="36">0.00213</Y>
+        <Y t="37">0.00231</Y>
+        <Y t="38">0.00251</Y>
+        <Y t="39">0.00271</Y>
+        <Y t="40">0.00294</Y>
+        <Y t="41">0.00319</Y>
+        <Y t="42">0.00350</Y>
+        <Y t="43">0.00386</Y>
+        <Y t="44">0.00430</Y>
+        <Y t="45">0.00479</Y>
+        <Y t="46">0.00535</Y>
+        <Y t="47">0.00594</Y>
+        <Y t="48">0.00657</Y>
+        <Y t="49">0.00721</Y>
+        <Y t="50">0.00788</Y>
+        <Y t="51">0.00856</Y>
+        <Y t="52">0.00926</Y>
+        <Y t="53">0.01002</Y>
+        <Y t="54">0.01089</Y>
+        <Y t="55">0.01193</Y>
+        <Y t="56">0.01315</Y>
+        <Y t="57">0.01453</Y>
+        <Y t="58">0.01604</Y>
+        <Y t="59">0.01766</Y>
+        <Y t="60">0.01944</Y>
+        <Y t="61">0.02140</Y>
+        <Y t="62">0.02360</Y>
+        <Y t="63">0.02610</Y>
+        <Y t="64">0.02888</Y>
+        <Y t="65">0.03182</Y>
+        <Y t="66">0.03476</Y>
+        <Y t="67">0.03764</Y>
+        <Y t="68">0.04048</Y>
+        <Y t="69">0.04337</Y>
+        <Y t="70">0.04648</Y>
+        <Y t="71">0.05003</Y>
+        <Y t="72">0.05423</Y>
+        <Y t="73">0.05919</Y>
+        <Y t="74">0.06496</Y>
+        <Y t="75">0.07142</Y>
+        <Y t="76">0.07836</Y>
+        <Y t="77">0.08551</Y>
+        <Y t="78">0.09250</Y>
+        <Y t="79">0.09929</Y>
+        <Y t="80">0.10592</Y>
+        <Y t="81">0.11246</Y>
+        <Y t="82">0.11896</Y>
+        <Y t="83">0.12550</Y>
+        <Y t="84">0.13215</Y>
+        <Y t="85">0.13913</Y>
+        <Y t="86">0.14684</Y>
+        <Y t="87">0.15542</Y>
+        <Y t="88">0.16488</Y>
+        <Y t="89">0.17522</Y>
+        <Y t="90">0.18644</Y>
+        <Y t="91">0.19854</Y>
+        <Y t="92">0.21152</Y>
+        <Y t="93">0.22538</Y>
+        <Y t="94">0.24012</Y>
+        <Y t="95">0.25574</Y>
+        <Y t="96">0.27224</Y>
+        <Y t="97">0.28962</Y>
+        <Y t="98">0.30788</Y>
+        <Y t="99">0.32702</Y>
+        <Y t="100">0.34704</Y>
+        <Y t="101">0.36794</Y>
+        <Y t="102">0.38972</Y>
+        <Y t="103">0.40000</Y>
+        <Y t="104">0.50000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

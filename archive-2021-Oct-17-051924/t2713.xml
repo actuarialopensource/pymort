@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2713</TableIdentity>
+    <ProviderDomain>www.spensiones.cl</ProviderDomain>
+    <ProviderName>Superintendencia de Pensionnes</ProviderName>
+    <TableReference>Superintendencia de Pensiones Avda, “Anexo Nº 3 Tablas de Mortalidad B-2006 (Hombres y Mujeres) y MI-2006 (Hombres y Mujeres)”, Compendio de Normas del Sistema de Pensiones, Libro III, Título X, Anexos (2008). Accessed: February, 2014 from http://www.spensiones.cl/compendio/584/fo-article-6737.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>MI-2006 M</TableName>
+    <TableDescription>Tabla de Mortalidad Invalides Mujeres (MI-2006 M). Minimum Age: 0. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Information provided by the Pension Fund Administrators corresponds to declared invalid definitive affiliates from 1981 to 2005. MI-2006 is applicable in the case of disability pensioners and invalids pension beneficiaries’ survival, and B-2006 (See SOA Table Identities 2710-2711) in the case of non-disabled beneficiaries survivorship pension. Methodology: Crude mortality rates calculated as deaths divided by exposed to risk. Ages 30-70 graduated by Whittaker-Henderson B. Different techniques used for ages over 90. A Heligman-Pollard model adopted for women beneficiaries while a percentage relative to the RV-2004 tables was used for men as the data was sparse. A Gompertz model was used to graduate both the disabled men and disabled women tables. In the case of invalids, the section between 40 and 110 was almost equal in shape to tables MI 85. For this reason it was decided to replicate the same form of MI 85 with the corresponding factors to be parallel. Tables then loaded for mortality improvement and a safety margin. Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Chile</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="56">Chile</Nation>
+      <TableDescription>Tabla de Mortalidad Invalides Mujeres (MI-2006 M). Minimum Age: 0. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00631489</Y>
+        <Y t="1">0.00632904</Y>
+        <Y t="2">0.00634389</Y>
+        <Y t="3">0.00635876</Y>
+        <Y t="4">0.00637435</Y>
+        <Y t="5">0.00639065</Y>
+        <Y t="6">0.00640767</Y>
+        <Y t="7">0.00642471</Y>
+        <Y t="8">0.00644318</Y>
+        <Y t="9">0.00646237</Y>
+        <Y t="10">0.0064823</Y>
+        <Y t="11">0.00650296</Y>
+        <Y t="12">0.00652435</Y>
+        <Y t="13">0.00654719</Y>
+        <Y t="14">0.00657148</Y>
+        <Y t="15">0.00659652</Y>
+        <Y t="16">0.00662302</Y>
+        <Y t="17">0.00665098</Y>
+        <Y t="18">0.00668042</Y>
+        <Y t="19">0.00671204</Y>
+        <Y t="20">0.00674443</Y>
+        <Y t="21">0.00677974</Y>
+        <Y t="22">0.00681654</Y>
+        <Y t="23">0.00685628</Y>
+        <Y t="24">0.00689825</Y>
+        <Y t="25">0.00696506</Y>
+        <Y t="26">0.00714652</Y>
+        <Y t="27">0.00732797</Y>
+        <Y t="28">0.00750943</Y>
+        <Y t="29">0.00769089</Y>
+        <Y t="30">0.00789474</Y>
+        <Y t="31">0.00807671</Y>
+        <Y t="32">0.00825868</Y>
+        <Y t="33">0.00844066</Y>
+        <Y t="34">0.00862263</Y>
+        <Y t="35">0.00883498</Y>
+        <Y t="36">0.00901758</Y>
+        <Y t="37">0.00920018</Y>
+        <Y t="38">0.00938278</Y>
+        <Y t="39">0.00956538</Y>
+        <Y t="40">0.0097697</Y>
+        <Y t="41">0.0099527</Y>
+        <Y t="42">0.01013571</Y>
+        <Y t="43">0.01031872</Y>
+        <Y t="44">0.01050173</Y>
+        <Y t="45">0.01070635</Y>
+        <Y t="46">0.01087498</Y>
+        <Y t="47">0.0110657</Y>
+        <Y t="48">0.01128051</Y>
+        <Y t="49">0.01151855</Y>
+        <Y t="50">0.01178627</Y>
+        <Y t="51">0.01205613</Y>
+        <Y t="52">0.01233804</Y>
+        <Y t="53">0.01263518</Y>
+        <Y t="54">0.01295556</Y>
+        <Y t="55">0.01330244</Y>
+        <Y t="56">0.01368373</Y>
+        <Y t="57">0.01408042</Y>
+        <Y t="58">0.01447395</Y>
+        <Y t="59">0.0148537</Y>
+        <Y t="60">0.01522956</Y>
+        <Y t="61">0.01561119</Y>
+        <Y t="62">0.01603943</Y>
+        <Y t="63">0.01654546</Y>
+        <Y t="64">0.01714738</Y>
+        <Y t="65">0.01786905</Y>
+        <Y t="66">0.01868625</Y>
+        <Y t="67">0.01964043</Y>
+        <Y t="68">0.02076617</Y>
+        <Y t="69">0.02209758</Y>
+        <Y t="70">0.02365775</Y>
+        <Y t="71">0.0254711</Y>
+        <Y t="72">0.02753988</Y>
+        <Y t="73">0.02986398</Y>
+        <Y t="74">0.03244533</Y>
+        <Y t="75">0.03532787</Y>
+        <Y t="76">0.03846154</Y>
+        <Y t="77">0.04190592</Y>
+        <Y t="78">0.04569168</Y>
+        <Y t="79">0.04985048</Y>
+        <Y t="80">0.05441163</Y>
+        <Y t="81">0.05943573</Y>
+        <Y t="82">0.06491586</Y>
+        <Y t="83">0.07087194</Y>
+        <Y t="84">0.07731926</Y>
+        <Y t="85">0.08427022</Y>
+        <Y t="86">0.09173477</Y>
+        <Y t="87">0.09971866</Y>
+        <Y t="88">0.10822492</Y>
+        <Y t="89">0.11725497</Y>
+        <Y t="90">0.12680907</Y>
+        <Y t="91">0.13688738</Y>
+        <Y t="92">0.14749065</Y>
+        <Y t="93">0.1586199</Y>
+        <Y t="94">0.16996822</Y>
+        <Y t="95">0.18255023</Y>
+        <Y t="96">0.1969865</Y>
+        <Y t="97">0.21250549</Y>
+        <Y t="98">0.22901222</Y>
+        <Y t="99">0.24650844</Y>
+        <Y t="100">0.26518999</Y>
+        <Y t="101">0.28496188</Y>
+        <Y t="102">0.3059232</Y>
+        <Y t="103">0.32797885</Y>
+        <Y t="104">0.35113077</Y>
+        <Y t="105">0.37547823</Y>
+        <Y t="106">0.40092596</Y>
+        <Y t="107">0.4274759</Y>
+        <Y t="108">0.454935</Y>
+        <Y t="109">0.483015</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

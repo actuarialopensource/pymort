@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2863</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Sandra Haaas</ProviderName>
+    <TableReference>S. Jorgen, F.G. Liebmann,F.W. Pagler and W. Schachermayer,"Herleitung der Sterbetafel AVO 1996 R für Rentenversicherungen", Mitteilungen der Aktuarveriinigung Österreichs, 9:39-4 (1997). Accessed: July, 2014 from http://www.fam.tuwein.ac.at/lehre/data/avoe96r-1.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>AVÖ - 1996 R Einzel - Männer</TableName>
+    <TableDescription>Actuarial Association of Austria (AVÖ) - 1996 Rentenversicherungen  - Einzel (Individual Annuity Contracts) - Männer (Male). Minimum Age: 0. Maximum Age: 113</TableDescription>
+    <Comments>Study Data: The table is derived from census data of the Austrian population for 1991. There is no data available about Austrian annuitants, mainly because the total volume of annuity contracts is relatively small. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 07/2014
+</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Austria</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="43">Austria</Nation>
+      <TableDescription>Actuarial Association of Austria (AVÖ) - 1996 Rentenversicherungen  - Einzel (Individual Annuity Contracts) - Männer (Male). Minimum Age: 0. Maximum Age: 113</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>113</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.057135</Y>
+        <Y t="1">0.002759</Y>
+        <Y t="2">0.002131</Y>
+        <Y t="3">0.001618</Y>
+        <Y t="4">0.001225</Y>
+        <Y t="5">0.000937</Y>
+        <Y t="6">0.000731</Y>
+        <Y t="7">0.000602</Y>
+        <Y t="8">0.00051</Y>
+        <Y t="9">0.000449</Y>
+        <Y t="10">0.00042</Y>
+        <Y t="11">0.000418</Y>
+        <Y t="12">0.000432</Y>
+        <Y t="13">0.000466</Y>
+        <Y t="14">0.000568</Y>
+        <Y t="15">0.000772</Y>
+        <Y t="16">0.001086</Y>
+        <Y t="17">0.001518</Y>
+        <Y t="18">0.001988</Y>
+        <Y t="19">0.002139</Y>
+        <Y t="20">0.002029</Y>
+        <Y t="21">0.001863</Y>
+        <Y t="22">0.001705</Y>
+        <Y t="23">0.001604</Y>
+        <Y t="24">0.00153</Y>
+        <Y t="25">0.001461</Y>
+        <Y t="26">0.001409</Y>
+        <Y t="27">0.001377</Y>
+        <Y t="28">0.001359</Y>
+        <Y t="29">0.001354</Y>
+        <Y t="30">0.001361</Y>
+        <Y t="31">0.001383</Y>
+        <Y t="32">0.001425</Y>
+        <Y t="33">0.001469</Y>
+        <Y t="34">0.001504</Y>
+        <Y t="35">0.001534</Y>
+        <Y t="36">0.001563</Y>
+        <Y t="37">0.001605</Y>
+        <Y t="38">0.001684</Y>
+        <Y t="39">0.001814</Y>
+        <Y t="40">0.001983</Y>
+        <Y t="41">0.002168</Y>
+        <Y t="42">0.002351</Y>
+        <Y t="43">0.002528</Y>
+        <Y t="44">0.002703</Y>
+        <Y t="45">0.00288</Y>
+        <Y t="46">0.00306</Y>
+        <Y t="47">0.003241</Y>
+        <Y t="48">0.003422</Y>
+        <Y t="49">0.003607</Y>
+        <Y t="50">0.003809</Y>
+        <Y t="51">0.003942</Y>
+        <Y t="52">0.004109</Y>
+        <Y t="53">0.004312</Y>
+        <Y t="54">0.004549</Y>
+        <Y t="55">0.004812</Y>
+        <Y t="56">0.005098</Y>
+        <Y t="57">0.0054</Y>
+        <Y t="58">0.005712</Y>
+        <Y t="59">0.006036</Y>
+        <Y t="60">0.006373</Y>
+        <Y t="61">0.007021</Y>
+        <Y t="62">0.007722</Y>
+        <Y t="63">0.008481</Y>
+        <Y t="64">0.009306</Y>
+        <Y t="65">0.010207</Y>
+        <Y t="66">0.011192</Y>
+        <Y t="67">0.012269</Y>
+        <Y t="68">0.013455</Y>
+        <Y t="69">0.014755</Y>
+        <Y t="70">0.016153</Y>
+        <Y t="71">0.017675</Y>
+        <Y t="72">0.019408</Y>
+        <Y t="73">0.021454</Y>
+        <Y t="74">0.023872</Y>
+        <Y t="75">0.026669</Y>
+        <Y t="76">0.029831</Y>
+        <Y t="77">0.03338</Y>
+        <Y t="78">0.037364</Y>
+        <Y t="79">0.041854</Y>
+        <Y t="80">0.046918</Y>
+        <Y t="81">0.052629</Y>
+        <Y t="82">0.059069</Y>
+        <Y t="83">0.066332</Y>
+        <Y t="84">0.074128</Y>
+        <Y t="85">0.082021</Y>
+        <Y t="86">0.090308</Y>
+        <Y t="87">0.099201</Y>
+        <Y t="88">0.108859</Y>
+        <Y t="89">0.119609</Y>
+        <Y t="90">0.131687</Y>
+        <Y t="91">0.145227</Y>
+        <Y t="92">0.160304</Y>
+        <Y t="93">0.176837</Y>
+        <Y t="94">0.194694</Y>
+        <Y t="95">0.213765</Y>
+        <Y t="96">0.233894</Y>
+        <Y t="97">0.254971</Y>
+        <Y t="98">0.277007</Y>
+        <Y t="99">0.300102</Y>
+        <Y t="100">0.32437</Y>
+        <Y t="101">0.349887</Y>
+        <Y t="102">0.376729</Y>
+        <Y t="103">0.404988</Y>
+        <Y t="104">0.434754</Y>
+        <Y t="105">0.466127</Y>
+        <Y t="106">0.49921</Y>
+        <Y t="107">0.534116</Y>
+        <Y t="108">0.570964</Y>
+        <Y t="109">0.609878</Y>
+        <Y t="110">0.637242</Y>
+        <Y t="111">0.658604</Y>
+        <Y t="112">0.679967</Y>
+        <Y t="113">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>
