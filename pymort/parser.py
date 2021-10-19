@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 import pandas as pd
 import xml.etree.ElementTree as ET
+from typing import List
 
 @dataclass
 class AxisDef:
@@ -16,7 +17,7 @@ class MetaData:
     DataType: str
     Nation: str
     TableDescription: str
-    AxisDefs: list[AxisDef]
+    AxisDefs: List[AxisDef]
 
 @dataclass
 class Table:
@@ -33,12 +34,12 @@ class ContentClassification:
     TableName: str
     TableDescription: str
     Comments: str
-    KeyWords: list[str]
+    KeyWords: List[str]
 
 @dataclass
 class XTbML:
     ContentClassification: ContentClassification
-    Tables: list[Table]
+    Tables: List[Table]
 
 def createAxisDef(axisDef: ET.Element) -> AxisDef:
     '''
@@ -64,7 +65,7 @@ def createMetaData(metadata: ET.Element) -> MetaData:
         [createAxisDef(axisDef) for axisDef in metadata.findall('./AxisDef')]
     )
 
-def constructMultiIndex(axisDefs: list[AxisDef]) -> pd.MultiIndex:
+def constructMultiIndex(axisDefs: List[AxisDef]) -> pd.MultiIndex:
     '''
     Given a list of AxisDef objects, return the multiindex for the values dataframe.
     '''
