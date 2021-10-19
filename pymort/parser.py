@@ -101,7 +101,7 @@ def createContentClassification(contentClassification: ET.Element) -> ContentCla
         contentClassification.find('./TableName').text,
         contentClassification.find('./TableDescription').text,
         contentClassification.find('./Comments').text,
-        [keyword.text for keyword in contentClassification.findall('./KeyWords/KeyWord')]
+        [keyword.text for keyword in contentClassification.findall('./KeyWord')]
     )
 
 def createXTbML(xtbml: ET.Element) -> XTbML:
