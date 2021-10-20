@@ -70,14 +70,16 @@ def constructMultiIndex(axisDefs: List[AxisDef]) -> pd.MultiIndex:
     Given a list of AxisDef objects, return the multiindex for the values dataframe.
     '''
     return pd.MultiIndex.from_product(
-        [range(axisDef.MinScaleValue, axisDef.MaxScaleValue+1, axisDef.Increment) for axisDef in axisDefs],
+        # the max(axisDef.Increment,1) deals with increments of 0.
+        [range(axisDef.MinScaleValue, axisDef.MaxScaleValue+1, max(axisDef.Increment, 1)) for axisDef in axisDefs],
         names=[axisDef.AxisName for axisDef in axisDefs])
 
 def createValues(values: ET.Element, metadata: MetaData) -> pd.DataFrame:
     '''
     Given an xml <Values> element, and the table's metadata, return a multi-indexed DataFrame
     '''
-    vals = [float(val.text) for val in values.iter('Y')]
+    # the ternary prevents error when casting None to float, useful when <Y> is empty
+    vals = [float(val.text) if val.text else None for val in values.iter('Y')]
     index = constructMultiIndex(metadata.AxisDefs)
     return pd.DataFrame(vals, index=index, columns=['vals'])
     
