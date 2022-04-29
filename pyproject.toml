@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "pymort"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Matthew Caseres <matthewcaseres@outlook.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 pandas = "^1.3.4"
+xarray = "^2022.3.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
