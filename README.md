@@ -25,12 +25,12 @@ db.ultimate
 
 ### XTbML
 
-If you want the full details of **any** SOA table, you can use the lower level `load` API.
+If you want the full details of **any** SOA table, you can use the lower level `load` API. You just need to enter the table ID.
 
-```
+```py
 import pymort
-
-table = pymort.load(tableName="2017 Loaded CSO Composite Gender-Blended 20% Male ALB - t3282")
+# load the 2017 Loaded CSO Composite Gender-Blended 20% Male ALB table
+table = pymort.load(tableName=3282)
 ```
 
 `pymort.load` returns an instance of `XTbML`. XTbML is an XML standard for representing the tables at [mort.soa.org](https://mort.soa.org/), and the `XTbML` object is a Python class that mirrors the XML structure. At the bottom of the following code you can see the definition of the `XTbML` class. The attributes of the class are the children of the XML element. **Notice the Table class contains a pd.DataFrame, these are the rates!**. Use intellisense to navigate the class.
