@@ -9,15 +9,15 @@ import pandas as pd
 
 @dataclass
 class Table:
-    meta: pd.DataFrame
+    metadata: pd.DataFrame
     select: pd.DataFrame
     ultimate: pd.DataFrame
 
-def load(id: int) -> XTbML:
+def load_id(id: int) -> XTbML:
     root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
     return createXTbML(root)
 
-def relational() -> Table:
+def load_relational() -> Table:
     metaPickle = importlib.resources.read_binary(pickled_tables, 'meta.pickle')
     ultPickle = importlib.resources.read_binary(pickled_tables, 'ult.pickle')
     selPickle = importlib.resources.read_binary(pickled_tables, 'sel.pickle')
