@@ -2,9 +2,16 @@ from dataclasses import dataclass
 import pandas as pd
 import xml.etree.ElementTree as ET
 from typing import List
+import importlib.resources
+from . import archive_2021_Oct_17_051924 as data
+
+# The following classes represent the xml elements in the XTbML file.
 
 @dataclass
 class AxisDef:
+    """
+    Corresponds to the XML element having the same name.
+    """
     ScaleType: str
     AxisName: str
     MinScaleValue: int
@@ -13,6 +20,9 @@ class AxisDef:
 
 @dataclass
 class MetaData:
+    """
+    Corresponds to the XML element having the same name.
+    """
     ScalingFactor: float
     DataType: str
     Nation: str
@@ -21,11 +31,17 @@ class MetaData:
 
 @dataclass
 class Table:
+    """
+    Corresponds to the XML element having the same name.
+    """
     MetaData: MetaData
     Values: pd.DataFrame
 
 @dataclass
 class ContentClassification:
+    """
+    Corresponds to the XML element having the same name.
+    """
     TableIdentity: str
     ProviderDomain: str
     ProviderName: str
@@ -36,10 +52,26 @@ class ContentClassification:
     Comments: str
     KeyWords: List[str]
 
-@dataclass
-class XTbML:
-    ContentClassification: ContentClassification
-    Tables: List[Table]
+class PyXML:
+    """A Python wrapper for XML mortality tables.
+
+    A tree of nested Python classes that represent an `XML standard <https://mort.soa.org/About.aspx/>`_ 
+    used by tables hosted at `mort.soa.org <https://mort.soa.org/>`_. 
+
+    Corresponds to the `XTbML` root element in the XML file.
+
+    Attributes:
+        metadata (pd.DataFrame): Primary key of `id`. Columns are metadata describing table with `id`.
+        select (pd.DataFrame): Composite primary key of `id`, `Age`, `Duration` is a MultiIndex. Column `vals` stores rates.
+        metadata (pd.DataFrame): Composite primary key of `id`, `Age` is a MultiIndex. Column `vals` stores rates.
+
+    """
+    def __init__(self, id: int):
+        root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
+        self.contentClassification = createContentClassification(root.find('./ContentClassification'))
+        self.tables = createTables(root)
+
+# The following functions turn XML elements into Python objects.
 
 def createAxisDef(axisDef: ET.Element) -> AxisDef:
     '''
@@ -91,6 +123,10 @@ def createTable(table: ET.Element) -> Table:
     values = createValues(table.find('./Values'), metaData)
     return Table(metaData, values)
 
+def createTables(root: ET.Element) -> List[Table]:
+    '''given the root of an xml tree, return a list of Table objects'''
+    return [createTable(table) for table in root.findall('./Table')]
+
 def createContentClassification(contentClassification: ET.Element) -> ContentClassification:
     '''
     Given an xml <ContentClassification> element, return a ContentClassification object
@@ -105,13 +141,4 @@ def createContentClassification(contentClassification: ET.Element) -> ContentCla
         contentClassification.find('./TableDescription').text,
         contentClassification.find('./Comments').text,
         [keyword.text for keyword in contentClassification.findall('./KeyWord')]
-    )
-
-def createXTbML(xtbml: ET.Element) -> XTbML:
-    '''
-    Given an xml <XTbML> element, return an XTbML object
-    '''
-    return XTbML(
-        createContentClassification(xtbml.find('./ContentClassification')),
-        [createTable(table) for table in xtbml.findall('./Table')]
     )
