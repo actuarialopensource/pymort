@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>654</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>E. Navarro, “Tables de Mortalidad de la Población Española 1982.  Metodologia y Fuentes” (Madrid, 1991) Reprinted by A.S. MacDonald, "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1981-82 Spain - Female</TableName>
+    <TableDescription>1981-82 Spain – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Based on census estimates of the Spanish population on July 1, 1981 and July 1, 1982 and on deaths during 1981 and 1982. Methodology: Deaths at each age assumed to follow a binomial distribution. Data divided into three age ranges: adolescent through 28, middle ages up to age 81 and then those older than 81. There were irregularities at the older ages that could have led to distortions at the middle ages if the three groups had been graduated together. Similarly, at younger ages, the well-known pattern of infant mortality warranted separate graduation. An LGM(3,3) formula was used for fitting the middle age range.  Juvenile ages were fitted with a pair of cubic polynomials around a break point at age 10.68. Ages 80-95 were smoothed by moving averages and then fitted to a pair of cubic polynomials around age 85. Ages above 95 were extrapolated by a cubic to reach 0.75 at age 105. Data Transcription Errors: None. Data Certified: 10/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Spain</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="34">Spain</Nation>
+      <TableDescription>1981-82 Spain – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.010140</Y>
+        <Y t="1">0.000839</Y>
+        <Y t="2">0.000505</Y>
+        <Y t="3">0.000369</Y>
+        <Y t="4">0.000292</Y>
+        <Y t="5">0.000256</Y>
+        <Y t="6">0.000242</Y>
+        <Y t="7">0.000233</Y>
+        <Y t="8">0.000214</Y>
+        <Y t="9">0.000199</Y>
+        <Y t="10">0.000195</Y>
+        <Y t="11">0.000200</Y>
+        <Y t="12">0.000211</Y>
+        <Y t="13">0.000228</Y>
+        <Y t="14">0.000250</Y>
+        <Y t="15">0.000274</Y>
+        <Y t="16">0.000299</Y>
+        <Y t="17">0.000324</Y>
+        <Y t="18">0.000347</Y>
+        <Y t="19">0.000366</Y>
+        <Y t="20">0.000381</Y>
+        <Y t="21">0.000389</Y>
+        <Y t="22">0.000389</Y>
+        <Y t="23">0.000387</Y>
+        <Y t="24">0.000389</Y>
+        <Y t="25">0.000395</Y>
+        <Y t="26">0.000405</Y>
+        <Y t="27">0.000420</Y>
+        <Y t="28">0.000439</Y>
+        <Y t="29">0.000462</Y>
+        <Y t="30">0.000490</Y>
+        <Y t="31">0.000523</Y>
+        <Y t="32">0.000561</Y>
+        <Y t="33">0.000604</Y>
+        <Y t="34">0.000653</Y>
+        <Y t="35">0.000707</Y>
+        <Y t="36">0.000768</Y>
+        <Y t="37">0.000834</Y>
+        <Y t="38">0.000907</Y>
+        <Y t="39">0.000988</Y>
+        <Y t="40">0.001076</Y>
+        <Y t="41">0.001172</Y>
+        <Y t="42">0.001277</Y>
+        <Y t="43">0.001392</Y>
+        <Y t="44">0.001516</Y>
+        <Y t="45">0.001652</Y>
+        <Y t="46">0.001800</Y>
+        <Y t="47">0.001962</Y>
+        <Y t="48">0.002138</Y>
+        <Y t="49">0.002330</Y>
+        <Y t="50">0.002541</Y>
+        <Y t="51">0.002771</Y>
+        <Y t="52">0.003024</Y>
+        <Y t="53">0.003302</Y>
+        <Y t="54">0.003608</Y>
+        <Y t="55">0.003946</Y>
+        <Y t="56">0.004320</Y>
+        <Y t="57">0.004734</Y>
+        <Y t="58">0.005195</Y>
+        <Y t="59">0.005708</Y>
+        <Y t="60">0.006281</Y>
+        <Y t="61">0.006924</Y>
+        <Y t="62">0.007645</Y>
+        <Y t="63">0.008456</Y>
+        <Y t="64">0.009373</Y>
+        <Y t="65">0.010410</Y>
+        <Y t="66">0.011587</Y>
+        <Y t="67">0.012926</Y>
+        <Y t="68">0.014453</Y>
+        <Y t="69">0.016199</Y>
+        <Y t="70">0.018199</Y>
+        <Y t="71">0.020495</Y>
+        <Y t="72">0.023137</Y>
+        <Y t="73">0.026148</Y>
+        <Y t="74">0.029701</Y>
+        <Y t="75">0.033770</Y>
+        <Y t="76">0.038481</Y>
+        <Y t="77">0.043943</Y>
+        <Y t="78">0.050280</Y>
+        <Y t="79">0.057635</Y>
+        <Y t="80">0.066172</Y>
+        <Y t="81">0.074699</Y>
+        <Y t="82">0.083183</Y>
+        <Y t="83">0.093543</Y>
+        <Y t="84">0.105463</Y>
+        <Y t="85">0.117334</Y>
+        <Y t="86">0.129139</Y>
+        <Y t="87">0.140861</Y>
+        <Y t="88">0.152484</Y>
+        <Y t="89">0.163990</Y>
+        <Y t="90">0.175363</Y>
+        <Y t="91">0.186586</Y>
+        <Y t="92">0.197642</Y>
+        <Y t="93">0.208514</Y>
+        <Y t="94">0.219185</Y>
+        <Y t="95">0.229639</Y>
+        <Y t="96">0.242512</Y>
+        <Y t="97">0.260454</Y>
+        <Y t="98">0.283464</Y>
+        <Y t="99">0.311542</Y>
+        <Y t="100">0.344688</Y>
+        <Y t="101">0.382903</Y>
+        <Y t="102">0.426186</Y>
+        <Y t="103">0.474537</Y>
+        <Y t="104">0.527956</Y>
+        <Y t="105">0.586444</Y>
+        <Y t="106">0.650000</Y>
+        <Y t="107">0.718624</Y>
+        <Y t="108">0.792317</Y>
+        <Y t="109">0.871077</Y>
+        <Y t="110">0.954907</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

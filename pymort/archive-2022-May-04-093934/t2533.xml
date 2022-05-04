@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2533</TableIdentity>
+    <ProviderDomain>www.bankofgreece.gr</ProviderDomain>
+    <ProviderName>George D. Kravvaritis</ProviderName>
+    <TableReference>Working Group of the Hellenic Actuarial Society, “Τροποποίηση της υπ’ αριθ. Κ3-4382/2001 (ΦΕΚ Β’ 847/04-07-2001) Απόφασης του Υπουργού Ανάπτυξης και νέοι πίνακες ζωής και πίνακες νοσηρότητας”, (Modification of No. K3-8382/2001 (GG B 847 04-07-2001) Decision of the Minister of Development: New Tables of Life and Morbidity), Bank of Greece (2012). Accessed: November, 2013 from http://www.bankofgreece.gr/Pages/el/deia/Diavoulevseis/bank.aspx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>EAE 2012 P</TableName>
+    <TableDescription>Hellenic Actuarial Society 2012 Pensions (EAE 2012 P). Minimum Age: 0 Maximum Age: 120</TableDescription>
+    <Comments>Study Data: Records from individual insurance policies with regular premium during the period 2000-2003. A select period of 5 years was assumed and only ultimate mortality was calculated (to minimize temporary initial selection and self-selection). Data from the general population National Statistical Service of Greece (NSSG) were used to estimate the mortality improvement trend. Sex distinct tables were originally produced, identified as EAE 2005, but have since been supplanted by these unisex tables. Methodology: The Working Group used the Poisson model for the number of deaths. Crude rates of μx were estimated then graduated using splines. General population data used to supplement mortality values at very young ages. Extrapolation of mortality rates at the very old ages was done by mathematical formula. A safety margin was then added for tables used for assured lives. Special handling and blending of graduated data with NSSG data for juvenile ages. For the EAE 2012 A table the “Helligman-Pollard” law for high ages was used while for the EAE 2012 P table the “Kannisto” law was used to fit crude rates for ages 45-65. Intended for use as valuation table, The Working Group adopted the method used in Switzerland: to add a safety margin to the mortality rates so that an average sized insurance company with a portfolio of 80.000 policies is with 99% probability protected against random fluctuations of the number of deaths. The Working Group recognized the need for the use of generation mortality tables for annuities. They thus adopted the logarithmic method to project mortality rates. The 15-year period from 1989 to 2003 was used to develop the projection scale similar to that used by the Society of Actuaries (SAO) in Projection Scale AA (See SOA Table Identity  ). The medium term rates were graduated using Whittaker-Henderson type A. The rates were increased by 10% as there is a consensus between actuaries that the mortality improvement trend for insureds is better than the general population (See SOA Table Identity 2532). To ensure the adequacy of the new EAE 2012 P tables in the future, annual mortality improvement coefficients were calculated and projected using the logarithmic model based on data from the Greek general population. Data Transcription Errors: None. Data Certified: 10/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuity</KeyWord>
+    <KeyWord>Greece</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="30">Greece</Nation>
+      <TableDescription>Hellenic Actuarial Society 2012 Pensions (EAE 2012 P). Minimum Age: 0 Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.001322</Y>
+        <Y t="1">0.000198</Y>
+        <Y t="2">0.000171</Y>
+        <Y t="3">0.000149</Y>
+        <Y t="4">0.000129</Y>
+        <Y t="5">0.000113</Y>
+        <Y t="6">0.000102</Y>
+        <Y t="7">9.4E-05</Y>
+        <Y t="8">9E-05</Y>
+        <Y t="9">9.1E-05</Y>
+        <Y t="10">9.7E-05</Y>
+        <Y t="11">0.000109</Y>
+        <Y t="12">0.000129</Y>
+        <Y t="13">0.000153</Y>
+        <Y t="14">0.000184</Y>
+        <Y t="15">0.00022</Y>
+        <Y t="16">0.000254</Y>
+        <Y t="17">0.000287</Y>
+        <Y t="18">0.000315</Y>
+        <Y t="19">0.000342</Y>
+        <Y t="20">0.000361</Y>
+        <Y t="21">0.000377</Y>
+        <Y t="22">0.000389</Y>
+        <Y t="23">0.000398</Y>
+        <Y t="24">0.000407</Y>
+        <Y t="25">0.000414</Y>
+        <Y t="26">0.000421</Y>
+        <Y t="27">0.000429</Y>
+        <Y t="28">0.000435</Y>
+        <Y t="29">0.000442</Y>
+        <Y t="30">0.000448</Y>
+        <Y t="31">0.000455</Y>
+        <Y t="32">0.000463</Y>
+        <Y t="33">0.000475</Y>
+        <Y t="34">0.00049</Y>
+        <Y t="35">0.000509</Y>
+        <Y t="36">0.000533</Y>
+        <Y t="37">0.000563</Y>
+        <Y t="38">0.000599</Y>
+        <Y t="39">0.000644</Y>
+        <Y t="40">0.000698</Y>
+        <Y t="41">0.000763</Y>
+        <Y t="42">0.000841</Y>
+        <Y t="43">0.000934</Y>
+        <Y t="44">0.00104</Y>
+        <Y t="45">0.00116</Y>
+        <Y t="46">0.001296</Y>
+        <Y t="47">0.001445</Y>
+        <Y t="48">0.001604</Y>
+        <Y t="49">0.001792</Y>
+        <Y t="50">0.001989</Y>
+        <Y t="51">0.002194</Y>
+        <Y t="52">0.00241</Y>
+        <Y t="53">0.002639</Y>
+        <Y t="54">0.002861</Y>
+        <Y t="55">0.003109</Y>
+        <Y t="56">0.003391</Y>
+        <Y t="57">0.003711</Y>
+        <Y t="58">0.004052</Y>
+        <Y t="59">0.004436</Y>
+        <Y t="60">0.004828</Y>
+        <Y t="61">0.005335</Y>
+        <Y t="62">0.005905</Y>
+        <Y t="63">0.006538</Y>
+        <Y t="64">0.007248</Y>
+        <Y t="65">0.008036</Y>
+        <Y t="66">0.008915</Y>
+        <Y t="67">0.009899</Y>
+        <Y t="68">0.010993</Y>
+        <Y t="69">0.01222</Y>
+        <Y t="70">0.013572</Y>
+        <Y t="71">0.015088</Y>
+        <Y t="72">0.016759</Y>
+        <Y t="73">0.018624</Y>
+        <Y t="74">0.020681</Y>
+        <Y t="75">0.022986</Y>
+        <Y t="76">0.025539</Y>
+        <Y t="77">0.028386</Y>
+        <Y t="78">0.031558</Y>
+        <Y t="79">0.035098</Y>
+        <Y t="80">0.039008</Y>
+        <Y t="81">0.043372</Y>
+        <Y t="82">0.048202</Y>
+        <Y t="83">0.053551</Y>
+        <Y t="84">0.059423</Y>
+        <Y t="85">0.065832</Y>
+        <Y t="86">0.072759</Y>
+        <Y t="87">0.080266</Y>
+        <Y t="88">0.088231</Y>
+        <Y t="89">0.096775</Y>
+        <Y t="90">0.105888</Y>
+        <Y t="91">0.115613</Y>
+        <Y t="92">0.126056</Y>
+        <Y t="93">0.137153</Y>
+        <Y t="94">0.148943</Y>
+        <Y t="95">0.16135</Y>
+        <Y t="96">0.174401</Y>
+        <Y t="97">0.188124</Y>
+        <Y t="98">0.202381</Y>
+        <Y t="99">0.217201</Y>
+        <Y t="100">0.232443</Y>
+        <Y t="101">0.24812</Y>
+        <Y t="102">0.26415</Y>
+        <Y t="103">0.280443</Y>
+        <Y t="104">0.296898</Y>
+        <Y t="105">0.31341</Y>
+        <Y t="106">0.329869</Y>
+        <Y t="107">0.346166</Y>
+        <Y t="108">0.362196</Y>
+        <Y t="109">0.377858</Y>
+        <Y t="110">0.393059</Y>
+        <Y t="111">0.407722</Y>
+        <Y t="112">0.421776</Y>
+        <Y t="113">0.435167</Y>
+        <Y t="114">0.447856</Y>
+        <Y t="115">0.459816</Y>
+        <Y t="116">0.471029</Y>
+        <Y t="117">0.481496</Y>
+        <Y t="118">0.491207</Y>
+        <Y t="119">0.500222</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

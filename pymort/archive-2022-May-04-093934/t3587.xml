@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3587</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, pri-2012-mort-tables-headcount.xlsx, Sheet 'White Collar', https://www.soa.org/globalassets/assets/files/resources/experience-studies/2019/pri-2012-mort-tables-headcount.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Pri.H-2012 Female Employee White Collar</TableName>
+    <TableDescription>Pri-2012 Headcount-weighted Mortality Table - Female Employee White Collar. Ages 18-80. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of private-sector retirement plans in the United States. The final dataset upon which this study has been based includes approximately 16 million life-years of exposure and 343 thousand deaths from private pension plans across the United States.  Data certified: 05/2019.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord> Annuitant Mortality</KeyWord>
+    <KeyWord> United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pri-2012 Headcount-weighted Mortality Table - Female Employee White Collar. Ages 18-80. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>50</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00017</Y>
+        <Y t="19">0.00017</Y>
+        <Y t="20">0.00017</Y>
+        <Y t="21">0.00017</Y>
+        <Y t="22">0.00018</Y>
+        <Y t="23">0.0002</Y>
+        <Y t="24">0.00022</Y>
+        <Y t="25">0.00022</Y>
+        <Y t="26">0.00022</Y>
+        <Y t="27">0.00022</Y>
+        <Y t="28">0.00022</Y>
+        <Y t="29">0.00023</Y>
+        <Y t="30">0.00024</Y>
+        <Y t="31">0.00025</Y>
+        <Y t="32">0.00026</Y>
+        <Y t="33">0.00027</Y>
+        <Y t="34">0.00029</Y>
+        <Y t="35">0.00031</Y>
+        <Y t="36">0.00033</Y>
+        <Y t="37">0.00036</Y>
+        <Y t="38">0.00038</Y>
+        <Y t="39">0.00041</Y>
+        <Y t="40">0.00044</Y>
+        <Y t="41">0.00047</Y>
+        <Y t="42">0.00051</Y>
+        <Y t="43">0.00055</Y>
+        <Y t="44">0.00059</Y>
+        <Y t="45">0.00064</Y>
+        <Y t="46">0.00069</Y>
+        <Y t="47">0.00074</Y>
+        <Y t="48">0.0008</Y>
+        <Y t="49">0.00087</Y>
+        <Y t="50">0.00094</Y>
+        <Y t="51">0.00101</Y>
+        <Y t="52">0.0011</Y>
+        <Y t="53">0.00119</Y>
+        <Y t="54">0.0013</Y>
+        <Y t="55">0.00141</Y>
+        <Y t="56">0.00153</Y>
+        <Y t="57">0.00167</Y>
+        <Y t="58">0.00182</Y>
+        <Y t="59">0.00199</Y>
+        <Y t="60">0.00217</Y>
+        <Y t="61">0.00238</Y>
+        <Y t="62">0.0026</Y>
+        <Y t="63">0.00285</Y>
+        <Y t="64">0.00313</Y>
+        <Y t="65">0.00344</Y>
+        <Y t="66">0.00386</Y>
+        <Y t="67">0.00432</Y>
+        <Y t="68">0.00485</Y>
+        <Y t="69">0.00543</Y>
+        <Y t="70">0.00609</Y>
+        <Y t="71">0.00683</Y>
+        <Y t="72">0.00766</Y>
+        <Y t="73">0.00859</Y>
+        <Y t="74">0.00963</Y>
+        <Y t="75">0.01079</Y>
+        <Y t="76">0.0121</Y>
+        <Y t="77">0.01357</Y>
+        <Y t="78">0.01521</Y>
+        <Y t="79">0.01706</Y>
+        <Y t="80">0.01912</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

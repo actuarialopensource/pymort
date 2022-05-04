@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>351</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>James S. Elston, “Analysis of Joint Mortality Experience 1939-45”, Transactions of the Society of Actuaries Vol. VIII, Part Two, No. 118. (1947) Table 1, p. 242 and Table 14, p. 262.</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Joint 1939-44^(15) Basic Table, ANB</TableName>
+    <TableDescription>Joint 1939-44^(15) Basic Mortality Table (Excluding Direct War Losses). Basis: Age Nearest Birthday. Minimum Age: 25. Maximum Age: 95</TableDescription>
+    <Comments>Study Data: Based on data from 16 companies that contribute to Joint Committee on Mortality of the Society of Actuaries (SOA). Submissions include standard business excluding non-medical and attained age conversions of term policies. The Committee recognized at the outset that war deaths would prove a serious obstacle but it seemed worth while despite this handicap to use the material available rather than to wait several years for the development of war-free mortality. Accordingly, war losses excluded are the "death claims of service personnel from service-connected causes (including diseases) and of civilians from causes directly connected with the war.” Methodology:  Crude rates graduated with a Henderson-A formula. Graduated rates compared to other recent United States (U.S.) mortality tables. No completely satisfactory explanation has been found of the high death rates under age 30. NOTE: In all, four tables were constructed by the committee: (1) A "Fifteen Year Ultimate" Table, designated as the Joint 1939-44^(15) Table, covering the experience on policies in force more than fifteen years. (2) A "Fifteen Year Select" Table, called the Joint 1939-44 "Select" Table, covering policies in force less than fifteen year. (3) A “Ten Year Ultimate” Table, designated as the Joint 1939-44^(10),  built by adding the actual deaths in the eleventh to the fifteenth policy years to those used in the Joint 1939-44^(15) Table and similarly adding the tabular deaths, for the eleventh to the  fifteenth years to the tabular used in the Joint 1939-44^(15) Table. The Joint 1939-44^(10) Table was further graduated by inspection after applying graduated ratios of actual to tabular by the Joint 1939-44^(15). (4) A Joint 1939-44^(5) Table was similarly constructed and graduated by use of the Joint 1939-44^(10) Table. Data Transcription Errors: None. Data Certified: 06/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Joint 1939-44^(15) Basic Mortality Table (Excluding Direct War Losses). Basis: Age Nearest Birthday. Minimum Age: 25. Maximum Age: 95</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>25</MinScaleValue>
+        <MaxScaleValue>95</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="25">0.00290</Y>
+        <Y t="26">0.00253</Y>
+        <Y t="27">0.00226</Y>
+        <Y t="28">0.00205</Y>
+        <Y t="29">0.00191</Y>
+        <Y t="30">0.00184</Y>
+        <Y t="31">0.00185</Y>
+        <Y t="32">0.00192</Y>
+        <Y t="33">0.00203</Y>
+        <Y t="34">0.00216</Y>
+        <Y t="35">0.00227</Y>
+        <Y t="36">0.00238</Y>
+        <Y t="37">0.00250</Y>
+        <Y t="38">0.00263</Y>
+        <Y t="39">0.00281</Y>
+        <Y t="40">0.00303</Y>
+        <Y t="41">0.00331</Y>
+        <Y t="42">0.00366</Y>
+        <Y t="43">0.00407</Y>
+        <Y t="44">0.00455</Y>
+        <Y t="45">0.00510</Y>
+        <Y t="46">0.00571</Y>
+        <Y t="47">0.00638</Y>
+        <Y t="48">0.00709</Y>
+        <Y t="49">0.00786</Y>
+        <Y t="50">0.00867</Y>
+        <Y t="51">0.00955</Y>
+        <Y t="52">0.01051</Y>
+        <Y t="53">0.01156</Y>
+        <Y t="54">0.01270</Y>
+        <Y t="55">0.01392</Y>
+        <Y t="56">0.01527</Y>
+        <Y t="57">0.01678</Y>
+        <Y t="58">0.01847</Y>
+        <Y t="59">0.02036</Y>
+        <Y t="60">0.02244</Y>
+        <Y t="61">0.02469</Y>
+        <Y t="62">0.02707</Y>
+        <Y t="63">0.02952</Y>
+        <Y t="64">0.03210</Y>
+        <Y t="65">0.03483</Y>
+        <Y t="66">0.03777</Y>
+        <Y t="67">0.04095</Y>
+        <Y t="68">0.04433</Y>
+        <Y t="69">0.04784</Y>
+        <Y t="70">0.05145</Y>
+        <Y t="71">0.05520</Y>
+        <Y t="72">0.05921</Y>
+        <Y t="73">0.06365</Y>
+        <Y t="74">0.06869</Y>
+        <Y t="75">0.07446</Y>
+        <Y t="76">0.08105</Y>
+        <Y t="77">0.08852</Y>
+        <Y t="78">0.09694</Y>
+        <Y t="79">0.10635</Y>
+        <Y t="80">0.11669</Y>
+        <Y t="81">0.12769</Y>
+        <Y t="82">0.13899</Y>
+        <Y t="83">0.15040</Y>
+        <Y t="84">0.16223</Y>
+        <Y t="85">0.17501</Y>
+        <Y t="86">0.18925</Y>
+        <Y t="87">0.20463</Y>
+        <Y t="88">0.21991</Y>
+        <Y t="89">0.23280</Y>
+        <Y t="90">0.24137</Y>
+        <Y t="91">0.24616</Y>
+        <Y t="92">0.24973</Y>
+        <Y t="93">0.25548</Y>
+        <Y t="94">0.26723</Y>
+        <Y t="95">0.28613</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

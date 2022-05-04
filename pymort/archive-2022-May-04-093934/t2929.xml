@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2929</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>C. Gordon, “Report of the Mortality Experience of the South African Mutual Life Assurance Society for the Fifty Years, 1845 to1895”, Old Mutual, (Cape Town, 1896).</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>South African Mutual Life Assurance Society Adjusted Mortality Table</TableName>
+    <TableDescription>South African Mutual Life Assurance Society Adjusted Mortality Table (Woolhouse’s Method). Minimum Age: 15. Maximum Age: 97.</TableDescription>
+    <Comments>Study Data: Results of mortality experience of the South African Mutual Life Assurance Society since its inauguration in May, 1885 down to the year 1895. Children’s lives have been removed, principally from endowments, as the numbers are quite insufficient for framing any table for that period of life. Female lives and rated-up policies likewise excluded. The Card System was adopted for collection of data. Where an interval occurred between the termination of one policy on a life and the issue of a subsequent one, they were treated as separate risks. Methodology: As the graduation of the Institute’s 1869 Twenty Offices H^M table (See SOA Table Identity 253) was done by way of Woolhouse’s method, that process was adopted here. Data Transcription Errors: None. Data Certified: 09/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>South Africa</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="27">South Africa</Nation>
+      <TableDescription>South African Mutual Life Assurance Society Adjusted Mortality Table (Woolhouse’s Method). Minimum Age: 15. Maximum Age: 97</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.00300</Y>
+        <Y t="16">0.00333</Y>
+        <Y t="17">0.00379</Y>
+        <Y t="18">0.00418</Y>
+        <Y t="19">0.00437</Y>
+        <Y t="20">0.00443</Y>
+        <Y t="21">0.00432</Y>
+        <Y t="22">0.00412</Y>
+        <Y t="23">0.00424</Y>
+        <Y t="24">0.00440</Y>
+        <Y t="25">0.00458</Y>
+        <Y t="26">0.00470</Y>
+        <Y t="27">0.00480</Y>
+        <Y t="28">0.00496</Y>
+        <Y t="29">0.00515</Y>
+        <Y t="30">0.00556</Y>
+        <Y t="31">0.00616</Y>
+        <Y t="32">0.00677</Y>
+        <Y t="33">0.00743</Y>
+        <Y t="34">0.00807</Y>
+        <Y t="35">0.00843</Y>
+        <Y t="36">0.00865</Y>
+        <Y t="37">0.00891</Y>
+        <Y t="38">0.00907</Y>
+        <Y t="39">0.00917</Y>
+        <Y t="40">0.00940</Y>
+        <Y t="41">0.00975</Y>
+        <Y t="42">0.01018</Y>
+        <Y t="43">0.01066</Y>
+        <Y t="44">0.01128</Y>
+        <Y t="45">0.01219</Y>
+        <Y t="46">0.01309</Y>
+        <Y t="47">0.01392</Y>
+        <Y t="48">0.01514</Y>
+        <Y t="49">0.01646</Y>
+        <Y t="50">0.01753</Y>
+        <Y t="51">0.01881</Y>
+        <Y t="52">0.02013</Y>
+        <Y t="53">0.02133</Y>
+        <Y t="54">0.02234</Y>
+        <Y t="55">0.02378</Y>
+        <Y t="56">0.02574</Y>
+        <Y t="57">0.02774</Y>
+        <Y t="58">0.02991</Y>
+        <Y t="59">0.03270</Y>
+        <Y t="60">0.03499</Y>
+        <Y t="61">0.03642</Y>
+        <Y t="62">0.03798</Y>
+        <Y t="63">0.03955</Y>
+        <Y t="64">0.04053</Y>
+        <Y t="65">0.04181</Y>
+        <Y t="66">0.04417</Y>
+        <Y t="67">0.04671</Y>
+        <Y t="68">0.04987</Y>
+        <Y t="69">0.05538</Y>
+        <Y t="70">0.06424</Y>
+        <Y t="71">0.07543</Y>
+        <Y t="72">0.08816</Y>
+        <Y t="73">0.10240</Y>
+        <Y t="74">0.11620</Y>
+        <Y t="75">0.12481</Y>
+        <Y t="76">0.12782</Y>
+        <Y t="77">0.12965</Y>
+        <Y t="78">0.12909</Y>
+        <Y t="79">0.12535</Y>
+        <Y t="80">0.13064</Y>
+        <Y t="81">0.14284</Y>
+        <Y t="82">0.15054</Y>
+        <Y t="83">0.15956</Y>
+        <Y t="84">0.17429</Y>
+        <Y t="85">0.16830</Y>
+        <Y t="86">0.15500</Y>
+        <Y t="87">0.15661</Y>
+        <Y t="88">0.14340</Y>
+        <Y t="89">0.11767</Y>
+        <Y t="90">0.12411</Y>
+        <Y t="91">0.12632</Y>
+        <Y t="92">0.12699</Y>
+        <Y t="93">0.17695</Y>
+        <Y t="94">0.25248</Y>
+        <Y t="95">0.32447</Y>
+        <Y t="96">0.45303</Y>
+        <Y t="97">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

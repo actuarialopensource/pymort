@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3398</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, public-pension-amount-exposure.xlsx, Sheet 'PubG-2010', https://www.soa.org/resources/experience-studies/2018/public-pension-amount-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PubG-2010 Male Employee</TableName>
+    <TableDescription>Pub-2010 Amount-weighted General Mortality Table - Male Employee. Ages 18-80. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pub-2010 Amount-weighted General Mortality Table - Male Employee. Ages 18-80. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00036</Y>
+        <Y t="19">0.00038</Y>
+        <Y t="20">0.00037</Y>
+        <Y t="21">0.00036</Y>
+        <Y t="22">0.00033</Y>
+        <Y t="23">0.00031</Y>
+        <Y t="24">0.00029</Y>
+        <Y t="25">0.00028</Y>
+        <Y t="26">0.0003</Y>
+        <Y t="27">0.00031</Y>
+        <Y t="28">0.00033</Y>
+        <Y t="29">0.00034</Y>
+        <Y t="30">0.00036</Y>
+        <Y t="31">0.00038</Y>
+        <Y t="32">0.0004</Y>
+        <Y t="33">0.00042</Y>
+        <Y t="34">0.00044</Y>
+        <Y t="35">0.00047</Y>
+        <Y t="36">0.0005</Y>
+        <Y t="37">0.00053</Y>
+        <Y t="38">0.00057</Y>
+        <Y t="39">0.00061</Y>
+        <Y t="40">0.00066</Y>
+        <Y t="41">0.00071</Y>
+        <Y t="42">0.00077</Y>
+        <Y t="43">0.00083</Y>
+        <Y t="44">0.0009</Y>
+        <Y t="45">0.00098</Y>
+        <Y t="46">0.00107</Y>
+        <Y t="47">0.00116</Y>
+        <Y t="48">0.00127</Y>
+        <Y t="49">0.00138</Y>
+        <Y t="50">0.00149</Y>
+        <Y t="51">0.00162</Y>
+        <Y t="52">0.00175</Y>
+        <Y t="53">0.00189</Y>
+        <Y t="54">0.00203</Y>
+        <Y t="55">0.00219</Y>
+        <Y t="56">0.00236</Y>
+        <Y t="57">0.00255</Y>
+        <Y t="58">0.00275</Y>
+        <Y t="59">0.00296</Y>
+        <Y t="60">0.00319</Y>
+        <Y t="61">0.00344</Y>
+        <Y t="62">0.00371</Y>
+        <Y t="63">0.00401</Y>
+        <Y t="64">0.00433</Y>
+        <Y t="65">0.00468</Y>
+        <Y t="66">0.00506</Y>
+        <Y t="67">0.00548</Y>
+        <Y t="68">0.00594</Y>
+        <Y t="69">0.00646</Y>
+        <Y t="70">0.00703</Y>
+        <Y t="71">0.00767</Y>
+        <Y t="72">0.00837</Y>
+        <Y t="73">0.00915</Y>
+        <Y t="74">0.01001</Y>
+        <Y t="75">0.01096</Y>
+        <Y t="76">0.012</Y>
+        <Y t="77">0.01315</Y>
+        <Y t="78">0.0144</Y>
+        <Y t="79">0.01578</Y>
+        <Y t="80">0.0173</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

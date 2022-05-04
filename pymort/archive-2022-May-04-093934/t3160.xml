@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3160</TableIdentity>
+    <ProviderDomain>irs.gov</ProviderDomain>
+    <ProviderName>IRS</ProviderName>
+    <TableReference>Updated Static Mortality Tables for 2009</TableReference>
+    <ContentType tc="1">Healthy Lives Mortality</ContentType>
+    <TableName>IRS 2009 Static Mortality Tables</TableName>
+    <TableDescription>IRS 2009 Static Mortality Table, Non-Annuitant, Male</TableDescription>
+    <Comments>IRS-prescribed male non-annuitant mortality table to be used under § 430(h)(3)(A) of the Internal Revenue Code and  § 303(h)(3)(A) of the Employee Retirement Income Security Act of 1974.  This table applies for purposes of calculating the funding target and other items for valuation dates occurring during calendar year 2009. Data Certified: 07/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>IRS 2009 Static Mortality Table, Non-Annuitant, Male</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000392</Y>
+        <Y t="2">0.000265</Y>
+        <Y t="3">0.00022</Y>
+        <Y t="4">0.000171</Y>
+        <Y t="5">0.000157</Y>
+        <Y t="6">0.00015</Y>
+        <Y t="7">0.000144</Y>
+        <Y t="8">0.000133</Y>
+        <Y t="9">0.000129</Y>
+        <Y t="10">0.000131</Y>
+        <Y t="11">0.000135</Y>
+        <Y t="12">0.00014</Y>
+        <Y t="13">0.000148</Y>
+        <Y t="14">0.00016</Y>
+        <Y t="15">0.00017</Y>
+        <Y t="16">0.000179</Y>
+        <Y t="17">0.00019</Y>
+        <Y t="18">0.000199</Y>
+        <Y t="19">0.000209</Y>
+        <Y t="20">0.000218</Y>
+        <Y t="21">0.000231</Y>
+        <Y t="22">0.000243</Y>
+        <Y t="23">0.00026</Y>
+        <Y t="24">0.000275</Y>
+        <Y t="25">0.000295</Y>
+        <Y t="26">0.000327</Y>
+        <Y t="27">0.000339</Y>
+        <Y t="28">0.000348</Y>
+        <Y t="29">0.000365</Y>
+        <Y t="30">0.000394</Y>
+        <Y t="31">0.000442</Y>
+        <Y t="32">0.000498</Y>
+        <Y t="33">0.000559</Y>
+        <Y t="34">0.000622</Y>
+        <Y t="35">0.000685</Y>
+        <Y t="36">0.000746</Y>
+        <Y t="37">0.000802</Y>
+        <Y t="38">0.000834</Y>
+        <Y t="39">0.000863</Y>
+        <Y t="40">0.00089</Y>
+        <Y t="41">0.000919</Y>
+        <Y t="42">0.000955</Y>
+        <Y t="43">0.000996</Y>
+        <Y t="44">0.001046</Y>
+        <Y t="45">0.001102</Y>
+        <Y t="46">0.001152</Y>
+        <Y t="47">0.001206</Y>
+        <Y t="48">0.001263</Y>
+        <Y t="49">0.001322</Y>
+        <Y t="50">0.001383</Y>
+        <Y t="51">0.001444</Y>
+        <Y t="52">0.001507</Y>
+        <Y t="53">0.001614</Y>
+        <Y t="54">0.001732</Y>
+        <Y t="55">0.001911</Y>
+        <Y t="56">0.002138</Y>
+        <Y t="57">0.002404</Y>
+        <Y t="58">0.002714</Y>
+        <Y t="59">0.002997</Y>
+        <Y t="60">0.003312</Y>
+        <Y t="61">0.003745</Y>
+        <Y t="62">0.004118</Y>
+        <Y t="63">0.004614</Y>
+        <Y t="64">0.00501</Y>
+        <Y t="65">0.005399</Y>
+        <Y t="66">0.005916</Y>
+        <Y t="67">0.006281</Y>
+        <Y t="68">0.006466</Y>
+        <Y t="69">0.00678</Y>
+        <Y t="70">0.006903</Y>
+        <Y t="71">0.007774</Y>
+        <Y t="72">0.009516</Y>
+        <Y t="73">0.012129</Y>
+        <Y t="74">0.015613</Y>
+        <Y t="75">0.019968</Y>
+        <Y t="76">0.025194</Y>
+        <Y t="77">0.031291</Y>
+        <Y t="78">0.038259</Y>
+        <Y t="79">0.046098</Y>
+        <Y t="80">0.054807</Y>
+        <Y t="81">0.062339</Y>
+        <Y t="82">0.070779</Y>
+        <Y t="83">0.078898</Y>
+        <Y t="84">0.089172</Y>
+        <Y t="85">0.098983</Y>
+        <Y t="86">0.109743</Y>
+        <Y t="87">0.123554</Y>
+        <Y t="88">0.138984</Y>
+        <Y t="89">0.153594</Y>
+        <Y t="90">0.172016</Y>
+        <Y t="91">0.18736</Y>
+        <Y t="92">0.206439</Y>
+        <Y t="93">0.222695</Y>
+        <Y t="94">0.238927</Y>
+        <Y t="95">0.259058</Y>
+        <Y t="96">0.274955</Y>
+        <Y t="97">0.290399</Y>
+        <Y t="98">0.310289</Y>
+        <Y t="99">0.324963</Y>
+        <Y t="100">0.339084</Y>
+        <Y t="101">0.358628</Y>
+        <Y t="102">0.371685</Y>
+        <Y t="103">0.38304</Y>
+        <Y t="104">0.392003</Y>
+        <Y t="105">0.397886</Y>
+        <Y t="106">0.4</Y>
+        <Y t="107">0.4</Y>
+        <Y t="108">0.4</Y>
+        <Y t="109">0.4</Y>
+        <Y t="110">0.4</Y>
+        <Y t="111">0.4</Y>
+        <Y t="112">0.4</Y>
+        <Y t="113">0.4</Y>
+        <Y t="114">0.4</Y>
+        <Y t="115">0.4</Y>
+        <Y t="116">0.4</Y>
+        <Y t="117">0.4</Y>
+        <Y t="118">0.4</Y>
+        <Y t="119">0.4</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

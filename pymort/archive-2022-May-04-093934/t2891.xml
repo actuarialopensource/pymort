@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2891</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Sandra Haas</ProviderName>
+    <TableReference>Statistik Austria, "Statistik des Bundesstaates Österreich, Heft 1/1935", Austrian Central Statistics Office (1935) Accessed: July, 2014 from http://www.statistik.at/web_de/static/sterbetafeln_186871_bis_201012_nach_dem_geschlecht_022541.xlsx</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Sterbetafel 1930/33 - Männlich</TableName>
+    <TableDescription>Sterbetafel 1930/33 - Männlich (Males) Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Life tables are compiled for the years around the population census by relating the deaths grouped according to age and sex to the corresponding structured population.  In order to compensate for chance fluctuations of the thus determined mortalities, they are submitted to a rounding procedure. There are no Life Tables for Austria during the time of World War I and World War II. Hence this table, for 1930-1933, represents the first table for the Austrian Republic; that is when it collapsed as a result of defeat in World War I. The Hungarian Kingdom and the Austrian Republic were treated as the Austrian Monarchy's successors, while the independence of the West Slavs and South Slavs of the Empire as the countries of Czechoslovakia and Yugoslavia, respectively, were also recognized by the victorious powers. Methodology: Based on vital statistics and census-adjusted population figures of the period 1930 to 1933. The age and sex-specific death probabilities q(x) were smoothed by cubic spline functions. Data Transcriptions Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Austria</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="43">Austria</Nation>
+      <TableDescription>Sterbetafel 1930/33 - Männlich (Males) Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.1154</Y>
+        <Y t="1">0.014</Y>
+        <Y t="2">0.00637</Y>
+        <Y t="3">0.00444</Y>
+        <Y t="4">0.00403</Y>
+        <Y t="5">0.00341</Y>
+        <Y t="6">0.0032</Y>
+        <Y t="7">0.00286</Y>
+        <Y t="8">0.00244</Y>
+        <Y t="9">0.00214</Y>
+        <Y t="10">0.00186</Y>
+        <Y t="11">0.00168</Y>
+        <Y t="12">0.00149</Y>
+        <Y t="13">0.0015</Y>
+        <Y t="14">0.00168</Y>
+        <Y t="15">0.00203</Y>
+        <Y t="16">0.00249</Y>
+        <Y t="17">0.00293</Y>
+        <Y t="18">0.00328</Y>
+        <Y t="19">0.00352</Y>
+        <Y t="20">0.00374</Y>
+        <Y t="21">0.00396</Y>
+        <Y t="22">0.00408</Y>
+        <Y t="23">0.00411</Y>
+        <Y t="24">0.00404</Y>
+        <Y t="25">0.00426</Y>
+        <Y t="26">0.00428</Y>
+        <Y t="27">0.00429</Y>
+        <Y t="28">0.00412</Y>
+        <Y t="29">0.00419</Y>
+        <Y t="30">0.00438</Y>
+        <Y t="31">0.00468</Y>
+        <Y t="32">0.00503</Y>
+        <Y t="33">0.00528</Y>
+        <Y t="34">0.00544</Y>
+        <Y t="35">0.00562</Y>
+        <Y t="36">0.00575</Y>
+        <Y t="37">0.00595</Y>
+        <Y t="38">0.0062</Y>
+        <Y t="39">0.0066</Y>
+        <Y t="40">0.00703</Y>
+        <Y t="41">0.00735</Y>
+        <Y t="42">0.00803</Y>
+        <Y t="43">0.00852</Y>
+        <Y t="44">0.00922</Y>
+        <Y t="45">0.00951</Y>
+        <Y t="46">0.01019</Y>
+        <Y t="47">0.01071</Y>
+        <Y t="48">0.01137</Y>
+        <Y t="49">0.01222</Y>
+        <Y t="50">0.01299</Y>
+        <Y t="51">0.0142</Y>
+        <Y t="52">0.01525</Y>
+        <Y t="53">0.01642</Y>
+        <Y t="54">0.01745</Y>
+        <Y t="55">0.01893</Y>
+        <Y t="56">0.02006</Y>
+        <Y t="57">0.0218</Y>
+        <Y t="58">0.02338</Y>
+        <Y t="59">0.0251</Y>
+        <Y t="60">0.02672</Y>
+        <Y t="61">0.02882</Y>
+        <Y t="62">0.03142</Y>
+        <Y t="63">0.03446</Y>
+        <Y t="64">0.0378</Y>
+        <Y t="65">0.04077</Y>
+        <Y t="66">0.04412</Y>
+        <Y t="67">0.04724</Y>
+        <Y t="68">0.05074</Y>
+        <Y t="69">0.05492</Y>
+        <Y t="70">0.06033</Y>
+        <Y t="71">0.06646</Y>
+        <Y t="72">0.07258</Y>
+        <Y t="73">0.07929</Y>
+        <Y t="74">0.08576</Y>
+        <Y t="75">0.09556</Y>
+        <Y t="76">0.10317</Y>
+        <Y t="77">0.11447</Y>
+        <Y t="78">0.12378</Y>
+        <Y t="79">0.13511</Y>
+        <Y t="80">0.14773</Y>
+        <Y t="81">0.15816</Y>
+        <Y t="82">0.17323</Y>
+        <Y t="83">0.18787</Y>
+        <Y t="84">0.20434</Y>
+        <Y t="85">0.22252</Y>
+        <Y t="86">0.23514</Y>
+        <Y t="87">0.25459</Y>
+        <Y t="88">0.27166</Y>
+        <Y t="89">0.29667</Y>
+        <Y t="90">0.31273</Y>
+        <Y t="91">0.33292</Y>
+        <Y t="92">0.33672</Y>
+        <Y t="93">0.35505</Y>
+        <Y t="94">0.3779</Y>
+        <Y t="95">0.39</Y>
+        <Y t="96">0.4125</Y>
+        <Y t="97">0.435</Y>
+        <Y t="98">0.46</Y>
+        <Y t="99">0.485</Y>
+        <Y t="100">0.51</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

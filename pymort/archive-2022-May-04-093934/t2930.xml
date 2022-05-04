@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2930</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Richard Teece, “Report on the Mortality Experience of the Australian Mutual Provident Society”, John Sands (Sydney, 1891) reprinted Miles Menander Dawson, “Practical Lessons in Actuarial Science, An Elementary Text-Book”, The Spectator Company (New York, 1896). Accessed June, 2014 from https://archive.org/stream/practicallessons00dawsrich#page/n3/mode/2up</TableReference>
+    <ContentType tc="1">Healthy Lives Mortality</ContentType>
+    <TableName>Australian Mutual Provident Society’s Healthy Male Lives Table</TableName>
+    <TableDescription>Australian Mutual Provident Society’s Healthy Male Lives Table. Minimum Age: 19. Maximum Age: 97.</TableDescription>
+    <Comments>Study Data: Experience of the Australian Mutual Provident Society of Sydney for healthy male lives, that is, for those which have been accepted without addition to the true age. A separate table, comprising the experience of all lives, that is, those of true age and those accepted with an addition to the true age was also produced (See SOA Table Identity 2918). Methodology: The card system, almost universally adopted for investigations of such nature, was employed. Note should be made that calendar years rather than policy years have in all cases been employed. Also, lives rather than policies have been dealt with. Data graduated by Woolhouse’s method (graduation by graphical system also employed but found to be less than satisfactory). Data Transcription Errors: None. Data Certified: 09/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Healthy Lives Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Mutual Provident Society’s Healthy Male Lives Table. Minimum Age: 19. Maximum Age: 97.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>19</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="19">0.002990</Y>
+        <Y t="20">0.003049</Y>
+        <Y t="21">0.003129</Y>
+        <Y t="22">0.003230</Y>
+        <Y t="23">0.003341</Y>
+        <Y t="24">0.003474</Y>
+        <Y t="25">0.003609</Y>
+        <Y t="26">0.003775</Y>
+        <Y t="27">0.003954</Y>
+        <Y t="28">0.004021</Y>
+        <Y t="29">0.004286</Y>
+        <Y t="30">0.004512</Y>
+        <Y t="31">0.004731</Y>
+        <Y t="32">0.004901</Y>
+        <Y t="33">0.005167</Y>
+        <Y t="34">0.005258</Y>
+        <Y t="35">0.005381</Y>
+        <Y t="36">0.005550</Y>
+        <Y t="37">0.005721</Y>
+        <Y t="38">0.005873</Y>
+        <Y t="39">0.006213</Y>
+        <Y t="40">0.006603</Y>
+        <Y t="41">0.007000</Y>
+        <Y t="42">0.007494</Y>
+        <Y t="43">0.008066</Y>
+        <Y t="44">0.008470</Y>
+        <Y t="45">0.008953</Y>
+        <Y t="46">0.009436</Y>
+        <Y t="47">0.009990</Y>
+        <Y t="48">0.010442</Y>
+        <Y t="49">0.011180</Y>
+        <Y t="50">0.011666</Y>
+        <Y t="51">0.012106</Y>
+        <Y t="52">0.012353</Y>
+        <Y t="53">0.012756</Y>
+        <Y t="54">0.012719</Y>
+        <Y t="55">0.013265</Y>
+        <Y t="56">0.014283</Y>
+        <Y t="57">0.015381</Y>
+        <Y t="58">0.016500</Y>
+        <Y t="59">0.018833</Y>
+        <Y t="60">0.020904</Y>
+        <Y t="61">0.022970</Y>
+        <Y t="62">0.025859</Y>
+        <Y t="63">0.029816</Y>
+        <Y t="64">0.033203</Y>
+        <Y t="65">0.037925</Y>
+        <Y t="66">0.042519</Y>
+        <Y t="67">0.047592</Y>
+        <Y t="68">0.051373</Y>
+        <Y t="69">0.055463</Y>
+        <Y t="70">0.056472</Y>
+        <Y t="71">0.058533</Y>
+        <Y t="72">0.058829</Y>
+        <Y t="73">0.060154</Y>
+        <Y t="74">0.061705</Y>
+        <Y t="75">0.068567</Y>
+        <Y t="76">0.075777</Y>
+        <Y t="77">0.086511</Y>
+        <Y t="78">0.100035</Y>
+        <Y t="79">0.116615</Y>
+        <Y t="80">0.132619</Y>
+        <Y t="81">0.150286</Y>
+        <Y t="82">0.168360</Y>
+        <Y t="83">0.185040</Y>
+        <Y t="84">0.199599</Y>
+        <Y t="85">0.213438</Y>
+        <Y t="86">0.225945</Y>
+        <Y t="87">0.237167</Y>
+        <Y t="88">0.249941</Y>
+        <Y t="89">0.266333</Y>
+        <Y t="90">0.287175</Y>
+        <Y t="91">0.314405</Y>
+        <Y t="92">0.352223</Y>
+        <Y t="93">0.403769</Y>
+        <Y t="94">0.476298</Y>
+        <Y t="95">0.590517</Y>
+        <Y t="96">0.821053</Y>
+        <Y t="97">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

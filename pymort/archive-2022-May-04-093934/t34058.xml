@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>34058</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Bertrand Cleuvenot</ProviderName>
+    <TableReference>Swiss Union of Private Life Insurers, reprinted by A.S.MacDonald , "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>GRM_80</TableName>
+    <TableDescription>1980 Gruppen Renten (Group Annuity Mortality) – Male.  Minimum Age: 15. Maximum Age: 117</TableDescription>
+    <Comments>Study Data: Based on the experience of Swiss insurance companies observed during the period 1971 - 75 in the group portfolio of the member companies of Union of Private Life Insurers. Methodology: Crude data adjusted according to the following formulae: x &lt; 31 then 1000qx = a(0) + a(1)x;  for 31&lt;  x &lt; 50 then 1000qx = b(0) + b(1)x + b(2)x^2 + b(3)x^3 ;  for x &gt; 49 then 1000qx = [c(0) + c(1)c^(x-65)] / [1+c(2)c^(x-65)] where the parameters have following values: a0 = 0.896;  a(1) = 0.0122, b(0) = 0.6970,  b(1) = 0.2638,  b(2) = -0.01571,  b(3) = 2.517*10^-4, c(0) = 0.3790,  c(1) = 26.84, c(2) = 0.3722, c = 1.108. The table GKF 80 is based on GKM 80, considering the mortality of a woman equal to the mortality of a 7 years younger man; qy = qx with x = y - 7. Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Switzerland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="41">Switzerland</Nation>
+      <TableDescription>1980 Gruppen Renten (Group Annuity Mortality) – Male.  Minimum Age: 15. Maximum Age: 117</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>117</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.000748</Y>
+        <Y t="16">0.000755</Y>
+        <Y t="17">0.000764</Y>
+        <Y t="18">0.000774</Y>
+        <Y t="19">0.000786</Y>
+        <Y t="20">0.000799</Y>
+        <Y t="21">0.000814</Y>
+        <Y t="22">0.000831</Y>
+        <Y t="23">0.000849</Y>
+        <Y t="24">0.000869</Y>
+        <Y t="25">0.000890</Y>
+        <Y t="26">0.000913</Y>
+        <Y t="27">0.000937</Y>
+        <Y t="28">0.000963</Y>
+        <Y t="29">0.000991</Y>
+        <Y t="30">0.001020</Y>
+        <Y t="31">0.001056</Y>
+        <Y t="32">0.001103</Y>
+        <Y t="33">0.001163</Y>
+        <Y t="34">0.001237</Y>
+        <Y t="35">0.001325</Y>
+        <Y t="36">0.001428</Y>
+        <Y t="37">0.001548</Y>
+        <Y t="38">0.001684</Y>
+        <Y t="39">0.001838</Y>
+        <Y t="40">0.002011</Y>
+        <Y t="41">0.002203</Y>
+        <Y t="42">0.002415</Y>
+        <Y t="43">0.002649</Y>
+        <Y t="44">0.002904</Y>
+        <Y t="45">0.003182</Y>
+        <Y t="46">0.003484</Y>
+        <Y t="47">0.003811</Y>
+        <Y t="48">0.004163</Y>
+        <Y t="49">0.004541</Y>
+        <Y t="50">0.004946</Y>
+        <Y t="51">0.005379</Y>
+        <Y t="52">0.005841</Y>
+        <Y t="53">0.006332</Y>
+        <Y t="54">0.006854</Y>
+        <Y t="55">0.007407</Y>
+        <Y t="56">0.007992</Y>
+        <Y t="57">0.008610</Y>
+        <Y t="58">0.009262</Y>
+        <Y t="59">0.009969</Y>
+        <Y t="60">0.010757</Y>
+        <Y t="61">0.011635</Y>
+        <Y t="62">0.012614</Y>
+        <Y t="63">0.013703</Y>
+        <Y t="64">0.014916</Y>
+        <Y t="65">0.016266</Y>
+        <Y t="66">0.017768</Y>
+        <Y t="67">0.019439</Y>
+        <Y t="68">0.021295</Y>
+        <Y t="69">0.023357</Y>
+        <Y t="70">0.025647</Y>
+        <Y t="71">0.028187</Y>
+        <Y t="72">0.031003</Y>
+        <Y t="73">0.034122</Y>
+        <Y t="74">0.037573</Y>
+        <Y t="75">0.041389</Y>
+        <Y t="76">0.045602</Y>
+        <Y t="77">0.050249</Y>
+        <Y t="78">0.055366</Y>
+        <Y t="79">0.060993</Y>
+        <Y t="80">0.067170</Y>
+        <Y t="81">0.073938</Y>
+        <Y t="82">0.081339</Y>
+        <Y t="83">0.089415</Y>
+        <Y t="84">0.098206</Y>
+        <Y t="85">0.107749</Y>
+        <Y t="86">0.118080</Y>
+        <Y t="87">0.129230</Y>
+        <Y t="88">0.141222</Y>
+        <Y t="89">0.154076</Y>
+        <Y t="90">0.167800</Y>
+        <Y t="91">0.182393</Y>
+        <Y t="92">0.197843</Y>
+        <Y t="93">0.214124</Y>
+        <Y t="94">0.231199</Y>
+        <Y t="95">0.249016</Y>
+        <Y t="96">0.267507</Y>
+        <Y t="97">0.286594</Y>
+        <Y t="98">0.306183</Y>
+        <Y t="99">0.326171</Y>
+        <Y t="100">0.346445</Y>
+        <Y t="101">0.366884</Y>
+        <Y t="102">0.378366</Y>
+        <Y t="103">0.407765</Y>
+        <Y t="104">0.427959</Y>
+        <Y t="105">0.447829</Y>
+        <Y t="106">0.467266</Y>
+        <Y t="107">0.486169</Y>
+        <Y t="108">0.504449</Y>
+        <Y t="109">0.522032</Y>
+        <Y t="110">0.538854</Y>
+        <Y t="111">0.554869</Y>
+        <Y t="112">0.570043</Y>
+        <Y t="113">0.584355</Y>
+        <Y t="114">0.597796</Y>
+        <Y t="115">0.610368</Y>
+        <Y t="116">0.622085</Y>
+        <Y t="117">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

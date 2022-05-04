@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3578</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, pri-2012-mort-tables-headcount.xlsx, Sheet 'Top Quartile', https://www.soa.org/globalassets/assets/files/resources/experience-studies/2019/pri-2012-mort-tables-headcount.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Pri.H-2012 Male Employee Top Quartile</TableName>
+    <TableDescription>Pri-2012 Headcount-weighted Mortality Table - Male Employee Top Quartile. Ages 18-80. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of private-sector retirement plans in the United States. The final dataset upon which this study has been based includes approximately 16 million life-years of exposure and 343 thousand deaths from private pension plans across the United States.  Data certified: 05/2019.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord> Annuitant Mortality</KeyWord>
+    <KeyWord> United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pri-2012 Headcount-weighted Mortality Table - Male Employee Top Quartile. Ages 18-80. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00036</Y>
+        <Y t="19">0.00041</Y>
+        <Y t="20">0.00043</Y>
+        <Y t="21">0.00044</Y>
+        <Y t="22">0.00044</Y>
+        <Y t="23">0.00043</Y>
+        <Y t="24">0.00043</Y>
+        <Y t="25">0.00042</Y>
+        <Y t="26">0.00042</Y>
+        <Y t="27">0.00042</Y>
+        <Y t="28">0.00042</Y>
+        <Y t="29">0.00043</Y>
+        <Y t="30">0.00044</Y>
+        <Y t="31">0.00045</Y>
+        <Y t="32">0.00046</Y>
+        <Y t="33">0.00048</Y>
+        <Y t="34">0.0005</Y>
+        <Y t="35">0.00051</Y>
+        <Y t="36">0.00053</Y>
+        <Y t="37">0.00056</Y>
+        <Y t="38">0.00058</Y>
+        <Y t="39">0.00061</Y>
+        <Y t="40">0.00064</Y>
+        <Y t="41">0.00067</Y>
+        <Y t="42">0.00071</Y>
+        <Y t="43">0.00075</Y>
+        <Y t="44">0.0008</Y>
+        <Y t="45">0.00085</Y>
+        <Y t="46">0.00091</Y>
+        <Y t="47">0.00098</Y>
+        <Y t="48">0.00106</Y>
+        <Y t="49">0.00115</Y>
+        <Y t="50">0.00126</Y>
+        <Y t="51">0.00137</Y>
+        <Y t="52">0.00149</Y>
+        <Y t="53">0.00163</Y>
+        <Y t="54">0.00178</Y>
+        <Y t="55">0.00194</Y>
+        <Y t="56">0.00212</Y>
+        <Y t="57">0.00231</Y>
+        <Y t="58">0.00252</Y>
+        <Y t="59">0.00275</Y>
+        <Y t="60">0.003</Y>
+        <Y t="61">0.00327</Y>
+        <Y t="62">0.00356</Y>
+        <Y t="63">0.00387</Y>
+        <Y t="64">0.00421</Y>
+        <Y t="65">0.00459</Y>
+        <Y t="66">0.00512</Y>
+        <Y t="67">0.00573</Y>
+        <Y t="68">0.0064</Y>
+        <Y t="69">0.00715</Y>
+        <Y t="70">0.00799</Y>
+        <Y t="71">0.00893</Y>
+        <Y t="72">0.00998</Y>
+        <Y t="73">0.01115</Y>
+        <Y t="74">0.01246</Y>
+        <Y t="75">0.01392</Y>
+        <Y t="76">0.01556</Y>
+        <Y t="77">0.01738</Y>
+        <Y t="78">0.01943</Y>
+        <Y t="79">0.02171</Y>
+        <Y t="80">0.02426</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

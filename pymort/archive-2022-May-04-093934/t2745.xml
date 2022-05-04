@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2745</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. John Tatham, “Decennial Supplements to the Registrar-General’s Annual Reports”. Reprinted by Noel Humphreys, “English Life Tables, Nos. III and IV”, Journal of the Institute of Actuaries (1886-1994), Vol. 29, No. 1, Cambridge University Press (1891). Accessed: April, 15, 2014 from http://www.jstor.org/stable/41135971 .</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>ELT No. 4 (1871-80) - Male</TableName>
+    <TableDescription>English Life Tables (ELT) Number 4 (1871-80) - Male.  Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Population data from England and Wales (i.e. not for all of the United Kingdom) for the period 1871-80 and deaths registered in those years. Methodology: Not available at this time. NOTE: Initial English Life Tables were printed with just lx values. Over time, the tables were expanded to include qx values that then became the predominant format for the tables of this database. To aid in tracking the data available, qx versions have been created for this and other older tables. (Counterpart qx tables for ELT No 4 have SOA Table Identities 2751-2752). Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+    <KeyWord> Population</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 4 (1871-80) - Male.  Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">1000000</Y>
+        <Y t="1">841417</Y>
+        <Y t="2">790201</Y>
+        <Y t="3">763737</Y>
+        <Y t="4">746587</Y>
+        <Y t="5">734068</Y>
+        <Y t="6">726815</Y>
+        <Y t="7">721103</Y>
+        <Y t="8">716309</Y>
+        <Y t="9">712337</Y>
+        <Y t="10">708990</Y>
+        <Y t="11">706146</Y>
+        <Y t="12">703593</Y>
+        <Y t="13">701200</Y>
+        <Y t="14">698840</Y>
+        <Y t="15">696419</Y>
+        <Y t="16">693695</Y>
+        <Y t="17">690746</Y>
+        <Y t="18">687507</Y>
+        <Y t="19">683941</Y>
+        <Y t="20">680033</Y>
+        <Y t="21">675769</Y>
+        <Y t="22">671344</Y>
+        <Y t="23">666754</Y>
+        <Y t="24">661997</Y>
+        <Y t="25">657077</Y>
+        <Y t="26">651998</Y>
+        <Y t="27">646757</Y>
+        <Y t="28">641353</Y>
+        <Y t="29">635778</Y>
+        <Y t="30">630038</Y>
+        <Y t="31">624124</Y>
+        <Y t="32">618056</Y>
+        <Y t="33">611827</Y>
+        <Y t="34">605430</Y>
+        <Y t="35">598860</Y>
+        <Y t="36">592107</Y>
+        <Y t="37">585167</Y>
+        <Y t="38">578019</Y>
+        <Y t="39">570656</Y>
+        <Y t="40">563077</Y>
+        <Y t="41">555254</Y>
+        <Y t="42">547288</Y>
+        <Y t="43">539161</Y>
+        <Y t="44">530838</Y>
+        <Y t="45">522374</Y>
+        <Y t="46">513702</Y>
+        <Y t="47">504836</Y>
+        <Y t="48">495761</Y>
+        <Y t="49">486479</Y>
+        <Y t="50">476980</Y>
+        <Y t="51">467254</Y>
+        <Y t="52">457022</Y>
+        <Y t="53">446510</Y>
+        <Y t="54">435729</Y>
+        <Y t="55">424677</Y>
+        <Y t="56">413351</Y>
+        <Y t="57">401740</Y>
+        <Y t="58">389827</Y>
+        <Y t="59">377591</Y>
+        <Y t="60">365011</Y>
+        <Y t="61">352071</Y>
+        <Y t="62">338820</Y>
+        <Y t="63">325256</Y>
+        <Y t="64">311368</Y>
+        <Y t="65">297156</Y>
+        <Y t="66">282638</Y>
+        <Y t="67">267829</Y>
+        <Y t="68">252763</Y>
+        <Y t="69">237487</Y>
+        <Y t="70">222056</Y>
+        <Y t="71">206539</Y>
+        <Y t="72">190971</Y>
+        <Y t="73">175419</Y>
+        <Y t="74">160074</Y>
+        <Y t="75">144960</Y>
+        <Y t="76">130227</Y>
+        <Y t="77">115986</Y>
+        <Y t="78">102359</Y>
+        <Y t="79">89449</Y>
+        <Y t="80">77354</Y>
+        <Y t="81">66153</Y>
+        <Y t="82">55842</Y>
+        <Y t="83">46489</Y>
+        <Y t="84">38132</Y>
+        <Y t="85">30785</Y>
+        <Y t="86">24436</Y>
+        <Y t="87">19054</Y>
+        <Y t="88">14576</Y>
+        <Y t="89">10926</Y>
+        <Y t="90">8015</Y>
+        <Y t="91">5748</Y>
+        <Y t="92">4025</Y>
+        <Y t="93">2749</Y>
+        <Y t="94">1828</Y>
+        <Y t="95">1183</Y>
+        <Y t="96">742</Y>
+        <Y t="97">452</Y>
+        <Y t="98">266</Y>
+        <Y t="99">151</Y>
+        <Y t="100">82</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

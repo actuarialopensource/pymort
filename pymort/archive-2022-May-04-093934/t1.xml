@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Harry W. Jones, “The Commissioner’s 1941 Mortality Table” written discussion of “ The Commissioner’s 1941 Standard Mortality Table, Vol. XLII, Page 314”,  Transaction of the Society of Actuaries of America, Vol. XLIII (1942) p. 85</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1941 CSO Basic Table, ANB</TableName>
+    <TableDescription>1941 Commissioners Standard Ordinary (CSO) Basic Table. Male and Female Combined. Basis: Age Nearest Birthday. Minimum Age: 1. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: The 1941 Commissioners Standard Ordinary (CSO) Experience Table (SOA Table Identity 3) is based on the experience of 16 principle life insurance companies in the United States and Canada from their policies between 1931 and 1940. The table is a composite of male and female lives but is primarily representative of male mortality. The table was graduated and loaded to provide a table with smooth rates that had a margin for safety. The margin was intended to increase the chances that the funds accumulated would be sufficient for an insurance company to meet its obligations. The 1941 CSO Experience Table was later accompanied by a Basic Table with the margins removed so that insurers could measure their own experience against the actual experience of the 16 companies. In general, this Basic Table is close to the original Experience Table but differs substantially at certain ages affected by the re-graduation. Methodology: A special iterative formula was developed for removing the margin from 1941 CSO table to find an "unloaded" Basic version. See SOA Table Identity 3 for construction methodology of the underlying 1941 CSO Experience Table. Note this table does not include the 1943 Bowers’ extension for age 0 that the Experience Table does. Data Transcription Errors Detected: 09/2012.  Data Corrected and Certified: 10/2012</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1941 US Commissioners Standard Ordinary (CSO) Basic Table, Male and Female Combined. Basis: Age Nearest Birthday. Minimum Age: 1. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.00501</Y>
+        <Y t="2">0.00337</Y>
+        <Y t="3">0.00260</Y>
+        <Y t="4">0.00220</Y>
+        <Y t="5">0.00196</Y>
+        <Y t="6">0.00180</Y>
+        <Y t="7">0.00164</Y>
+        <Y t="8">0.00147</Y>
+        <Y t="9">0.00127</Y>
+        <Y t="10">0.00111</Y>
+        <Y t="11">0.00103</Y>
+        <Y t="12">0.00103</Y>
+        <Y t="13">0.00107</Y>
+        <Y t="14">0.00115</Y>
+        <Y t="15">0.00121</Y>
+        <Y t="16">0.00123</Y>
+        <Y t="17">0.00127</Y>
+        <Y t="18">0.00131</Y>
+        <Y t="19">0.00136</Y>
+        <Y t="20">0.00140</Y>
+        <Y t="21">0.00146</Y>
+        <Y t="22">0.00152</Y>
+        <Y t="23">0.00159</Y>
+        <Y t="24">0.00165</Y>
+        <Y t="25">0.00174</Y>
+        <Y t="26">0.00182</Y>
+        <Y t="27">0.00192</Y>
+        <Y t="28">0.00203</Y>
+        <Y t="29">0.00215</Y>
+        <Y t="30">0.00228</Y>
+        <Y t="31">0.00242</Y>
+        <Y t="32">0.00258</Y>
+        <Y t="33">0.00275</Y>
+        <Y t="34">0.00295</Y>
+        <Y t="35">0.00315</Y>
+        <Y t="36">0.00338</Y>
+        <Y t="37">0.00363</Y>
+        <Y t="38">0.00390</Y>
+        <Y t="39">0.00421</Y>
+        <Y t="40">0.00453</Y>
+        <Y t="41">0.00489</Y>
+        <Y t="42">0.00528</Y>
+        <Y t="43">0.00571</Y>
+        <Y t="44">0.00618</Y>
+        <Y t="45">0.00669</Y>
+        <Y t="46">0.00725</Y>
+        <Y t="47">0.00786</Y>
+        <Y t="48">0.00852</Y>
+        <Y t="49">0.00926</Y>
+        <Y t="50">0.01005</Y>
+        <Y t="51">0.01092</Y>
+        <Y t="52">0.01186</Y>
+        <Y t="53">0.01289</Y>
+        <Y t="54">0.01402</Y>
+        <Y t="55">0.01524</Y>
+        <Y t="56">0.01658</Y>
+        <Y t="57">0.01803</Y>
+        <Y t="58">0.01961</Y>
+        <Y t="59">0.02134</Y>
+        <Y t="60">0.02321</Y>
+        <Y t="61">0.02525</Y>
+        <Y t="62">0.02748</Y>
+        <Y t="63">0.02988</Y>
+        <Y t="64">0.03251</Y>
+        <Y t="65">0.03537</Y>
+        <Y t="66">0.03847</Y>
+        <Y t="67">0.04183</Y>
+        <Y t="68">0.04548</Y>
+        <Y t="69">0.04945</Y>
+        <Y t="70">0.05375</Y>
+        <Y t="71">0.05841</Y>
+        <Y t="72">0.06345</Y>
+        <Y t="73">0.06892</Y>
+        <Y t="74">0.07483</Y>
+        <Y t="75">0.08123</Y>
+        <Y t="76">0.08814</Y>
+        <Y t="77">0.09559</Y>
+        <Y t="78">0.10364</Y>
+        <Y t="79">0.11230</Y>
+        <Y t="80">0.12163</Y>
+        <Y t="81">0.13166</Y>
+        <Y t="82">0.14243</Y>
+        <Y t="83">0.15397</Y>
+        <Y t="84">0.16634</Y>
+        <Y t="85">0.17954</Y>
+        <Y t="86">0.19364</Y>
+        <Y t="87">0.20863</Y>
+        <Y t="88">0.22460</Y>
+        <Y t="89">0.24147</Y>
+        <Y t="90">0.25928</Y>
+        <Y t="91">0.27798</Y>
+        <Y t="92">0.29755</Y>
+        <Y t="93">0.31776</Y>
+        <Y t="94">0.33846</Y>
+        <Y t="95">0.35830</Y>
+        <Y t="96">0.39994</Y>
+        <Y t="97">0.48251</Y>
+        <Y t="98">0.61759</Y>
+        <Y t="99">0.77724</Y>
+        <Y t="100">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

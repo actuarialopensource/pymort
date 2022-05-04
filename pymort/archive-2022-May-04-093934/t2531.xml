@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2531</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>“Group Life Insurance Mortality and Morbidity Study”, Report of the Society of Actuaries Group Life Insurance Experience Committee, Society of Actuaries (2006) Table 3. Accessed November, 2013 from: https://www.soa.org/resources/experience-studies/2005-2009/hlth-2006-group-term-life-mortality-and-morbidity-study/</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>2006 Group Term Life Monthly Waiver Incidence Rates - Females</TableName>
+    <TableDescription>2006 Group Term Life Monthly Waiver Incidence Rates – Females. Basis: Lives. Minimum Age: 17. Maximum Age: 62</TableDescription>
+    <Comments>Study Data: The request for the data was issued in late 2002, and data were collected from 2003 through 2005. The Waiver provisions included in the 2006 Study are:(1) Disabled prior to age 60/65 with benefits payable for the lifetime of the claimant and (2) Disabled prior to age 60/65 with benefits payable to age 65/70. Methodology: Previous group term life experience studies attempted to reflect the cost of the Waiver claim by adjusting the Waiver incidence rates by a factor of 75%, which is considered to be conservative. The Committee felt that it was more appropriate to display the full, unadjusted Waiver incidence rate and allow companies to assign their own cost to the Waiver benefit. Companies should NOT simply add the Waiver rate and the death rate (See SOA Table Identities 1473 and 14 89) to develop a total rate, which would materially overstate the cost. To determine a total rate, the Waiver rate needs to be adjusted to reflect the present value of the claim. Transcription Errors: None. Data Certified: 11/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Life, Waiver</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2006 Group Term Life Monthly Waiver Incidence Rates – Females. Basis: Lives. Minimum Age: 17. Maximum Age: 62</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>62</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.003</Y>
+        <Y t="22">0.007</Y>
+        <Y t="27">0.011</Y>
+        <Y t="32">0.019</Y>
+        <Y t="37">0.029</Y>
+        <Y t="42">0.041</Y>
+        <Y t="47">0.055</Y>
+        <Y t="52">0.079</Y>
+        <Y t="57">0.122</Y>
+        <Y t="62">0.056</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

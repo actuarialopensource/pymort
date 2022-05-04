@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2821</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Collegium für Lebensversichesrungs-Wissenchaft, “Deutsche Sterblichkeits-Tafeln aus den Erfahrungen von Dreiundzwanzig Lebensversicherungs-Gesellschaften”, Ernst Siegfried Mittler and Son (Berlin, 1883), reprinted James W. Glover, “United States Life Tables 1890,1901, 1910, and 1901-1910 with Explanatory Text, Mathematical Theory, Computations, Graphs and Original Statistics, also Tables of United States Life Annuities,  Life Tables of Foreign Countries, Mortality Tables of Life Insurance Companies”, Department of Commerce, Bureau of the Census (Washington, 1921). Accessed: March, 2014 from http://www.cdc.gov/nchs/data/lifetables/life1890-1910.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Twenty-Three German Offices Table</TableName>
+    <TableDescription>Twenty-Three German Offices Table. Minimum Age: 17 Maximum Age: 89</TableDescription>
+    <Comments>Study Data: Experience of 23 German companies. Complied with reference to actual dates of birth and excluded duplicate polices on one life. The table is noteworthy in that in his “On The Effects Of Selection - An Actuarial Essay”, Emory McClintock commented how the mortality of Germany, as exhibited by the 23 German Offices table, was far inferior to that of Great Britain and America as modeled by H^M (See SOA Table Identity 253) and the 30 American Offices table (See SOA Table Identify 300), respectively. Mr. McClintock further proposed that the inferiority in longevity in part stemmed from the consumption of beer. Methodology: Data was graduated but methodology is not specified in source material. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>Twenty-Three German Offices Table. Minimum Age: 17 Maximum Age: 89</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.00886</Y>
+        <Y t="18">0.00920</Y>
+        <Y t="19">0.00934</Y>
+        <Y t="20">0.00920</Y>
+        <Y t="21">0.00917</Y>
+        <Y t="22">0.00903</Y>
+        <Y t="23">0.00884</Y>
+        <Y t="24">0.00866</Y>
+        <Y t="25">0.00854</Y>
+        <Y t="26">0.00848</Y>
+        <Y t="27">0.00848</Y>
+        <Y t="28">0.00854</Y>
+        <Y t="29">0.00867</Y>
+        <Y t="30">0.00883</Y>
+        <Y t="31">0.00901</Y>
+        <Y t="32">0.00923</Y>
+        <Y t="33">0.00945</Y>
+        <Y t="34">0.00970</Y>
+        <Y t="35">0.00998</Y>
+        <Y t="36">0.01027</Y>
+        <Y t="37">0.01059</Y>
+        <Y t="38">0.01095</Y>
+        <Y t="39">0.01133</Y>
+        <Y t="40">0.01177</Y>
+        <Y t="41">0.01229</Y>
+        <Y t="42">0.01279</Y>
+        <Y t="43">0.01332</Y>
+        <Y t="44">0.01385</Y>
+        <Y t="45">0.01437</Y>
+        <Y t="46">0.01489</Y>
+        <Y t="47">0.01550</Y>
+        <Y t="48">0.01621</Y>
+        <Y t="49">0.01706</Y>
+        <Y t="50">0.01814</Y>
+        <Y t="51">0.01931</Y>
+        <Y t="52">0.02061</Y>
+        <Y t="53">0.02199</Y>
+        <Y t="54">0.02349</Y>
+        <Y t="55">0.02505</Y>
+        <Y t="56">0.02680</Y>
+        <Y t="57">0.02867</Y>
+        <Y t="58">0.03073</Y>
+        <Y t="59">0.03289</Y>
+        <Y t="60">0.03536</Y>
+        <Y t="61">0.03782</Y>
+        <Y t="62">0.04042</Y>
+        <Y t="63">0.04317</Y>
+        <Y t="64">0.04613</Y>
+        <Y t="65">0.04943</Y>
+        <Y t="66">0.05329</Y>
+        <Y t="67">0.05762</Y>
+        <Y t="68">0.06226</Y>
+        <Y t="69">0.06731</Y>
+        <Y t="70">0.07276</Y>
+        <Y t="71">0.07856</Y>
+        <Y t="72">0.08459</Y>
+        <Y t="73">0.09130</Y>
+        <Y t="74">0.09854</Y>
+        <Y t="75">0.10649</Y>
+        <Y t="76">0.11451</Y>
+        <Y t="77">0.12312</Y>
+        <Y t="78">0.13233</Y>
+        <Y t="79">0.14219</Y>
+        <Y t="80">0.15514</Y>
+        <Y t="81">0.16974</Y>
+        <Y t="82">0.18451</Y>
+        <Y t="83">0.19825</Y>
+        <Y t="84">0.21112</Y>
+        <Y t="85">0.22200</Y>
+        <Y t="86">0.22805</Y>
+        <Y t="87">0.23368</Y>
+        <Y t="88">0.23788</Y>
+        <Y t="89">0.24316</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

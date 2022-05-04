@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2831</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Collegium für Lebensversichesrungs-Wissenchaft, “Deutsche Sterblichkeits-Tafeln aus den Erfahrungen von Dreiundzwanzig Lebensversicherungs-Gesellschaften”, Ernst Siegfried Mittler and Son (Berlin, 1883), reprinted Miles Menander Dawson, “Practial Lessons in Actuarial Science, An Elementary Text-Book”, The Spectator Company (New York, 1896). Accessed June, 2014 from https://archive.org/stream/practicallessons00dawsrich#page/n3/mode/2up.</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>Twenty-three German Offices Table</TableName>
+    <TableDescription>Twenty-three German Offices Table.  Minimum Age: 17 Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Experience of 23 German companies. Complied with reference to actual dates of birth and excluded duplicate polices on one life. Methodology: Not available at this time. NOTE: Initial European Life Tables were printed with just lx values. Over time, the tables were expanded to include qx values that then became the predominant format for the tables of this database. To aid in tracking the data available, qx versions have been created for this and other older tables (the counterpart qx table for Twenty-three German Offices  has SOA Table Identity 2818). Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>Germany</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="49">Germany</Nation>
+      <TableDescription>Twenty-three German Offices Table.  Minimum Age: 17 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">102787</Y>
+        <Y t="18">101878</Y>
+        <Y t="19">100942</Y>
+        <Y t="20">100000</Y>
+        <Y t="21">99081</Y>
+        <Y t="22">98173</Y>
+        <Y t="23">97286</Y>
+        <Y t="24">96425</Y>
+        <Y t="25">95590</Y>
+        <Y t="26">94774</Y>
+        <Y t="27">93970</Y>
+        <Y t="28">93173</Y>
+        <Y t="29">92378</Y>
+        <Y t="30">91578</Y>
+        <Y t="31">90770</Y>
+        <Y t="32">89952</Y>
+        <Y t="33">89121</Y>
+        <Y t="34">88280</Y>
+        <Y t="35">87424</Y>
+        <Y t="36">86551</Y>
+        <Y t="37">85662</Y>
+        <Y t="38">84756</Y>
+        <Y t="39">83828</Y>
+        <Y t="40">82878</Y>
+        <Y t="41">81903</Y>
+        <Y t="42">80897</Y>
+        <Y t="43">79862</Y>
+        <Y t="44">78799</Y>
+        <Y t="45">77707</Y>
+        <Y t="46">76590</Y>
+        <Y t="47">75450</Y>
+        <Y t="48">74281</Y>
+        <Y t="49">73077</Y>
+        <Y t="50">71831</Y>
+        <Y t="51">70528</Y>
+        <Y t="52">69166</Y>
+        <Y t="53">67741</Y>
+        <Y t="54">66251</Y>
+        <Y t="55">64695</Y>
+        <Y t="56">63074</Y>
+        <Y t="57">61383</Y>
+        <Y t="58">59624</Y>
+        <Y t="59">57792</Y>
+        <Y t="60">55892</Y>
+        <Y t="61">53916</Y>
+        <Y t="62">51878</Y>
+        <Y t="63">49781</Y>
+        <Y t="64">47632</Y>
+        <Y t="65">45435</Y>
+        <Y t="66">43189</Y>
+        <Y t="67">40887</Y>
+        <Y t="68">38532</Y>
+        <Y t="69">36133</Y>
+        <Y t="70">33701</Y>
+        <Y t="71">31249</Y>
+        <Y t="72">28794</Y>
+        <Y t="73">26358</Y>
+        <Y t="74">23952</Y>
+        <Y t="75">21592</Y>
+        <Y t="76">19293</Y>
+        <Y t="77">17083</Y>
+        <Y t="78">14980</Y>
+        <Y t="79">12998</Y>
+        <Y t="80">11150</Y>
+        <Y t="81">9420</Y>
+        <Y t="82">7821</Y>
+        <Y t="83">6378</Y>
+        <Y t="84">5114</Y>
+        <Y t="85">4034</Y>
+        <Y t="86">3138</Y>
+        <Y t="87">2423</Y>
+        <Y t="88">1836</Y>
+        <Y t="89">1349</Y>
+        <Y t="90">955</Y>
+        <Y t="91">646</Y>
+        <Y t="92">413</Y>
+        <Y t="93">246</Y>
+        <Y t="94">133</Y>
+        <Y t="95">64</Y>
+        <Y t="96">27</Y>
+        <Y t="97">9</Y>
+        <Y t="98">3</Y>
+        <Y t="99">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

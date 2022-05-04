@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2759</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. William Farr, “Twelfth Annual Report of the Registrar General of Births, Deaths and Marriages in England - Appendix”, H. Claves and Sons for Her Majesty’s Stationer’s Office (London, 1853) Accessed: April, 2014 from http://histpop.org/ohpr/servlet/Show?page=Home.</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>ELT No. 2 (1838-1844) - Male</TableName>
+    <TableDescription>English Life Tables (ELT) Number 2 (1838-44) - Male.  Minimum Age: 0 Maximum Age: 97</TableDescription>
+    <Comments>Study Data: Same population data from 1941 Census for England and Wales (i.e. not for all of the United Kingdom) that utilized in construction of English Life Table No. 1 (See SOA Table Identities 2755-2756). Deaths taken from the period 1938-44 published in the Ninth Registrar-Generals Report. Methodology: The abstracts of the population for 1841 distinguish the numbers living at each quinquennial pierod of life, and the abstracts of deaths are taken at corresponding periods, except in the first 5 years of age, when the rate of mortality varies so rapidly that every year and even month is marked by a change. It was found that the rate of mortality after age 15 furnished the most satisfactory basis for determining the series of fractions to express the probabilities of life. At the ealier ages, the mortality for each year was directly deduced from the returns and after careful comparison, the first series of logarithms was drawn gradually in to the second and then the second into the third. Radix taken as 1000 rather than 100,000 in Engish Life Table No. 1. NOTE: Initial English Life Tables were printed with just lx values. Over time, the tables were expanded to include qx values that then became the predominant format for the tables of this database. To aid in tracking the data available, qx versions have been created for this and other older tables. (Counterpart qx tables for ELT No 2 have SOA Table Identities 2761-2762). Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+    <KeyWord>Population</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 2 (1838-44) - Male.  Minimum Age: 0 Maximum Age: 97</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">513</Y>
+        <Y t="1">431</Y>
+        <Y t="2">403</Y>
+        <Y t="3">388</Y>
+        <Y t="4">379</Y>
+        <Y t="5">372</Y>
+        <Y t="6">367</Y>
+        <Y t="7">363</Y>
+        <Y t="8">360</Y>
+        <Y t="9">357</Y>
+        <Y t="10">355</Y>
+        <Y t="11">353</Y>
+        <Y t="12">351</Y>
+        <Y t="13">350</Y>
+        <Y t="14">348</Y>
+        <Y t="15">346</Y>
+        <Y t="16">344</Y>
+        <Y t="17">342</Y>
+        <Y t="18">340</Y>
+        <Y t="19">338</Y>
+        <Y t="20">335</Y>
+        <Y t="21">332</Y>
+        <Y t="22">329</Y>
+        <Y t="23">327</Y>
+        <Y t="24">324</Y>
+        <Y t="25">321</Y>
+        <Y t="26">318</Y>
+        <Y t="27">315</Y>
+        <Y t="28">313</Y>
+        <Y t="29">310</Y>
+        <Y t="30">307</Y>
+        <Y t="31">304</Y>
+        <Y t="32">301</Y>
+        <Y t="33">298</Y>
+        <Y t="34">294</Y>
+        <Y t="35">291</Y>
+        <Y t="36">288</Y>
+        <Y t="37">285</Y>
+        <Y t="38">282</Y>
+        <Y t="39">278</Y>
+        <Y t="40">275</Y>
+        <Y t="41">271</Y>
+        <Y t="42">268</Y>
+        <Y t="43">264</Y>
+        <Y t="44">261</Y>
+        <Y t="45">257</Y>
+        <Y t="46">253</Y>
+        <Y t="47">249</Y>
+        <Y t="48">245</Y>
+        <Y t="49">241</Y>
+        <Y t="50">237</Y>
+        <Y t="51">233</Y>
+        <Y t="52">228</Y>
+        <Y t="53">224</Y>
+        <Y t="54">219</Y>
+        <Y t="55">215</Y>
+        <Y t="56">210</Y>
+        <Y t="57">205</Y>
+        <Y t="58">200</Y>
+        <Y t="59">194</Y>
+        <Y t="60">189</Y>
+        <Y t="61">183</Y>
+        <Y t="62">176</Y>
+        <Y t="63">170</Y>
+        <Y t="64">163</Y>
+        <Y t="65">156</Y>
+        <Y t="66">149</Y>
+        <Y t="67">141</Y>
+        <Y t="68">134</Y>
+        <Y t="69">126</Y>
+        <Y t="70">118</Y>
+        <Y t="71">111</Y>
+        <Y t="72">103</Y>
+        <Y t="73">95</Y>
+        <Y t="74">87</Y>
+        <Y t="75">79</Y>
+        <Y t="76">71</Y>
+        <Y t="77">64</Y>
+        <Y t="78">57</Y>
+        <Y t="79">50</Y>
+        <Y t="80">44</Y>
+        <Y t="81">37</Y>
+        <Y t="82">32</Y>
+        <Y t="83">27</Y>
+        <Y t="84">22</Y>
+        <Y t="85">18</Y>
+        <Y t="86">15</Y>
+        <Y t="87">12</Y>
+        <Y t="88">9</Y>
+        <Y t="89">7</Y>
+        <Y t="90">5</Y>
+        <Y t="91">4</Y>
+        <Y t="92">3</Y>
+        <Y t="93">2</Y>
+        <Y t="94">1</Y>
+        <Y t="95">1</Y>
+        <Y t="96">1</Y>
+        <Y t="97">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

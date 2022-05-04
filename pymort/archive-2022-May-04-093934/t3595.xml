@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3595</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, pri-2012-mort-tables-headcount.xlsx, Sheet 'Nondisabled Annuitant', https://www.soa.org/globalassets/assets/files/resources/experience-studies/2019/pri-2012-mort-tables-headcount.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Pri.H-2012 Female Nondisabled Annuitant Blue Collar</TableName>
+    <TableDescription>Pri-2012 Headcount-weighted Mortality Table - Female Nondisabled Annuitant Blue Collar. Ages 50-120. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of private-sector retirement plans in the United States. The final dataset upon which this study has been based includes approximately 16 million life-years of exposure and 343 thousand deaths from private pension plans across the United States.  Data certified: 05/2019.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord> Annuitant Mortality</KeyWord>
+    <KeyWord> United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pri-2012 Headcount-weighted Mortality Table - Female Nondisabled Annuitant Blue Collar. Ages 50-120. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>50</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="50">0.00768</Y>
+        <Y t="51">0.00756</Y>
+        <Y t="52">0.00762</Y>
+        <Y t="53">0.00776</Y>
+        <Y t="54">0.00796</Y>
+        <Y t="55">0.00784</Y>
+        <Y t="56">0.00774</Y>
+        <Y t="57">0.00804</Y>
+        <Y t="58">0.00845</Y>
+        <Y t="59">0.00894</Y>
+        <Y t="60">0.00947</Y>
+        <Y t="61">0.0101</Y>
+        <Y t="62">0.01072</Y>
+        <Y t="63">0.01133</Y>
+        <Y t="64">0.01213</Y>
+        <Y t="65">0.01295</Y>
+        <Y t="66">0.01382</Y>
+        <Y t="67">0.01483</Y>
+        <Y t="68">0.016</Y>
+        <Y t="69">0.0173</Y>
+        <Y t="70">0.01874</Y>
+        <Y t="71">0.02033</Y>
+        <Y t="72">0.02211</Y>
+        <Y t="73">0.0241</Y>
+        <Y t="74">0.02636</Y>
+        <Y t="75">0.02888</Y>
+        <Y t="76">0.03169</Y>
+        <Y t="77">0.03481</Y>
+        <Y t="78">0.03828</Y>
+        <Y t="79">0.04213</Y>
+        <Y t="80">0.0464</Y>
+        <Y t="81">0.05116</Y>
+        <Y t="82">0.05645</Y>
+        <Y t="83">0.06238</Y>
+        <Y t="84">0.06903</Y>
+        <Y t="85">0.07648</Y>
+        <Y t="86">0.08499</Y>
+        <Y t="87">0.09483</Y>
+        <Y t="88">0.10562</Y>
+        <Y t="89">0.11746</Y>
+        <Y t="90">0.13046</Y>
+        <Y t="91">0.14412</Y>
+        <Y t="92">0.15813</Y>
+        <Y t="93">0.1724</Y>
+        <Y t="94">0.18693</Y>
+        <Y t="95">0.20184</Y>
+        <Y t="96">0.2173</Y>
+        <Y t="97">0.23346</Y>
+        <Y t="98">0.25045</Y>
+        <Y t="99">0.26832</Y>
+        <Y t="100">0.28698</Y>
+        <Y t="101">0.30619</Y>
+        <Y t="102">0.32549</Y>
+        <Y t="103">0.34472</Y>
+        <Y t="104">0.36375</Y>
+        <Y t="105">0.38243</Y>
+        <Y t="106">0.40065</Y>
+        <Y t="107">0.41828</Y>
+        <Y t="108">0.43522</Y>
+        <Y t="109">0.45139</Y>
+        <Y t="110">0.46673</Y>
+        <Y t="111">0.4812</Y>
+        <Y t="112">0.49477</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

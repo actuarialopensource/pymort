@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2856</TableIdentity>
+    <ProviderDomain>www.cso.ie</ProviderDomain>
+    <ProviderName>Kieren O’Shea</ProviderName>
+    <TableReference>Department of Industry and Commerce, “Register of Population 1941”, The Stationary Office (Dublin, 1944)</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Irish Life Table No. 3 (1940-42) Males</TableName>
+    <TableDescription>Irish Life Table No. 3 (1940-42) Males. Minimum Age: 0. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Special data collection taken in conjunction with the Emergency Powers Order of 1941 with the purpose of furnishing all persons in Érie with ration books. Statement of date of birth instead of age at time of the collection was an experimental innovation. The regrettable tendency to state ages in round numbers (e.g. 40, 50, 60, etc.) has often been the subject of comment in Census reports. This procedure seems to have brought about a substantial improvement. Deaths were taken for the years 1940-42. Methodology:  Data grouped by calendar year and then later the figures were adjusted to show numbers in the customary Census classes. As the data was collected November 17, it was necessary to adjust numbers in the first group by way of infantile mortality and birth statistics. There was a relatively small net movement outward for adult females; substantial emigration was nearly compensated for by large wartime immigration. Remaining methodology followed that employed in the construction of Irish Life Table 2 (See SOA Table Identities 2767 and 2768). In conjunction with the publication of the Life Table for Érie, for the first time, statistics for the County Boroughs, Dún Laoghaire Borough, and Urban Districts has been made available (See SOA Table Identities 2858 and 2859). These areas account for 33.4% of the population of the State. Data Transcription Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Ireland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="353">Ireland</Nation>
+      <TableDescription>Irish Life Table No. 3 (1940-42) Males. Minimum Age: 0. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.08147</Y>
+        <Y t="1">0.01107</Y>
+        <Y t="2">0.00527</Y>
+        <Y t="3">0.00375</Y>
+        <Y t="4">0.00300</Y>
+        <Y t="5">0.00270</Y>
+        <Y t="6">0.00232</Y>
+        <Y t="7">0.00189</Y>
+        <Y t="8">0.00151</Y>
+        <Y t="9">0.00127</Y>
+        <Y t="10">0.00115</Y>
+        <Y t="11">0.00114</Y>
+        <Y t="12">0.00123</Y>
+        <Y t="13">0.00142</Y>
+        <Y t="14">0.00165</Y>
+        <Y t="15">0.00199</Y>
+        <Y t="16">0.00233</Y>
+        <Y t="17">0.00267</Y>
+        <Y t="18">0.00295</Y>
+        <Y t="19">0.00323</Y>
+        <Y t="20">0.00349</Y>
+        <Y t="21">0.00372</Y>
+        <Y t="22">0.00389</Y>
+        <Y t="23">0.00397</Y>
+        <Y t="24">0.00397</Y>
+        <Y t="25">0.00394</Y>
+        <Y t="26">0.00392</Y>
+        <Y t="27">0.00394</Y>
+        <Y t="28">0.00402</Y>
+        <Y t="29">0.00413</Y>
+        <Y t="30">0.00425</Y>
+        <Y t="31">0.00438</Y>
+        <Y t="32">0.00450</Y>
+        <Y t="33">0.00460</Y>
+        <Y t="34">0.00469</Y>
+        <Y t="35">0.00480</Y>
+        <Y t="36">0.00489</Y>
+        <Y t="37">0.00504</Y>
+        <Y t="38">0.00521</Y>
+        <Y t="39">0.00539</Y>
+        <Y t="40">0.00560</Y>
+        <Y t="41">0.00586</Y>
+        <Y t="42">0.00620</Y>
+        <Y t="43">0.00659</Y>
+        <Y t="44">0.00705</Y>
+        <Y t="45">0.00756</Y>
+        <Y t="46">0.00812</Y>
+        <Y t="47">0.00870</Y>
+        <Y t="48">0.00929</Y>
+        <Y t="49">0.00989</Y>
+        <Y t="50">0.01054</Y>
+        <Y t="51">0.01128</Y>
+        <Y t="52">0.01216</Y>
+        <Y t="53">0.01314</Y>
+        <Y t="54">0.01423</Y>
+        <Y t="55">0.01543</Y>
+        <Y t="56">0.01675</Y>
+        <Y t="57">0.01822</Y>
+        <Y t="58">0.01982</Y>
+        <Y t="59">0.02154</Y>
+        <Y t="60">0.02341</Y>
+        <Y t="61">0.02547</Y>
+        <Y t="62">0.02775</Y>
+        <Y t="63">0.03010</Y>
+        <Y t="64">0.03250</Y>
+        <Y t="65">0.03504</Y>
+        <Y t="66">0.03788</Y>
+        <Y t="67">0.04101</Y>
+        <Y t="68">0.04446</Y>
+        <Y t="69">0.04830</Y>
+        <Y t="70">0.05257</Y>
+        <Y t="71">0.05744</Y>
+        <Y t="72">0.06300</Y>
+        <Y t="73">0.06913</Y>
+        <Y t="74">0.07585</Y>
+        <Y t="75">0.08309</Y>
+        <Y t="76">0.09075</Y>
+        <Y t="77">0.09875</Y>
+        <Y t="78">0.10697</Y>
+        <Y t="79">0.11527</Y>
+        <Y t="80">0.12352</Y>
+        <Y t="81">0.13176</Y>
+        <Y t="82">0.14023</Y>
+        <Y t="83">0.14894</Y>
+        <Y t="84">0.15786</Y>
+        <Y t="85">0.16703</Y>
+        <Y t="86">0.17643</Y>
+        <Y t="87">0.18606</Y>
+        <Y t="88">0.19593</Y>
+        <Y t="89">0.20605</Y>
+        <Y t="90">0.21641</Y>
+        <Y t="91">0.22700</Y>
+        <Y t="92">0.23784</Y>
+        <Y t="93">0.24892</Y>
+        <Y t="94">0.26023</Y>
+        <Y t="95">0.27180</Y>
+        <Y t="96">0.28359</Y>
+        <Y t="97">0.29563</Y>
+        <Y t="98">0.30789</Y>
+        <Y t="99">0.32039</Y>
+        <Y t="100">0.33311</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

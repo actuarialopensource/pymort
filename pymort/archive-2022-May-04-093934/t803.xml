@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>803</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>J. D. Craig, written discussion of “Mortality Table Construction Upon the Experience Under Group Policies, Transactions Actuarial Society of America, Vol. XXVIII, No. 78 (1927), p. 247-262.”, Transactions Actuarial Society of America Vol. XXIX, Actuarial Society of America (1928) p. 123, and Herbert J. Stark, “Actuarial Note: Extension of Combined Annuity Table to Age Zero”, Transactions Actuarial Society of America Vol. XXXIII, Actuarial Society of America (1932) p. 6. Reprinted by Nelson and Warren, Inc, “Principal Mortality Tables, Old and New”, (St. Louis, MO, 1957) p. 6-7</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Combined Annuity Mortality Table with Stark’s Extension – Male, ANB</TableName>
+    <TableDescription>Combined Annuity Mortality Table with Stark’s Extension – Male. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 106</TableDescription>
+    <Comments>Study Data: Meager annuity experience was available for group annuities for younger ages thus an empirical table was built based on E.E. Cammack’s Group Life Clerical Mortality Table up to age 50 and then graded into the ultimate rates from the American Annuitants Table (See SOA Table Identity 1600) at higher ages. Note the original publication provides only lx values not qx values and the table commenced at age 10. The table was extended to age 6 and then to age 0 by Herbert J. Stark in 1932. The table is used for both males and females by using a four year setback for females. Given the original table had only lx values and was later extended, the reprint by Nelson &amp; Warren has been relied upon for data transcription and certification.  Methodology: The table was graduated with Makeham’s Law to age 20, a special graduation technique was employed for ages from 20 to 35, and then Gompertz’ Method was used for ages 35 and over. Cammack’s table represented a weighted average of the rates of mortality among active and disabled lives. For the extension to age zero, Mr. Stark plotted the 1910 United States Life Table for ages one to eight on the same graph as the male values from the Combined Annuity Table for ages six to ten. The change in angular direction between consecutive ages from the 1910 United State Life Table was applied to the Combined Annuity Table. To extend the table to age zero, the ratio of q( ½ ) to q(1) from the1910 United States Life Table was used for age zero. Values for females were set equal to 85% of the male qx. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Combined Annuity Mortality Table with Stark’s Extension – Male. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 106</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>106</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.02942</Y>
+        <Y t="1">0.01632</Y>
+        <Y t="2">0.00830</Y>
+        <Y t="3">0.00492</Y>
+        <Y t="4">0.00297</Y>
+        <Y t="5">0.00212</Y>
+        <Y t="6">0.00142</Y>
+        <Y t="7">0.00145</Y>
+        <Y t="8">0.00147</Y>
+        <Y t="9">0.00150</Y>
+        <Y t="10">0.00153</Y>
+        <Y t="11">0.00157</Y>
+        <Y t="12">0.00161</Y>
+        <Y t="13">0.00165</Y>
+        <Y t="14">0.00169</Y>
+        <Y t="15">0.00174</Y>
+        <Y t="16">0.00179</Y>
+        <Y t="17">0.00185</Y>
+        <Y t="18">0.00191</Y>
+        <Y t="19">0.00197</Y>
+        <Y t="20">0.00205</Y>
+        <Y t="21">0.00211</Y>
+        <Y t="22">0.00215</Y>
+        <Y t="23">0.00218</Y>
+        <Y t="24">0.00220</Y>
+        <Y t="25">0.00222</Y>
+        <Y t="26">0.00223</Y>
+        <Y t="27">0.00224</Y>
+        <Y t="28">0.00227</Y>
+        <Y t="29">0.00231</Y>
+        <Y t="30">0.00236</Y>
+        <Y t="31">0.00244</Y>
+        <Y t="32">0.00255</Y>
+        <Y t="33">0.00269</Y>
+        <Y t="34">0.00288</Y>
+        <Y t="35">0.00310</Y>
+        <Y t="36">0.00336</Y>
+        <Y t="37">0.00364</Y>
+        <Y t="38">0.00395</Y>
+        <Y t="39">0.00428</Y>
+        <Y t="40">0.00464</Y>
+        <Y t="41">0.00503</Y>
+        <Y t="42">0.00545</Y>
+        <Y t="43">0.00590</Y>
+        <Y t="44">0.00639</Y>
+        <Y t="45">0.00693</Y>
+        <Y t="46">0.00751</Y>
+        <Y t="47">0.00814</Y>
+        <Y t="48">0.00882</Y>
+        <Y t="49">0.00955</Y>
+        <Y t="50">0.01035</Y>
+        <Y t="51">0.01121</Y>
+        <Y t="52">0.01215</Y>
+        <Y t="53">0.01316</Y>
+        <Y t="54">0.01426</Y>
+        <Y t="55">0.01545</Y>
+        <Y t="56">0.01673</Y>
+        <Y t="57">0.01812</Y>
+        <Y t="58">0.01963</Y>
+        <Y t="59">0.02126</Y>
+        <Y t="60">0.02302</Y>
+        <Y t="61">0.02493</Y>
+        <Y t="62">0.02700</Y>
+        <Y t="63">0.02923</Y>
+        <Y t="64">0.03164</Y>
+        <Y t="65">0.03425</Y>
+        <Y t="66">0.03707</Y>
+        <Y t="67">0.04012</Y>
+        <Y t="68">0.04341</Y>
+        <Y t="69">0.04697</Y>
+        <Y t="70">0.05081</Y>
+        <Y t="71">0.05495</Y>
+        <Y t="72">0.05943</Y>
+        <Y t="73">0.06425</Y>
+        <Y t="74">0.06945</Y>
+        <Y t="75">0.07506</Y>
+        <Y t="76">0.08109</Y>
+        <Y t="77">0.08759</Y>
+        <Y t="78">0.09458</Y>
+        <Y t="79">0.10210</Y>
+        <Y t="80">0.11018</Y>
+        <Y t="81">0.11886</Y>
+        <Y t="82">0.12817</Y>
+        <Y t="83">0.13814</Y>
+        <Y t="84">0.14883</Y>
+        <Y t="85">0.16027</Y>
+        <Y t="86">0.17249</Y>
+        <Y t="87">0.18553</Y>
+        <Y t="88">0.19944</Y>
+        <Y t="89">0.21425</Y>
+        <Y t="90">0.22999</Y>
+        <Y t="91">0.24669</Y>
+        <Y t="92">0.26439</Y>
+        <Y t="93">0.28310</Y>
+        <Y t="94">0.30285</Y>
+        <Y t="95">0.32364</Y>
+        <Y t="96">0.34548</Y>
+        <Y t="97">0.36835</Y>
+        <Y t="98">0.39225</Y>
+        <Y t="99">0.41712</Y>
+        <Y t="100">0.44294</Y>
+        <Y t="101">0.46963</Y>
+        <Y t="102">0.49712</Y>
+        <Y t="103">0.52531</Y>
+        <Y t="104">0.55409</Y>
+        <Y t="105">0.58331</Y>
+        <Y t="106">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

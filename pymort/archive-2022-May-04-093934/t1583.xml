@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1583</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Raymond B. Krieger, "Reserves for Lives Disabled under Group Insurance Extended Death Benefit Provisions of the Premium-Waiver Type", Transactions of the Society of Actuaries, Vol. XXIII, No. 67, Part I: Appendix 2B (1971) p. 441. Accessed: 12/2012 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1971/january/tsa71v23pt1n6722.pdf, p. 23</TableReference>
+    <ContentType tc="82">Claim Termination</ContentType>
+    <TableName>Krieger Table - Graduated Ultimate Disability Termination Rates</TableName>
+    <TableDescription>Ultimate Termination Rates for Disability Years 11 and over Based on Lives for Both Sexes Combined, Rates by Attained Age. Minimum Age: 27. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data:  Intercompany group experience was used to propose an actuarial basis appropriate for setting up disabled life reserves held under extended death benefit provisions of the premium-waiver type. Data is limited to a nine-month presumptive provision, that is, one in which total disability is presumed to be permanent after a nine-month waiting period from date of disablement and where proof of continued disability must be provided annually. The starting point for the study was data published in the 1968 Reports of the Transactions of the Society of Actuaries. The 1968 Study was based on the same types of cases as are included in the quinquennial studies of group life mortality experience; that is, it excludes union, trusteeship, and association cases as well as group indebtedness experience. The study covers the group term life experience of 12 companies in the Unites States and Canada between 1955 and 1965 anniversaries of the date of disablement for all disabilities approved before 1965. Termination rates encompass recovery following disability (SOA Table 1584) and death following disability (SOA Table 1585). Methodology:  As the original publication is extensively detailed with respect to the methodology used to construct the table, the “Transactions” publication should be consulted.  Data Transcription Errors: None. Data Certified: 12/2012</Comments>
+    <KeyWord>Ultimate</KeyWord>
+    <KeyWord>Claim Termination</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Ultimate Termination Rates for Disability Years 11 and over Based on Lives for Both Sexes Combined, Rates by Attained Age. Minimum Age: 27. Maximum Age: 99.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>27</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="27">0.036</Y>
+        <Y t="28">0.036</Y>
+        <Y t="29">0.036</Y>
+        <Y t="30">0.036</Y>
+        <Y t="31">0.036</Y>
+        <Y t="32">0.036</Y>
+        <Y t="33">0.036</Y>
+        <Y t="34">0.036</Y>
+        <Y t="35">0.036</Y>
+        <Y t="36">0.036</Y>
+        <Y t="37">0.036</Y>
+        <Y t="38">0.037</Y>
+        <Y t="39">0.038</Y>
+        <Y t="40">0.04</Y>
+        <Y t="41">0.04</Y>
+        <Y t="42">0.042</Y>
+        <Y t="43">0.044</Y>
+        <Y t="44">0.045</Y>
+        <Y t="45">0.046</Y>
+        <Y t="46">0.046</Y>
+        <Y t="47">0.047</Y>
+        <Y t="48">0.048</Y>
+        <Y t="49">0.049</Y>
+        <Y t="50">0.05</Y>
+        <Y t="51">0.05</Y>
+        <Y t="52">0.051</Y>
+        <Y t="53">0.051</Y>
+        <Y t="54">0.052</Y>
+        <Y t="55">0.052</Y>
+        <Y t="56">0.053</Y>
+        <Y t="57">0.053</Y>
+        <Y t="58">0.055</Y>
+        <Y t="59">0.056</Y>
+        <Y t="60">0.058</Y>
+        <Y t="61">0.06</Y>
+        <Y t="62">0.063</Y>
+        <Y t="63">0.067</Y>
+        <Y t="64">0.07</Y>
+        <Y t="65">0.073</Y>
+        <Y t="66">0.076</Y>
+        <Y t="67">0.08</Y>
+        <Y t="68">0.085</Y>
+        <Y t="69">0.088</Y>
+        <Y t="70">0.092</Y>
+        <Y t="71">0.096</Y>
+        <Y t="72">0.101</Y>
+        <Y t="73">0.105</Y>
+        <Y t="74">0.111</Y>
+        <Y t="75">0.116</Y>
+        <Y t="76">0.121</Y>
+        <Y t="77">0.128</Y>
+        <Y t="78">0.135</Y>
+        <Y t="79">0.143</Y>
+        <Y t="80">0.152</Y>
+        <Y t="81">0.161</Y>
+        <Y t="82">0.171</Y>
+        <Y t="83">0.181</Y>
+        <Y t="84">0.192</Y>
+        <Y t="85">0.203</Y>
+        <Y t="86">0.215</Y>
+        <Y t="87">0.227</Y>
+        <Y t="88">0.24</Y>
+        <Y t="89">0.254</Y>
+        <Y t="90">0.27</Y>
+        <Y t="91">0.288</Y>
+        <Y t="92">0.308</Y>
+        <Y t="93">0.331</Y>
+        <Y t="94">0.359</Y>
+        <Y t="95">0.393</Y>
+        <Y t="96">0.443</Y>
+        <Y t="97">0.53</Y>
+        <Y t="98">0.71</Y>
+        <Y t="99">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

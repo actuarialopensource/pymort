@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2808</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Jack Luff</ProviderName>
+    <TableReference>Industry Advisory Committee of the National Association of Insurance Commissioners, "1964 Commissioners Disability Table, Volume 3", Heath Insurance Association of America (Chicago, 1965) Table B2</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1964 CDT Sickness Factors, ANB</TableName>
+    <TableDescription>1964 Commissioners Disability Table (CDT) Sickness Factors. Basis: Age Nearest Birthday. Minimum Age: 22 Maximum Age: 72</TableDescription>
+    <Comments>Study Data: Based on data on the first year of total disability for claims incurred in the years 1958-1961, contributed by 17 companies to the Society of Actuaries Committee on Experience under Individual Health Insurance. In addition, data published in the 1961 and 1962 Reports of the Society of Actuaries pertaining to the first 52 weeks of disability, were utilized. The data represent a cross-section of the insured population, that is, includes individuals with and without occupational and other special hazards. Given this is an average table, it is usually not necessary to make special provision in the valuation of liabilities for policies involving special hazards. However, it should be emphasized that adequate reserves should be established by the insurer in any case where experience indicates that such minimum standards do not place a sound value on the liabilities. As two-year coverages accounted for the bulk of the business sold prior to 1960, recent data were sought from several larger companies. The data showed there had been no great departures from the 1930-1950 disabled life termination rates for Benefits 2 and 3 combined in the 1952 Disability Study of the Society of Actuaries and that data was hence used. Methodology:  Particular attention was given to age, sex and occupation however the Committee concluded separate reserve tables, even for broad occupational groups, were neither necessary nor warranted. Judicious underwriting of loss-of-time policies and use of impairment riders seems a contributing factor to this situation. Likewise, the Committee recommends that the 1964 Commissioners Disability Table (CDT) be used without adjustment for women. The nature of the disability rather than occupation or gender determines the ability to return to gainful employment. The combined experience for accident and sickness was graduated as a continuance table for quinquennial ages and extended for the second and later years of disability by use of the termination rates from the 1952 Disability Study. The Committee then analyzed the underlying data to determine the portion of the claims due to accident and factors for both accident and sickness developed (See SOA Table Identity 2807 for the 1964 CDT). Hence the factors of the Accident Only table when added to the factors of the Sickness Only table will equal 1.0 for each age. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1964 Commissioners Disability Table (CDT) Sickness Factors. Basis: Age Nearest Birthday. Minimum Age: 22 Maximum Age: 72</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.485</Y>
+        <Y t="23">0.496</Y>
+        <Y t="24">0.506</Y>
+        <Y t="25">0.517</Y>
+        <Y t="26">0.528</Y>
+        <Y t="27">0.539</Y>
+        <Y t="28">0.550</Y>
+        <Y t="29">0.561</Y>
+        <Y t="30">0.572</Y>
+        <Y t="31">0.583</Y>
+        <Y t="32">0.594</Y>
+        <Y t="33">0.604</Y>
+        <Y t="34">0.614</Y>
+        <Y t="35">0.624</Y>
+        <Y t="36">0.634</Y>
+        <Y t="37">0.643</Y>
+        <Y t="38">0.652</Y>
+        <Y t="39">0.661</Y>
+        <Y t="40">0.670</Y>
+        <Y t="41">0.678</Y>
+        <Y t="42">0.687</Y>
+        <Y t="43">0.696</Y>
+        <Y t="44">0.705</Y>
+        <Y t="45">0.713</Y>
+        <Y t="46">0.722</Y>
+        <Y t="47">0.731</Y>
+        <Y t="48">0.740</Y>
+        <Y t="49">0.749</Y>
+        <Y t="50">0.757</Y>
+        <Y t="51">0.766</Y>
+        <Y t="52">0.775</Y>
+        <Y t="53">0.784</Y>
+        <Y t="54">0.793</Y>
+        <Y t="55">0.803</Y>
+        <Y t="56">0.811</Y>
+        <Y t="57">0.819</Y>
+        <Y t="58">0.826</Y>
+        <Y t="59">0.832</Y>
+        <Y t="60">0.837</Y>
+        <Y t="61">0.842</Y>
+        <Y t="62">0.846</Y>
+        <Y t="63">0.850</Y>
+        <Y t="64">0.854</Y>
+        <Y t="65">0.857</Y>
+        <Y t="66">0.860</Y>
+        <Y t="67">0.863</Y>
+        <Y t="68">0.865</Y>
+        <Y t="69">0.867</Y>
+        <Y t="70">0.868</Y>
+        <Y t="71">0.869</Y>
+        <Y t="72">0.870</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

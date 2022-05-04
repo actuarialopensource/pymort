@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2833</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>C. D. Sharp, “Mortality of Australian Assured Lives”, Sixtieth Session, The Actuarial Society of Australasia (1956). Accessed: July, 2014 from http://www.actuaries.asn.au/Library/Education/Research/Transactions/1980/tasanzvol9.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>HA(55)</TableName>
+    <TableDescription>Australian Assured Mortality - HA(55). Minimum Age 10. Maximum Age: 109</TableDescription>
+    <Comments>Study Data: Twelve offices supplied data to the Actuarial Society of Australasia for Ordinary policies issued on a whole life basis. A number of methods were used by the offices to determine age. These variations in age classification necessitated adjustment to approximate polices in force. The exposed-to-risk at each age for each year of the experience was obtained by taking the arithmetic mean of the numbers of policies in force at that age at the beginning and end of the office year, and adding thereto one-half of the deaths which occurred at that age during the year. Table designed as ultimate mortality after a one year select period. Methodology: A suitable mathematical curve was difficult to find. Ultimately Mr. Beard proposed a logistic (Perks) form which produced the right shape and was finally adopted; q(x) = .0008 + [ 1 / (140*(1.8)^(-x/5) + 1.7)] with the origin at age 55. By using this curve, the male accident hump in the early 20s is ignored but he monetary effect is felt to be slight. Calculations were performed manually then checked by electronic computers. The mortality table functions were re-calculated on the British Tabulating Machine’s Company’s electronic computer “H.E.C”. For anyone producing tables by conventional methods, the results obtained from the computers seem little short of miraculous. Data Transcription Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Assured Mortality - HA(55). Minimum Age 10. Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.00084</Y>
+        <Y t="11">0.00084</Y>
+        <Y t="12">0.00085</Y>
+        <Y t="13">0.00085</Y>
+        <Y t="14">0.00086</Y>
+        <Y t="15">0.00086</Y>
+        <Y t="16">0.00087</Y>
+        <Y t="17">0.00088</Y>
+        <Y t="18">0.00089</Y>
+        <Y t="19">0.00090</Y>
+        <Y t="20">0.00092</Y>
+        <Y t="21">0.00093</Y>
+        <Y t="22">0.00095</Y>
+        <Y t="23">0.00097</Y>
+        <Y t="24">0.00099</Y>
+        <Y t="25">0.00101</Y>
+        <Y t="26">0.00104</Y>
+        <Y t="27">0.00107</Y>
+        <Y t="28">0.00110</Y>
+        <Y t="29">0.00114</Y>
+        <Y t="30">0.00118</Y>
+        <Y t="31">0.00122</Y>
+        <Y t="32">0.00127</Y>
+        <Y t="33">0.00133</Y>
+        <Y t="34">0.00140</Y>
+        <Y t="35">0.00148</Y>
+        <Y t="36">0.00157</Y>
+        <Y t="37">0.00167</Y>
+        <Y t="38">0.00178</Y>
+        <Y t="39">0.00190</Y>
+        <Y t="40">0.00203</Y>
+        <Y t="41">0.00218</Y>
+        <Y t="42">0.00235</Y>
+        <Y t="43">0.00254</Y>
+        <Y t="44">0.00276</Y>
+        <Y t="45">0.00300</Y>
+        <Y t="46">0.00327</Y>
+        <Y t="47">0.00358</Y>
+        <Y t="48">0.00392</Y>
+        <Y t="49">0.00431</Y>
+        <Y t="50">0.00474</Y>
+        <Y t="51">0.00523</Y>
+        <Y t="52">0.00578</Y>
+        <Y t="53">0.00639</Y>
+        <Y t="54">0.00708</Y>
+        <Y t="55">0.00786</Y>
+        <Y t="56">0.00873</Y>
+        <Y t="57">0.00970</Y>
+        <Y t="58">0.01079</Y>
+        <Y t="59">0.01201</Y>
+        <Y t="60">0.01338</Y>
+        <Y t="61">0.01491</Y>
+        <Y t="62">0.01662</Y>
+        <Y t="63">0.01854</Y>
+        <Y t="64">0.02068</Y>
+        <Y t="65">0.02307</Y>
+        <Y t="66">0.02573</Y>
+        <Y t="67">0.02869</Y>
+        <Y t="68">0.03198</Y>
+        <Y t="69">0.03564</Y>
+        <Y t="70">0.03970</Y>
+        <Y t="71">0.04420</Y>
+        <Y t="72">0.04916</Y>
+        <Y t="73">0.05464</Y>
+        <Y t="74">0.06068</Y>
+        <Y t="75">0.06730</Y>
+        <Y t="76">0.07456</Y>
+        <Y t="77">0.08284</Y>
+        <Y t="78">0.09111</Y>
+        <Y t="79">0.10047</Y>
+        <Y t="80">0.11058</Y>
+        <Y t="81">0.12147</Y>
+        <Y t="82">0.13316</Y>
+        <Y t="83">0.14558</Y>
+        <Y t="84">0.15879</Y>
+        <Y t="85">0.17273</Y>
+        <Y t="86">0.18738</Y>
+        <Y t="87">0.20266</Y>
+        <Y t="88">0.21853</Y>
+        <Y t="89">0.23488</Y>
+        <Y t="90">0.25163</Y>
+        <Y t="91">0.26867</Y>
+        <Y t="92">0.28590</Y>
+        <Y t="93">0.30318</Y>
+        <Y t="94">0.32040</Y>
+        <Y t="95">0.33745</Y>
+        <Y t="96">0.35422</Y>
+        <Y t="97">0.37058</Y>
+        <Y t="98">0.38647</Y>
+        <Y t="99">0.40179</Y>
+        <Y t="100">0.41647</Y>
+        <Y t="101">0.43044</Y>
+        <Y t="102">0.44369</Y>
+        <Y t="103">0.45617</Y>
+        <Y t="104">0.46787</Y>
+        <Y t="105">0.47879</Y>
+        <Y t="106">0.48894</Y>
+        <Y t="107">0.50000</Y>
+        <Y t="108">0.75000</Y>
+        <Y t="109">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

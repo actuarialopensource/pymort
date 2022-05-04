@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1592</TableIdentity>
+    <ProviderDomain>rrb.gov</ProviderDomain>
+    <ProviderName>Pat Pruitt</ProviderName>
+    <TableReference>Frank J. Buzzi, “Nineteenth Actuarial Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 1992 with Technical Supplement” U.S. Railroad Retirement Board Bureau of the Actuary (Chicago, 1994) p. 50</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Table S-2: 1992 RRB Railway Disabled Annuitants Mortality Table, ANB</TableName>
+    <TableDescription>Table S-2: 1992 Railroad Retirement Board (RRB) Railway Disabled Annuitants Mortality Table. Basis: Age Nearest Birthday. Minimum Age: 30. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: The Railroad Retirement System is a federally legislated program which provides retirement, disability and survivor annuities to workers whose employment was connected with the railroad industry for at least 10 years. Experience based on railroad employees for the period 1988-1991 by number of lives. Methodology:  Not available at this time. Data Transcription Errors: None.  Data Certified: 01/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Table S-2: 1992 Railroad Retirement Board (RRB) Railway Disabled Annuitants Mortality Table. Basis: Age Nearest Birthday. Minimum Age: 30. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>30</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="30">0.01560</Y>
+        <Y t="31">0.01565</Y>
+        <Y t="32">0.01570</Y>
+        <Y t="33">0.01575</Y>
+        <Y t="34">0.01580</Y>
+        <Y t="35">0.01585</Y>
+        <Y t="36">0.01590</Y>
+        <Y t="37">0.01595</Y>
+        <Y t="38">0.01600</Y>
+        <Y t="39">0.01610</Y>
+        <Y t="40">0.01624</Y>
+        <Y t="41">0.01637</Y>
+        <Y t="42">0.01679</Y>
+        <Y t="43">0.01724</Y>
+        <Y t="44">0.01771</Y>
+        <Y t="45">0.01822</Y>
+        <Y t="46">0.01882</Y>
+        <Y t="47">0.01959</Y>
+        <Y t="48">0.02050</Y>
+        <Y t="49">0.02152</Y>
+        <Y t="50">0.02260</Y>
+        <Y t="51">0.02371</Y>
+        <Y t="52">0.02482</Y>
+        <Y t="53">0.02591</Y>
+        <Y t="54">0.02698</Y>
+        <Y t="55">0.02807</Y>
+        <Y t="56">0.02918</Y>
+        <Y t="57">0.03036</Y>
+        <Y t="58">0.03161</Y>
+        <Y t="59">0.03297</Y>
+        <Y t="60">0.03446</Y>
+        <Y t="61">0.03610</Y>
+        <Y t="62">0.03791</Y>
+        <Y t="63">0.03992</Y>
+        <Y t="64">0.04215</Y>
+        <Y t="65">0.04463</Y>
+        <Y t="66">0.04738</Y>
+        <Y t="67">0.05042</Y>
+        <Y t="68">0.05377</Y>
+        <Y t="69">0.05747</Y>
+        <Y t="70">0.06151</Y>
+        <Y t="71">0.06582</Y>
+        <Y t="72">0.07033</Y>
+        <Y t="73">0.07495</Y>
+        <Y t="74">0.07961</Y>
+        <Y t="75">0.08434</Y>
+        <Y t="76">0.08918</Y>
+        <Y t="77">0.09418</Y>
+        <Y t="78">0.09939</Y>
+        <Y t="79">0.10485</Y>
+        <Y t="80">0.11061</Y>
+        <Y t="81">0.11672</Y>
+        <Y t="82">0.12321</Y>
+        <Y t="83">0.13014</Y>
+        <Y t="84">0.13756</Y>
+        <Y t="85">0.14550</Y>
+        <Y t="86">0.15402</Y>
+        <Y t="87">0.16316</Y>
+        <Y t="88">0.17296</Y>
+        <Y t="89">0.18348</Y>
+        <Y t="90">0.19476</Y>
+        <Y t="91">0.20685</Y>
+        <Y t="92">0.21978</Y>
+        <Y t="93">0.23362</Y>
+        <Y t="94">0.24839</Y>
+        <Y t="95">0.26416</Y>
+        <Y t="96">0.28096</Y>
+        <Y t="97">0.29884</Y>
+        <Y t="98">0.31786</Y>
+        <Y t="99">0.33804</Y>
+        <Y t="100">0.35736</Y>
+        <Y t="101">0.37879</Y>
+        <Y t="102">0.40308</Y>
+        <Y t="103">0.43093</Y>
+        <Y t="104">0.46303</Y>
+        <Y t="105">0.50009</Y>
+        <Y t="106">0.54281</Y>
+        <Y t="107">0.59189</Y>
+        <Y t="108">0.64802</Y>
+        <Y t="109">0.71191</Y>
+        <Y t="110">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

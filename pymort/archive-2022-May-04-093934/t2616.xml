@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2616</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Tony Hutchins</ProviderName>
+    <TableReference>Statistics New Zealand, “New Zealand Life Tables: 2010-02”,  Statistics New Zealand (Wellington, 2013). Accessed January, 2014 from: http://www.stats.govt.nz/browse_for_stats/health/life_expectancy/period-life-tables.aspx</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>2010-12 Population Period Life Table – Total Female</TableName>
+    <TableDescription>2010-12 Population Period Life Table – Total Female. Minimum Age: 0 Maximum Age: 105</TableDescription>
+    <Comments>Study Data: Total table includes Māori and non Māori lives combined. Māori classified as people with 'half or more Māori blood' while Non-Māori people are those not included in the Māori life tables. Māori life tables based on deaths of people with Māori ethnicity and the population of Māori ethnicity. Non-Māori life tables based on deaths and population not included in the Māori life tables. Both the Māori and non-Māori life tables make an allowance for deaths and population with no ethnic response. Methodology: Deaths registered in New Zealand of people resident in New Zealand for the period 2010-12. Estimated resident population mean year ended 31 December 2010–12 (based on census usually resident population count at 7 March 2011). Age 0 had special handling. Central death rates for each age calculated and smoothed using cubic spline. Values for very high ages had some minor adjustments. Data Transcription Errors: None. Data Certified: 01/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>New Zealand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="64">New Zealand</Nation>
+      <TableDescription>2010-12 Population Period Life Table – Total Female. Minimum Age: 0 Maximum Age: 105</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00405</Y>
+        <Y t="1">0.00039</Y>
+        <Y t="2">0.00018</Y>
+        <Y t="3">0.00015</Y>
+        <Y t="4">0.00012</Y>
+        <Y t="5">0.0001</Y>
+        <Y t="6">8E-05</Y>
+        <Y t="7">6E-05</Y>
+        <Y t="8">5E-05</Y>
+        <Y t="9">5E-05</Y>
+        <Y t="10">6E-05</Y>
+        <Y t="11">8E-05</Y>
+        <Y t="12">0.00011</Y>
+        <Y t="13">0.00015</Y>
+        <Y t="14">0.0002</Y>
+        <Y t="15">0.00025</Y>
+        <Y t="16">0.0003</Y>
+        <Y t="17">0.00034</Y>
+        <Y t="18">0.00037</Y>
+        <Y t="19">0.00039</Y>
+        <Y t="20">0.00039</Y>
+        <Y t="21">0.00038</Y>
+        <Y t="22">0.00037</Y>
+        <Y t="23">0.00036</Y>
+        <Y t="24">0.00036</Y>
+        <Y t="25">0.00036</Y>
+        <Y t="26">0.00036</Y>
+        <Y t="27">0.00037</Y>
+        <Y t="28">0.00039</Y>
+        <Y t="29">0.00041</Y>
+        <Y t="30">0.00043</Y>
+        <Y t="31">0.00046</Y>
+        <Y t="32">0.00049</Y>
+        <Y t="33">0.00053</Y>
+        <Y t="34">0.00057</Y>
+        <Y t="35">0.00062</Y>
+        <Y t="36">0.00067</Y>
+        <Y t="37">0.00072</Y>
+        <Y t="38">0.00078</Y>
+        <Y t="39">0.00084</Y>
+        <Y t="40">0.00091</Y>
+        <Y t="41">0.00099</Y>
+        <Y t="42">0.00108</Y>
+        <Y t="43">0.00118</Y>
+        <Y t="44">0.0013</Y>
+        <Y t="45">0.00144</Y>
+        <Y t="46">0.00158</Y>
+        <Y t="47">0.00173</Y>
+        <Y t="48">0.00188</Y>
+        <Y t="49">0.00203</Y>
+        <Y t="50">0.00218</Y>
+        <Y t="51">0.00233</Y>
+        <Y t="52">0.00248</Y>
+        <Y t="53">0.00265</Y>
+        <Y t="54">0.00283</Y>
+        <Y t="55">0.00303</Y>
+        <Y t="56">0.00326</Y>
+        <Y t="57">0.00353</Y>
+        <Y t="58">0.00385</Y>
+        <Y t="59">0.00423</Y>
+        <Y t="60">0.00467</Y>
+        <Y t="61">0.00517</Y>
+        <Y t="62">0.00574</Y>
+        <Y t="63">0.00636</Y>
+        <Y t="64">0.00705</Y>
+        <Y t="65">0.0078</Y>
+        <Y t="66">0.00861</Y>
+        <Y t="67">0.00947</Y>
+        <Y t="68">0.01039</Y>
+        <Y t="69">0.01137</Y>
+        <Y t="70">0.01243</Y>
+        <Y t="71">0.01363</Y>
+        <Y t="72">0.01499</Y>
+        <Y t="73">0.01656</Y>
+        <Y t="74">0.01837</Y>
+        <Y t="75">0.02047</Y>
+        <Y t="76">0.0229</Y>
+        <Y t="77">0.02569</Y>
+        <Y t="78">0.02889</Y>
+        <Y t="79">0.03257</Y>
+        <Y t="80">0.03685</Y>
+        <Y t="81">0.0419</Y>
+        <Y t="82">0.04786</Y>
+        <Y t="83">0.05488</Y>
+        <Y t="84">0.06307</Y>
+        <Y t="85">0.0724</Y>
+        <Y t="86">0.08283</Y>
+        <Y t="87">0.09428</Y>
+        <Y t="88">0.1067</Y>
+        <Y t="89">0.12009</Y>
+        <Y t="90">0.13467</Y>
+        <Y t="91">0.15072</Y>
+        <Y t="92">0.16848</Y>
+        <Y t="93">0.18814</Y>
+        <Y t="94">0.20979</Y>
+        <Y t="95">0.23275</Y>
+        <Y t="96">0.25692</Y>
+        <Y t="97">0.28217</Y>
+        <Y t="98">0.30831</Y>
+        <Y t="99">0.33515</Y>
+        <Y t="100">0.36245</Y>
+        <Y t="101">0.38994</Y>
+        <Y t="102">0.41734</Y>
+        <Y t="103">0.44432</Y>
+        <Y t="104">0.47056</Y>
+        <Y t="105">0.49571</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

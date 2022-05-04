@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2052</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Health Statistics Division, “Life Tables, Canada and Provinces 1990-92”, Statistics Canada, Minister of Industry (Ottawa, 1995). Accessed: August, 2013 from http://www.prdh.umontreal.ca/BDLC/data/pdfs/84-537.pdf Reproduced on an "as is" basis with the permission of Statistics Canada</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Canadian Life Table 1990-92 - Males, ANB</TableName>
+    <TableDescription>Canadian Life Table 1990-92 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 106</TableDescription>
+    <Comments>Study Data: The population used is that of the decennial census and the deaths are those of the three-year period surrounding the census for Canada and the ten provinces. At the youngest ages, birth and death statistics are used in the place of census data to obtain the numbers at each age. In a departure from previous studies, the population counts now include estimates of non-permanent residents and under-coverage. The Health Statistics Division of Statistics Canada provided the data related to births and deaths. The Demography Division of Statistics Canada produced population counts. Methodology: All life tables since 1931 (See SOA Table Identities 2042 and 2043) have been computed basically by the same formula: the Pivotal Value Method. As a first step, deaths and populations are graduated by Jenkin’s fifth difference osculatory non-reproducing method at pivotal 5-year intervals by the formula. For ages 7 and 12, a modified formula, developed by George King, based almost entirely on deaths and population at risk in the 5-9 and 10-14 age group, respectively, was used. Then for the complete range of ages from 7 though 87, rates interpolated between pivotal values by a Karup-King third difference tangential formula. Jenkin’s formula is used for the juvenile ages as it produces a smoother curve compared to the Karup-King formula. No adjustments are made for misstatement of age or under registration of deaths. Special handling accorded juvenile ages and older ages. Namely, ages 0 though 5 are taken from birth and death registrations with q(5) bridged to q(6) by a third degree polynomial utilizing Lagrange’s interpolation formula. Further adjustments were made for ages 1-4 to account for the theory that young children dying at that age tend to do so towards the beginning of the of the age interval. For ages 92 and above, the following formula, first adopted with the 1965-67 Canada Life Tables (See SOA Table Identities 2048 and 2049) was used with a slight modification to prevent rates exceeding 1.00: q(x) = min[4q(x-5) – 6 q(x-10) + 4q(x-15) – q(x-20), 1]. The last pivotal value was set to age 102 and then mortality rates were extrapolated to age 105. It should be noted that for this set of tables a different rounding procedure was used for the number of deaths. Sirken’s rounding procedure, introduced in “U.S. Decennial Life Tables 1979-81” is used (See SOA Table Identity 517). NOTE: Reproduced on an "as is" basis with the permission of Statistics Canada. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canadian Life Table 1990-92 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 106</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>106</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00709</Y>
+        <Y t="1">0.00051</Y>
+        <Y t="2">0.00041</Y>
+        <Y t="3">0.00034</Y>
+        <Y t="4">0.00025</Y>
+        <Y t="5">0.00020</Y>
+        <Y t="6">0.00017</Y>
+        <Y t="7">0.00015</Y>
+        <Y t="8">0.00013</Y>
+        <Y t="9">0.00013</Y>
+        <Y t="10">0.00015</Y>
+        <Y t="11">0.00015</Y>
+        <Y t="12">0.00023</Y>
+        <Y t="13">0.00034</Y>
+        <Y t="14">0.00048</Y>
+        <Y t="15">0.00065</Y>
+        <Y t="16">0.00080</Y>
+        <Y t="17">0.00091</Y>
+        <Y t="18">0.00099</Y>
+        <Y t="19">0.00105</Y>
+        <Y t="20">0.00109</Y>
+        <Y t="21">0.00112</Y>
+        <Y t="22">0.00114</Y>
+        <Y t="23">0.00115</Y>
+        <Y t="24">0.00115</Y>
+        <Y t="25">0.00114</Y>
+        <Y t="26">0.00114</Y>
+        <Y t="27">0.00114</Y>
+        <Y t="28">0.00116</Y>
+        <Y t="29">0.00119</Y>
+        <Y t="30">0.00122</Y>
+        <Y t="31">0.00126</Y>
+        <Y t="32">0.00131</Y>
+        <Y t="33">0.00136</Y>
+        <Y t="34">0.00142</Y>
+        <Y t="35">0.00149</Y>
+        <Y t="36">0.00156</Y>
+        <Y t="37">0.00164</Y>
+        <Y t="38">0.00171</Y>
+        <Y t="39">0.00178</Y>
+        <Y t="40">0.00185</Y>
+        <Y t="41">0.00196</Y>
+        <Y t="42">0.00210</Y>
+        <Y t="43">0.00229</Y>
+        <Y t="44">0.00251</Y>
+        <Y t="45">0.00276</Y>
+        <Y t="46">0.00305</Y>
+        <Y t="47">0.00337</Y>
+        <Y t="48">0.00371</Y>
+        <Y t="49">0.00408</Y>
+        <Y t="50">0.00449</Y>
+        <Y t="51">0.00496</Y>
+        <Y t="52">0.00551</Y>
+        <Y t="53">0.00612</Y>
+        <Y t="54">0.00678</Y>
+        <Y t="55">0.00752</Y>
+        <Y t="56">0.00835</Y>
+        <Y t="57">0.00929</Y>
+        <Y t="58">0.01034</Y>
+        <Y t="59">0.01150</Y>
+        <Y t="60">0.01275</Y>
+        <Y t="61">0.01411</Y>
+        <Y t="62">0.01557</Y>
+        <Y t="63">0.01709</Y>
+        <Y t="64">0.01868</Y>
+        <Y t="65">0.02040</Y>
+        <Y t="66">0.02230</Y>
+        <Y t="67">0.02444</Y>
+        <Y t="68">0.02678</Y>
+        <Y t="69">0.02927</Y>
+        <Y t="70">0.03199</Y>
+        <Y t="71">0.03502</Y>
+        <Y t="72">0.03844</Y>
+        <Y t="73">0.04218</Y>
+        <Y t="74">0.04620</Y>
+        <Y t="75">0.05058</Y>
+        <Y t="76">0.05542</Y>
+        <Y t="77">0.06080</Y>
+        <Y t="78">0.06670</Y>
+        <Y t="79">0.07305</Y>
+        <Y t="80">0.07991</Y>
+        <Y t="81">0.08732</Y>
+        <Y t="82">0.09534</Y>
+        <Y t="83">0.10394</Y>
+        <Y t="84">0.11308</Y>
+        <Y t="85">0.12282</Y>
+        <Y t="86">0.13320</Y>
+        <Y t="87">0.14428</Y>
+        <Y t="88">0.15602</Y>
+        <Y t="89">0.16840</Y>
+        <Y t="90">0.18145</Y>
+        <Y t="91">0.19524</Y>
+        <Y t="92">0.20982</Y>
+        <Y t="93">0.22515</Y>
+        <Y t="94">0.24120</Y>
+        <Y t="95">0.25802</Y>
+        <Y t="96">0.27567</Y>
+        <Y t="97">0.29419</Y>
+        <Y t="98">0.31355</Y>
+        <Y t="99">0.33372</Y>
+        <Y t="100">0.35475</Y>
+        <Y t="101">0.37669</Y>
+        <Y t="102">0.39959</Y>
+        <Y t="103">0.42343</Y>
+        <Y t="104">0.44816</Y>
+        <Y t="105">0.47384</Y>
+        <Y t="106">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

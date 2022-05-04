@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>953</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Central Bureau of Statistics. Reprinted by A.S. MacDonald, "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1988 Finland Annuitants and Pensioner Mortality - Female</TableName>
+    <TableDescription>1988 Finland Annuitants and Pensioner Mortality – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: The Finnish public pension system is made up of two statutory pension schemes: one is the national pension scheme guaranteeing a minimum pension to all residents whereas the other is an employment-based, earnings-related pension scheme. Voluntary pension schemes play a minor role in Finland due to the relatively high net replacement ratio of the public pensions. All Finnish companies use mortality tables based on statistical analysis of their pooled experiences. Methodology: The data are collected and analyzed by a committee of representatives of all the companies. A Makeham formula is traditionally adopted. For individual pensions, the formula is as follows for men: µ(x + h) = 1.15(0.00048 + 10^0.055(x+h-100.5){(x+h); while for women: µ(x + h) = 1.15(0.00048 + 10^0.055(x+h-109.5){(x+h-7). In both formulas h is the duration since the beginning of the policy and {(x+h) = 10^-0.02(x+h-72). Data Transcription Errors Detected: 11/2013. Data Corrected and Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Finland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="358">Finland</Nation>
+      <TableDescription>1988 Finland Annuitants and Pensioner Mortality – Female. Minimum Age: 0 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00059400</Y>
+        <Y t="1">0.00059700</Y>
+        <Y t="2">0.00060100</Y>
+        <Y t="3">0.00060500</Y>
+        <Y t="4">0.00060900</Y>
+        <Y t="5">0.00061400</Y>
+        <Y t="6">0.00061900</Y>
+        <Y t="7">0.00062500</Y>
+        <Y t="8">0.00063100</Y>
+        <Y t="9">0.00063800</Y>
+        <Y t="10">0.00064500</Y>
+        <Y t="11">0.00065300</Y>
+        <Y t="12">0.00066100</Y>
+        <Y t="13">0.00067000</Y>
+        <Y t="14">0.00068000</Y>
+        <Y t="15">0.00069100</Y>
+        <Y t="16">0.00070300</Y>
+        <Y t="17">0.00071500</Y>
+        <Y t="18">0.00072900</Y>
+        <Y t="19">0.00074400</Y>
+        <Y t="20">0.00076000</Y>
+        <Y t="21">0.00077800</Y>
+        <Y t="22">0.00079600</Y>
+        <Y t="23">0.00081700</Y>
+        <Y t="24">0.00083900</Y>
+        <Y t="25">0.00086300</Y>
+        <Y t="26">0.00088900</Y>
+        <Y t="27">0.00091800</Y>
+        <Y t="28">0.00094800</Y>
+        <Y t="29">0.00098200</Y>
+        <Y t="30">0.00101800</Y>
+        <Y t="31">0.00105700</Y>
+        <Y t="32">0.00109900</Y>
+        <Y t="33">0.00114500</Y>
+        <Y t="34">0.00119500</Y>
+        <Y t="35">0.00124900</Y>
+        <Y t="36">0.00130700</Y>
+        <Y t="37">0.00137100</Y>
+        <Y t="38">0.00144000</Y>
+        <Y t="39">0.00151400</Y>
+        <Y t="40">0.00159500</Y>
+        <Y t="41">0.00168200</Y>
+        <Y t="42">0.00177700</Y>
+        <Y t="43">0.00188000</Y>
+        <Y t="44">0.00199100</Y>
+        <Y t="45">0.00211200</Y>
+        <Y t="46">0.00224300</Y>
+        <Y t="47">0.00238500</Y>
+        <Y t="48">0.00253900</Y>
+        <Y t="49">0.00270600</Y>
+        <Y t="50">0.00288700</Y>
+        <Y t="51">0.00308200</Y>
+        <Y t="52">0.00329500</Y>
+        <Y t="53">0.00352500</Y>
+        <Y t="54">0.00377500</Y>
+        <Y t="55">0.00404500</Y>
+        <Y t="56">0.00433800</Y>
+        <Y t="57">0.00465600</Y>
+        <Y t="58">0.00500000</Y>
+        <Y t="59">0.00537400</Y>
+        <Y t="60">0.00577800</Y>
+        <Y t="61">0.00621700</Y>
+        <Y t="62">0.00669200</Y>
+        <Y t="63">0.00720800</Y>
+        <Y t="64">0.00776600</Y>
+        <Y t="65">0.00837200</Y>
+        <Y t="66">0.00902800</Y>
+        <Y t="67">0.00974000</Y>
+        <Y t="68">0.01051100</Y>
+        <Y t="69">0.01134600</Y>
+        <Y t="70">0.01225200</Y>
+        <Y t="71">0.01323400</Y>
+        <Y t="72">0.01429900</Y>
+        <Y t="73">0.01545200</Y>
+        <Y t="74">0.01670300</Y>
+        <Y t="75">0.01805800</Y>
+        <Y t="76">0.01952800</Y>
+        <Y t="77">0.02112000</Y>
+        <Y t="78">0.02284700</Y>
+        <Y t="79">0.02471800</Y>
+        <Y t="80">0.02674600</Y>
+        <Y t="81">0.02894400</Y>
+        <Y t="82">0.03132700</Y>
+        <Y t="83">0.03391000</Y>
+        <Y t="84">0.03670900</Y>
+        <Y t="85">0.03974400</Y>
+        <Y t="86">0.04303300</Y>
+        <Y t="87">0.04659900</Y>
+        <Y t="88">0.05046300</Y>
+        <Y t="89">0.05465200</Y>
+        <Y t="90">0.05919300</Y>
+        <Y t="91">0.06411400</Y>
+        <Y t="92">0.06944900</Y>
+        <Y t="93">0.07523100</Y>
+        <Y t="94">0.08149800</Y>
+        <Y t="95">0.08829200</Y>
+        <Y t="96">0.09565600</Y>
+        <Y t="97">0.10363800</Y>
+        <Y t="98">0.11228900</Y>
+        <Y t="99">0.12166700</Y>
+        <Y t="100">0.13183200</Y>
+        <Y t="101">0.14285000</Y>
+        <Y t="102">0.15479200</Y>
+        <Y t="103">0.16773700</Y>
+        <Y t="104">0.18176900</Y>
+        <Y t="105">0.19697700</Y>
+        <Y t="106">0.21346300</Y>
+        <Y t="107">0.23133200</Y>
+        <Y t="108">0.25070000</Y>
+        <Y t="109">0.27169500</Y>
+        <Y t="110">0.29445100</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

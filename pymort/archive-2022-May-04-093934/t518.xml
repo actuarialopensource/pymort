@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>518</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Robert J. Myers and Francisco R. Bayo, “United States Life Tables for 1979-81”, Transactions of the Society of Actuaries, Vol. XXXVII, Society of Actuaries (1985). Accessed: April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1985/January/tsa85v3710.pdf. Reprinted by Tillinghast, “Principal Mortality Tables, Old and New”, Towers Perrin (1987) p. 32-33</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>U.S. Life Tables 1979-81 – Total Males, ANB</TableName>
+    <TableDescription>United States (U.S.) Life Tables 1979-81 – Total Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+    <Comments>Study Data: The official decennial United States (U.S.) Life Tables for 1979-81 consist of 12 separate tables: total persons, white persons, other-than-white persons, and black persons, each by sex and also for both sexes combined. As previously, the principal data involved in their preparation were the enumerated population in the latest census (taken on April 1, 1980) and the registered deaths in the three calendar years centered on the census year. To improve the reliability at the lowest ages, data on births in the years surrounding the census were used. Similarly, experience at high ages was deemed not as reliable and thus supplemented by Medicare experience. Methodology: In general, except for extremely high ages, the data were sufficiently accurate and only a minimum of graduation was needed. Data was grouped in into quinquennial age groups and interpolating the needed values. Minor adjustments were needed at the teenage years to assure that mortality rates for white persons were lower than for other persons. The data for the very highest ages were not considered reliable, and accordingly, the tables were terminated using the mortality experience of the Medicare program. NOTE: The published source only provides the quinquennial age tables but notes that tables giving g age-specific mortality rates for every single age for total persons, total males, total females, and by sex for black persons, other-than-white persons, and white persons (a total of nine sets of rates) as available, upon request, from the second co-author, Mr. Bayo. The rates in this table were obtained accordingly. Data Transcription Errors: None. Data Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>United States (U.S.) Life Tables 1979-81 – Total Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.01393</Y>
+        <Y t="1">0.00101</Y>
+        <Y t="2">0.00073</Y>
+        <Y t="3">0.00058</Y>
+        <Y t="4">0.00047</Y>
+        <Y t="5">0.00042</Y>
+        <Y t="6">0.00039</Y>
+        <Y t="7">0.00036</Y>
+        <Y t="8">0.00032</Y>
+        <Y t="9">0.00026</Y>
+        <Y t="10">0.00021</Y>
+        <Y t="11">0.00021</Y>
+        <Y t="12">0.00030</Y>
+        <Y t="13">0.00048</Y>
+        <Y t="14">0.00072</Y>
+        <Y t="15">0.00096</Y>
+        <Y t="16">0.00118</Y>
+        <Y t="17">0.00137</Y>
+        <Y t="18">0.00153</Y>
+        <Y t="19">0.00167</Y>
+        <Y t="20">0.00181</Y>
+        <Y t="21">0.00194</Y>
+        <Y t="22">0.00203</Y>
+        <Y t="23">0.00205</Y>
+        <Y t="24">0.00203</Y>
+        <Y t="25">0.00199</Y>
+        <Y t="26">0.00196</Y>
+        <Y t="27">0.00193</Y>
+        <Y t="28">0.00191</Y>
+        <Y t="29">0.00191</Y>
+        <Y t="30">0.00191</Y>
+        <Y t="31">0.00191</Y>
+        <Y t="32">0.00193</Y>
+        <Y t="33">0.00198</Y>
+        <Y t="34">0.00205</Y>
+        <Y t="35">0.00216</Y>
+        <Y t="36">0.00229</Y>
+        <Y t="37">0.00244</Y>
+        <Y t="38">0.00261</Y>
+        <Y t="39">0.00280</Y>
+        <Y t="40">0.00303</Y>
+        <Y t="41">0.00332</Y>
+        <Y t="42">0.00363</Y>
+        <Y t="43">0.00398</Y>
+        <Y t="44">0.00435</Y>
+        <Y t="45">0.00476</Y>
+        <Y t="46">0.00522</Y>
+        <Y t="47">0.00576</Y>
+        <Y t="48">0.00638</Y>
+        <Y t="49">0.00705</Y>
+        <Y t="50">0.00775</Y>
+        <Y t="51">0.00846</Y>
+        <Y t="52">0.00924</Y>
+        <Y t="53">0.01010</Y>
+        <Y t="54">0.01105</Y>
+        <Y t="55">0.01206</Y>
+        <Y t="56">0.01310</Y>
+        <Y t="57">0.01423</Y>
+        <Y t="58">0.01549</Y>
+        <Y t="59">0.01690</Y>
+        <Y t="60">0.01846</Y>
+        <Y t="61">0.02016</Y>
+        <Y t="62">0.02201</Y>
+        <Y t="63">0.02398</Y>
+        <Y t="64">0.02604</Y>
+        <Y t="65">0.02817</Y>
+        <Y t="66">0.03044</Y>
+        <Y t="67">0.03289</Y>
+        <Y t="68">0.03563</Y>
+        <Y t="69">0.03868</Y>
+        <Y t="70">0.04207</Y>
+        <Y t="71">0.04571</Y>
+        <Y t="72">0.04951</Y>
+        <Y t="73">0.05338</Y>
+        <Y t="74">0.05736</Y>
+        <Y t="75">0.06167</Y>
+        <Y t="76">0.06647</Y>
+        <Y t="77">0.07170</Y>
+        <Y t="78">0.07740</Y>
+        <Y t="79">0.08365</Y>
+        <Y t="80">0.09069</Y>
+        <Y t="81">0.09859</Y>
+        <Y t="82">0.10708</Y>
+        <Y t="83">0.11579</Y>
+        <Y t="84">0.12463</Y>
+        <Y t="85">0.13419</Y>
+        <Y t="86">0.14479</Y>
+        <Y t="87">0.15554</Y>
+        <Y t="88">0.16618</Y>
+        <Y t="89">0.17700</Y>
+        <Y t="90">0.18848</Y>
+        <Y t="91">0.20125</Y>
+        <Y t="92">0.21542</Y>
+        <Y t="93">0.23080</Y>
+        <Y t="94">0.24641</Y>
+        <Y t="95">0.26149</Y>
+        <Y t="96">0.27438</Y>
+        <Y t="97">0.28654</Y>
+        <Y t="98">0.29797</Y>
+        <Y t="99">0.30867</Y>
+        <Y t="100">0.31865</Y>
+        <Y t="101">0.32792</Y>
+        <Y t="102">0.33650</Y>
+        <Y t="103">0.34443</Y>
+        <Y t="104">0.35174</Y>
+        <Y t="105">0.35845</Y>
+        <Y t="106">0.36461</Y>
+        <Y t="107">0.37024</Y>
+        <Y t="108">0.37539</Y>
+        <Y t="109">0.38009</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

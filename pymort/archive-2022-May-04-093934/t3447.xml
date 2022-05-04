@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3447</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, public-pension-headcount-exposure.xlsx, Sheet 'PubG.H-2010', https://www.soa.org/resources/experience-studies/2018/public-pension-headcount-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PubNS.H-2010 Female Disabled Retiree</TableName>
+    <TableDescription>Pub-2010 Headcount-weighted Non-Safety Mortality Table - Female Disabled Retiree. Ages 18-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pub-2010 Headcount-weighted Non-Safety Mortality Table - Female Disabled Retiree. Ages 18-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00246</Y>
+        <Y t="19">0.00245</Y>
+        <Y t="20">0.00233</Y>
+        <Y t="21">0.00215</Y>
+        <Y t="22">0.00194</Y>
+        <Y t="23">0.00178</Y>
+        <Y t="24">0.00173</Y>
+        <Y t="25">0.00177</Y>
+        <Y t="26">0.00192</Y>
+        <Y t="27">0.00209</Y>
+        <Y t="28">0.00228</Y>
+        <Y t="29">0.00248</Y>
+        <Y t="30">0.0027</Y>
+        <Y t="31">0.00293</Y>
+        <Y t="32">0.00318</Y>
+        <Y t="33">0.00345</Y>
+        <Y t="34">0.00375</Y>
+        <Y t="35">0.00407</Y>
+        <Y t="36">0.00443</Y>
+        <Y t="37">0.00481</Y>
+        <Y t="38">0.00524</Y>
+        <Y t="39">0.00574</Y>
+        <Y t="40">0.00629</Y>
+        <Y t="41">0.00689</Y>
+        <Y t="42">0.00754</Y>
+        <Y t="43">0.00825</Y>
+        <Y t="44">0.00902</Y>
+        <Y t="45">0.00985</Y>
+        <Y t="46">0.01073</Y>
+        <Y t="47">0.01167</Y>
+        <Y t="48">0.01267</Y>
+        <Y t="49">0.01373</Y>
+        <Y t="50">0.01484</Y>
+        <Y t="51">0.01535</Y>
+        <Y t="52">0.01587</Y>
+        <Y t="53">0.0164</Y>
+        <Y t="54">0.01692</Y>
+        <Y t="55">0.01742</Y>
+        <Y t="56">0.01796</Y>
+        <Y t="57">0.01854</Y>
+        <Y t="58">0.01913</Y>
+        <Y t="59">0.01975</Y>
+        <Y t="60">0.0204</Y>
+        <Y t="61">0.0211</Y>
+        <Y t="62">0.02185</Y>
+        <Y t="63">0.02268</Y>
+        <Y t="64">0.02358</Y>
+        <Y t="65">0.02457</Y>
+        <Y t="66">0.02567</Y>
+        <Y t="67">0.0269</Y>
+        <Y t="68">0.02827</Y>
+        <Y t="69">0.0298</Y>
+        <Y t="70">0.03151</Y>
+        <Y t="71">0.03342</Y>
+        <Y t="72">0.03556</Y>
+        <Y t="73">0.03793</Y>
+        <Y t="74">0.04058</Y>
+        <Y t="75">0.04354</Y>
+        <Y t="76">0.04684</Y>
+        <Y t="77">0.05051</Y>
+        <Y t="78">0.05461</Y>
+        <Y t="79">0.05918</Y>
+        <Y t="80">0.06428</Y>
+        <Y t="81">0.06993</Y>
+        <Y t="82">0.0762</Y>
+        <Y t="83">0.08313</Y>
+        <Y t="84">0.09075</Y>
+        <Y t="85">0.09913</Y>
+        <Y t="86">0.10791</Y>
+        <Y t="87">0.11691</Y>
+        <Y t="88">0.12604</Y>
+        <Y t="89">0.13534</Y>
+        <Y t="90">0.14492</Y>
+        <Y t="91">0.15495</Y>
+        <Y t="92">0.16563</Y>
+        <Y t="93">0.17718</Y>
+        <Y t="94">0.18981</Y>
+        <Y t="95">0.20373</Y>
+        <Y t="96">0.21905</Y>
+        <Y t="97">0.23586</Y>
+        <Y t="98">0.25413</Y>
+        <Y t="99">0.27372</Y>
+        <Y t="100">0.29436</Y>
+        <Y t="101">0.31562</Y>
+        <Y t="102">0.3369</Y>
+        <Y t="103">0.358</Y>
+        <Y t="104">0.37873</Y>
+        <Y t="105">0.39892</Y>
+        <Y t="106">0.41841</Y>
+        <Y t="107">0.43706</Y>
+        <Y t="108">0.45477</Y>
+        <Y t="109">0.47145</Y>
+        <Y t="110">0.48705</Y>
+        <Y t="111">0.5</Y>
+        <Y t="112">0.5</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

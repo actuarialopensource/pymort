@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2952</TableIdentity>
+    <ProviderDomain>Soa.org</ProviderDomain>
+    <ProviderName>Gabriel Mendes Borges</ProviderName>
+    <TableReference>Prof. Rio Nogueira, “Tábua de Sobrevivência Bi-Dimensional”, Serviço Téchnicos de Estatística e Atuária, LTDA (Rio de Janeiro, 2012)</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PETROS - Base Year Mortality for 2003</TableName>
+    <TableDescription>Fundação Petrobras de Seguridade Social (PETROS) - Base Mortality 2003. Minimum Age: 20. Maximum Age: 140</TableDescription>
+    <Comments>Study Data: Fundação Petrobras de Seguridade Social (PETROS), the second largest Brazilian pension fund, furnished data for years 1994-2010. Ultimately only the data related to the period 2002-2010 was used and the data grouped in triennia 2002-2004, 2005-2007, and 2008-2010. The author’s opinion is that there is no logical reason to assume that able-bodied population of PETROS would have a different mortality behavior than that of other pension funds. The Brazilian Central Statistics Office (IBGE) estimates Brazilian population life tables annually and said tables are limited by the quality of census information; correction factors are often implemented. However, the data, as maintained by PETROS, eliminates many of the issues raised by use of records based on civil registry. Methodology: For purposes of this database, the survival probabilities of the original publication have been reworked by PETROS and are loaded as mortality improvement factors (See SOA Tabale Identity 2953) and base year 2003 mortality data. The mortality for a given age is thus calculcated as q(x;t+1) = q(x,t) * (1 - K(x,t)).  Where K(x,t) represents the data is the two-dimensional table and this table contains q(x,t).  Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Brazil</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="55">Brazil</Nation>
+      <TableDescription>Fundação Petrobras de Seguridade Social (PETROS) - Base Mortality 2003. Minimum Age: 20. Maximum Age: 140</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>140</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.000260038111928096</Y>
+        <Y t="21">0.000273699770183322</Y>
+        <Y t="22">0.000288834894228263</Y>
+        <Y t="23">0.000305602377333014</Y>
+        <Y t="24">0.000324178241325357</Y>
+        <Y t="25">0.000344757481687941</Y>
+        <Y t="26">0.000367556111103617</Y>
+        <Y t="27">0.000392813422723903</Y>
+        <Y t="28">0.000420794496699961</Y>
+        <Y t="29">0.000451792976014942</Y>
+        <Y t="30">0.000486134140427974</Y>
+        <Y t="31">0.000524178310380874</Y>
+        <Y t="32">0.000566324616097513</Y>
+        <Y t="33">0.000613015170815134</Y>
+        <Y t="34">0.000664739691185412</Y>
+        <Y t="35">0.000722040612406993</Y>
+        <Y t="36">0.000785518750612169</Y>
+        <Y t="37">0.000855839570527595</Y>
+        <Y t="38">0.000933740122432414</Y>
+        <Y t="39">0.00102003671907869</Y>
+        <Y t="40">0.00111563343049792</Y>
+        <Y t="41">0.00122153148260151</Y>
+        <Y t="42">0.00133883965422255</Y>
+        <Y t="43">0.00146878577681309</Y>
+        <Y t="44">0.00161272945145763</Y>
+        <Y t="45">0.00177217610927194</Y>
+        <Y t="46">0.00194879255365921</Y>
+        <Y t="47">0.00214442413638516</Y>
+        <Y t="48">0.00236111373403902</Y>
+        <Y t="49">0.00260112270723267</Y>
+        <Y t="50">0.00286695404188697</Y>
+        <Y t="51">0.00316137789017912</Y>
+        <Y t="52">0.00348745974819031</Y>
+        <Y t="53">0.00384859152794936</Y>
+        <Y t="54">0.00424852580336488</Y>
+        <Y t="55">0.00469141353233926</Y>
+        <Y t="56">0.00518184558099333</Y>
+        <Y t="57">0.00572489840010371</Y>
+        <Y t="58">0.00632618422822517</Y>
+        <Y t="59">0.00699190621999257</Y>
+        <Y t="60">0.00772891892111272</Y>
+        <Y t="61">0.00854479453267354</Y>
+        <Y t="62">0.00944789542547064</Y>
+        <Y t="63">0.0104474533786213</Y>
+        <Y t="64">0.011553656023951</Y>
+        <Y t="65">0.012777740976173</Y>
+        <Y t="66">0.0141320981158509</Y>
+        <Y t="67">0.0156303804639341</Y>
+        <Y t="68">0.0172876240388791</Y>
+        <Y t="69">0.0191203770146103</Y>
+        <Y t="70">0.0211468383932393</Y>
+        <Y t="71">0.0233870062626134</Y>
+        <Y t="72">0.0258628355158318</Y>
+        <Y t="73">0.0285984046564405</Y>
+        <Y t="74">0.031620090985589</Y>
+        <Y t="75">0.034956753050121</Y>
+        <Y t="76">0.0386399187048873</Y>
+        <Y t="77">0.0427039764872739</Y>
+        <Y t="78">0.0471863671928452</Y>
+        <Y t="79">0.0521277715511471</Y>
+        <Y t="80">0.0575722887005253</Y>
+        <Y t="81">0.0635675987188208</Y>
+        <Y t="82">0.0701651007506913</Y>
+        <Y t="83">0.0774200162507364</Y>
+        <Y t="84">0.0853914445069535</Y>
+        <Y t="85">0.094142354901359</Y>
+        <Y t="86">0.103739497297197</Y>
+        <Y t="87">0.11425320852923</Y>
+        <Y t="88">0.125757089260559</Y>
+        <Y t="89">0.138327521545938</Y>
+        <Y t="90">0.152042993458744</Y>
+        <Y t="91">0.166983193329444</Y>
+        <Y t="92">0.183227832847359</Y>
+        <Y t="93">0.200855155968787</Y>
+        <Y t="94">0.219940089892402</Y>
+        <Y t="95">0.240551996139831</Y>
+        <Y t="96">0.262751985065946</Y>
+        <Y t="97">0.286589767196814</Y>
+        <Y t="98">0.312100031143604</Y>
+        <Y t="99">0.33929836211489</Y>
+        <Y t="100">0.368176748935198</Y>
+        <Y t="101">0.398698772499156</Y>
+        <Y t="102">0.430794625793354</Y>
+        <Y t="103">0.464356185109967</Y>
+        <Y t="104">0.49923243241549</Y>
+        <Y t="105">0.535225616271518</Y>
+        <Y t="106">0.572088626309967</Y>
+        <Y t="107">0.609524133114879</Y>
+        <Y t="108">0.647186095925543</Y>
+        <Y t="109">0.684684244691576</Y>
+        <Y t="110">0.721592076899376</Y>
+        <Y t="111">0.757458748432845</Y>
+        <Y t="112">0.791824960347449</Y>
+        <Y t="113">0.824242539315722</Y>
+        <Y t="114">0.854296887899177</Y>
+        <Y t="115">0.881630880581042</Y>
+        <Y t="116">0.905968179040097</Y>
+        <Y t="117">0.927133451148318</Y>
+        <Y t="118">0.945066748128197</Y>
+        <Y t="119">0.959829473120211</Y>
+        <Y t="120">0.971600073846929</Y>
+        <Y t="121">0.980658831507879</Y>
+        <Y t="122">0.987362773788279</Y>
+        <Y t="123">0.992113522165729</Y>
+        <Y t="124">0.995322368480282</Y>
+        <Y t="125">0.997377606602537</Y>
+        <Y t="126">0.998618792600377</Y>
+        <Y t="127">0.999321132955263</Y>
+        <Y t="128">0.99969094524322</Y>
+        <Y t="129">0.999870752656846</Y>
+        <Y t="130">0.999950799816154</Y>
+        <Y t="131">0.999983124167526</Y>
+        <Y t="132">0.999994842534771</Y>
+        <Y t="133">0.999998613011716</Y>
+        <Y t="134">0.999999676269115</Y>
+        <Y t="135">0.99999993541471</Y>
+        <Y t="136">0.999999989171492</Y>
+        <Y t="137">0.999999998502581</Y>
+        <Y t="138">0.999999999832724</Y>
+        <Y t="139">0.999999999985248</Y>
+        <Y t="140">0.999999999998999</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

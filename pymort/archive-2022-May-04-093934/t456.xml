@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>456</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Committee on Expected Experience – Subcommittee on Group Life and Health Insurance, “Report of the Mortality Committee, Canadian Basic Group Life Tables, 1968-72”, Mortality Committee Report, Canadian Institute of Actuaries (Ottawa, 1978) Table 3B</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>1968-72 CIA Group Life Death plus Waiver and Disability - Aggregate, ANB</TableName>
+    <TableDescription>1968-72 Canadian Institute of Actuaries (CIA) Group Life Death plus Waiver of Premium Disability (75%) plus Total and Permanent Disability (50%) – Aggregate. Basis: Age Nearest Birthday. Minimum Age: 18 Maximum Age: 90</TableDescription>
+    <Comments>Study Data: Basic data from eleven companies contributing to Canadian Institute of Actuaries (CIA) mortality studies. Rated and non-rated group term life experience from groups with 25 lives or more, excluding association groups, credit life groups, dependents life and group permanent insurance observed 1968 to 1972 policy years. Prior studies were built of the form death-plus-disability claim rate. With the 1968-72 study, the Committee introduced graduated rates of death-only and disability-only rates in addition to the death-plus-disability tables. Methodology: Data is contributed in quinquennial age groups on the basis of age nearest birthday. Crude values of µ(x) obtained for central ages. Crude q(x) at central ages then found by formula:  [-13µ(x-5) + 296 µ(x) + 17µ(x+5) ] / 300. Graduated values of q(x) for each age 18 to 90 were obtained by applying Jenkin’s Fifth Difference Modified Osculatory Interpolation formula to the crude quinquennial values of q(x). Use of the Jenkin’s Fifth Difference Formula corresponds in general with the graduation method employed in arriving at the q(x) values in the Society of Actuaries (SOA) 1960 Commissioners Standard Group (See SOA Table Identity 305) and 1960 Basic Group Mortality tables (See SOA Table Identity 304). Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Life</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>1968-72 Canadian Institute of Actuaries (CIA) Group Life Death plus Waiver of Premium Disability (75%) plus Total and Permanent Disability (50%) – Aggregate. Basis: Age Nearest Birthday. Minimum Age: 18 Maximum Age: 90</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>90</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00132</Y>
+        <Y t="19">0.00125</Y>
+        <Y t="20">0.00118</Y>
+        <Y t="21">0.00113</Y>
+        <Y t="22">0.00109</Y>
+        <Y t="23">0.00105</Y>
+        <Y t="24">0.00103</Y>
+        <Y t="25">0.00101</Y>
+        <Y t="26">0.00101</Y>
+        <Y t="27">0.00100</Y>
+        <Y t="28">0.00101</Y>
+        <Y t="29">0.00101</Y>
+        <Y t="30">0.00102</Y>
+        <Y t="31">0.00105</Y>
+        <Y t="32">0.00109</Y>
+        <Y t="33">0.00116</Y>
+        <Y t="34">0.00124</Y>
+        <Y t="35">0.00134</Y>
+        <Y t="36">0.00147</Y>
+        <Y t="37">0.00162</Y>
+        <Y t="38">0.00178</Y>
+        <Y t="39">0.00198</Y>
+        <Y t="40">0.00219</Y>
+        <Y t="41">0.00243</Y>
+        <Y t="42">0.00270</Y>
+        <Y t="43">0.00300</Y>
+        <Y t="44">0.00335</Y>
+        <Y t="45">0.00373</Y>
+        <Y t="46">0.00415</Y>
+        <Y t="47">0.00461</Y>
+        <Y t="48">0.00512</Y>
+        <Y t="49">0.00567</Y>
+        <Y t="50">0.00628</Y>
+        <Y t="51">0.00697</Y>
+        <Y t="52">0.00775</Y>
+        <Y t="53">0.00863</Y>
+        <Y t="54">0.00965</Y>
+        <Y t="55">0.01079</Y>
+        <Y t="56">0.01209</Y>
+        <Y t="57">0.01357</Y>
+        <Y t="58">0.01523</Y>
+        <Y t="59">0.01710</Y>
+        <Y t="60">0.01915</Y>
+        <Y t="61">0.02139</Y>
+        <Y t="62">0.02380</Y>
+        <Y t="63">0.02638</Y>
+        <Y t="64">0.02912</Y>
+        <Y t="65">0.02342</Y>
+        <Y t="66">0.02568</Y>
+        <Y t="67">0.02822</Y>
+        <Y t="68">0.03109</Y>
+        <Y t="69">0.03433</Y>
+        <Y t="70">0.03792</Y>
+        <Y t="71">0.04183</Y>
+        <Y t="72">0.04600</Y>
+        <Y t="73">0.05041</Y>
+        <Y t="74">0.05503</Y>
+        <Y t="75">0.05991</Y>
+        <Y t="76">0.06513</Y>
+        <Y t="77">0.07077</Y>
+        <Y t="78">0.07688</Y>
+        <Y t="79">0.08353</Y>
+        <Y t="80">0.09068</Y>
+        <Y t="81">0.09829</Y>
+        <Y t="82">0.10630</Y>
+        <Y t="83">0.11467</Y>
+        <Y t="84">0.12333</Y>
+        <Y t="85">0.13212</Y>
+        <Y t="86">0.14088</Y>
+        <Y t="87">0.14943</Y>
+        <Y t="88">0.15759</Y>
+        <Y t="89">0.16520</Y>
+        <Y t="90">0.17210</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

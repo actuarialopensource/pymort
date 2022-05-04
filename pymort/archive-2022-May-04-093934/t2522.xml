@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2522</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>SAS Mortality Study Work Group, “Singapore Actuarial Society: Mortality Investigation 1997-2002”, Singapore Actuarial Society (2004). Accessed November, 2013 from: http://www.actuaries.org.sg/?q=disknode/get/574/Singapore%2520-%2520Mortality%2520Study%2520Report%25202004.pdf&amp;download</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>S9702 – Female, ANB</TableName>
+    <TableDescription>Singapore 1997-2002 Mortality (S9702) – Female. Basis: Age Nearest Birthday. Minimum Age: 15. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data: Mortality experience of insured lives in Singapore from 1997 to 2002. As the data from individual companies are confidential and are only available to the Monetary Authority of Singapore (MAS), the Mortality Work Group worked closely with the MAS on the compilation and processing of data to derive the necessary statistics for the mortality investigation and graduation. Data consisted of contracts of insurance under whole life and endowment policies and accepted at standard rates, comprising both medically underwritten and non-medically underwritten lives. Methodology: Unlike previous mortality studies (See SOA Table Identities 212-213 and 2520-2521), the Mortality Working Group made explicit adjustments to the insured lives data by removing from the analysis life insurance policies that offer a 100% acceleration of the death benefit upon the diagnosis of critical illness. After this adjustment, crude rates to be used for establishing graduated mortality tables for male and female lives separately were derived. The Free Cubic Spline (FCS) method was the primary method used for agesup to age 64 as it produced better smoothness than Whittaker-Henderson. Adjustments were made using other methods such as a 7-year moving average and hand polishing to ensure smoothness and goodness of fit. A Gompertz formula was used for ages 65 and above. Based on the data available, the Mortality Working Group was unable to derive credible mortality ratesfor children aged below 15. Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Singapore</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="65">Singapore</Nation>
+      <TableDescription>Singapore 1997-2002 Mortality (S9702) – Female. Basis: Age Nearest Birthday. Minimum Age: 15. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.0001535</Y>
+        <Y t="16">0.000157</Y>
+        <Y t="17">0.0001658</Y>
+        <Y t="18">0.0001767</Y>
+        <Y t="19">0.0001861</Y>
+        <Y t="20">0.0001876</Y>
+        <Y t="21">0.0001885</Y>
+        <Y t="22">0.0001894</Y>
+        <Y t="23">0.0001904</Y>
+        <Y t="24">0.0001919</Y>
+        <Y t="25">0.0001939</Y>
+        <Y t="26">0.0002046</Y>
+        <Y t="27">0.0002171</Y>
+        <Y t="28">0.0002317</Y>
+        <Y t="29">0.0002488</Y>
+        <Y t="30">0.0002678</Y>
+        <Y t="31">0.0002892</Y>
+        <Y t="32">0.0003103</Y>
+        <Y t="33">0.0003318</Y>
+        <Y t="34">0.0003544</Y>
+        <Y t="35">0.0003787</Y>
+        <Y t="36">0.0004054</Y>
+        <Y t="37">0.000435</Y>
+        <Y t="38">0.0004684</Y>
+        <Y t="39">0.0005061</Y>
+        <Y t="40">0.0005487</Y>
+        <Y t="41">0.000597</Y>
+        <Y t="42">0.0006515</Y>
+        <Y t="43">0.000713</Y>
+        <Y t="44">0.0007821</Y>
+        <Y t="45">0.0008594</Y>
+        <Y t="46">0.0009456</Y>
+        <Y t="47">0.0010413</Y>
+        <Y t="48">0.0011472</Y>
+        <Y t="49">0.001264</Y>
+        <Y t="50">0.0013923</Y>
+        <Y t="51">0.0015327</Y>
+        <Y t="52">0.0016859</Y>
+        <Y t="53">0.0018525</Y>
+        <Y t="54">0.0020333</Y>
+        <Y t="55">0.0022288</Y>
+        <Y t="56">0.0024398</Y>
+        <Y t="57">0.0026668</Y>
+        <Y t="58">0.0029105</Y>
+        <Y t="59">0.0031716</Y>
+        <Y t="60">0.0034507</Y>
+        <Y t="61">0.0037484</Y>
+        <Y t="62">0.0040655</Y>
+        <Y t="63">0.0044026</Y>
+        <Y t="64">0.00477</Y>
+        <Y t="65">0.0052189</Y>
+        <Y t="66">0.0058119</Y>
+        <Y t="67">0.0066195</Y>
+        <Y t="68">0.0077127</Y>
+        <Y t="69">0.009133</Y>
+        <Y t="70">0.0108417</Y>
+        <Y t="71">0.0127053</Y>
+        <Y t="72">0.0145726</Y>
+        <Y t="73">0.0163981</Y>
+        <Y t="74">0.0183032</Y>
+        <Y t="75">0.0204436</Y>
+        <Y t="76">0.0224868</Y>
+        <Y t="77">0.0254772</Y>
+        <Y t="78">0.0287284</Y>
+        <Y t="79">0.0323121</Y>
+        <Y t="80">0.0363345</Y>
+        <Y t="81">0.0408469</Y>
+        <Y t="82">0.0459062</Y>
+        <Y t="83">0.0515751</Y>
+        <Y t="84">0.0579226</Y>
+        <Y t="85">0.0650241</Y>
+        <Y t="86">0.0729621</Y>
+        <Y t="87">0.0818261</Y>
+        <Y t="88">0.0917125</Y>
+        <Y t="89">0.1027252</Y>
+        <Y t="90">0.1149746</Y>
+        <Y t="91">0.1285771</Y>
+        <Y t="92">0.1436543</Y>
+        <Y t="93">0.1603311</Y>
+        <Y t="94">0.1787339</Y>
+        <Y t="95">0.1989876</Y>
+        <Y t="96">0.2212118</Y>
+        <Y t="97">0.2455165</Y>
+        <Y t="98">0.2719956</Y>
+        <Y t="99">0.3007207</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

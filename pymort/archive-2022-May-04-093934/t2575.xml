@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2575</TableIdentity>
+    <ProviderDomain>www.cso.ie</ProviderDomain>
+    <ProviderName>Kieren O’Shea</ProviderName>
+    <TableReference>Vital Statistics, “Irish Life Table No. 13 (1995-97)”, Irish Statistical Bulletin, Central Statistics Office (Ireland, 2001) Accessed: December, 2013 from http://www.cso.ie/en/media/csoie/releasespublications/documents/birthsdm/irishlife_1995-1997.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Irish Life Table No. 13 (1995-97) Males</TableName>
+    <TableDescription>Irish Life Table No. 13 (1995-97) Males. Minimum Age: 0. Maximum Age: 105</TableDescription>
+    <Comments>Study Data: Life tables were constructed for males and females which are representative of the mortality experience in Ireland in 1996 by using the 1996 Census of Population and deaths enumerated in the three years 1995, 1996 and 1997. The life table should reflect the normal mortality conditions at about the time of the Census. However, in 1997 the number of early neonatal deaths for males was exceptionally low and considering this it was decided to substitute it with a hypothetical figure more reflective of the average mortality experience of the time. Methodology: the probability of dying is the ratio of the number of deaths at exact age x divided by the number of persons surviving at that exact age. Hence the life table is based on current mortality rates only and that no assumptions are made about future changes. The exception to this is at age 0 as infant deaths are not evenly distributed (i.e. they are non-linear over a year). For example, in 1996, 37% of all infant deaths occurred on their first day of life. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Ireland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="353">Ireland</Nation>
+      <TableDescription>Irish Life Table No. 13 (1995-97) Males. Minimum Age: 0. Maximum Age: 105</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00705</Y>
+        <Y t="1">0.00036</Y>
+        <Y t="2">0.00036</Y>
+        <Y t="3">0.00021</Y>
+        <Y t="4">0.00023</Y>
+        <Y t="5">0.00018</Y>
+        <Y t="6">0.00015</Y>
+        <Y t="7">0.00018</Y>
+        <Y t="8">0.00017</Y>
+        <Y t="9">0.00016</Y>
+        <Y t="10">0.00017</Y>
+        <Y t="11">0.00019</Y>
+        <Y t="12">0.00023</Y>
+        <Y t="13">0.0003</Y>
+        <Y t="14">0.00039</Y>
+        <Y t="15">0.0005</Y>
+        <Y t="16">0.00061</Y>
+        <Y t="17">0.00073</Y>
+        <Y t="18">0.00087</Y>
+        <Y t="19">0.00103</Y>
+        <Y t="20">0.00119</Y>
+        <Y t="21">0.00133</Y>
+        <Y t="22">0.00141</Y>
+        <Y t="23">0.00142</Y>
+        <Y t="24">0.00138</Y>
+        <Y t="25">0.00131</Y>
+        <Y t="26">0.00124</Y>
+        <Y t="27">0.0012</Y>
+        <Y t="28">0.00118</Y>
+        <Y t="29">0.00118</Y>
+        <Y t="30">0.00119</Y>
+        <Y t="31">0.0012</Y>
+        <Y t="32">0.00123</Y>
+        <Y t="33">0.00125</Y>
+        <Y t="34">0.00129</Y>
+        <Y t="35">0.00133</Y>
+        <Y t="36">0.00139</Y>
+        <Y t="37">0.00145</Y>
+        <Y t="38">0.00152</Y>
+        <Y t="39">0.0016</Y>
+        <Y t="40">0.00169</Y>
+        <Y t="41">0.0018</Y>
+        <Y t="42">0.00194</Y>
+        <Y t="43">0.00211</Y>
+        <Y t="44">0.00229</Y>
+        <Y t="45">0.00251</Y>
+        <Y t="46">0.00277</Y>
+        <Y t="47">0.00309</Y>
+        <Y t="48">0.00347</Y>
+        <Y t="49">0.00389</Y>
+        <Y t="50">0.00436</Y>
+        <Y t="51">0.00491</Y>
+        <Y t="52">0.00553</Y>
+        <Y t="53">0.00622</Y>
+        <Y t="54">0.00697</Y>
+        <Y t="55">0.00781</Y>
+        <Y t="56">0.00874</Y>
+        <Y t="57">0.0098</Y>
+        <Y t="58">0.01096</Y>
+        <Y t="59">0.01221</Y>
+        <Y t="60">0.01359</Y>
+        <Y t="61">0.01515</Y>
+        <Y t="62">0.01694</Y>
+        <Y t="63">0.01896</Y>
+        <Y t="64">0.02118</Y>
+        <Y t="65">0.02364</Y>
+        <Y t="66">0.02639</Y>
+        <Y t="67">0.02948</Y>
+        <Y t="68">0.03297</Y>
+        <Y t="69">0.03688</Y>
+        <Y t="70">0.04115</Y>
+        <Y t="71">0.04573</Y>
+        <Y t="72">0.05056</Y>
+        <Y t="73">0.05555</Y>
+        <Y t="74">0.06079</Y>
+        <Y t="75">0.06641</Y>
+        <Y t="76">0.07259</Y>
+        <Y t="77">0.07952</Y>
+        <Y t="78">0.08739</Y>
+        <Y t="79">0.09618</Y>
+        <Y t="80">0.10581</Y>
+        <Y t="81">0.11616</Y>
+        <Y t="82">0.12707</Y>
+        <Y t="83">0.13868</Y>
+        <Y t="84">0.15117</Y>
+        <Y t="85">0.16448</Y>
+        <Y t="86">0.17854</Y>
+        <Y t="87">0.19321</Y>
+        <Y t="88">0.20867</Y>
+        <Y t="89">0.22487</Y>
+        <Y t="90">0.24182</Y>
+        <Y t="91">0.2595</Y>
+        <Y t="92">0.27794</Y>
+        <Y t="93">0.29711</Y>
+        <Y t="94">0.31703</Y>
+        <Y t="95">0.33769</Y>
+        <Y t="96">0.3591</Y>
+        <Y t="97">0.38125</Y>
+        <Y t="98">0.40414</Y>
+        <Y t="99">0.42777</Y>
+        <Y t="100">0.45215</Y>
+        <Y t="101">0.47728</Y>
+        <Y t="102">0.50314</Y>
+        <Y t="103">0.52975</Y>
+        <Y t="104">0.55711</Y>
+        <Y t="105">0.5852</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

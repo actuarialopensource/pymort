@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2768</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Central Statistics Office Ireland, “Memorandum on the Construction of Life Table No. 2, 1935-37”, Census of the Population, 1936, Vol. V, Part I, (Dublin, 1939). Accessed: November, 2013 from http://www.cso.ie/en/media/csoie/census/census1936results/volume5/C,1936,VOL,5-1,T22.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Irish Life Table No. 2 (1935-37) – Female</TableName>
+    <TableDescription>Irish Life Tables (ELT) Number 2 (1935-37) – Female. Minimum Age: 0. Maximum Age: 105.</TableDescription>
+    <Comments>Study Data: Census population data from Ireland for the period 1935-37 and deaths registered in those years. Consistent with English Life Tables (ELT), tables based on a period of three calendar years centered on the year in which a full census has been carried out. For infantile ages, the Registrar-General’s statistics of births and death were used, because as seen in other countries, the numbers of children age ages 0 and 1 are somewhat understated at the Census. The population data were not adjusted to the middle of the Census year as is usually the practice. Methodology: Analysis of the crude rates of mortality for ages 5 and over indicated that mortality of 1937 was abnormally high. Eventually it was decided to include the mortality of 1937 but not to its full extant. Instead of weighting the mortality equally, a hypothetical figure was developed for 1937 and substituted for the actual rates in the calculations. The final formula adopted was: annual average deaths = 1/9 (4*D(1935) + 4*D(1936) + HD(1937). Though a somewhat unorthodox procedure, this weighted average produced results very close to the actual mortality in the year 1936. The remainder of the calculations follow closely those of Mr. George King implemented in the construction of ELT No. 7 and No. 8 (See SOA Table Identities 2721-2722 and 2062-2063, respectively) with certain modifications by Sir William Watson in the construction of ELT No. 9 and No. 10 (See SOA Table Identities 2747-2748 and 2753-2754, respectively). Mr. King’s interpolation formula was used for the graduated central pivotal values 12-37. For graduated pivotal ages 40-90 the following formula was used: w(40) = 0.1*w(25-34) + 0.105*∆w(25-34) – 0.0015∆^2w(25-34)  where w(40) indicates graduated population or deaths at age 40, w(25-34) the group total and ∆w(25-34), ∆^2w(25-34) the first and second decennial differences. Analogous formulae were used for ages 50, 60, etc.. The values of q(x) from 17 to 32 were calculated by osculatory interpolation using King’s formula while the values from ages 33 to 39 were found by Lagrangean interpolation. The values of q(x) for ages 0 to 4 were derived solely from deaths in the three years 1935, 1936, and 1937 and the births registered in each quarter from 1930 to 1937 inclusive using the formulas devised for ELT No. 9. The abnormality in number of deaths observed in 1937 was confined to the adult ages so no modification in the calculation at infantile ages was needed. Data Transcription Errors: None. Data Certified: 05/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>Ireland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="353">Ireland</Nation>
+      <TableDescription>Irish Life Tables (ELT) Number 2 (1935-37) – Female. Minimum Age: 0. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.06327</Y>
+        <Y t="1">0.01309</Y>
+        <Y t="2">0.00657</Y>
+        <Y t="3">0.00503</Y>
+        <Y t="4">0.00380</Y>
+        <Y t="5">0.00303</Y>
+        <Y t="6">0.00256</Y>
+        <Y t="7">0.00227</Y>
+        <Y t="8">0.00210</Y>
+        <Y t="9">0.00195</Y>
+        <Y t="10">0.00185</Y>
+        <Y t="11">0.00179</Y>
+        <Y t="12">0.00177</Y>
+        <Y t="13">0.00181</Y>
+        <Y t="14">0.00194</Y>
+        <Y t="15">0.00215</Y>
+        <Y t="16">0.00242</Y>
+        <Y t="17">0.00274</Y>
+        <Y t="18">0.00302</Y>
+        <Y t="19">0.00335</Y>
+        <Y t="20">0.00369</Y>
+        <Y t="21">0.00401</Y>
+        <Y t="22">0.00426</Y>
+        <Y t="23">0.00445</Y>
+        <Y t="24">0.00437</Y>
+        <Y t="25">0.00467</Y>
+        <Y t="26">0.00476</Y>
+        <Y t="27">0.00485</Y>
+        <Y t="28">0.00496</Y>
+        <Y t="29">0.00506</Y>
+        <Y t="30">0.00516</Y>
+        <Y t="31">0.00525</Y>
+        <Y t="32">0.00534</Y>
+        <Y t="33">0.00542</Y>
+        <Y t="34">0.00549</Y>
+        <Y t="35">0.00557</Y>
+        <Y t="36">0.00566</Y>
+        <Y t="37">0.00578</Y>
+        <Y t="38">0.00591</Y>
+        <Y t="39">0.00609</Y>
+        <Y t="40">0.00630</Y>
+        <Y t="41">0.00657</Y>
+        <Y t="42">0.00683</Y>
+        <Y t="43">0.00712</Y>
+        <Y t="44">0.00743</Y>
+        <Y t="45">0.00778</Y>
+        <Y t="46">0.00818</Y>
+        <Y t="47">0.00865</Y>
+        <Y t="48">0.00918</Y>
+        <Y t="49">0.00981</Y>
+        <Y t="50">0.01053</Y>
+        <Y t="51">0.01133</Y>
+        <Y t="52">0.01216</Y>
+        <Y t="53">0.01305</Y>
+        <Y t="54">0.01402</Y>
+        <Y t="55">0.01507</Y>
+        <Y t="56">0.01624</Y>
+        <Y t="57">0.01753</Y>
+        <Y t="58">0.01897</Y>
+        <Y t="59">0.02058</Y>
+        <Y t="60">0.02238</Y>
+        <Y t="61">0.02439</Y>
+        <Y t="62">0.02663</Y>
+        <Y t="63">0.02907</Y>
+        <Y t="64">0.03170</Y>
+        <Y t="65">0.03452</Y>
+        <Y t="66">0.03751</Y>
+        <Y t="67">0.04066</Y>
+        <Y t="68">0.04396</Y>
+        <Y t="69">0.04738</Y>
+        <Y t="70">0.05090</Y>
+        <Y t="71">0.05447</Y>
+        <Y t="72">0.05806</Y>
+        <Y t="73">0.06174</Y>
+        <Y t="74">0.06557</Y>
+        <Y t="75">0.06963</Y>
+        <Y t="76">0.07400</Y>
+        <Y t="77">0.07877</Y>
+        <Y t="78">0.08405</Y>
+        <Y t="79">0.08994</Y>
+        <Y t="80">0.09657</Y>
+        <Y t="81">0.10393</Y>
+        <Y t="82">0.11199</Y>
+        <Y t="83">0.12081</Y>
+        <Y t="84">0.13045</Y>
+        <Y t="85">0.14097</Y>
+        <Y t="86">0.15245</Y>
+        <Y t="87">0.16494</Y>
+        <Y t="88">0.17853</Y>
+        <Y t="89">0.19328</Y>
+        <Y t="90">0.20927</Y>
+        <Y t="91">0.22655</Y>
+        <Y t="92">0.24521</Y>
+        <Y t="93">0.26529</Y>
+        <Y t="94">0.28685</Y>
+        <Y t="95">0.30993</Y>
+        <Y t="96">0.33455</Y>
+        <Y t="97">0.36072</Y>
+        <Y t="98">0.38844</Y>
+        <Y t="99">0.41766</Y>
+        <Y t="100">0.44831</Y>
+        <Y t="101">0.48029</Y>
+        <Y t="102">0.51347</Y>
+        <Y t="103">0.54765</Y>
+        <Y t="104">0.58263</Y>
+        <Y t="105">0.61812</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

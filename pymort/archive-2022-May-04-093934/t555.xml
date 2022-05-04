@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>555</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Israel National Insurance</ProviderName>
+    <TableReference>National Insurance Institute of Israel “National Insurance Regulations”, National Insurance Institute of Israel (1982), Accessed: September, 2014 from http://www.btl.gov.il/laws1/02_0001_166300.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1978-1982 Israel – Female, ANB</TableName>
+    <TableDescription>1978-1982 Israel – Female. Basis: Age Nearest Birthday. Minimum Age: 18 Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Population data for the period 1978 to 1982. Methodology: All deaths of 1978-82 divided by average population Formula is qx = dx/(lx+.5dx) Graduation by graphic method and then by differential method. Special handling of ages above 100. Procedure used based on Robert W. Baten’s “Mortality Table Construction”.  Although this is population data, it is often used for pension work. NOTE: Publication contains lx values and data was converted to qx with rounding at 5 decimals. Data Transcription Errors: None Data Certified: 09/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Israel</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="972">Israel</Nation>
+      <TableDescription>1978-1982 Israel – Female. Basis: Age Nearest Birthday. Minimum Age: 18 Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00033</Y>
+        <Y t="19">0.00035</Y>
+        <Y t="20">0.00036</Y>
+        <Y t="21">0.00037</Y>
+        <Y t="22">0.00038</Y>
+        <Y t="23">0.00039</Y>
+        <Y t="24">0.00040</Y>
+        <Y t="25">0.00041</Y>
+        <Y t="26">0.00042</Y>
+        <Y t="27">0.00044</Y>
+        <Y t="28">0.00046</Y>
+        <Y t="29">0.00048</Y>
+        <Y t="30">0.00051</Y>
+        <Y t="31">0.00053</Y>
+        <Y t="32">0.00057</Y>
+        <Y t="33">0.00060</Y>
+        <Y t="34">0.00064</Y>
+        <Y t="35">0.00068</Y>
+        <Y t="36">0.00072</Y>
+        <Y t="37">0.00078</Y>
+        <Y t="38">0.00085</Y>
+        <Y t="39">0.00093</Y>
+        <Y t="40">0.00103</Y>
+        <Y t="41">0.00115</Y>
+        <Y t="42">0.00129</Y>
+        <Y t="43">0.00146</Y>
+        <Y t="44">0.00165</Y>
+        <Y t="45">0.00187</Y>
+        <Y t="46">0.00211</Y>
+        <Y t="47">0.00237</Y>
+        <Y t="48">0.00264</Y>
+        <Y t="49">0.00294</Y>
+        <Y t="50">0.00327</Y>
+        <Y t="51">0.00361</Y>
+        <Y t="52">0.00398</Y>
+        <Y t="53">0.00442</Y>
+        <Y t="54">0.00489</Y>
+        <Y t="55">0.00544</Y>
+        <Y t="56">0.00607</Y>
+        <Y t="57">0.00679</Y>
+        <Y t="58">0.00762</Y>
+        <Y t="59">0.00856</Y>
+        <Y t="60">0.00963</Y>
+        <Y t="61">0.01081</Y>
+        <Y t="62">0.01214</Y>
+        <Y t="63">0.01358</Y>
+        <Y t="64">0.01518</Y>
+        <Y t="65">0.01694</Y>
+        <Y t="66">0.01889</Y>
+        <Y t="67">0.02109</Y>
+        <Y t="68">0.02352</Y>
+        <Y t="69">0.02624</Y>
+        <Y t="70">0.02925</Y>
+        <Y t="71">0.03257</Y>
+        <Y t="72">0.03625</Y>
+        <Y t="73">0.04035</Y>
+        <Y t="74">0.04494</Y>
+        <Y t="75">0.05013</Y>
+        <Y t="76">0.05599</Y>
+        <Y t="77">0.06258</Y>
+        <Y t="78">0.06994</Y>
+        <Y t="79">0.07809</Y>
+        <Y t="80">0.08692</Y>
+        <Y t="81">0.09638</Y>
+        <Y t="82">0.10635</Y>
+        <Y t="83">0.11672</Y>
+        <Y t="84">0.12744</Y>
+        <Y t="85">0.13842</Y>
+        <Y t="86">0.14973</Y>
+        <Y t="87">0.16133</Y>
+        <Y t="88">0.17327</Y>
+        <Y t="89">0.18544</Y>
+        <Y t="90">0.19783</Y>
+        <Y t="91">0.21036</Y>
+        <Y t="92">0.22295</Y>
+        <Y t="93">0.23695</Y>
+        <Y t="94">0.25312</Y>
+        <Y t="95">0.27085</Y>
+        <Y t="96">0.29116</Y>
+        <Y t="97">0.31392</Y>
+        <Y t="98">0.33856</Y>
+        <Y t="99">0.36681</Y>
+        <Y t="100">0.39427</Y>
+        <Y t="101">0.42182</Y>
+        <Y t="102">0.44654</Y>
+        <Y t="103">0.46591</Y>
+        <Y t="104">0.48936</Y>
+        <Y t="105">0.50000</Y>
+        <Y t="106">0.50000</Y>
+        <Y t="107">0.50000</Y>
+        <Y t="108">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

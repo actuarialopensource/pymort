@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2279</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>LIMRA and The Society of Actuaries “U.S. Individual Life Insurance Persistency Update”, LIMRA and The Society of Actuaries, (2008). Accessed: August, 2013 from https://www.soa.org/resources/experience-studies/2005-2009/2003-us-life-update/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2003-2004 Individual Life Persistency Study – YRT, Monthly Premiums</TableName>
+    <TableDescription>2003-2004 Individual Life Persistency Study – Yearly Renewable Term (YRT) Insurance by Number of Policies AND by Face Amounts. Basis: Monthly Premiums. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and Over</TableDescription>
+    <Comments>Study Data: The observation period for the study is calendar years 2003 and 2004. The study is based on data provided by 43 individual life insurance writers and it presents lapse experience for whole life, term life, universal life, and variable universal life plans issued between 1902 and 2004. Lapse includes termination for nonpayment of premium, insufficient cashvalue, or full surrender of a policy, transfer to reduced paid-up or extended term status, and in most cases, terminations for unknown reason. Methodology: Lapse rates are calculated as follows: Annualized Policy Lapse Rate = 100 x Number of Policies Lapsed During the Year / Number of Policies Exposed to Lapse During the Year. The number of policies exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Rates for policy durations 30 and over set to the same value. Data Transcription Errors: None. Data Certified: 09/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003-2004 Individual Life Persistency Study – Yearly Renewable Term (YRT) Insurance by Number of Policies. Basis: Monthly Premiums. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and Over</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>30</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.053</Y>
+        <Y t="2">0.061</Y>
+        <Y t="3">0.063</Y>
+        <Y t="4">0.053</Y>
+        <Y t="5">0.056</Y>
+        <Y t="6">0.056</Y>
+        <Y t="7">0.053</Y>
+        <Y t="8">0.061</Y>
+        <Y t="9">0.064</Y>
+        <Y t="10">0.065</Y>
+        <Y t="11">0.063</Y>
+        <Y t="12">0.064</Y>
+        <Y t="13">0.061</Y>
+        <Y t="14">0.059</Y>
+        <Y t="15">0.058</Y>
+        <Y t="16">0.059</Y>
+        <Y t="17">0.056</Y>
+        <Y t="18">0.053</Y>
+        <Y t="19">0.051</Y>
+        <Y t="20">0.056</Y>
+        <Y t="21">0.048</Y>
+        <Y t="22">0.046</Y>
+        <Y t="23">0.059</Y>
+        <Y t="24">0.058</Y>
+        <Y t="25">0.052</Y>
+        <Y t="26">0.071</Y>
+        <Y t="27">0.071</Y>
+        <Y t="28">0.071</Y>
+        <Y t="29">0.071</Y>
+        <Y t="30">0.109</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003-2004 Individual Life Persistency Study – Yearly Renewable Term (YRT) Insurance by Face Amounts. Basis: Monthly Premiums. Minimum Policy Duration: 1. Maximum Policy Duration: 30 and Over</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>30</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.042</Y>
+        <Y t="2">0.053</Y>
+        <Y t="3">0.053</Y>
+        <Y t="4">0.05</Y>
+        <Y t="5">0.057</Y>
+        <Y t="6">0.058</Y>
+        <Y t="7">0.056</Y>
+        <Y t="8">0.065</Y>
+        <Y t="9">0.065</Y>
+        <Y t="10">0.067</Y>
+        <Y t="11">0.065</Y>
+        <Y t="12">0.07</Y>
+        <Y t="13">0.068</Y>
+        <Y t="14">0.064</Y>
+        <Y t="15">0.065</Y>
+        <Y t="16">0.066</Y>
+        <Y t="17">0.065</Y>
+        <Y t="18">0.062</Y>
+        <Y t="19">0.063</Y>
+        <Y t="20">0.063</Y>
+        <Y t="21">0.056</Y>
+        <Y t="22">0.054</Y>
+        <Y t="23">0.075</Y>
+        <Y t="24">0.07</Y>
+        <Y t="25">0.055</Y>
+        <Y t="26">0.063</Y>
+        <Y t="27">0.063</Y>
+        <Y t="28">0.063</Y>
+        <Y t="29">0.063</Y>
+        <Y t="30">0.101</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

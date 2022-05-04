@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>23003</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Fernando Ulloa</ProviderName>
+    <TableReference>Superintendencia, “Circular No 033: Reservas de Aseguradoes del Segundo Grupo”, La Superintendencia de Valores y Seguros de Chile (1981). Accessed: March, 2014 from http://www.svs.cl/institucional/mercados/ver_archivo.php?archivo=/web/compendio/cir/cir_33_1981.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>M-70 KW</TableName>
+    <TableDescription>Tabla de Mortalidad M-70 K W. Minimum Age: 0 Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Superseded by M95-H and M95-M (See SOA Table Identities 23001 and 23002) for the calculation of reserves on life insurance policies after August, 2000.  Table made to apply to men hence when applied to a woman, a difference of 7 years should be considered Methodology: Not available at this time. Data Transcription Errors Detected: 03/2014. Data Corrected and Certified: 03/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Chile</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="56">Chile</Nation>
+      <TableDescription>Tabla de Mortalidad M-70 K W. Minimum Age: 0 Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.063828</Y>
+        <Y t="1">0.017873</Y>
+        <Y t="2">0.002340</Y>
+        <Y t="3">0.002033</Y>
+        <Y t="4">0.001770</Y>
+        <Y t="5">0.001547</Y>
+        <Y t="6">0.001362</Y>
+        <Y t="7">0.001212</Y>
+        <Y t="8">0.001092</Y>
+        <Y t="9">0.001002</Y>
+        <Y t="10">0.000938</Y>
+        <Y t="11">0.000896</Y>
+        <Y t="12">0.000875</Y>
+        <Y t="13">0.000869</Y>
+        <Y t="14">0.000878</Y>
+        <Y t="15">0.000897</Y>
+        <Y t="16">0.000923</Y>
+        <Y t="17">0.000956</Y>
+        <Y t="18">0.000990</Y>
+        <Y t="19">0.001024</Y>
+        <Y t="20">0.001052</Y>
+        <Y t="21">0.001118</Y>
+        <Y t="22">0.001190</Y>
+        <Y t="23">0.001269</Y>
+        <Y t="24">0.001354</Y>
+        <Y t="25">0.001446</Y>
+        <Y t="26">0.001547</Y>
+        <Y t="27">0.001656</Y>
+        <Y t="28">0.001774</Y>
+        <Y t="29">0.001903</Y>
+        <Y t="30">0.002044</Y>
+        <Y t="31">0.002196</Y>
+        <Y t="32">0.002361</Y>
+        <Y t="33">0.002541</Y>
+        <Y t="34">0.002736</Y>
+        <Y t="35">0.002949</Y>
+        <Y t="36">0.003179</Y>
+        <Y t="37">0.003430</Y>
+        <Y t="38">0.003702</Y>
+        <Y t="39">0.003998</Y>
+        <Y t="40">0.004320</Y>
+        <Y t="41">0.004669</Y>
+        <Y t="42">0.005049</Y>
+        <Y t="43">0.005461</Y>
+        <Y t="44">0.005909</Y>
+        <Y t="45">0.006396</Y>
+        <Y t="46">0.006925</Y>
+        <Y t="47">0.007499</Y>
+        <Y t="48">0.008123</Y>
+        <Y t="49">0.008800</Y>
+        <Y t="50">0.009537</Y>
+        <Y t="51">0.010335</Y>
+        <Y t="52">0.011202</Y>
+        <Y t="53">0.012145</Y>
+        <Y t="54">0.013168</Y>
+        <Y t="55">0.014279</Y>
+        <Y t="56">0.015485</Y>
+        <Y t="57">0.016795</Y>
+        <Y t="58">0.018214</Y>
+        <Y t="59">0.019756</Y>
+        <Y t="60">0.021429</Y>
+        <Y t="61">0.023242</Y>
+        <Y t="62">0.025212</Y>
+        <Y t="63">0.027347</Y>
+        <Y t="64">0.029661</Y>
+        <Y t="65">0.032172</Y>
+        <Y t="66">0.034893</Y>
+        <Y t="67">0.037841</Y>
+        <Y t="68">0.041035</Y>
+        <Y t="69">0.044495</Y>
+        <Y t="70">0.048241</Y>
+        <Y t="71">0.052298</Y>
+        <Y t="72">0.056684</Y>
+        <Y t="73">0.061429</Y>
+        <Y t="74">0.066560</Y>
+        <Y t="75">0.072105</Y>
+        <Y t="76">0.078092</Y>
+        <Y t="77">0.084557</Y>
+        <Y t="78">0.091532</Y>
+        <Y t="79">0.099052</Y>
+        <Y t="80">0.107154</Y>
+        <Y t="81">0.115879</Y>
+        <Y t="82">0.125262</Y>
+        <Y t="83">0.135351</Y>
+        <Y t="84">0.146183</Y>
+        <Y t="85">0.157803</Y>
+        <Y t="86">0.170248</Y>
+        <Y t="87">0.183567</Y>
+        <Y t="88">0.197808</Y>
+        <Y t="89">0.212997</Y>
+        <Y t="90">0.229176</Y>
+        <Y t="91">0.246399</Y>
+        <Y t="92">0.264683</Y>
+        <Y t="93">0.284006</Y>
+        <Y t="94">0.304509</Y>
+        <Y t="95">0.326025</Y>
+        <Y t="96">0.348683</Y>
+        <Y t="97">0.372541</Y>
+        <Y t="98">0.397312</Y>
+        <Y t="99">0.423099</Y>
+        <Y t="100">0.449950</Y>
+        <Y t="101">0.477477</Y>
+        <Y t="102">0.506897</Y>
+        <Y t="103">0.538462</Y>
+        <Y t="104">0.560606</Y>
+        <Y t="105">0.586207</Y>
+        <Y t="106">0.666667</Y>
+        <Y t="107">0.750000</Y>
+        <Y t="108">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

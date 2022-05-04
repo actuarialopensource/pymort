@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>636</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Danish Central Bureau of Statistics, “Statistical Yearbook 1992 – “Befolkningens Bevægelser” (1994). Accessed: October, 2013 from: http://www.dst.dk/pukora/epub/upload/19746/folk1992.pdf Reprinted by A.S. MacDonald, "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>1991-92 Denmark - Female</TableName>
+    <TableDescription>1991- 1992 Denmark – Female. Minimum Age: 0 Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Annually the Danish Central Bureau of Statistics publishes life tables based on data from the Central Population Register (CPR) of persons living in Denmark and Greenland. The total quantity of information on persons present in CPR is used as a model of the total population. The population is adjusted for immigration and emigration. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 10/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Denmark</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="45">Denmark</Nation>
+      <TableDescription>1991- 1992 Denmark – Female. Minimum Age: 0 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00626</Y>
+        <Y t="1">0.00056</Y>
+        <Y t="2">0.00032</Y>
+        <Y t="3">0.00020</Y>
+        <Y t="4">0.00018</Y>
+        <Y t="5">0.00016</Y>
+        <Y t="6">0.00016</Y>
+        <Y t="7">0.00010</Y>
+        <Y t="8">0.00013</Y>
+        <Y t="9">0.00017</Y>
+        <Y t="10">0.00012</Y>
+        <Y t="11">0.00011</Y>
+        <Y t="12">0.00012</Y>
+        <Y t="13">0.00012</Y>
+        <Y t="14">0.00020</Y>
+        <Y t="15">0.00027</Y>
+        <Y t="16">0.00023</Y>
+        <Y t="17">0.00026</Y>
+        <Y t="18">0.00038</Y>
+        <Y t="19">0.00037</Y>
+        <Y t="20">0.00031</Y>
+        <Y t="21">0.00039</Y>
+        <Y t="22">0.00039</Y>
+        <Y t="23">0.00028</Y>
+        <Y t="24">0.00027</Y>
+        <Y t="25">0.00030</Y>
+        <Y t="26">0.00039</Y>
+        <Y t="27">0.00045</Y>
+        <Y t="28">0.00051</Y>
+        <Y t="29">0.00050</Y>
+        <Y t="30">0.00059</Y>
+        <Y t="31">0.00077</Y>
+        <Y t="32">0.00062</Y>
+        <Y t="33">0.00055</Y>
+        <Y t="34">0.00074</Y>
+        <Y t="35">0.00097</Y>
+        <Y t="36">0.00111</Y>
+        <Y t="37">0.00113</Y>
+        <Y t="38">0.00121</Y>
+        <Y t="39">0.00130</Y>
+        <Y t="40">0.00157</Y>
+        <Y t="41">0.00177</Y>
+        <Y t="42">0.00175</Y>
+        <Y t="43">0.00186</Y>
+        <Y t="44">0.00204</Y>
+        <Y t="45">0.00227</Y>
+        <Y t="46">0.00246</Y>
+        <Y t="47">0.00274</Y>
+        <Y t="48">0.00328</Y>
+        <Y t="49">0.00362</Y>
+        <Y t="50">0.00392</Y>
+        <Y t="51">0.00445</Y>
+        <Y t="52">0.00458</Y>
+        <Y t="53">0.00509</Y>
+        <Y t="54">0.00596</Y>
+        <Y t="55">0.00641</Y>
+        <Y t="56">0.00705</Y>
+        <Y t="57">0.00812</Y>
+        <Y t="58">0.00888</Y>
+        <Y t="59">0.00940</Y>
+        <Y t="60">0.01076</Y>
+        <Y t="61">0.01189</Y>
+        <Y t="62">0.01248</Y>
+        <Y t="63">0.01344</Y>
+        <Y t="64">0.01461</Y>
+        <Y t="65">0.01592</Y>
+        <Y t="66">0.01665</Y>
+        <Y t="67">0.01782</Y>
+        <Y t="68">0.01906</Y>
+        <Y t="69">0.02107</Y>
+        <Y t="70">0.02414</Y>
+        <Y t="71">0.02617</Y>
+        <Y t="72">0.02809</Y>
+        <Y t="73">0.03052</Y>
+        <Y t="74">0.03288</Y>
+        <Y t="75">0.03596</Y>
+        <Y t="76">0.03988</Y>
+        <Y t="77">0.04336</Y>
+        <Y t="78">0.04817</Y>
+        <Y t="79">0.05247</Y>
+        <Y t="80">0.05762</Y>
+        <Y t="81">0.06533</Y>
+        <Y t="82">0.07371</Y>
+        <Y t="83">0.08248</Y>
+        <Y t="84">0.09289</Y>
+        <Y t="85">0.10261</Y>
+        <Y t="86">0.11041</Y>
+        <Y t="87">0.12044</Y>
+        <Y t="88">0.13566</Y>
+        <Y t="89">0.15635</Y>
+        <Y t="90">0.17865</Y>
+        <Y t="91">0.20049</Y>
+        <Y t="92">0.21699</Y>
+        <Y t="93">0.23301</Y>
+        <Y t="94">0.25259</Y>
+        <Y t="95">0.26290</Y>
+        <Y t="96">0.27499</Y>
+        <Y t="97">0.28502</Y>
+        <Y t="98">0.30905</Y>
+        <Y t="99">0.34730</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

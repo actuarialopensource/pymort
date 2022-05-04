@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>840</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>The Executive Committee of the Continuous Mortality Improvement Bureau, “Mortality of Assured Lives, Pensioners and Annuitants 1979-82”, Continuous Mortality Improvement Reports Number 9, Institute of Actuaries and Faculty of Actuaries (1988). Accessed: August, 2013 from http://www.actuaries.org.uk/research-and-resources/documents/cmi-report-9-whole-volume AND http://www.actuaries.org.uk/sites/all/files/documents/xls/wl80.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>WL80</TableName>
+    <TableDescription>Widows of Pensioners Mortality Table. Basis: Lives. (WL80). Minimum Age: 16 Maximum Age: 120</TableDescription>
+    <Comments>Study Data: Table is part of the "80" series of mortality tables for assured lives, annuitants and pensioners based on the observation period 1979-82. The Continuous Mortality Improvement Bureau carries out investigations of mortality for use in the calculation of values of widows' pensions and reversionary annuities on the basis of Lives and of Amounts. Methodology: Experiences graduated by fitting µx to a Gompertz-Makeham formula. Age ranges were fitted independently to a series of formulae which are extensions of the Gompertz-Makeham (GM), using Chebysheff polynomials. Six different formulae were used for different age ranges. Data Transcription Errors: None. Data Certified: 08/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Widows of Pensioners Mortality Table. Basis: Lives. (WL80). Minimum Age: 16 Maximum Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>16</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="16">0.000430</Y>
+        <Y t="17">0.000660</Y>
+        <Y t="18">0.000644</Y>
+        <Y t="19">0.000630</Y>
+        <Y t="20">0.000619</Y>
+        <Y t="21">0.000611</Y>
+        <Y t="22">0.000606</Y>
+        <Y t="23">0.000605</Y>
+        <Y t="24">0.000607</Y>
+        <Y t="25">0.000614</Y>
+        <Y t="26">0.000626</Y>
+        <Y t="27">0.000642</Y>
+        <Y t="28">0.000675</Y>
+        <Y t="29">0.000724</Y>
+        <Y t="30">0.000779</Y>
+        <Y t="31">0.000841</Y>
+        <Y t="32">0.000911</Y>
+        <Y t="33">0.000990</Y>
+        <Y t="34">0.001078</Y>
+        <Y t="35">0.001177</Y>
+        <Y t="36">0.001287</Y>
+        <Y t="37">0.001410</Y>
+        <Y t="38">0.001547</Y>
+        <Y t="39">0.001700</Y>
+        <Y t="40">0.001870</Y>
+        <Y t="41">0.002059</Y>
+        <Y t="42">0.002270</Y>
+        <Y t="43">0.002504</Y>
+        <Y t="44">0.002764</Y>
+        <Y t="45">0.003052</Y>
+        <Y t="46">0.003370</Y>
+        <Y t="47">0.003721</Y>
+        <Y t="48">0.004108</Y>
+        <Y t="49">0.004536</Y>
+        <Y t="50">0.005008</Y>
+        <Y t="51">0.005529</Y>
+        <Y t="52">0.006104</Y>
+        <Y t="53">0.006739</Y>
+        <Y t="54">0.007440</Y>
+        <Y t="55">0.008159</Y>
+        <Y t="56">0.008892</Y>
+        <Y t="57">0.009690</Y>
+        <Y t="58">0.010559</Y>
+        <Y t="59">0.011505</Y>
+        <Y t="60">0.012536</Y>
+        <Y t="61">0.013659</Y>
+        <Y t="62">0.014881</Y>
+        <Y t="63">0.016212</Y>
+        <Y t="64">0.017661</Y>
+        <Y t="65">0.019238</Y>
+        <Y t="66">0.020954</Y>
+        <Y t="67">0.022822</Y>
+        <Y t="68">0.024853</Y>
+        <Y t="69">0.027064</Y>
+        <Y t="70">0.029468</Y>
+        <Y t="71">0.032082</Y>
+        <Y t="72">0.034924</Y>
+        <Y t="73">0.038012</Y>
+        <Y t="74">0.041367</Y>
+        <Y t="75">0.045012</Y>
+        <Y t="76">0.048970</Y>
+        <Y t="77">0.053266</Y>
+        <Y t="78">0.057927</Y>
+        <Y t="79">0.062982</Y>
+        <Y t="80">0.068462</Y>
+        <Y t="81">0.075305</Y>
+        <Y t="82">0.083660</Y>
+        <Y t="83">0.092700</Y>
+        <Y t="84">0.102430</Y>
+        <Y t="85">0.112848</Y>
+        <Y t="86">0.123942</Y>
+        <Y t="87">0.135692</Y>
+        <Y t="88">0.148067</Y>
+        <Y t="89">0.161028</Y>
+        <Y t="90">0.174524</Y>
+        <Y t="91">0.188497</Y>
+        <Y t="92">0.202880</Y>
+        <Y t="93">0.217595</Y>
+        <Y t="94">0.232562</Y>
+        <Y t="95">0.245550</Y>
+        <Y t="96">0.256846</Y>
+        <Y t="97">0.268757</Y>
+        <Y t="98">0.281311</Y>
+        <Y t="99">0.294534</Y>
+        <Y t="100">0.308451</Y>
+        <Y t="101">0.323088</Y>
+        <Y t="102">0.338466</Y>
+        <Y t="103">0.354607</Y>
+        <Y t="104">0.371528</Y>
+        <Y t="105">0.389244</Y>
+        <Y t="106">0.407764</Y>
+        <Y t="107">0.427093</Y>
+        <Y t="108">0.447228</Y>
+        <Y t="109">0.468159</Y>
+        <Y t="110">0.489868</Y>
+        <Y t="111">0.512326</Y>
+        <Y t="112">0.535492</Y>
+        <Y t="113">0.559313</Y>
+        <Y t="114">0.583723</Y>
+        <Y t="115">0.608638</Y>
+        <Y t="116">0.633961</Y>
+        <Y t="117">0.659576</Y>
+        <Y t="118">0.685350</Y>
+        <Y t="119">0.711135</Y>
+        <Y t="120">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

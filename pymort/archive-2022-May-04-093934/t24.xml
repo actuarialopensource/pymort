@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>24</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Robert J. Johansen</ProviderName>
+    <TableReference>“Report of the Special Committee to Recommend New Mortality Tables For Valuation”, Transactions of the Society of Actuaries, Vol. XXXIII, Society of Actuaries. (1981) p. 619. Accessed: February, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1981/January/tsa81v3323.pdf, p. 3</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1980 CET - Female, ANB</TableName>
+    <TableDescription>1980 Commissioners Extended Term (CET) Table - Female. Formerly Table KET (F). Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 99</TableDescription>
+    <Comments>Study Data:  The exposure period for the underlying data is from Society of Actuary (SOA) data submissions for 1970 through 1975 policy anniversaries. All war deaths were excluded. Unlike the 1958 Commissioners Standard Ordinary (CSO) table, policies issued on a nonmedical basis were included due to the trend in writing larger proportions of nonmedical business and to provide adequate data for a separate female table. Methodology: Derived from K Tables (See SOA Table Identities 36 and 42) in the same way that the 1958 CET Table was derived from the 1958 CSO Table: a loading of 0.75 deaths per 1,000 or 30 percent of the Table K mortality rates, whichever is greater, was added to the Table K mortality rates. Data Transcription Errors: None. Data Certified: 02/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1980 Commissioners Extended Term (CET) Table - Female. Formerly Table KET (F). Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00376</Y>
+        <Y t="1">0.00162</Y>
+        <Y t="2">0.00156</Y>
+        <Y t="3">0.00154</Y>
+        <Y t="4">0.00152</Y>
+        <Y t="5">0.00151</Y>
+        <Y t="6">0.00148</Y>
+        <Y t="7">0.00147</Y>
+        <Y t="8">0.00145</Y>
+        <Y t="9">0.00144</Y>
+        <Y t="10">0.00143</Y>
+        <Y t="11">0.00144</Y>
+        <Y t="12">0.00147</Y>
+        <Y t="13">0.00150</Y>
+        <Y t="14">0.00155</Y>
+        <Y t="15">0.00160</Y>
+        <Y t="16">0.00165</Y>
+        <Y t="17">0.00170</Y>
+        <Y t="18">0.00173</Y>
+        <Y t="19">0.00177</Y>
+        <Y t="20">0.00180</Y>
+        <Y t="21">0.00182</Y>
+        <Y t="22">0.00184</Y>
+        <Y t="23">0.00186</Y>
+        <Y t="24">0.00189</Y>
+        <Y t="25">0.00191</Y>
+        <Y t="26">0.00194</Y>
+        <Y t="27">0.00197</Y>
+        <Y t="28">0.00201</Y>
+        <Y t="29">0.00205</Y>
+        <Y t="30">0.00210</Y>
+        <Y t="31">0.00215</Y>
+        <Y t="32">0.00220</Y>
+        <Y t="33">0.00225</Y>
+        <Y t="34">0.00233</Y>
+        <Y t="35">0.00240</Y>
+        <Y t="36">0.00251</Y>
+        <Y t="37">0.00264</Y>
+        <Y t="38">0.00279</Y>
+        <Y t="39">0.00297</Y>
+        <Y t="40">0.00317</Y>
+        <Y t="41">0.00343</Y>
+        <Y t="42">0.00373</Y>
+        <Y t="43">0.00402</Y>
+        <Y t="44">0.00432</Y>
+        <Y t="45">0.00463</Y>
+        <Y t="46">0.00494</Y>
+        <Y t="47">0.00527</Y>
+        <Y t="48">0.00563</Y>
+        <Y t="49">0.00602</Y>
+        <Y t="50">0.00645</Y>
+        <Y t="51">0.00690</Y>
+        <Y t="52">0.00741</Y>
+        <Y t="53">0.00800</Y>
+        <Y t="54">0.00859</Y>
+        <Y t="55">0.00922</Y>
+        <Y t="56">0.00984</Y>
+        <Y t="57">0.01044</Y>
+        <Y t="58">0.01101</Y>
+        <Y t="59">0.01162</Y>
+        <Y t="60">0.01231</Y>
+        <Y t="61">0.01317</Y>
+        <Y t="62">0.01425</Y>
+        <Y t="63">0.01563</Y>
+        <Y t="64">0.01723</Y>
+        <Y t="65">0.01897</Y>
+        <Y t="66">0.02080</Y>
+        <Y t="67">0.02266</Y>
+        <Y t="68">0.02449</Y>
+        <Y t="69">0.02647</Y>
+        <Y t="70">0.02874</Y>
+        <Y t="71">0.03150</Y>
+        <Y t="72">0.03493</Y>
+        <Y t="73">0.03914</Y>
+        <Y t="74">0.04411</Y>
+        <Y t="75">0.04971</Y>
+        <Y t="76">0.05586</Y>
+        <Y t="77">0.06245</Y>
+        <Y t="78">0.06949</Y>
+        <Y t="79">0.07716</Y>
+        <Y t="80">0.08579</Y>
+        <Y t="81">0.09568</Y>
+        <Y t="82">0.10712</Y>
+        <Y t="83">0.12029</Y>
+        <Y t="84">0.13495</Y>
+        <Y t="85">0.15093</Y>
+        <Y t="86">0.16808</Y>
+        <Y t="87">0.18632</Y>
+        <Y t="88">0.20563</Y>
+        <Y t="89">0.22612</Y>
+        <Y t="90">0.24798</Y>
+        <Y t="91">0.27153</Y>
+        <Y t="92">0.29745</Y>
+        <Y t="93">0.32696</Y>
+        <Y t="94">0.36310</Y>
+        <Y t="95">0.41252</Y>
+        <Y t="96">0.48846</Y>
+        <Y t="97">0.61746</Y>
+        <Y t="98">0.85261</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

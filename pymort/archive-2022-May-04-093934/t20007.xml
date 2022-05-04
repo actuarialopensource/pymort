@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>20007</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Mariana Erquicia</ProviderName>
+    <TableReference>la Secretaría de Seguridad Social, “Estudio de la Mortalidad en el SIJP 2002-2006”, Serie de Publicacion Año IV No 5, Ministerio de Trabajo, Empleo y Seguridad Social (Buenos Aires, 2008) Accessed November, 2013 from:  http://www.trabajo.gov.ar/downloads/seguridadSoc/estudiodelamortalidadenelSIJP.pdf AND http://www.melpel.com.ar/wp-content/uploads/2013/01/TablasMAyP.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>SIJP 2002-2006 – Jubilados/Pensionados Mujeres/Femenino (Females)</TableName>
+    <TableDescription>2002-2006 Integrated System of Retirement and Pensions (SIJP) – Retired/Pensioner Females. Minimum Age: 60. Maximum Age: 115.</TableDescription>
+    <Comments>Study Data: Insured persons of the Integrated System of Retirement and Pensions (SIJP) in the period 2002-2006. Administrative records that collect data on the contributions of active workers and those who support the system of payment of benefits made up databases that are compiled by the Federal Administration of public income (AFIP) in the case of assets and by the National Social Security Administration (ANSES) in the case of the liabilities. For the purposes of this study, a worker is considered active if they are registered in the system. The ANSES obtains information on deaths from the National Record of the Persons, the Social Works, the National Institute of Social services for Pensioners. Unisex tables were built from the combined information from both sexes, but it is preferred to expose the tables separated by sexes and thus allow for sex composition differing from that observed in the present study. Methodology: Two forms of graduation were considered: parametric and non-parametric. A non-parametric model, specifically a Whittaker-Henderson type B formula, was eventually adopted. Several functions were adapted to represent the progression of mortality with age and accurately capture the slowdown in growth of the mortality observed in advanced ages. To complete the entire table of mortality, it was necessary to extend the rates down to age 20 and beyond 100 years of age. A limiting age of 115 was selected. The mortality observed for policyholders of the SIJP was then compared with the estimated mortality for the Argentina population, ARG01, with the actuarial table GAM 71 (See SOA Table Identity 817 and 818) that is currently in use in the SIJP, and finally to the tables of the pension system of Chile, RV2004 (See SOA Table Identity 1499 and 1500), as Chile is a Latin American country whose pension experience has been used as a reference for Argentina in the past. Results obtained show an observed mortality pattern significantly lower than that of the total population and also lower than the technical instruments currently in use within the system. Data Transcription Errors: None. Data Certified: 11/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Argentina</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="54">Argentina</Nation>
+      <TableDescription>2002-2006 Integrated System of Retirement and Pensions (SIJP) – Retired/Pensioner Females. Minimum Age: 60. Maximum Age: 115.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>60</MinScaleValue>
+        <MaxScaleValue>115</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="60">0.00842739</Y>
+        <Y t="61">0.00858644</Y>
+        <Y t="62">0.0087842</Y>
+        <Y t="63">0.00902913</Y>
+        <Y t="64">0.00933132</Y>
+        <Y t="65">0.00970273</Y>
+        <Y t="66">0.01015744</Y>
+        <Y t="67">0.01071199</Y>
+        <Y t="68">0.01138564</Y>
+        <Y t="69">0.01220065</Y>
+        <Y t="70">0.01318259</Y>
+        <Y t="71">0.01436053</Y>
+        <Y t="72">0.0157672</Y>
+        <Y t="73">0.01743896</Y>
+        <Y t="74">0.01941568</Y>
+        <Y t="75">0.02174029</Y>
+        <Y t="76">0.02445807</Y>
+        <Y t="77">0.02761549</Y>
+        <Y t="78">0.03125872</Y>
+        <Y t="79">0.03543154</Y>
+        <Y t="80">0.04017282</Y>
+        <Y t="81">0.04551364</Y>
+        <Y t="82">0.05147406</Y>
+        <Y t="83">0.05805995</Y>
+        <Y t="84">0.06526</Y>
+        <Y t="85">0.0730435</Y>
+        <Y t="86">0.08135916</Y>
+        <Y t="87">0.09013523</Y>
+        <Y t="88">0.09928136</Y>
+        <Y t="89">0.10869194</Y>
+        <Y t="90">0.11825087</Y>
+        <Y t="91">0.12783728</Y>
+        <Y t="92">0.13733155</Y>
+        <Y t="93">0.14662112</Y>
+        <Y t="94">0.15560541</Y>
+        <Y t="95">0.16419948</Y>
+        <Y t="96">0.17233626</Y>
+        <Y t="97">0.17996727</Y>
+        <Y t="98">0.18706205</Y>
+        <Y t="99">0.19360663</Y>
+        <Y t="100">0.19960129</Y>
+        <Y t="101">0.20505803</Y>
+        <Y t="102">0.20999787</Y>
+        <Y t="103">0.21444843</Y>
+        <Y t="104">0.21844163</Y>
+        <Y t="105">0.22201186</Y>
+        <Y t="106">0.2251944</Y>
+        <Y t="107">0.2280243</Y>
+        <Y t="108">0.23053546</Y>
+        <Y t="109">0.23276008</Y>
+        <Y t="110">0.23472826</Y>
+        <Y t="111">0.23646779</Y>
+        <Y t="112">0.23800406</Y>
+        <Y t="113">0.23936012</Y>
+        <Y t="114">0.24055671</Y>
+        <Y t="115">0.24161242</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

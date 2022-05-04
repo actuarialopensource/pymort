@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2956</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Superintendencia Financiera de Colombia, “Tabla de Mortalidad de Rentistas 1980-1989”, Resolución Numero 1555 d 2010, El Superintendente Financiero (Bogata, 2010). Accessed: September, 2014 from https://www.superfinanciera.gov.co/SFCant/ConsumidorFinanciero/r155510.doc</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Tabla de Mortalidad De Rentistas 2005-2008 - Hombres</TableName>
+    <TableDescription>Tabla de Mortalidad De Rentistas 2005-2008 - Hombres (Males). Minimum Age: 15. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Active lives and annuitants from pension institutes observed from 2005 to 2008. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 09/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>Colombia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="57">Columbia</Nation>
+      <TableDescription>Tabla de Mortalidad De Rentistas 2005-2008 - Hombres (Males). Minimum Age: 15. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.000485</Y>
+        <Y t="16">0.000496</Y>
+        <Y t="17">0.000509</Y>
+        <Y t="18">0.000523</Y>
+        <Y t="19">0.000538</Y>
+        <Y t="20">0.000554</Y>
+        <Y t="21">0.000573</Y>
+        <Y t="22">0.000593</Y>
+        <Y t="23">0.000615</Y>
+        <Y t="24">0.000639</Y>
+        <Y t="25">0.000666</Y>
+        <Y t="26">0.000694</Y>
+        <Y t="27">0.000726</Y>
+        <Y t="28">0.000761</Y>
+        <Y t="29">0.000799</Y>
+        <Y t="30">0.00084</Y>
+        <Y t="31">0.000886</Y>
+        <Y t="32">0.000936</Y>
+        <Y t="33">0.000991</Y>
+        <Y t="34">0.001051</Y>
+        <Y t="35">0.001117</Y>
+        <Y t="36">0.00119</Y>
+        <Y t="37">0.001269</Y>
+        <Y t="38">0.001356</Y>
+        <Y t="39">0.001451</Y>
+        <Y t="40">0.001556</Y>
+        <Y t="41">0.001671</Y>
+        <Y t="42">0.001797</Y>
+        <Y t="43">0.001934</Y>
+        <Y t="44">0.002086</Y>
+        <Y t="45">0.002251</Y>
+        <Y t="46">0.002434</Y>
+        <Y t="47">0.002632</Y>
+        <Y t="48">0.002851</Y>
+        <Y t="49">0.003091</Y>
+        <Y t="50">0.003353</Y>
+        <Y t="51">0.003641</Y>
+        <Y t="52">0.003956</Y>
+        <Y t="53">0.004301</Y>
+        <Y t="54">0.004681</Y>
+        <Y t="55">0.00505</Y>
+        <Y t="56">0.005463</Y>
+        <Y t="57">0.005925</Y>
+        <Y t="58">0.006442</Y>
+        <Y t="59">0.007019</Y>
+        <Y t="60">0.007666</Y>
+        <Y t="61">0.008388</Y>
+        <Y t="62">0.009197</Y>
+        <Y t="63">0.010277</Y>
+        <Y t="64">0.011457</Y>
+        <Y t="65">0.012742</Y>
+        <Y t="66">0.014145</Y>
+        <Y t="67">0.015673</Y>
+        <Y t="68">0.017341</Y>
+        <Y t="69">0.019158</Y>
+        <Y t="70">0.021137</Y>
+        <Y t="71">0.023296</Y>
+        <Y t="72">0.025647</Y>
+        <Y t="73">0.028207</Y>
+        <Y t="74">0.030996</Y>
+        <Y t="75">0.034032</Y>
+        <Y t="76">0.037335</Y>
+        <Y t="77">0.04093</Y>
+        <Y t="78">0.044842</Y>
+        <Y t="79">0.049094</Y>
+        <Y t="80">0.053714</Y>
+        <Y t="81">0.058736</Y>
+        <Y t="82">0.064188</Y>
+        <Y t="83">0.070107</Y>
+        <Y t="84">0.076525</Y>
+        <Y t="85">0.083483</Y>
+        <Y t="86">0.091023</Y>
+        <Y t="87">0.099186</Y>
+        <Y t="88">0.108012</Y>
+        <Y t="89">0.117555</Y>
+        <Y t="90">0.127859</Y>
+        <Y t="91">0.138975</Y>
+        <Y t="92">0.150945</Y>
+        <Y t="93">0.163834</Y>
+        <Y t="94">0.177678</Y>
+        <Y t="95">0.192543</Y>
+        <Y t="96">0.2089</Y>
+        <Y t="97">0.227219</Y>
+        <Y t="98">0.2475</Y>
+        <Y t="99">0.269747</Y>
+        <Y t="100">0.293956</Y>
+        <Y t="101">0.320118</Y>
+        <Y t="102">0.348268</Y>
+        <Y t="103">0.378273</Y>
+        <Y t="104">0.410394</Y>
+        <Y t="105">0.44377</Y>
+        <Y t="106">0.480306</Y>
+        <Y t="107">0.517895</Y>
+        <Y t="108">0.558952</Y>
+        <Y t="109">0.59901</Y>
+        <Y t="110">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

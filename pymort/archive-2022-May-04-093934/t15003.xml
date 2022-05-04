@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>15003</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Grupo TTcnica, S.A.</ProviderName>
+    <TableReference>Comisión Nacional de Seguros y Fianzas (C.N.S.F.), “ACUERDO Mediante el Cual se Modifica la Regla Séptima para la Constitución de lasReservas de Riesgos en Curso, de las Instituciones de Seguros, Publicada el 18 de Diciembre de 1985”, Diario Oficial de la Federacion, (1987), Accessed: February, 2014 from http://www.cnsf.gob.mx/Normativa/InstReglas/ReglasCNSF/143%203.1.-ACUERDO_1987-07-06_0.pdf</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>Tabla de Mortalidad de Grupo Experiencia Mexicana (1973-1983)</TableName>
+    <TableDescription>Tabla de Mortalidad de Grupo Experiencia Mexicana (1973-1983) Minimum Age: 12 Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Insurance company statistics observed 1973-83. All groups included, that is, even subnormal and jumbo. Methodology: Quinquennial crude rates graduated with a Makeham formula. NOTE: A prior version of this table replicated (presumably inadvertently) the individual 1982-89 mortality rates (See SOA Table Identity 15002). The table has been corrected to reflect group mortality consistent with the publication information as originally referenced in the file. Data Transcription Errors Detected: 02/2014. Data Corrected and Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Lives Mortality</KeyWord>
+    <KeyWord>Mexico</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="52">Mexico</Nation>
+      <TableDescription>Tabla de Mortalidad de Grupo Experiencia Mexicana (1973-1983) Minimum Age: 12 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>12</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="12">0.00134</Y>
+        <Y t="13">0.00135</Y>
+        <Y t="14">0.00135</Y>
+        <Y t="15">0.00136</Y>
+        <Y t="16">0.00137</Y>
+        <Y t="17">0.00138</Y>
+        <Y t="18">0.00140</Y>
+        <Y t="19">0.00141</Y>
+        <Y t="20">0.00143</Y>
+        <Y t="21">0.00144</Y>
+        <Y t="22">0.00146</Y>
+        <Y t="23">0.00148</Y>
+        <Y t="24">0.00151</Y>
+        <Y t="25">0.00153</Y>
+        <Y t="26">0.00156</Y>
+        <Y t="27">0.00160</Y>
+        <Y t="28">0.00163</Y>
+        <Y t="29">0.00167</Y>
+        <Y t="30">0.00172</Y>
+        <Y t="31">0.00177</Y>
+        <Y t="32">0.00183</Y>
+        <Y t="33">0.00190</Y>
+        <Y t="34">0.00197</Y>
+        <Y t="35">0.00205</Y>
+        <Y t="36">0.00214</Y>
+        <Y t="37">0.00225</Y>
+        <Y t="38">0.00236</Y>
+        <Y t="39">0.00249</Y>
+        <Y t="40">0.00263</Y>
+        <Y t="41">0.00279</Y>
+        <Y t="42">0.00297</Y>
+        <Y t="43">0.00317</Y>
+        <Y t="44">0.00340</Y>
+        <Y t="45">0.00365</Y>
+        <Y t="46">0.00393</Y>
+        <Y t="47">0.00425</Y>
+        <Y t="48">0.00460</Y>
+        <Y t="49">0.00499</Y>
+        <Y t="50">0.00544</Y>
+        <Y t="51">0.00593</Y>
+        <Y t="52">0.00648</Y>
+        <Y t="53">0.00710</Y>
+        <Y t="54">0.00779</Y>
+        <Y t="55">0.00856</Y>
+        <Y t="56">0.00942</Y>
+        <Y t="57">0.01039</Y>
+        <Y t="58">0.01146</Y>
+        <Y t="59">0.01267</Y>
+        <Y t="60">0.01402</Y>
+        <Y t="61">0.01552</Y>
+        <Y t="62">0.01720</Y>
+        <Y t="63">0.01908</Y>
+        <Y t="64">0.02118</Y>
+        <Y t="65">0.02352</Y>
+        <Y t="66">0.02613</Y>
+        <Y t="67">0.02905</Y>
+        <Y t="68">0.03230</Y>
+        <Y t="69">0.03593</Y>
+        <Y t="70">0.03998</Y>
+        <Y t="71">0.04448</Y>
+        <Y t="72">0.04950</Y>
+        <Y t="73">0.05508</Y>
+        <Y t="74">0.06129</Y>
+        <Y t="75">0.06819</Y>
+        <Y t="76">0.07585</Y>
+        <Y t="77">0.08434</Y>
+        <Y t="78">0.09376</Y>
+        <Y t="79">0.10418</Y>
+        <Y t="80">0.11570</Y>
+        <Y t="81">0.12842</Y>
+        <Y t="82">0.14243</Y>
+        <Y t="83">0.15784</Y>
+        <Y t="84">0.17476</Y>
+        <Y t="85">0.19330</Y>
+        <Y t="86">0.21354</Y>
+        <Y t="87">0.23560</Y>
+        <Y t="88">0.25954</Y>
+        <Y t="89">0.28545</Y>
+        <Y t="90">0.31337</Y>
+        <Y t="91">0.34332</Y>
+        <Y t="92">0.37529</Y>
+        <Y t="93">0.40923</Y>
+        <Y t="94">0.44502</Y>
+        <Y t="95">0.48251</Y>
+        <Y t="96">0.52147</Y>
+        <Y t="97">0.56160</Y>
+        <Y t="98">0.60253</Y>
+        <Y t="99">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

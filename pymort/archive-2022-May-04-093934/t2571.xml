@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2571</TableIdentity>
+    <ProviderDomain>www.oic.or.th</ProviderDomain>
+    <ProviderName>Waranya.Kiatwitoo</ProviderName>
+    <TableReference>Office of the Insurance Commission, “Commissioner Declarations Issue: Thailand Mortality Table 2008 Year 2011”, Ministry of Finance (2011).  Accessed November, 2013 from: http://www.oic.or.th/upload/lifeinsurrance/download/1063-6572.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>TMO08 – Industrial Male</TableName>
+    <TableDescription>Thailand Mortality Ordinary 2008 (TMO08) - Males. Basis: Industrial Risk. Minimum Age: 0 Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Industrial risk insurance observed for the period 2007-08. Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Thailand</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="66">Thailand</Nation>
+      <TableDescription>Thailand Mortality Ordinary 2008 (TMO08) - Males. Basis: Industrial Risk. Minimum Age: 0 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0009766</Y>
+        <Y t="1">0.0008548</Y>
+        <Y t="2">0.0007374</Y>
+        <Y t="3">0.0006253</Y>
+        <Y t="4">0.0005239</Y>
+        <Y t="5">0.0004452</Y>
+        <Y t="6">0.0004070</Y>
+        <Y t="7">0.0004106</Y>
+        <Y t="8">0.0004425</Y>
+        <Y t="9">0.0004938</Y>
+        <Y t="10">0.0005826</Y>
+        <Y t="11">0.0007191</Y>
+        <Y t="12">0.0009020</Y>
+        <Y t="13">0.0011152</Y>
+        <Y t="14">0.0013517</Y>
+        <Y t="15">0.0016061</Y>
+        <Y t="16">0.0018665</Y>
+        <Y t="17">0.0021045</Y>
+        <Y t="18">0.0023054</Y>
+        <Y t="19">0.0024533</Y>
+        <Y t="20">0.0025686</Y>
+        <Y t="21">0.0026941</Y>
+        <Y t="22">0.0028356</Y>
+        <Y t="23">0.0029826</Y>
+        <Y t="24">0.0031378</Y>
+        <Y t="25">0.0032942</Y>
+        <Y t="26">0.0034499</Y>
+        <Y t="27">0.0035917</Y>
+        <Y t="28">0.0037039</Y>
+        <Y t="29">0.0037883</Y>
+        <Y t="30">0.0038608</Y>
+        <Y t="31">0.0039395</Y>
+        <Y t="32">0.0040505</Y>
+        <Y t="33">0.0041971</Y>
+        <Y t="34">0.0043684</Y>
+        <Y t="35">0.0045546</Y>
+        <Y t="36">0.0047409</Y>
+        <Y t="37">0.0049154</Y>
+        <Y t="38">0.0050895</Y>
+        <Y t="39">0.0052847</Y>
+        <Y t="40">0.0055104</Y>
+        <Y t="41">0.0057759</Y>
+        <Y t="42">0.0060822</Y>
+        <Y t="43">0.0064222</Y>
+        <Y t="44">0.0068094</Y>
+        <Y t="45">0.0072413</Y>
+        <Y t="46">0.0077079</Y>
+        <Y t="47">0.0082113</Y>
+        <Y t="48">0.0087741</Y>
+        <Y t="49">0.0094153</Y>
+        <Y t="50">0.0101465</Y>
+        <Y t="51">0.0109548</Y>
+        <Y t="52">0.0118307</Y>
+        <Y t="53">0.0127911</Y>
+        <Y t="54">0.0138578</Y>
+        <Y t="55">0.0150523</Y>
+        <Y t="56">0.0163634</Y>
+        <Y t="57">0.0177594</Y>
+        <Y t="58">0.0192299</Y>
+        <Y t="59">0.0208180</Y>
+        <Y t="60">0.0226362</Y>
+        <Y t="61">0.0246795</Y>
+        <Y t="62">0.0268951</Y>
+        <Y t="63">0.0292552</Y>
+        <Y t="64">0.0317980</Y>
+        <Y t="65">0.0346150</Y>
+        <Y t="66">0.0378538</Y>
+        <Y t="67">0.0414346</Y>
+        <Y t="68">0.0450475</Y>
+        <Y t="69">0.0489334</Y>
+        <Y t="70">0.0536668</Y>
+        <Y t="71">0.0592934</Y>
+        <Y t="72">0.0654559</Y>
+        <Y t="73">0.0714233</Y>
+        <Y t="74">0.0776603</Y>
+        <Y t="75">0.0850003</Y>
+        <Y t="76">0.0939771</Y>
+        <Y t="77">0.1041888</Y>
+        <Y t="78">0.1149819</Y>
+        <Y t="79">0.1255835</Y>
+        <Y t="80">0.1359668</Y>
+        <Y t="81">0.1461450</Y>
+        <Y t="82">0.1558305</Y>
+        <Y t="83">0.1646388</Y>
+        <Y t="84">0.1731651</Y>
+        <Y t="85">0.1824859</Y>
+        <Y t="86">0.1936098</Y>
+        <Y t="87">0.2062526</Y>
+        <Y t="88">0.2199660</Y>
+        <Y t="89">0.2344350</Y>
+        <Y t="90">0.2500154</Y>
+        <Y t="91">0.2668705</Y>
+        <Y t="92">0.2848464</Y>
+        <Y t="93">0.3037154</Y>
+        <Y t="94">0.3233095</Y>
+        <Y t="95">0.3437016</Y>
+        <Y t="96">0.3650580</Y>
+        <Y t="97">0.3871903</Y>
+        <Y t="98">0.4098585</Y>
+        <Y t="99">1.0000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>855</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Joseph Musher, “Third Annual Valuation of the Assets and Liabilities Under the Railroad Retirement Acts as of December 31, 1944”, Railroad Retirement Board (Chicago, 1946) Table 4 - Annuitants Mortality. Reprinted by Joseph Musher, “Actuarial Aspects of the Railroad Retirement System”, Transactions of the Society of Actuaries Vol. II No.2 (Chicago, 1950). Accessed:  01/2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1950/January/tsa50v2n22.pdf, p. 16</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Table 4: 1944 RRB Railway Annuitants Mortality Table</TableName>
+    <TableDescription>Table 4: 1944 Railroad Retirement Board (RBB) Railway Annuitants Mortality Table. Minimum Age: 60 Maximum Age: 104.</TableDescription>
+    <Comments>Study Data: Annuity values are based on experience among non-disability retirements for the years 1938-41. Methodology: A multiple-decrement model is used for calculating mortality, non-disability withdrawal, non-disability retirement, and disability retirement. The original publication or the article in the Transactions of the Society of Actuaries should be consulted for further details as the methodology is complex. Data Transcription Errors: None. Data Certified: 01/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Table 4: 1944 Railroad Retirement Board (RBB) Railway Annuitants Mortality Table. Minimum Age: 60 Maximum Age: 104</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>60</MinScaleValue>
+        <MaxScaleValue>104</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="60">0.02051</Y>
+        <Y t="61">0.02162</Y>
+        <Y t="62">0.02363</Y>
+        <Y t="63">0.02652</Y>
+        <Y t="64">0.03022</Y>
+        <Y t="65">0.03452</Y>
+        <Y t="66">0.03908</Y>
+        <Y t="67">0.04341</Y>
+        <Y t="68">0.04712</Y>
+        <Y t="69">0.05020</Y>
+        <Y t="70">0.05295</Y>
+        <Y t="71">0.05588</Y>
+        <Y t="72">0.05942</Y>
+        <Y t="73">0.06374</Y>
+        <Y t="74">0.06891</Y>
+        <Y t="75">0.07491</Y>
+        <Y t="76">0.08166</Y>
+        <Y t="77">0.08894</Y>
+        <Y t="78">0.09642</Y>
+        <Y t="79">0.10376</Y>
+        <Y t="80">0.11082</Y>
+        <Y t="81">0.11772</Y>
+        <Y t="82">0.12504</Y>
+        <Y t="83">0.13350</Y>
+        <Y t="84">0.14330</Y>
+        <Y t="85">0.15380</Y>
+        <Y t="86">0.16450</Y>
+        <Y t="87">0.17608</Y>
+        <Y t="88">0.18976</Y>
+        <Y t="89">0.20613</Y>
+        <Y t="90">0.22314</Y>
+        <Y t="91">0.23940</Y>
+        <Y t="92">0.25610</Y>
+        <Y t="93">0.27378</Y>
+        <Y t="94">0.29248</Y>
+        <Y t="95">0.31222</Y>
+        <Y t="96">0.33303</Y>
+        <Y t="97">0.35494</Y>
+        <Y t="98">0.37798</Y>
+        <Y t="99">0.40213</Y>
+        <Y t="100">0.42742</Y>
+        <Y t="101">0.45384</Y>
+        <Y t="102">0.48140</Y>
+        <Y t="103">0.51008</Y>
+        <Y t="104">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

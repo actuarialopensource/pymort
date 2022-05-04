@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1589</TableIdentity>
+    <ProviderDomain>http://www.labma.ufrj.br/</ProviderDomain>
+    <ProviderName>Ricardo Frischtak</ProviderName>
+    <TableReference>Prof. Mário de Oliveira, et al., “Brazilian Mortality and Survivorship Life Tables”, Applied Mathematics Lab of the Mathematics Institute of the Federal University of Rio de Janeiro (2010) p. 69-71. Accessed December, 2012 from http://www.actuaries.org/CTTEES_TFM/Documents/Item4_Country_Report_Brazil.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Experience of the Brazilian Insurance Market – Female Mortality (BR-EMSmt-v.2010-f)</TableName>
+    <TableDescription>Brazilian Female Mortality Table 2010 (BR-EMSmt-v.2010-f). Minimum Age: 0. Maximum Age: 113</TableDescription>
+    <Comments>Study Data: Data is based on the experience of the Brazilian insurance market of life products, for the years 2004, 2005 and 2006. The population dataset used to pursue the life tables study was provided individually by 13 economic conglomerates, comprising 23 insurance companies representing an 82% share of the market.  Study Methodology: A Heligman &amp; Pollard model was used for construction of the mortality and survivorship tables. The Actual and the expected number of deaths were compared to CSO 2001 (tables based on experience from companies contributing data to the Society of Actuaries) and IBGE 2005 (tables based on Brazilian population data) as examples of extreme low mortality rates and extreme high mortality rates, respectively. The published study, prepared by the Applied Mathematics Lab of the Mathematics Institute of the Federal University of Rio de Janeiro (Universidade Federal do Rio de Janeiro Instituto de Matemática Laboratór io de Matemát ica Apl icada Depar tamento de Matemát ica Aplicada), is very detailed and should be consulted for further information regarding table construction. Data Transcription Errors: None. Data Certified: 12/2012</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Brazil</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="55">Brazil</Nation>
+      <TableDescription>Brazilian Female Mortality Table 2010 (BR-EMSmt-v.2010-f). Minimum Age: 0. Maximum Age: 113</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>113</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t=" 0  ">0.00128</Y>
+        <Y t=" 1  ">0.00046</Y>
+        <Y t=" 2  ">0.00025</Y>
+        <Y t=" 3  ">0.00016</Y>
+        <Y t=" 4  ">0.00012</Y>
+        <Y t=" 5  ">0.00010</Y>
+        <Y t=" 6  ">9E-05</Y>
+        <Y t=" 7  ">9E-05</Y>
+        <Y t=" 8  ">9E-05</Y>
+        <Y t=" 9  ">0.00011</Y>
+        <Y t=" 10  ">0.00014</Y>
+        <Y t=" 11  ">0.00018</Y>
+        <Y t=" 12  ">0.00022</Y>
+        <Y t=" 13  ">0.00026</Y>
+        <Y t=" 14  ">0.00030</Y>
+        <Y t=" 15  ">0.00033</Y>
+        <Y t=" 16  ">0.00035</Y>
+        <Y t=" 17  ">0.00037</Y>
+        <Y t=" 18  ">0.00037</Y>
+        <Y t=" 19  ">0.00037</Y>
+        <Y t=" 20  ">0.00037</Y>
+        <Y t=" 21  ">0.00036</Y>
+        <Y t=" 22  ">0.00036</Y>
+        <Y t=" 23  ">0.00035</Y>
+        <Y t=" 24  ">0.00035</Y>
+        <Y t=" 25  ">0.00035</Y>
+        <Y t=" 26  ">0.00036</Y>
+        <Y t=" 27  ">0.00037</Y>
+        <Y t=" 28  ">0.00039</Y>
+        <Y t=" 29  ">0.00041</Y>
+        <Y t=" 30  ">0.00044</Y>
+        <Y t=" 31  ">0.00047</Y>
+        <Y t=" 32  ">0.00050</Y>
+        <Y t=" 33  ">0.00054</Y>
+        <Y t=" 34  ">0.00057</Y>
+        <Y t=" 35  ">0.00062</Y>
+        <Y t=" 36  ">0.00066</Y>
+        <Y t=" 37  ">0.00071</Y>
+        <Y t=" 38  ">0.00076</Y>
+        <Y t=" 39  ">0.00082</Y>
+        <Y t=" 40  ">0.00088</Y>
+        <Y t=" 41  ">0.00095</Y>
+        <Y t=" 42  ">0.00103</Y>
+        <Y t=" 43  ">0.00111</Y>
+        <Y t=" 44  ">0.00120</Y>
+        <Y t=" 45  ">0.00130</Y>
+        <Y t=" 46  ">0.00140</Y>
+        <Y t=" 47  ">0.00152</Y>
+        <Y t=" 48  ">0.00164</Y>
+        <Y t=" 49  ">0.00178</Y>
+        <Y t=" 50  ">0.00193</Y>
+        <Y t=" 51  ">0.00209</Y>
+        <Y t=" 52  ">0.00228</Y>
+        <Y t=" 53  ">0.00248</Y>
+        <Y t=" 54  ">0.00270</Y>
+        <Y t=" 55  ">0.00294</Y>
+        <Y t=" 56  ">0.00321</Y>
+        <Y t=" 57  ">0.00351</Y>
+        <Y t=" 58  ">0.00384</Y>
+        <Y t=" 59  ">0.00420</Y>
+        <Y t=" 60  ">0.00459</Y>
+        <Y t=" 61  ">0.00501</Y>
+        <Y t=" 62  ">0.00548</Y>
+        <Y t=" 63  ">0.00599</Y>
+        <Y t=" 64  ">0.00654</Y>
+        <Y t=" 65  ">0.00714</Y>
+        <Y t=" 66  ">0.00778</Y>
+        <Y t=" 67  ">0.00850</Y>
+        <Y t=" 68  ">0.00927</Y>
+        <Y t=" 69  ">0.01009</Y>
+        <Y t=" 70  ">0.01100</Y>
+        <Y t=" 71  ">0.01202</Y>
+        <Y t=" 72  ">0.01312</Y>
+        <Y t=" 73  ">0.01430</Y>
+        <Y t=" 74  ">0.01558</Y>
+        <Y t=" 75  ">0.01699</Y>
+        <Y t=" 76  ">0.01856</Y>
+        <Y t=" 77  ">0.02030</Y>
+        <Y t=" 78  ">0.02221</Y>
+        <Y t=" 79  ">0.02431</Y>
+        <Y t=" 80  ">0.02674</Y>
+        <Y t=" 81  ">0.02962</Y>
+        <Y t=" 82  ">0.03307</Y>
+        <Y t=" 83  ">0.03711</Y>
+        <Y t=" 84  ">0.04185</Y>
+        <Y t=" 85  ">0.04749</Y>
+        <Y t=" 86  ">0.05413</Y>
+        <Y t=" 87  ">0.06170</Y>
+        <Y t=" 88  ">0.07040</Y>
+        <Y t=" 89  ">0.08096</Y>
+        <Y t=" 90  ">0.09310</Y>
+        <Y t=" 91  ">0.10647</Y>
+        <Y t=" 92  ">0.12110</Y>
+        <Y t=" 93  ">0.13857</Y>
+        <Y t=" 94  ">0.15795</Y>
+        <Y t=" 95  ">0.17998</Y>
+        <Y t=" 96  ">0.20594</Y>
+        <Y t=" 97  ">0.23015</Y>
+        <Y t=" 98  ">0.25194</Y>
+        <Y t=" 99  ">0.27912</Y>
+        <Y t=" 100  ">0.31072</Y>
+        <Y t=" 101  ">0.34118</Y>
+        <Y t=" 102  ">0.37357</Y>
+        <Y t=" 103  ">0.40904</Y>
+        <Y t=" 104  ">0.44788</Y>
+        <Y t=" 105  ">0.49042</Y>
+        <Y t=" 106  ">0.53700</Y>
+        <Y t=" 107  ">0.58801</Y>
+        <Y t=" 108  ">0.64387</Y>
+        <Y t=" 109  ">0.70505</Y>
+        <Y t=" 110  ">0.77204</Y>
+        <Y t=" 111  ">0.84540</Y>
+        <Y t=" 112  ">0.92575</Y>
+        <Y t=" 113  ">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

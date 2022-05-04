@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>889</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Wilmer A. Jenkins and Edward A. Lew, “A New Mortality Basis for Annuities”, Transactions of the Society of Actuaries”, Vol. I No. 1(1949) Table A. reprinted in the Society of Actuaries 50th Anniversary Monograph, Society of Actuaries (1999) p. 16-17. Accessed: February, 2013 from http://www.soa.org/library/monographs/50th-anniversary/society-of-actuaries-50th-anniversary/1999/january/m-av99-1-01.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1943 Experience Table - Female</TableName>
+    <TableDescription>1943 Experience Table – Female. Minimum Age: 15. Maximum Age: 109</TableDescription>
+    <Comments>Study Data: At ages 60 and over table based on the Joint Mortality Committee experience under immediate non-refund annuities, by number of contracts, from 1941 to 1946 anniversaries. At ages 55 and under in the case of males and at ages 50 and under for females this table was based on the intercompany active lives experience under group annuity contracts, covering predominantly clerical employees, by lives, for the calendar years 1939, 1940, 1946, and 1947, with an allowance for deaths among "ill health terminations." Methodology:  A Makeham curve was fitted by the method of moments to the immediate annuity experience at ages 60 to 99, excluding the first policy year, and the group annuity experience was graduated graphically so as to provide a smooth junction at age 60 with the Makehamized mortality rates. This table was intended to represent the mortality level existing about 1943 under the kinds of annuities upon which it was based, without any conservatism or allowance for future mortality decreases. The 1943 Experience Tables serve as the basis for the 1949 Annuity Tables (See SOA Table Identities 888 and 889). NOTE: First policy year select mortality rates were developed in conjunction with the 1943 Experience Tables for age 15 through 85 but are not included herein; only the ultimate rates are presented. Data Transcription Errors: None. Data Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1943 Experience Table – Female. Minimum Age: 15. Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.000432</Y>
+        <Y t="16">0.000455</Y>
+        <Y t="17">0.000479</Y>
+        <Y t="18">0.000504</Y>
+        <Y t="19">0.000530</Y>
+        <Y t="20">0.000557</Y>
+        <Y t="21">0.000585</Y>
+        <Y t="22">0.000614</Y>
+        <Y t="23">0.000646</Y>
+        <Y t="24">0.000681</Y>
+        <Y t="25">0.000719</Y>
+        <Y t="26">0.000759</Y>
+        <Y t="27">0.000800</Y>
+        <Y t="28">0.000843</Y>
+        <Y t="29">0.000890</Y>
+        <Y t="30">0.000939</Y>
+        <Y t="31">0.000992</Y>
+        <Y t="32">0.001052</Y>
+        <Y t="33">0.001119</Y>
+        <Y t="34">0.001190</Y>
+        <Y t="35">0.001266</Y>
+        <Y t="36">0.001352</Y>
+        <Y t="37">0.001449</Y>
+        <Y t="38">0.001557</Y>
+        <Y t="39">0.001677</Y>
+        <Y t="40">0.001807</Y>
+        <Y t="41">0.001947</Y>
+        <Y t="42">0.002104</Y>
+        <Y t="43">0.002281</Y>
+        <Y t="44">0.002476</Y>
+        <Y t="45">0.002689</Y>
+        <Y t="46">0.002923</Y>
+        <Y t="47">0.003179</Y>
+        <Y t="48">0.003448</Y>
+        <Y t="49">0.003737</Y>
+        <Y t="50">0.004042</Y>
+        <Y t="51">0.004358</Y>
+        <Y t="52">0.004690</Y>
+        <Y t="53">0.005053</Y>
+        <Y t="54">0.005461</Y>
+        <Y t="55">0.005920</Y>
+        <Y t="56">0.006434</Y>
+        <Y t="57">0.007011</Y>
+        <Y t="58">0.007652</Y>
+        <Y t="59">0.008365</Y>
+        <Y t="60">0.009172</Y>
+        <Y t="61">0.010094</Y>
+        <Y t="62">0.011120</Y>
+        <Y t="63">0.012260</Y>
+        <Y t="64">0.013529</Y>
+        <Y t="65">0.014940</Y>
+        <Y t="66">0.016508</Y>
+        <Y t="67">0.018251</Y>
+        <Y t="68">0.020189</Y>
+        <Y t="69">0.022341</Y>
+        <Y t="70">0.024733</Y>
+        <Y t="71">0.027388</Y>
+        <Y t="72">0.030337</Y>
+        <Y t="73">0.033609</Y>
+        <Y t="74">0.037240</Y>
+        <Y t="75">0.041267</Y>
+        <Y t="76">0.045731</Y>
+        <Y t="77">0.050678</Y>
+        <Y t="78">0.056156</Y>
+        <Y t="79">0.062220</Y>
+        <Y t="80">0.068927</Y>
+        <Y t="81">0.076340</Y>
+        <Y t="82">0.084527</Y>
+        <Y t="83">0.093561</Y>
+        <Y t="84">0.103520</Y>
+        <Y t="85">0.114487</Y>
+        <Y t="86">0.126549</Y>
+        <Y t="87">0.139799</Y>
+        <Y t="88">0.154333</Y>
+        <Y t="89">0.170251</Y>
+        <Y t="90">0.187654</Y>
+        <Y t="91">0.206645</Y>
+        <Y t="92">0.227327</Y>
+        <Y t="93">0.249801</Y>
+        <Y t="94">0.274162</Y>
+        <Y t="95">0.300501</Y>
+        <Y t="96">0.328896</Y>
+        <Y t="97">0.359417</Y>
+        <Y t="98">0.392113</Y>
+        <Y t="99">0.427017</Y>
+        <Y t="100">0.464139</Y>
+        <Y t="101">0.503463</Y>
+        <Y t="102">0.544943</Y>
+        <Y t="103">0.588503</Y>
+        <Y t="104">0.634033</Y>
+        <Y t="105">0.681392</Y>
+        <Y t="106">0.730401</Y>
+        <Y t="107">0.780853</Y>
+        <Y t="108">0.832510</Y>
+        <Y t="109">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

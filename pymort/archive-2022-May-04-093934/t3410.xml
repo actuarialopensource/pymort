@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3410</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, public-pension-amount-exposure.xlsx, Sheet 'PubT-2010(A)', https://www.soa.org/resources/experience-studies/2018/public-pension-amount-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>PubT-2010(A) Male Retiree</TableName>
+    <TableDescription>Pub-2010 Amount-weighted Teachers Above-Median Mortality Table - Male Retiree. Ages 55-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of public retirement plans in the United States. The final dataset upon which this study has been based includes approximately 46 million life-years of exposure and 580 thousand deaths from public pension systems across the United States. Data certified: 09/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pub-2010 Amount-weighted Teachers Above-Median Mortality Table - Male Retiree. Ages 55-120. Base Year July 1, 2010 - June 30, 2011.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>55</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="55">0.00223</Y>
+        <Y t="56">0.00245</Y>
+        <Y t="57">0.00268</Y>
+        <Y t="58">0.00292</Y>
+        <Y t="59">0.00318</Y>
+        <Y t="60">0.00347</Y>
+        <Y t="61">0.00379</Y>
+        <Y t="62">0.00415</Y>
+        <Y t="63">0.00455</Y>
+        <Y t="64">0.005</Y>
+        <Y t="65">0.00553</Y>
+        <Y t="66">0.00618</Y>
+        <Y t="67">0.00694</Y>
+        <Y t="68">0.00781</Y>
+        <Y t="69">0.00883</Y>
+        <Y t="70">0.00999</Y>
+        <Y t="71">0.01134</Y>
+        <Y t="72">0.01288</Y>
+        <Y t="73">0.01466</Y>
+        <Y t="74">0.01668</Y>
+        <Y t="75">0.01899</Y>
+        <Y t="76">0.02161</Y>
+        <Y t="77">0.02458</Y>
+        <Y t="78">0.02792</Y>
+        <Y t="79">0.0317</Y>
+        <Y t="80">0.03598</Y>
+        <Y t="81">0.04082</Y>
+        <Y t="82">0.04633</Y>
+        <Y t="83">0.05261</Y>
+        <Y t="84">0.05972</Y>
+        <Y t="85">0.06775</Y>
+        <Y t="86">0.07677</Y>
+        <Y t="87">0.08685</Y>
+        <Y t="88">0.09807</Y>
+        <Y t="89">0.11052</Y>
+        <Y t="90">0.12427</Y>
+        <Y t="91">0.13971</Y>
+        <Y t="92">0.15694</Y>
+        <Y t="93">0.17586</Y>
+        <Y t="94">0.1962</Y>
+        <Y t="95">0.21759</Y>
+        <Y t="96">0.2396</Y>
+        <Y t="97">0.26179</Y>
+        <Y t="98">0.28376</Y>
+        <Y t="99">0.30524</Y>
+        <Y t="100">0.32609</Y>
+        <Y t="101">0.34636</Y>
+        <Y t="102">0.3664</Y>
+        <Y t="103">0.38604</Y>
+        <Y t="104">0.40512</Y>
+        <Y t="105">0.42352</Y>
+        <Y t="106">0.44113</Y>
+        <Y t="107">0.45786</Y>
+        <Y t="108">0.47364</Y>
+        <Y t="109">0.48843</Y>
+        <Y t="110">0.5</Y>
+        <Y t="111">0.5</Y>
+        <Y t="112">0.5</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

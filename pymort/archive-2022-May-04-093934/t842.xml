@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>842</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>The Executive Committee of the Continuous Mortality Improvement Bureau, “Mortality of Assured Lives, Pensioners and Annuitants 1979-82”, Continuous Mortality Improvement Reports Number 9, Institute of Actuaries and Faculty of Actuaries (1988). Accessed: August, 2013 from http://www.actuaries.org.uk/research-and-resources/documents/cmi-report-9-whole-volume AND http://www.actuaries.org.uk/sites/all/files/documents/xls/im80.xls</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>IM80</TableName>
+    <TableDescription>Immediate Annuitant Mortality – Male (IM80). Minimum Select Age: 16. Maximum Select Age: 100. Minimum Ultimate Age: 17. Maximum Ultimate Age: 120</TableDescription>
+    <Comments>Study Data: Table is part of the "80" series of mortality tables for assured lives, annuitants and pensioners. Although the experience is smaller than that of assured lives or of life office pensioners, there is an ample number of deaths for the purposes of graduation. The investigation uses a five year select period, and is further subdivided into annuities effected before 1957, all of which are now 'ultimate', and annuities effected after 1956, subdivided by duration. Methodology: Experiences graduated by fitting µx to a Gompertz-Makeham formula. Age ranges were fitted independently to a series of formulae which are extensions of the Gompertz-Makeham (GM), using Chebysheff polynomials. Three different formulae were used for different age ranges in the Select portion of the table while two formulae used in construction of the Ultimate. Data Transcription Errors Detected: 08/2013. Data Corrected and Certified: 08/2013.</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Immediate Annuitant Mortality – Male (IM80). Minimum Select Age: 16. Maximum Select Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>16</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="16">0.000510</Y>
+        <Y t="17">0.001054</Y>
+        <Y t="18">0.000996</Y>
+        <Y t="19">0.000941</Y>
+        <Y t="20">0.000889</Y>
+        <Y t="21">0.000840</Y>
+        <Y t="22">0.000795</Y>
+        <Y t="23">0.000754</Y>
+        <Y t="24">0.000718</Y>
+        <Y t="25">0.00074</Y>
+        <Y t="26">0.000661</Y>
+        <Y t="27">0.000641</Y>
+        <Y t="28">0.000627</Y>
+        <Y t="29">0.000621</Y>
+        <Y t="30">0.000623</Y>
+        <Y t="31">0.000633</Y>
+        <Y t="32">0.000652</Y>
+        <Y t="33">0.000682</Y>
+        <Y t="34">0.000724</Y>
+        <Y t="35">0.000778</Y>
+        <Y t="36">0.000845</Y>
+        <Y t="37">0.000928</Y>
+        <Y t="38">0.001027</Y>
+        <Y t="39">0.001145</Y>
+        <Y t="40">0.001282</Y>
+        <Y t="41">0.001441</Y>
+        <Y t="42">0.001624</Y>
+        <Y t="43">0.001834</Y>
+        <Y t="44">0.002072</Y>
+        <Y t="45">0.002342</Y>
+        <Y t="46">0.002647</Y>
+        <Y t="47">0.002989</Y>
+        <Y t="48">0.003374</Y>
+        <Y t="49">0.003804</Y>
+        <Y t="50">0.004285</Y>
+        <Y t="51">0.004820</Y>
+        <Y t="52">0.005416</Y>
+        <Y t="53">0.006078</Y>
+        <Y t="54">0.006813</Y>
+        <Y t="55">0.007627</Y>
+        <Y t="56">0.008528</Y>
+        <Y t="57">0.009525</Y>
+        <Y t="58">0.010626</Y>
+        <Y t="59">0.011842</Y>
+        <Y t="60">0.013183</Y>
+        <Y t="61">0.014661</Y>
+        <Y t="62">0.016289</Y>
+        <Y t="63">0.018081</Y>
+        <Y t="64">0.020053</Y>
+        <Y t="65">0.021813</Y>
+        <Y t="66">0.023299</Y>
+        <Y t="67">0.024885</Y>
+        <Y t="68">0.026577</Y>
+        <Y t="69">0.028382</Y>
+        <Y t="70">0.030309</Y>
+        <Y t="71">0.032363</Y>
+        <Y t="72">0.034555</Y>
+        <Y t="73">0.036892</Y>
+        <Y t="74">0.039384</Y>
+        <Y t="75">0.042040</Y>
+        <Y t="76">0.044872</Y>
+        <Y t="77">0.047889</Y>
+        <Y t="78">0.051104</Y>
+        <Y t="79">0.054528</Y>
+        <Y t="80">0.058746</Y>
+        <Y t="81">0.063884</Y>
+        <Y t="82">0.069454</Y>
+        <Y t="83">0.075490</Y>
+        <Y t="84">0.082027</Y>
+        <Y t="85">0.089103</Y>
+        <Y t="86">0.096756</Y>
+        <Y t="87">0.105027</Y>
+        <Y t="88">0.113960</Y>
+        <Y t="89">0.123599</Y>
+        <Y t="90">0.133990</Y>
+        <Y t="91">0.145180</Y>
+        <Y t="92">0.157216</Y>
+        <Y t="93">0.170148</Y>
+        <Y t="94">0.184023</Y>
+        <Y t="95">0.198888</Y>
+        <Y t="96">0.214789</Y>
+        <Y t="97">0.231767</Y>
+        <Y t="98">0.249862</Y>
+        <Y t="99">0.269108</Y>
+        <Y t="100">0.289531</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Immediate Annuitant Mortality – Male (IM80). Minimum Ultimate Age: 17. Maximum Ultimate Age: 120</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.001096</Y>
+        <Y t="18">0.001035</Y>
+        <Y t="19">0.000978</Y>
+        <Y t="20">0.000924</Y>
+        <Y t="21">0.000874</Y>
+        <Y t="22">0.000827</Y>
+        <Y t="23">0.000784</Y>
+        <Y t="24">0.000747</Y>
+        <Y t="25">0.000714</Y>
+        <Y t="26">0.000687</Y>
+        <Y t="27">0.000666</Y>
+        <Y t="28">0.000652</Y>
+        <Y t="29">0.000646</Y>
+        <Y t="30">0.000647</Y>
+        <Y t="31">0.000658</Y>
+        <Y t="32">0.000678</Y>
+        <Y t="33">0.000710</Y>
+        <Y t="34">0.000753</Y>
+        <Y t="35">0.000809</Y>
+        <Y t="36">0.000879</Y>
+        <Y t="37">0.000965</Y>
+        <Y t="38">0.001068</Y>
+        <Y t="39">0.001191</Y>
+        <Y t="40">0.001333</Y>
+        <Y t="41">0.001499</Y>
+        <Y t="42">0.001689</Y>
+        <Y t="43">0.001907</Y>
+        <Y t="44">0.002155</Y>
+        <Y t="45">0.002436</Y>
+        <Y t="46">0.002752</Y>
+        <Y t="47">0.003109</Y>
+        <Y t="48">0.003509</Y>
+        <Y t="49">0.003956</Y>
+        <Y t="50">0.004456</Y>
+        <Y t="51">0.005013</Y>
+        <Y t="52">0.005632</Y>
+        <Y t="53">0.006321</Y>
+        <Y t="54">0.007085</Y>
+        <Y t="55">0.007931</Y>
+        <Y t="56">0.008868</Y>
+        <Y t="57">0.009904</Y>
+        <Y t="58">0.011049</Y>
+        <Y t="59">0.012313</Y>
+        <Y t="60">0.013706</Y>
+        <Y t="61">0.015243</Y>
+        <Y t="62">0.016935</Y>
+        <Y t="63">0.018797</Y>
+        <Y t="64">0.020846</Y>
+        <Y t="65">0.022903</Y>
+        <Y t="66">0.024947</Y>
+        <Y t="67">0.027172</Y>
+        <Y t="68">0.029591</Y>
+        <Y t="69">0.032223</Y>
+        <Y t="70">0.035084</Y>
+        <Y t="71">0.038195</Y>
+        <Y t="72">0.041575</Y>
+        <Y t="73">0.045247</Y>
+        <Y t="74">0.049235</Y>
+        <Y t="75">0.053565</Y>
+        <Y t="76">0.058264</Y>
+        <Y t="77">0.063361</Y>
+        <Y t="78">0.068887</Y>
+        <Y t="79">0.074876</Y>
+        <Y t="80">0.081362</Y>
+        <Y t="81">0.088383</Y>
+        <Y t="82">0.095977</Y>
+        <Y t="83">0.104186</Y>
+        <Y t="84">0.113052</Y>
+        <Y t="85">0.122620</Y>
+        <Y t="86">0.132935</Y>
+        <Y t="87">0.144044</Y>
+        <Y t="88">0.155995</Y>
+        <Y t="89">0.168837</Y>
+        <Y t="90">0.182617</Y>
+        <Y t="91">0.197383</Y>
+        <Y t="92">0.213180</Y>
+        <Y t="93">0.230050</Y>
+        <Y t="94">0.248034</Y>
+        <Y t="95">0.267166</Y>
+        <Y t="96">0.287472</Y>
+        <Y t="97">0.308974</Y>
+        <Y t="98">0.331680</Y>
+        <Y t="99">0.355590</Y>
+        <Y t="100">0.380688</Y>
+        <Y t="101">0.406942</Y>
+        <Y t="102">0.434302</Y>
+        <Y t="103">0.462700</Y>
+        <Y t="104">0.492042</Y>
+        <Y t="105">0.522214</Y>
+        <Y t="106">0.553075</Y>
+        <Y t="107">0.584458</Y>
+        <Y t="108">0.616173</Y>
+        <Y t="109">0.648002</Y>
+        <Y t="110">0.679708</Y>
+        <Y t="111">0.711035</Y>
+        <Y t="112">0.741713</Y>
+        <Y t="113">0.771464</Y>
+        <Y t="114">0.800013</Y>
+        <Y t="115">0.827094</Y>
+        <Y t="116">0.852462</Y>
+        <Y t="117">0.875900</Y>
+        <Y t="118">0.897235</Y>
+        <Y t="119">0.916341</Y>
+        <Y t="120">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

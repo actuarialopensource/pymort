@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3600</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, pri-2012-mort-tables-headcount.xlsx, Sheet 'Juvenile', https://www.soa.org/globalassets/assets/files/resources/experience-studies/2019/pri-2012-mort-tables-headcount.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Pri-2012 Male Juvenile</TableName>
+    <TableDescription>Pri-2012 Mortality Table - Male Juvenile. Ages 0-17. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+    <Comments>Study Data: The primary focus of this study was a comprehensive review of recent mortality experience of private-sector retirement plans in the United States. The final dataset upon which this study has been based includes approximately 16 million life-years of exposure and 343 thousand deaths from private pension plans across the United States.  Data certified: 05/2019.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord> Annuitant Mortality</KeyWord>
+    <KeyWord> United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Pri-2012 Mortality Table - Male Juvenile. Ages 0-17. Base Year January 1, 2012 - December 31, 2012.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>17</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0065</Y>
+        <Y t="1">0.00045</Y>
+        <Y t="2">0.0003</Y>
+        <Y t="3">0.00022</Y>
+        <Y t="4">0.00019</Y>
+        <Y t="5">0.00016</Y>
+        <Y t="6">0.00014</Y>
+        <Y t="7">0.00013</Y>
+        <Y t="8">0.00011</Y>
+        <Y t="9">9E-05</Y>
+        <Y t="10">8E-05</Y>
+        <Y t="11">9E-05</Y>
+        <Y t="12">0.00013</Y>
+        <Y t="13">0.00017</Y>
+        <Y t="14">0.00022</Y>
+        <Y t="15">0.00028</Y>
+        <Y t="16">0.00034</Y>
+        <Y t="17">0.0004</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

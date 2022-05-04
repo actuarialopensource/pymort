@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>60009</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Hangs Wagner</ProviderName>
+    <TableReference>Commonwealth  Actuary, “Australian Life Tables, 1953-1955. Prepared by S. W. Caffin”, Commonwealth Government Printer (Melbourne, 1954). Accessed: February, 2014 from http://www.ausstats.abs.gov.au/ausstats/free.nsf/0/171E1806BCBAB6A1CA257872002194FC/$File/1954%20Census%20-%20Volume%20VIII%20-%20Part%20V%20Australian%20Life%20Tables%201953%20-%201955.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Australian Life Tables 1953-55 Male</TableName>
+    <TableDescription>Australian Life Tables 1953-55 Male. Minimum Age: 0. Maximum Age: 105</TableDescription>
+    <Comments>Study Data: Tables on the results of the Census of 30th June, 1954, and the deaths in the three years 1953, 1954 and 1955. The data required for the calculations was supplied by the Commonwealth Statistician. Specifically: (a) the number of males and females living at each age last birthday, as shown by the 1954 Census; (b) the number of male and female deaths at each age last birthday in the years 1953, 1954 and 1955; (c) the numbers of births during the years 1947 to 1955; and (d) an analysis of the number of deaths under six years of age during the years 1948 to 1955. In addition, summaries by age last birthday of the movement of population to and from Australia during 1953 to 1955 were supplied. Methodology: At the 1954 Census, 20,735 males and 19,664 females failed to state their ages. These numbers are less than the corresponding numbers for the 1947 Census and were allocated to individual ages by the Commonwealth Statistician by a random process following an examination of the available information. In a departure from the construction of the preceding tables, King’s method for calculation of mortality rates was not used. Special formula used for ages 0 to 5. For ages 6 to 106, it was decided to calculate from the data the unadjusted mortality rates and to graduate those rates by a graduation formula which would produce a series of mortality rates of satisfactory smoothness and adherence to the original data. A summation method of graduation, embodying a combination of summations of varying range of the function to be graduated was adopted. The summation formula adopted was that put forward by the late John Spencer and employed by him in 1903 in the graduation of the Manchester Unity Independent Order of Oddfellows Mortality Experience 1893-1897. For ages 6 to 10, rates obtained by an examination of the unadjusted data. Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Life Tables 1953-55 Male. Minimum Age: 0. Maximum Age: 105</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.02521</Y>
+        <Y t="1">0.00276</Y>
+        <Y t="2">0.00179</Y>
+        <Y t="3">0.00132</Y>
+        <Y t="4">0.00100</Y>
+        <Y t="5">0.00078</Y>
+        <Y t="6">0.00071</Y>
+        <Y t="7">0.00065</Y>
+        <Y t="8">0.00061</Y>
+        <Y t="9">0.00058</Y>
+        <Y t="10">0.00056</Y>
+        <Y t="11">0.00056</Y>
+        <Y t="12">0.00062</Y>
+        <Y t="13">0.00074</Y>
+        <Y t="14">0.00090</Y>
+        <Y t="15">0.00109</Y>
+        <Y t="16">0.00129</Y>
+        <Y t="17">0.00149</Y>
+        <Y t="18">0.00166</Y>
+        <Y t="19">0.00179</Y>
+        <Y t="20">0.00186</Y>
+        <Y t="21">0.00188</Y>
+        <Y t="22">0.00186</Y>
+        <Y t="23">0.00181</Y>
+        <Y t="24">0.00175</Y>
+        <Y t="25">0.00170</Y>
+        <Y t="26">0.00167</Y>
+        <Y t="27">0.00165</Y>
+        <Y t="28">0.00165</Y>
+        <Y t="29">0.00167</Y>
+        <Y t="30">0.00170</Y>
+        <Y t="31">0.00174</Y>
+        <Y t="32">0.00180</Y>
+        <Y t="33">0.00187</Y>
+        <Y t="34">0.00195</Y>
+        <Y t="35">0.00205</Y>
+        <Y t="36">0.00218</Y>
+        <Y t="37">0.00234</Y>
+        <Y t="38">0.00252</Y>
+        <Y t="39">0.00273</Y>
+        <Y t="40">0.00297</Y>
+        <Y t="41">0.00324</Y>
+        <Y t="42">0.00355</Y>
+        <Y t="43">0.00390</Y>
+        <Y t="44">0.00431</Y>
+        <Y t="45">0.00478</Y>
+        <Y t="46">0.00531</Y>
+        <Y t="47">0.00591</Y>
+        <Y t="48">0.00659</Y>
+        <Y t="49">0.00734</Y>
+        <Y t="50">0.00819</Y>
+        <Y t="51">0.00914</Y>
+        <Y t="52">0.01020</Y>
+        <Y t="53">0.01137</Y>
+        <Y t="54">0.01264</Y>
+        <Y t="55">0.01402</Y>
+        <Y t="56">0.01549</Y>
+        <Y t="57">0.01704</Y>
+        <Y t="58">0.01866</Y>
+        <Y t="59">0.02037</Y>
+        <Y t="60">0.02221</Y>
+        <Y t="61">0.02420</Y>
+        <Y t="62">0.02636</Y>
+        <Y t="63">0.02872</Y>
+        <Y t="64">0.03130</Y>
+        <Y t="65">0.03412</Y>
+        <Y t="66">0.03724</Y>
+        <Y t="67">0.04066</Y>
+        <Y t="68">0.04446</Y>
+        <Y t="69">0.04862</Y>
+        <Y t="70">0.05315</Y>
+        <Y t="71">0.05803</Y>
+        <Y t="72">0.06324</Y>
+        <Y t="73">0.06870</Y>
+        <Y t="74">0.07446</Y>
+        <Y t="75">0.08055</Y>
+        <Y t="76">0.08704</Y>
+        <Y t="77">0.09407</Y>
+        <Y t="78">0.10178</Y>
+        <Y t="79">0.11025</Y>
+        <Y t="80">0.11958</Y>
+        <Y t="81">0.12970</Y>
+        <Y t="82">0.14059</Y>
+        <Y t="83">0.15213</Y>
+        <Y t="84">0.16428</Y>
+        <Y t="85">0.17692</Y>
+        <Y t="86">0.19013</Y>
+        <Y t="87">0.20395</Y>
+        <Y t="88">0.21848</Y>
+        <Y t="89">0.23382</Y>
+        <Y t="90">0.25009</Y>
+        <Y t="91">0.26742</Y>
+        <Y t="92">0.28578</Y>
+        <Y t="93">0.30510</Y>
+        <Y t="94">0.32538</Y>
+        <Y t="95">0.34663</Y>
+        <Y t="96">0.36880</Y>
+        <Y t="97">0.39187</Y>
+        <Y t="98">0.41578</Y>
+        <Y t="99">0.44045</Y>
+        <Y t="100">0.46577</Y>
+        <Y t="101">0.49163</Y>
+        <Y t="102">0.51785</Y>
+        <Y t="103">0.54424</Y>
+        <Y t="104">0.57056</Y>
+        <Y t="105">0.59657</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

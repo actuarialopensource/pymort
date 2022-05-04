@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2346</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Continuous Mortality Investigation, “Continuous Mortality Investigation Reports Number 23”, Institute of Actuaries and Faculty of Actuaries (2009). Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/00-series-mortality-tables-assured-lives-annuitants-and-pensioners</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>WA00</TableName>
+    <TableDescription>Widows Mortality by Amount  (WA00) Basis: Age Exact. Minimum Age: 17. Maximum Age: 120.</TableDescription>
+    <Comments>Study Data: Based on 1999-2002 life office experience known as the “00” Series. The “00” Series tables were exposed to the profession in a consultation process via a series of Working Papers and public meetings. Data represents spouses granted pensions on the death of life office pension scheme members (widows and widowers combined). Methodology: Separate graduations were carried out for lives and amounts, as was the case with the “92” Series. The age range chosen for fitting the data was 55-98. For the amounts experience, exposures and deaths were divided by a ‘scaling factor’ based on the average pension size. This does not affect the crude or graduated mortality rates, but does allow more meaningful statistical tests to be carried out. The scaling factor was based on the data in the fitted age range, and so is not the same as the respective average pension amount. Very little data exists at younger ages but it was recognized that rates would likely be needed. In this case, arbitrary values of μ(16) were blended into the graduated rates of μ(55). The starting values of μ(16) were 0.000200 for lives and 0.000150 for amounts, and the “curvature” parameter was 1.15 in both cases. Values of q(x) were derived from the values of μ(x)  by using the formula: q(x) = 1 – e ^(- integral from 0 t- 1 of µ(x+t)) where the integral was approximated by the formula: [7µ(x) + 32(µ(x+ .25)) + 12(µ(x+ .5)) + 32(µ(x+ .75)) + 7(µ(x+ 1))] / 90 . Data Transcription Errors: None. Data Certified: 09/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Widows Mortality by Amount  (WA00) Basis: Age Exact. Minimum Age: 17. Maximum Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.00035</Y>
+        <Y t="18">0.000482</Y>
+        <Y t="19">0.000614</Y>
+        <Y t="20">0.000746</Y>
+        <Y t="21">0.000877</Y>
+        <Y t="22">0.001007</Y>
+        <Y t="23">0.001137</Y>
+        <Y t="24">0.001266</Y>
+        <Y t="25">0.001394</Y>
+        <Y t="26">0.001522</Y>
+        <Y t="27">0.001649</Y>
+        <Y t="28">0.001775</Y>
+        <Y t="29">0.0019</Y>
+        <Y t="30">0.002025</Y>
+        <Y t="31">0.002149</Y>
+        <Y t="32">0.002273</Y>
+        <Y t="33">0.002395</Y>
+        <Y t="34">0.002516</Y>
+        <Y t="35">0.002637</Y>
+        <Y t="36">0.002757</Y>
+        <Y t="37">0.002875</Y>
+        <Y t="38">0.002993</Y>
+        <Y t="39">0.00311</Y>
+        <Y t="40">0.003225</Y>
+        <Y t="41">0.003339</Y>
+        <Y t="42">0.003452</Y>
+        <Y t="43">0.003564</Y>
+        <Y t="44">0.003674</Y>
+        <Y t="45">0.003783</Y>
+        <Y t="46">0.00389</Y>
+        <Y t="47">0.003995</Y>
+        <Y t="48">0.004098</Y>
+        <Y t="49">0.004198</Y>
+        <Y t="50">0.004296</Y>
+        <Y t="51">0.00439</Y>
+        <Y t="52">0.004481</Y>
+        <Y t="53">0.004566</Y>
+        <Y t="54">0.004642</Y>
+        <Y t="55">0.004793</Y>
+        <Y t="56">0.005053</Y>
+        <Y t="57">0.005345</Y>
+        <Y t="58">0.005673</Y>
+        <Y t="59">0.006042</Y>
+        <Y t="60">0.006457</Y>
+        <Y t="61">0.006922</Y>
+        <Y t="62">0.007445</Y>
+        <Y t="63">0.008033</Y>
+        <Y t="64">0.008693</Y>
+        <Y t="65">0.009434</Y>
+        <Y t="66">0.010266</Y>
+        <Y t="67">0.0112</Y>
+        <Y t="68">0.012249</Y>
+        <Y t="69">0.013427</Y>
+        <Y t="70">0.014749</Y>
+        <Y t="71">0.016233</Y>
+        <Y t="72">0.017897</Y>
+        <Y t="73">0.019765</Y>
+        <Y t="74">0.02186</Y>
+        <Y t="75">0.024209</Y>
+        <Y t="76">0.026842</Y>
+        <Y t="77">0.029793</Y>
+        <Y t="78">0.033099</Y>
+        <Y t="79">0.036801</Y>
+        <Y t="80">0.040944</Y>
+        <Y t="81">0.04558</Y>
+        <Y t="82">0.050764</Y>
+        <Y t="83">0.056555</Y>
+        <Y t="84">0.063023</Y>
+        <Y t="85">0.070238</Y>
+        <Y t="86">0.078281</Y>
+        <Y t="87">0.087238</Y>
+        <Y t="88">0.0972</Y>
+        <Y t="89">0.108267</Y>
+        <Y t="90">0.120543</Y>
+        <Y t="91">0.134138</Y>
+        <Y t="92">0.149167</Y>
+        <Y t="93">0.165747</Y>
+        <Y t="94">0.183995</Y>
+        <Y t="95">0.204028</Y>
+        <Y t="96">0.225957</Y>
+        <Y t="97">0.249882</Y>
+        <Y t="98">0.275188</Y>
+        <Y t="99">0.299847</Y>
+        <Y t="100">0.323553</Y>
+        <Y t="101">0.346342</Y>
+        <Y t="102">0.368246</Y>
+        <Y t="103">0.389297</Y>
+        <Y t="104">0.409526</Y>
+        <Y t="105">0.428961</Y>
+        <Y t="106">0.447629</Y>
+        <Y t="107">0.465556</Y>
+        <Y t="108">0.482765</Y>
+        <Y t="109">0.499277</Y>
+        <Y t="110">0.515113</Y>
+        <Y t="111">0.53029</Y>
+        <Y t="112">0.544821</Y>
+        <Y t="113">0.558719</Y>
+        <Y t="114">0.571989</Y>
+        <Y t="115">0.584629</Y>
+        <Y t="116">0.596628</Y>
+        <Y t="117">0.60795</Y>
+        <Y t="118">0.618511</Y>
+        <Y t="119">0.62803</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

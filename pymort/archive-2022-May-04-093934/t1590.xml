@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1590</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. Emory M’Clintock, “Special Tables for the Estimation of Mortality among Annuitants”, Transaction of the Society of Actuaries Vol. VI (1899) p. 20. Accessed: 01/2013 from http://www.archive.org/stream/transactions06actuuoft/transactions06actuuoft_djvu.txt</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>McClintock’s Annuitants Table A – Male, ANB</TableName>
+    <TableDescription>McClintock’s Annuitants Table A – Male, Age Nearest Birthday. Minimum Age: 10. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Based on the experience of 15 American companies collected and analyzed by Mr. Rufus W. Weeks of the New York Life. The data comprised the entire experience of the companies on annuities up to 1892.  After duplicates were removed, the number of lives under study included 4365 men and 4821 women. Despite listed as an American table, only one-fourth of the number of annuitants was actually American lives; the other three-fourths represented annuities granted abroad. In the case of deferred annuities, only the experience after the annuity became payable was considered.  Note that Mr. Dawson republished many actuarial tables in 1905. However, at almost every age there are very slight differences in values between the original Transactions of the Society of Actuaries publication and the Dawson publication. This table contains the original values as published by Dr. M’Clintock. The Dawson version of the table is retained in this database as actuaries may have relied upon it for valuation purposes (See SOA Table Identity 800). Note that this table ceases at age 99 whereas the Dawson table has rates up to age 105. Methodology:  Each table was graduated using Makeham’s first law formula. Both male and female tables used log c = .04. The male table used log b = .0032 and log h = 5.55 while the female table used log b = .0015 and log h = 5.43. At the young ages the rates are purely theoretical as, under age 40, there were only two deaths among the male experience and three in the female.  Data Transcription Errors: None. Data Certified: 01/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>McClintock’s Annuitants Table A – Male, Age Nearest Birthday. Minimum Age: 10. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.00755</Y>
+        <Y t="11">0.00757</Y>
+        <Y t="12">0.00759</Y>
+        <Y t="13">0.00761</Y>
+        <Y t="14">0.00764</Y>
+        <Y t="15">0.00766</Y>
+        <Y t="16">0.00768</Y>
+        <Y t="17">0.00773</Y>
+        <Y t="18">0.00778</Y>
+        <Y t="19">0.00780</Y>
+        <Y t="20">0.00784</Y>
+        <Y t="21">0.00791</Y>
+        <Y t="22">0.00796</Y>
+        <Y t="23">0.00803</Y>
+        <Y t="24">0.00807</Y>
+        <Y t="25">0.00814</Y>
+        <Y t="26">0.00823</Y>
+        <Y t="27">0.00832</Y>
+        <Y t="28">0.00841</Y>
+        <Y t="29">0.00851</Y>
+        <Y t="30">0.00862</Y>
+        <Y t="31">0.00876</Y>
+        <Y t="32">0.00889</Y>
+        <Y t="33">0.00903</Y>
+        <Y t="34">0.00919</Y>
+        <Y t="35">0.00937</Y>
+        <Y t="36">0.00958</Y>
+        <Y t="37">0.00978</Y>
+        <Y t="38">0.01001</Y>
+        <Y t="39">0.01028</Y>
+        <Y t="40">0.01056</Y>
+        <Y t="41">0.01088</Y>
+        <Y t="42">0.01122</Y>
+        <Y t="43">0.01158</Y>
+        <Y t="44">0.01199</Y>
+        <Y t="45">0.01245</Y>
+        <Y t="46">0.01293</Y>
+        <Y t="47">0.01347</Y>
+        <Y t="48">0.01406</Y>
+        <Y t="49">0.01472</Y>
+        <Y t="50">0.01542</Y>
+        <Y t="51">0.01619</Y>
+        <Y t="52">0.01705</Y>
+        <Y t="53">0.01798</Y>
+        <Y t="54">0.01900</Y>
+        <Y t="55">0.02010</Y>
+        <Y t="56">0.02134</Y>
+        <Y t="57">0.02267</Y>
+        <Y t="58">0.02413</Y>
+        <Y t="59">0.02575</Y>
+        <Y t="60">0.02750</Y>
+        <Y t="61">0.02942</Y>
+        <Y t="62">0.03154</Y>
+        <Y t="63">0.03384</Y>
+        <Y t="64">0.03635</Y>
+        <Y t="65">0.03912</Y>
+        <Y t="66">0.04212</Y>
+        <Y t="67">0.04540</Y>
+        <Y t="68">0.04900</Y>
+        <Y t="69">0.05293</Y>
+        <Y t="70">0.05722</Y>
+        <Y t="71">0.06190</Y>
+        <Y t="72">0.06700</Y>
+        <Y t="73">0.07255</Y>
+        <Y t="74">0.07862</Y>
+        <Y t="75">0.08521</Y>
+        <Y t="76">0.09239</Y>
+        <Y t="77">0.10021</Y>
+        <Y t="78">0.10869</Y>
+        <Y t="79">0.11792</Y>
+        <Y t="80">0.12789</Y>
+        <Y t="81">0.13873</Y>
+        <Y t="82">0.15045</Y>
+        <Y t="83">0.16311</Y>
+        <Y t="84">0.17677</Y>
+        <Y t="85">0.19152</Y>
+        <Y t="86">0.20735</Y>
+        <Y t="87">0.22438</Y>
+        <Y t="88">0.24263</Y>
+        <Y t="89">0.26213</Y>
+        <Y t="90">0.28295</Y>
+        <Y t="91">0.30510</Y>
+        <Y t="92">0.32860</Y>
+        <Y t="93">0.35347</Y>
+        <Y t="94">0.37966</Y>
+        <Y t="95">0.40717</Y>
+        <Y t="96">0.43593</Y>
+        <Y t="97">0.46587</Y>
+        <Y t="98">0.49687</Y>
+        <Y t="99">0.52879</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

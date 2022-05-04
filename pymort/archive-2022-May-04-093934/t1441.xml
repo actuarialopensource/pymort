@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1441</TableIdentity>
+    <ProviderDomain>aga.gov.au</ProviderDomain>
+    <ProviderName>Australian Government</ProviderName>
+    <TableReference>Australian Government Actuary, “Australian Life Tables 2005-07”, Department of the Treasury (Commonwealth of Australia, 2009). Accessed: January, 2014 from http://aga.gov.au/publications/life_tables_2005-07/downloads/improvement_factors.xls</TableReference>
+    <ContentType tc="22">Projection Scale</ContentType>
+    <TableName>Australian Mortality Improvement Factors – Male, 25 Year</TableName>
+    <TableDescription>Australian Mortality Improvement Factors – Male. Basis: 25 Year. Minimum Age: 0. Maximum Age: 110</TableDescription>
+    <Comments>Study Data: At the time of constructing the Australian Life Tables for 2005-07 (See SOA Table Identities 1438-1439), it was noted that further reductions in mortality are likely in the future. Projection of these rates is a subjective and uncertain task hence illustrative mortality improvement factors have been derived from the observed changes in mortality over the past 25 and 100 years respectively (See SOA Table Identities 1442-1443). Projection factors like these can shed light on how an allowance for mortality improvement might affect life expectancies. Methodology: Infant mortality has shown a sustained and substantial improvement over the entire period since the first official Life Tables for Australia for the period 1881-1900 (See SOA Table Identities 60014 and 60030) The level of improvement declines with age over the age range from 25 to 50 for males and 20 to 45 for females before picking up again in middle age. At age 65, the rate of improvement was relatively slow for both males and females until around 1965. This is consistent with the benefits of medical advances up to that time. NOTE: Values are negative reflecting rate of decrease in the mortality rate. Data Transcription Errors: None. Data Certified: 01/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Projection Scale</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Mortality Improvement Factors – Male. Basis: 25 Year. Minimum Age: 0. Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">-0.03092</Y>
+        <Y t="1">-0.03319</Y>
+        <Y t="2">-0.03707</Y>
+        <Y t="3">-0.04438</Y>
+        <Y t="4">-0.04543</Y>
+        <Y t="5">-0.0446</Y>
+        <Y t="6">-0.04375</Y>
+        <Y t="7">-0.04287</Y>
+        <Y t="8">-0.04196</Y>
+        <Y t="9">-0.04103</Y>
+        <Y t="10">-0.04006</Y>
+        <Y t="11">-0.03856</Y>
+        <Y t="12">-0.03775</Y>
+        <Y t="13">-0.03707</Y>
+        <Y t="14">-0.03652</Y>
+        <Y t="15">-0.03605</Y>
+        <Y t="16">-0.03563</Y>
+        <Y t="17">-0.03518</Y>
+        <Y t="18">-0.03465</Y>
+        <Y t="19">-0.03394</Y>
+        <Y t="20">-0.03295</Y>
+        <Y t="21">-0.031</Y>
+        <Y t="22">-0.02859</Y>
+        <Y t="23">-0.02635</Y>
+        <Y t="24">-0.0243461775283281</Y>
+        <Y t="25">-0.02234</Y>
+        <Y t="26">-0.02032</Y>
+        <Y t="27">-0.01784</Y>
+        <Y t="28">-0.0158</Y>
+        <Y t="29">-0.01331</Y>
+        <Y t="30">-0.01123</Y>
+        <Y t="31">-0.00969</Y>
+        <Y t="32">-0.00849</Y>
+        <Y t="33">-0.00758</Y>
+        <Y t="34">-0.00799</Y>
+        <Y t="35">-0.0086</Y>
+        <Y t="36">-0.00962</Y>
+        <Y t="37">-0.01071</Y>
+        <Y t="38">-0.01235</Y>
+        <Y t="39">-0.0139</Y>
+        <Y t="40">-0.01545</Y>
+        <Y t="41">-0.01726</Y>
+        <Y t="42">-0.01892</Y>
+        <Y t="43">-0.02058</Y>
+        <Y t="44">-0.02196</Y>
+        <Y t="45">-0.02353</Y>
+        <Y t="46">-0.0247</Y>
+        <Y t="47">-0.02593</Y>
+        <Y t="48">-0.02691</Y>
+        <Y t="49">-0.0279</Y>
+        <Y t="50">-0.0288</Y>
+        <Y t="51">-0.02961</Y>
+        <Y t="52">-0.03034</Y>
+        <Y t="53">-0.03099</Y>
+        <Y t="54">-0.03156</Y>
+        <Y t="55">-0.03205</Y>
+        <Y t="56">-0.03247</Y>
+        <Y t="57">-0.0328</Y>
+        <Y t="58">-0.03307</Y>
+        <Y t="59">-0.03325</Y>
+        <Y t="60">-0.03337</Y>
+        <Y t="61">-0.03341</Y>
+        <Y t="62">-0.03339</Y>
+        <Y t="63">-0.03329</Y>
+        <Y t="64">-0.03313</Y>
+        <Y t="65">-0.0329</Y>
+        <Y t="66">-0.03261</Y>
+        <Y t="67">-0.03225</Y>
+        <Y t="68">-0.03184</Y>
+        <Y t="69">-0.03136</Y>
+        <Y t="70">-0.03082</Y>
+        <Y t="71">-0.03022</Y>
+        <Y t="72">-0.02957</Y>
+        <Y t="73">-0.02886</Y>
+        <Y t="74">-0.0281</Y>
+        <Y t="75">-0.02729</Y>
+        <Y t="76">-0.02637</Y>
+        <Y t="77">-0.0253</Y>
+        <Y t="78">-0.02424</Y>
+        <Y t="79">-0.02317</Y>
+        <Y t="80">-0.02207</Y>
+        <Y t="81">-0.02092</Y>
+        <Y t="82">-0.01975</Y>
+        <Y t="83">-0.01854</Y>
+        <Y t="84">-0.0173</Y>
+        <Y t="85">-0.01605</Y>
+        <Y t="86">-0.01481</Y>
+        <Y t="87">-0.01358</Y>
+        <Y t="88">-0.01247</Y>
+        <Y t="89">-0.01149</Y>
+        <Y t="90">-0.01067</Y>
+        <Y t="91">-0.01</Y>
+        <Y t="92">-0.00946</Y>
+        <Y t="93">-0.00892</Y>
+        <Y t="94">-0.00838</Y>
+        <Y t="95">-0.00784</Y>
+        <Y t="96">-0.0073</Y>
+        <Y t="97">-0.00676</Y>
+        <Y t="98">-0.00622</Y>
+        <Y t="99">-0.00568</Y>
+        <Y t="100">-0.00514</Y>
+        <Y t="101">-0.0046</Y>
+        <Y t="102">-0.00406</Y>
+        <Y t="103">-0.00352</Y>
+        <Y t="104">-0.00298</Y>
+        <Y t="105">-0.00244</Y>
+        <Y t="106">-0.0019</Y>
+        <Y t="107">-0.00136</Y>
+        <Y t="108">-0.00082</Y>
+        <Y t="109">-0.00028</Y>
+        <Y t="110">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

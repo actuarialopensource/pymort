@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2918</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Richard Teece, “Report on the Mortality Experience of the Australian Mutual Provident Society”, John Sands (Sydney, 1891) reprinted Miles Menander Dawson, “Practical Lessons in Actuarial Science, An Elementary Text-Book”, The Spectator Company (New York, 1896). Accessed June, 2014 from https://archive.org/stream/practicallessons00dawsrich#page/n3/mode/2up</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Australian Mutual Provident Society’s Experience Table</TableName>
+    <TableDescription>Australian Mutual Provident Society’s Experience Table. Minimum Age: 0. Maximum Age: 97.</TableDescription>
+    <Comments>Study Data: Experience of the Australian Mutual Provident Society of Sydney for the period 1849-88 encompassing 114,781 lives predominantly comprised of whole life and endowment contracts. Due note should be made that the number of policies issued during the fourth decennial period of the Society’s history was nearly twice as large as that issued during the firs three such periods. Methodology: The card system, almost universally adopted for investigations of such nature, was employed. Note should be made that calendar years rather than policy years have in all cases been employed. Also, lives rather than policies have been dealt with. Data graduated by Woolhouse’s method (graduation by graphical system also employed but found to be less than satisfactory). Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Mutual Provident Society’s Experience Table. Minimum Age: 0. Maximum Age: 97</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.028420</Y>
+        <Y t="1">0.023148</Y>
+        <Y t="2">0.018249</Y>
+        <Y t="3">0.013855</Y>
+        <Y t="4">0.010110</Y>
+        <Y t="5">0.007047</Y>
+        <Y t="6">0.004783</Y>
+        <Y t="7">0.003327</Y>
+        <Y t="8">0.002713</Y>
+        <Y t="9">0.002295</Y>
+        <Y t="10">0.002132</Y>
+        <Y t="11">0.001799</Y>
+        <Y t="12">0.002039</Y>
+        <Y t="13">0.002280</Y>
+        <Y t="14">0.002624</Y>
+        <Y t="15">0.002949</Y>
+        <Y t="16">0.003310</Y>
+        <Y t="17">0.003378</Y>
+        <Y t="18">0.003481</Y>
+        <Y t="19">0.003493</Y>
+        <Y t="20">0.003483</Y>
+        <Y t="21">0.003402</Y>
+        <Y t="22">0.003437</Y>
+        <Y t="23">0.003461</Y>
+        <Y t="24">0.003473</Y>
+        <Y t="25">0.003543</Y>
+        <Y t="26">0.003674</Y>
+        <Y t="27">0.003841</Y>
+        <Y t="28">0.003939</Y>
+        <Y t="29">0.004181</Y>
+        <Y t="30">0.004413</Y>
+        <Y t="31">0.004709</Y>
+        <Y t="32">0.004913</Y>
+        <Y t="33">0.005252</Y>
+        <Y t="34">0.005487</Y>
+        <Y t="35">0.005677</Y>
+        <Y t="36">0.005833</Y>
+        <Y t="37">0.006090</Y>
+        <Y t="38">0.006277</Y>
+        <Y t="39">0.006618</Y>
+        <Y t="40">0.007016</Y>
+        <Y t="41">0.007473</Y>
+        <Y t="42">0.007914</Y>
+        <Y t="43">0.008378</Y>
+        <Y t="44">0.008801</Y>
+        <Y t="45">0.009195</Y>
+        <Y t="46">0.009586</Y>
+        <Y t="47">0.010067</Y>
+        <Y t="48">0.010549</Y>
+        <Y t="49">0.011031</Y>
+        <Y t="50">0.011500</Y>
+        <Y t="51">0.012082</Y>
+        <Y t="52">0.012541</Y>
+        <Y t="53">0.012987</Y>
+        <Y t="54">0.013580</Y>
+        <Y t="55">0.014281</Y>
+        <Y t="56">0.015148</Y>
+        <Y t="57">0.016155</Y>
+        <Y t="58">0.017362</Y>
+        <Y t="59">0.018626</Y>
+        <Y t="60">0.019940</Y>
+        <Y t="61">0.021473</Y>
+        <Y t="62">0.023312</Y>
+        <Y t="63">0.026073</Y>
+        <Y t="64">0.029367</Y>
+        <Y t="65">0.033400</Y>
+        <Y t="66">0.037228</Y>
+        <Y t="67">0.042125</Y>
+        <Y t="68">0.044667</Y>
+        <Y t="69">0.047307</Y>
+        <Y t="70">0.050057</Y>
+        <Y t="71">0.053375</Y>
+        <Y t="72">0.053040</Y>
+        <Y t="73">0.057816</Y>
+        <Y t="74">0.063140</Y>
+        <Y t="75">0.066329</Y>
+        <Y t="76">0.072152</Y>
+        <Y t="77">0.087342</Y>
+        <Y t="78">0.100161</Y>
+        <Y t="79">0.114310</Y>
+        <Y t="80">0.136306</Y>
+        <Y t="81">0.158199</Y>
+        <Y t="82">0.172209</Y>
+        <Y t="83">0.187246</Y>
+        <Y t="84">0.202981</Y>
+        <Y t="85">0.212209</Y>
+        <Y t="86">0.219755</Y>
+        <Y t="87">0.231992</Y>
+        <Y t="88">0.246614</Y>
+        <Y t="89">0.262890</Y>
+        <Y t="90">0.283019</Y>
+        <Y t="91">0.312580</Y>
+        <Y t="92">0.352941</Y>
+        <Y t="93">0.406926</Y>
+        <Y t="94">0.484185</Y>
+        <Y t="95">0.608491</Y>
+        <Y t="96">0.867470</Y>
+        <Y t="97">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

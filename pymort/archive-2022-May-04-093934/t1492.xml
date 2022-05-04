@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1492</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Society of Actuaries Committee to Recommend New Disability Tables for Valuation, “Group Long Term Disability (GLTD) Valuation Tables”, Transactions of the Society of Actuaries Vol. 39, Society of Actuaries (1987) Table C-4. Accessed: December, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1987/January/tsa87v3913.pdf</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1987 GLTD Incidence Rates - Males</TableName>
+    <TableDescription>1987 Group Long Term Disability Incidence (GLTD) Rates – Males. Minimum Age: 22. Maximum Age: 62</TableDescription>
+    <Comments>Study Data: The Basic Table was constructed in three sections: the first 24 months of claim duration, years 3 through 10, and years 11 and over (ultimate). The incidence rates for the first 24 months of claim duration recognize age, sex, and elimination periods of 3 months, 6 months and 12 months. These rates were determined from the 1975-80 Society of Actuaries (SOA) data. The second section, years 3 through 10, was built from SOA data on the exposure years 1962-1980. These data were standardized for the effects of sex and chronological trends to project a data set to represent male experience during the period 1976-80. Since the effects of elimination period seemed to converge during the first 24 months, elimination period as a parameter was dropped for year 3 and later. An adequate volume of data was available for the first 8 years of claims, and the results derived from this information were extrapolated at durations 9 and 10 to grade into the ultimate section at duration 11 years. The third section, years 11 and over, was based upon the ultimate termination rates of the 1985 CIDA table. Methodology: The termination rates were developed by an empirical formula based upon the review of the Society Group Waiver data, the Intercompany Disability Waiver of Premium Study, the Social Security Experience Study, and a study by Mutual of Omaha. Ultimate GLTD termination from disablement rates are the 1985 CIDA rates through age 50, grading to 65 percent of the 1985 CIDA rates at ages 65 and higher. The ultimate rates were reviewed separately by three major GLTD writers who suggested the modifications to more realistically fit actual experience for these ages and what the committee believes to be the general experience with this product. A margin was added to the Basic Table to obtain the proposed GLTD Valuation Table. The margin was added to reduce termination rates (death and recovery combined) to 90 percent of the Basic Table for all durations. While incidence rates are generally not needed for the valuation of GLTD, the committee felt that a complete table would prove useful. Due to the absence of subdivisions of the experience for ages under 40, it was necessary to make a subdivision into quinquennial age groups largely by empirical means. Data Transcription Errors: None. Data Certified: 12/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1987 Group Long Term Disability Incidence (GLTD) Rates – Males. Basis: 3 Month Elimination Period. Minimum Age: 22. Maximum Age: 62</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>62</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.00148</Y>
+        <Y t="27">0.00157</Y>
+        <Y t="32">0.0018</Y>
+        <Y t="37">0.002338</Y>
+        <Y t="42">0.003327</Y>
+        <Y t="47">0.005383</Y>
+        <Y t="52">0.008971</Y>
+        <Y t="57">0.01504</Y>
+        <Y t="62">0.021333</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1987 Group Long Term Disability Incidence (GLTD) Rates – Males. Basis: 6 Month Elimination Period. Minimum Age: 22. Maximum Age: 62</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>62</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.0008</Y>
+        <Y t="27">0.00089</Y>
+        <Y t="32">0.00105</Y>
+        <Y t="37">0.00137</Y>
+        <Y t="42">0.00202</Y>
+        <Y t="47">0.00356</Y>
+        <Y t="52">0.00662</Y>
+        <Y t="57">0.01187</Y>
+        <Y t="62">0.01671</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1987 Group Long Term Disability Incidence (GLTD) Rates – Males. Basis: 12 Month Elimination Period. Minimum Age: 22. Maximum Age: 62</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>62</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.000506</Y>
+        <Y t="27">0.000593</Y>
+        <Y t="32">0.000745</Y>
+        <Y t="37">0.001028</Y>
+        <Y t="42">0.001594</Y>
+        <Y t="47">0.002917</Y>
+        <Y t="52">0.005567</Y>
+        <Y t="57">0.01001</Y>
+        <Y t="62">0.01345</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

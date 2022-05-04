@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1255</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Robert W. Beal</ProviderName>
+    <TableReference>W. Duane Kidwell and William J. Taylor, et all, “Report of the Committee to Recommend New Disability Tables for Valuation”, Transactions of the Society of Actuaries, Vol. XXXVII (1985). Accessed: December, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1985/January/tsa85v3713.pdf</TableReference>
+    <ContentType tc="80">Claim Incidence</ContentType>
+    <TableName>1985 CIDA Incidence Rates - Male, Occ Cl 1, Acc &amp; Sick, 730 day EP</TableName>
+    <TableDescription>1985 Commissioner's Individual Disability Tables A (CIDA) Incidence Rates – Male. Occupation Class: 1. Basis: Accident and Sickness. Elimination Period: 730 Days. Minimum Age: 20. Maximum Age: 65</TableDescription>
+    <Comments>Study Data: Industry experience from exposures of the mid to late 1970’s. At that time, the industry was going through a period of claims deterioration, to about 1976, and the beginning of a claims improvement trend thereafter. The table is, therefore, on the conservative side, relative to the good claims, experience of the early 1980s. Twenty companies participated, submitting usable experience data on 133,936 closed claims. Group long-term disability (LTD) experience was the primary influence for rates from the latter part of the second year through the tenth year. During the second year of disablement, the termination rates were graduated from the level indicated in loss-of-time (LOT) experience to the level indicated by LTD. The rates are then based upon LTD experience for the third through the sixth years and graded into the ultimate rates of the eleventh year. An experience based table was first developed and then loaded to get the valuation table. NOTE: In the interest of flexibility, two diskettes containing data files and a Fortran program were made available by the Society of Actuaries (SOA). The program and data files comprise a reference from which values can be extracted. Methodology: Factors for calculation of weekly termination rates were published as Exhibit 3a. Rates in this file were developed by Robert W. Beal from those factors. An example calculation would be as follows: the Week 2 Duration Rate (0.114) would be multiplied by the corresponding “variable” factors: age 35 factor (0.961), 7 day elimination period factor (0.934), occupation class factor (0.999), male gender factor (1.190),  and accident basis factor (1.044) to result in a value of 0.127. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Claim Incidence</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1985 Commissioner's Individual Disability Tables A (CIDA) Incidence Rates – Male. Occupation Class: 1. Basis: Accident and Sickness. Elimination Period: 730 Days. Minimum Age: 20. Maximum Age: 65</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>65</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00022</Y>
+        <Y t="21">0.00022</Y>
+        <Y t="22">0.00023</Y>
+        <Y t="23">0.00024</Y>
+        <Y t="24">0.00024</Y>
+        <Y t="25">0.00025</Y>
+        <Y t="26">0.00024</Y>
+        <Y t="27">0.00023</Y>
+        <Y t="28">0.00023</Y>
+        <Y t="29">0.00023</Y>
+        <Y t="30">0.00023</Y>
+        <Y t="31">0.00024</Y>
+        <Y t="32">0.00024</Y>
+        <Y t="33">0.00025</Y>
+        <Y t="34">0.00027</Y>
+        <Y t="35">0.00029</Y>
+        <Y t="36">0.00031</Y>
+        <Y t="37">0.00034</Y>
+        <Y t="38">0.00037</Y>
+        <Y t="39">0.00041</Y>
+        <Y t="40">0.00046</Y>
+        <Y t="41">0.00051</Y>
+        <Y t="42">0.00057</Y>
+        <Y t="43">0.00065</Y>
+        <Y t="44">0.00073</Y>
+        <Y t="45">0.00082</Y>
+        <Y t="46">0.00093</Y>
+        <Y t="47">0.00106</Y>
+        <Y t="48">0.0012</Y>
+        <Y t="49">0.00137</Y>
+        <Y t="50">0.00155</Y>
+        <Y t="51">0.00176</Y>
+        <Y t="52">0.002</Y>
+        <Y t="53">0.00227</Y>
+        <Y t="54">0.00258</Y>
+        <Y t="55">0.00292</Y>
+        <Y t="56">0.0033</Y>
+        <Y t="57">0.00373</Y>
+        <Y t="58">0.00421</Y>
+        <Y t="59">0.00475</Y>
+        <Y t="60">0.00534</Y>
+        <Y t="61">0.00601</Y>
+        <Y t="62">0.00674</Y>
+        <Y t="63">0.00751</Y>
+        <Y t="64">0.00831</Y>
+        <Y t="65">0.00914</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

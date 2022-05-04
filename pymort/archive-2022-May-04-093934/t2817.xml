@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2817</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>E. E. Duvillard, “Analyse de L’Influence de La Petite Vesole Sur La Mortalite”, (France, 1806) reprinted Miles Menander Dawson, “Practial Lessons in Actuarial Science, An Elementary Text-Book”, The Spectator Company (New York, 1896). Accessed June, 2014 from https://archive.org/stream/practicallessons00dawsrich#page/n3/mode/2up</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>Duvillard Table of Mortality</TableName>
+    <TableDescription>Duvillard Table of Mortality.  Minimum Age: 0 Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Table was constructed to show normal morality by way of contrast (publication actually relates to influence of small pox upon mortality). The data was drawn from population statistics taken in different parts of France prior to 1789 and embraces 101,542 deaths in a population of 2,920,672. Adopted by Compagnie d’Assurances Générales as the basis for the calculation of premiums as, being French, it appeared more suitable for an enterprise operating in France versus United Kingdom tables of the time. The table is regarded as having swift mortality compared to M.de Parcieux's table (See SOA Table Identity 2827) and was adopted as the French standard for annuities (insurance upon survival) while the latter was adopted as the French Standard for assurances (insurance against death). Methodology: Mr. Duvillard described his method in a work which was never published and the manuscript was not found following the Revolution. NOTE: Initial European Life Tables were printed with just lx values. Over time, the tables were expanded to include qx values that then became the predominant format for the tables of this database. To aid in tracking the data available, Mr. Dawson created qx versions for this and other older tables. For the counterpart qx table for the Duvillard data, see SOA Table Identity 2828. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>France</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="33">France</Nation>
+      <TableDescription>Duvillard Table of Mortality.  Minimum Age: 0 Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">1000000</Y>
+        <Y t="1">767525</Y>
+        <Y t="2">671834</Y>
+        <Y t="3">624668</Y>
+        <Y t="4">598713</Y>
+        <Y t="5">583151</Y>
+        <Y t="6">573025</Y>
+        <Y t="7">565838</Y>
+        <Y t="8">560245</Y>
+        <Y t="9">555486</Y>
+        <Y t="10">551122</Y>
+        <Y t="11">546888</Y>
+        <Y t="12">542630</Y>
+        <Y t="13">538255</Y>
+        <Y t="14">533711</Y>
+        <Y t="15">528969</Y>
+        <Y t="16">524020</Y>
+        <Y t="17">518863</Y>
+        <Y t="18">513502</Y>
+        <Y t="19">507949</Y>
+        <Y t="20">502216</Y>
+        <Y t="21">496317</Y>
+        <Y t="22">490267</Y>
+        <Y t="23">484083</Y>
+        <Y t="24">477777</Y>
+        <Y t="25">471366</Y>
+        <Y t="26">464863</Y>
+        <Y t="27">458282</Y>
+        <Y t="28">451635</Y>
+        <Y t="29">444932</Y>
+        <Y t="30">438183</Y>
+        <Y t="31">431398</Y>
+        <Y t="32">424583</Y>
+        <Y t="33">417744</Y>
+        <Y t="34">410886</Y>
+        <Y t="35">404012</Y>
+        <Y t="36">397123</Y>
+        <Y t="37">390219</Y>
+        <Y t="38">383300</Y>
+        <Y t="39">376363</Y>
+        <Y t="40">369404</Y>
+        <Y t="41">362419</Y>
+        <Y t="42">355400</Y>
+        <Y t="43">348342</Y>
+        <Y t="44">341235</Y>
+        <Y t="45">334072</Y>
+        <Y t="46">326843</Y>
+        <Y t="47">319539</Y>
+        <Y t="48">312148</Y>
+        <Y t="49">304662</Y>
+        <Y t="50">297070</Y>
+        <Y t="51">289361</Y>
+        <Y t="52">281527</Y>
+        <Y t="53">273560</Y>
+        <Y t="54">265450</Y>
+        <Y t="55">257193</Y>
+        <Y t="56">248782</Y>
+        <Y t="57">240214</Y>
+        <Y t="58">231488</Y>
+        <Y t="59">222605</Y>
+        <Y t="60">213567</Y>
+        <Y t="61">204380</Y>
+        <Y t="62">195054</Y>
+        <Y t="63">185600</Y>
+        <Y t="64">176035</Y>
+        <Y t="65">166377</Y>
+        <Y t="66">156651</Y>
+        <Y t="67">146882</Y>
+        <Y t="68">137102</Y>
+        <Y t="69">127347</Y>
+        <Y t="70">117656</Y>
+        <Y t="71">108070</Y>
+        <Y t="72">98637</Y>
+        <Y t="73">89404</Y>
+        <Y t="74">80423</Y>
+        <Y t="75">71745</Y>
+        <Y t="76">63424</Y>
+        <Y t="77">55511</Y>
+        <Y t="78">48057</Y>
+        <Y t="79">41107</Y>
+        <Y t="80">34705</Y>
+        <Y t="81">28886</Y>
+        <Y t="82">23680</Y>
+        <Y t="83">19106</Y>
+        <Y t="84">15175</Y>
+        <Y t="85">11886</Y>
+        <Y t="86">9224</Y>
+        <Y t="87">7165</Y>
+        <Y t="88">5670</Y>
+        <Y t="89">4686</Y>
+        <Y t="90">3830</Y>
+        <Y t="91">3093</Y>
+        <Y t="92">2466</Y>
+        <Y t="93">1938</Y>
+        <Y t="94">1499</Y>
+        <Y t="95">1140</Y>
+        <Y t="96">850</Y>
+        <Y t="97">621</Y>
+        <Y t="98">442</Y>
+        <Y t="99">307</Y>
+        <Y t="100">207</Y>
+        <Y t="101">135</Y>
+        <Y t="102">84</Y>
+        <Y t="103">51</Y>
+        <Y t="104">29</Y>
+        <Y t="105">16</Y>
+        <Y t="106">8</Y>
+        <Y t="107">4</Y>
+        <Y t="108">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

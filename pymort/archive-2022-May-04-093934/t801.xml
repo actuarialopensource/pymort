@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>801</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>W. Palin Elderton and H. J. P. Oakley, “The Mortality of Annuitants 1900-1920: Investigation and Tables”, The Institute of Actuaries and The Faculty of Actuaries, Charles and Edwin Layton (London, 1924) Table Q</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1924 a^(f)</TableName>
+    <TableDescription>1924 Female Annuitants Mortality Table (a^(f)). Minimum Age: 40 Maximum Age: 116</TableDescription>
+    <Comments>Study Data: Single life immediate annuities on lives resident in the United Kingdom from 49 offices (including five Colonial Offices and one American Company) observe from 1900 through 1920. Data excluded the first five years from the time when the annuities were granted as it was felt improbable that select mortality would merge into the ultimate more than five years in the case of annuitants. Raw data collected on age-last-birthday basis but converted to age-nearest-birthday in preparation of graduated rates of mortality. Methodology: Mortality of female annuitants is based on Makeham graduation of quinquennial age groupings up to age 85 and thereafter a flatter curve of the same form which reproduces the rates of mortality at 80 and 85 already found by the first curve. For male mortality, a Gompertz graduation for ages 50 to 70 gave good results and from 80 onwards a different Gompertz graduation was found to be satisfactory. Niether curve however dealt fairly with the middle period. Thus the two Gompertz curves were joined by a simple method. Interpolation was carried out on the graduated quinquennial age bands to obtain the rates of mortality at each age. The rates of mortality over age 90 are uncertain; authors hope that the rates used are reasonable. The object of the graduations has been to produce the figures on which they were based as nearly as possible. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>1924 UK a(f) ult, Age Nearest, Female-Aggregate</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>40</MinScaleValue>
+        <MaxScaleValue>116</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="40">0.00716</Y>
+        <Y t="41">0.00723</Y>
+        <Y t="42">0.00731</Y>
+        <Y t="43">0.00740</Y>
+        <Y t="44">0.00750</Y>
+        <Y t="45">0.00762</Y>
+        <Y t="46">0.00775</Y>
+        <Y t="47">0.00790</Y>
+        <Y t="48">0.00807</Y>
+        <Y t="49">0.00825</Y>
+        <Y t="50">0.00846</Y>
+        <Y t="51">0.00871</Y>
+        <Y t="52">0.00899</Y>
+        <Y t="53">0.00928</Y>
+        <Y t="54">0.00965</Y>
+        <Y t="55">0.01003</Y>
+        <Y t="56">0.01047</Y>
+        <Y t="57">0.01097</Y>
+        <Y t="58">0.01154</Y>
+        <Y t="59">0.01217</Y>
+        <Y t="60">0.01288</Y>
+        <Y t="61">0.01370</Y>
+        <Y t="62">0.01461</Y>
+        <Y t="63">0.01565</Y>
+        <Y t="64">0.01683</Y>
+        <Y t="65">0.01814</Y>
+        <Y t="66">0.01961</Y>
+        <Y t="67">0.02130</Y>
+        <Y t="68">0.02317</Y>
+        <Y t="69">0.02530</Y>
+        <Y t="70">0.02770</Y>
+        <Y t="71">0.03041</Y>
+        <Y t="72">0.03346</Y>
+        <Y t="73">0.03688</Y>
+        <Y t="74">0.04073</Y>
+        <Y t="75">0.04507</Y>
+        <Y t="76">0.04996</Y>
+        <Y t="77">0.05544</Y>
+        <Y t="78">0.06160</Y>
+        <Y t="79">0.06851</Y>
+        <Y t="80">0.07624</Y>
+        <Y t="81">0.08507</Y>
+        <Y t="82">0.09546</Y>
+        <Y t="83">0.10686</Y>
+        <Y t="84">0.11896</Y>
+        <Y t="85">0.13150</Y>
+        <Y t="86">0.14466</Y>
+        <Y t="87">0.15851</Y>
+        <Y t="88">0.17311</Y>
+        <Y t="89">0.18846</Y>
+        <Y t="90">0.20461</Y>
+        <Y t="91">0.22155</Y>
+        <Y t="92">0.23929</Y>
+        <Y t="93">0.25785</Y>
+        <Y t="94">0.27725</Y>
+        <Y t="95">0.29746</Y>
+        <Y t="96">0.31849</Y>
+        <Y t="97">0.34032</Y>
+        <Y t="98">0.36296</Y>
+        <Y t="99">0.38632</Y>
+        <Y t="100">0.41042</Y>
+        <Y t="101">0.43519</Y>
+        <Y t="102">0.46056</Y>
+        <Y t="103">0.48650</Y>
+        <Y t="104">0.51300</Y>
+        <Y t="105">0.54000</Y>
+        <Y t="106">0.56700</Y>
+        <Y t="107">0.59400</Y>
+        <Y t="108">0.62100</Y>
+        <Y t="109">0.64800</Y>
+        <Y t="110">0.67500</Y>
+        <Y t="111">0.70500</Y>
+        <Y t="112">0.74000</Y>
+        <Y t="113">0.79000</Y>
+        <Y t="114">0.85000</Y>
+        <Y t="115">0.92000</Y>
+        <Y t="116">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

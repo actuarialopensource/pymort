@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>213</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>John S. Brake and Choo Oi San</ProviderName>
+    <TableReference>S. W. Caffin, “Further Report on the Preparation of Graduated Mortality Rates for Insured Lives”, Committee For Mortality Studies of Assured Lives Singapore (1991). Accessed November, 2013 from:  http://www.actuaries.org.sg/?q=disknode/get/572/Further%2520Report%2520On%2520The%2520Preparation%2520Of%2520Graduated%2520Mortality%2520Rates%2520For%2520Insured%2520Lives%2520Singapore%25201983-1988.pdf&amp;download</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Singapore 1983/88 (F-ORD) Table</TableName>
+    <TableDescription>Singapore 1983-88 Ordinary Assureds Mortality Table – Females. Minimum Age: 10. Maximum Age: 99</TableDescription>
+    <Comments>Study Data:  Investigation based on experience of male and female lives separately issued in Singapore under Ordinary insurances (that is, whole life and endowment contracts with medical and non-medically underwritten business combined) during the five years ending December 31, 1988.  To eliminate the effect of selection, the graduated tables were prepared on experience of Ordinary policies which have been two or more years in force. Methodology:  Graduated mortality rates prepared using Spencer’s 21-Term Summation Formula. Formula applied separately for ages 10 to 21 and then from ages 21 to 99.  As there was inadequate data at ages below 21, reference to A1967/70 ultimate table was made. Data above age 54 was also scant and similar to the construction of the Singapore 1977/83 Ordinary tables, the rates were developed with reference to the A1967/70 ultimate table. A ratio of 75% of A1967/70 for males and 45% for females was proposed by the Insurance Commissioner of Singapore and adopted accordingly.  Data Transcription Errors: None. Data Certified: 11/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Singapore</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="65">Singapore</Nation>
+      <TableDescription>Singapore 1983-88 Ordinary Assureds Mortality Table – Females. Minimum Age: 10. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.00016</Y>
+        <Y t="11">0.00016</Y>
+        <Y t="12">0.00018</Y>
+        <Y t="13">0.00019</Y>
+        <Y t="14">0.00020</Y>
+        <Y t="15">0.00021</Y>
+        <Y t="16">0.00022</Y>
+        <Y t="17">0.00022</Y>
+        <Y t="18">0.00023</Y>
+        <Y t="19">0.00024</Y>
+        <Y t="20">0.00025</Y>
+        <Y t="21">0.00026</Y>
+        <Y t="22">0.00026</Y>
+        <Y t="23">0.00027</Y>
+        <Y t="24">0.00026</Y>
+        <Y t="25">0.00026</Y>
+        <Y t="26">0.00026</Y>
+        <Y t="27">0.00028</Y>
+        <Y t="28">0.00030</Y>
+        <Y t="29">0.00034</Y>
+        <Y t="30">0.00038</Y>
+        <Y t="31">0.00041</Y>
+        <Y t="32">0.00045</Y>
+        <Y t="33">0.00050</Y>
+        <Y t="34">0.00055</Y>
+        <Y t="35">0.00060</Y>
+        <Y t="36">0.00066</Y>
+        <Y t="37">0.00070</Y>
+        <Y t="38">0.00074</Y>
+        <Y t="39">0.00076</Y>
+        <Y t="40">0.00076</Y>
+        <Y t="41">0.00077</Y>
+        <Y t="42">0.00077</Y>
+        <Y t="43">0.00081</Y>
+        <Y t="44">0.00090</Y>
+        <Y t="45">0.00100</Y>
+        <Y t="46">0.00118</Y>
+        <Y t="47">0.00134</Y>
+        <Y t="48">0.00155</Y>
+        <Y t="49">0.00179</Y>
+        <Y t="50">0.00205</Y>
+        <Y t="51">0.00228</Y>
+        <Y t="52">0.00255</Y>
+        <Y t="53">0.00287</Y>
+        <Y t="54">0.00326</Y>
+        <Y t="55">0.00373</Y>
+        <Y t="56">0.00426</Y>
+        <Y t="57">0.00488</Y>
+        <Y t="58">0.00557</Y>
+        <Y t="59">0.00629</Y>
+        <Y t="60">0.00700</Y>
+        <Y t="61">0.00775</Y>
+        <Y t="62">0.00853</Y>
+        <Y t="63">0.00925</Y>
+        <Y t="64">0.01005</Y>
+        <Y t="65">0.01098</Y>
+        <Y t="66">0.01208</Y>
+        <Y t="67">0.01338</Y>
+        <Y t="68">0.01488</Y>
+        <Y t="69">0.01658</Y>
+        <Y t="70">0.01847</Y>
+        <Y t="71">0.02050</Y>
+        <Y t="72">0.02266</Y>
+        <Y t="73">0.02493</Y>
+        <Y t="74">0.02735</Y>
+        <Y t="75">0.02993</Y>
+        <Y t="76">0.03271</Y>
+        <Y t="77">0.03573</Y>
+        <Y t="78">0.03902</Y>
+        <Y t="79">0.04257</Y>
+        <Y t="80">0.04641</Y>
+        <Y t="81">0.05053</Y>
+        <Y t="82">0.05496</Y>
+        <Y t="83">0.05971</Y>
+        <Y t="84">0.06479</Y>
+        <Y t="85">0.07022</Y>
+        <Y t="86">0.07601</Y>
+        <Y t="87">0.08215</Y>
+        <Y t="88">0.08867</Y>
+        <Y t="89">0.09556</Y>
+        <Y t="90">0.10283</Y>
+        <Y t="91">0.11046</Y>
+        <Y t="92">0.11844</Y>
+        <Y t="93">0.12675</Y>
+        <Y t="94">0.13539</Y>
+        <Y t="95">0.14434</Y>
+        <Y t="96">0.15362</Y>
+        <Y t="97">0.16328</Y>
+        <Y t="98">0.17340</Y>
+        <Y t="99">0.18408</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

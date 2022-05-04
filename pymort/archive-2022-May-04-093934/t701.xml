@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>701</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Committee on Disability and Double Indemnity, “Experience Under Accidental Death Benefit Provisions in Ordinary Insurance Policies Between 1951 and 1956 Policy Anniversaries”, Transactions of the Society of Actuaries, 1958 Reports (1958) Accessed: July, 2013 from http://www.soa.org/library/research/transactions-reports-of-mortality-moribidity-and-experience/1949-59/1958/january/tsr583.aspx</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>1951-56 ADB Experience,</TableName>
+    <TableDescription>1951-56 Accidental Death Benefit (ADB) Experience. Minimum Age: 1. Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Committee on Disability and Double Indemnity intercompany study of data from 17 companies. The basic material for the study was derived from the issues of 1935 to 1940 and 1946 to 1955. The intervening issue years were omitted because of the distorting effect that the unusually high proportion of insurance issued to women during those war years would have had. Supplementary data for years of issue prior to 1935 were obtained from five of the larger companies which issued lifetime benefits in those years and were therefore in a position to furnish data pertaining to the higher attained ages of coverage. Clauses automatically incorporated in life insurance policies were excluded from the data. Several companies were not able to exclude substandard clauses, and in the case of such companies, when the claims on substandard clauses did not exceed 5% of the company's total claims, the contribution was included without adjustment. When the proportion was in excess of 5%, as was true for five companies, the claims on substandard clauses were reduced by applying a factor equal to the reciprocal of the rating. The Korean War was being waged from the beginning of this observation period until July 1953, but this was not deemed to invalidate the significance of the findings because companies generally excluded accidental deaths as a result of service in the military forces of a country at war. Some increase of the double indemnity claims might be expected because training accidents were covered by about half of the companies. In general, however, war deaths were not considered to have a material effect on the level of claims incurred (12 of the 17 companies excluded coverage when the death was in the Korean area). Methodology: Aggregate data for both sexes and all policy durations were used. The first phase of the graduation process was the development of graduated values for each attained age 20 through 82 by application of the Whittaker-Henderson third difference A formula with a = 3. The formula was not applied at ages below 20, to avoid flattening out the hump in the accidental death rates that occurs around age 18, nor was it applied at ages over 82, since each of these ages involved less than 25 claims.A graphic technique was then employed to produce rates for ages 1 to 38, and the Whittaker-Henderson values at ages 20 through 38 were replaced by the graphic values because of the somewhat better fit of the latter rates to the observed experience. For ages 14 through 38 the graphic graduation was developed with reference to the crude values. Since there were fewer than 25 deaths at each age below 14, the graphic graduation for these ages was developed with reference to percentages of population accidental death rates for white lives for the years 1952 through 1955. The percentages used were 100%. for ages 1 to 4, 95%, for ages 5 to 9, and 85% for ages 10 to 14. Further, one-half of the homicides and all the suicides were excluded from the population rates so that those rates would be more consistent with insurance company data. The graduated values were extended to age 100 by fitting a third degree curve to the graduated rates at ages 80, 81 and 82 and a rate of 15 per thousand at age 100. The latter rate was arrived at by inspection of population accidental death rates for the years 1952 through 1955. The Committee emphasized that the graduated claim rates were produced for analysis purposes only, and not as a table deemed suitable for premium or valuation purposes. Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1951-56 Accidental Death Benefit (ADB) Experience. Minimum Age: 1. Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000424</Y>
+        <Y t="2">0.000347</Y>
+        <Y t="3">0.000298</Y>
+        <Y t="4">0.000264</Y>
+        <Y t="5">0.000239</Y>
+        <Y t="6">0.000220</Y>
+        <Y t="7">0.000207</Y>
+        <Y t="8">0.000202</Y>
+        <Y t="9">0.000198</Y>
+        <Y t="10">0.000203</Y>
+        <Y t="11">0.000212</Y>
+        <Y t="12">0.000230</Y>
+        <Y t="13">0.000260</Y>
+        <Y t="14">0.000301</Y>
+        <Y t="15">0.000366</Y>
+        <Y t="16">0.000490</Y>
+        <Y t="17">0.000556</Y>
+        <Y t="18">0.000578</Y>
+        <Y t="19">0.000583</Y>
+        <Y t="20">0.000575</Y>
+        <Y t="21">0.000554</Y>
+        <Y t="22">0.000519</Y>
+        <Y t="23">0.000471</Y>
+        <Y t="24">0.000420</Y>
+        <Y t="25">0.000377</Y>
+        <Y t="26">0.000345</Y>
+        <Y t="27">0.000324</Y>
+        <Y t="28">0.000309</Y>
+        <Y t="29">0.000300</Y>
+        <Y t="30">0.000294</Y>
+        <Y t="31">0.000290</Y>
+        <Y t="32">0.000287</Y>
+        <Y t="33">0.000286</Y>
+        <Y t="34">0.000286</Y>
+        <Y t="35">0.000286</Y>
+        <Y t="36">0.000287</Y>
+        <Y t="37">0.000289</Y>
+        <Y t="38">0.000291</Y>
+        <Y t="39">0.000293</Y>
+        <Y t="40">0.000295</Y>
+        <Y t="41">0.000299</Y>
+        <Y t="42">0.000305</Y>
+        <Y t="43">0.000313</Y>
+        <Y t="44">0.000322</Y>
+        <Y t="45">0.000331</Y>
+        <Y t="46">0.000339</Y>
+        <Y t="47">0.000346</Y>
+        <Y t="48">0.000351</Y>
+        <Y t="49">0.000355</Y>
+        <Y t="50">0.000358</Y>
+        <Y t="51">0.000362</Y>
+        <Y t="52">0.000367</Y>
+        <Y t="53">0.000374</Y>
+        <Y t="54">0.000383</Y>
+        <Y t="55">0.000395</Y>
+        <Y t="56">0.000409</Y>
+        <Y t="57">0.000425</Y>
+        <Y t="58">0.000442</Y>
+        <Y t="59">0.000460</Y>
+        <Y t="60">0.000480</Y>
+        <Y t="61">0.000502</Y>
+        <Y t="62">0.000528</Y>
+        <Y t="63">0.000557</Y>
+        <Y t="64">0.000589</Y>
+        <Y t="65">0.000622</Y>
+        <Y t="66">0.000656</Y>
+        <Y t="67">0.000692</Y>
+        <Y t="68">0.000730</Y>
+        <Y t="69">0.000771</Y>
+        <Y t="70">0.000819</Y>
+        <Y t="71">0.000878</Y>
+        <Y t="72">0.000952</Y>
+        <Y t="73">0.001046</Y>
+        <Y t="74">0.001166</Y>
+        <Y t="75">0.001315</Y>
+        <Y t="76">0.001494</Y>
+        <Y t="77">0.001703</Y>
+        <Y t="78">0.001943</Y>
+        <Y t="79">0.002216</Y>
+        <Y t="80">0.002521</Y>
+        <Y t="81">0.002852</Y>
+        <Y t="82">0.003206</Y>
+        <Y t="83">0.003584</Y>
+        <Y t="84">0.003988</Y>
+        <Y t="85">0.004419</Y>
+        <Y t="86">0.004878</Y>
+        <Y t="87">0.005367</Y>
+        <Y t="88">0.005886</Y>
+        <Y t="89">0.006437</Y>
+        <Y t="90">0.007022</Y>
+        <Y t="91">0.007642</Y>
+        <Y t="92">0.008298</Y>
+        <Y t="93">0.008991</Y>
+        <Y t="94">0.009723</Y>
+        <Y t="95">0.010495</Y>
+        <Y t="96">0.011308</Y>
+        <Y t="97">0.012164</Y>
+        <Y t="98">0.013064</Y>
+        <Y t="99">0.014009</Y>
+        <Y t="100">0.015000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

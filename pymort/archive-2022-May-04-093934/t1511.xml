@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1511</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>The Society of Actuaries’ Retirement Plans Experience Committee, “Mortality Improvement Scale BB Report”, Society of Actuaries, (Chicago, 2012) p. 28. Accessed: 09/2012 from https://www.soa.org/resources/experience-studies/2012/research-mortality-improve-bb/ p. 28</TableReference>
+    <ContentType tc="22">Projection Scale</ContentType>
+    <TableName>Interim Mortality Improvement Scale BB - Male</TableName>
+    <TableDescription>Interim Mortality Improvement Scale BB - Male. Minimum Age: 20. Maximum Age: 120.</TableDescription>
+    <Comments>Study Data: In 2010 it was noted that mortality improvement experience in the U. S. since 2000 differed from that anticipated by Scale AA (SOA Table Identities 923 and 924).  Three sources provided data that Retirement Plans Experience Committee (RPEC) considered large enough and consistent enough to develop US mortality improvement trends: (1) The Social Security Administration (SSA) provided tables of gender-specific US general population mortality rates for all ages and for all calendar years from 1900 through 2007 (2) The Office of Personnel Management (OPM) provided data covering 1984 through 2009 for retirees covered by the Civil Service Retirement System (CSRS) and Federal Employees Retirement System (FERS), and (3) The California Public Employee Retirement System (CalPERS) provided data on active and retired participants covering the period 1997 through 2007. Although an “interim” table, Scale BB may be used by pension actuaries until work on a formal successor to Scale AA is complete. Methodology:  There were two major phases in the development of Scale BB: (1) the creation of “transitional” two-dimensional arrays of future mortality improvement rates(See SOA Table Identities 1608 and 1609); and (2) the conversion of those two-dimensional rates into gender-specific, age-only rates. The Society of Actuaries’ publication is very detailed with respect to the construction techniques employed and should be consulted for further methodology details. Data Transcription Errors: None. Data Certified: 01/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Projection Scale</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Interim Mortality Improvement Scale BB - Male. Minimum Age: 20. Maximum Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.003</Y>
+        <Y t="21">0.003</Y>
+        <Y t="22">0.003</Y>
+        <Y t="23">0.003</Y>
+        <Y t="24">0.003</Y>
+        <Y t="25">0.003</Y>
+        <Y t="26">0.003</Y>
+        <Y t="27">0.003</Y>
+        <Y t="28">0.003</Y>
+        <Y t="29">0.003</Y>
+        <Y t="30">0.003</Y>
+        <Y t="31">0.003</Y>
+        <Y t="32">0.003</Y>
+        <Y t="33">0.003</Y>
+        <Y t="34">0.003</Y>
+        <Y t="35">0.003</Y>
+        <Y t="36">0.003</Y>
+        <Y t="37">0.003</Y>
+        <Y t="38">0.003</Y>
+        <Y t="39">0.003</Y>
+        <Y t="40">0.003</Y>
+        <Y t="41">0.003</Y>
+        <Y t="42">0.003</Y>
+        <Y t="43">0.003</Y>
+        <Y t="44">0.003</Y>
+        <Y t="45">0.003</Y>
+        <Y t="46">0.003</Y>
+        <Y t="47">0.003</Y>
+        <Y t="48">0.003</Y>
+        <Y t="49">0.003</Y>
+        <Y t="50">0.003</Y>
+        <Y t="51">0.003</Y>
+        <Y t="52">0.003</Y>
+        <Y t="53">0.003</Y>
+        <Y t="54">0.003</Y>
+        <Y t="55">0.003</Y>
+        <Y t="56">0.003</Y>
+        <Y t="57">0.004</Y>
+        <Y t="58">0.005</Y>
+        <Y t="59">0.006</Y>
+        <Y t="60">0.007</Y>
+        <Y t="61">0.008</Y>
+        <Y t="62">0.009</Y>
+        <Y t="63">0.01</Y>
+        <Y t="64">0.011</Y>
+        <Y t="65">0.012</Y>
+        <Y t="66">0.013</Y>
+        <Y t="67">0.014</Y>
+        <Y t="68">0.015</Y>
+        <Y t="69">0.015</Y>
+        <Y t="70">0.015</Y>
+        <Y t="71">0.015</Y>
+        <Y t="72">0.015</Y>
+        <Y t="73">0.015</Y>
+        <Y t="74">0.015</Y>
+        <Y t="75">0.015</Y>
+        <Y t="76">0.015</Y>
+        <Y t="77">0.015</Y>
+        <Y t="78">0.015</Y>
+        <Y t="79">0.015</Y>
+        <Y t="80">0.015</Y>
+        <Y t="81">0.015</Y>
+        <Y t="82">0.015</Y>
+        <Y t="83">0.015</Y>
+        <Y t="84">0.015</Y>
+        <Y t="85">0.015</Y>
+        <Y t="86">0.015</Y>
+        <Y t="87">0.014</Y>
+        <Y t="88">0.013</Y>
+        <Y t="89">0.012</Y>
+        <Y t="90">0.011</Y>
+        <Y t="91">0.01</Y>
+        <Y t="92">0.009</Y>
+        <Y t="93">0.008</Y>
+        <Y t="94">0.007</Y>
+        <Y t="95">0.006</Y>
+        <Y t="96">0.005</Y>
+        <Y t="97">0.004</Y>
+        <Y t="98">0.004</Y>
+        <Y t="99">0.003</Y>
+        <Y t="100">0.003</Y>
+        <Y t="101">0.002</Y>
+        <Y t="102">0.002</Y>
+        <Y t="103">0.001</Y>
+        <Y t="104">0.001</Y>
+        <Y t="105">0</Y>
+        <Y t="106">0</Y>
+        <Y t="107">0</Y>
+        <Y t="108">0</Y>
+        <Y t="109">0</Y>
+        <Y t="110">0</Y>
+        <Y t="111">0</Y>
+        <Y t="112">0</Y>
+        <Y t="113">0</Y>
+        <Y t="114">0</Y>
+        <Y t="115">0</Y>
+        <Y t="116">0</Y>
+        <Y t="117">0</Y>
+        <Y t="118">0</Y>
+        <Y t="119">0</Y>
+        <Y t="120">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

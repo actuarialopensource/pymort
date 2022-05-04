@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2832</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Levi W. Meech, “System and Tables of Insurance; A Treatise Developed from the Experience and Records of Thirty American Life Offices, Under the Direction of a Committee of Actuaries”, The Spectator Company (New York, 1898) Table XXVI. Accessed: June, 2014 from https://archive.org/stream/cu31924030201077#page/n311/mode/2up/search/%22male+life+table%22</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Meech’s Table -Males</TableName>
+    <TableDescription>Meech’s Table (also known as “30 Offices Table”) - Males. Minimum Age: 10. Maximum Age: 99.</TableDescription>
+    <Comments>Study Data: Constructed from data covering 30 years from data furnished by 30 American offices. Unlike it’s contemporary British Table, H^M(5) that omitted the first 4.5 years of data for selection, such was not done with this table as the data suggested a fixed period of selection was not applicable. Also breaking with the English method of using lives, amounts, that is, taking dollars as lives, has been implemented. Data cards were separated by gender. Methodology: Values for ages 10 to 90 years were calculated by the well-known law of Makeham. The data conformed exceptionally well to a Makeham’s Law of Mortality. This fact is attributed to the observations being first, far more numerous than any previous collection of insurance statistics and second, the observations were nearly homogenous. Furthermore, the data seems essentially free from the misstatements of age adjacent to 30, 35, 40, 45, … a common source of error in population tables. Data Transcription Errors: None. Data Certified: 06/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>Meech’s Table (also known as “30 Offices Table”) - Males. Minimum Age: 10. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.006479</Y>
+        <Y t="11">0.006502</Y>
+        <Y t="12">0.006516</Y>
+        <Y t="13">0.006536</Y>
+        <Y t="14">0.006568</Y>
+        <Y t="15">0.006593</Y>
+        <Y t="16">0.006614</Y>
+        <Y t="17">0.006648</Y>
+        <Y t="18">0.006683</Y>
+        <Y t="19">0.006717</Y>
+        <Y t="20">0.006763</Y>
+        <Y t="21">0.006808</Y>
+        <Y t="22">0.006856</Y>
+        <Y t="23">0.006911</Y>
+        <Y t="24">0.006973</Y>
+        <Y t="25">0.007032</Y>
+        <Y t="26">0.007115</Y>
+        <Y t="27">0.007190</Y>
+        <Y t="28">0.007275</Y>
+        <Y t="29">0.007385</Y>
+        <Y t="30">0.007485</Y>
+        <Y t="31">0.007602</Y>
+        <Y t="32">0.007727</Y>
+        <Y t="33">0.007871</Y>
+        <Y t="34">0.008027</Y>
+        <Y t="35">0.008212</Y>
+        <Y t="36">0.008390</Y>
+        <Y t="37">0.008591</Y>
+        <Y t="38">0.008826</Y>
+        <Y t="39">0.009077</Y>
+        <Y t="40">0.009360</Y>
+        <Y t="41">0.009647</Y>
+        <Y t="42">0.009998</Y>
+        <Y t="43">0.010351</Y>
+        <Y t="44">0.010761</Y>
+        <Y t="45">0.011203</Y>
+        <Y t="46">0.011688</Y>
+        <Y t="47">0.012227</Y>
+        <Y t="48">0.012814</Y>
+        <Y t="49">0.013459</Y>
+        <Y t="50">0.014175</Y>
+        <Y t="51">0.014955</Y>
+        <Y t="52">0.015814</Y>
+        <Y t="53">0.016752</Y>
+        <Y t="54">0.017779</Y>
+        <Y t="55">0.018930</Y>
+        <Y t="56">0.020172</Y>
+        <Y t="57">0.021560</Y>
+        <Y t="58">0.023060</Y>
+        <Y t="59">0.024707</Y>
+        <Y t="60">0.026527</Y>
+        <Y t="61">0.028529</Y>
+        <Y t="62">0.030700</Y>
+        <Y t="63">0.033108</Y>
+        <Y t="64">0.035740</Y>
+        <Y t="65">0.038640</Y>
+        <Y t="66">0.041780</Y>
+        <Y t="67">0.045282</Y>
+        <Y t="68">0.049043</Y>
+        <Y t="69">0.053242</Y>
+        <Y t="70">0.057778</Y>
+        <Y t="71">0.062775</Y>
+        <Y t="72">0.068216</Y>
+        <Y t="73">0.074149</Y>
+        <Y t="74">0.080709</Y>
+        <Y t="75">0.087792</Y>
+        <Y t="76">0.095503</Y>
+        <Y t="77">0.103996</Y>
+        <Y t="78">0.113181</Y>
+        <Y t="79">0.123185</Y>
+        <Y t="80">0.134068</Y>
+        <Y t="81">0.145833</Y>
+        <Y t="82">0.158704</Y>
+        <Y t="83">0.172458</Y>
+        <Y t="84">0.187523</Y>
+        <Y t="85">0.203633</Y>
+        <Y t="86">0.220841</Y>
+        <Y t="87">0.239885</Y>
+        <Y t="88">0.259550</Y>
+        <Y t="89">0.292600</Y>
+        <Y t="90">0.328154</Y>
+        <Y t="91">0.358541</Y>
+        <Y t="92">0.389736</Y>
+        <Y t="93">0.425000</Y>
+        <Y t="94">0.462451</Y>
+        <Y t="95">0.500000</Y>
+        <Y t="96">0.558824</Y>
+        <Y t="97">0.600000</Y>
+        <Y t="98">0.666666</Y>
+        <Y t="99">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

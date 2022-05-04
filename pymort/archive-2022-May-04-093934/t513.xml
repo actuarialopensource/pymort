@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XTbML>
+	<ContentClassification>
+		<TableIdentity>513</TableIdentity>
+		<ProviderDomain>soa.org</ProviderDomain>
+		<ProviderName>Roger Scott Lumsden</ProviderName>
+		<TableReference>U.S. Department of Health Education and Welfare, “United States Life Tables: 1969-71” Public Health Service Publication No. (HRA) 75-1150 – Vol. I, No. 1, (1975) Table 5. Accessed: May, 2013 from http://www.cdc.gov/nchs/data/lifetables/life69_1_1.pdf AND U.S. Department of Health, Education, and Welfare, “Methodology of the National, Regional, and State Life Tables for the United States: 1969-71”, Public Health Service Publication No. (HRA) 75-1150 – Vol. I, No. 3 (1975), National Center for Health Statistics Accessed: May, 2013 from http://www.cdc.gov/nchs/data/lifetables/life69_1_3.pdf</TableReference>
+		<ContentType tc="84">Population Mortality</ContentType>
+		<TableName>US Life Tables 1969-71 – White Males, ANB</TableName>
+		<TableDescription>United States (U.S.) Life Tables 1969-71 – White Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+		<Comments>Study Data: Unlike a generation life table, a current life table considers a hypothetical cohort and assumes that it is subject throughout its existence to the age- specific mortality rates observed for an actual population during a particular period of relatively short duration (often 1 to 3 years). With the exception of those for ages 95 and over (and to a lesser extent those for ages 85-94), these mortality rates have been calculated from the data of the 1970 Census of Population and deaths occurring in the United States in the 3 years 1969-71. In deriving life-table values at ages under 2, reported births for each of the years 1967 to 1971 have also been used. Mortality rates at ages 95 and over, where the data from the census and from registered deaths are scanty and- unreliable, are based on the experience of the Medicare program (provided by the Office of the Actuary of the Social Security Administration). Methodology: Special formulas employed for ages under 2 and then ages 2 through 4. Uniform distribution of deaths assumed in both formulas. At ages 5 through 95, individual age rates derived by interpolation performed on the quinquennial l(x) values using interpolation coefficients developed by H. S. Beers. The smoothness inherent in the Beers coefficients insures that l(4) and l(5) will form a smooth progression with l(6) and succeeding values. The coefficients were also designed to secure equality of 5-year central death rates in the life table and in the actual population. At ages 85-94 the mortality rates obtained from the census data were blended with those derived from experience of the Medicare program. Mortality rates at ages 95 and over were based exclusively on experience of the Medicare program. The crude rates from age 66 to 102, inclusive, were then graduated by a Whittaker-Henderson Type B formula. It was considered desirable to have the graduated rates smoothly approach 1, while never reaching 1. Accordingly the graduated rates at certain of the oldest ages were rejected and replaced by rates obtained by extrapolation. As the underlying data were available in such a form that the mortality rate heretofore referred to as q(x) was in reality q(x - ½2) interpolation was performed to get the correct rates for integral ages from 85 to 109. Values of qx were available for ages 2 and above but not for ages under 2. Accordingly q(0) and q(1) were calculated by the formulas q(0) = 1 – l(1)/l(0) and q(1) = 1 - l(2)/l(1). Data Transcription Errors Detected: 05/2013. Data Corrected and Certified: 05/2013</Comments>
+		<KeyWord>Aggregate</KeyWord>
+		<KeyWord>Population</KeyWord>
+		<KeyWord>United States of America</KeyWord>
+	</ContentClassification>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>United States (U.S.) Life Tables 1969-71 – White Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>0</MinScaleValue>
+				<MaxScaleValue>109</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis>
+				<Y t="0">0.02006</Y><Y t="1">0.00116</Y><Y t="2">0.00083</Y><Y t="3">0.00072</Y><Y t="4">0.00059</Y><Y t="5">0.00054</Y><Y t="6">0.00051</Y><Y t="7">0.00048</Y><Y t="8">0.00044</Y><Y t="9">0.00039</Y><Y t="10">0.00034</Y><Y t="11">0.00032</Y><Y t="12">0.00039</Y><Y t="13">0.00055</Y><Y t="14">0.00080</Y><Y t="15">0.00107</Y><Y t="16">0.00134</Y><Y t="17">0.00156</Y><Y t="18">0.00172</Y><Y t="19">0.00181</Y><Y t="20">0.00190</Y><Y t="21">0.00201</Y><Y t="22">0.00205</Y><Y t="23">0.00203</Y><Y t="24">0.00195</Y><Y t="25">0.00184</Y><Y t="26">0.00173</Y><Y t="27">0.00165</Y><Y t="28">0.00162</Y><Y t="29">0.00165</Y><Y t="30">0.00170</Y><Y t="31">0.00176</Y><Y t="32">0.00183</Y><Y t="33">0.00192</Y><Y t="34">0.00203</Y><Y t="35">0.00217</Y><Y t="36">0.00235</Y><Y t="37">0.00256</Y><Y t="38">0.00281</Y><Y t="39">0.00310</Y><Y t="40">0.00340</Y><Y t="41">0.00372</Y><Y t="42">0.00409</Y><Y t="43">0.00452</Y><Y t="44">0.00501</Y><Y t="45">0.00555</Y><Y t="46">0.00612</Y><Y t="47">0.00673</Y><Y t="48">0.00739</Y><Y t="49">0.00812</Y><Y t="50">0.00892</Y><Y t="51">0.00980</Y><Y t="52">0.01081</Y><Y t="53">0.01194</Y><Y t="54">0.01318</Y><Y t="55">0.01452</Y><Y t="56">0.01594</Y><Y t="57">0.01745</Y><Y t="58">0.01906</Y><Y t="59">0.02077</Y><Y t="60">0.02258</Y><Y t="61">0.02451</Y><Y t="62">0.02657</Y><Y t="63">0.02879</Y><Y t="64">0.03120</Y><Y t="65">0.03386</Y><Y t="66">0.03674</Y><Y t="67">0.03977</Y><Y t="68">0.04284</Y><Y t="69">0.04597</Y><Y t="70">0.04916</Y><Y t="71">0.05262</Y><Y t="72">0.05655</Y><Y t="73">0.06118</Y><Y t="74">0.06647</Y><Y t="75">0.07231</Y><Y t="76">0.07843</Y><Y t="77">0.08472</Y><Y t="78">0.09103</Y><Y t="79">0.09749</Y><Y t="80">0.10466</Y><Y t="81">0.11273</Y><Y t="82">0.12127</Y><Y t="83">0.13012</Y><Y t="84">0.13942</Y><Y t="85">0.15033</Y><Y t="86">0.16321</Y><Y t="87">0.17666</Y><Y t="88">0.18947</Y><Y t="89">0.20145</Y><Y t="90">0.21344</Y><Y t="91">0.22684</Y><Y t="92">0.24152</Y><Y t="93">0.25767</Y><Y t="94">0.27426</Y><Y t="95">0.29014</Y><Y t="96">0.30431</Y><Y t="97">0.31784</Y><Y t="98">0.33085</Y><Y t="99">0.34324</Y><Y t="100">0.35479</Y><Y t="101">0.36553</Y><Y t="102">0.37550</Y><Y t="103">0.38471</Y><Y t="104">0.39320</Y><Y t="105">0.40101</Y><Y t="106">0.40818</Y><Y t="107">0.41475</Y><Y t="108">0.42075</Y><Y t="109">0.42624</Y>
+			</Axis>
+		</Values>
+	</Table>
+</XTbML>

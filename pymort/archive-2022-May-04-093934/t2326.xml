@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2326</TableIdentity>
+    <ProviderDomain>www.actuaries.org.uk</ProviderDomain>
+    <ProviderName>Continuous Mortality Investigation</ProviderName>
+    <TableReference>Continuous Mortality Investigation, “Continuous Mortality Investigation Reports Number 23”, Institute of Actuaries and Faculty of Actuaries (2009). Accessed: September, 2013 from http://www.actuaries.org.uk/research-and-resources/pages/00-series-mortality-tables-assured-lives-annuitants-and-pensioners</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>TMS00</TableName>
+    <TableDescription>Temporary Assurances – Male Smokers (TMS00) Basis: Age Exact. Minimum Select Age: 17. Maximum Select Age: 90. Minimum Ultimate Age: 22. Maximum Ultimate Age: 120.</TableDescription>
+    <Comments>Study Data: Based on 1999-2002 life office experience known as the “00” Series. The “00” Series tables were exposed to the profession in a consultation process via a series of Working Papers and public meetings. Data are collected separately for permanent (whole life and endowment) assurances and temporary assurances. Two-year select rates for the Permanents and five-year select rates for the Temporaries were produced.  Methodology: As for both the 1979-1982 or “80” Series graduations and 1991-1994, or “92” Series graduations (See SOA Table Identities 261-264 and 2360-2377 respectively), the methodology employed in construction of the “00” Series was to use central exposed to risk, fit a formula of the μx = GM(r,s) class, and in the first place choose the parameters by maximum likelihood, taking account also of the usual diagnostic tests (numbers of positive and negative deviations, runs, Kolmogorov-Smirnov, serial correlations). In order to maintain sensible relationships between the different sections of the data it was also necessary to make some ad hoc adjustments to the resulting fitted rates, particularly at the extremes of age where there was very little data. Finally, values of q(x) were derived from the (adjusted as necessary) values of μ(x)  by using the formula: q(x) = 1 – e ^(- integral from 0 t- 1 of µ(x+t)) where the integral was approximated by the formula: [7µ(x) + 32(µ(x+ .25)) + 12(µ(x+ .5)) + 32(µ(x+ .75)) + 7(µ(x+ 1))] / 90 .  The age definition is age exact – not age last, age nearest, or age next. The rates for smokers and non-smokers were constrained to ensure the following relationship held at all ages, separately for males and females: µ(x)[smoker] &gt;= µ(x)[combined] &gt;= µ(x)[non-smoker]. A fourth order polynomial was used to graduate the select data to be consistent with the graduated ultimate rates. Data Transcription Errors: None. Data Certified: 09/2013.</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Temporary Assurances – Male Smokers (TMS00) Basis: Age Exact. Minimum Select Age: 17. Maximum Select Age: 90.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>90</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>5</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="17">
+        <Axis>
+          <Y t="1">0.000318</Y>
+          <Y t="2">0.000414</Y>
+          <Y t="3">0.000488</Y>
+          <Y t="4">0.000562</Y>
+          <Y t="5">0.000637</Y>
+        </Axis>
+      </Axis>
+      <Axis t="18">
+        <Axis>
+          <Y t="1">0.000319</Y>
+          <Y t="2">0.000416</Y>
+          <Y t="3">0.00049</Y>
+          <Y t="4">0.000564</Y>
+          <Y t="5">0.000641</Y>
+        </Axis>
+      </Axis>
+      <Axis t="19">
+        <Axis>
+          <Y t="1">0.00032</Y>
+          <Y t="2">0.000418</Y>
+          <Y t="3">0.000492</Y>
+          <Y t="4">0.000569</Y>
+          <Y t="5">0.000646</Y>
+        </Axis>
+      </Axis>
+      <Axis t="20">
+        <Axis>
+          <Y t="1">0.000322</Y>
+          <Y t="2">0.00042</Y>
+          <Y t="3">0.000496</Y>
+          <Y t="4">0.000573</Y>
+          <Y t="5">0.000652</Y>
+        </Axis>
+      </Axis>
+      <Axis t="21">
+        <Axis>
+          <Y t="1">0.000323</Y>
+          <Y t="2">0.000423</Y>
+          <Y t="3">0.000499</Y>
+          <Y t="4">0.000578</Y>
+          <Y t="5">0.000658</Y>
+        </Axis>
+      </Axis>
+      <Axis t="22">
+        <Axis>
+          <Y t="1">0.000325</Y>
+          <Y t="2">0.000426</Y>
+          <Y t="3">0.000503</Y>
+          <Y t="4">0.000583</Y>
+          <Y t="5">0.000666</Y>
+        </Axis>
+      </Axis>
+      <Axis t="23">
+        <Axis>
+          <Y t="1">0.000328</Y>
+          <Y t="2">0.000429</Y>
+          <Y t="3">0.000508</Y>
+          <Y t="4">0.000591</Y>
+          <Y t="5">0.000676</Y>
+        </Axis>
+      </Axis>
+      <Axis t="24">
+        <Axis>
+          <Y t="1">0.000331</Y>
+          <Y t="2">0.000434</Y>
+          <Y t="3">0.000515</Y>
+          <Y t="4">0.000599</Y>
+          <Y t="5">0.000687</Y>
+        </Axis>
+      </Axis>
+      <Axis t="25">
+        <Axis>
+          <Y t="1">0.000334</Y>
+          <Y t="2">0.000439</Y>
+          <Y t="3">0.000522</Y>
+          <Y t="4">0.000609</Y>
+          <Y t="5">0.000702</Y>
+        </Axis>
+      </Axis>
+      <Axis t="26">
+        <Axis>
+          <Y t="1">0.000338</Y>
+          <Y t="2">0.000445</Y>
+          <Y t="3">0.00053</Y>
+          <Y t="4">0.000622</Y>
+          <Y t="5">0.000721</Y>
+        </Axis>
+      </Axis>
+      <Axis t="27">
+        <Axis>
+          <Y t="1">0.000343</Y>
+          <Y t="2">0.000452</Y>
+          <Y t="3">0.000542</Y>
+          <Y t="4">0.000639</Y>
+          <Y t="5">0.000746</Y>
+        </Axis>
+      </Axis>
+      <Axis t="28">
+        <Axis>
+          <Y t="1">0.000348</Y>
+          <Y t="2">0.000463</Y>
+          <Y t="3">0.000558</Y>
+          <Y t="4">0.000663</Y>
+          <Y t="5">0.000778</Y>
+        </Axis>
+      </Axis>
+      <Axis t="29">
+        <Axis>
+          <Y t="1">0.000357</Y>
+          <Y t="2">0.000477</Y>
+          <Y t="3">0.000579</Y>
+          <Y t="4">0.000692</Y>
+          <Y t="5">0.000815</Y>
+        </Axis>
+      </Axis>
+      <Axis t="30">
+        <Axis>
+          <Y t="1">0.000368</Y>
+          <Y t="2">0.000496</Y>
+          <Y t="3">0.000606</Y>
+          <Y t="4">0.000726</Y>
+          <Y t="5">0.000856</Y>
+        </Axis>
+      </Axis>
+      <Axis t="31">
+        <Axis>
+          <Y t="1">0.000385</Y>
+          <Y t="2">0.00052</Y>
+          <Y t="3">0.000637</Y>
+          <Y t="4">0.000764</Y>
+          <Y t="5">0.000903</Y>
+        </Axis>
+      </Axis>
+      <Axis t="32">
+        <Axis>
+          <Y t="1">0.000405</Y>
+          <Y t="2">0.000548</Y>
+          <Y t="3">0.000671</Y>
+          <Y t="4">0.000806</Y>
+          <Y t="5">0.000956</Y>
+        </Axis>
+      </Axis>
+      <Axis t="33">
+        <Axis>
+          <Y t="1">0.000429</Y>
+          <Y t="2">0.000579</Y>
+          <Y t="3">0.00071</Y>
+          <Y t="4">0.000855</Y>
+          <Y t="5">0.001014</Y>
+        </Axis>
+      </Axis>
+      <Axis t="34">
+        <Axis>
+          <Y t="1">0.000455</Y>
+          <Y t="2">0.000613</Y>
+          <Y t="3">0.000754</Y>
+          <Y t="4">0.00091</Y>
+          <Y t="5">0.00108</Y>
+        </Axis>
+      </Axis>
+      <Axis t="35">
+        <Axis>
+          <Y t="1">0.000485</Y>
+          <Y t="2">0.000652</Y>
+          <Y t="3">0.000803</Y>
+          <Y t="4">0.000973</Y>
+          <Y t="5">0.001154</Y>
+        </Axis>
+      </Axis>
+      <Axis t="36">
+        <Axis>
+          <Y t="1">0.000517</Y>
+          <Y t="2">0.000696</Y>
+          <Y t="3">0.000859</Y>
+          <Y t="4">0.001045</Y>
+          <Y t="5">0.001238</Y>
+        </Axis>
+      </Axis>
+      <Axis t="37">
+        <Axis>
+          <Y t="1">0.000554</Y>
+          <Y t="2">0.000746</Y>
+          <Y t="3">0.000924</Y>
+          <Y t="4">0.001126</Y>
+          <Y t="5">0.001336</Y>
+        </Axis>
+      </Axis>
+      <Axis t="38">
+        <Axis>
+          <Y t="1">0.000595</Y>
+          <Y t="2">0.000802</Y>
+          <Y t="3">0.000996</Y>
+          <Y t="4">0.00122</Y>
+          <Y t="5">0.001449</Y>
+        </Axis>
+      </Axis>
+      <Axis t="39">
+        <Axis>
+          <Y t="1">0.000641</Y>
+          <Y t="2">0.000866</Y>
+          <Y t="3">0.00108</Y>
+          <Y t="4">0.001327</Y>
+          <Y t="5">0.001581</Y>
+        </Axis>
+      </Axis>
+      <Axis t="40">
+        <Axis>
+          <Y t="1">0.000693</Y>
+          <Y t="2">0.00094</Y>
+          <Y t="3">0.001175</Y>
+          <Y t="4">0.00145</Y>
+          <Y t="5">0.001732</Y>
+        </Axis>
+      </Axis>
+      <Axis t="41">
+        <Axis>
+          <Y t="1">0.000753</Y>
+          <Y t="2">0.001022</Y>
+          <Y t="3">0.001284</Y>
+          <Y t="4">0.001588</Y>
+          <Y t="5">0.001907</Y>
+        </Axis>
+      </Axis>
+      <Axis t="42">
+        <Axis>
+          <Y t="1">0.00082</Y>
+          <Y t="2">0.001118</Y>
+          <Y t="3">0.001407</Y>
+          <Y t="4">0.001747</Y>
+          <Y t="5">0.002109</Y>
+        </Axis>
+      </Axis>
+      <Axis t="43">
+        <Axis>
+          <Y t="1">0.000897</Y>
+          <Y t="2">0.001225</Y>
+          <Y t="3">0.001547</Y>
+          <Y t="4">0.001928</Y>
+          <Y t="5">0.00234</Y>
+        </Axis>
+      </Axis>
+      <Axis t="44">
+        <Axis>
+          <Y t="1">0.000983</Y>
+          <Y t="2">0.001347</Y>
+          <Y t="3">0.001707</Y>
+          <Y t="4">0.002133</Y>
+          <Y t="5">0.002605</Y>
+        </Axis>
+      </Axis>
+      <Axis t="45">
+        <Axis>
+          <Y t="1">0.00108</Y>
+          <Y t="2">0.001486</Y>
+          <Y t="3">0.001887</Y>
+          <Y t="4">0.002365</Y>
+          <Y t="5">0.002908</Y>
+        </Axis>
+      </Axis>
+      <Axis t="46">
+        <Axis>
+          <Y t="1">0.001191</Y>
+          <Y t="2">0.001642</Y>
+          <Y t="3">0.002091</Y>
+          <Y t="4">0.002627</Y>
+          <Y t="5">0.00325</Y>
+        </Axis>
+      </Axis>
+      <Axis t="47">
+        <Axis>
+          <Y t="1">0.001315</Y>
+          <Y t="2">0.001818</Y>
+          <Y t="3">0.002322</Y>
+          <Y t="4">0.002922</Y>
+          <Y t="5">0.003632</Y>
+        </Axis>
+      </Axis>
+      <Axis t="48">
+        <Axis>
+          <Y t="1">0.001454</Y>
+          <Y t="2">0.002016</Y>
+          <Y t="3">0.002581</Y>
+          <Y t="4">0.003255</Y>
+          <Y t="5">0.004056</Y>
+        </Axis>
+      </Axis>
+      <Axis t="49">
+        <Axis>
+          <Y t="1">0.00161</Y>
+          <Y t="2">0.002239</Y>
+          <Y t="3">0.002871</Y>
+          <Y t="4">0.003627</Y>
+          <Y t="5">0.004528</Y>
+        </Axis>
+      </Axis>
+      <Axis t="50">
+        <Axis>
+          <Y t="1">0.001784</Y>
+          <Y t="2">0.002488</Y>
+          <Y t="3">0.003196</Y>
+          <Y t="4">0.004043</Y>
+          <Y t="5">0.005053</Y>
+        </Axis>
+      </Axis>
+      <Axis t="51">
+        <Axis>
+          <Y t="1">0.001977</Y>
+          <Y t="2">0.002766</Y>
+          <Y t="3">0.003559</Y>
+          <Y t="4">0.004508</Y>
+          <Y t="5">0.00564</Y>
+        </Axis>
+      </Axis>
+      <Axis t="52">
+        <Axis>
+          <Y t="1">0.002192</Y>
+          <Y t="2">0.003074</Y>
+          <Y t="3">0.003962</Y>
+          <Y t="4">0.005026</Y>
+          <Y t="5">0.006293</Y>
+        </Axis>
+      </Axis>
+      <Axis t="53">
+        <Axis>
+          <Y t="1">0.002429</Y>
+          <Y t="2">0.003417</Y>
+          <Y t="3">0.004411</Y>
+          <Y t="4">0.005601</Y>
+          <Y t="5">0.007018</Y>
+        </Axis>
+      </Axis>
+      <Axis t="54">
+        <Axis>
+          <Y t="1">0.002691</Y>
+          <Y t="2">0.003797</Y>
+          <Y t="3">0.004908</Y>
+          <Y t="4">0.006237</Y>
+          <Y t="5">0.007822</Y>
+        </Axis>
+      </Axis>
+      <Axis t="55">
+        <Axis>
+          <Y t="1">0.002978</Y>
+          <Y t="2">0.004215</Y>
+          <Y t="3">0.005457</Y>
+          <Y t="4">0.006942</Y>
+          <Y t="5">0.008712</Y>
+        </Axis>
+      </Axis>
+      <Axis t="56">
+        <Axis>
+          <Y t="1">0.003293</Y>
+          <Y t="2">0.004676</Y>
+          <Y t="3">0.006062</Y>
+          <Y t="4">0.00772</Y>
+          <Y t="5">0.009693</Y>
+        </Axis>
+      </Axis>
+      <Axis t="57">
+        <Axis>
+          <Y t="1">0.003637</Y>
+          <Y t="2">0.005182</Y>
+          <Y t="3">0.006729</Y>
+          <Y t="4">0.008577</Y>
+          <Y t="5">0.010776</Y>
+        </Axis>
+      </Axis>
+      <Axis t="58">
+        <Axis>
+          <Y t="1">0.004011</Y>
+          <Y t="2">0.005737</Y>
+          <Y t="3">0.00746</Y>
+          <Y t="4">0.00952</Y>
+          <Y t="5">0.011969</Y>
+        </Axis>
+      </Axis>
+      <Axis t="59">
+        <Axis>
+          <Y t="1">0.004417</Y>
+          <Y t="2">0.006344</Y>
+          <Y t="3">0.008263</Y>
+          <Y t="4">0.010556</Y>
+          <Y t="5">0.01328</Y>
+        </Axis>
+      </Axis>
+      <Axis t="60">
+        <Axis>
+          <Y t="1">0.004857</Y>
+          <Y t="2">0.007006</Y>
+          <Y t="3">0.009143</Y>
+          <Y t="4">0.011692</Y>
+          <Y t="5">0.014721</Y>
+        </Axis>
+      </Axis>
+      <Axis t="61">
+        <Axis>
+          <Y t="1">0.005334</Y>
+          <Y t="2">0.00773</Y>
+          <Y t="3">0.010105</Y>
+          <Y t="4">0.012939</Y>
+          <Y t="5">0.016303</Y>
+        </Axis>
+      </Axis>
+      <Axis t="62">
+        <Axis>
+          <Y t="1">0.005848</Y>
+          <Y t="2">0.008517</Y>
+          <Y t="3">0.011157</Y>
+          <Y t="4">0.014306</Y>
+          <Y t="5">0.01804</Y>
+        </Axis>
+      </Axis>
+      <Axis t="63">
+        <Axis>
+          <Y t="1">0.006404</Y>
+          <Y t="2">0.009376</Y>
+          <Y t="3">0.012308</Y>
+          <Y t="4">0.015804</Y>
+          <Y t="5">0.019946</Y>
+        </Axis>
+      </Axis>
+      <Axis t="64">
+        <Axis>
+          <Y t="1">0.007004</Y>
+          <Y t="2">0.010311</Y>
+          <Y t="3">0.013567</Y>
+          <Y t="4">0.017445</Y>
+          <Y t="5">0.022038</Y>
+        </Axis>
+      </Axis>
+      <Axis t="65">
+        <Axis>
+          <Y t="1">0.007652</Y>
+          <Y t="2">0.01133</Y>
+          <Y t="3">0.014944</Y>
+          <Y t="4">0.019245</Y>
+          <Y t="5">0.024337</Y>
+        </Axis>
+      </Axis>
+      <Axis t="66">
+        <Axis>
+          <Y t="1">0.008353</Y>
+          <Y t="2">0.012443</Y>
+          <Y t="3">0.016452</Y>
+          <Y t="4">0.021222</Y>
+          <Y t="5">0.026862</Y>
+        </Axis>
+      </Axis>
+      <Axis t="67">
+        <Axis>
+          <Y t="1">0.009113</Y>
+          <Y t="2">0.01366</Y>
+          <Y t="3">0.018108</Y>
+          <Y t="4">0.023395</Y>
+          <Y t="5">0.029643</Y>
+        </Axis>
+      </Axis>
+      <Axis t="68">
+        <Axis>
+          <Y t="1">0.009942</Y>
+          <Y t="2">0.014993</Y>
+          <Y t="3">0.019927</Y>
+          <Y t="4">0.025787</Y>
+          <Y t="5">0.032707</Y>
+        </Axis>
+      </Axis>
+      <Axis t="69">
+        <Axis>
+          <Y t="1">0.010847</Y>
+          <Y t="2">0.016459</Y>
+          <Y t="3">0.021932</Y>
+          <Y t="4">0.028427</Y>
+          <Y t="5">0.03609</Y>
+        </Axis>
+      </Axis>
+      <Axis t="70">
+        <Axis>
+          <Y t="1">0.011843</Y>
+          <Y t="2">0.018077</Y>
+          <Y t="3">0.024148</Y>
+          <Y t="4">0.031347</Y>
+          <Y t="5">0.039831</Y>
+        </Axis>
+      </Axis>
+      <Axis t="71">
+        <Axis>
+          <Y t="1">0.012944</Y>
+          <Y t="2">0.019869</Y>
+          <Y t="3">0.026605</Y>
+          <Y t="4">0.034584</Y>
+          <Y t="5">0.043979</Y>
+        </Axis>
+      </Axis>
+      <Axis t="72">
+        <Axis>
+          <Y t="1">0.014172</Y>
+          <Y t="2">0.021863</Y>
+          <Y t="3">0.029338</Y>
+          <Y t="4">0.038184</Y>
+          <Y t="5">0.048585</Y>
+        </Axis>
+      </Axis>
+      <Axis t="73">
+        <Axis>
+          <Y t="1">0.015549</Y>
+          <Y t="2">0.024091</Y>
+          <Y t="3">0.032389</Y>
+          <Y t="4">0.042196</Y>
+          <Y t="5">0.053715</Y>
+        </Axis>
+      </Axis>
+      <Axis t="74">
+        <Axis>
+          <Y t="1">0.017106</Y>
+          <Y t="2">0.026594</Y>
+          <Y t="3">0.035807</Y>
+          <Y t="4">0.046683</Y>
+          <Y t="5">0.059437</Y>
+        </Axis>
+      </Axis>
+      <Axis t="75">
+        <Axis>
+          <Y t="1">0.01888</Y>
+          <Y t="2">0.029418</Y>
+          <Y t="3">0.039651</Y>
+          <Y t="4">0.051712</Y>
+          <Y t="5">0.065718</Y>
+        </Axis>
+      </Axis>
+      <Axis t="76">
+        <Axis>
+          <Y t="1">0.020913</Y>
+          <Y t="2">0.03262</Y>
+          <Y t="3">0.043987</Y>
+          <Y t="4">0.057247</Y>
+          <Y t="5">0.072457</Y>
+        </Axis>
+      </Axis>
+      <Axis t="77">
+        <Axis>
+          <Y t="1">0.023259</Y>
+          <Y t="2">0.036262</Y>
+          <Y t="3">0.048775</Y>
+          <Y t="4">0.063184</Y>
+          <Y t="5">0.079473</Y>
+        </Axis>
+      </Axis>
+      <Axis t="78">
+        <Axis>
+          <Y t="1">0.025978</Y>
+          <Y t="2">0.040304</Y>
+          <Y t="3">0.053912</Y>
+          <Y t="4">0.069342</Y>
+          <Y t="5">0.086782</Y>
+        </Axis>
+      </Axis>
+      <Axis t="79">
+        <Axis>
+          <Y t="1">0.029027</Y>
+          <Y t="2">0.044639</Y>
+          <Y t="3">0.059212</Y>
+          <Y t="4">0.075736</Y>
+          <Y t="5">0.094447</Y>
+        </Axis>
+      </Axis>
+      <Axis t="80">
+        <Axis>
+          <Y t="1">0.032296</Y>
+          <Y t="2">0.049082</Y>
+          <Y t="3">0.064689</Y>
+          <Y t="4">0.082425</Y>
+          <Y t="5">0.102588</Y>
+        </Axis>
+      </Axis>
+      <Axis t="81">
+        <Axis>
+          <Y t="1">0.035596</Y>
+          <Y t="2">0.053643</Y>
+          <Y t="3">0.070403</Y>
+          <Y t="4">0.08953</Y>
+          <Y t="5">0.111212</Y>
+        </Axis>
+      </Axis>
+      <Axis t="82">
+        <Axis>
+          <Y t="1">0.038938</Y>
+          <Y t="2">0.058381</Y>
+          <Y t="3">0.076472</Y>
+          <Y t="4">0.097056</Y>
+          <Y t="5">0.120321</Y>
+        </Axis>
+      </Axis>
+      <Axis t="83">
+        <Axis>
+          <Y t="1">0.042378</Y>
+          <Y t="2">0.063414</Y>
+          <Y t="3">0.0829</Y>
+          <Y t="4">0.105006</Y>
+          <Y t="5">0.129916</Y>
+        </Axis>
+      </Axis>
+      <Axis t="84">
+        <Axis>
+          <Y t="1">0.04603</Y>
+          <Y t="2">0.068744</Y>
+          <Y t="3">0.089691</Y>
+          <Y t="4">0.113379</Y>
+          <Y t="5">0.139992</Y>
+        </Axis>
+      </Axis>
+      <Axis t="85">
+        <Axis>
+          <Y t="1">0.0499</Y>
+          <Y t="2">0.074375</Y>
+          <Y t="3">0.096842</Y>
+          <Y t="4">0.122172</Y>
+          <Y t="5">0.150542</Y>
+        </Axis>
+      </Axis>
+      <Axis t="86">
+        <Axis>
+          <Y t="1">0.053987</Y>
+          <Y t="2">0.080306</Y>
+          <Y t="3">0.104353</Y>
+          <Y t="4">0.13138</Y>
+          <Y t="5">0.161558</Y>
+        </Axis>
+      </Axis>
+      <Axis t="87">
+        <Axis>
+          <Y t="1">0.058292</Y>
+          <Y t="2">0.086534</Y>
+          <Y t="3">0.112218</Y>
+          <Y t="4">0.140993</Y>
+          <Y t="5">0.173023</Y>
+        </Axis>
+      </Axis>
+      <Axis t="88">
+        <Axis>
+          <Y t="1">0.062813</Y>
+          <Y t="2">0.093056</Y>
+          <Y t="3">0.120429</Y>
+          <Y t="4">0.150999</Y>
+          <Y t="5">0.18492</Y>
+        </Axis>
+      </Axis>
+      <Axis t="89">
+        <Axis>
+          <Y t="1">0.067547</Y>
+          <Y t="2">0.099865</Y>
+          <Y t="3">0.128976</Y>
+          <Y t="4">0.161382</Y>
+          <Y t="5">0.197227</Y>
+        </Axis>
+      </Axis>
+      <Axis t="90">
+        <Axis>
+          <Y t="1">0.072489</Y>
+          <Y t="2">0.106952</Y>
+          <Y t="3">0.137844</Y>
+          <Y t="4">0.172123</Y>
+          <Y t="5">0.209919</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>Temporary Assurances – Male Smokers (TMS00) Basis: Age Exact. Minimum Ultimate Age: 22. Maximum Ultimate Age: 120.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>6</MinScaleValue>
+        <MaxScaleValue>6</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.000695</Y>
+        <Y t="23">0.0007</Y>
+        <Y t="24">0.000706</Y>
+        <Y t="25">0.000713</Y>
+        <Y t="26">0.000722</Y>
+        <Y t="27">0.000732</Y>
+        <Y t="28">0.000744</Y>
+        <Y t="29">0.000759</Y>
+        <Y t="30">0.000776</Y>
+        <Y t="31">0.000796</Y>
+        <Y t="32">0.00082</Y>
+        <Y t="33">0.000848</Y>
+        <Y t="34">0.000881</Y>
+        <Y t="35">0.00092</Y>
+        <Y t="36">0.000966</Y>
+        <Y t="37">0.001019</Y>
+        <Y t="38">0.001081</Y>
+        <Y t="39">0.001154</Y>
+        <Y t="40">0.001238</Y>
+        <Y t="41">0.001336</Y>
+        <Y t="42">0.001449</Y>
+        <Y t="43">0.001581</Y>
+        <Y t="44">0.001732</Y>
+        <Y t="45">0.001907</Y>
+        <Y t="46">0.002109</Y>
+        <Y t="47">0.00234</Y>
+        <Y t="48">0.002605</Y>
+        <Y t="49">0.002909</Y>
+        <Y t="50">0.003256</Y>
+        <Y t="51">0.003652</Y>
+        <Y t="52">0.004103</Y>
+        <Y t="53">0.004615</Y>
+        <Y t="54">0.005196</Y>
+        <Y t="55">0.005855</Y>
+        <Y t="56">0.006599</Y>
+        <Y t="57">0.007438</Y>
+        <Y t="58">0.008383</Y>
+        <Y t="59">0.009446</Y>
+        <Y t="60">0.010637</Y>
+        <Y t="61">0.011971</Y>
+        <Y t="62">0.013462</Y>
+        <Y t="63">0.015124</Y>
+        <Y t="64">0.016974</Y>
+        <Y t="65">0.019029</Y>
+        <Y t="66">0.021307</Y>
+        <Y t="67">0.023826</Y>
+        <Y t="68">0.026607</Y>
+        <Y t="69">0.02967</Y>
+        <Y t="70">0.033036</Y>
+        <Y t="71">0.036728</Y>
+        <Y t="72">0.040768</Y>
+        <Y t="73">0.045179</Y>
+        <Y t="74">0.049983</Y>
+        <Y t="75">0.055205</Y>
+        <Y t="76">0.060865</Y>
+        <Y t="77">0.066988</Y>
+        <Y t="78">0.073593</Y>
+        <Y t="79">0.080703</Y>
+        <Y t="80">0.088334</Y>
+        <Y t="81">0.096506</Y>
+        <Y t="82">0.105232</Y>
+        <Y t="83">0.114527</Y>
+        <Y t="84">0.124399</Y>
+        <Y t="85">0.134856</Y>
+        <Y t="86">0.145902</Y>
+        <Y t="87">0.157536</Y>
+        <Y t="88">0.169754</Y>
+        <Y t="89">0.182548</Y>
+        <Y t="90">0.195905</Y>
+        <Y t="91">0.209808</Y>
+        <Y t="92">0.224234</Y>
+        <Y t="93">0.239158</Y>
+        <Y t="94">0.254548</Y>
+        <Y t="95">0.270369</Y>
+        <Y t="96">0.28658</Y>
+        <Y t="97">0.303139</Y>
+        <Y t="98">0.319997</Y>
+        <Y t="99">0.337105</Y>
+        <Y t="100">0.357329</Y>
+        <Y t="101">0.379761</Y>
+        <Y t="102">0.401123</Y>
+        <Y t="103">0.421463</Y>
+        <Y t="104">0.44082</Y>
+        <Y t="105">0.459236</Y>
+        <Y t="106">0.476745</Y>
+        <Y t="107">0.493381</Y>
+        <Y t="108">0.509174</Y>
+        <Y t="109">0.52415</Y>
+        <Y t="110">0.538332</Y>
+        <Y t="111">0.551739</Y>
+        <Y t="112">0.564383</Y>
+        <Y t="113">0.576272</Y>
+        <Y t="114">0.587403</Y>
+        <Y t="115">0.597764</Y>
+        <Y t="116">0.607319</Y>
+        <Y t="117">0.616001</Y>
+        <Y t="118">0.623663</Y>
+        <Y t="119">0.629886</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

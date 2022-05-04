@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>41001</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Alan Fefferman and Dov Raphael</ProviderName>
+    <TableReference>Ministry of Finance - Capital Market, Insurance and Savings “Calculation of Reserves for Annuity, Life Insurance Products”, Insurance Circular, State of Israel (Jerusalem, 2002) Appendix B. Accessed: February, 2012 from http://ozar.mof.gov.il/hon/2001/insurance/memos/2002/5.doc</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>Table 1.A.4 - Male</TableName>
+    <TableDescription>Table 1.A.4 - Male. Minimum Age: 18. Maximum Age: 119</TableDescription>
+    <Comments>Study Data: Mortality experience of the pensioners (healthy and disabled lives combined) of three large pension plans. Table in use till about 2006 when superseded by an updated table. Methodology: Mortality rates were projected to the year 1999. The commissioner also requires that mortality improvement be reflected in future periods both before and after the age of retirement of the insured. Changes which must be considered in future periods, where t = 0 is defined as 1999, by formula. The publication listed in the table reference above should be consulted for formula details. Data Transcription Errors: None. Data Certified: 02/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>Israel</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="972">Israel</Nation>
+      <TableDescription>Table 1.A.4 - Male. Minimum Age: 18. Maximum Age: 119</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>119</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.00057</Y>
+        <Y t="19">0.00066</Y>
+        <Y t="20">0.00073</Y>
+        <Y t="21">0.00077</Y>
+        <Y t="22">0.00079</Y>
+        <Y t="23">0.00079</Y>
+        <Y t="24">0.00077</Y>
+        <Y t="25">0.00075</Y>
+        <Y t="26">0.00072</Y>
+        <Y t="27">0.00069</Y>
+        <Y t="28">0.00067</Y>
+        <Y t="29">0.00065</Y>
+        <Y t="30">0.00065</Y>
+        <Y t="31">0.00066</Y>
+        <Y t="32">0.00068</Y>
+        <Y t="33">0.00071</Y>
+        <Y t="34">0.00075</Y>
+        <Y t="35">0.00081</Y>
+        <Y t="36">0.00087</Y>
+        <Y t="37">0.00095</Y>
+        <Y t="38">0.00103</Y>
+        <Y t="39">0.00114</Y>
+        <Y t="40">0.00125</Y>
+        <Y t="41">0.00138</Y>
+        <Y t="42">0.00152</Y>
+        <Y t="43">0.00168</Y>
+        <Y t="44">0.00186</Y>
+        <Y t="45">0.00206</Y>
+        <Y t="46">0.00228</Y>
+        <Y t="47">0.00252</Y>
+        <Y t="48">0.00279</Y>
+        <Y t="49">0.00309</Y>
+        <Y t="50">0.00342</Y>
+        <Y t="51">0.00379</Y>
+        <Y t="52">0.00420</Y>
+        <Y t="53">0.00465</Y>
+        <Y t="54">0.00515</Y>
+        <Y t="55">0.00571</Y>
+        <Y t="56">0.00632</Y>
+        <Y t="57">0.00700</Y>
+        <Y t="58">0.00775</Y>
+        <Y t="59">0.00858</Y>
+        <Y t="60">0.00950</Y>
+        <Y t="61">0.01052</Y>
+        <Y t="62">0.01166</Y>
+        <Y t="63">0.01289</Y>
+        <Y t="64">0.01427</Y>
+        <Y t="65">0.01579</Y>
+        <Y t="66">0.01747</Y>
+        <Y t="67">0.01933</Y>
+        <Y t="68">0.02137</Y>
+        <Y t="69">0.02363</Y>
+        <Y t="70">0.02612</Y>
+        <Y t="71">0.02888</Y>
+        <Y t="72">0.03189</Y>
+        <Y t="73">0.03524</Y>
+        <Y t="74">0.03889</Y>
+        <Y t="75">0.04290</Y>
+        <Y t="76">0.04734</Y>
+        <Y t="77">0.05217</Y>
+        <Y t="78">0.05749</Y>
+        <Y t="79">0.06331</Y>
+        <Y t="80">0.06965</Y>
+        <Y t="81">0.07661</Y>
+        <Y t="82">0.08418</Y>
+        <Y t="83">0.09238</Y>
+        <Y t="84">0.10133</Y>
+        <Y t="85">0.11102</Y>
+        <Y t="86">0.12153</Y>
+        <Y t="87">0.13280</Y>
+        <Y t="88">0.14505</Y>
+        <Y t="89">0.15810</Y>
+        <Y t="90">0.17211</Y>
+        <Y t="91">0.18624</Y>
+        <Y t="92">0.20055</Y>
+        <Y t="93">0.21510</Y>
+        <Y t="94">0.22994</Y>
+        <Y t="95">0.24509</Y>
+        <Y t="96">0.26060</Y>
+        <Y t="97">0.27649</Y>
+        <Y t="98">0.29282</Y>
+        <Y t="99">0.30955</Y>
+        <Y t="100">0.32676</Y>
+        <Y t="101">0.34441</Y>
+        <Y t="102">0.36253</Y>
+        <Y t="103">0.38111</Y>
+        <Y t="104">0.40014</Y>
+        <Y t="105">0.41959</Y>
+        <Y t="106">0.43947</Y>
+        <Y t="107">0.45973</Y>
+        <Y t="108">0.48034</Y>
+        <Y t="109">0.50126</Y>
+        <Y t="110">0.52245</Y>
+        <Y t="111">0.54386</Y>
+        <Y t="112">0.56543</Y>
+        <Y t="113">0.58711</Y>
+        <Y t="114">0.60883</Y>
+        <Y t="115">0.63052</Y>
+        <Y t="116">0.65213</Y>
+        <Y t="117">0.67359</Y>
+        <Y t="118">0.69482</Y>
+        <Y t="119">0.71575</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

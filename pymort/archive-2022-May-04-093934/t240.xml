@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>240</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Warren Gratton</ProviderName>
+    <TableReference>Mortality Committee, “1991 Mortality Committee Report”, Transactions, 1991 Volume II, The Institute of Actuaries of Australia (1991). Accessed: July, 2014 from http://actuaries.asn.au/Library/Education/Research/Transactions/1992/tiaa1991vol2.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>IA 85-90 F</TableName>
+    <TableDescription>IA 85-90 Female. Minimum Age: 10. Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Based on ordinary whole life contracts without term riders and endowment contracts from 6 offices observed 1985 to 1990. No distinction was made between medical and non-medical issues. Methodology:  To eliminate the effect of selection, the first two policy durations were not included. Graduation was carried out by use of the World Health Organization’s mortality package, LIFETIME. The LIFETIME software essentially calculates µ at pivotal ages and then obtain intermediary µ values by log-linear interpolation. A Gompertz curve is fitted above age 85. Due to the limited data at younger ages, some account was taken of population mortality.  For ages above 95, the graduated rates were higher than corresponding male rates. Attempts to adjust the female rates a the older ages resulted in unsatisfactory shape of the mortality curve and the original graduated rates were not then  modified. Data Transcription Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>IA 85-90 Female. Minimum Age: 10. Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>10</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="10">0.00020</Y>
+        <Y t="11">0.00020</Y>
+        <Y t="12">0.00021</Y>
+        <Y t="13">0.00023</Y>
+        <Y t="14">0.00026</Y>
+        <Y t="15">0.00030</Y>
+        <Y t="16">0.00034</Y>
+        <Y t="17">0.00038</Y>
+        <Y t="18">0.00041</Y>
+        <Y t="19">0.00041</Y>
+        <Y t="20">0.00039</Y>
+        <Y t="21">0.00037</Y>
+        <Y t="22">0.00034</Y>
+        <Y t="23">0.00032</Y>
+        <Y t="24">0.00030</Y>
+        <Y t="25">0.00028</Y>
+        <Y t="26">0.00026</Y>
+        <Y t="27">0.00026</Y>
+        <Y t="28">0.00028</Y>
+        <Y t="29">0.00029</Y>
+        <Y t="30">0.00031</Y>
+        <Y t="31">0.00033</Y>
+        <Y t="32">0.00036</Y>
+        <Y t="33">0.00040</Y>
+        <Y t="34">0.00044</Y>
+        <Y t="35">0.00049</Y>
+        <Y t="36">0.00055</Y>
+        <Y t="37">0.00062</Y>
+        <Y t="38">0.00070</Y>
+        <Y t="39">0.00079</Y>
+        <Y t="40">0.00089</Y>
+        <Y t="41">0.00099</Y>
+        <Y t="42">0.00109</Y>
+        <Y t="43">0.00117</Y>
+        <Y t="44">0.00125</Y>
+        <Y t="45">0.00133</Y>
+        <Y t="46">0.00143</Y>
+        <Y t="47">0.00156</Y>
+        <Y t="48">0.00173</Y>
+        <Y t="49">0.00193</Y>
+        <Y t="50">0.00216</Y>
+        <Y t="51">0.00240</Y>
+        <Y t="52">0.00264</Y>
+        <Y t="53">0.00288</Y>
+        <Y t="54">0.00313</Y>
+        <Y t="55">0.00340</Y>
+        <Y t="56">0.00370</Y>
+        <Y t="57">0.00400</Y>
+        <Y t="58">0.00431</Y>
+        <Y t="59">0.00464</Y>
+        <Y t="60">0.00499</Y>
+        <Y t="61">0.00540</Y>
+        <Y t="62">0.00591</Y>
+        <Y t="63">0.00655</Y>
+        <Y t="64">0.00729</Y>
+        <Y t="65">0.00811</Y>
+        <Y t="66">0.00906</Y>
+        <Y t="67">0.01019</Y>
+        <Y t="68">0.01155</Y>
+        <Y t="69">0.01313</Y>
+        <Y t="70">0.01492</Y>
+        <Y t="71">0.01694</Y>
+        <Y t="72">0.01916</Y>
+        <Y t="73">0.02160</Y>
+        <Y t="74">0.02431</Y>
+        <Y t="75">0.02736</Y>
+        <Y t="76">0.03077</Y>
+        <Y t="77">0.03458</Y>
+        <Y t="78">0.03883</Y>
+        <Y t="79">0.04357</Y>
+        <Y t="80">0.04889</Y>
+        <Y t="81">0.05487</Y>
+        <Y t="82">0.06169</Y>
+        <Y t="83">0.06948</Y>
+        <Y t="84">0.07826</Y>
+        <Y t="85">0.08809</Y>
+        <Y t="86">0.09910</Y>
+        <Y t="87">0.11140</Y>
+        <Y t="88">0.12511</Y>
+        <Y t="89">0.14036</Y>
+        <Y t="90">0.15731</Y>
+        <Y t="91">0.17609</Y>
+        <Y t="92">0.19683</Y>
+        <Y t="93">0.21968</Y>
+        <Y t="94">0.24475</Y>
+        <Y t="95">0.27215</Y>
+        <Y t="96">0.30196</Y>
+        <Y t="97">0.33422</Y>
+        <Y t="98">0.36892</Y>
+        <Y t="99">0.40601</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

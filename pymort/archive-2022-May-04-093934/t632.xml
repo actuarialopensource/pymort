@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>632</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Alexander Hanika and Harald Trimmel, “Sterbetafel 1990/92 für Österreich”, Statistical News, Central Bureau of Statistics (Austria, 1996). Accessed: August, 2013 from http://statmath.wu-wien.ac.at/courses/mmwi-finmath/Grundkurs/Sterbetafeln_lx_Kommutationszahlen.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Sterbetafel 1990/92 für Österreich - Female, ANB</TableName>
+    <TableDescription>Sterbetafel 1990/92 für Österreich (Austrian Life Table 1990/92) - Female, Basis: Age Nearest Birthday.  Minimum Age: 0 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Life tables are compiled by Statistisches Zentralamt for the years around the population census by relating the deaths grouped according to age and sex to the corresponding structured population.  In order to compensate for chance fluctuations of the thus determined mortalities, they are submitted to a rounding procedure.  Methodology: Not available at this time. NOTE: A prior generation of this table contained rates published by A.S. MacDonald (“The Second Actuarial Study of Mortality in Europe" (1997)) that had not yet been completed by Statistisches Zentralamt. The values herein represent the final set of rates published as Sterbetafel 1990/92 für Österreich. Data Transcriptions Errors Detected: 08/2013. Data Corrected and Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Austria</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="43">Austria</Nation>
+      <TableDescription>Sterbetafel 1990/92 für Österreich (Austrian Life Table 1990/92) - Female, Basis: Age Nearest Birthday.  Minimum Age: 0 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.0067104</Y>
+        <Y t="1">0.0005155</Y>
+        <Y t="2">0.0004117</Y>
+        <Y t="3">0.0003175</Y>
+        <Y t="4">0.0002377</Y>
+        <Y t="5">0.0001803</Y>
+        <Y t="6">0.0001413</Y>
+        <Y t="7">0.0001183</Y>
+        <Y t="8">0.0001066</Y>
+        <Y t="9">0.0001012</Y>
+        <Y t="10">0.0000992</Y>
+        <Y t="11">0.0001005</Y>
+        <Y t="12">0.0001070</Y>
+        <Y t="13">0.0001205</Y>
+        <Y t="14">0.0001495</Y>
+        <Y t="15">0.0002070</Y>
+        <Y t="16">0.0002816</Y>
+        <Y t="17">0.0003294</Y>
+        <Y t="18">0.0003751</Y>
+        <Y t="19">0.0004028</Y>
+        <Y t="20">0.0004047</Y>
+        <Y t="21">0.0003893</Y>
+        <Y t="22">0.0003696</Y>
+        <Y t="23">0.0003553</Y>
+        <Y t="24">0.0003446</Y>
+        <Y t="25">0.0003383</Y>
+        <Y t="26">0.0003501</Y>
+        <Y t="27">0.0003747</Y>
+        <Y t="28">0.0004077</Y>
+        <Y t="29">0.0004413</Y>
+        <Y t="30">0.0004719</Y>
+        <Y t="31">0.0005098</Y>
+        <Y t="32">0.0005565</Y>
+        <Y t="33">0.0006056</Y>
+        <Y t="34">0.0006550</Y>
+        <Y t="35">0.0007127</Y>
+        <Y t="36">0.0007879</Y>
+        <Y t="37">0.0008761</Y>
+        <Y t="38">0.0009748</Y>
+        <Y t="39">0.0010854</Y>
+        <Y t="40">0.0012084</Y>
+        <Y t="41">0.0013513</Y>
+        <Y t="42">0.0015136</Y>
+        <Y t="43">0.0016826</Y>
+        <Y t="44">0.0018489</Y>
+        <Y t="45">0.0020112</Y>
+        <Y t="46">0.0021721</Y>
+        <Y t="47">0.0023381</Y>
+        <Y t="48">0.0025167</Y>
+        <Y t="49">0.0027108</Y>
+        <Y t="50">0.0029238</Y>
+        <Y t="51">0.0031576</Y>
+        <Y t="52">0.0034169</Y>
+        <Y t="53">0.0037033</Y>
+        <Y t="54">0.0040175</Y>
+        <Y t="55">0.0043607</Y>
+        <Y t="56">0.0047324</Y>
+        <Y t="57">0.0051322</Y>
+        <Y t="58">0.0055619</Y>
+        <Y t="59">0.0060314</Y>
+        <Y t="60">0.0065642</Y>
+        <Y t="61">0.0071846</Y>
+        <Y t="62">0.0079052</Y>
+        <Y t="63">0.0087342</Y>
+        <Y t="64">0.0096810</Y>
+        <Y t="65">0.0107563</Y>
+        <Y t="66">0.0119709</Y>
+        <Y t="67">0.0133398</Y>
+        <Y t="68">0.0148837</Y>
+        <Y t="69">0.0166275</Y>
+        <Y t="70">0.0186010</Y>
+        <Y t="71">0.0208415</Y>
+        <Y t="72">0.0233941</Y>
+        <Y t="73">0.0263110</Y>
+        <Y t="74">0.0296518</Y>
+        <Y t="75">0.0334821</Y>
+        <Y t="76">0.0378743</Y>
+        <Y t="77">0.0429098</Y>
+        <Y t="78">0.0486813</Y>
+        <Y t="79">0.0552940</Y>
+        <Y t="80">0.0628663</Y>
+        <Y t="81">0.0715314</Y>
+        <Y t="82">0.0814414</Y>
+        <Y t="83">0.0927706</Y>
+        <Y t="84">0.1057192</Y>
+        <Y t="85">0.1195473</Y>
+        <Y t="86">0.1333896</Y>
+        <Y t="87">0.1474734</Y>
+        <Y t="88">0.1620554</Y>
+        <Y t="89">0.1773108</Y>
+        <Y t="90">0.1935492</Y>
+        <Y t="91">0.2110395</Y>
+        <Y t="92">0.2299318</Y>
+        <Y t="93">0.2501231</Y>
+        <Y t="94">0.2714322</Y>
+        <Y t="95">0.2935812</Y>
+        <Y t="96">0.3162299</Y>
+        <Y t="97">0.3391737</Y>
+        <Y t="98">0.3623051</Y>
+        <Y t="99">0.3855587</Y>
+        <Y t="100">1.0000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

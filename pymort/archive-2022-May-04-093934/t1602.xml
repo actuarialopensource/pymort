@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1602</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Dr. William Farr. “English Life Table: Tables of Lifetimes, Annuities, and Premiums”, Registrar-General of Births, Deaths, and Marriages in England, (London, 1864). Accessed: February, 2013 from http://archive.org/stream/englishlifetable00farr#page/n157/mode/2up</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>ELT No. 3 (1841-50) – Male, ANB</TableName>
+    <TableDescription>English Life Tables (ELT) Number 3 (1841-50) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 108</TableDescription>
+    <Comments>Study Data: Dr. Farr, the Assistant Registrar-General for the United Kingdom, gathered population experience from the censuses of England and Wales from 1841 and 1851 as well as other records for the years from 1838 to 1854 thereby encompassing 50 billion persons living and 6.5 million deaths. The data represented the largest scale of population data for its time; English Life Table No. 3 marked an epoch in statistical science. In 1865, English Life Table No. 3 was made the first standard for valuation in the State of New York. Methodology:  Population from each census deduced for 12 quinquennial age breaks. Corresponding deaths registered over the 17 year period were similarly split. Annual rates of mortality arrived at by dividing the deaths at each of the ages by the contemporaneous years of life out of which they occur. No effort made to smooth rates as seen in insured lives tables given data based on population. Further information on methodology is not available as English Table No. 3 marked the first instance of using a Calculating Machine (Scheutz’ version of Mr. Babbage’s difference engine) to do commercial work (as opposed to use in illustrative examples at World’s Fair). Ironically, given great art was needed in shaping the formulas and numerical operations so they could be executed by the Calculating Machine, the Registrar’s Office reverted to manual calculations till 1911. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 3 (1841-50) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 108</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>108</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.16359</Y>
+        <Y t="1">0.06428</Y>
+        <Y t="2">0.03549</Y>
+        <Y t="3">0.02385</Y>
+        <Y t="4">0.01782</Y>
+        <Y t="5">0.01359</Y>
+        <Y t="6">0.01082</Y>
+        <Y t="7">0.00916</Y>
+        <Y t="8">0.00764</Y>
+        <Y t="9">0.00646</Y>
+        <Y t="10">0.00562</Y>
+        <Y t="11">0.00506</Y>
+        <Y t="12">0.00477</Y>
+        <Y t="13">0.00471</Y>
+        <Y t="14">0.00485</Y>
+        <Y t="15">0.00517</Y>
+        <Y t="16">0.00563</Y>
+        <Y t="17">0.00620</Y>
+        <Y t="18">0.00686</Y>
+        <Y t="19">0.00756</Y>
+        <Y t="20">0.00828</Y>
+        <Y t="21">0.00847</Y>
+        <Y t="22">0.00864</Y>
+        <Y t="23">0.00882</Y>
+        <Y t="24">0.00899</Y>
+        <Y t="25">0.00916</Y>
+        <Y t="26">0.00933</Y>
+        <Y t="27">0.00951</Y>
+        <Y t="28">0.00969</Y>
+        <Y t="29">0.00988</Y>
+        <Y t="30">0.01007</Y>
+        <Y t="31">0.01028</Y>
+        <Y t="32">0.01050</Y>
+        <Y t="33">0.01074</Y>
+        <Y t="34">0.01099</Y>
+        <Y t="35">0.01127</Y>
+        <Y t="36">0.01156</Y>
+        <Y t="37">0.01187</Y>
+        <Y t="38">0.01221</Y>
+        <Y t="39">0.01258</Y>
+        <Y t="40">0.01297</Y>
+        <Y t="41">0.01339</Y>
+        <Y t="42">0.01385</Y>
+        <Y t="43">0.01433</Y>
+        <Y t="44">0.01486</Y>
+        <Y t="45">0.01542</Y>
+        <Y t="46">0.01602</Y>
+        <Y t="47">0.01666</Y>
+        <Y t="48">0.01734</Y>
+        <Y t="49">0.01807</Y>
+        <Y t="50">0.01884</Y>
+        <Y t="51">0.02022</Y>
+        <Y t="52">0.02112</Y>
+        <Y t="53">0.02226</Y>
+        <Y t="54">0.02336</Y>
+        <Y t="55">0.02455</Y>
+        <Y t="56">0.02584</Y>
+        <Y t="57">0.02726</Y>
+        <Y t="58">0.02883</Y>
+        <Y t="59">0.03058</Y>
+        <Y t="60">0.03252</Y>
+        <Y t="61">0.03468</Y>
+        <Y t="62">0.03707</Y>
+        <Y t="63">0.03973</Y>
+        <Y t="64">0.04267</Y>
+        <Y t="65">0.04591</Y>
+        <Y t="66">0.04947</Y>
+        <Y t="67">0.05337</Y>
+        <Y t="68">0.05763</Y>
+        <Y t="69">0.06226</Y>
+        <Y t="70">0.06728</Y>
+        <Y t="71">0.07271</Y>
+        <Y t="72">0.07856</Y>
+        <Y t="73">0.08484</Y>
+        <Y t="74">0.09157</Y>
+        <Y t="75">0.09876</Y>
+        <Y t="76">0.10641</Y>
+        <Y t="77">0.11455</Y>
+        <Y t="78">0.12316</Y>
+        <Y t="79">0.13225</Y>
+        <Y t="80">0.14184</Y>
+        <Y t="81">0.15193</Y>
+        <Y t="82">0.16250</Y>
+        <Y t="83">0.17356</Y>
+        <Y t="84">0.18512</Y>
+        <Y t="85">0.19715</Y>
+        <Y t="86">0.20965</Y>
+        <Y t="87">0.22263</Y>
+        <Y t="88">0.23605</Y>
+        <Y t="89">0.24991</Y>
+        <Y t="90">0.26420</Y>
+        <Y t="91">0.27890</Y>
+        <Y t="92">0.29399</Y>
+        <Y t="93">0.30944</Y>
+        <Y t="94">0.32524</Y>
+        <Y t="95">0.34137</Y>
+        <Y t="96">0.35779</Y>
+        <Y t="97">0.37448</Y>
+        <Y t="98">0.39141</Y>
+        <Y t="99">0.40856</Y>
+        <Y t="100">0.42588</Y>
+        <Y t="101">0.44336</Y>
+        <Y t="102">0.46095</Y>
+        <Y t="103">0.47863</Y>
+        <Y t="104">0.49630</Y>
+        <Y t="105">0.51411</Y>
+        <Y t="106">0.53184</Y>
+        <Y t="107">0.54952</Y>
+        <Y t="108">0.56712</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

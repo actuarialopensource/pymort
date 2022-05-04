@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>705</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Society of Actuaries, “II. Experience Under Accidental Death Benefit Provisions in Ordinary  Insurance Policies Between 1970 and 1975 Anniversaries”, Transactions of the Society of Actuaries – Reports (1977) Table 3. Accessed: July, 2013 from http://www.soa.org/Library/Research/Transactions-Reports-Of-Mortality-Moribidity-And-Experience/1970-79/1977/January/TSR773.aspx</TableReference>
+    <ContentType tc="77">ADB, AD&amp;D</ContentType>
+    <TableName>1970-75 ADB Experience by Amount of Claims Paid, ANB</TableName>
+    <TableDescription>1970-75 Accidental Death Benefits (ADB) by Amount of Claims Paid, Basis: Age Nearest Birthday. Minimum Age: 1 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: Fifteen companies contributed data to the study; experience confined to Accidental Death Benefit (ADB) clauses issued at standard rates. The period of observation was between 1970 and 1975 policy anniversaries, thus providing a sufficient volume of data to give significant results. The actual amount of ADB coverage on each policy, whether equal toor some multiple of the policy's face amount of life insurance, was used in determining the exposures of the study, and the actual amount of ADB paid (whether the full amount or a compromised amount) was used in determining the benefits paid. Methodology: The first phase of the graduation process was the development of graduated values for each of the attained ages from 5 through 91 by application of the Whittaker-Henderson third-difference A formula with K = 8. The formula was not applied at ages below 5 or above 91, since each of these ages involved less than 20 claims. Population data were used as the basis for extending the graduated rates to attained ages 1-4 and 92-100 because of the small amount of ADB data at these ages. Specifically, the graduated values were extended to age 100 by fitting a third-degree curve to the graduated rates at ages 89, 90, and 91 and a rate of 12 per thousand at age 100. The latter rate was arrived at by inspection of United States population accidental death rates for the calendar years 1970-73. For ages 1 4, a graphic technique was developed with reference to percentages of population accidental death rates for white lives in the United States for the calendar years 1970-73. The population accidental death rates that were used were determined by combining the rates for male and female lives on a basis that reflected the composition of insurance data by sex. The graduated aggregate paid claim rates for the study were produced for analytical purposes only. They have no loading for fluctuations or contingencies. Data Transcription Errors: None. Data Certified: 07/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>ADB</KeyWord>
+    <KeyWord>AD&amp;D</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1970-75 Accidental Death Benefits (ADB) by Amount of Claims Paid, Basis: Age Nearest Birthday. Minimum Age: 1 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000480</Y>
+        <Y t="2">0.000383</Y>
+        <Y t="3">0.000301</Y>
+        <Y t="4">0.000234</Y>
+        <Y t="5">0.000181</Y>
+        <Y t="6">0.000141</Y>
+        <Y t="7">0.000113</Y>
+        <Y t="8">0.000097</Y>
+        <Y t="9">0.000093</Y>
+        <Y t="10">0.000100</Y>
+        <Y t="11">0.000120</Y>
+        <Y t="12">0.000156</Y>
+        <Y t="13">0.000219</Y>
+        <Y t="14">0.000313</Y>
+        <Y t="15">0.000432</Y>
+        <Y t="16">0.000557</Y>
+        <Y t="17">0.000663</Y>
+        <Y t="18">0.000732</Y>
+        <Y t="19">0.000757</Y>
+        <Y t="20">0.000739</Y>
+        <Y t="21">0.000688</Y>
+        <Y t="22">0.000619</Y>
+        <Y t="23">0.000548</Y>
+        <Y t="24">0.000485</Y>
+        <Y t="25">0.000436</Y>
+        <Y t="26">0.000402</Y>
+        <Y t="27">0.000381</Y>
+        <Y t="28">0.000369</Y>
+        <Y t="29">0.000362</Y>
+        <Y t="30">0.000360</Y>
+        <Y t="31">0.000360</Y>
+        <Y t="32">0.000361</Y>
+        <Y t="33">0.000363</Y>
+        <Y t="34">0.000363</Y>
+        <Y t="35">0.000359</Y>
+        <Y t="36">0.000354</Y>
+        <Y t="37">0.000348</Y>
+        <Y t="38">0.000350</Y>
+        <Y t="39">0.000359</Y>
+        <Y t="40">0.000374</Y>
+        <Y t="41">0.000393</Y>
+        <Y t="42">0.000410</Y>
+        <Y t="43">0.000420</Y>
+        <Y t="44">0.000421</Y>
+        <Y t="45">0.000415</Y>
+        <Y t="46">0.000406</Y>
+        <Y t="47">0.000399</Y>
+        <Y t="48">0.000396</Y>
+        <Y t="49">0.000394</Y>
+        <Y t="50">0.000394</Y>
+        <Y t="51">0.000396</Y>
+        <Y t="52">0.000398</Y>
+        <Y t="53">0.000401</Y>
+        <Y t="54">0.000406</Y>
+        <Y t="55">0.000412</Y>
+        <Y t="56">0.000416</Y>
+        <Y t="57">0.000418</Y>
+        <Y t="58">0.000421</Y>
+        <Y t="59">0.000431</Y>
+        <Y t="60">0.000446</Y>
+        <Y t="61">0.000464</Y>
+        <Y t="62">0.000484</Y>
+        <Y t="63">0.000500</Y>
+        <Y t="64">0.000512</Y>
+        <Y t="65">0.000524</Y>
+        <Y t="66">0.000539</Y>
+        <Y t="67">0.000556</Y>
+        <Y t="68">0.000578</Y>
+        <Y t="69">0.000613</Y>
+        <Y t="70">0.000660</Y>
+        <Y t="71">0.000721</Y>
+        <Y t="72">0.000792</Y>
+        <Y t="73">0.000869</Y>
+        <Y t="74">0.000962</Y>
+        <Y t="75">0.001082</Y>
+        <Y t="76">0.001218</Y>
+        <Y t="77">0.001354</Y>
+        <Y t="78">0.001491</Y>
+        <Y t="79">0.001623</Y>
+        <Y t="80">0.001756</Y>
+        <Y t="81">0.001906</Y>
+        <Y t="82">0.002139</Y>
+        <Y t="83">0.002537</Y>
+        <Y t="84">0.003104</Y>
+        <Y t="85">0.003711</Y>
+        <Y t="86">0.004209</Y>
+        <Y t="87">0.004544</Y>
+        <Y t="88">0.004787</Y>
+        <Y t="89">0.005002</Y>
+        <Y t="90">0.005176</Y>
+        <Y t="91">0.005276</Y>
+        <Y t="92">0.005357</Y>
+        <Y t="93">0.005476</Y>
+        <Y t="94">0.005687</Y>
+        <Y t="95">0.006046</Y>
+        <Y t="96">0.006608</Y>
+        <Y t="97">0.007429</Y>
+        <Y t="98">0.008564</Y>
+        <Y t="99">0.010069</Y>
+        <Y t="100">0.012000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

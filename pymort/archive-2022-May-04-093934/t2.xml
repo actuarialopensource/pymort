@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>John S. Thompson, “The Commissioners 1941 Standard Ordinary Mortality Table Proposed by the Committee Appointed by the NAIC to Study Non-Forfeiture Benefits and Related Matters”, Transactions of the Actuarial Society of America, Vol XLII (1941) p. 325.</TableReference>
+    <ContentType tc="85">CSO/CET</ContentType>
+    <TableName>1941 CSO Experience Table, ANB</TableName>
+    <TableDescription>1941 Commissioners Standard Ordinary (CSO) Experience Table. Male and Female Combined. Basis: Age Nearest Birthday.  Minimum Age: 1. Maximum Age: 100.</TableDescription>
+    <Comments>Study Data: This experience table served as the starting point for the 1941 Commissioners Standard Ordinary (CSO) Table (SOA Table Identity 3).  In the publication this table is it referred to as ‘Table 9” while the actual CSO table adopted by the committee is referred to as “Table 10”. Table 9 is based on the experience of 16 principle life insurance companies in the United States and Canada from their policies between 1931 and 1940. The table is a composite of male and female lives but is primarily representative of male mortality. The table was graduated and loaded to provide a table with smooth rates that had a margin for safety. The margin was intended to increase the chances that the funds accumulated would be sufficient for an insurance company to meet its obligations. The 1941 CSO Table was later accompanied by a Basic Table (SOA Table Identity 1) with the margins removed so that insurers could measure their own experience against the actual experience of the 16 companies.  Methodology: Unlike the Northampton Table (SOA Table Identity 250) which was based on number of deaths, the 1941 CSO Table utilized amount of insurance to better reflect financial impacts. Data was collected from 16 life insurance companies in the United States and Canada on standard insured lives, excluding durations 1-5, for issue years of 1925-34, and observed from 1930 to 1940. Additionally, the data included Special submissions from nine companies on attained ages over 50 (all issue years). The volume of data consisted of Exposures of $24.8 billion, with Deaths of $187 million from the 1925-34 block while Exposures of $58.4 billion with Deaths of $1,470 million came from the Special block. Values for quinquennial age groups for Deaths and Exposures were split into individual ages by a second difference King-type formula for each study year. A ratio was applied to each year so as to have the same total assumed exposure as 1939, and then summed into quinquennial age pivot point groups across study years. The issue year 1925-34 block was used up to a pivot age of 47. Pivot ages 52+ came from the Special submission. A ratio was then applied to the resulting pivot point mortality to an assumed Makeham table to get actual-to-expected ratios. These pivotal ratios were then expanded with Jenkins' Modified Third Differences. Osculatory expanded ratios were next applied to the pivot points to achieve a Makeham form for the single ages of 17-87. Ages 88-100 were bridged with a third degree curve so as to end at 1.0 at age 100. Ages 1-17 were compiled empirically. Data Transcription Errors: None.  Data Certified: 10/2012</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>CSO/CET</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1941 Commissioners Standard Ordinary (CSO) Experience Table. Male and Female Combined. Basis: Age Nearest Birthday.  Minimum Age: 1. Maximum Age: 100..</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.00501</Y>
+        <Y t="2">0.00337</Y>
+        <Y t="3">0.00260</Y>
+        <Y t="4">0.00220</Y>
+        <Y t="5">0.00196</Y>
+        <Y t="6">0.00180</Y>
+        <Y t="7">0.00164</Y>
+        <Y t="8">0.00147</Y>
+        <Y t="9">0.00127</Y>
+        <Y t="10">0.00111</Y>
+        <Y t="11">0.00103</Y>
+        <Y t="12">0.00103</Y>
+        <Y t="13">0.00109</Y>
+        <Y t="14">0.00119</Y>
+        <Y t="15">0.00130</Y>
+        <Y t="16">0.00139</Y>
+        <Y t="17">0.00147</Y>
+        <Y t="18">0.00152</Y>
+        <Y t="19">0.00159</Y>
+        <Y t="20">0.00167</Y>
+        <Y t="21">0.00176</Y>
+        <Y t="22">0.00184</Y>
+        <Y t="23">0.00189</Y>
+        <Y t="24">0.00195</Y>
+        <Y t="25">0.00201</Y>
+        <Y t="26">0.00204</Y>
+        <Y t="27">0.00209</Y>
+        <Y t="28">0.00211</Y>
+        <Y t="29">0.00216</Y>
+        <Y t="30">0.00222</Y>
+        <Y t="31">0.00229</Y>
+        <Y t="32">0.00238</Y>
+        <Y t="33">0.00250</Y>
+        <Y t="34">0.00263</Y>
+        <Y t="35">0.00279</Y>
+        <Y t="36">0.00297</Y>
+        <Y t="37">0.00320</Y>
+        <Y t="38">0.00346</Y>
+        <Y t="39">0.00374</Y>
+        <Y t="40">0.00406</Y>
+        <Y t="41">0.00441</Y>
+        <Y t="42">0.00480</Y>
+        <Y t="43">0.00523</Y>
+        <Y t="44">0.00571</Y>
+        <Y t="45">0.00624</Y>
+        <Y t="46">0.00681</Y>
+        <Y t="47">0.00744</Y>
+        <Y t="48">0.00815</Y>
+        <Y t="49">0.00892</Y>
+        <Y t="50">0.00976</Y>
+        <Y t="51">0.01070</Y>
+        <Y t="52">0.01174</Y>
+        <Y t="53">0.01287</Y>
+        <Y t="54">0.01409</Y>
+        <Y t="55">0.01540</Y>
+        <Y t="56">0.01682</Y>
+        <Y t="57">0.01834</Y>
+        <Y t="58">0.01997</Y>
+        <Y t="59">0.02176</Y>
+        <Y t="60">0.02369</Y>
+        <Y t="61">0.02581</Y>
+        <Y t="62">0.02810</Y>
+        <Y t="63">0.03058</Y>
+        <Y t="64">0.03325</Y>
+        <Y t="65">0.03613</Y>
+        <Y t="66">0.03923</Y>
+        <Y t="67">0.04256</Y>
+        <Y t="68">0.04615</Y>
+        <Y t="69">0.05004</Y>
+        <Y t="70">0.05425</Y>
+        <Y t="71">0.05879</Y>
+        <Y t="72">0.06371</Y>
+        <Y t="73">0.06902</Y>
+        <Y t="74">0.07480</Y>
+        <Y t="75">0.08105</Y>
+        <Y t="76">0.08782</Y>
+        <Y t="77">0.09517</Y>
+        <Y t="78">0.10312</Y>
+        <Y t="79">0.11174</Y>
+        <Y t="80">0.12106</Y>
+        <Y t="81">0.13114</Y>
+        <Y t="82">0.14206</Y>
+        <Y t="83">0.15370</Y>
+        <Y t="84">0.16601</Y>
+        <Y t="85">0.17898</Y>
+        <Y t="86">0.19253</Y>
+        <Y t="87">0.20672</Y>
+        <Y t="88">0.22276</Y>
+        <Y t="89">0.24186</Y>
+        <Y t="90">0.26523</Y>
+        <Y t="91">0.29408</Y>
+        <Y t="92">0.32962</Y>
+        <Y t="93">0.37306</Y>
+        <Y t="94">0.42561</Y>
+        <Y t="95">0.48849</Y>
+        <Y t="96">0.56289</Y>
+        <Y t="97">0.65003</Y>
+        <Y t="98">0.75112</Y>
+        <Y t="99">0.86738</Y>
+        <Y t="100">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1606</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Office for National Statistics, “English Life Table No. 16, 2000-02”, United Kingdom Statistics Authority, (England, 2009). Accessed: March, 2013 from http://www.ons.gov.uk/ons/rel/lifetables/decennial-life-tables/no-16--2000-2002-/english-life-tables--no-16--2000-02-.xls</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>ELT No. 16 (2000-02) – Male, ANB</TableName>
+    <TableDescription>English Life Tables (ELT) Number 16 (2000-02) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 109</TableDescription>
+    <Comments>Study Data: Estimates of the ‘central exposed to risk of death’ have been derived from the Office of National Statistics (ONS) estimates of the home population (that is, the persons usually resident in England and Wales, excluding foreign visitors and UK Armed Forces stationed elsewhere, but including civilian residents temporarily elsewhere, and all Armed Forces stationed in England and Wales) in mid-2000, mid-2001 and mid-2002. Estimates do not give estimates of the number of men and women at individual ages over 90 as it is felt censuses do not provide reliable estimates of peoples' ages over 90. The Kannisto-Thatcher survivor ratio method was thus used for ages over 90. The numbers of deaths used in constructing the tables are those published by ONS. It is assumed that inclusion of deaths of abroad-residents approximately compensates for the exclusion of deaths abroad of residents of England and Wales. Methodology: Crude central rates of mortality (mx) were constructed. In graduating the ELT 16, a variable-knot spline regression approach, as was used for ELT 14 (See SOA Table Identities 520 and 521) was adopted in conjunction with a weighted least squares version of the GeD spline regression method, which has recently been proposed by Dr. Vladimir Kaishev, et al. The method produces quadratic spline fits of the logs of the crude mortality rates. In order to extrapolate the spline fits beyond the highest ages for which crude mortality rates have been collected and to close the life tables at a limiting age ω = 121, the spline fits were constrained at age 120. Note that “limiting age” does not imply the table ends at 121 or reaches unity at that age. As the observed mortality rate is quite high in the first year of life and drops sharply in the next year, data for age 0 is excluded from the spline fitting and the values of q0 were obtained directly from the records of births and deaths at age 0 in the years 2000 to 2002. Graduated central rates of mortality along with the extrapolated rates were converted to initial mortality rates (qx). Data Transcription Errors: None. Data Certified: 03/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population Mortality</KeyWord>
+    <KeyWord>United Kingdom</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="44">United Kingdom</Nation>
+      <TableDescription>English Life Tables (ELT) Number 16 (2000-02) – Male. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00598</Y>
+        <Y t="1">0.00045</Y>
+        <Y t="2">0.00025</Y>
+        <Y t="3">0.00017</Y>
+        <Y t="4">0.00015</Y>
+        <Y t="5">0.00013</Y>
+        <Y t="6">0.00012</Y>
+        <Y t="7">0.00012</Y>
+        <Y t="8">0.00011</Y>
+        <Y t="9">0.00011</Y>
+        <Y t="10">0.00012</Y>
+        <Y t="11">0.00013</Y>
+        <Y t="12">0.00014</Y>
+        <Y t="13">0.00017</Y>
+        <Y t="14">0.00021</Y>
+        <Y t="15">0.00027</Y>
+        <Y t="16">0.00038</Y>
+        <Y t="17">0.00052</Y>
+        <Y t="18">0.00067</Y>
+        <Y t="19">0.00076</Y>
+        <Y t="20">0.00078</Y>
+        <Y t="21">0.00078</Y>
+        <Y t="22">0.00079</Y>
+        <Y t="23">0.00080</Y>
+        <Y t="24">0.00081</Y>
+        <Y t="25">0.00082</Y>
+        <Y t="26">0.00084</Y>
+        <Y t="27">0.00086</Y>
+        <Y t="28">0.00089</Y>
+        <Y t="29">0.00092</Y>
+        <Y t="30">0.00095</Y>
+        <Y t="31">0.00099</Y>
+        <Y t="32">0.00104</Y>
+        <Y t="33">0.00108</Y>
+        <Y t="34">0.00113</Y>
+        <Y t="35">0.00119</Y>
+        <Y t="36">0.00125</Y>
+        <Y t="37">0.00132</Y>
+        <Y t="38">0.00140</Y>
+        <Y t="39">0.00148</Y>
+        <Y t="40">0.00158</Y>
+        <Y t="41">0.00170</Y>
+        <Y t="42">0.00184</Y>
+        <Y t="43">0.00201</Y>
+        <Y t="44">0.00221</Y>
+        <Y t="45">0.00245</Y>
+        <Y t="46">0.00273</Y>
+        <Y t="47">0.00302</Y>
+        <Y t="48">0.00333</Y>
+        <Y t="49">0.00364</Y>
+        <Y t="50">0.00396</Y>
+        <Y t="51">0.00429</Y>
+        <Y t="52">0.00462</Y>
+        <Y t="53">0.00502</Y>
+        <Y t="54">0.00549</Y>
+        <Y t="55">0.00607</Y>
+        <Y t="56">0.00675</Y>
+        <Y t="57">0.00758</Y>
+        <Y t="58">0.00849</Y>
+        <Y t="59">0.00947</Y>
+        <Y t="60">0.01052</Y>
+        <Y t="61">0.01162</Y>
+        <Y t="62">0.01279</Y>
+        <Y t="63">0.01402</Y>
+        <Y t="64">0.01540</Y>
+        <Y t="65">0.01696</Y>
+        <Y t="66">0.01875</Y>
+        <Y t="67">0.02079</Y>
+        <Y t="68">0.02312</Y>
+        <Y t="69">0.02579</Y>
+        <Y t="70">0.02886</Y>
+        <Y t="71">0.03233</Y>
+        <Y t="72">0.03610</Y>
+        <Y t="73">0.04017</Y>
+        <Y t="74">0.04454</Y>
+        <Y t="75">0.04921</Y>
+        <Y t="76">0.05418</Y>
+        <Y t="77">0.05945</Y>
+        <Y t="78">0.06504</Y>
+        <Y t="79">0.07125</Y>
+        <Y t="80">0.07821</Y>
+        <Y t="81">0.08603</Y>
+        <Y t="82">0.09481</Y>
+        <Y t="83">0.10468</Y>
+        <Y t="84">0.11570</Y>
+        <Y t="85">0.12734</Y>
+        <Y t="86">0.13943</Y>
+        <Y t="87">0.15187</Y>
+        <Y t="88">0.16458</Y>
+        <Y t="89">0.17744</Y>
+        <Y t="90">0.19051</Y>
+        <Y t="91">0.20492</Y>
+        <Y t="92">0.22108</Y>
+        <Y t="93">0.23917</Y>
+        <Y t="94">0.25940</Y>
+        <Y t="95">0.28171</Y>
+        <Y t="96">0.30413</Y>
+        <Y t="97">0.32605</Y>
+        <Y t="98">0.34721</Y>
+        <Y t="99">0.36807</Y>
+        <Y t="100">0.38966</Y>
+        <Y t="101">0.41995</Y>
+        <Y t="102">0.44469</Y>
+        <Y t="103">0.47032</Y>
+        <Y t="104">0.49681</Y>
+        <Y t="105">0.52415</Y>
+        <Y t="106">0.55230</Y>
+        <Y t="107">0.58121</Y>
+        <Y t="108">0.61084</Y>
+        <Y t="109">0.64114</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

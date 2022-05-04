@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2915</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Joshua Milne (1815), reprinted Miles Menander Dawson, “Practial Lessons in Actuarial Science, An Elementary Text-Book”, The Spectator Company (New York, 1896). Accessed June, 2014 from https://archive.org/stream/practicallessons00dawsrich#page/n3/mode/2up</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>Milne’s Swedish Population Table - Females</TableName>
+    <TableDescription>Milne’s Swedish Population Table - Females.  Minimum Age: 0 Maximum Age: 99</TableDescription>
+    <Comments>Study Data: Population statistics of Sweden and Finland for the period 1765-1796. Although the tables are drawn from insufficient data, they have nevertheless always been considered valuable. Methodology: Graduated by Milne but other information not available at this time. NOTE: There is a typographical error in the source material for age 25. The lives are listed as 6699 however this is not possible given the lives at age 24 are 5744. The number of deaths at age 24 is listed as 45 hence the total lives for age 25 should be 5699. Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord>Survival</KeyWord>
+    <KeyWord>Sweden</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="46">Sweden</Nation>
+      <TableDescription>Milne’s Swedish Population Table - Females.  Minimum Age: 0 Maximum Age: 99</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">9790</Y>
+        <Y t="1">7929</Y>
+        <Y t="2">7395</Y>
+        <Y t="3">7098</Y>
+        <Y t="4">6879</Y>
+        <Y t="5">6720</Y>
+        <Y t="6">6579</Y>
+        <Y t="7">6474</Y>
+        <Y t="8">6401</Y>
+        <Y t="9">6345</Y>
+        <Y t="10">6296</Y>
+        <Y t="11">6251</Y>
+        <Y t="12">6210</Y>
+        <Y t="13">6171</Y>
+        <Y t="14">6134</Y>
+        <Y t="15">6098</Y>
+        <Y t="16">6062</Y>
+        <Y t="17">6026</Y>
+        <Y t="18">5989</Y>
+        <Y t="19">5951</Y>
+        <Y t="20">5912</Y>
+        <Y t="21">5872</Y>
+        <Y t="22">5831</Y>
+        <Y t="23">5788</Y>
+        <Y t="24">5744</Y>
+        <Y t="25">5699</Y>
+        <Y t="26">5651</Y>
+        <Y t="27">5602</Y>
+        <Y t="28">5552</Y>
+        <Y t="29">5501</Y>
+        <Y t="30">5448</Y>
+        <Y t="31">5392</Y>
+        <Y t="32">5335</Y>
+        <Y t="33">5277</Y>
+        <Y t="34">5220</Y>
+        <Y t="35">5164</Y>
+        <Y t="36">5108</Y>
+        <Y t="37">5052</Y>
+        <Y t="38">4996</Y>
+        <Y t="39">4939</Y>
+        <Y t="40">4878</Y>
+        <Y t="41">4811</Y>
+        <Y t="42">4743</Y>
+        <Y t="43">4675</Y>
+        <Y t="44">4608</Y>
+        <Y t="45">4541</Y>
+        <Y t="46">4474</Y>
+        <Y t="47">4408</Y>
+        <Y t="48">4342</Y>
+        <Y t="49">4275</Y>
+        <Y t="50">4206</Y>
+        <Y t="51">4133</Y>
+        <Y t="52">4058</Y>
+        <Y t="53">3982</Y>
+        <Y t="54">3904</Y>
+        <Y t="55">3825</Y>
+        <Y t="56">3744</Y>
+        <Y t="57">3658</Y>
+        <Y t="58">3569</Y>
+        <Y t="59">3477</Y>
+        <Y t="60">3382</Y>
+        <Y t="61">3277</Y>
+        <Y t="62">3164</Y>
+        <Y t="63">3045</Y>
+        <Y t="64">2920</Y>
+        <Y t="65">2791</Y>
+        <Y t="66">2657</Y>
+        <Y t="67">2519</Y>
+        <Y t="68">2375</Y>
+        <Y t="69">2227</Y>
+        <Y t="70">2076</Y>
+        <Y t="71">1925</Y>
+        <Y t="72">1771</Y>
+        <Y t="73">1615</Y>
+        <Y t="74">1463</Y>
+        <Y t="75">1315</Y>
+        <Y t="76">1175</Y>
+        <Y t="77">1042</Y>
+        <Y t="78">917</Y>
+        <Y t="79">802</Y>
+        <Y t="80">697</Y>
+        <Y t="81">602</Y>
+        <Y t="82">510</Y>
+        <Y t="83">422</Y>
+        <Y t="84">343</Y>
+        <Y t="85">274</Y>
+        <Y t="86">215</Y>
+        <Y t="87">171</Y>
+        <Y t="88">137</Y>
+        <Y t="89">109</Y>
+        <Y t="90">85</Y>
+        <Y t="91">66</Y>
+        <Y t="92">50</Y>
+        <Y t="93">37</Y>
+        <Y t="94">27</Y>
+        <Y t="95">19</Y>
+        <Y t="96">12</Y>
+        <Y t="97">6</Y>
+        <Y t="98">3</Y>
+        <Y t="99">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

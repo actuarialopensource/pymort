@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>833</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Stephen J. Strommen</ProviderName>
+    <TableReference>The Society of Actuaries UP-94 Task Force, “The 1994 Uninsured Pensioner Mortality Table”, Transactions Society of Actuaries Vol. XLVII, (Chicago, 1995), Table 3 p. 824-826. Accessed: January, 2013 from http://www.soa.org/library/research/transactions-of-society-of-actuaries/1990-95/1995/january/tsa95v4721.pdf , p. 6-8.</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>UP-94 Mortality Table - Male, ANB (formerly 1994 GAM Basic Table - Male)</TableName>
+    <TableDescription>1994 Uninsured Pensioner (UP-94) Mortality Table - Male.  Basis: Age Nearest Birthday. Minimum Age: 1. Maximum Age: 120 (formerly called the 1994 GAM Basic Table - Male)</TableDescription>
+    <Comments>Study Data: When originally published, there were the GAM 1994 Basic tables and the GAM 1994 Static tables. The Basic tables were renamed “UP-94” when experience for uninsured pensioner mortality was collected by the Retirement Plans Experience Committee and found to be sufficiently close to the insured experience collected in conjunction with development of the new Group Annuity Mortality Valuation Standard. Note that the use of a scale to project mortality improvement on a generational basis was not directly incorporated in the UP-94 Mortality Tables as was done in prior generations of uninsured pensioner tables. Improvement factors, referred to as Scale AA (SOA Table Identities 923 and 924) were developed for projecting improvement beyond 1994.  Methodology: Rates for ages 66–95 were based on group annuitant experience data from 1985 to 1990. Rates for ages 25–65 were based on 1985–1989 (retired) and 1983–1986 (active) federal Civil Service Retirement System (CSRS) experience. Active and retired experiences were blended for ages 51–65. Rates at extreme ages (over 95 and under 25) were taken from 1990 life tables published in the Social Security Administration’s Actuarial Study No. 107. For ages 96 to 119, a maximum rate of 0.5 was set; at age 120, the rate was set at 1.0. All rates were trended to 1994 based on CSRS experience and benefit weighted in construction of final tables. The CSRS data was used to trend experience because of the large database and CSRS data had been used to extend the table for active lives. Data Transcription Errors: None. Data Certified: 01/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1994 Uninsured Pensioner (UP-94) Mortality Table - Male.  Basis: Age Nearest Birthday. Minimum Age: 1. Maximum Age: 120 (formerly called the 1994 GAM Basic Table - Male)</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.000637</Y>
+        <Y t="2">0.000430</Y>
+        <Y t="3">0.000357</Y>
+        <Y t="4">0.000278</Y>
+        <Y t="5">0.000255</Y>
+        <Y t="6">0.000244</Y>
+        <Y t="7">0.000234</Y>
+        <Y t="8">0.000216</Y>
+        <Y t="9">0.000209</Y>
+        <Y t="10">0.000212</Y>
+        <Y t="11">0.000223</Y>
+        <Y t="12">0.000243</Y>
+        <Y t="13">0.000275</Y>
+        <Y t="14">0.000320</Y>
+        <Y t="15">0.000371</Y>
+        <Y t="16">0.000421</Y>
+        <Y t="17">0.000463</Y>
+        <Y t="18">0.000495</Y>
+        <Y t="19">0.000521</Y>
+        <Y t="20">0.000545</Y>
+        <Y t="21">0.000570</Y>
+        <Y t="22">0.000598</Y>
+        <Y t="23">0.000633</Y>
+        <Y t="24">0.000671</Y>
+        <Y t="25">0.000711</Y>
+        <Y t="26">0.000749</Y>
+        <Y t="27">0.000782</Y>
+        <Y t="28">0.000811</Y>
+        <Y t="29">0.000838</Y>
+        <Y t="30">0.000862</Y>
+        <Y t="31">0.000883</Y>
+        <Y t="32">0.000902</Y>
+        <Y t="33">0.000912</Y>
+        <Y t="34">0.000913</Y>
+        <Y t="35">0.000915</Y>
+        <Y t="36">0.000927</Y>
+        <Y t="37">0.000958</Y>
+        <Y t="38">0.001010</Y>
+        <Y t="39">0.001075</Y>
+        <Y t="40">0.001153</Y>
+        <Y t="41">0.001243</Y>
+        <Y t="42">0.001346</Y>
+        <Y t="43">0.001454</Y>
+        <Y t="44">0.001568</Y>
+        <Y t="45">0.001697</Y>
+        <Y t="46">0.001852</Y>
+        <Y t="47">0.002042</Y>
+        <Y t="48">0.002260</Y>
+        <Y t="49">0.002501</Y>
+        <Y t="50">0.002773</Y>
+        <Y t="51">0.003088</Y>
+        <Y t="52">0.003455</Y>
+        <Y t="53">0.003854</Y>
+        <Y t="54">0.004278</Y>
+        <Y t="55">0.004758</Y>
+        <Y t="56">0.005322</Y>
+        <Y t="57">0.006001</Y>
+        <Y t="58">0.006774</Y>
+        <Y t="59">0.007623</Y>
+        <Y t="60">0.008576</Y>
+        <Y t="61">0.009663</Y>
+        <Y t="62">0.010911</Y>
+        <Y t="63">0.012335</Y>
+        <Y t="64">0.013914</Y>
+        <Y t="65">0.015629</Y>
+        <Y t="66">0.017462</Y>
+        <Y t="67">0.019391</Y>
+        <Y t="68">0.021354</Y>
+        <Y t="69">0.023364</Y>
+        <Y t="70">0.025516</Y>
+        <Y t="71">0.027905</Y>
+        <Y t="72">0.030625</Y>
+        <Y t="73">0.033549</Y>
+        <Y t="74">0.036614</Y>
+        <Y t="75">0.040012</Y>
+        <Y t="76">0.043933</Y>
+        <Y t="77">0.048570</Y>
+        <Y t="78">0.053991</Y>
+        <Y t="79">0.060066</Y>
+        <Y t="80">0.066696</Y>
+        <Y t="81">0.073780</Y>
+        <Y t="82">0.081217</Y>
+        <Y t="83">0.088721</Y>
+        <Y t="84">0.096358</Y>
+        <Y t="85">0.104559</Y>
+        <Y t="86">0.113755</Y>
+        <Y t="87">0.124377</Y>
+        <Y t="88">0.136537</Y>
+        <Y t="89">0.149949</Y>
+        <Y t="90">0.164442</Y>
+        <Y t="91">0.179849</Y>
+        <Y t="92">0.196001</Y>
+        <Y t="93">0.213325</Y>
+        <Y t="94">0.231936</Y>
+        <Y t="95">0.251189</Y>
+        <Y t="96">0.270441</Y>
+        <Y t="97">0.289048</Y>
+        <Y t="98">0.306750</Y>
+        <Y t="99">0.323976</Y>
+        <Y t="100">0.341116</Y>
+        <Y t="101">0.358560</Y>
+        <Y t="102">0.376699</Y>
+        <Y t="103">0.396884</Y>
+        <Y t="104">0.418855</Y>
+        <Y t="105">0.440585</Y>
+        <Y t="106">0.460043</Y>
+        <Y t="107">0.475200</Y>
+        <Y t="108">0.485670</Y>
+        <Y t="109">0.492807</Y>
+        <Y t="110">0.497189</Y>
+        <Y t="111">0.499394</Y>
+        <Y t="112">0.500000</Y>
+        <Y t="113">0.500000</Y>
+        <Y t="114">0.500000</Y>
+        <Y t="115">0.500000</Y>
+        <Y t="116">0.500000</Y>
+        <Y t="117">0.500000</Y>
+        <Y t="118">0.500000</Y>
+        <Y t="119">0.500000</Y>
+        <Y t="120">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>961</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Central Bureau of Statistics - Centraal Bureau voor de Statistiek. Reprinted by A.S. MacDonald, "The Second Actuarial Study of Mortality in Europe", Groupe Consultatif des Associations d’Actuaries des Pays Des Communautés Européennes (United Kingdom, 1997) Appendix. Accessed: February, 2013 from http://www.gcactuaries.org/documents/mortalitystudy1997.zip</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>GBV 1961-65</TableName>
+    <TableDescription>Gehele Bevolking Vrouwen (GBV) 1961-65. Minimum Age: 50. Maximum Age: 89</TableDescription>
+    <Comments>Study Data: Statistics Netherlands uses the Municipal Personal Records Databases to calculate quotients directly from observed numbers of deceased and survivors in the period considered. Mortality tables are determined for a period of five years on the basis of these data. In doing so, the number of children in their first year of life is set at 100,000 and, on the basis of observations, the number of persons alive is determined for each subsequent age. The mortality quotients can be derived from this. Although population-based, it is customary for many companies to use these tables for the valuation and pricing of assurance and annuities by way of age adjustments. Methodology: The mortality tables published by Statistics Netherlands show an irregular trend. For actuarial applications, such a trend is undesirable. For this reason, the respective mortality tables are smoothed. For this generation, Makeham formula was employed. Data Transcription Errors: None. Data Certified: 10/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Netherlands</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="31">Netherlands</Nation>
+      <TableDescription>Gehele Bevolking Vrouwen (GBV) 1961-65. Minimum Age: 50. Maximum Age: 89</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>50</MinScaleValue>
+        <MaxScaleValue>89</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="50">0.00359</Y>
+        <Y t="51">0.00387</Y>
+        <Y t="52">0.00423</Y>
+        <Y t="53">0.00462</Y>
+        <Y t="54">0.00491</Y>
+        <Y t="55">0.00536</Y>
+        <Y t="56">0.00598</Y>
+        <Y t="57">0.00659</Y>
+        <Y t="58">0.00726</Y>
+        <Y t="59">0.00796</Y>
+        <Y t="60">0.00878</Y>
+        <Y t="61">0.00982</Y>
+        <Y t="62">0.01108</Y>
+        <Y t="63">0.01248</Y>
+        <Y t="64">0.01398</Y>
+        <Y t="65">0.01586</Y>
+        <Y t="66">0.01782</Y>
+        <Y t="67">0.01966</Y>
+        <Y t="68">0.02213</Y>
+        <Y t="69">0.02511</Y>
+        <Y t="70">0.02822</Y>
+        <Y t="71">0.03154</Y>
+        <Y t="72">0.03525</Y>
+        <Y t="73">0.04001</Y>
+        <Y t="74">0.04540</Y>
+        <Y t="75">0.05092</Y>
+        <Y t="76">0.05713</Y>
+        <Y t="77">0.06445</Y>
+        <Y t="78">0.07179</Y>
+        <Y t="79">0.07981</Y>
+        <Y t="80">0.09022</Y>
+        <Y t="81">0.10070</Y>
+        <Y t="82">0.11118</Y>
+        <Y t="83">0.12239</Y>
+        <Y t="84">0.13451</Y>
+        <Y t="85">0.14821</Y>
+        <Y t="86">0.16298</Y>
+        <Y t="87">0.17724</Y>
+        <Y t="88">0.19183</Y>
+        <Y t="89">0.20753</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

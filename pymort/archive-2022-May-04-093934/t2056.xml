@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2056</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Health Statistics Division of Statistics Canada, “Life Tables, Canada, Provinces and Territories 2000 to 2002”, Statistics Canada, Minister of Industry (Ottawa, 2006) Catalogue no. 84-537-XIE. Accessed: August, 2013 http://www.prdh.umontreal.ca/BDLC/data/pdfs/84-537-XIE_(00-02).pdf Reproduced on an "as is" basis with the permission of Statistics Canada</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Canadian Life Table 2000-02 - Males, ANB</TableName>
+    <TableDescription>Canadian Life Table 2000-02 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+    <Comments>Study Data: Birth and death data by province or territory of residence were compiled by Health Statistics Division, Statistics Canada. These data were extracted from birth and death registrations submitted to Vital Statistics registrars in the province or territory in which the event occurred. Population counts, produced by Demography Division, Statistics Canada, are estimates of the July 1, 2001 population, based on the 2001 Canadian Census of Population. These counts include non-permanent residents, and are adjusted for net census under-coverage. From these sources, the following information was then used: (1) The number of deaths of children aged 0 to 4 years, observed during the 2000 to 2002 period, by single year of age, year of birth and year of death; (2) January 1 population counts, by sex, for the years 2000 to 2003, by single year of age for ages 0 through 4 years; (3) Separation factors at ages 0 to 4 years (4) The number of deaths observed during the 2000 to 2002 period, by single year of age up to 104 years, and a final group of deaths of persons aged 105 and older. (5) The number of deaths of persons aged 87 and older, by single year of age, observed during the 2000 to 2002 period and (6) July 1, 2001 population counts, by individual ages 0-99, and a final age group consisting of persons aged 100 and older. Methodology: All life tables since 1931 (See SOA Table Identities 2042 and 2043) have been computed basically by the same formula: the Pivotal Value Method. As a first step, deaths and populations are graduated by Jenkin’s fifth difference osculatory non-reproducing method at pivotal 5-year intervals by the formula. For ages 7 and 12, a modified formula, developed by George King, based almost entirely on deaths and population at risk in the 5-9 and 10-14 age group, respectively, was used. Then for the complete range of ages from 7 though 87, rates interpolated between pivotal values by a Karup-King third difference tangential formula. Jenkin’s formula is used for the juvenile ages as it produces a smoother curve compared to the Karup-King formula. No adjustments are made for misstatement of age or under registration of deaths. Special handling accorded juvenile ages and older ages. Namely, ages 0 though 5 are taken from birth and death registrations with q(5) bridged to q(6) by a third degree polynomial utilizing Lagrange’s interpolation formula. Further adjustments were made for ages 1-4 to account for the theory that young children dying at that age tend to do so towards the beginning of the of the age interval. For ages 92 and above, “Nagnur’s Equation (14)”, first adopted with the 1965-67 Canada Life Tables (See SOA Table Identities 2048 and 2049) was again used: q(x) = min[4q(x-5) – 6 q(x-10) + 4q(x-15) – q(x-20), 1]. In keeping with the previous set of life tables, (See SOA Table Identities 2054 and 2055) Sirken’s rounding procedure, introduced in “U.S. Decennial Life Tables 1979-81” is used (See SOA Table Identity 517), and the value of qx is not set to 1 for the oldest age published in the complete life tables, but rather is reported as the probability of death estimated for that single year of age. NOTE: Reproduced on an "as is" basis with the permission of Statistics Canada. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canadian Life Table 2000-02 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00577</Y>
+        <Y t="1">0.00035</Y>
+        <Y t="2">0.00021</Y>
+        <Y t="3">0.00021</Y>
+        <Y t="4">0.00020</Y>
+        <Y t="5">0.00017</Y>
+        <Y t="6">0.00013</Y>
+        <Y t="7">0.00009</Y>
+        <Y t="8">0.00008</Y>
+        <Y t="9">0.00008</Y>
+        <Y t="10">0.00010</Y>
+        <Y t="11">0.00010</Y>
+        <Y t="12">0.00015</Y>
+        <Y t="13">0.00023</Y>
+        <Y t="14">0.00034</Y>
+        <Y t="15">0.00046</Y>
+        <Y t="16">0.00057</Y>
+        <Y t="17">0.00066</Y>
+        <Y t="18">0.00072</Y>
+        <Y t="19">0.00078</Y>
+        <Y t="20">0.00082</Y>
+        <Y t="21">0.00085</Y>
+        <Y t="22">0.00087</Y>
+        <Y t="23">0.00087</Y>
+        <Y t="24">0.00085</Y>
+        <Y t="25">0.00083</Y>
+        <Y t="26">0.00081</Y>
+        <Y t="27">0.00080</Y>
+        <Y t="28">0.00082</Y>
+        <Y t="29">0.00084</Y>
+        <Y t="30">0.00088</Y>
+        <Y t="31">0.00091</Y>
+        <Y t="32">0.00096</Y>
+        <Y t="33">0.00100</Y>
+        <Y t="34">0.00105</Y>
+        <Y t="35">0.00110</Y>
+        <Y t="36">0.00116</Y>
+        <Y t="37">0.00123</Y>
+        <Y t="38">0.00132</Y>
+        <Y t="39">0.00141</Y>
+        <Y t="40">0.00152</Y>
+        <Y t="41">0.00164</Y>
+        <Y t="42">0.00178</Y>
+        <Y t="43">0.00195</Y>
+        <Y t="44">0.00213</Y>
+        <Y t="45">0.00233</Y>
+        <Y t="46">0.00255</Y>
+        <Y t="47">0.00279</Y>
+        <Y t="48">0.00304</Y>
+        <Y t="49">0.00331</Y>
+        <Y t="50">0.00360</Y>
+        <Y t="51">0.00394</Y>
+        <Y t="52">0.00434</Y>
+        <Y t="53">0.00481</Y>
+        <Y t="54">0.00533</Y>
+        <Y t="55">0.00590</Y>
+        <Y t="56">0.00654</Y>
+        <Y t="57">0.00726</Y>
+        <Y t="58">0.00805</Y>
+        <Y t="59">0.00890</Y>
+        <Y t="60">0.00982</Y>
+        <Y t="61">0.01085</Y>
+        <Y t="62">0.01198</Y>
+        <Y t="63">0.01321</Y>
+        <Y t="64">0.01451</Y>
+        <Y t="65">0.01593</Y>
+        <Y t="66">0.01752</Y>
+        <Y t="67">0.01930</Y>
+        <Y t="68">0.02124</Y>
+        <Y t="69">0.02329</Y>
+        <Y t="70">0.02555</Y>
+        <Y t="71">0.02810</Y>
+        <Y t="72">0.03104</Y>
+        <Y t="73">0.03429</Y>
+        <Y t="74">0.03779</Y>
+        <Y t="75">0.04165</Y>
+        <Y t="76">0.04599</Y>
+        <Y t="77">0.05091</Y>
+        <Y t="78">0.05631</Y>
+        <Y t="79">0.06210</Y>
+        <Y t="80">0.06846</Y>
+        <Y t="81">0.07555</Y>
+        <Y t="82">0.08353</Y>
+        <Y t="83">0.09214</Y>
+        <Y t="84">0.10129</Y>
+        <Y t="85">0.11135</Y>
+        <Y t="86">0.12268</Y>
+        <Y t="87">0.13566</Y>
+        <Y t="88">0.15005</Y>
+        <Y t="89">0.16558</Y>
+        <Y t="90">0.18264</Y>
+        <Y t="91">0.20160</Y>
+        <Y t="92">0.22283</Y>
+        <Y t="93">0.22086</Y>
+        <Y t="94">0.23867</Y>
+        <Y t="95">0.25754</Y>
+        <Y t="96">0.27751</Y>
+        <Y t="97">0.29858</Y>
+        <Y t="98">0.32077</Y>
+        <Y t="99">0.34406</Y>
+        <Y t="100">0.36846</Y>
+        <Y t="101">0.39396</Y>
+        <Y t="102">0.42053</Y>
+        <Y t="103">0.44815</Y>
+        <Y t="104">0.47678</Y>
+        <Y t="105">0.50637</Y>
+        <Y t="106">0.53687</Y>
+        <Y t="107">0.56822</Y>
+        <Y t="108">0.60036</Y>
+        <Y t="109">0.63320</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

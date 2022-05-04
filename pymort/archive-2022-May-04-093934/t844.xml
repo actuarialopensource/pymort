@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>844</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Steve Lindblad</ProviderName>
+    <TableReference>Donna Prestia, “IRS Revenue Ruling 95-6, Applicable Mortality Table to be Used Under IRC Sections 415 and 416 Amended by Uruguay Round Agreements Act”, BNA Pension &amp; Benefits Reporter Vol. 22, (Washington, 1995), p. 114-115.</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1983 GATT - Unisex</TableName>
+    <TableDescription>1983 General Agreement on Tariffs and Trade (GATT) Mortality Table – Unisex. Minimum Age: 5 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: The U.S. Supreme Court, in Arizona vs. Norris, held that the application of sex distinct actuarial tables to employees based upon their gender in calculating the amount of retirement benefits violates Title VII of the Civil Rights Act of 1964. To comply with the Norris decision,  The General Agreement on Tariffs and Trade (GATT) legislation of 1994 amended the Internal Revenue Code (IRC) to require the use of a specific mortality table for purposes of adjusting pension plan benefit limitations under IRC Section 415(b)(2) and for determining minimum lump sum cash-outs under Section 417(e). The law specifies that the table is to be based on the table used to determine reserves for group annuity contracts, which at the time was the 1983 Group Annuity Mortality Table (See SOA Table Identities 825 and 826).  As the 1983 GAM consists of sex-based tables and pension plan benefits must be determined on a unisex basis, the Internal Revenue Service (IRS) provided guidance in Revenue Ruling 95-6 on the exact mortality rates to be used. Methodology: Table based on a fixed blend of 50 percent of the male mortality rates and 50 percent of the female mortality rates from the 1983 GAM tables. Data Transcription Errors: None. Data Certified: 02/2013.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1983 General Agreement on Tariffs and Trade (GATT) Mortality Table – Unisex. Minimum Age: 5 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000257</Y>
+        <Y t="6">0.000229</Y>
+        <Y t="7">0.000210</Y>
+        <Y t="8">0.000199</Y>
+        <Y t="9">0.000195</Y>
+        <Y t="10">0.000195</Y>
+        <Y t="11">0.000201</Y>
+        <Y t="12">0.000209</Y>
+        <Y t="13">0.000216</Y>
+        <Y t="14">0.000224</Y>
+        <Y t="15">0.000233</Y>
+        <Y t="16">0.000241</Y>
+        <Y t="17">0.000251</Y>
+        <Y t="18">0.000261</Y>
+        <Y t="19">0.000272</Y>
+        <Y t="20">0.000283</Y>
+        <Y t="21">0.000297</Y>
+        <Y t="22">0.000310</Y>
+        <Y t="23">0.000325</Y>
+        <Y t="24">0.000341</Y>
+        <Y t="25">0.000359</Y>
+        <Y t="26">0.000378</Y>
+        <Y t="27">0.000398</Y>
+        <Y t="28">0.000422</Y>
+        <Y t="29">0.000446</Y>
+        <Y t="30">0.000475</Y>
+        <Y t="31">0.000505</Y>
+        <Y t="32">0.000538</Y>
+        <Y t="33">0.000574</Y>
+        <Y t="34">0.000614</Y>
+        <Y t="35">0.000668</Y>
+        <Y t="36">0.000705</Y>
+        <Y t="37">0.000751</Y>
+        <Y t="38">0.000806</Y>
+        <Y t="39">0.000873</Y>
+        <Y t="40">0.000952</Y>
+        <Y t="41">0.001043</Y>
+        <Y t="42">0.001151</Y>
+        <Y t="43">0.001278</Y>
+        <Y t="44">0.001426</Y>
+        <Y t="45">0.001597</Y>
+        <Y t="46">0.001794</Y>
+        <Y t="47">0.002014</Y>
+        <Y t="48">0.002252</Y>
+        <Y t="49">0.002509</Y>
+        <Y t="50">0.002778</Y>
+        <Y t="51">0.003059</Y>
+        <Y t="52">0.003352</Y>
+        <Y t="53">0.003659</Y>
+        <Y t="54">0.003988</Y>
+        <Y t="55">0.004336</Y>
+        <Y t="56">0.004711</Y>
+        <Y t="57">0.005121</Y>
+        <Y t="58">0.005581</Y>
+        <Y t="59">0.006103</Y>
+        <Y t="60">0.006700</Y>
+        <Y t="61">0.007383</Y>
+        <Y t="62">0.008172</Y>
+        <Y t="63">0.009080</Y>
+        <Y t="64">0.010127</Y>
+        <Y t="65">0.011328</Y>
+        <Y t="66">0.012698</Y>
+        <Y t="67">0.014242</Y>
+        <Y t="68">0.015966</Y>
+        <Y t="69">0.017869</Y>
+        <Y t="70">0.019958</Y>
+        <Y t="71">0.022241</Y>
+        <Y t="72">0.024765</Y>
+        <Y t="73">0.027581</Y>
+        <Y t="74">0.030740</Y>
+        <Y t="75">0.034295</Y>
+        <Y t="76">0.038286</Y>
+        <Y t="77">0.042715</Y>
+        <Y t="78">0.047569</Y>
+        <Y t="79">0.052837</Y>
+        <Y t="80">0.058508</Y>
+        <Y t="81">0.064570</Y>
+        <Y t="82">0.071006</Y>
+        <Y t="83">0.077798</Y>
+        <Y t="84">0.084927</Y>
+        <Y t="85">0.092377</Y>
+        <Y t="86">0.100370</Y>
+        <Y t="87">0.108870</Y>
+        <Y t="88">0.118004</Y>
+        <Y t="89">0.128107</Y>
+        <Y t="90">0.139029</Y>
+        <Y t="91">0.150645</Y>
+        <Y t="92">0.163045</Y>
+        <Y t="93">0.176292</Y>
+        <Y t="94">0.191504</Y>
+        <Y t="95">0.208253</Y>
+        <Y t="96">0.225097</Y>
+        <Y t="97">0.242999</Y>
+        <Y t="98">0.262351</Y>
+        <Y t="99">0.283670</Y>
+        <Y t="100">0.307186</Y>
+        <Y t="101">0.333156</Y>
+        <Y t="102">0.361975</Y>
+        <Y t="103">0.394472</Y>
+        <Y t="104">0.432808</Y>
+        <Y t="105">0.478674</Y>
+        <Y t="106">0.533916</Y>
+        <Y t="107">0.600414</Y>
+        <Y t="108">0.680076</Y>
+        <Y t="109">0.774845</Y>
+        <Y t="110">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

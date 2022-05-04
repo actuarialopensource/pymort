@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>60013</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Hangs Wagner</ProviderName>
+    <TableReference>G. H. Knibbs, “Census of the Commonwealth of Australia, Part XI – Life Tables”, Commonwealth Bureau of Census and Statistics, McCarron, Bird &amp; Co. Printers (Melbourne, 1914). Accessed: March, 2014 from http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/2112.01911?OpenDocument</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Australian Life Tables 1901-10 Male</TableName>
+    <TableDescription>Australian Life Tables 1901-10 Male. Minimum Age: 0. Maximum Age: 104</TableDescription>
+    <Comments>Study Data: There are two modes of referring to population, one depending on domicile and the other upon actual location, at the time of the census. The former is known as a “de jure’ enumeration while the latter is known as a “de facto” enumeration. The Australian census utilizes the “de facto” approach as employed by the censuses of the whole British Empire, except in Canada, where the" de jure" system has been adopted. Methodology: Data tabulated from individual schedules. Electrical tabulating machines, such as that used for the 1880 census of the United States by Dr. Herman Hollerith, were not employed as they necessitate the preliminary punching of a special card for each individual. Delay is thus caused in the tabulation of results and although hit would appear that the cost of tabulation is reduced by the use of mechanical devices, the early publication of the more important census results was considered, after due deliberation, to be in Australia of paramount importance. After manual tabulation it was found that roughly 5.36 per 1000 males and 5.13 per 1000 females were of unspecified age. These individuals were proportionally allocated. Although somewhat arbitrary, such an assumption furnishes results that are probably not very wide of the truth. Results obtain from tabulations furnished indications of tendencies to misstate ages in such a way as to give unreasonable accumulations at ages ending in 0 and 5. With a view to obtaining results which are more nearly in accord with the actual facts than are the tabulated replies, a process of smoothing was applied to the figures for each sex. Rates were graphed on cross-ruled paper onto which a curve was then drawn. First differences of the readings was then prepared. Where these results indicated that the curve had, over a given range, been taken too low or too high, or that the sweep of the curve was less regular than was desirable, the necessary adjustments were made in the readings, and the resulting deviations were tested. By these means, adjustments of the original observations were obtained which conform closely to the two principal requisites of a good graduation (resulting curve exhibits a reasonable degree of smoothness and satisfactorily fits original data).Data Transcription Errors: None. Data Certified: 03/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Australia</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="61">Australia</Nation>
+      <TableDescription>Australian Life Tables 1901-10 Male. Minimum Age: 0. Maximum Age: 104</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>104</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.09510</Y>
+        <Y t="1">0.01780</Y>
+        <Y t="2">0.00675</Y>
+        <Y t="3">0.00439</Y>
+        <Y t="4">0.00349</Y>
+        <Y t="5">0.00281</Y>
+        <Y t="6">0.00235</Y>
+        <Y t="7">0.00209</Y>
+        <Y t="8">0.00196</Y>
+        <Y t="9">0.00184</Y>
+        <Y t="10">0.00179</Y>
+        <Y t="11">0.00179</Y>
+        <Y t="12">0.00184</Y>
+        <Y t="13">0.00198</Y>
+        <Y t="14">0.00225</Y>
+        <Y t="15">0.00255</Y>
+        <Y t="16">0.00281</Y>
+        <Y t="17">0.00303</Y>
+        <Y t="18">0.00331</Y>
+        <Y t="19">0.00349</Y>
+        <Y t="20">0.00370</Y>
+        <Y t="21">0.00391</Y>
+        <Y t="22">0.00404</Y>
+        <Y t="23">0.00418</Y>
+        <Y t="24">0.00434</Y>
+        <Y t="25">0.00448</Y>
+        <Y t="26">0.00464</Y>
+        <Y t="27">0.00478</Y>
+        <Y t="28">0.00494</Y>
+        <Y t="29">0.00503</Y>
+        <Y t="30">0.00519</Y>
+        <Y t="31">0.00540</Y>
+        <Y t="32">0.00558</Y>
+        <Y t="33">0.00579</Y>
+        <Y t="34">0.00604</Y>
+        <Y t="35">0.00633</Y>
+        <Y t="36">0.00663</Y>
+        <Y t="37">0.00698</Y>
+        <Y t="38">0.00736</Y>
+        <Y t="39">0.00778</Y>
+        <Y t="40">0.00816</Y>
+        <Y t="41">0.00860</Y>
+        <Y t="42">0.00910</Y>
+        <Y t="43">0.00965</Y>
+        <Y t="44">0.01024</Y>
+        <Y t="45">0.01083</Y>
+        <Y t="46">0.01142</Y>
+        <Y t="47">0.01204</Y>
+        <Y t="48">0.01261</Y>
+        <Y t="49">0.01327</Y>
+        <Y t="50">0.01395</Y>
+        <Y t="51">0.01463</Y>
+        <Y t="52">0.01538</Y>
+        <Y t="53">0.01622</Y>
+        <Y t="54">0.01714</Y>
+        <Y t="55">0.01816</Y>
+        <Y t="56">0.01934</Y>
+        <Y t="57">0.02071</Y>
+        <Y t="58">0.02229</Y>
+        <Y t="59">0.02400</Y>
+        <Y t="60">0.02584</Y>
+        <Y t="61">0.02788</Y>
+        <Y t="62">0.03012</Y>
+        <Y t="63">0.03257</Y>
+        <Y t="64">0.03537</Y>
+        <Y t="65">0.03859</Y>
+        <Y t="66">0.04230</Y>
+        <Y t="67">0.04644</Y>
+        <Y t="68">0.05106</Y>
+        <Y t="69">0.05611</Y>
+        <Y t="70">0.06162</Y>
+        <Y t="71">0.06760</Y>
+        <Y t="72">0.07415</Y>
+        <Y t="73">0.08122</Y>
+        <Y t="74">0.08862</Y>
+        <Y t="75">0.09610</Y>
+        <Y t="76">0.10369</Y>
+        <Y t="77">0.11158</Y>
+        <Y t="78">0.11988</Y>
+        <Y t="79">0.12868</Y>
+        <Y t="80">0.13795</Y>
+        <Y t="81">0.14774</Y>
+        <Y t="82">0.15876</Y>
+        <Y t="83">0.17091</Y>
+        <Y t="84">0.18366</Y>
+        <Y t="85">0.19701</Y>
+        <Y t="86">0.21092</Y>
+        <Y t="87">0.22573</Y>
+        <Y t="88">0.24182</Y>
+        <Y t="89">0.25907</Y>
+        <Y t="90">0.27736</Y>
+        <Y t="91">0.29660</Y>
+        <Y t="92">0.31672</Y>
+        <Y t="93">0.33757</Y>
+        <Y t="94">0.35907</Y>
+        <Y t="95">0.38111</Y>
+        <Y t="96">0.40360</Y>
+        <Y t="97">0.42641</Y>
+        <Y t="98">0.44946</Y>
+        <Y t="99">0.48002</Y>
+        <Y t="100">0.52536</Y>
+        <Y t="101">0.59275</Y>
+        <Y t="102">0.68946</Y>
+        <Y t="103">0.82276</Y>
+        <Y t="104">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

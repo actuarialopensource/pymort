@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>588</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>National Center for Health Statistics, "U. S. Decennial Life Tables for 1989-91", Vol. 1, No. 1, DHHS Publication No. PHS-98-1150-1 (Washington, 1995). Accessed: July, 2013 from http://www.cdc.gov/nchs/data/lifetables/life89_1_1.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>U.S. Life Tables 1989-91 – Females, ANB</TableName>
+    <TableDescription>United States (U.S.) Life Tables 1989-91 – Females. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+    <Comments>Study Data: With the exception of those for ages 95 years and over (and to a lesser extent those for ages 85–94 years), the death rates were calculated using data from the1990 Census of Population and deaths occurring in the United States to residents of the United States in the 3 years 1989–91. Unlike a generation life table, this table considers a hypothetical cohort and assumes that it is subject throughout its existence to the age-specific mortality rates observed for an actual population during a particular period of relatively short duration. Sometimes the observed death rates do not meet certain well established criteria. The 1989–91 decennial life tables needed some minor adjustments for (1) males other than white at ages 5–14 years; (2) for black males at ages 10–19 years; (3) for white females at ages 15–24 years; (4) for females other than white at ages 5–19 years, and (5) for black females at ages 5–14 years. The death rates for white males did not require any adjustments. Methodology: The general methodology, with a few modifications, used in preparing these life tables was developed by Thomas N. E. Greville for the 1939–41 decennial life tables (See SOA Table Identity 530). Data Transcription Errors Detected: 07/2013. Data Corrected and Certified: 07/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Healthy Lives mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>United States (U.S.) Life Tables 1989-91 – Females. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 109</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>109</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00828</Y>
+        <Y t="1">0.00068</Y>
+        <Y t="2">0.00042</Y>
+        <Y t="3">0.00032</Y>
+        <Y t="4">0.00025</Y>
+        <Y t="5">0.00024</Y>
+        <Y t="6">0.00021</Y>
+        <Y t="7">0.00019</Y>
+        <Y t="8">0.00017</Y>
+        <Y t="9">0.00016</Y>
+        <Y t="10">0.00015</Y>
+        <Y t="11">0.00015</Y>
+        <Y t="12">0.00018</Y>
+        <Y t="13">0.00022</Y>
+        <Y t="14">0.00028</Y>
+        <Y t="15">0.00035</Y>
+        <Y t="16">0.00041</Y>
+        <Y t="17">0.00046</Y>
+        <Y t="18">0.00049</Y>
+        <Y t="19">0.00050</Y>
+        <Y t="20">0.00052</Y>
+        <Y t="21">0.00054</Y>
+        <Y t="22">0.00056</Y>
+        <Y t="23">0.00057</Y>
+        <Y t="24">0.00058</Y>
+        <Y t="25">0.00059</Y>
+        <Y t="26">0.00060</Y>
+        <Y t="27">0.00062</Y>
+        <Y t="28">0.00066</Y>
+        <Y t="29">0.00070</Y>
+        <Y t="30">0.00075</Y>
+        <Y t="31">0.00080</Y>
+        <Y t="32">0.00085</Y>
+        <Y t="33">0.00090</Y>
+        <Y t="34">0.00095</Y>
+        <Y t="35">0.00101</Y>
+        <Y t="36">0.00107</Y>
+        <Y t="37">0.00115</Y>
+        <Y t="38">0.00123</Y>
+        <Y t="39">0.00132</Y>
+        <Y t="40">0.00142</Y>
+        <Y t="41">0.00153</Y>
+        <Y t="42">0.00166</Y>
+        <Y t="43">0.00180</Y>
+        <Y t="44">0.00198</Y>
+        <Y t="45">0.00218</Y>
+        <Y t="46">0.00242</Y>
+        <Y t="47">0.00268</Y>
+        <Y t="48">0.00295</Y>
+        <Y t="49">0.00324</Y>
+        <Y t="50">0.00356</Y>
+        <Y t="51">0.00394</Y>
+        <Y t="52">0.00434</Y>
+        <Y t="53">0.00476</Y>
+        <Y t="54">0.00520</Y>
+        <Y t="55">0.00566</Y>
+        <Y t="56">0.00618</Y>
+        <Y t="57">0.00677</Y>
+        <Y t="58">0.00745</Y>
+        <Y t="59">0.00819</Y>
+        <Y t="60">0.00895</Y>
+        <Y t="61">0.00972</Y>
+        <Y t="62">0.01055</Y>
+        <Y t="63">0.01146</Y>
+        <Y t="64">0.01244</Y>
+        <Y t="65">0.01348</Y>
+        <Y t="66">0.01456</Y>
+        <Y t="67">0.01574</Y>
+        <Y t="68">0.01709</Y>
+        <Y t="69">0.01865</Y>
+        <Y t="70">0.02042</Y>
+        <Y t="71">0.02239</Y>
+        <Y t="72">0.02457</Y>
+        <Y t="73">0.02688</Y>
+        <Y t="74">0.02930</Y>
+        <Y t="75">0.03181</Y>
+        <Y t="76">0.03456</Y>
+        <Y t="77">0.03772</Y>
+        <Y t="78">0.04151</Y>
+        <Y t="79">0.04599</Y>
+        <Y t="80">0.05106</Y>
+        <Y t="81">0.05659</Y>
+        <Y t="82">0.06265</Y>
+        <Y t="83">0.06919</Y>
+        <Y t="84">0.07631</Y>
+        <Y t="85">0.08446</Y>
+        <Y t="86">0.09376</Y>
+        <Y t="87">0.10379</Y>
+        <Y t="88">0.11442</Y>
+        <Y t="89">0.12590</Y>
+        <Y t="90">0.13918</Y>
+        <Y t="91">0.15417</Y>
+        <Y t="92">0.16951</Y>
+        <Y t="93">0.18440</Y>
+        <Y t="94">0.19922</Y>
+        <Y t="95">0.21475</Y>
+        <Y t="96">0.23143</Y>
+        <Y t="97">0.24775</Y>
+        <Y t="98">0.26375</Y>
+        <Y t="99">0.27957</Y>
+        <Y t="100">0.29635</Y>
+        <Y t="101">0.31413</Y>
+        <Y t="102">0.33298</Y>
+        <Y t="103">0.35296</Y>
+        <Y t="104">0.37413</Y>
+        <Y t="105">0.39658</Y>
+        <Y t="106">0.42038</Y>
+        <Y t="107">0.44560</Y>
+        <Y t="108">0.47233</Y>
+        <Y t="109">0.50068</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

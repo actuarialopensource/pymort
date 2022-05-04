@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XTbML>
+	<ContentClassification>
+		<TableIdentity>920</TableIdentity>
+		<ProviderDomain>soa.org</ProviderDomain>
+		<ProviderName>Roger Scott Lumsden</ProviderName>
+		<TableReference>Committee on Annuities, “Development of the 1983 Group Annuity Mortality Table”, Transaction of the Society of Actuaries Vol. XXXV, (1983) Table 20. Accessed: March, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1983/January/tsa83v3527.pdf</TableReference>
+		<ContentType tc="22">Projection Scale</ContentType>
+		<TableName>Projection Scale Z - Female</TableName>
+		<TableDescription>Mortality Improvement Projection Scale Z – Female. Minimum Age: 5 Maximum Age: 110</TableDescription>
+		<Comments>Study Data: Developed in conjunction with the 1983 Group Annuity Mortality (GAM) Tables (See SOA Table Identities 825 &amp; 826). Methodology: Developed by formula using Projection Scale X (See SOA Table Identities 916 and 917) and Projection Scale Y (See SOA Table Identities 918 and 919) as follows: Z = 1 – [ (1 – X) ^9 (1 – Y)^8]^(1/17).  After application of the formula, resulting rates reviewed for consistency and smoothness.Linear interpolation is used to develop values for the ages between those shown. In addition, values above age 100 are the same as the rate for age 100. Data Transcription Errors: None. Data Certified: 04/2013</Comments>
+		<KeyWord>Aggregate</KeyWord>
+		<KeyWord>Projection scale</KeyWord>
+		<KeyWord>United States of America</KeyWord>
+	</ContentClassification>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>Mortality Improvement Projection Scale Z – Female. Minimum Age: 5 Maximum Age: 110</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>5</MinScaleValue>
+				<MaxScaleValue>110</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis>
+				<Y t="5">0.00000</Y><Y t="6">0.00000</Y><Y t="7">0.00000</Y><Y t="8">0.00000</Y><Y t="9">0.00000</Y><Y t="10">0.00000</Y><Y t="11">0.00054</Y><Y t="12">0.00108</Y><Y t="13">0.00162</Y><Y t="14">0.00216</Y><Y t="15">0.00270</Y><Y t="16">0.00296</Y><Y t="17">0.00322</Y><Y t="18">0.00348</Y><Y t="19">0.00374</Y><Y t="20">0.00400</Y><Y t="21">0.00426</Y><Y t="22">0.00452</Y><Y t="23">0.00478</Y><Y t="24">0.00504</Y><Y t="25">0.00530</Y><Y t="26">0.00624</Y><Y t="27">0.00718</Y><Y t="28">0.00812</Y><Y t="29">0.00906</Y><Y t="30">0.01000</Y><Y t="31">0.01242</Y><Y t="32">0.01484</Y><Y t="33">0.01726</Y><Y t="34">0.01968</Y><Y t="35">0.02210</Y><Y t="36">0.02220</Y><Y t="37">0.02230</Y><Y t="38">0.02240</Y><Y t="39">0.02250</Y><Y t="40">0.02260</Y><Y t="41">0.02260</Y><Y t="42">0.02260</Y><Y t="43">0.02260</Y><Y t="44">0.02260</Y><Y t="45">0.02260</Y><Y t="46">0.02166</Y><Y t="47">0.02072</Y><Y t="48">0.01978</Y><Y t="49">0.01884</Y><Y t="50">0.01790</Y><Y t="51">0.01790</Y><Y t="52">0.01790</Y><Y t="53">0.01790</Y><Y t="54">0.01790</Y><Y t="55">0.01790</Y><Y t="56">0.01790</Y><Y t="57">0.01790</Y><Y t="58">0.01790</Y><Y t="59">0.01790</Y><Y t="60">0.01790</Y><Y t="61">0.01832</Y><Y t="62">0.01874</Y><Y t="63">0.01916</Y><Y t="64">0.01958</Y><Y t="65">0.02000</Y><Y t="66">0.02000</Y><Y t="67">0.02000</Y><Y t="68">0.02000</Y><Y t="69">0.02000</Y><Y t="70">0.02000</Y><Y t="71">0.02000</Y><Y t="72">0.02000</Y><Y t="73">0.02000</Y><Y t="74">0.02000</Y><Y t="75">0.02000</Y><Y t="76">0.01950</Y><Y t="77">0.01900</Y><Y t="78">0.01850</Y><Y t="79">0.01800</Y><Y t="80">0.01750</Y><Y t="81">0.01704</Y><Y t="82">0.01658</Y><Y t="83">0.01612</Y><Y t="84">0.01566</Y><Y t="85">0.01520</Y><Y t="86">0.01496</Y><Y t="87">0.01472</Y><Y t="88">0.01448</Y><Y t="89">0.01424</Y><Y t="90">0.01400</Y><Y t="91">0.01320</Y><Y t="92">0.01240</Y><Y t="93">0.01160</Y><Y t="94">0.01080</Y><Y t="95">0.01000</Y><Y t="96">0.00900</Y><Y t="97">0.00800</Y><Y t="98">0.00700</Y><Y t="99">0.00600</Y><Y t="100">0.00500</Y><Y t="101">0.00500</Y><Y t="102">0.00500</Y><Y t="103">0.00500</Y><Y t="104">0.00500</Y><Y t="105">0.00500</Y><Y t="106">0.00500</Y><Y t="107">0.00500</Y><Y t="108">0.00500</Y><Y t="109">0.00500</Y><Y t="110">0.00500</Y>
+			</Axis>
+		</Values>
+	</Table>
+</XTbML>

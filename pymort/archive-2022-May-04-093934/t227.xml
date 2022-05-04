@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>227</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>John S. Brake</ProviderName>
+    <TableReference>Ayyar V Sesha, “Mortality of Assured Lives in India, 1970-73 Investigations”, Life Insurance Corporation of India (1974). Reprinted J.R. Joshi and L. P. Venkataraman, “Mortality of Indian Assured Lives”, Economic and Political Weekly, Vol. 15, No. 35 (1980). Accessed: April, 2014 from http://www.jstor.org/stable/4369019</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>LIC (1970-73)</TableName>
+    <TableDescription>Life Insurance Corporation of India (LIC) 1970-73. Minimum Age: 20 Maximum Age: 100</TableDescription>
+    <Comments>Study Data: After nationalization of life insurance business and formation of the Life Insurance Corporation of India, mortality investigations were launched on a regular basis. The first of these studies was for the period 1961-64 (See SOA Table Identity 2744). The second study covers the period of investigation 1970-73 and employed the same method of collection of data as the prior study. As it was believed that some errors crept into the 1961-64 data and the results henceforth deemed less reliable, extra steps were taken with the 1970-73 study to ensure accuracy of the data received in order to avoid omission of deaths. Methodology: There was only adequate data to construct a standard mortality table from the experience of male medically examined lived accepted at ordinary rates under Whole Life and Endowment Assurances; both participating and non-participating basis. Attempts were made to graduate the observed mortality rates by a mathematical formula but a satisfactory fit could not be found. Hence observed rates of mortality were graduated by reference to a Standard Mortality Table, in this case the LIC (1961-64). Data Transcription Errors: None. Data Certified: 04/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>India</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Life Insurance Corporation of India (LIC) 1970-73. Minimum Age: 20 Maximum Age: 100</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.00130</Y>
+        <Y t="21">0.00129</Y>
+        <Y t="22">0.00129</Y>
+        <Y t="23">0.00128</Y>
+        <Y t="24">0.00128</Y>
+        <Y t="25">0.00128</Y>
+        <Y t="26">0.00127</Y>
+        <Y t="27">0.00127</Y>
+        <Y t="28">0.00129</Y>
+        <Y t="29">0.00131</Y>
+        <Y t="30">0.00134</Y>
+        <Y t="31">0.00139</Y>
+        <Y t="32">0.00146</Y>
+        <Y t="33">0.00155</Y>
+        <Y t="34">0.00165</Y>
+        <Y t="35">0.00178</Y>
+        <Y t="36">0.00193</Y>
+        <Y t="37">0.00211</Y>
+        <Y t="38">0.00231</Y>
+        <Y t="39">0.00254</Y>
+        <Y t="40">0.00280</Y>
+        <Y t="41">0.00309</Y>
+        <Y t="42">0.00342</Y>
+        <Y t="43">0.00379</Y>
+        <Y t="44">0.00420</Y>
+        <Y t="45">0.00465</Y>
+        <Y t="46">0.00515</Y>
+        <Y t="47">0.00570</Y>
+        <Y t="48">0.00631</Y>
+        <Y t="49">0.00698</Y>
+        <Y t="50">0.00772</Y>
+        <Y t="51">0.00852</Y>
+        <Y t="52">0.00941</Y>
+        <Y t="53">0.01037</Y>
+        <Y t="54">0.01143</Y>
+        <Y t="55">0.01258</Y>
+        <Y t="56">0.01384</Y>
+        <Y t="57">0.01522</Y>
+        <Y t="58">0.01672</Y>
+        <Y t="59">0.01836</Y>
+        <Y t="60">0.02014</Y>
+        <Y t="61">0.02208</Y>
+        <Y t="62">0.02419</Y>
+        <Y t="63">0.02648</Y>
+        <Y t="64">0.02895</Y>
+        <Y t="65">0.03163</Y>
+        <Y t="66">0.03454</Y>
+        <Y t="67">0.03767</Y>
+        <Y t="68">0.04107</Y>
+        <Y t="69">0.04473</Y>
+        <Y t="70">0.04867</Y>
+        <Y t="71">0.05292</Y>
+        <Y t="72">0.05749</Y>
+        <Y t="73">0.06240</Y>
+        <Y t="74">0.06766</Y>
+        <Y t="75">0.07329</Y>
+        <Y t="76">0.07932</Y>
+        <Y t="77">0.08576</Y>
+        <Y t="78">0.09264</Y>
+        <Y t="79">0.09995</Y>
+        <Y t="80">0.10773</Y>
+        <Y t="81">0.11599</Y>
+        <Y t="82">0.12473</Y>
+        <Y t="83">0.13397</Y>
+        <Y t="84">0.14372</Y>
+        <Y t="85">0.15398</Y>
+        <Y t="86">0.16475</Y>
+        <Y t="87">0.17603</Y>
+        <Y t="88">0.18779</Y>
+        <Y t="89">0.20001</Y>
+        <Y t="90">0.21269</Y>
+        <Y t="91">0.22523</Y>
+        <Y t="92">0.24032</Y>
+        <Y t="93">0.25520</Y>
+        <Y t="94">0.27039</Y>
+        <Y t="95">0.28588</Y>
+        <Y t="96">0.30149</Y>
+        <Y t="97">0.31713</Y>
+        <Y t="98">0.33261</Y>
+        <Y t="99">0.34772</Y>
+        <Y t="100">0.36221</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

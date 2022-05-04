@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2919</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Frank Sanderson, “Mortality Experience of the Canada Life Assurance Company from 1847 to 1893”, Times Printing Company, (Ontario, 1895). Accessed: August, 2014 from http://archive.org/stream/mortalityexperie00canauoft/mortalityexperie00canauoft_djvu.txt</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Canada Life Experience Table</TableName>
+    <TableDescription>Canada Life Experience Table. Minimum Age: 20 Maximum Age: 102</TableDescription>
+    <Comments>Study Data: Data from the Canada Life Assurance Company from its inception in 1847 to the year 1893. Study represents the first investigation undertaken in the Dominion of Canada. Exposures rated-up were excluded. Female lives were few in number, and also excluded. Experience based on lives rather than amounts due to the number of observations being not large. However, while the number of lives (296,481) is not large, the period over which the observations extend is such as to make the results of special value. Methodology: Graduation by Makeham’s model, with modifications by King and Hardy, adopted after employment of Woolhouse’s or Higham’s formula showed slight irregularities at the extremities of the table. A second graduated table, with the first five policy years excluded, was also produced (See SOA Table Identity 2920). Data Transcription Errors: None. Data Certified: 08/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives Mortality</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canada Life Experience Table. Minimum Age: 20 Maximum Age: 102</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>102</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.004627</Y>
+        <Y t="21">0.004665</Y>
+        <Y t="22">0.004706</Y>
+        <Y t="23">0.004752</Y>
+        <Y t="24">0.004803</Y>
+        <Y t="25">0.004858</Y>
+        <Y t="26">0.004920</Y>
+        <Y t="27">0.004987</Y>
+        <Y t="28">0.005062</Y>
+        <Y t="29">0.005144</Y>
+        <Y t="30">0.005235</Y>
+        <Y t="31">0.005335</Y>
+        <Y t="32">0.005445</Y>
+        <Y t="33">0.005567</Y>
+        <Y t="34">0.005702</Y>
+        <Y t="35">0.005850</Y>
+        <Y t="36">0.006013</Y>
+        <Y t="37">0.006193</Y>
+        <Y t="38">0.006391</Y>
+        <Y t="39">0.006610</Y>
+        <Y t="40">0.006852</Y>
+        <Y t="41">0.007118</Y>
+        <Y t="42">0.007410</Y>
+        <Y t="43">0.007735</Y>
+        <Y t="44">0.008091</Y>
+        <Y t="45">0.008484</Y>
+        <Y t="46">0.008918</Y>
+        <Y t="47">0.009396</Y>
+        <Y t="48">0.009922</Y>
+        <Y t="49">0.010503</Y>
+        <Y t="50">0.011143</Y>
+        <Y t="51">0.011840</Y>
+        <Y t="52">0.012626</Y>
+        <Y t="53">0.013482</Y>
+        <Y t="54">0.014426</Y>
+        <Y t="55">0.015466</Y>
+        <Y t="56">0.016612</Y>
+        <Y t="57">0.017874</Y>
+        <Y t="58">0.019264</Y>
+        <Y t="59">0.020792</Y>
+        <Y t="60">0.022480</Y>
+        <Y t="61">0.024336</Y>
+        <Y t="62">0.026378</Y>
+        <Y t="63">0.028626</Y>
+        <Y t="64">0.031099</Y>
+        <Y t="65">0.033819</Y>
+        <Y t="66">0.036811</Y>
+        <Y t="67">0.040099</Y>
+        <Y t="68">0.043713</Y>
+        <Y t="69">0.047682</Y>
+        <Y t="70">0.052041</Y>
+        <Y t="71">0.056825</Y>
+        <Y t="72">0.062074</Y>
+        <Y t="73">0.067828</Y>
+        <Y t="74">0.074134</Y>
+        <Y t="75">0.081041</Y>
+        <Y t="76">0.088598</Y>
+        <Y t="77">0.096860</Y>
+        <Y t="78">0.105885</Y>
+        <Y t="79">0.115734</Y>
+        <Y t="80">0.126471</Y>
+        <Y t="81">0.138161</Y>
+        <Y t="82">0.150873</Y>
+        <Y t="83">0.164676</Y>
+        <Y t="84">0.179638</Y>
+        <Y t="85">0.195830</Y>
+        <Y t="86">0.213318</Y>
+        <Y t="87">0.232165</Y>
+        <Y t="88">0.252427</Y>
+        <Y t="89">0.274155</Y>
+        <Y t="90">0.297387</Y>
+        <Y t="91">0.322148</Y>
+        <Y t="92">0.348446</Y>
+        <Y t="93">0.376269</Y>
+        <Y t="94">0.405579</Y>
+        <Y t="95">0.436310</Y>
+        <Y t="96">0.468365</Y>
+        <Y t="97">0.501608</Y>
+        <Y t="98">0.535866</Y>
+        <Y t="99">0.570925</Y>
+        <Y t="100">0.606529</Y>
+        <Y t="101">0.642380</Y>
+        <Y t="102">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

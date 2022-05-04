@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2562</TableIdentity>
+    <ProviderDomain>limra.com</ProviderDomain>
+    <ProviderName>LIMRA International, Inc.</ProviderName>
+    <TableReference>Cathy Ho and Nancy Muise, “Long Term Care Insurance Persistency, A Joint Study Sponsored by LIMRA and the Society of Actuaries”, Society of Actuaries and LL Global, Inc. (2010) Accessed: November, 2013 from http://www.soa.org/Files/Xls/research-05-07-ltc-ins-persistency-report.pdf</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2005-2007 LTC Persistency Study - All Plans Combined by Home Healthcare Lifetime Maximum Benefit Bands</TableName>
+    <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Home Healthcare Lifetime Maximum Benefit Bands. Minimum Policy Year: 1. Maximum Policy Year: 16</TableDescription>
+    <Comments>Study Data: The study examines persistency experience by reporting on both voluntary lapse and total termination activity for participating companies during calendar years 2005 through 2007. For purposes of this report, voluntary lapse includes termination for any reason other than death. This includes termination for non-payment of premium, expiration of benefits, conversion, and in most cases, terminations for an unknown reason. This is consistent with the definition of voluntary lapse applied to past LIMRA and Society of Actuaries LTCI experience studies. As with past LTCI persistency studies, the data collected includes individual and group LTCI plans but not life-LTCI or annuity-LTCI combination products. Twenty-one companies contributed exposure records representing roughly 60% of the LTCI industry. Methodology: Lapse rates are calculated as follows: Annualized Lapse Rate = 100 x Number of Lives Lapsed During the Year / Number of Lives Exposed to Lapse During the Year. The number of lives exposed to lapse is based on the length of time the policy is exposed to the risk of lapsation during the year. Lapses contribute exposure for the full 12 months. Terminations due to death, expiry, maturity or conversion are not included in the amounts lapsing and contribute to exposure for only the fraction of the year they were in force. Lapse rates are not reported for any data cell for which there were fewer than three companies or less than 1,000 policies exposed. Experience is reported exactly as calculated. No attempt was made to graduate or smooth results. Data Transcription Errors: None. Data Certified: 12/2013</Comments>
+    <KeyWord>Duration</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Home Healthcare Lifetime Maximum Benefit Less Than $100,000. Minimum Policy Year: 1. Maximum Policy Year: 13</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>13</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.187</Y>
+        <Y t="2">0.16</Y>
+        <Y t="3">0.132</Y>
+        <Y t="4">0.115</Y>
+        <Y t="5">0.077</Y>
+        <Y t="6">0.061</Y>
+        <Y t="7">0.057</Y>
+        <Y t="8">0.049</Y>
+        <Y t="9">0.044</Y>
+        <Y t="10">0.042</Y>
+        <Y t="11">0.033</Y>
+        <Y t="12">0.026</Y>
+        <Y t="13">0.022</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Home Healthcare Lifetime Maximum Benefit $100,000-$250,000. Minimum Policy Year: 1. Maximum Policy Year: 16</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>16</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.085</Y>
+        <Y t="2">0.062</Y>
+        <Y t="3">0.046</Y>
+        <Y t="4">0.035</Y>
+        <Y t="5">0.027</Y>
+        <Y t="6">0.025</Y>
+        <Y t="7">0.023</Y>
+        <Y t="8">0.022</Y>
+        <Y t="9">0.023</Y>
+        <Y t="10">0.018</Y>
+        <Y t="11">0.012</Y>
+        <Y t="12">0.012</Y>
+        <Y t="13">0.009</Y>
+        <Y t="14">0.01</Y>
+        <Y t="15">0.018</Y>
+        <Y t="16">0.01</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2005-2007 Long-Term Care Insurance Persistency Study – Individual and Group Plans Combined. Basis: Home Healthcare Lifetime Maximum Benefit Over $250,000. Minimum Policy Year: 1. Maximum Policy Year: 16</TableDescription>
+      <AxisDef id="Duration">
+        <ScaleType tc="2">Ordinal Date</ScaleType>
+        <AxisName>Duration</AxisName>
+        <MinScaleValue>1</MinScaleValue>
+        <MaxScaleValue>16</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="1">0.067</Y>
+        <Y t="2">0.046</Y>
+        <Y t="3">0.031</Y>
+        <Y t="4">0.025</Y>
+        <Y t="5">0.021</Y>
+        <Y t="6">0.018</Y>
+        <Y t="7">0.017</Y>
+        <Y t="8">0.016</Y>
+        <Y t="9">0.019</Y>
+        <Y t="10">0.015</Y>
+        <Y t="11">0.01</Y>
+        <Y t="12">0.012</Y>
+        <Y t="13">0.009</Y>
+        <Y t="14">0.009</Y>
+        <Y t="15">0.027</Y>
+        <Y t="16">0.006</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

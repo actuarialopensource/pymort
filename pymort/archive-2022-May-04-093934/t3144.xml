@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3144</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Retirement Plans Experience Committee</ProviderName>
+    <TableReference>Society of Actuaries, research-2014-rp-mort-tab-rates-exposure.xlsx, Sheet "Blue Collar", https://www.soa.org/files/research/exp-study/research-2014-rp-mort-tab-rates-exposure.xlsx</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>RPH-2014 Rates-Blue Collar-Female</TableName>
+    <TableDescription>RPH-2014 Rates-Blue Collar (headcount-weighted mortality rates, not RP-2014)-Female</TableDescription>
+    <Comments>Study Data:  The primary focus of the RP-2014 mortality study was a comprehensive review of recent mortality experience of uninsured private retirement plans in the United States. The original RP-2014 mortality tables (which are distinct from these RPH-2014 mortality tables) were weighted by benefit amount, as this methodology generally produces the most appropriate results for measurement of most pension obligations. However, there are other applications for which the use of headcount-weighted mortality rates might be more suitable and possibly produce more accurate results.  These other applications might include estimates of average age of death, projections of retirement plan populations, and the measurement of obligations for retirement programs with relatively flat benefit structures.  Thus, these headcount-weighted RPH-2014 mortality tables were developed as a supplement to the amount-weighted RP-2014 mortality tables. With the exception of the mortality rates at the youngest and oldest ages, the participant data underlying the RPH-2014 tables reflect mortality experience of retirement plans subject to the funding rules of the Pension Protection Act of 2006 (PPA). The final dataset upon which this study has been based reflects approximately 10.5 million life-years of exposure and more than 220,000 deaths, all from uninsured private pension plans subject to PPA funding rules. Data were submitted for a total of 123 private and public/federal pension plans in response to RPEC’s request for plan experience covering the years 2004 through 2008. For purposes of characterizing plans as blue collar or white collar, RPEC used the same criteria as were described in the RP-2000 study. RPEC first projected the raw age nearest birthday mortality rates from their central year (2006) to 2014 using the Scale MP-2014 mortality improvement rates. Those projected rates were then graduated using Whittaker-Henderson-Lowrie methodology, and subsequently extended to extreme (very old or very young) ages using a variety of standard actuarial techniques. The final result was a set of 12 gender-specific headcount-weighted tables with base year of 2014: 
+• Employee Tables (ages 18 through 80)
+o Total (all nondisabled data)
+o Blue Collar
+o White Collar
+o Bottom Quartile (based on salary)
+o Top Quartile (based on salary)
+• Healthy Annuitant Tables (ages 50 through 120)
+o Total (all nondisabled data)
+o Blue Collar
+o White Collar
+o Bottom Quartile (based on benefit amount)
+o Top Quartile (based on benefit amount)
+• Disabled Retiree Table (ages 18 through 120)
+• Juvenile Table (ages 0 through 17)
+Data Certified: 07/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant Mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>RPH-2014 Rates-Blue Collar-Employee-Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>80</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.000222</Y>
+        <Y t="19">0.000222</Y>
+        <Y t="20">0.000214</Y>
+        <Y t="21">0.000218</Y>
+        <Y t="22">0.000222</Y>
+        <Y t="23">0.000226</Y>
+        <Y t="24">0.000231</Y>
+        <Y t="25">0.000236</Y>
+        <Y t="26">0.000244</Y>
+        <Y t="27">0.000255</Y>
+        <Y t="28">0.000268</Y>
+        <Y t="29">0.000283</Y>
+        <Y t="30">0.000299</Y>
+        <Y t="31">0.000317</Y>
+        <Y t="32">0.000336</Y>
+        <Y t="33">0.000356</Y>
+        <Y t="34">0.000376</Y>
+        <Y t="35">0.000397</Y>
+        <Y t="36">0.000417</Y>
+        <Y t="37">0.000441</Y>
+        <Y t="38">0.00047</Y>
+        <Y t="39">0.000505</Y>
+        <Y t="40">0.000547</Y>
+        <Y t="41">0.000598</Y>
+        <Y t="42">0.000658</Y>
+        <Y t="43">0.00073</Y>
+        <Y t="44">0.000812</Y>
+        <Y t="45">0.000907</Y>
+        <Y t="46">0.001013</Y>
+        <Y t="47">0.00113</Y>
+        <Y t="48">0.001258</Y>
+        <Y t="49">0.001394</Y>
+        <Y t="50">0.001537</Y>
+        <Y t="51">0.001685</Y>
+        <Y t="52">0.001839</Y>
+        <Y t="53">0.001997</Y>
+        <Y t="54">0.002162</Y>
+        <Y t="55">0.002332</Y>
+        <Y t="56">0.00251</Y>
+        <Y t="57">0.002697</Y>
+        <Y t="58">0.002896</Y>
+        <Y t="59">0.003111</Y>
+        <Y t="60">0.003347</Y>
+        <Y t="61">0.003606</Y>
+        <Y t="62">0.003892</Y>
+        <Y t="63">0.004209</Y>
+        <Y t="64">0.004561</Y>
+        <Y t="65">0.00495</Y>
+        <Y t="66">0.005456</Y>
+        <Y t="67">0.006013</Y>
+        <Y t="68">0.006627</Y>
+        <Y t="69">0.007303</Y>
+        <Y t="70">0.008049</Y>
+        <Y t="71">0.008871</Y>
+        <Y t="72">0.009777</Y>
+        <Y t="73">0.010775</Y>
+        <Y t="74">0.011875</Y>
+        <Y t="75">0.013088</Y>
+        <Y t="76">0.014424</Y>
+        <Y t="77">0.015897</Y>
+        <Y t="78">0.017521</Y>
+        <Y t="79">0.01931</Y>
+        <Y t="80">0.021281</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>RPH-2014 Rates-Blue Collar-Healthy Annuitant-Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>50</MinScaleValue>
+        <MaxScaleValue>120</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="50">0.004105</Y>
+        <Y t="51">0.004235</Y>
+        <Y t="52">0.004381</Y>
+        <Y t="53">0.004544</Y>
+        <Y t="54">0.004727</Y>
+        <Y t="55">0.004933</Y>
+        <Y t="56">0.005165</Y>
+        <Y t="57">0.005428</Y>
+        <Y t="58">0.005726</Y>
+        <Y t="59">0.006066</Y>
+        <Y t="60">0.006452</Y>
+        <Y t="61">0.00689</Y>
+        <Y t="62">0.007383</Y>
+        <Y t="63">0.00794</Y>
+        <Y t="64">0.00857</Y>
+        <Y t="65">0.009283</Y>
+        <Y t="66">0.010092</Y>
+        <Y t="67">0.01101</Y>
+        <Y t="68">0.012051</Y>
+        <Y t="69">0.013227</Y>
+        <Y t="70">0.014553</Y>
+        <Y t="71">0.016038</Y>
+        <Y t="72">0.017695</Y>
+        <Y t="73">0.019529</Y>
+        <Y t="74">0.021549</Y>
+        <Y t="75">0.023766</Y>
+        <Y t="76">0.026199</Y>
+        <Y t="77">0.028876</Y>
+        <Y t="78">0.031836</Y>
+        <Y t="79">0.035127</Y>
+        <Y t="80">0.038805</Y>
+        <Y t="81">0.042932</Y>
+        <Y t="82">0.047576</Y>
+        <Y t="83">0.052808</Y>
+        <Y t="84">0.058698</Y>
+        <Y t="85">0.065321</Y>
+        <Y t="86">0.072752</Y>
+        <Y t="87">0.081081</Y>
+        <Y t="88">0.090408</Y>
+        <Y t="89">0.100848</Y>
+        <Y t="90">0.112535</Y>
+        <Y t="91">0.125111</Y>
+        <Y t="92">0.138377</Y>
+        <Y t="93">0.152252</Y>
+        <Y t="94">0.166747</Y>
+        <Y t="95">0.181931</Y>
+        <Y t="96">0.197901</Y>
+        <Y t="97">0.214754</Y>
+        <Y t="98">0.232551</Y>
+        <Y t="99">0.251285</Y>
+        <Y t="100">0.270858</Y>
+        <Y t="101">0.29104</Y>
+        <Y t="102">0.311444</Y>
+        <Y t="103">0.3319</Y>
+        <Y t="104">0.352232</Y>
+        <Y t="105">0.372273</Y>
+        <Y t="106">0.39186</Y>
+        <Y t="107">0.410849</Y>
+        <Y t="108">0.429112</Y>
+        <Y t="109">0.446544</Y>
+        <Y t="110">0.463061</Y>
+        <Y t="111">0.478604</Y>
+        <Y t="112">0.493137</Y>
+        <Y t="113">0.5</Y>
+        <Y t="114">0.5</Y>
+        <Y t="115">0.5</Y>
+        <Y t="116">0.5</Y>
+        <Y t="117">0.5</Y>
+        <Y t="118">0.5</Y>
+        <Y t="119">0.5</Y>
+        <Y t="120">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

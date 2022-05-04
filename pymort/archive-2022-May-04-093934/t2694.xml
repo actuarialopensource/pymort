@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2694</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Actuarial Society of India</ProviderName>
+    <TableReference>Insurance Regulatory and Development Authority,“Mortality of Assured Lives In India: 2006-08 Investigation”, Insurance Regulatory and Development Authority (2013). Accessed: February, 2014 fromhttp://www.actuariesindia.org/publication/IALM-_Mortality_Tables_(2006-08)_ult%20.pdf</TableReference>
+    <ContentType tc="4">Insured Lives Mortality</ContentType>
+    <TableName>Indian Assured Lives Mortality (2006-08) Ult, ANB</TableName>
+    <TableDescription>Indian Assured Lives Mortality (2006-08) Ultimate. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 115</TableDescription>
+    <Comments>Study Data: Based on the latest mortality and claim experience of different life insurance companies as opposed to prior tables that based exclusively on LIC's data. 
+ Methodology: Not available at this time. Data Transcription Errors: None. Data Certified: 02/2014.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Insured Lives mortality</KeyWord>
+    <KeyWord>India</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="91">India</Nation>
+      <TableDescription>Indian Assured Lives Mortality (2006-08) Ultimate. Basis: Age Nearest Birthday. Minimum Age: 0. Maximum Age: 115</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>115</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.004445</Y>
+        <Y t="1">0.003897</Y>
+        <Y t="2">0.002935</Y>
+        <Y t="3">0.002212</Y>
+        <Y t="4">0.00167</Y>
+        <Y t="5">0.001265</Y>
+        <Y t="6">0.000964</Y>
+        <Y t="7">0.000744</Y>
+        <Y t="8">0.00059</Y>
+        <Y t="9">0.000492</Y>
+        <Y t="10">0.00044</Y>
+        <Y t="11">0.000428</Y>
+        <Y t="12">0.000448</Y>
+        <Y t="13">0.000491</Y>
+        <Y t="14">0.000549</Y>
+        <Y t="15">0.000614</Y>
+        <Y t="16">0.00068</Y>
+        <Y t="17">0.000743</Y>
+        <Y t="18">0.0008</Y>
+        <Y t="19">0.000848</Y>
+        <Y t="20">0.000888</Y>
+        <Y t="21">0.000919</Y>
+        <Y t="22">0.000943</Y>
+        <Y t="23">0.000961</Y>
+        <Y t="24">0.000974</Y>
+        <Y t="25">0.000984</Y>
+        <Y t="26">0.000994</Y>
+        <Y t="27">0.001004</Y>
+        <Y t="28">0.001017</Y>
+        <Y t="29">0.001034</Y>
+        <Y t="30">0.001056</Y>
+        <Y t="31">0.001084</Y>
+        <Y t="32">0.001119</Y>
+        <Y t="33">0.001164</Y>
+        <Y t="34">0.001218</Y>
+        <Y t="35">0.001282</Y>
+        <Y t="36">0.001358</Y>
+        <Y t="37">0.001447</Y>
+        <Y t="38">0.001549</Y>
+        <Y t="39">0.001667</Y>
+        <Y t="40">0.001803</Y>
+        <Y t="41">0.001959</Y>
+        <Y t="42">0.00214</Y>
+        <Y t="43">0.00235</Y>
+        <Y t="44">0.002593</Y>
+        <Y t="45">0.002874</Y>
+        <Y t="46">0.003197</Y>
+        <Y t="47">0.003567</Y>
+        <Y t="48">0.003983</Y>
+        <Y t="49">0.004444</Y>
+        <Y t="50">0.004946</Y>
+        <Y t="51">0.005483</Y>
+        <Y t="52">0.006051</Y>
+        <Y t="53">0.006643</Y>
+        <Y t="54">0.007256</Y>
+        <Y t="55">0.007888</Y>
+        <Y t="56">0.008543</Y>
+        <Y t="57">0.009225</Y>
+        <Y t="58">0.009944</Y>
+        <Y t="59">0.010709</Y>
+        <Y t="60">0.011534</Y>
+        <Y t="61">0.012431</Y>
+        <Y t="62">0.013414</Y>
+        <Y t="63">0.014497</Y>
+        <Y t="64">0.015691</Y>
+        <Y t="65">0.017009</Y>
+        <Y t="66">0.018462</Y>
+        <Y t="67">0.020061</Y>
+        <Y t="68">0.021819</Y>
+        <Y t="69">0.023746</Y>
+        <Y t="70">0.025855</Y>
+        <Y t="71">0.028159</Y>
+        <Y t="72">0.030673</Y>
+        <Y t="73">0.033412</Y>
+        <Y t="74">0.036394</Y>
+        <Y t="75">0.039637</Y>
+        <Y t="76">0.043162</Y>
+        <Y t="77">0.046991</Y>
+        <Y t="78">0.051149</Y>
+        <Y t="79">0.055662</Y>
+        <Y t="80">0.060558</Y>
+        <Y t="81">0.06587</Y>
+        <Y t="82">0.07163</Y>
+        <Y t="83">0.077876</Y>
+        <Y t="84">0.084645</Y>
+        <Y t="85">0.091982</Y>
+        <Y t="86">0.09993</Y>
+        <Y t="87">0.10854</Y>
+        <Y t="88">0.117866</Y>
+        <Y t="89">0.127963</Y>
+        <Y t="90">0.138895</Y>
+        <Y t="91">0.150727</Y>
+        <Y t="92">0.163532</Y>
+        <Y t="93">0.177387</Y>
+        <Y t="94">0.192374</Y>
+        <Y t="95">0.208585</Y>
+        <Y t="96">0.226114</Y>
+        <Y t="97">0.245067</Y>
+        <Y t="98">0.265555</Y>
+        <Y t="99">0.287699</Y>
+        <Y t="100">0.311628</Y>
+        <Y t="101">0.337482</Y>
+        <Y t="102">0.365411</Y>
+        <Y t="103">0.395577</Y>
+        <Y t="104">0.428153</Y>
+        <Y t="105">0.463327</Y>
+        <Y t="106">0.501298</Y>
+        <Y t="107">0.542284</Y>
+        <Y t="108">0.586516</Y>
+        <Y t="109">0.634244</Y>
+        <Y t="110">0.685737</Y>
+        <Y t="111">0.741283</Y>
+        <Y t="112">0.801191</Y>
+        <Y t="113">0.865795</Y>
+        <Y t="114">0.935453</Y>
+        <Y t="115">0.985796</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>819</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Roger Scott Lumsden</ProviderName>
+    <TableReference>Harold Cherry, “The 1971 Individual Annuity Mortality Table”, Transactions of the Society of Actuaries, Vol. XXIII, Part 1, No. 67 (1971) Table 9.  Accessed: April, 2013 from http://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1971/January/tsa71v23pt1n6723.pdf</TableReference>
+    <ContentType tc="78">Annuitant Mortality</ContentType>
+    <TableName>1971 IAM - Female</TableName>
+    <TableDescription>1971 Individual Annuity Mortality (IAM) Table – Female. Minimum Age: 5. Maximum Age: 115 </TableDescription>
+    <Comments>Study Data: The 1971 Individual Annuity Mortality (IAM) Table was developed as a proposed minimum valuation standard and, in general, is not intended to be used directly as a basis for establishing premium rates for individual annuities. The Committee on Mortality under Ordinary Insurances and Annuities of the Society of Actuaries considered experience from two types of annuity contracts: mortality under individual immediate annuities and mortality under life income settlements and matured deferred annuities. Available data covered immediate annuities between 1963 and 1967 anniversaries and settlement annuities between 1960 and 1965 anniversaries. Hence the combined experience includes both refund and non-refund immediate annuities and settlement annuities and, under the latter classification, includes life income settlements from all sources. This is a departure from construction of the a-1949 Table (See SOa Table Identities 807 and 808) that included experience under non-refund immediate annuities only. For the younger ages, 50 and under, the rates would be taken from the companion 1971 GroupAnnuity Mortality Table, 1971 GAM (See SOA Table Identities 817 and 818) being developed by the other subcommittee members. The table would then be completed by bridging the rates between the lower and higher ages. Since the financial effect of annuity mortality is measured by the amount of annual income rather than by number of contracts, it was decided to base the new table on amount of annual income. Methodology: The 1963 Experience Table (See SOA Table Identities 813 and 814) was developed as the starting point for the construction of a valuation mortality table representative of the level of mortality in 1971. Though a Makeham curve would simplify the calculation of joint life annuity values, such did not fit both the male and female data, thus other graduation techniques were used. The first step in constructing the 1971 Individual Annuity Mortality (IAM) Tables from the 1963 Experience Tables was: (1) to set an assumption for the decrease in mortality over the eight-year period from 1963 to 1971 and (2) addition of an explicit margin for mortality fluctuations and contingencies. The annual percentage decrease in mortality between 1963 and 1971 was taken as 1.6 per cent for ages 79 and under, decreasing by 0.1 per cent for each age thereafter and reaching zero at age 95. An explicit margin for mortality fluctuations and contingencies equal to 10 per cent of the projected mortality rate was then applied, that is, the 1971 mortality rates with margins were taken as 90 per cent of the1963 rates projected to 1971 by the percentage decrease factors just described. Next, the mortality rates for the 1971 IAM Table at ages 5-50 were taken directly from the 1971 GAM Table. As in the case of the 1963 Experience Table, the younger and older ages were bridged by passing a fourth-degree polynomial through the mortality rates at ages 48, 49, 50, 63, and 64. Lastly,  smoothness was improved slightly; the rates for ages 56 and over were adjusted by a Whittaker-Henderson Type A formula. NOTE: a prior generation of this table included rates for ages 0-4 that were not from a published or verifiable source and have accordingly been removed. Data Transcription Errors Detected: 04/2013. Data Corrected and Certified: 04/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Annuitant mortality</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>1971 Individual Annuity Mortality (IAM) Table – Female. Minimum Age: 5. Maximum Age: 115</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>5</MinScaleValue>
+        <MaxScaleValue>115</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="5">0.000234</Y>
+        <Y t="6">0.000193</Y>
+        <Y t="7">0.000162</Y>
+        <Y t="8">0.000143</Y>
+        <Y t="9">0.000134</Y>
+        <Y t="10">0.000132</Y>
+        <Y t="11">0.000143</Y>
+        <Y t="12">0.000155</Y>
+        <Y t="13">0.000167</Y>
+        <Y t="14">0.000180</Y>
+        <Y t="15">0.000193</Y>
+        <Y t="16">0.000205</Y>
+        <Y t="17">0.000218</Y>
+        <Y t="18">0.000231</Y>
+        <Y t="19">0.000245</Y>
+        <Y t="20">0.000260</Y>
+        <Y t="21">0.000275</Y>
+        <Y t="22">0.000292</Y>
+        <Y t="23">0.000309</Y>
+        <Y t="24">0.000327</Y>
+        <Y t="25">0.000347</Y>
+        <Y t="26">0.000368</Y>
+        <Y t="27">0.000390</Y>
+        <Y t="28">0.000414</Y>
+        <Y t="29">0.000440</Y>
+        <Y t="30">0.000469</Y>
+        <Y t="31">0.000499</Y>
+        <Y t="32">0.000533</Y>
+        <Y t="33">0.000569</Y>
+        <Y t="34">0.000608</Y>
+        <Y t="35">0.000651</Y>
+        <Y t="36">0.000698</Y>
+        <Y t="37">0.000750</Y>
+        <Y t="38">0.000807</Y>
+        <Y t="39">0.000869</Y>
+        <Y t="40">0.000938</Y>
+        <Y t="41">0.001013</Y>
+        <Y t="42">0.001094</Y>
+        <Y t="43">0.001186</Y>
+        <Y t="44">0.001286</Y>
+        <Y t="45">0.001397</Y>
+        <Y t="46">0.001519</Y>
+        <Y t="47">0.001654</Y>
+        <Y t="48">0.001802</Y>
+        <Y t="49">0.001967</Y>
+        <Y t="50">0.002151</Y>
+        <Y t="51">0.002371</Y>
+        <Y t="52">0.002641</Y>
+        <Y t="53">0.002966</Y>
+        <Y t="54">0.003351</Y>
+        <Y t="55">0.003791</Y>
+        <Y t="56">0.004284</Y>
+        <Y t="57">0.004826</Y>
+        <Y t="58">0.005409</Y>
+        <Y t="59">0.006017</Y>
+        <Y t="60">0.006628</Y>
+        <Y t="61">0.007219</Y>
+        <Y t="62">0.007773</Y>
+        <Y t="63">0.008285</Y>
+        <Y t="64">0.008775</Y>
+        <Y t="65">0.009290</Y>
+        <Y t="66">0.009888</Y>
+        <Y t="67">0.010622</Y>
+        <Y t="68">0.011536</Y>
+        <Y t="69">0.012664</Y>
+        <Y t="70">0.014029</Y>
+        <Y t="71">0.015651</Y>
+        <Y t="72">0.017548</Y>
+        <Y t="73">0.019742</Y>
+        <Y t="74">0.022256</Y>
+        <Y t="75">0.025120</Y>
+        <Y t="76">0.028369</Y>
+        <Y t="77">0.032050</Y>
+        <Y t="78">0.036225</Y>
+        <Y t="79">0.040975</Y>
+        <Y t="80">0.046386</Y>
+        <Y t="81">0.052513</Y>
+        <Y t="82">0.059409</Y>
+        <Y t="83">0.067160</Y>
+        <Y t="84">0.075899</Y>
+        <Y t="85">0.085770</Y>
+        <Y t="86">0.096898</Y>
+        <Y t="87">0.109338</Y>
+        <Y t="88">0.122978</Y>
+        <Y t="89">0.137508</Y>
+        <Y t="90">0.152472</Y>
+        <Y t="91">0.167370</Y>
+        <Y t="92">0.181776</Y>
+        <Y t="93">0.195386</Y>
+        <Y t="94">0.208071</Y>
+        <Y t="95">0.219896</Y>
+        <Y t="96">0.231097</Y>
+        <Y t="97">0.242211</Y>
+        <Y t="98">0.253823</Y>
+        <Y t="99">0.266452</Y>
+        <Y t="100">0.280535</Y>
+        <Y t="101">0.296449</Y>
+        <Y t="102">0.314535</Y>
+        <Y t="103">0.335121</Y>
+        <Y t="104">0.358537</Y>
+        <Y t="105">0.385122</Y>
+        <Y t="106">0.415238</Y>
+        <Y t="107">0.449274</Y>
+        <Y t="108">0.487649</Y>
+        <Y t="109">0.530787</Y>
+        <Y t="110">0.579040</Y>
+        <Y t="111">0.632529</Y>
+        <Y t="112">0.690903</Y>
+        <Y t="113">0.753081</Y>
+        <Y t="114">0.817218</Y>
+        <Y t="115">1.000000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XTbML>
+	<ContentClassification>
+		<TableIdentity>1680</TableIdentity>
+		<ProviderDomain>soa.org</ProviderDomain>
+		<ProviderName>Susie Lee</ProviderName>
+		<TableReference>Nathan Willey, “Principles and Practice of Life Insurance. 9th Edition with New Explanatory Text and Additions by Henry Moir and Edward Bathurst Fackler”, The Spectator (New York, 1939) p. 567</TableReference>
+		<ContentType tc="4">Insured Lives Mortality</ContentType>
+		<TableName>Sub-Standard Industrial Mortality Table</TableName>
+		<TableDescription>Sub-Standard Industrial Mortality Table. Basis: Age Next Birthday. Minimum Age: 1. Maximum Age: 100.</TableDescription>
+		<Comments>Study Data: A counterpart to the 1906 Standard Industrial Mortality Table (See SOA Table Identity 302), this table is based on “colored” (Negro) lives of the Metropolitan Life Insurance Company for the years 1896-1906. Although at least 20 companies issued industrial insurance in 1905, Metropolitan, along with Prudential and John Hancock, accounted for 95% of industrial business written. Industrial insurance is characterized by policies for small face amounts written without medical underwriting and with premiums collected in weekly or monthly installments, many times on a door-to-door basis. Sometimes this type of insurance is also referred to as “debit” insurance as premiums were collected by company representatives in an assigned fixed area known as a “debit”. This type of insurance is also called “burial” insurance as it provided protection against the financial burden of a last illness and burial for the working class. Hence the target for this type of insurance was the industrial class and thus the adoption of the word. Premiums paid at longer intervals than monthly were referred to as “ordinary”.  This table is historically significant in the United States as it was the first to capture data on the newly emancipated slaves of the post-Civil War era. Methodology: Not available in the published source. NOTE: Industrial insurance is sold on an age-next-birthday basis thus the table does not contain values for age 0. Data Transcription Errors: None. Data Certified: 04/2013.</Comments>
+		<KeyWord>Aggregate</KeyWord>
+		<KeyWord>Insured Lives Mortality</KeyWord>
+		<KeyWord>United States of America</KeyWord>
+	</ContentClassification>
+	<Table>
+		<MetaData>
+			<ScalingFactor>0</ScalingFactor>
+			<DataType tc="2">Floating Point</DataType>
+			<Nation tc="1">United States of America</Nation>
+			<TableDescription>Sub-Standard Industrial Mortality Table. Basis: Age Next Birthday. Minimum Age: 1. Maximum Age: 100.</TableDescription>
+			<AxisDef id="Age">
+				<ScaleType tc="3">Age</ScaleType>
+				<AxisName>Age</AxisName>
+				<MinScaleValue>1</MinScaleValue>
+				<MaxScaleValue>100</MaxScaleValue>
+				<Increment>1</Increment>
+			</AxisDef>
+		</MetaData>
+		<Values>
+			<Axis>
+				<Y t="1">0.151385</Y><Y t="2">0.061400</Y><Y t="3">0.044545</Y><Y t="4">0.023194</Y><Y t="5">0.014144</Y><Y t="6">0.010630</Y><Y t="7">0.009223</Y><Y t="8">0.008115</Y><Y t="9">0.007312</Y><Y t="10">0.006862</Y><Y t="11">0.006741</Y><Y t="12">0.006981</Y><Y t="13">0.007581</Y><Y t="14">0.008429</Y><Y t="15">0.009447</Y><Y t="16">0.010567</Y><Y t="17">0.011658</Y><Y t="18">0.012617</Y><Y t="19">0.013325</Y><Y t="20">0.013742</Y><Y t="21">0.013907</Y><Y t="22">0.013832</Y><Y t="23">0.013586</Y><Y t="24">0.013341</Y><Y t="25">0.013112</Y><Y t="26">0.012985</Y><Y t="27">0.012953</Y><Y t="28">0.013020</Y><Y t="29">0.013177</Y><Y t="30">0.013353</Y><Y t="31">0.013549</Y><Y t="32">0.013766</Y><Y t="33">0.014005</Y><Y t="34">0.014284</Y><Y t="35">0.014637</Y><Y t="36">0.015018</Y><Y t="37">0.015431</Y><Y t="38">0.015859</Y><Y t="39">0.016338</Y><Y t="40">0.016871</Y><Y t="41">0.017410</Y><Y t="42">0.018008</Y><Y t="43">0.018670</Y><Y t="44">0.019382</Y><Y t="45">0.020148</Y><Y t="46">0.020953</Y><Y t="47">0.021861</Y><Y t="48">0.022839</Y><Y t="49">0.023874</Y><Y t="50">0.024993</Y><Y t="51">0.026226</Y><Y t="52">0.027564</Y><Y t="53">0.028971</Y><Y t="54">0.030527</Y><Y t="55">0.032178</Y><Y t="56">0.034011</Y><Y t="57">0.035946</Y><Y t="58">0.038051</Y><Y t="59">0.040323</Y><Y t="60">0.042786</Y><Y t="61">0.045440</Y><Y t="62">0.048316</Y><Y t="63">0.051382</Y><Y t="64">0.054739</Y><Y t="65">0.058326</Y><Y t="66">0.062180</Y><Y t="67">0.066389</Y><Y t="68">0.070880</Y><Y t="69">0.075742</Y><Y t="70">0.080930</Y><Y t="71">0.086599</Y><Y t="72">0.092639</Y><Y t="73">0.099142</Y><Y t="74">0.106147</Y><Y t="75">0.113597</Y><Y t="76">0.121648</Y><Y t="77">0.130303</Y><Y t="78">0.139631</Y><Y t="79">0.149393</Y><Y t="80">0.160113</Y><Y t="81">0.171321</Y><Y t="82">0.183430</Y><Y t="83">0.196401</Y><Y t="84">0.210039</Y><Y t="85">0.224829</Y><Y t="86">0.240227</Y><Y t="87">0.256432</Y><Y t="88">0.273438</Y><Y t="89">0.293395</Y><Y t="90">0.310870</Y><Y t="91">0.331230</Y><Y t="92">0.353774</Y><Y t="93">0.379562</Y><Y t="94">0.40000</Y><Y t="95">0.411765</Y><Y t="96">0.466667</Y><Y t="97">0.500000</Y><Y t="98">0.625000</Y><Y t="99">0.666667</Y><Y t="100">1.000000</Y>
+			</Axis>
+		</Values>
+	</Table>
+</XTbML>

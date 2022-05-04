@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1489</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>The Society of Actuaries, "Report of the Society of Actuaries Group Life Insurance Experience Committee", Tables 2A, 2B, and 3, pages 6-8, https://www.soa.org/Files/Research/Exp-Study/GLMortalityStudyReport_final.pdf</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>2006 Group Term Life Mortality Tables</TableName>
+    <TableDescription>2006 Group Term Life Mortality Table, Mortality Rates by Central Age Based on Lives, Monthly Mortality Rates per Thousand (Lives)</TableDescription>
+    <Comments>This study was based on data collected on policies in force during the study period of 1999-2001. Data Certified: 07/2018.</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Life</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2006 Group Term Life Mortality Table, Mortality Rates by Central Age Based on Lives, Monthly Mortality Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>87</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">5E-05</Y>
+        <Y t="22">1.9E-05</Y>
+        <Y t="27">1.7E-05</Y>
+        <Y t="32">2.4E-05</Y>
+        <Y t="37">3.7E-05</Y>
+        <Y t="42">5.2E-05</Y>
+        <Y t="47">8.3E-05</Y>
+        <Y t="52">0.000134</Y>
+        <Y t="57">0.000205</Y>
+        <Y t="62">0.000326</Y>
+        <Y t="67">0.000507</Y>
+        <Y t="72">0.001022</Y>
+        <Y t="77">0.002148</Y>
+        <Y t="82">0.003895</Y>
+        <Y t="87">0.007951</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2006 Group Term Life Mortality Table, Mortality Rates by Central Age Based on Amount in Millions ($), Monthly Mortality Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>87</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">4.3E-05</Y>
+        <Y t="22">1.8E-05</Y>
+        <Y t="27">1.6E-05</Y>
+        <Y t="32">2E-05</Y>
+        <Y t="37">3.2E-05</Y>
+        <Y t="42">4.7E-05</Y>
+        <Y t="47">7.8E-05</Y>
+        <Y t="52">0.000124</Y>
+        <Y t="57">0.000184</Y>
+        <Y t="62">0.000285</Y>
+        <Y t="67">0.000457</Y>
+        <Y t="72">0.000783</Y>
+        <Y t="77">0.00146</Y>
+        <Y t="82">0.003108</Y>
+        <Y t="87">0.005822</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2006 Group Term Life Mortality Table, Waiver Incidence Rates by Central Age Based on Lives, Monthly Waiver Incidence Rates (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>87</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.003</Y>
+        <Y t="22">0.007</Y>
+        <Y t="27">0.011</Y>
+        <Y t="32">0.019</Y>
+        <Y t="37">0.029</Y>
+        <Y t="42">0.041</Y>
+        <Y t="47">0.055</Y>
+        <Y t="52">0.079</Y>
+        <Y t="57">0.122</Y>
+        <Y t="62">0.056</Y>
+        <Y t="67"></Y>
+        <Y t="72"></Y>
+        <Y t="77"></Y>
+        <Y t="82"></Y>
+        <Y t="87"></Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

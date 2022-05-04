@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2060</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Health Statistics Division of Statistics Canada, “Life Tables, Canada, Provinces and Territories 2007 to 2009”, Statistics Canada, Minister of Industry (Ottawa, 2012).  Accessed: August, 2013 from http://www.statcan.gc.ca/pub/84-537-x/84-537-x2013001-eng.pdf.  And Demography Division of Statistics Canada “Methods for Constructing Life Tables for Canada, Provinces and Territories”. Statistics Canada, Minister of Industry (Ottawa, 2012) Accessed: August, 2013 from  http://www.statcan.gc.ca/pub/84-538-x/84-538-x2013001-eng.pdf . Reproduced on an "as is" basis with the permission of Statistics Canada</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Canadian Life Table 2007-09 - Males, ANB</TableName>
+    <TableDescription>Canadian Life Table 2007-09 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 110</TableDescription>
+    <Comments>Study Data: Two data sources are used to construct complete life tables: Statistics Canada’s Vital Statistics and Population Estimates Program. More specifically, for a given sex and region, the following four data sets are required to calculate a complete life table for a period: (1) Observed number of deaths by year of age from 5 to 109 years and for the open age group of 110 years and over for calendar years (2) Observed number of deaths by year of age (from 0 to 4 years) and year of birth for calendar years a-1, a and a+1 (3) Population estimates on July 1 by age (from 5 to 110 years) for calendar years a-1, a and a+1; and (4) Population estimates on January 1 by age (from 0 to 4 years) for calendar years a-1, a, a+1 and a+2. Methodology: For the life tables for the period 2005 to 2007 (See SOA Table Identities 2058 and 2059) and onward, a revision to the methodology, was undertaken to take account of current methods of constructing life tables. The first change relates to the method of estimating old-age mortality. A logistic model based on the work of Kannisto (1992) replaced the quadratic model of Coale-Kisker (1990) first used in the construction of the tables for the period 1995 to 1997. This change was made because studies showed that in countries with high-quality data, the increase, from one age to the next, in mortality rates tended to follow a logistic curve. This logistic model is also used in the construction of the Human Mortality Database (HMD) life tables. The second change relates to the method of smoothing age-specific death probabilities. The previous method, used since the 1970s and relying, among others factors, on pivotal ages, was replaced by a method based on splines. The spline method is more flexible and does not rely on arbitrary pivotal ages. Using the revised methodology of Statistics Canada’s life tables, the construction of such tables is a seven step process: (1) Calculation of observed mortality rates for ages 5 to 109 and for the open age group of 110 years and over; (2) Modeling of observed mortality rates for ages 95 to 109 and for the open age group of 110 years and over; (3) Calculation of death probabilities for ages 5 to the open age group of 110 years and over; (4) Calculation of death probabilities for ages 0 to 4; (5) Smoothing of death probabilities for ages 1 to 94; (6) Calculation of the elements of the life table; and (7) Calculation of the margins of error for death probabilities and life expectancy. For more specifics on the calculation methodology, the paper detailing the construction techniques noted in the table reference above should be consulted. NOTE: Reproduced on an "as is" basis with the permission of Statistics Canada. Data Transcription Errors: None. Data Certified: 08/2013</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population</KeyWord>
+    <KeyWord>Canada</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="2">Canada</Nation>
+      <TableDescription>Canadian Life Table 2007-09 – Males. Basis: Age Nearest Birthday. Minimum Age: 0 Maximum Age: 110</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>110</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.00533</Y>
+        <Y t="1">0.00029</Y>
+        <Y t="2">0.00022</Y>
+        <Y t="3">0.00018</Y>
+        <Y t="4">0.00015</Y>
+        <Y t="5">0.00013</Y>
+        <Y t="6">0.00011</Y>
+        <Y t="7">0.00010</Y>
+        <Y t="8">0.00010</Y>
+        <Y t="9">0.00010</Y>
+        <Y t="10">0.00010</Y>
+        <Y t="11">0.00011</Y>
+        <Y t="12">0.00013</Y>
+        <Y t="13">0.00016</Y>
+        <Y t="14">0.00022</Y>
+        <Y t="15">0.00030</Y>
+        <Y t="16">0.00042</Y>
+        <Y t="17">0.00054</Y>
+        <Y t="18">0.00064</Y>
+        <Y t="19">0.00071</Y>
+        <Y t="20">0.00078</Y>
+        <Y t="21">0.00082</Y>
+        <Y t="22">0.00083</Y>
+        <Y t="23">0.00082</Y>
+        <Y t="24">0.00079</Y>
+        <Y t="25">0.00075</Y>
+        <Y t="26">0.00073</Y>
+        <Y t="27">0.00072</Y>
+        <Y t="28">0.00073</Y>
+        <Y t="29">0.00074</Y>
+        <Y t="30">0.00077</Y>
+        <Y t="31">0.00081</Y>
+        <Y t="32">0.00086</Y>
+        <Y t="33">0.00090</Y>
+        <Y t="34">0.00096</Y>
+        <Y t="35">0.00101</Y>
+        <Y t="36">0.00108</Y>
+        <Y t="37">0.00115</Y>
+        <Y t="38">0.00123</Y>
+        <Y t="39">0.00131</Y>
+        <Y t="40">0.00141</Y>
+        <Y t="41">0.00151</Y>
+        <Y t="42">0.00163</Y>
+        <Y t="43">0.00176</Y>
+        <Y t="44">0.00191</Y>
+        <Y t="45">0.00207</Y>
+        <Y t="46">0.00225</Y>
+        <Y t="47">0.00245</Y>
+        <Y t="48">0.00268</Y>
+        <Y t="49">0.00293</Y>
+        <Y t="50">0.00322</Y>
+        <Y t="51">0.00354</Y>
+        <Y t="52">0.00389</Y>
+        <Y t="53">0.00427</Y>
+        <Y t="54">0.00470</Y>
+        <Y t="55">0.00516</Y>
+        <Y t="56">0.00568</Y>
+        <Y t="57">0.00624</Y>
+        <Y t="58">0.00686</Y>
+        <Y t="59">0.00755</Y>
+        <Y t="60">0.00830</Y>
+        <Y t="61">0.00914</Y>
+        <Y t="62">0.01005</Y>
+        <Y t="63">0.01106</Y>
+        <Y t="64">0.01217</Y>
+        <Y t="65">0.01340</Y>
+        <Y t="66">0.01475</Y>
+        <Y t="67">0.01624</Y>
+        <Y t="68">0.01788</Y>
+        <Y t="69">0.01969</Y>
+        <Y t="70">0.02168</Y>
+        <Y t="71">0.02388</Y>
+        <Y t="72">0.02630</Y>
+        <Y t="73">0.02898</Y>
+        <Y t="74">0.03193</Y>
+        <Y t="75">0.03518</Y>
+        <Y t="76">0.03877</Y>
+        <Y t="77">0.04273</Y>
+        <Y t="78">0.04711</Y>
+        <Y t="79">0.05193</Y>
+        <Y t="80">0.05726</Y>
+        <Y t="81">0.06314</Y>
+        <Y t="82">0.06963</Y>
+        <Y t="83">0.07680</Y>
+        <Y t="84">0.08471</Y>
+        <Y t="85">0.09345</Y>
+        <Y t="86">0.10311</Y>
+        <Y t="87">0.11378</Y>
+        <Y t="88">0.12556</Y>
+        <Y t="89">0.13858</Y>
+        <Y t="90">0.15297</Y>
+        <Y t="91">0.16852</Y>
+        <Y t="92">0.18490</Y>
+        <Y t="93">0.20204</Y>
+        <Y t="94">0.21988</Y>
+        <Y t="95">0.23440</Y>
+        <Y t="96">0.25251</Y>
+        <Y t="97">0.27115</Y>
+        <Y t="98">0.29020</Y>
+        <Y t="99">0.30953</Y>
+        <Y t="100">0.32903</Y>
+        <Y t="101">0.34856</Y>
+        <Y t="102">0.36799</Y>
+        <Y t="103">0.38718</Y>
+        <Y t="104">0.40601</Y>
+        <Y t="105">0.42436</Y>
+        <Y t="106">0.44214</Y>
+        <Y t="107">0.45925</Y>
+        <Y t="108">0.47562</Y>
+        <Y t="109">0.49120</Y>
+        <Y t="110">1.00000</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

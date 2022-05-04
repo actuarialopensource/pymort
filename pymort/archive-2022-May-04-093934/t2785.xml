@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>2785</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Susie Lee</ProviderName>
+    <TableReference>Central Statistics Office, “Irish Life Tables Nos. 9 and 9A, 1978-80”, Central Statistics Office (Ireland, 1981) Accessed: July, 2014 from http://www.cso.ie/en/media/csoie/census/census1981results/volume2/Z,C,1981,V2,TIrish,Life,Tables.pdf</TableReference>
+    <ContentType tc="84">Population Mortality</ContentType>
+    <TableName>Urban Districts Irish Life Table No. 9A (1978-80) Males</TableName>
+    <TableDescription>Urban Districts Irish Life Table No. 9A (1978-80) Males. Minimum Age: 0 Maximum Age: 105</TableDescription>
+    <Comments>Study Data: For ages 5 years and over, table based on Census Population as of April 1, 1979 and the deaths for the three years 1978 to 1980 obtained from statistics collected by the Registrar-General for those citizens residing within the boundaries of County and Municipal Boroughs and Urban Districts. For the infantile ages, statistics of births and deaths were used as the number of children appeared understated at the time of the Census. The population was not adjusted to the middle of the Census year as is the practice of other countries; there is no reason to believe that the population on June 30 would differ greatly. Methodology: The main portion of the tables were calculated using the method of osculatory interpolation between pivotal values proposed by Mr. George King in the construction of the English Life Tables.  Graduated pivotal values of the population and deaths at quinquennial intervals from age 12 to 97 years were then calculated using King’s formula with V(x) = 0.216*W(x) – 0.008*(W(x-5) + W(x+5)). From these pivotal values of m(x), the q(x) values were computed. In order to obtain a smooth graduation it was necessary to redistribute the deaths a a small number of the quinquennial groups while keeping the totals in the corresponding decennial groups unaltered. The 1971 Life Tables were used for this purpose. No such adjustment was needed for the Urban Districts tables. A second degree curve was obtained, passing through pivotal value q(72) and determined in such a manner that the sum of the weighted squares between the later pivotal values and the corresponding values of q(x) on this curve would be minimized.  Data Transcription Errors: None. Data Certified: 07/2014</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Population mortality</KeyWord>
+    <KeyWord>Ireland</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="353">Ireland</Nation>
+      <TableDescription>Urban Districts Irish Life Table No. 9A (1978-80) Males. Minimum Age: 0 Maximum Age: 105</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">0.01628</Y>
+        <Y t="1">0.00120</Y>
+        <Y t="2">0.00067</Y>
+        <Y t="3">0.00054</Y>
+        <Y t="4">0.00056</Y>
+        <Y t="5">0.00046</Y>
+        <Y t="6">0.00044</Y>
+        <Y t="7">0.00047</Y>
+        <Y t="8">0.00044</Y>
+        <Y t="9">0.00041</Y>
+        <Y t="10">0.00039</Y>
+        <Y t="11">0.00039</Y>
+        <Y t="12">0.00040</Y>
+        <Y t="13">0.00045</Y>
+        <Y t="14">0.00051</Y>
+        <Y t="15">0.00059</Y>
+        <Y t="16">0.00067</Y>
+        <Y t="17">0.00075</Y>
+        <Y t="18">0.00084</Y>
+        <Y t="19">0.00093</Y>
+        <Y t="20">0.00102</Y>
+        <Y t="21">0.00110</Y>
+        <Y t="22">0.00116</Y>
+        <Y t="23">0.00120</Y>
+        <Y t="24">0.00122</Y>
+        <Y t="25">0.00123</Y>
+        <Y t="26">0.00124</Y>
+        <Y t="27">0.00126</Y>
+        <Y t="28">0.00129</Y>
+        <Y t="29">0.00133</Y>
+        <Y t="30">0.00138</Y>
+        <Y t="31">0.00143</Y>
+        <Y t="32">0.00150</Y>
+        <Y t="33">0.00157</Y>
+        <Y t="34">0.00164</Y>
+        <Y t="35">0.00174</Y>
+        <Y t="36">0.00185</Y>
+        <Y t="37">0.00200</Y>
+        <Y t="38">0.00218</Y>
+        <Y t="39">0.00237</Y>
+        <Y t="40">0.00260</Y>
+        <Y t="41">0.00288</Y>
+        <Y t="42">0.00322</Y>
+        <Y t="43">0.00361</Y>
+        <Y t="44">0.00403</Y>
+        <Y t="45">0.00451</Y>
+        <Y t="46">0.00510</Y>
+        <Y t="47">0.00582</Y>
+        <Y t="48">0.00668</Y>
+        <Y t="49">0.00768</Y>
+        <Y t="50">0.00880</Y>
+        <Y t="51">0.01000</Y>
+        <Y t="52">0.01127</Y>
+        <Y t="53">0.01261</Y>
+        <Y t="54">0.01404</Y>
+        <Y t="55">0.01557</Y>
+        <Y t="56">0.01718</Y>
+        <Y t="57">0.01887</Y>
+        <Y t="58">0.02063</Y>
+        <Y t="59">0.02245</Y>
+        <Y t="60">0.02438</Y>
+        <Y t="61">0.02647</Y>
+        <Y t="62">0.02877</Y>
+        <Y t="63">0.03121</Y>
+        <Y t="64">0.03377</Y>
+        <Y t="65">0.03658</Y>
+        <Y t="66">0.03976</Y>
+        <Y t="67">0.04347</Y>
+        <Y t="68">0.04790</Y>
+        <Y t="69">0.05302</Y>
+        <Y t="70">0.05864</Y>
+        <Y t="71">0.06456</Y>
+        <Y t="72">0.07053</Y>
+        <Y t="73">0.07653</Y>
+        <Y t="74">0.08272</Y>
+        <Y t="75">0.08914</Y>
+        <Y t="76">0.09585</Y>
+        <Y t="77">0.10288</Y>
+        <Y t="78">0.11028</Y>
+        <Y t="79">0.11805</Y>
+        <Y t="80">0.12616</Y>
+        <Y t="81">0.13459</Y>
+        <Y t="82">0.14330</Y>
+        <Y t="83">0.15233</Y>
+        <Y t="84">0.16171</Y>
+        <Y t="85">0.17143</Y>
+        <Y t="86">0.18148</Y>
+        <Y t="87">0.19181</Y>
+        <Y t="88">0.20249</Y>
+        <Y t="89">0.21348</Y>
+        <Y t="90">0.22480</Y>
+        <Y t="91">0.23644</Y>
+        <Y t="92">0.24841</Y>
+        <Y t="93">0.26070</Y>
+        <Y t="94">0.27331</Y>
+        <Y t="95">0.28624</Y>
+        <Y t="96">0.29950</Y>
+        <Y t="97">0.31308</Y>
+        <Y t="98">0.32699</Y>
+        <Y t="99">0.34122</Y>
+        <Y t="100">0.35577</Y>
+        <Y t="101">0.37064</Y>
+        <Y t="102">0.38584</Y>
+        <Y t="103">0.40136</Y>
+        <Y t="104">0.41721</Y>
+        <Y t="105">0.43337</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>1549</TableIdentity>
+    <ProviderDomain>https://docs.google.com/a/wisc.edu</ProviderDomain>
+    <ProviderName>Jed Frees</ProviderName>
+    <TableReference>Edward W. Frees, “Pension Plan Termination and Retirement Study”, University of Wisconsin (2003). Accessed October, 2013 from: https://www.soa.org/resources/experience-studies/2000-2004/research-2003-soa-pension-plan-turnover-study/</TableReference>
+    <ContentType tc="5">Termination Voluntary</ContentType>
+    <TableName>2003 Pension Plan Turnover Probabilities, ANB</TableName>
+    <TableDescription>2003 Pension Plan Turnover Probabilities by Service Year Cohorts. Basis: Age Nearest Birthday. Minimum Age: 18. Maximum Age: 60.</TableDescription>
+    <Comments>Study Data: The Society of Actuaries’ Non-Mortality Decrement Task Force organized a data collection effort from which thirty-two contributors provided over 1.7 million life years of pension plan turnover data for years 1994-2000. For purposes of the study, turnover encompasses the following ways of exiting employment: termination, retirement, disability, death, and transfers. Termination includes voluntary and non-voluntary (dismissals, lay-offs, plant closures, etc.). Male and females combined. For consistency with common pension vesting rules, data grouped into four categories: less than 2 (new hires, 0 and 1 year of completed service), 2-4 years of service, 5-9 and 10 and over. Methodology: To assess the effects of plan characteristics while controlling for age, service and gender, a multinomial logit analysis, a regression methodology suitable for categorical outcomes, was used. Multinomial logit is an extension of (ordinary) linear regression modeling that allows for discrete (non-Gaussian) outcomes. The aggregate data was graduated using traditional smoothing methods, specifically Whittaker-Henderson Type B graduation. Each service category was then individually smoothed so that there remain some small anomalies at the beginning and the end of the data. NOTE: A table structure does not currently exist in this database to accommodate the nature of this data. The “Select and Ultimate” format was chosen as it most closely aligns with the data. The experience of recently insured individuals is called "select" experience while the experience of individuals insured many years ago is called "ultimate" experience. The ultimate section of this table does not represent rates for a stage following a period associated with “selection” but rather is the probability of termination from all service year lengths combined. In a similar fashion, there is not a single value specifying the period over which selection wears off and after which time rates taper into ultimate rates; select period herein refers to service years. Data Transcription Errors: None. Data Certified: 11/2013.</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>Termination Voluntary</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003 Pension Plan Turnover Probabilities. Length of Service: Less than 2 Years. Basis: Age Nearest Birthday. Minimum Age: 18. Maximum Age: 60</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.3964</Y>
+        <Y t="19">0.2023</Y>
+        <Y t="20">0.1799</Y>
+        <Y t="21">0.2238</Y>
+        <Y t="22">0.2407</Y>
+        <Y t="23">0.2385</Y>
+        <Y t="24">0.227</Y>
+        <Y t="25">0.2174</Y>
+        <Y t="26">0.2095</Y>
+        <Y t="27">0.2041</Y>
+        <Y t="28">0.1942</Y>
+        <Y t="29">0.1873</Y>
+        <Y t="30">0.1861</Y>
+        <Y t="31">0.1883</Y>
+        <Y t="32">0.1832</Y>
+        <Y t="33">0.1739</Y>
+        <Y t="34">0.1694</Y>
+        <Y t="35">0.1678</Y>
+        <Y t="36">0.1669</Y>
+        <Y t="37">0.1629</Y>
+        <Y t="38">0.16</Y>
+        <Y t="39">0.1536</Y>
+        <Y t="40">0.1591</Y>
+        <Y t="41">0.1594</Y>
+        <Y t="42">0.1605</Y>
+        <Y t="43">0.1598</Y>
+        <Y t="44">0.1588</Y>
+        <Y t="45">0.1548</Y>
+        <Y t="46">0.1561</Y>
+        <Y t="47">0.153</Y>
+        <Y t="48">0.1515</Y>
+        <Y t="49">0.1553</Y>
+        <Y t="50">0.156</Y>
+        <Y t="51">0.1535</Y>
+        <Y t="52">0.1435</Y>
+        <Y t="53">0.1434</Y>
+        <Y t="54">0.1417</Y>
+        <Y t="55">0.1352</Y>
+        <Y t="56">0.1284</Y>
+        <Y t="57">0.1266</Y>
+        <Y t="58">0.1274</Y>
+        <Y t="59">0.135</Y>
+        <Y t="60">0.1363</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003 Pension Plan Turnover Probabilities. Length of Service: 2, 3 and 4 Years. Basis: Age Nearest Birthday. Minimum Age: 20. Maximum Age: 60</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>20</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="20">0.1419</Y>
+        <Y t="21">0.1819</Y>
+        <Y t="22">0.196</Y>
+        <Y t="23">0.1958</Y>
+        <Y t="24">0.1832</Y>
+        <Y t="25">0.1714</Y>
+        <Y t="26">0.1627</Y>
+        <Y t="27">0.1529</Y>
+        <Y t="28">0.1452</Y>
+        <Y t="29">0.1393</Y>
+        <Y t="30">0.1358</Y>
+        <Y t="31">0.1309</Y>
+        <Y t="32">0.126</Y>
+        <Y t="33">0.1197</Y>
+        <Y t="34">0.1133</Y>
+        <Y t="35">0.1102</Y>
+        <Y t="36">0.1098</Y>
+        <Y t="37">0.1099</Y>
+        <Y t="38">0.1077</Y>
+        <Y t="39">0.1059</Y>
+        <Y t="40">0.1035</Y>
+        <Y t="41">0.1001</Y>
+        <Y t="42">0.0972</Y>
+        <Y t="43">0.0971</Y>
+        <Y t="44">0.0962</Y>
+        <Y t="45">0.0947</Y>
+        <Y t="46">0.0954</Y>
+        <Y t="47">0.0947</Y>
+        <Y t="48">0.0937</Y>
+        <Y t="49">0.0902</Y>
+        <Y t="50">0.089</Y>
+        <Y t="51">0.0932</Y>
+        <Y t="52">0.0952</Y>
+        <Y t="53">0.0924</Y>
+        <Y t="54">0.088</Y>
+        <Y t="55">0.0782</Y>
+        <Y t="56">0.0749</Y>
+        <Y t="57">0.0767</Y>
+        <Y t="58">0.0768</Y>
+        <Y t="59">0.0794</Y>
+        <Y t="60">0.0784</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003 Pension Plan Turnover Probabilities. Length of Service: 5-9 Years. Basis: Age Nearest Birthday. Minimum Age: 22. Maximum Age: 60</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.15</Y>
+        <Y t="23">0.1509</Y>
+        <Y t="24">0.1425</Y>
+        <Y t="25">0.1296</Y>
+        <Y t="26">0.1129</Y>
+        <Y t="27">0.0997</Y>
+        <Y t="28">0.0915</Y>
+        <Y t="29">0.0869</Y>
+        <Y t="30">0.0839</Y>
+        <Y t="31">0.0802</Y>
+        <Y t="32">0.0776</Y>
+        <Y t="33">0.0756</Y>
+        <Y t="34">0.0737</Y>
+        <Y t="35">0.0715</Y>
+        <Y t="36">0.0685</Y>
+        <Y t="37">0.0668</Y>
+        <Y t="38">0.0644</Y>
+        <Y t="39">0.0627</Y>
+        <Y t="40">0.0601</Y>
+        <Y t="41">0.0589</Y>
+        <Y t="42">0.0584</Y>
+        <Y t="43">0.0575</Y>
+        <Y t="44">0.0577</Y>
+        <Y t="45">0.0582</Y>
+        <Y t="46">0.0581</Y>
+        <Y t="47">0.0561</Y>
+        <Y t="48">0.0552</Y>
+        <Y t="49">0.056</Y>
+        <Y t="50">0.0532</Y>
+        <Y t="51">0.0513</Y>
+        <Y t="52">0.0499</Y>
+        <Y t="53">0.047</Y>
+        <Y t="54">0.0412</Y>
+        <Y t="55">0.0259</Y>
+        <Y t="56">0.0184</Y>
+        <Y t="57">0.0154</Y>
+        <Y t="58">0.0158</Y>
+        <Y t="59">0.0192</Y>
+        <Y t="60">0.0212</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003 Pension Plan Turnover Probabilities. Length of Service: 10 or More Years. Basis: Age Nearest Birthday. Minimum Age: 28. Maximum Age: 60</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>28</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="28">0.0875</Y>
+        <Y t="29">0.0521</Y>
+        <Y t="30">0.0484</Y>
+        <Y t="31">0.0539</Y>
+        <Y t="32">0.0547</Y>
+        <Y t="33">0.053</Y>
+        <Y t="34">0.0515</Y>
+        <Y t="35">0.0502</Y>
+        <Y t="36">0.0487</Y>
+        <Y t="37">0.0468</Y>
+        <Y t="38">0.0443</Y>
+        <Y t="39">0.0432</Y>
+        <Y t="40">0.0415</Y>
+        <Y t="41">0.0393</Y>
+        <Y t="42">0.0386</Y>
+        <Y t="43">0.0381</Y>
+        <Y t="44">0.0379</Y>
+        <Y t="45">0.0373</Y>
+        <Y t="46">0.0364</Y>
+        <Y t="47">0.0366</Y>
+        <Y t="48">0.037</Y>
+        <Y t="49">0.0365</Y>
+        <Y t="50">0.0349</Y>
+        <Y t="51">0.0338</Y>
+        <Y t="52">0.0335</Y>
+        <Y t="53">0.0322</Y>
+        <Y t="54">0.0237</Y>
+        <Y t="55">0.0088</Y>
+        <Y t="56">0.0023</Y>
+        <Y t="57">0.0011</Y>
+        <Y t="58">0.0022</Y>
+        <Y t="59">0.0031</Y>
+        <Y t="60">0.002</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2003 Pension Plan Turnover Probabilities. All Service Lengths Combined. Basis: Age Nearest Birthday. Minimum Age: 18. Maximum Age: 60</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>60</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="18">0.3572</Y>
+        <Y t="19">0.1971</Y>
+        <Y t="20">0.1746</Y>
+        <Y t="21">0.2123</Y>
+        <Y t="22">0.2225</Y>
+        <Y t="23">0.2182</Y>
+        <Y t="24">0.2019</Y>
+        <Y t="25">0.1851</Y>
+        <Y t="26">0.1699</Y>
+        <Y t="27">0.1553</Y>
+        <Y t="28">0.1415</Y>
+        <Y t="29">0.1302</Y>
+        <Y t="30">0.1219</Y>
+        <Y t="31">0.1144</Y>
+        <Y t="32">0.107</Y>
+        <Y t="33">0.0991</Y>
+        <Y t="34">0.0925</Y>
+        <Y t="35">0.0878</Y>
+        <Y t="36">0.0837</Y>
+        <Y t="37">0.08</Y>
+        <Y t="38">0.0758</Y>
+        <Y t="39">0.0723</Y>
+        <Y t="40">0.07</Y>
+        <Y t="41">0.0672</Y>
+        <Y t="42">0.0654</Y>
+        <Y t="43">0.0643</Y>
+        <Y t="44">0.0633</Y>
+        <Y t="45">0.0621</Y>
+        <Y t="46">0.061</Y>
+        <Y t="47">0.0598</Y>
+        <Y t="48">0.0592</Y>
+        <Y t="49">0.0585</Y>
+        <Y t="50">0.0563</Y>
+        <Y t="51">0.0548</Y>
+        <Y t="52">0.0535</Y>
+        <Y t="53">0.051</Y>
+        <Y t="54">0.0432</Y>
+        <Y t="55">0.0292</Y>
+        <Y t="56">0.0225</Y>
+        <Y t="57">0.0206</Y>
+        <Y t="58">0.0212</Y>
+        <Y t="59">0.0227</Y>
+        <Y t="60">0.022</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>
