@@ -67,6 +67,12 @@ class PyXML:
 
     """
     def __init__(self, id: int):
+        """
+        Takes the id of a table and returns the PyXML object.
+
+        Args: 
+            id (int): The id of the table to be loaded.
+        """
         root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
         self.contentClassification = createContentClassification(root.find('./ContentClassification'))
         self.tables = createTables(root)
