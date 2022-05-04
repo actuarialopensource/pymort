@@ -5,7 +5,7 @@ from typing import List
 import importlib.resources
 from . import archive_2021_Oct_17_051924 as data
 
-# The following classes represent the xml elements in the XTbML file.
+# The following classes represent the xml elements in the XTbML file https://mort.soa.org/About.aspx
 
 @dataclass
 class AxisDef:
@@ -61,9 +61,8 @@ class PyXML:
     Corresponds to the `XTbML` root element in the XML file.
 
     Attributes:
-        metadata (pd.DataFrame): Primary key of `id`. Columns are metadata describing table with `id`.
-        select (pd.DataFrame): Composite primary key of `id`, `Age`, `Duration` is a MultiIndex. Column `vals` stores rates.
-        metadata (pd.DataFrame): Composite primary key of `id`, `Age` is a MultiIndex. Column `vals` stores rates.
+        contentClassification (ContentClassification): Corresponds to ContentClassification XML element.
+        tables (List[Table]): Corresponds to Table XML elements.
 
     """
     def __init__(self, id: int):
@@ -74,8 +73,8 @@ class PyXML:
             id (int): The id of the table to be loaded.
         """
         root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
-        self.contentClassification = createContentClassification(root.find('./ContentClassification'))
-        self.tables = createTables(root)
+        self.contentClassification: ContentClassification = createContentClassification(root.find('./ContentClassification'))
+        self.tables: List[Table] = createTables(root)
 
 # The following functions turn XML elements into Python objects.
 
