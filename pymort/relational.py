@@ -1,6 +1,7 @@
 import importlib.resources
 from . import pickled_tables
 import pandas as pd
+import pickle
 
 class Relational:
     """Rate tables with primary/foreign keys.
@@ -15,7 +16,8 @@ class Relational:
 
     """
     def __init__(self):
-        self.metadata: pd.DataFrame = importlib.resources.read_binary(pickled_tables, 'meta.pickle')
-        self.select: pd.DataFrame = importlib.resources.read_binary(pickled_tables, 'sel.pickle')
-        self.ultimate: pd.DataFrame = importlib.resources.read_binary(pickled_tables, 'ult.pickle')
+        # These pickled files are generated using `scripts/createRelational.py`.
+        self.metadata: pd.DataFrame = pickle.loads(importlib.resources.read_binary(pickled_tables, 'meta.pickle'))
+        self.select: pd.DataFrame = pickle.loads(importlib.resources.read_binary(pickled_tables, 'sel.pickle'))
+        self.ultimate: pd.DataFrame = pickle.loads(importlib.resources.read_binary(pickled_tables, 'ult.pickle'))
 
