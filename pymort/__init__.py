@@ -1,5 +1,6 @@
-__version__ = '0.2.0'
+__version__ = '0.4.0'
 
-from .loader import load, relational
-from .map import tableIDs
+from .relational import Relational
+from .pyXML import PyXML
+
 
