@@ -3,7 +3,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from typing import List
 import importlib.resources
-from . import archive_2021_Oct_17_051924 as data
+from . import archive_2022_May_04_093934 as data
 
 # The following classes represent the xml elements in the XTbML file https://mort.soa.org/About.aspx
 
@@ -42,7 +42,7 @@ class ContentClassification:
     """
     Corresponds to the XML element having the same name.
     """
-    TableIdentity: str
+    TableIdentity: int
     ProviderDomain: str
     ProviderName: str
     TableReference: str
@@ -73,8 +73,8 @@ class PyXML:
             id (int): The id of the table to be loaded.
         """
         root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
-        self.contentClassification: ContentClassification = createContentClassification(root.find('./ContentClassification'))
-        self.tables: List[Table] = createTables(root)
+        self.ContentClassification: ContentClassification = createContentClassification(root.find('./ContentClassification'))
+        self.Tables: List[Table] = createTables(root)
 
 # The following functions turn XML elements into Python objects.
 
@@ -116,7 +116,7 @@ def createValues(values: ET.Element, metadata: MetaData) -> pd.DataFrame:
     Given an xml <Values> element, and the table's metadata, return a multi-indexed DataFrame
     '''
     # the ternary prevents error when casting None to float, useful when <Y> is empty
-    vals = [float(val.text) if val.text else None for val in values.iter('Y')]
+    vals = [float(val.text) if val.text != "" else None for val in values.iter('Y')]
     index = constructMultiIndex(metadata.AxisDefs)
     return pd.DataFrame(vals, index=index, columns=['vals'])
     
@@ -129,7 +129,7 @@ def createTable(table: ET.Element) -> Table:
     return Table(metaData, values)
 
 def createTables(root: ET.Element) -> List[Table]:
-    '''given the root of an xml tree, return a list of Table objects'''
+    '''Given the root of an xml tree, return a list of Table objects'''
     return [createTable(table) for table in root.findall('./Table')]
 
 def createContentClassification(contentClassification: ET.Element) -> ContentClassification:
@@ -137,7 +137,7 @@ def createContentClassification(contentClassification: ET.Element) -> ContentCla
     Given an xml <ContentClassification> element, return a ContentClassification object
     '''
     return ContentClassification(
-        contentClassification.find('./TableIdentity').text,
+        int(contentClassification.find('./TableIdentity').text),
         contentClassification.find('./ProviderDomain').text,
         contentClassification.find('./ProviderName').text,
         contentClassification.find('./TableReference').text,
