@@ -102,30 +102,43 @@ def createMetaData(metadata: ET.Element) -> MetaData:
         [createAxisDef(axisDef) for axisDef in metadata.findall('./AxisDef')]
     )
 
-def constructMultiIndex(axisDefs: List[AxisDef]) -> pd.MultiIndex:
-    '''
-    Given a list of AxisDef objects, return the multiindex for the values dataframe.
-    '''
-    return pd.MultiIndex.from_product(
-        # the max(axisDef.Increment,1) deals with increments of 0.
-        [range(axisDef.MinScaleValue, axisDef.MaxScaleValue+1, max(axisDef.Increment, 1)) for axisDef in axisDefs],
-        names=[axisDef.AxisName for axisDef in axisDefs])
+def getAxisVals(axis: ET.Element) -> pd.DataFrame:
+    """
+    Take the bottom level `Axis` tag (having no "t" attribute).
+    Return two lists of the same length, containing the "t" attribute and the float(tag.text)
+    """
+    ys = list(axis.iter("Y"))
+    # check for y.text is for triangular tables
+    ts = [int(y.attrib["t"]) for y in ys if y.text]
+    vals = [float(y.text) for y in ys if y.text]
+    # this means the table is two dimensional
+    if "t" in axis.attrib:
+        rowT = int(axis.attrib["t"])
+        colTs = ts
+        df = pd.DataFrame({"Age": [rowT]*len(vals), "Duration": colTs, "vals": vals})
+        df.set_index(["Age", "Duration"], inplace=True)
+        return df
+    else: # one dimensional
+        df = pd.DataFrame({"Age": ts, "vals": vals})
+        df.set_index("Age", inplace=True)
+        return df
 
-def createValues(values: ET.Element, metadata: MetaData) -> pd.DataFrame:
-    '''
-    Given an xml <Values> element, and the table's metadata, return a multi-indexed DataFrame
-    '''
-    # the ternary prevents error when casting None to float, useful when <Y> is empty
-    vals = [float(val.text) if val.text != "" else None for val in values.iter('Y')]
-    index = constructMultiIndex(metadata.AxisDefs)
-    return pd.DataFrame(vals, index=index, columns=['vals'])
+def createValues(table: ET.Element) -> pd.DataFrame:
+    """
+    Take the top level `Table` tag and return a list
+    """
+    axes = table.findall("./Values/Axis")
+    dfs = []
+    for axis in axes:
+        dfs.append(getAxisVals(axis))
+    return pd.concat(dfs)
     
 def createTable(table: ET.Element) -> Table:
     '''
     Given an xml <Table> element, return a Table object
     '''
     metaData = createMetaData(table.find('./MetaData'))
-    values = createValues(table.find('./Values'), metaData)
+    values = createValues(table)
     return Table(metaData, values)
 
 def createTables(root: ET.Element) -> List[Table]:
