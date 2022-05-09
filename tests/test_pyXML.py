@@ -51,5 +51,5 @@ def test_PyXML():
     assert meta1.AxisDefs[0].Increment == 1
     
     values1 = xml.Tables[1].Values
-    assert .00029 == list(values1.loc[0]["vals"])[0]
-    assert .00248 == list(values1.loc[50]["vals"])[0]
+    assert .00029 == values1.loc[0]["vals"]
+    assert .00248 == values1.loc[50]["vals"]
