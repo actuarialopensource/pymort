@@ -52,7 +52,7 @@ class ContentClassification:
     Comments: str
     KeyWords: List[str]
 
-class PyXML:
+class MortXML:
     """A Python wrapper for XML mortality tables.
 
     A tree of nested Python classes that represent an `XML standard <https://mort.soa.org/About.aspx/>`_ 

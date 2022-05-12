@@ -1,7 +1,7 @@
-from pymort import PyXML
+from pymort import MortXML
 
 def test_PyXML():
-    xml = PyXML(3279)
+    xml = MortXML(3279)
 
     contentClassification = xml.ContentClassification
     assert contentClassification.TableIdentity == 3279
