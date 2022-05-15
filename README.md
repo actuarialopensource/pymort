@@ -1,4 +1,4 @@
-# pymort
+# pymort (Mortality Tables in Python)
 
 `pymort` is a way to retrieve the mortality tables hosted at [https://mort.soa.org/](https://mort.soa.org/).
 
