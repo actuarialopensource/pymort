@@ -3,7 +3,7 @@ import importlib.resources
 from . import pickled_tables
 import pandas as pd
 import pickle
-from typing import List
+from typing import Tuple
 from itertools import groupby
 
 class Relational:
@@ -31,7 +31,9 @@ class IdGroup:
     """
     study: str
     grouping: str
-    ids: List[int]
+    ids: Tuple[int]
+    genders: Tuple[str]
+    risks: Tuple[str]
 
 
 def getIdGroup(targetId: int) -> IdGroup:
@@ -43,9 +45,9 @@ def getIdGroup(targetId: int) -> IdGroup:
     meta.reset_index(inplace=True)
     # ensure that study/grouping groups are all consecutive
     meta.sort_values(by=["study", "grouping", "id"], inplace=True)
-    for k, g in groupby(zip(meta.id, meta.study, meta.grouping), key=lambda x: (x[1], x[2])):
-        groupIds = [x[0] for x in g]
+    for k, g in groupby(zip(meta.study, meta.grouping, meta.id, meta.gender, meta.risk), key=lambda x: (x[0], x[1])):
+        groupIds, genders, risks = zip(*[x[2:] for x in g])
         if targetId in groupIds:
-            return IdGroup(k[0], k[1], groupIds)
+            return IdGroup(k[0], k[1], groupIds, genders, risks)
     raise KeyError("Your table identifier is not in the pandas table Relational().metadata")
 

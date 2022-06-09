@@ -16,5 +16,7 @@ def test_getIdGroup():
     idGroup = getIdGroup(3265)
     assert idGroup.study == "2015_VBT"
     assert idGroup.grouping == "smoker_distinct ANB"
-    assert idGroup.ids == [3265, 3266, 3267, 3268]
+    assert idGroup.ids == (3265, 3266, 3267, 3268)
+    assert idGroup.genders == ("male", "female", "male", "female")
+    assert idGroup.risks == ("nonsmoker", "nonsmoker", "smoker", "smoker")
     
