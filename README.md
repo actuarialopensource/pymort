@@ -96,6 +96,13 @@ print(db.ultimate)
 
 ![](./assets/ult2.png)
 
-## Usage with tensor libraries
+### Groupings
 
-MortXML(3265).Tables[0]
+If you want to get the IDs for all tables having the same study and group there is a function for this, although you could do it yourself in Pandas.
+
+```py
+from pymort import getIdGroup
+
+getIdGroup(3265)
+```
+
