@@ -1,6 +1,6 @@
-__version__ = "0.5.0"
+__version__ = "0.6.0"
 
-from .relational import Relational
+from .relational import Relational, getIdGroup
 from .XML import MortXML
 
 
