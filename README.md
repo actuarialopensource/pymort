@@ -106,3 +106,6 @@ from pymort import getIdGroup
 getIdGroup(3265)
 ```
 
+This returns a dataclass representing the grouping.
+
+![](./assets/grouping.png)
