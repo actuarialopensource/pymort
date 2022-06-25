@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/odddkidout/pymort/branch/main/graph/badge.svg?token=KGWLJD85RN)](https://codecov.io/gh/odddkidout/pymort)
+
 # pymort
 
 `pymort` is a way to retrieve the mortality tables hosted at [https://mort.soa.org/](https://mort.soa.org/).
