@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/odddkidout/pymort/branch/main/graph/badge.svg?token=KGWLJD85RN)](https://codecov.io/gh/odddkidout/pymort)
+[![codecov](https://codecov.io/gh/actuarialopensource/pymort/branch/main/graph/badge.svg?token=4FXINYA2F8)](https://codecov.io/gh/actuarialopensource/pymort)
 
 # pymort
 
