@@ -6,6 +6,7 @@ import pickle
 from typing import Tuple
 from itertools import groupby
 
+
 class Relational:
     """Rate tables with primary/foreign keys.
 
@@ -18,17 +19,26 @@ class Relational:
         metadata (pd.DataFrame): Composite primary key of `id`, `Age` is a MultiIndex. Column `vals` stores rates.
 
     """
+
     def __init__(self):
         # These pickled files are generated using `scripts/createRelational.py`.
-        self.metadata: pd.DataFrame = pickle.loads(importlib.resources.read_binary(pickled_tables, 'meta.pickle'))
-        self.select: pd.DataFrame = pickle.loads(importlib.resources.read_binary(pickled_tables, 'sel.pickle'))
-        self.ultimate: pd.DataFrame = pickle.loads(importlib.resources.read_binary(pickled_tables, 'ult.pickle'))
+        self.metadata: pd.DataFrame = pickle.loads(
+            importlib.resources.read_binary(pickled_tables, "meta.pickle")
+        )
+        self.select: pd.DataFrame = pickle.loads(
+            importlib.resources.read_binary(pickled_tables, "sel.pickle")
+        )
+        self.ultimate: pd.DataFrame = pickle.loads(
+            importlib.resources.read_binary(pickled_tables, "ult.pickle")
+        )
+
 
 @dataclass
 class IdGroup:
     """
     An IdGroup is a group of IDs that have the same study and grouping in the Relational().metadata pandas table
     """
+
     study: str
     grouping: str
     ids: Tuple[int]
@@ -45,9 +55,13 @@ def getIdGroup(targetId: int) -> IdGroup:
     meta.reset_index(inplace=True)
     # ensure that study/grouping groups are all consecutive
     meta.sort_values(by=["study", "grouping", "id"], inplace=True)
-    for k, g in groupby(zip(meta.study, meta.grouping, meta.id, meta.gender, meta.risk), key=lambda x: (x[0], x[1])):
+    for k, g in groupby(
+        zip(meta.study, meta.grouping, meta.id, meta.gender, meta.risk),
+        key=lambda x: (x[0], x[1]),
+    ):
         groupIds, genders, risks = zip(*[x[2:] for x in g])
         if targetId in groupIds:
             return IdGroup(k[0], k[1], groupIds, genders, risks)
-    raise KeyError("Your table identifier is not in the pandas table Relational().metadata")
-
+    raise KeyError(
+        "Your table identifier is not in the pandas table Relational().metadata"
+    )
