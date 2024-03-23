@@ -1,9 +1,10 @@
 from dataclasses import dataclass
 import pandas as pd
 import xml.etree.ElementTree as ET
-from typing import List
+from typing import List, Union
 import importlib.resources
-from . import archive_2022_May_04_093934 as data
+from os import PathLike
+from . import table_xml as data
 
 # The following classes represent the xml elements in the XTbML file https://mort.soa.org/About.aspx
 
@@ -75,18 +76,38 @@ class MortXML:
 
     """
 
-    def __init__(self, id: int):
+    def __init__(self, xml_str: str):
         """
         Takes the id of a table and returns the PyXML object.
 
         Args:
             id (int): The id of the table to be loaded.
         """
-        root = ET.fromstring(importlib.resources.read_text(data, f"t{id}.xml"))
+        root = ET.fromstring(xml_str)
         self.ContentClassification: ContentClassification = createContentClassification(
             root.find("./ContentClassification")
         )
         self.Tables: List[Table] = createTables(root)
+
+    @classmethod
+    def from_id(cls, id: int):
+        """
+        Takes an xml string and returns the PyXML object.
+
+        Args:
+            xml (str): The xml string to be loaded.
+        """
+        return cls(importlib.resources.read_text(data, f"t{id}.xml"))
+    
+    @classmethod
+    def from_path(cls, xml_path: Union[str, bytes, PathLike]):
+        """
+        Takes an xml string and returns the PyXML object.
+
+        Args:
+            xml (str): The xml string to be loaded.
+        """
+        return cls(open(xml_path).read())
 
 
 # The following functions turn XML elements into Python objects.
