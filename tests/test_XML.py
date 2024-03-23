@@ -1,8 +1,17 @@
 from pymort import MortXML
-
+from pathlib import Path
 
 def test_PyXML():
-    xml = MortXML(3279)
+    xml = MortXML.from_id(3279)
+    file_path = Path(__file__).parent.parent / "pymort" / "table_xml" / "t3279.xml"
+    xml_from_path = MortXML.from_path(file_path)
+    xml_str = file_path.read_text()
+    xml_from_str = MortXML(xml_str)
+
+    # quick check that they all workd
+    assert xml.ContentClassification.TableIdentity == \
+        xml_from_path.ContentClassification.TableIdentity == \
+        xml_from_str.ContentClassification.TableIdentity == 3279
 
     contentClassification = xml.ContentClassification
     assert contentClassification.TableIdentity == 3279
