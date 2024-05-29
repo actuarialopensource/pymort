@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: pymort
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Matthew
+    family-names: Caseres
+    email: matthewcaseres@outlook.com
+    affiliation: Actuarial Open Source
+    orcid: 'https://orcid.org/0000-0001-5819-001X'
+repository-code: 'https://github.com/actuarialopensource/pymort'
+abstract: >-
+  Object oriented Python wrapper for Society of Actuaries
+  mortality tables
+keywords:
+  - actuarial science
+license: MIT
