@@ -2,7 +2,7 @@
 
 # pymort
 
-`pymort` is a way to retrieve the mortality tables hosted at [https://mort.soa.org/](https://mort.soa.org/).
+`pymort` is a way to retrieve the mortality tables hosted at [https://mort.soa.org/](https://mort.soa.org/). It only hosts the data, an example of a package implementing Lee-Carter models is here - https://github.com/jkoestner/morai/tree/main
 
 ## Installation
 
