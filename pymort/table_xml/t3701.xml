@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3701</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “2023 Group Term Life Waiver Experience Table Report”, Society of Actuaries (2023). Accessed: November, 2024 from https://www.soa.org/4a0146/globalassets/assets/files/resources/experience-studies/2023/group-life-waiver.pdf</TableReference>
+    <ContentType tc="2">Disabled Lives Mortality</ContentType>
+    <TableName>2023 Group Term Life Waiver Study - Male, Select Period, Disabled Death Rates </TableName>
+    <TableDescription>2023 Group Term Life Waiver Study - Select Period Death Rates for Disabled - Male. Years 1-10 (Appendix A - Figure A.2) Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+    <Comments>Study Data: The data used was the same set analyzed in the 2019 GLWP Report. Covers the most recent 10 years of the data, 2006-2015, provided the most relevant and credible data to determine termination rates at the time of table creation. Observation cells with at least 300 observed claim terminations were deemed fully credible and used for the core graduation of rates in the table. The actual variable groupings were selected so that over 80% of the observation cells had this credible number of terminations, and the relatively small number of cells with few terminations did not have a significant impact on the final expectations.
+Methodology: The GLM model provided core rates for most of the Table as published. For the select period tables, rates for disabled ages 27 through 62 were provided from the GLM model. Some small adjustments were made to smooth the durational slope of termination rates in ages 27-32 and 57-62. The Table was extended to disabled ages 17 and 72 by using the termination rate relationships of the 2005 Table. For the ultimate period tables, rates for attained ages 37 to 70 were provided from the GLM model. Modest adjustments were made to ensure a smooth progression of termination rates across attained ages, as well as ensure smooth transition from the select table to the ultimate table. The ultimate recovery table was extended back to age 27 by increasing rates by 1%-1.25% for each age prior to age 37. The recovery rates beyond age 70 were extended down to 0 by attained age 80, consistent with the underlying data. The ultimate mortality table was extended back to age 27 by using the mortality rate slope from the 2005 Table as was done for the select period. To extend mortality rates beyond age 100 to age 120, the sex-specific rates from 2017 Unloaded CSO Composite Mortality Table were used. The mortality rates between ages 70 and 100 were interpolated to ensure an appropriate and smooth exponential rate curve for those 30 ages.</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Third Quarter Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>6</MinScaleValue>
+        <MaxScaleValue>6</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="6">
+        <Axis>
+          <Y t="17">0.0113</Y>
+          <Y t="22">0.0133</Y>
+          <Y t="27">0.0133</Y>
+          <Y t="32">0.0152</Y>
+          <Y t="37">0.0175</Y>
+          <Y t="42">0.0201</Y>
+          <Y t="47">0.0231</Y>
+          <Y t="52">0.0265</Y>
+          <Y t="57">0.0303</Y>
+          <Y t="62">0.0319</Y>
+          <Y t="67">0.0293</Y>
+          <Y t="72">0.0267</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Fourth Quarter Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>9</MinScaleValue>
+        <MaxScaleValue>9</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.0144</Y>
+          <Y t="22">0.0169</Y>
+          <Y t="27">0.0169</Y>
+          <Y t="32">0.0194</Y>
+          <Y t="37">0.0223</Y>
+          <Y t="42">0.0256</Y>
+          <Y t="47">0.0294</Y>
+          <Y t="52">0.0337</Y>
+          <Y t="57">0.0387</Y>
+          <Y t="62">0.0406</Y>
+          <Y t="67">0.0373</Y>
+          <Y t="72">0.034</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. First Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>12</MinScaleValue>
+        <MaxScaleValue>12</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="12">
+        <Axis>
+          <Y t="17">0.0134</Y>
+          <Y t="22">0.0158</Y>
+          <Y t="27">0.0158</Y>
+          <Y t="32">0.0181</Y>
+          <Y t="37">0.0208</Y>
+          <Y t="42">0.0239</Y>
+          <Y t="47">0.0274</Y>
+          <Y t="52">0.0314</Y>
+          <Y t="57">0.036</Y>
+          <Y t="62">0.0379</Y>
+          <Y t="67">0.0348</Y>
+          <Y t="72">0.0317</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Second Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>15</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="15">
+        <Axis>
+          <Y t="17">0.012</Y>
+          <Y t="22">0.0132</Y>
+          <Y t="27">0.0138</Y>
+          <Y t="32">0.0158</Y>
+          <Y t="37">0.0181</Y>
+          <Y t="42">0.0208</Y>
+          <Y t="47">0.0239</Y>
+          <Y t="52">0.0274</Y>
+          <Y t="57">0.0314</Y>
+          <Y t="62">0.033</Y>
+          <Y t="67">0.0297</Y>
+          <Y t="72">0.0264</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Third Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="18">
+        <Axis>
+          <Y t="17">0.011</Y>
+          <Y t="22">0.0119</Y>
+          <Y t="27">0.0119</Y>
+          <Y t="32">0.0137</Y>
+          <Y t="37">0.0157</Y>
+          <Y t="42">0.0181</Y>
+          <Y t="47">0.0207</Y>
+          <Y t="52">0.0238</Y>
+          <Y t="57">0.0273</Y>
+          <Y t="62">0.0286</Y>
+          <Y t="67">0.0276</Y>
+          <Y t="72">0.0244</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Fourth Quarter for Year 2 Death Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>21</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="21">
+        <Axis>
+          <Y t="17">0.0097</Y>
+          <Y t="22">0.0105</Y>
+          <Y t="27">0.0105</Y>
+          <Y t="32">0.012</Y>
+          <Y t="37">0.0138</Y>
+          <Y t="42">0.0159</Y>
+          <Y t="47">0.0182</Y>
+          <Y t="52">0.0209</Y>
+          <Y t="57">0.0239</Y>
+          <Y t="62">0.0251</Y>
+          <Y t="67">0.0251</Y>
+          <Y t="72">0.0219</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Male. Select Period Death Rates for Disabled. Annual Death Rates for Year 2 -10 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Year">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Year</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="24">
+        <Axis>
+          <Y t="17">0.0453</Y>
+          <Y t="22">0.0504</Y>
+          <Y t="27">0.051</Y>
+          <Y t="32">0.0583</Y>
+          <Y t="37">0.0667</Y>
+          <Y t="42">0.0764</Y>
+          <Y t="47">0.0873</Y>
+          <Y t="52">0.0996</Y>
+          <Y t="57">0.1136</Y>
+          <Y t="62">0.119</Y>
+          <Y t="67">0.1122</Y>
+          <Y t="72">0.1004</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

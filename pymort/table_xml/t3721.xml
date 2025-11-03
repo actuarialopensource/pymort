@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3721</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>The Society of Actuaries, "2016 Group Life Insurance Experience Committee Report", https://www.soa.org/4937f3/globalassets/assets/files/research/exp-study/research-2016-group-life-committee.pdf</TableReference>
+    <ContentType tc="83">Group Life</ContentType>
+    <TableName>2016 Group Term Life Mortality Table</TableName>
+    <TableDescription>2016 Group Term Life Mortality Table</TableDescription>
+    <Comments>This study was based on data collected on policies in force during the study period of 2010-2013. Data Certified: .</Comments>
+    <KeyWord>Aggregate</KeyWord>
+    <KeyWord>Group Life</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Basic Life Rates by Central Age Based on Lives, Mortality Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.150179</Y>
+        <Y t="27">0.147037</Y>
+        <Y t="32">0.218791</Y>
+        <Y t="37">0.305066</Y>
+        <Y t="42">0.4844</Y>
+        <Y t="47">0.732838</Y>
+        <Y t="52">1.117709</Y>
+        <Y t="57">1.630939</Y>
+        <Y t="62">2.553285</Y>
+        <Y t="67">4.318034</Y>
+        <Y t="72">8.546038</Y>
+        <Y t="77">20.484584</Y>
+        <Y t="82">40.13456</Y>
+        <Y t="87">86.975578</Y>
+        <Y t="92">137.00001</Y>
+        <Y t="97">197.689383</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Basic Life Rates by Central Age Based on Amount in Millions ($), Mortality Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.126591</Y>
+        <Y t="27">0.121976</Y>
+        <Y t="32">0.169312</Y>
+        <Y t="37">0.252789</Y>
+        <Y t="42">0.404685</Y>
+        <Y t="47">0.648374</Y>
+        <Y t="52">0.898621</Y>
+        <Y t="57">1.389466</Y>
+        <Y t="62">2.106901</Y>
+        <Y t="67">3.520402</Y>
+        <Y t="72">6.302196</Y>
+        <Y t="77">13.824952</Y>
+        <Y t="82">29.082175</Y>
+        <Y t="87">62.940844</Y>
+        <Y t="92">105.512789</Y>
+        <Y t="97">165.732533</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Basic Disability Rates by Central Age Based on Lives, Disability Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.088433</Y>
+        <Y t="27">0.13358</Y>
+        <Y t="32">0.270391</Y>
+        <Y t="37">0.383539</Y>
+        <Y t="42">0.603516</Y>
+        <Y t="47">0.817848</Y>
+        <Y t="52">1.169315</Y>
+        <Y t="57">1.553154</Y>
+        <Y t="62">0.444685</Y>
+        <Y t="67">0.163413</Y>
+        <Y t="72">0.24829</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Basic Disability Rates by Central Age Based on Amount in Millions ($), Disability Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.086743</Y>
+        <Y t="27">0.143819</Y>
+        <Y t="32">0.271555</Y>
+        <Y t="37">0.383421</Y>
+        <Y t="42">0.608732</Y>
+        <Y t="47">0.823544</Y>
+        <Y t="52">1.230945</Y>
+        <Y t="57">1.693736</Y>
+        <Y t="62">0.393857</Y>
+        <Y t="67">0.168827</Y>
+        <Y t="72">0.269896</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Basic AD&amp;D Rates by Central Age Based on Lives, AD&amp;D Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>62</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.062</Y>
+        <Y t="27">0.044</Y>
+        <Y t="32">0.05</Y>
+        <Y t="37">0.049</Y>
+        <Y t="42">0.05</Y>
+        <Y t="47">0.047</Y>
+        <Y t="52">0.055</Y>
+        <Y t="57">0.064</Y>
+        <Y t="62">0.067</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Basic AD&amp;D Rates by Central Age Based on Amount in Millions ($), AD&amp;D Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>22</MinScaleValue>
+        <MaxScaleValue>62</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="22">0.049</Y>
+        <Y t="27">0.038</Y>
+        <Y t="32">0.039</Y>
+        <Y t="37">0.044</Y>
+        <Y t="42">0.042</Y>
+        <Y t="47">0.046</Y>
+        <Y t="52">0.051</Y>
+        <Y t="57">0.055</Y>
+        <Y t="62">0.054</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Supplemental Life Rates by Central Age Based on Lives, Mortality Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.914368</Y>
+        <Y t="22">0.16113</Y>
+        <Y t="27">0.175052</Y>
+        <Y t="32">0.235187</Y>
+        <Y t="37">0.297545</Y>
+        <Y t="42">0.524995</Y>
+        <Y t="47">0.848926</Y>
+        <Y t="52">1.355076</Y>
+        <Y t="57">2.020622</Y>
+        <Y t="62">3.637296</Y>
+        <Y t="67">7.162827</Y>
+        <Y t="72">13.876998</Y>
+        <Y t="77">24.024325</Y>
+        <Y t="82">45.704265</Y>
+        <Y t="87">89.057849</Y>
+        <Y t="92">165.412758</Y>
+        <Y t="97">208.541575</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Supplemental Life Rates by Central Age Based on Amount in Millions ($), Mortality Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.487563</Y>
+        <Y t="22">0.149378</Y>
+        <Y t="27">0.165822</Y>
+        <Y t="32">0.202262</Y>
+        <Y t="37">0.261708</Y>
+        <Y t="42">0.426273</Y>
+        <Y t="47">0.718383</Y>
+        <Y t="52">1.137644</Y>
+        <Y t="57">1.836045</Y>
+        <Y t="62">3.32399</Y>
+        <Y t="67">6.69257</Y>
+        <Y t="72">11.271289</Y>
+        <Y t="77">21.950299</Y>
+        <Y t="82">39.444022</Y>
+        <Y t="87">76.145824</Y>
+        <Y t="92">120.460318</Y>
+        <Y t="97">158.73685</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Supplemental Disability Rates by Central Age Based on Lives, Disability Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0</Y>
+        <Y t="22">0.101453</Y>
+        <Y t="27">0.176209</Y>
+        <Y t="32">0.36865</Y>
+        <Y t="37">0.509058</Y>
+        <Y t="42">0.742217</Y>
+        <Y t="47">0.994694</Y>
+        <Y t="52">1.43304</Y>
+        <Y t="57">1.906073</Y>
+        <Y t="62">0.519962</Y>
+        <Y t="67">0.136893</Y>
+        <Y t="72">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Supplemental Disability Rates by Central Age Based on Amount in Millions ($), Monthly Disability Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0</Y>
+        <Y t="22">0.134556</Y>
+        <Y t="27">0.175247</Y>
+        <Y t="32">0.346476</Y>
+        <Y t="37">0.510755</Y>
+        <Y t="42">0.679777</Y>
+        <Y t="47">0.917528</Y>
+        <Y t="52">1.37133</Y>
+        <Y t="57">1.844699</Y>
+        <Y t="62">0.512549</Y>
+        <Y t="67">0.155554</Y>
+        <Y t="72">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Supplemental AD&amp;D Rates by Central Age Based on Lives, AD&amp;D Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>77</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.65</Y>
+        <Y t="22">0.036</Y>
+        <Y t="27">0.061</Y>
+        <Y t="32">0.035</Y>
+        <Y t="37">0.066</Y>
+        <Y t="42">0.045</Y>
+        <Y t="47">0.059</Y>
+        <Y t="52">0.074</Y>
+        <Y t="57">0.042</Y>
+        <Y t="62">0.07</Y>
+        <Y t="67">0.126</Y>
+        <Y t="72">0.404</Y>
+        <Y t="77">0.306</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Supplemental AD&amp;D Rates by Central Age Based on Amount in Millions ($), Monthly Mortality Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>77</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0.116</Y>
+        <Y t="22">0.011</Y>
+        <Y t="27">0.056</Y>
+        <Y t="32">0.029</Y>
+        <Y t="37">0.062</Y>
+        <Y t="42">0.05</Y>
+        <Y t="47">0.055</Y>
+        <Y t="52">0.082</Y>
+        <Y t="57">0.033</Y>
+        <Y t="62">0.083</Y>
+        <Y t="67">0.019</Y>
+        <Y t="72">0.086</Y>
+        <Y t="77">0.747</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Portability Life Rates by Central Age Based on Lives, Portability Rates per Thousand (Lives), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0</Y>
+        <Y t="22">0</Y>
+        <Y t="27">1.703779</Y>
+        <Y t="32">1.193814</Y>
+        <Y t="37">2.325036</Y>
+        <Y t="42">2.913737</Y>
+        <Y t="47">4.534991</Y>
+        <Y t="52">7.004329</Y>
+        <Y t="57">8.105802</Y>
+        <Y t="62">12.495497</Y>
+        <Y t="67">16.111008</Y>
+        <Y t="72">23.06997</Y>
+        <Y t="77">35.607214</Y>
+        <Y t="82">46.251206</Y>
+        <Y t="87">163.234316</Y>
+        <Y t="92">118.026982</Y>
+        <Y t="97">96.280677</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2016 Group Term Life Mortality Table, Portability Life Rates by Central Age Based on Amount in Millions ($), Portability Rates per Thousand (Amount), Female</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>97</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="17">0</Y>
+        <Y t="22">0</Y>
+        <Y t="27">1.729217</Y>
+        <Y t="32">0.854716</Y>
+        <Y t="37">1.988466</Y>
+        <Y t="42">1.858676</Y>
+        <Y t="47">3.722847</Y>
+        <Y t="52">5.778039</Y>
+        <Y t="57">8.105782</Y>
+        <Y t="62">11.84662</Y>
+        <Y t="67">17.500286</Y>
+        <Y t="72">26.565112</Y>
+        <Y t="77">31.876499</Y>
+        <Y t="82">34.362278</Y>
+        <Y t="87">115.581861</Y>
+        <Y t="92">100.50236</Y>
+        <Y t="97">31.597507</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

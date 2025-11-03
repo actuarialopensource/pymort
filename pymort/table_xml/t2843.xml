@@ -5,7 +5,7 @@
     <ProviderDomain>soa.org</ProviderDomain>
     <ProviderName>Susie Lee</ProviderName>
     <TableReference>Anthony J. Houghton and Ronald M. Wolf, "Development of the 1974 Medical Expense Tables", Transactions of the Society of Actuaries, Vol. 30 (1978) Accessed: July, 2014 from https://www.soa.org/Library/Research/Transactions-Of-Society-Of-Actuaries/1978/January/tsa78v303.pdf</TableReference>
-    <ContentType tc="50">Claim Cost (in Disability)</ContentType>
+    <ContentType tc="50">Claim Cost</ContentType>
     <TableName>1974 Medical Expense Tables: $10 Daily Hospital Benefit - Male</TableName>
     <TableDescription>1974 Medical Expense Tables: $10 Daily Hospital Benefit - Male. Minimum Age: 15. Maximum Age: 99</TableDescription>
     <Comments>Study Data: The sources of hospital frequency rates used in the 1974 Medical Expense Tables are the crude frequencies of hospitalization for individually underwritten lives for a daily hospital benefit with a 90-day maximum benefit period and no deductible. These frequencies, displayed in Transactions of the Society of Actuaries 1972 Reports and 1974 Reports, are based on the aggregate experience for all durations combined. Methodology: In order to eliminate the effects of selection and to bring the frequencies to an ultimate level of experience, each set of the crude frequencies were divided by ratios of aggregate experience for all durations to ultimate experience for durations 3 and later with one exception. The ratio of 100% for females in the 1972 Reports appeared to be illogical and was adjusted empirically to 98%. The two sets of crude frequency rates, adjusted to reflect experience in durations 3 and later, were combined into one set of crude frequency rates by weighting the two sets by the respective amounts of daily hospital benefits in force on claims in the two reports. For male lives the graduation method that gives a satisfactory combination of smoothness and fidelity to the crude data is to interpolate separately the crude frequency rates for every tenth attained age. Interpolations were then performed by passing a different cubic polynomial through each pair of consecutive points and then fitting these curves together to produce one smooth, continuous curve. The curve between each pair of consecutive points is determined by the three points on each side of the interval of interpolation. The exact method employed is taken from a paper written by Hiroshi Akima for
@@ -36,7 +36,7 @@ then averaged to produce final graduated frequency rates. The resulting frequenc
         <Y t="17">6.11</Y>
         <Y t="18">5.72</Y>
         <Y t="19">5.39</Y>
-        <Y t="20">512</Y>
+        <Y t="20">5.12</Y>
         <Y t="21">4.89</Y>
         <Y t="22">4.72</Y>
         <Y t="23">4.6</Y>

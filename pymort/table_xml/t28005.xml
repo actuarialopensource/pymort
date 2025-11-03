@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>28005</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Ecuadorian Social Security Institute</ProviderName>
+    <TableReference>"Life Tables for the Ecuadorian Social Security Institute (IESS)", Ecuadorian Social Security Institute, IESS. (2024). Accessed: November 2024 from https://www.iess.gob.ec/documents/10162/28917097/Tablas_Mortalidad_IESS_2020_es-signed-signed.pdf</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>2020 Ecuadorian Social Security Institute Life Tables - IESS 2020, Female Disability Pensioners</TableName>
+    <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - Table 5: Life Table IESS 2020, Female Disability Pensioners - Rates by Attained Age. Minimum Age: 15. Maximum Age: 105.</TableDescription>
+    <Comments>Study Data: The raw data from IESS was thoroughly processed and stored in binary files for further analysis using R. The project required extensive effort to obtain and process data from a public institution in Ecuador, highlighting differences in cultural values regarding transparency and standardization compared to more developed countries.</Comments>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord> Ecuador</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - Table 5: Life Table IESS 2020, Female Disability Pensioners - Rates by Attained Age. Rates - ux. Minimum Age: 15. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.01833396</Y>
+        <Y t="16">0.02061805</Y>
+        <Y t="17">0.02383129</Y>
+        <Y t="18">0.0280224</Y>
+        <Y t="19">0.03321739</Y>
+        <Y t="20">0.03937919</Y>
+        <Y t="21">0.04637067</Y>
+        <Y t="22">0.05392924</Y>
+        <Y t="23">0.06166424</Y>
+        <Y t="24">0.06908592</Y>
+        <Y t="25">0.07566703</Y>
+        <Y t="26">0.080927</Y>
+        <Y t="27">0.08451885</Y>
+        <Y t="28">0.08629502</Y>
+        <Y t="29">0.08633433</Y>
+        <Y t="30">0.08492499</Y>
+        <Y t="31">0.08251351</Y>
+        <Y t="32">0.07963991</Y>
+        <Y t="33">0.07688221</Y>
+        <Y t="34">0.07483052</Y>
+        <Y t="35">0.07225649</Y>
+        <Y t="36">0.06904555</Y>
+        <Y t="37">0.06540287</Y>
+        <Y t="38">0.06151795</Y>
+        <Y t="39">0.05755622</Y>
+        <Y t="40">0.05365494</Y>
+        <Y t="41">0.04992244</Y>
+        <Y t="42">0.04643997</Y>
+        <Y t="43">0.04326531</Y>
+        <Y t="44">0.0404372</Y>
+        <Y t="45">0.03798019</Y>
+        <Y t="46">0.03589789</Y>
+        <Y t="47">0.0341472</Y>
+        <Y t="48">0.03268236</Y>
+        <Y t="49">0.03146603</Y>
+        <Y t="50">0.03046762</Y>
+        <Y t="51">0.02966204</Y>
+        <Y t="52">0.02902869</Y>
+        <Y t="53">0.02855062</Y>
+        <Y t="54">0.02821391</Y>
+        <Y t="55">0.02800713</Y>
+        <Y t="56">0.0279209</Y>
+        <Y t="57">0.02794754</Y>
+        <Y t="58">0.02808077</Y>
+        <Y t="59">0.02831547</Y>
+        <Y t="60">0.02864742</Y>
+        <Y t="61">0.02907316</Y>
+        <Y t="62">0.02958979</Y>
+        <Y t="63">0.03019481</Y>
+        <Y t="64">0.03088599</Y>
+        <Y t="65">0.03166119</Y>
+        <Y t="66">0.03251828</Y>
+        <Y t="67">0.03345495</Y>
+        <Y t="68">0.03446859</Y>
+        <Y t="69">0.03555616</Y>
+        <Y t="70">0.03671405</Y>
+        <Y t="71">0.03794098</Y>
+        <Y t="72">0.03924777</Y>
+        <Y t="73">0.04064975</Y>
+        <Y t="74">0.04216415</Y>
+        <Y t="75">0.04381044</Y>
+        <Y t="76">0.04561071</Y>
+        <Y t="77">0.04759016</Y>
+        <Y t="78">0.0497777</Y>
+        <Y t="79">0.05220667</Y>
+        <Y t="80">0.05491574</Y>
+        <Y t="81">0.05795</Y>
+        <Y t="82">0.06136237</Y>
+        <Y t="83">0.06521523</Y>
+        <Y t="84">0.06958254</Y>
+        <Y t="85">0.07455249</Y>
+        <Y t="86">0.08023072</Y>
+        <Y t="87">0.08674455</Y>
+        <Y t="88">0.09424815</Y>
+        <Y t="89">0.10292923</Y>
+        <Y t="90">0.11301759</Y>
+        <Y t="91">0.12479611</Y>
+        <Y t="92">0.13589257</Y>
+        <Y t="93">0.14717816</Y>
+        <Y t="94">0.15943248</Y>
+        <Y t="95">0.1741238</Y>
+        <Y t="96">0.19372196</Y>
+        <Y t="97">0.2223616</Y>
+        <Y t="98">0.2673321</Y>
+        <Y t="99">0.34255659</Y>
+        <Y t="100">0.47721304</Y>
+        <Y t="101">0.73897415</Y>
+        <Y t="102">1.30361916</Y>
+        <Y t="103">2.69137157</Y>
+        <Y t="104">6.69613623</Y>
+        <Y t="105">20.72326584</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 5: Life Table IESS 2020, Female Disability Pensioners - Rates by Attained Age. Rates - lx. Minimum Age: 15. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">100000</Y>
+        <Y t="16">98183.31</Y>
+        <Y t="17">96179.69</Y>
+        <Y t="18">93914.7</Y>
+        <Y t="19">91319.51</Y>
+        <Y t="20">88335.94</Y>
+        <Y t="21">84924.95</Y>
+        <Y t="22">81076.83</Y>
+        <Y t="23">76820.23</Y>
+        <Y t="24">72226.26</Y>
+        <Y t="25">67404.91</Y>
+        <Y t="26">62492.77</Y>
+        <Y t="27">57634.64</Y>
+        <Y t="28">52963.6</Y>
+        <Y t="29">48584.76</Y>
+        <Y t="30">44566.19</Y>
+        <Y t="31">40937.67</Y>
+        <Y t="32">37695.36</Y>
+        <Y t="33">34809.74</Y>
+        <Y t="34">32233.78</Y>
+        <Y t="35">42596.62</Y>
+        <Y t="36">39627.31</Y>
+        <Y t="37">36983.54</Y>
+        <Y t="38">34642.11</Y>
+        <Y t="39">32575.23</Y>
+        <Y t="40">30753.26</Y>
+        <Y t="41">29146.68</Y>
+        <Y t="42">27727.33</Y>
+        <Y t="43">26469.11</Y>
+        <Y t="44">25348.34</Y>
+        <Y t="45">24343.77</Y>
+        <Y t="46">23436.53</Y>
+        <Y t="47">22610.13</Y>
+        <Y t="48">21851.09</Y>
+        <Y t="49">21148.49</Y>
+        <Y t="50">20493.39</Y>
+        <Y t="51">19878.42</Y>
+        <Y t="52">19297.44</Y>
+        <Y t="53">18745.32</Y>
+        <Y t="54">18217.69</Y>
+        <Y t="55">17710.89</Y>
+        <Y t="56">17221.74</Y>
+        <Y t="57">16747.54</Y>
+        <Y t="58">16285.97</Y>
+        <Y t="59">15835.01</Y>
+        <Y t="60">15392.92</Y>
+        <Y t="61">14958.21</Y>
+        <Y t="62">14529.59</Y>
+        <Y t="63">14105.96</Y>
+        <Y t="64">13686.4</Y>
+        <Y t="65">13270.14</Y>
+        <Y t="66">12856.57</Y>
+        <Y t="67">12445.22</Y>
+        <Y t="68">12035.76</Y>
+        <Y t="69">11627.97</Y>
+        <Y t="70">11221.79</Y>
+        <Y t="71">10817.26</Y>
+        <Y t="72">10414.53</Y>
+        <Y t="73">10013.7</Y>
+        <Y t="74">9614.81</Y>
+        <Y t="75">9217.84</Y>
+        <Y t="76">8822.72</Y>
+        <Y t="77">8429.35</Y>
+        <Y t="78">8037.59</Y>
+        <Y t="79">7647.29</Y>
+        <Y t="80">7258.29</Y>
+        <Y t="81">6870.45</Y>
+        <Y t="82">6483.62</Y>
+        <Y t="83">6097.73</Y>
+        <Y t="84">5712.76</Y>
+        <Y t="85">5328.76</Y>
+        <Y t="86">4945.94</Y>
+        <Y t="87">4564.62</Y>
+        <Y t="88">4185.35</Y>
+        <Y t="89">3808.91</Y>
+        <Y t="90">3436.36</Y>
+        <Y t="91">3069.14</Y>
+        <Y t="92">2709.06</Y>
+        <Y t="93">2364.83</Y>
+        <Y t="94">2041.18</Y>
+        <Y t="95">1740.37</Y>
+        <Y t="96">1462.25</Y>
+        <Y t="97">1204.72</Y>
+        <Y t="98">964.53</Y>
+        <Y t="99">738.27</Y>
+        <Y t="100">524.14</Y>
+        <Y t="101">325.23</Y>
+        <Y t="102">155.33</Y>
+        <Y t="103">42.18</Y>
+        <Y t="104">2.86</Y>
+        <Y t="105">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 5: Life Table IESS 2020, Female Disability Pensioners - Rates by Attained Age. Rates - qx. Minimum Age: 15. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.01816692</Y>
+        <Y t="16">0.02040695</Y>
+        <Y t="17">0.02354956</Y>
+        <Y t="18">0.02763342</Y>
+        <Y t="19">0.03267175</Y>
+        <Y t="20">0.03861391</Y>
+        <Y t="21">0.04531198</Y>
+        <Y t="22">0.05250085</Y>
+        <Y t="23">0.05980149</Y>
+        <Y t="24">0.06675351</Y>
+        <Y t="25">0.07287514</Y>
+        <Y t="26">0.07773898</Y>
+        <Y t="27">0.08104567</Y>
+        <Y t="28">0.08267644</Y>
+        <Y t="29">0.0827125</Y>
+        <Y t="30">0.08141881</Y>
+        <Y t="31">0.07920101</Y>
+        <Y t="32">0.07655119</Y>
+        <Y t="33">0.07400108</Y>
+        <Y t="34">0.07209927</Y>
+        <Y t="35">0.06970774</Y>
+        <Y t="36">0.06671583</Y>
+        <Y t="37">0.06330998</Y>
+        <Y t="38">0.05966393</Y>
+        <Y t="39">0.05593119</Y>
+        <Y t="40">0.05224092</Y>
+        <Y t="41">0.04869679</Y>
+        <Y t="42">0.04537814</Y>
+        <Y t="43">0.04234272</Y>
+        <Y t="44">0.03963052</Y>
+        <Y t="45">0.03726798</Y>
+        <Y t="46">0.0352612</Y>
+        <Y t="47">0.03357076</Y>
+        <Y t="48">0.03215407</Y>
+        <Y t="49">0.03097613</Y>
+        <Y t="50">0.03000816</Y>
+        <Y t="51">0.02922644</Y>
+        <Y t="52">0.0286114</Y>
+        <Y t="53">0.0281469</Y>
+        <Y t="54">0.02781961</Y>
+        <Y t="55">0.02761857</Y>
+        <Y t="56">0.02753471</Y>
+        <Y t="57">0.02756062</Y>
+        <Y t="58">0.02769017</Y>
+        <Y t="59">0.02791834</Y>
+        <Y t="60">0.02824097</Y>
+        <Y t="61">0.0286546</Y>
+        <Y t="62">0.0291563</Y>
+        <Y t="63">0.0297435</Y>
+        <Y t="64">0.03041389</Y>
+        <Y t="65">0.03116523</Y>
+        <Y t="66">0.03199525</Y>
+        <Y t="67">0.03290152</Y>
+        <Y t="68">0.03388131</Y>
+        <Y t="69">0.03493146</Y>
+        <Y t="70">0.03604826</Y>
+        <Y t="71">0.03723024</Y>
+        <Y t="72">0.03848756</Y>
+        <Y t="73">0.03983463</Y>
+        <Y t="74">0.04128761</Y>
+        <Y t="75">0.04286463</Y>
+        <Y t="76">0.04458618</Y>
+        <Y t="77">0.04647551</Y>
+        <Y t="78">0.0485591</Y>
+        <Y t="79">0.05086731</Y>
+        <Y t="80">0.05343509</Y>
+        <Y t="81">0.05630287</Y>
+        <Y t="82">0.05951763</Y>
+        <Y t="83">0.0631342</Y>
+        <Y t="84">0.06721686</Y>
+        <Y t="85">0.07184124</Y>
+        <Y t="86">0.07709661</Y>
+        <Y t="87">0.08308871</Y>
+        <Y t="88">0.08994309</Y>
+        <Y t="89">0.09780918</Y>
+        <Y t="90">0.10686505</Y>
+        <Y t="91">0.11732315</Y>
+        <Y t="92">0.12706359</Y>
+        <Y t="93">0.13685981</Y>
+        <Y t="94">0.14737246</Y>
+        <Y t="95">0.15980712</Y>
+        <Y t="96">0.17611306</Y>
+        <Y t="97">0.1993742</Y>
+        <Y t="98">0.23458117</Y>
+        <Y t="99">0.29004706</Y>
+        <Y t="100">0.37948968</Y>
+        <Y t="101">0.52239639</Y>
+        <Y t="102">0.72845276</Y>
+        <Y t="103">0.9322121</Y>
+        <Y t="104">0.99876432</Y>
+        <Y t="105">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 5: Life Table IESS 2020, Female Disability Pensioners - Rates by Attained Age. Rates - px. Minimum Age: 15. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">0.98183308</Y>
+        <Y t="16">0.97959305</Y>
+        <Y t="17">0.97645044</Y>
+        <Y t="18">0.97236658</Y>
+        <Y t="19">0.96732825</Y>
+        <Y t="20">0.96138609</Y>
+        <Y t="21">0.95468802</Y>
+        <Y t="22">0.94749915</Y>
+        <Y t="23">0.94019851</Y>
+        <Y t="24">0.93324649</Y>
+        <Y t="25">0.92712486</Y>
+        <Y t="26">0.92226102</Y>
+        <Y t="27">0.91895433</Y>
+        <Y t="28">0.91732356</Y>
+        <Y t="29">0.9172875</Y>
+        <Y t="30">0.91858119</Y>
+        <Y t="31">0.92079899</Y>
+        <Y t="32">0.92344881</Y>
+        <Y t="33">0.92599892</Y>
+        <Y t="34">0.92790073</Y>
+        <Y t="35">0.93029226</Y>
+        <Y t="36">0.93328417</Y>
+        <Y t="37">0.93669002</Y>
+        <Y t="38">0.94033607</Y>
+        <Y t="39">0.94406881</Y>
+        <Y t="40">0.94775908</Y>
+        <Y t="41">0.95130321</Y>
+        <Y t="42">0.95462186</Y>
+        <Y t="43">0.95765728</Y>
+        <Y t="44">0.96036948</Y>
+        <Y t="45">0.96273202</Y>
+        <Y t="46">0.9647388</Y>
+        <Y t="47">0.96642924</Y>
+        <Y t="48">0.96784593</Y>
+        <Y t="49">0.96902387</Y>
+        <Y t="50">0.96999184</Y>
+        <Y t="51">0.97077356</Y>
+        <Y t="52">0.9713886</Y>
+        <Y t="53">0.9718531</Y>
+        <Y t="54">0.97218039</Y>
+        <Y t="55">0.97238143</Y>
+        <Y t="56">0.97246529</Y>
+        <Y t="57">0.97243938</Y>
+        <Y t="58">0.97230983</Y>
+        <Y t="59">0.97208166</Y>
+        <Y t="60">0.97175903</Y>
+        <Y t="61">0.9713454</Y>
+        <Y t="62">0.9708437</Y>
+        <Y t="63">0.9702565</Y>
+        <Y t="64">0.96958611</Y>
+        <Y t="65">0.96883477</Y>
+        <Y t="66">0.96800475</Y>
+        <Y t="67">0.96709848</Y>
+        <Y t="68">0.96611869</Y>
+        <Y t="69">0.96506854</Y>
+        <Y t="70">0.96395174</Y>
+        <Y t="71">0.96276976</Y>
+        <Y t="72">0.96151244</Y>
+        <Y t="73">0.96016537</Y>
+        <Y t="74">0.95871239</Y>
+        <Y t="75">0.95713537</Y>
+        <Y t="76">0.95541382</Y>
+        <Y t="77">0.95352449</Y>
+        <Y t="78">0.9514409</Y>
+        <Y t="79">0.94913269</Y>
+        <Y t="80">0.94656491</Y>
+        <Y t="81">0.94369713</Y>
+        <Y t="82">0.94048237</Y>
+        <Y t="83">0.9368658</Y>
+        <Y t="84">0.93278314</Y>
+        <Y t="85">0.92815876</Y>
+        <Y t="86">0.92290339</Y>
+        <Y t="87">0.91691129</Y>
+        <Y t="88">0.91005691</Y>
+        <Y t="89">0.90219082</Y>
+        <Y t="90">0.89313495</Y>
+        <Y t="91">0.88267685</Y>
+        <Y t="92">0.87293641</Y>
+        <Y t="93">0.86314019</Y>
+        <Y t="94">0.85262754</Y>
+        <Y t="95">0.84019288</Y>
+        <Y t="96">0.82388694</Y>
+        <Y t="97">0.8006258</Y>
+        <Y t="98">0.76541883</Y>
+        <Y t="99">0.70995294</Y>
+        <Y t="100">0.62051032</Y>
+        <Y t="101">0.47760361</Y>
+        <Y t="102">0.27154724</Y>
+        <Y t="103">0.0677879</Y>
+        <Y t="104">0.00123568</Y>
+        <Y t="105">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 5: Life Table IESS 2020, Female Disability Pensioners - Rates by Attained Age. - ex. Minimum Age: 15. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="15">19.62</Y>
+        <Y t="16">18.97</Y>
+        <Y t="17">18.36</Y>
+        <Y t="18">17.79</Y>
+        <Y t="19">17.28</Y>
+        <Y t="20">16.84</Y>
+        <Y t="21">16.5</Y>
+        <Y t="22">16.26</Y>
+        <Y t="23">16.13</Y>
+        <Y t="24">16.13</Y>
+        <Y t="25">16.25</Y>
+        <Y t="26">16.48</Y>
+        <Y t="27">16.83</Y>
+        <Y t="28">17.27</Y>
+        <Y t="29">17.78</Y>
+        <Y t="30">18.34</Y>
+        <Y t="31">18.92</Y>
+        <Y t="32">19.51</Y>
+        <Y t="33">20.08</Y>
+        <Y t="34">20.65</Y>
+        <Y t="35">21.21</Y>
+        <Y t="36">21.76</Y>
+        <Y t="37">22.28</Y>
+        <Y t="38">22.76</Y>
+        <Y t="39">23.17</Y>
+        <Y t="40">23.51</Y>
+        <Y t="41">23.78</Y>
+        <Y t="42">23.97</Y>
+        <Y t="43">24.09</Y>
+        <Y t="44">24.13</Y>
+        <Y t="45">24.11</Y>
+        <Y t="46">24.02</Y>
+        <Y t="47">23.88</Y>
+        <Y t="48">23.69</Y>
+        <Y t="49">23.46</Y>
+        <Y t="50">23.2</Y>
+        <Y t="51">22.9</Y>
+        <Y t="52">22.57</Y>
+        <Y t="53">22.22</Y>
+        <Y t="54">21.85</Y>
+        <Y t="55">21.46</Y>
+        <Y t="56">21.06</Y>
+        <Y t="57">20.64</Y>
+        <Y t="58">20.21</Y>
+        <Y t="59">19.77</Y>
+        <Y t="60">19.33</Y>
+        <Y t="61">18.87</Y>
+        <Y t="62">18.42</Y>
+        <Y t="63">17.95</Y>
+        <Y t="64">17.49</Y>
+        <Y t="65">17.02</Y>
+        <Y t="66">16.55</Y>
+        <Y t="67">16.08</Y>
+        <Y t="68">15.61</Y>
+        <Y t="69">15.14</Y>
+        <Y t="70">14.67</Y>
+        <Y t="71">14.2</Y>
+        <Y t="72">13.73</Y>
+        <Y t="73">13.26</Y>
+        <Y t="74">12.79</Y>
+        <Y t="75">12.32</Y>
+        <Y t="76">11.85</Y>
+        <Y t="77">11.38</Y>
+        <Y t="78">10.91</Y>
+        <Y t="79">10.44</Y>
+        <Y t="80">9.98</Y>
+        <Y t="81">9.51</Y>
+        <Y t="82">9.05</Y>
+        <Y t="83">8.59</Y>
+        <Y t="84">8.13</Y>
+        <Y t="85">7.68</Y>
+        <Y t="86">7.24</Y>
+        <Y t="87">6.8</Y>
+        <Y t="88">6.38</Y>
+        <Y t="89">5.96</Y>
+        <Y t="90">5.55</Y>
+        <Y t="91">5.15</Y>
+        <Y t="92">4.77</Y>
+        <Y t="93">4.39</Y>
+        <Y t="94">4.01</Y>
+        <Y t="95">3.61</Y>
+        <Y t="96">3.21</Y>
+        <Y t="97">2.78</Y>
+        <Y t="98">2.35</Y>
+        <Y t="99">1.92</Y>
+        <Y t="100">1.5</Y>
+        <Y t="101">1.12</Y>
+        <Y t="102">0.79</Y>
+        <Y t="103">0.57</Y>
+        <Y t="104">0.5</Y>
+        <Y t="105">0.5</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

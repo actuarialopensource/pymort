@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3710</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “2023 Group Term Life Waiver Experience Table Report”, Society of Actuaries (2023). Accessed: November, 2024 from https://www.soa.org/4a0146/globalassets/assets/files/resources/experience-studies/2023/group-life-waiver.pdf</TableReference>
+    <ContentType tc="2">Disabled Lives Mortality</ContentType>
+    <TableName>2023 Group Term Life Waiver Study - Ultimate Table Death Diagnosis Adjustment</TableName>
+    <TableDescription>2023 Group Term Life Waiver Study - Ultimate Table Death Diagnosis Adjustment. Years 11+ (Appendix A - Figure A.5). Factors by Attained Age.</TableDescription>
+    <Comments>Study Data: The data used was the same set analyzed in the 2019 GLWP Report. Covers the most recent 10 years of the data, 2006-2015, provided the most relevant and credible data to determine termination rates at the time of table creation. Observation cells with at least 300 observed claim terminations were deemed fully credible and used for the core graduation of rates in the table. The actual variable groupings were selected so that over 80% of the observation cells had this credible number of terminations, and the relatively small number of cells with few terminations did not have a significant impact on the final expectations.
+Methodology: The GLM model provided core rates for most of the Table as published. For the select period tables, rates for disabled ages 27 through 62 were provided from the GLM model. Some small adjustments were made to smooth the durational slope of termination rates in ages 27-32 and 57-62. The Table was extended to disabled ages 17 and 72 by using the termination rate relationships of the 2005 Table. For the ultimate period tables, rates for attained ages 37 to 70 were provided from the GLM model. Modest adjustments were made to ensure a smooth progression of termination rates across attained ages, as well as ensure smooth transition from the select table to the ultimate table. The ultimate recovery table was extended back to age 27 by increasing rates by 1%-1.25% for each age prior to age 37. The recovery rates beyond age 70 were extended down to 0 by attained age 80, consistent with the underlying data. The ultimate mortality table was extended back to age 27 by using the mortality rate slope from the 2005 Table as was done for the select period. To extend mortality rates beyond age 100 to age 120, the sex-specific rates from 2017 Unloaded CSO Composite Mortality Table were used. The mortality rates between ages 70 and 100 were interpolated to ensure an appropriate and smooth exponential rate curve for those 30 ages.</Comments>
+    <KeyWord>Ultimate</KeyWord>
+    <KeyWord>Claim Death</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Ultimate Table Death Diagnosis Adjustment. Years 11+ (Appendix A - Figure A.5). Factors by Attained Age - Unclassified.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="0">1</Y>
+        <Y t="1">1</Y>
+        <Y t="2">1</Y>
+        <Y t="3">1</Y>
+        <Y t="4">1</Y>
+        <Y t="5">1</Y>
+        <Y t="6">1</Y>
+        <Y t="7">1</Y>
+        <Y t="8">1</Y>
+        <Y t="9">1</Y>
+        <Y t="10">1</Y>
+        <Y t="11">1</Y>
+        <Y t="12">1</Y>
+        <Y t="13">1</Y>
+        <Y t="14">1</Y>
+        <Y t="15">1</Y>
+        <Y t="16">1</Y>
+        <Y t="17">1</Y>
+        <Y t="18">1</Y>
+        <Y t="19">1</Y>
+        <Y t="20">1</Y>
+        <Y t="21">1</Y>
+        <Y t="22">1</Y>
+        <Y t="23">1</Y>
+        <Y t="24">1</Y>
+        <Y t="25">1</Y>
+        <Y t="26">1</Y>
+        <Y t="27">1</Y>
+        <Y t="28">1</Y>
+        <Y t="29">1</Y>
+        <Y t="30">1</Y>
+        <Y t="31">1</Y>
+        <Y t="32">1</Y>
+        <Y t="33">1</Y>
+        <Y t="34">1</Y>
+        <Y t="35">1</Y>
+        <Y t="36">1</Y>
+        <Y t="37">1</Y>
+        <Y t="38">1</Y>
+        <Y t="39">1</Y>
+        <Y t="40">1</Y>
+        <Y t="41">1</Y>
+        <Y t="42">1</Y>
+        <Y t="43">1</Y>
+        <Y t="44">1</Y>
+        <Y t="45">1</Y>
+        <Y t="46">1</Y>
+        <Y t="47">1</Y>
+        <Y t="48">1</Y>
+        <Y t="49">1</Y>
+        <Y t="50">1</Y>
+        <Y t="51">1</Y>
+        <Y t="52">1</Y>
+        <Y t="53">1</Y>
+        <Y t="54">1</Y>
+        <Y t="55">1</Y>
+        <Y t="56">1</Y>
+        <Y t="57">1</Y>
+        <Y t="58">1</Y>
+        <Y t="59">1</Y>
+        <Y t="60">1</Y>
+        <Y t="61">1</Y>
+        <Y t="62">1</Y>
+        <Y t="63">1</Y>
+        <Y t="64">1</Y>
+        <Y t="65">1</Y>
+        <Y t="66">1</Y>
+        <Y t="67">1</Y>
+        <Y t="68">1</Y>
+        <Y t="69">1</Y>
+        <Y t="70">1</Y>
+        <Y t="71">1</Y>
+        <Y t="72">1</Y>
+        <Y t="73">1</Y>
+        <Y t="74">1</Y>
+        <Y t="75">1</Y>
+        <Y t="76">1</Y>
+        <Y t="77">1</Y>
+        <Y t="78">1</Y>
+        <Y t="79">1</Y>
+        <Y t="80">1</Y>
+        <Y t="81">1</Y>
+        <Y t="82">1</Y>
+        <Y t="83">1</Y>
+        <Y t="84">1</Y>
+        <Y t="85">1</Y>
+        <Y t="86">1</Y>
+        <Y t="87">1</Y>
+        <Y t="88">1</Y>
+        <Y t="89">1</Y>
+        <Y t="90">1</Y>
+        <Y t="91">1</Y>
+        <Y t="92">1</Y>
+        <Y t="93">1</Y>
+        <Y t="94">1</Y>
+        <Y t="95">1</Y>
+        <Y t="96">1</Y>
+        <Y t="97">1</Y>
+        <Y t="98">1</Y>
+        <Y t="99">1</Y>
+        <Y t="100">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Ultimate Table Death Diagnosis Adjustment. Years 11+ (Appendix A - Figure A.5). Factors by Attained Age - Low Non-Cancer.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>0</MinScaleValue>
+        <MaxScaleValue>100</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="6">0.75</Y>
+        <Y t="7">0.75</Y>
+        <Y t="8">0.75</Y>
+        <Y t="9">0.75</Y>
+        <Y t="10">0.75</Y>
+        <Y t="11">0.75</Y>
+        <Y t="12">0.75</Y>
+        <Y t="13">0.75</Y>
+        <Y t="14">0.75</Y>
+        <Y t="15">0.75</Y>
+        <Y t="16">0.75</Y>
+        <Y t="17">0.75</Y>
+        <Y t="18">0.75</Y>
+        <Y t="19">0.75</Y>
+        <Y t="20">0.75</Y>
+        <Y t="21">0.75</Y>
+        <Y t="22">0.75</Y>
+        <Y t="23">0.75</Y>
+        <Y t="24">0.75</Y>
+        <Y t="25">0.75</Y>
+        <Y t="26">0.75</Y>
+        <Y t="27">0.75</Y>
+        <Y t="28">0.75</Y>
+        <Y t="29">0.75</Y>
+        <Y t="30">0.75</Y>
+        <Y t="31">0.75</Y>
+        <Y t="32">0.75</Y>
+        <Y t="33">0.75</Y>
+        <Y t="34">0.75</Y>
+        <Y t="35">0.75</Y>
+        <Y t="36">0.75</Y>
+        <Y t="37">0.75</Y>
+        <Y t="38">0.75</Y>
+        <Y t="39">0.75</Y>
+        <Y t="40">0.75</Y>
+        <Y t="41">0.75</Y>
+        <Y t="42">0.75</Y>
+        <Y t="43">0.75</Y>
+        <Y t="44">0.75</Y>
+        <Y t="45">0.85</Y>
+        <Y t="46">0.85</Y>
+        <Y t="47">0.85</Y>
+        <Y t="48">0.85</Y>
+        <Y t="49">0.85</Y>
+        <Y t="50">0.85</Y>
+        <Y t="51">0.85</Y>
+        <Y t="52">0.85</Y>
+        <Y t="53">0.85</Y>
+        <Y t="54">0.85</Y>
+        <Y t="55">0.85</Y>
+        <Y t="56">0.85</Y>
+        <Y t="57">0.85</Y>
+        <Y t="58">0.85</Y>
+        <Y t="59">0.85</Y>
+        <Y t="60">0.8</Y>
+        <Y t="61">0.8</Y>
+        <Y t="62">0.8</Y>
+        <Y t="63">0.8</Y>
+        <Y t="64">0.8</Y>
+        <Y t="65">0.75</Y>
+        <Y t="66">0.75</Y>
+        <Y t="67">0.75</Y>
+        <Y t="68">0.75</Y>
+        <Y t="69">0.75</Y>
+        <Y t="70">0.75</Y>
+        <Y t="71">0.758333333333333</Y>
+        <Y t="72">0.766666666666667</Y>
+        <Y t="73">0.775</Y>
+        <Y t="74">0.783333333333333</Y>
+        <Y t="75">0.791666666666667</Y>
+        <Y t="76">0.8</Y>
+        <Y t="77">0.808333333333333</Y>
+        <Y t="78">0.816666666666666</Y>
+        <Y t="79">0.825</Y>
+        <Y t="80">0.833333333333333</Y>
+        <Y t="81">0.841666666666666</Y>
+        <Y t="82">0.85</Y>
+        <Y t="83">0.858333333333333</Y>
+        <Y t="84">0.866666666666666</Y>
+        <Y t="85">0.875</Y>
+        <Y t="86">0.883333333333333</Y>
+        <Y t="87">0.891666666666666</Y>
+        <Y t="88">0.899999999999999</Y>
+        <Y t="89">0.908333333333333</Y>
+        <Y t="90">0.916666666666666</Y>
+        <Y t="91">0.924999999999999</Y>
+        <Y t="92">0.933333333333333</Y>
+        <Y t="93">0.941666666666666</Y>
+        <Y t="94">0.949999999999999</Y>
+        <Y t="95">0.958333333333333</Y>
+        <Y t="96">0.966666666666666</Y>
+        <Y t="97">0.974999999999999</Y>
+        <Y t="98">0.983333333333333</Y>
+        <Y t="99">0.991666666666666</Y>
+        <Y t="100">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Ultimate Table Death Diagnosis Adjustment. Years 11+ (Appendix A - Figure A.5). Factors by Attained Age - High Non-Cancer.</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Unknown</AxisName>
+        <MinScaleValue>6</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="6">1.7</Y>
+        <Y t="7">1.7</Y>
+        <Y t="8">1.7</Y>
+        <Y t="9">1.7</Y>
+        <Y t="10">1.7</Y>
+        <Y t="11">1.7</Y>
+        <Y t="12">1.7</Y>
+        <Y t="13">1.7</Y>
+        <Y t="14">1.7</Y>
+        <Y t="15">1.7</Y>
+        <Y t="16">1.7</Y>
+        <Y t="17">1.7</Y>
+        <Y t="18">1.7</Y>
+        <Y t="19">1.7</Y>
+        <Y t="20">1.7</Y>
+        <Y t="21">1.7</Y>
+        <Y t="22">1.7</Y>
+        <Y t="23">1.7</Y>
+        <Y t="24">1.7</Y>
+        <Y t="25">1.7</Y>
+        <Y t="26">1.7</Y>
+        <Y t="27">1.7</Y>
+        <Y t="28">1.7</Y>
+        <Y t="29">1.7</Y>
+        <Y t="30">1.7</Y>
+        <Y t="31">1.7</Y>
+        <Y t="32">1.7</Y>
+        <Y t="33">1.7</Y>
+        <Y t="34">1.7</Y>
+        <Y t="35">1.7</Y>
+        <Y t="36">1.7</Y>
+        <Y t="37">1.7</Y>
+        <Y t="38">1.7</Y>
+        <Y t="39">1.7</Y>
+        <Y t="40">1.7</Y>
+        <Y t="41">1.7</Y>
+        <Y t="42">1.7</Y>
+        <Y t="43">1.7</Y>
+        <Y t="44">1.7</Y>
+        <Y t="45">1.6</Y>
+        <Y t="46">1.6</Y>
+        <Y t="47">1.6</Y>
+        <Y t="48">1.6</Y>
+        <Y t="49">1.6</Y>
+        <Y t="50">1.6</Y>
+        <Y t="51">1.6</Y>
+        <Y t="52">1.6</Y>
+        <Y t="53">1.6</Y>
+        <Y t="54">1.6</Y>
+        <Y t="55">1.6</Y>
+        <Y t="56">1.6</Y>
+        <Y t="57">1.6</Y>
+        <Y t="58">1.6</Y>
+        <Y t="59">1.6</Y>
+        <Y t="60">1.55</Y>
+        <Y t="61">1.55</Y>
+        <Y t="62">1.55</Y>
+        <Y t="63">1.55</Y>
+        <Y t="64">1.55</Y>
+        <Y t="65">1.55</Y>
+        <Y t="66">1.55</Y>
+        <Y t="67">1.55</Y>
+        <Y t="68">1.55</Y>
+        <Y t="69">1.55</Y>
+        <Y t="70">1.55</Y>
+        <Y t="71">1.53166666666667</Y>
+        <Y t="72">1.51333333333333</Y>
+        <Y t="73">1.495</Y>
+        <Y t="74">1.47666666666667</Y>
+        <Y t="75">1.45833333333333</Y>
+        <Y t="76">1.44</Y>
+        <Y t="77">1.42166666666667</Y>
+        <Y t="78">1.40333333333333</Y>
+        <Y t="79">1.385</Y>
+        <Y t="80">1.36666666666667</Y>
+        <Y t="81">1.34833333333333</Y>
+        <Y t="82">1.33</Y>
+        <Y t="83">1.31166666666667</Y>
+        <Y t="84">1.29333333333333</Y>
+        <Y t="85">1.275</Y>
+        <Y t="86">1.25666666666667</Y>
+        <Y t="87">1.23833333333333</Y>
+        <Y t="88">1.22</Y>
+        <Y t="89">1.20166666666667</Y>
+        <Y t="90">1.18333333333333</Y>
+        <Y t="91">1.165</Y>
+        <Y t="92">1.14666666666667</Y>
+        <Y t="93">1.12833333333333</Y>
+        <Y t="94">1.11</Y>
+        <Y t="95">1.09166666666667</Y>
+        <Y t="96">1.07333333333333</Y>
+        <Y t="97">1.055</Y>
+        <Y t="98">1.03666666666667</Y>
+        <Y t="99">1.01833333333333</Y>
+        <Y t="100">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Ultimate Table Death Diagnosis Adjustment. Years 11+ (Appendix A - Figure A.5). Factors by Attained Age - Cancer.</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Unknown</AxisName>
+        <MinScaleValue>6</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="6">2</Y>
+        <Y t="7">2</Y>
+        <Y t="8">2</Y>
+        <Y t="9">2</Y>
+        <Y t="10">2</Y>
+        <Y t="11">2</Y>
+        <Y t="12">2</Y>
+        <Y t="13">2</Y>
+        <Y t="14">2</Y>
+        <Y t="15">2</Y>
+        <Y t="16">2</Y>
+        <Y t="17">2</Y>
+        <Y t="18">2</Y>
+        <Y t="19">2</Y>
+        <Y t="20">2</Y>
+        <Y t="21">2</Y>
+        <Y t="22">2</Y>
+        <Y t="23">2</Y>
+        <Y t="24">2</Y>
+        <Y t="25">2</Y>
+        <Y t="26">2</Y>
+        <Y t="27">2</Y>
+        <Y t="28">2</Y>
+        <Y t="29">2</Y>
+        <Y t="30">2</Y>
+        <Y t="31">2</Y>
+        <Y t="32">2</Y>
+        <Y t="33">2</Y>
+        <Y t="34">2</Y>
+        <Y t="35">2</Y>
+        <Y t="36">2</Y>
+        <Y t="37">2</Y>
+        <Y t="38">2</Y>
+        <Y t="39">2</Y>
+        <Y t="40">2</Y>
+        <Y t="41">2</Y>
+        <Y t="42">2</Y>
+        <Y t="43">2</Y>
+        <Y t="44">2</Y>
+        <Y t="45">2</Y>
+        <Y t="46">2</Y>
+        <Y t="47">2</Y>
+        <Y t="48">2</Y>
+        <Y t="49">2</Y>
+        <Y t="50">2</Y>
+        <Y t="51">2</Y>
+        <Y t="52">2</Y>
+        <Y t="53">2</Y>
+        <Y t="54">2</Y>
+        <Y t="55">2</Y>
+        <Y t="56">2</Y>
+        <Y t="57">2</Y>
+        <Y t="58">2</Y>
+        <Y t="59">2</Y>
+        <Y t="60">2</Y>
+        <Y t="61">2</Y>
+        <Y t="62">2</Y>
+        <Y t="63">2</Y>
+        <Y t="64">2</Y>
+        <Y t="65">2</Y>
+        <Y t="66">2</Y>
+        <Y t="67">2</Y>
+        <Y t="68">2</Y>
+        <Y t="69">2</Y>
+        <Y t="70">2</Y>
+        <Y t="71">1.96666666666667</Y>
+        <Y t="72">1.93333333333333</Y>
+        <Y t="73">1.9</Y>
+        <Y t="74">1.86666666666667</Y>
+        <Y t="75">1.83333333333333</Y>
+        <Y t="76">1.8</Y>
+        <Y t="77">1.76666666666667</Y>
+        <Y t="78">1.73333333333333</Y>
+        <Y t="79">1.7</Y>
+        <Y t="80">1.66666666666667</Y>
+        <Y t="81">1.63333333333333</Y>
+        <Y t="82">1.6</Y>
+        <Y t="83">1.56666666666667</Y>
+        <Y t="84">1.53333333333333</Y>
+        <Y t="85">1.5</Y>
+        <Y t="86">1.46666666666667</Y>
+        <Y t="87">1.43333333333333</Y>
+        <Y t="88">1.4</Y>
+        <Y t="89">1.36666666666666</Y>
+        <Y t="90">1.33333333333333</Y>
+        <Y t="91">1.3</Y>
+        <Y t="92">1.26666666666666</Y>
+        <Y t="93">1.23333333333333</Y>
+        <Y t="94">1.2</Y>
+        <Y t="95">1.16666666666666</Y>
+        <Y t="96">1.13333333333333</Y>
+        <Y t="97">1.1</Y>
+        <Y t="98">1.06666666666666</Y>
+        <Y t="99">1.03333333333333</Y>
+        <Y t="100">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

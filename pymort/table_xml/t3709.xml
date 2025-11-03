@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3709</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “2023 Group Term Life Waiver Experience Table Report”, Society of Actuaries (2023). Accessed: November, 2024 from https://www.soa.org/4a0146/globalassets/assets/files/resources/experience-studies/2023/group-life-waiver.pdf</TableReference>
+    <ContentType tc="8">Disability Recovery</ContentType>
+    <TableName>2023 Group Term Life Waiver Study - Ultimate Probability of Recovery Following Disability - Female</TableName>
+    <TableDescription>2023 Group Term Life Waiver Study - Ultimate Probability of Recovery Following Disability - Female. Years 11 and over (Appendix A - Figure A.8) Central Ages. Rates by Attained Age. Minimum Age: 27. Maximum Age: 121.</TableDescription>
+    <Comments>Study Data: The data used was the same set analyzed in the 2019 GLWP Report. Covers the most recent 10 years of the data, 2006-2015, provided the most relevant and credible data to determine termination rates at the time of table creation. Observation cells with at least 300 observed claim terminations were deemed fully credible and used for the core graduation of rates in the table. The actual variable groupings were selected so that over 80% of the observation cells had this credible number of terminations, and the relatively small number of cells with few terminations did not have a significant impact on the final expectations.
+Methodology: The GLM model provided core rates for most of the Table as published. For the select period tables, rates for disabled ages 27 through 62 were provided from the GLM model. Some small adjustments were made to smooth the durational slope of termination rates in ages 27-32 and 57-62. The Table was extended to disabled ages 17 and 72 by using the termination rate relationships of the 2005 Table. For the ultimate period tables, rates for attained ages 37 to 70 were provided from the GLM model. Modest adjustments were made to ensure a smooth progression of termination rates across attained ages, as well as ensure smooth transition from the select table to the ultimate table. The ultimate recovery table was extended back to age 27 by increasing rates by 1%-1.25% for each age prior to age 37. The recovery rates beyond age 70 were extended down to 0 by attained age 80, consistent with the underlying data. The ultimate mortality table was extended back to age 27 by using the mortality rate slope from the 2005 Table as was done for the select period. To extend mortality rates beyond age 100 to age 120, the sex-specific rates from 2017 Unloaded CSO Composite Mortality Table were used. The mortality rates between ages 70 and 100 were interpolated to ensure an appropriate and smooth exponential rate curve for those 30 ages.</Comments>
+    <KeyWord>Ultimate</KeyWord>
+    <KeyWord>Claim Death</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Ultimate Probability of Recovery Following Disability - Female. Years 11 and over (Appendix A - Figure A.8) Central Ages. Rates by Attained Age. Minimum Age: 27. Maximum Age: 121.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>27</MinScaleValue>
+        <MaxScaleValue>99</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="27">0.07302</Y>
+        <Y t="28">0.07212</Y>
+        <Y t="29">0.07123</Y>
+        <Y t="30">0.07035</Y>
+        <Y t="31">0.06948</Y>
+        <Y t="32">0.06862</Y>
+        <Y t="33">0.06778</Y>
+        <Y t="34">0.06694</Y>
+        <Y t="35">0.06611</Y>
+        <Y t="36">0.0653</Y>
+        <Y t="37">0.06449</Y>
+        <Y t="38">0.05978</Y>
+        <Y t="39">0.05542</Y>
+        <Y t="40">0.05137</Y>
+        <Y t="41">0.04762</Y>
+        <Y t="42">0.04415</Y>
+        <Y t="43">0.04136</Y>
+        <Y t="44">0.03857</Y>
+        <Y t="45">0.0358</Y>
+        <Y t="46">0.03307</Y>
+        <Y t="47">0.03039</Y>
+        <Y t="48">0.02778</Y>
+        <Y t="49">0.0267</Y>
+        <Y t="50">0.0256</Y>
+        <Y t="51">0.02447</Y>
+        <Y t="52">0.02334</Y>
+        <Y t="53">0.02219</Y>
+        <Y t="54">0.02105</Y>
+        <Y t="55">0.01991</Y>
+        <Y t="56">0.01878</Y>
+        <Y t="57">0.01767</Y>
+        <Y t="58">0.01658</Y>
+        <Y t="59">0.01551</Y>
+        <Y t="60">0.01447</Y>
+        <Y t="61">0.01347</Y>
+        <Y t="62">0.0125</Y>
+        <Y t="63">0.01157</Y>
+        <Y t="64">0.01068</Y>
+        <Y t="65">0.00984</Y>
+        <Y t="66">0.00903</Y>
+        <Y t="67">0.00827</Y>
+        <Y t="68">0.00755</Y>
+        <Y t="69">0.00688</Y>
+        <Y t="70">0.00625</Y>
+        <Y t="71">0.00558</Y>
+        <Y t="72">0.00488</Y>
+        <Y t="73">0.00416</Y>
+        <Y t="74">0.00346</Y>
+        <Y t="75">0.00277</Y>
+        <Y t="76">0.00212</Y>
+        <Y t="77">0.00152</Y>
+        <Y t="78">0.00099</Y>
+        <Y t="79">0.00055</Y>
+        <Y t="80">0.0002</Y>
+        <Y t="81">0</Y>
+        <Y t="82">0</Y>
+        <Y t="83">0</Y>
+        <Y t="84">0</Y>
+        <Y t="85">0</Y>
+        <Y t="86">0</Y>
+        <Y t="87">0</Y>
+        <Y t="88">0</Y>
+        <Y t="89">0</Y>
+        <Y t="90">0</Y>
+        <Y t="91">0</Y>
+        <Y t="92">0</Y>
+        <Y t="93">0</Y>
+        <Y t="94">0</Y>
+        <Y t="95">0</Y>
+        <Y t="96">0</Y>
+        <Y t="97">0</Y>
+        <Y t="98">0</Y>
+        <Y t="99">0</Y>
+        <Y t="100">0</Y>
+        <Y t="101">0</Y>
+        <Y t="102">0</Y>
+        <Y t="103">0</Y>
+        <Y t="104">0</Y>
+        <Y t="105">0</Y>
+        <Y t="106">0</Y>
+        <Y t="107">0</Y>
+        <Y t="108">0</Y>
+        <Y t="109">0</Y>
+        <Y t="110">0</Y>
+        <Y t="111">0</Y>
+        <Y t="112">0</Y>
+        <Y t="113">0</Y>
+        <Y t="114">0</Y>
+        <Y t="115">0</Y>
+        <Y t="116">0</Y>
+        <Y t="117">0</Y>
+        <Y t="118">0</Y>
+        <Y t="119">0</Y>
+        <Y t="120">0</Y>
+        <Y t="121">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>3702</TableIdentity>
+    <ProviderDomain>www.soa.org</ProviderDomain>
+    <ProviderName>Society of Actuaries</ProviderName>
+    <TableReference>Group Life Insurance Experience Committee, “2023 Group Term Life Waiver Experience Table Report”, Society of Actuaries (2023). Accessed: November, 2024 from https://www.soa.org/4a0146/globalassets/assets/files/resources/experience-studies/2023/group-life-waiver.pdf</TableReference>
+    <ContentType tc="8">Disability Recovery</ContentType>
+    <TableName>2023 Group Term Life Waiver Study - Female, Select Period, Disabled Recovery Rates</TableName>
+    <TableDescription>2023 Group Term Life Waiver Study - Select Period Recovery Rates for Disabled - Female. Years 1-10 (Appendix A - Figure A.3) Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+    <Comments>Study Data: The data used was the same set analyzed in the 2019 GLWP Report. Covers the most recent 10 years of the data, 2006-2015, provided the most relevant and credible data to determine termination rates at the time of table creation. Observation cells with at least 300 observed claim terminations were deemed fully credible and used for the core graduation of rates in the table. The actual variable groupings were selected so that over 80% of the observation cells had this credible number of terminations, and the relatively small number of cells with few terminations did not have a significant impact on the final expectations.
+Methodology: The GLM model provided core rates for most of the Table as published. For the select period tables, rates for disabled ages 27 through 62 were provided from the GLM model. Some small adjustments were made to smooth the durational slope of termination rates in ages 27-32 and 57-62. The Table was extended to disabled ages 17 and 72 by using the termination rate relationships of the 2005 Table. For the ultimate period tables, rates for attained ages 37 to 70 were provided from the GLM model. Modest adjustments were made to ensure a smooth progression of termination rates across attained ages, as well as ensure smooth transition from the select table to the ultimate table. The ultimate recovery table was extended back to age 27 by increasing rates by 1%-1.25% for each age prior to age 37. The recovery rates beyond age 70 were extended down to 0 by attained age 80, consistent with the underlying data. The ultimate mortality table was extended back to age 27 by using the mortality rate slope from the 2005 Table as was done for the select period. To extend mortality rates beyond age 100 to age 120, the sex-specific rates from 2017 Unloaded CSO Composite Mortality Table were used. The mortality rates between ages 70 and 100 were interpolated to ensure an appropriate and smooth exponential rate curve for those 30 ages.</Comments>
+    <KeyWord>Select</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+    <KeyWord>United States of America</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. Third Quarter Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>6</MinScaleValue>
+        <MaxScaleValue>6</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="6">
+        <Axis>
+          <Y t="17">0.2443</Y>
+          <Y t="22">0.2443</Y>
+          <Y t="27">0.2002</Y>
+          <Y t="32">0.1678</Y>
+          <Y t="37">0.1053</Y>
+          <Y t="42">0.0876</Y>
+          <Y t="47">0.0728</Y>
+          <Y t="52">0.0608</Y>
+          <Y t="57">0.0507</Y>
+          <Y t="62">0.0441</Y>
+          <Y t="67">0.0339</Y>
+          <Y t="72">0.0271</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. Fourth Quarter Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>9</MinScaleValue>
+        <MaxScaleValue>9</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="9">
+        <Axis>
+          <Y t="17">0.1839</Y>
+          <Y t="22">0.1839</Y>
+          <Y t="27">0.1506</Y>
+          <Y t="32">0.1262</Y>
+          <Y t="37">0.1052</Y>
+          <Y t="42">0.0875</Y>
+          <Y t="47">0.0727</Y>
+          <Y t="52">0.0607</Y>
+          <Y t="57">0.0506</Y>
+          <Y t="62">0.044</Y>
+          <Y t="67">0.0339</Y>
+          <Y t="72">0.0271</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. First Quarter for Year 2 Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>12</MinScaleValue>
+        <MaxScaleValue>12</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="12">
+        <Axis>
+          <Y t="17">0.1522</Y>
+          <Y t="22">0.1522</Y>
+          <Y t="27">0.1265</Y>
+          <Y t="32">0.106</Y>
+          <Y t="37">0.0883</Y>
+          <Y t="42">0.0735</Y>
+          <Y t="47">0.0611</Y>
+          <Y t="52">0.051</Y>
+          <Y t="57">0.0425</Y>
+          <Y t="62">0.037</Y>
+          <Y t="67">0.0313</Y>
+          <Y t="72">0.0256</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. Second Quarter for Year 2 Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>15</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="15">
+        <Axis>
+          <Y t="17">0.1334</Y>
+          <Y t="22">0.1334</Y>
+          <Y t="27">0.1085</Y>
+          <Y t="32">0.091</Y>
+          <Y t="37">0.0758</Y>
+          <Y t="42">0.063</Y>
+          <Y t="47">0.0524</Y>
+          <Y t="52">0.0438</Y>
+          <Y t="57">0.0365</Y>
+          <Y t="62">0.0317</Y>
+          <Y t="67">0.026</Y>
+          <Y t="72">0.0202</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. Third Quarter for Year 2 Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>18</MinScaleValue>
+        <MaxScaleValue>18</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="18">
+        <Axis>
+          <Y t="17">0.1163</Y>
+          <Y t="22">0.1163</Y>
+          <Y t="27">0.0966</Y>
+          <Y t="32">0.0809</Y>
+          <Y t="37">0.0674</Y>
+          <Y t="42">0.0561</Y>
+          <Y t="47">0.0466</Y>
+          <Y t="52">0.0389</Y>
+          <Y t="57">0.0324</Y>
+          <Y t="62">0.0282</Y>
+          <Y t="67">0.022</Y>
+          <Y t="72">0.0188</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. Fourth Quarter for Year 2 Recovery Rates Following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Month">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Month</AxisName>
+        <MinScaleValue>21</MinScaleValue>
+        <MaxScaleValue>21</MaxScaleValue>
+        <Increment>0</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="21">
+        <Axis>
+          <Y t="17">0.1072</Y>
+          <Y t="22">0.1072</Y>
+          <Y t="27">0.0885</Y>
+          <Y t="32">0.0742</Y>
+          <Y t="37">0.0618</Y>
+          <Y t="42">0.0514</Y>
+          <Y t="47">0.0427</Y>
+          <Y t="52">0.0357</Y>
+          <Y t="57">0.0297</Y>
+          <Y t="62">0.0259</Y>
+          <Y t="67">0.0216</Y>
+          <Y t="72">0.0173</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="1">United States of America</Nation>
+      <TableDescription>2023 Group Term Life Waiver Study - Female. Select Period Recovery Rates for Disabled. Annual Recovery Rates for Year 2 -10 following 9-month Waiting Period. Central Ages. Minimum Age: 17. Maximum Age: 72</TableDescription>
+      <AxisDef id="Year">
+        <ScaleType tc="0">Unknown</ScaleType>
+        <AxisName>Year</AxisName>
+        <MinScaleValue>2</MinScaleValue>
+        <MaxScaleValue>10</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>17</MinScaleValue>
+        <MaxScaleValue>72</MaxScaleValue>
+        <Increment>5</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis t="24">
+        <Axis>
+          <Y t="17">0.4204</Y>
+          <Y t="22">0.4204</Y>
+          <Y t="27">0.3588</Y>
+          <Y t="32">0.3086</Y>
+          <Y t="37">0.2628</Y>
+          <Y t="42">0.2227</Y>
+          <Y t="47">0.1881</Y>
+          <Y t="52">0.159</Y>
+          <Y t="57">0.1339</Y>
+          <Y t="62">0.1173</Y>
+          <Y t="67">0.0971</Y>
+          <Y t="72">0.0794</Y>
+        </Axis>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>

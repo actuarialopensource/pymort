@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XTbML>
+  <ContentClassification>
+    <TableIdentity>28004</TableIdentity>
+    <ProviderDomain>soa.org</ProviderDomain>
+    <ProviderName>Ecuadorian Social Security Institute</ProviderName>
+    <TableReference>"Life Tables for the Ecuadorian Social Security Institute (IESS)", Ecuadorian Social Security Institute, IESS. (2024). Accessed: November 2024 from https://www.iess.gob.ec/documents/10162/28917097/Tablas_Mortalidad_IESS_2020_es-signed-signed.pdf</TableReference>
+    <ContentType tc="57">Life Table</ContentType>
+    <TableName>2020 Ecuadorian Social Security Institute Life Tables - IESS 2020, Male Old Age Pensioners</TableName>
+    <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - Table 4: Life Table IESS 2020, Male Old Age Pensioners - Rates by Attained Age. Minimum Age: 55. Maximum Age: 105.</TableDescription>
+    <Comments>Study Data: The raw data from IESS was thoroughly processed and stored in binary files for further analysis using R. The project required extensive effort to obtain and process data from a public institution in Ecuador, highlighting differences in cultural values regarding transparency and standardization compared to more developed countries.</Comments>
+    <KeyWord>Life Table</KeyWord>
+    <KeyWord> Ecuador</KeyWord>
+  </ContentClassification>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - Table 4: Life Table IESS 2020, Male Old Age Pensioners - Rates by Attained Age. Rates - ux. Minimum Age: 55. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="55">0.00546118</Y>
+        <Y t="56">0.00563419</Y>
+        <Y t="57">0.00587896</Y>
+        <Y t="58">0.00619819</Y>
+        <Y t="59">0.00659623</Y>
+        <Y t="60">0.00707886</Y>
+        <Y t="61">0.00765313</Y>
+        <Y t="62">0.00832709</Y>
+        <Y t="63">0.00910955</Y>
+        <Y t="64">0.0100097</Y>
+        <Y t="65">0.01103663</Y>
+        <Y t="66">0.01219872</Y>
+        <Y t="67">0.01350283</Y>
+        <Y t="68">0.01495338</Y>
+        <Y t="69">0.01655117</Y>
+        <Y t="70">0.01829211</Y>
+        <Y t="71">0.02017075</Y>
+        <Y t="72">0.02219767</Y>
+        <Y t="73">0.02439104</Y>
+        <Y t="74">0.0267733</Y>
+        <Y t="75">0.02937192</Y>
+        <Y t="76">0.03222051</Y>
+        <Y t="77">0.03536004</Y>
+        <Y t="78">0.03884043</Y>
+        <Y t="79">0.04272251</Y>
+        <Y t="80">0.04708057</Y>
+        <Y t="81">0.05199848</Y>
+        <Y t="82">0.05754675</Y>
+        <Y t="83">0.06379557</Y>
+        <Y t="84">0.07082038</Y>
+        <Y t="85">0.07870139</Y>
+        <Y t="86">0.08752284</Y>
+        <Y t="87">0.0973719</Y>
+        <Y t="88">0.10833719</Y>
+        <Y t="89">0.12050679</Y>
+        <Y t="90">0.13396582</Y>
+        <Y t="91">0.1487933</Y>
+        <Y t="92">0.16505857</Y>
+        <Y t="93">0.18281697</Y>
+        <Y t="94">0.20185821</Y>
+        <Y t="95">0.22634606</Y>
+        <Y t="96">0.26145468</Y>
+        <Y t="97">0.31519252</Y>
+        <Y t="98">0.40126288</Y>
+        <Y t="99">0.54517002</Y>
+        <Y t="100">0.79784728</Y>
+        <Y t="101">1.26790279</Y>
+        <Y t="102">2.20283887</Y>
+        <Y t="103">4.20746909</Y>
+        <Y t="104">8.87299116</Y>
+        <Y t="105">20.72326584</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 4: Life Table IESS 2020, Male Old Age Pensioners - Rates by Attained Age. Rates - lx. Minimum Age: 55. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="55">100000</Y>
+        <Y t="56">99455.37</Y>
+        <Y t="57">98896.6</Y>
+        <Y t="58">98316.89</Y>
+        <Y t="59">97709.39</Y>
+        <Y t="60">97067</Y>
+        <Y t="61">96382.3</Y>
+        <Y t="62">95647.49</Y>
+        <Y t="63">94854.33</Y>
+        <Y t="64">93994.17</Y>
+        <Y t="65">93058.01</Y>
+        <Y t="66">92036.61</Y>
+        <Y t="67">90920.71</Y>
+        <Y t="68">89701.27</Y>
+        <Y t="69">88369.91</Y>
+        <Y t="70">86919.32</Y>
+        <Y t="71">85343.84</Y>
+        <Y t="72">83639.64</Y>
+        <Y t="73">81803.49</Y>
+        <Y t="74">79832.35</Y>
+        <Y t="75">77723.33</Y>
+        <Y t="76">75473.65</Y>
+        <Y t="77">73080.61</Y>
+        <Y t="78">70541.63</Y>
+        <Y t="79">67854.29</Y>
+        <Y t="80">65016.44</Y>
+        <Y t="81">62026.37</Y>
+        <Y t="82">58883.51</Y>
+        <Y t="83">55590.61</Y>
+        <Y t="84">52154.93</Y>
+        <Y t="85">48589.06</Y>
+        <Y t="86">44911.64</Y>
+        <Y t="87">41147.95</Y>
+        <Y t="88">37330.18</Y>
+        <Y t="89">33497.31</Y>
+        <Y t="90">29694.39</Y>
+        <Y t="91">25971.31</Y>
+        <Y t="92">22380.7</Y>
+        <Y t="93">18975.35</Y>
+        <Y t="94">15804.96</Y>
+        <Y t="95">12915.98</Y>
+        <Y t="96">10299.75</Y>
+        <Y t="97">7930.09</Y>
+        <Y t="98">5786.18</Y>
+        <Y t="99">3873.7</Y>
+        <Y t="100">2245.75</Y>
+        <Y t="101">1011.25</Y>
+        <Y t="102">284.59</Y>
+        <Y t="103">31.44</Y>
+        <Y t="104">0.47</Y>
+        <Y t="105">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 4: Life Table IESS 2020, Male Old Age Pensioners - Rates by Attained Age. Rates - qx. Minimum Age: 55. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="55">0.00544629</Y>
+        <Y t="56">0.00561835</Y>
+        <Y t="57">0.00586171</Y>
+        <Y t="58">0.00617902</Y>
+        <Y t="59">0.00657452</Y>
+        <Y t="60">0.00705387</Y>
+        <Y t="61">0.00762392</Y>
+        <Y t="62">0.00829251</Y>
+        <Y t="63">0.00906818</Y>
+        <Y t="64">0.00995977</Y>
+        <Y t="65">0.01097595</Y>
+        <Y t="66">0.01212461</Y>
+        <Y t="67">0.01341208</Y>
+        <Y t="68">0.01484214</Y>
+        <Y t="69">0.01641496</Y>
+        <Y t="70">0.01812583</Y>
+        <Y t="71">0.01996868</Y>
+        <Y t="72">0.02195311</Y>
+        <Y t="73">0.02409599</Y>
+        <Y t="74">0.02641807</Y>
+        <Y t="75">0.02894475</Y>
+        <Y t="76">0.03170696</Y>
+        <Y t="77">0.03474218</Y>
+        <Y t="78">0.03809581</Y>
+        <Y t="79">0.04182276</Y>
+        <Y t="80">0.04598947</Y>
+        <Y t="81">0.05066969</Y>
+        <Y t="82">0.05592224</Y>
+        <Y t="83">0.06180322</Y>
+        <Y t="84">0.06837078</Y>
+        <Y t="85">0.07568411</Y>
+        <Y t="86">0.08380205</Y>
+        <Y t="87">0.09278145</Y>
+        <Y t="88">0.10267502</Y>
+        <Y t="89">0.11352893</Y>
+        <Y t="90">0.12538004</Y>
+        <Y t="91">0.13825278</Y>
+        <Y t="92">0.15215595</Y>
+        <Y t="93">0.16707941</Y>
+        <Y t="94">0.18278921</Y>
+        <Y t="95">0.20255791</Y>
+        <Y t="96">0.23006924</Y>
+        <Y t="97">0.27035161</Y>
+        <Y t="98">0.33052595</Y>
+        <Y t="99">0.42025679</Y>
+        <Y t="100">0.54970271</Y>
+        <Y t="101">0.7185788</Y>
+        <Y t="102">0.88951095</Y>
+        <Y t="103">0.98511601</Y>
+        <Y t="104">0.99985988</Y>
+        <Y t="105">1</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 4: Life Table IESS 2020, Male Old Age Pensioners - Rates by Attained Age. Rates - px. Minimum Age: 55. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="55">0.99455371</Y>
+        <Y t="56">0.99438165</Y>
+        <Y t="57">0.99413829</Y>
+        <Y t="58">0.99382098</Y>
+        <Y t="59">0.99342548</Y>
+        <Y t="60">0.99294613</Y>
+        <Y t="61">0.99237608</Y>
+        <Y t="62">0.99170749</Y>
+        <Y t="63">0.99093182</Y>
+        <Y t="64">0.99004023</Y>
+        <Y t="65">0.98902405</Y>
+        <Y t="66">0.98787539</Y>
+        <Y t="67">0.98658792</Y>
+        <Y t="68">0.98515786</Y>
+        <Y t="69">0.98358504</Y>
+        <Y t="70">0.98187417</Y>
+        <Y t="71">0.98003132</Y>
+        <Y t="72">0.97804689</Y>
+        <Y t="73">0.97590401</Y>
+        <Y t="74">0.97358193</Y>
+        <Y t="75">0.97105525</Y>
+        <Y t="76">0.96829304</Y>
+        <Y t="77">0.96525782</Y>
+        <Y t="78">0.96190419</Y>
+        <Y t="79">0.95817724</Y>
+        <Y t="80">0.95401053</Y>
+        <Y t="81">0.94933031</Y>
+        <Y t="82">0.94407776</Y>
+        <Y t="83">0.93819678</Y>
+        <Y t="84">0.93162922</Y>
+        <Y t="85">0.92431589</Y>
+        <Y t="86">0.91619795</Y>
+        <Y t="87">0.90721855</Y>
+        <Y t="88">0.89732498</Y>
+        <Y t="89">0.88647107</Y>
+        <Y t="90">0.87461996</Y>
+        <Y t="91">0.86174722</Y>
+        <Y t="92">0.84784405</Y>
+        <Y t="93">0.83292059</Y>
+        <Y t="94">0.81721079</Y>
+        <Y t="95">0.79744209</Y>
+        <Y t="96">0.76993076</Y>
+        <Y t="97">0.72964839</Y>
+        <Y t="98">0.66947405</Y>
+        <Y t="99">0.57974321</Y>
+        <Y t="100">0.45029729</Y>
+        <Y t="101">0.2814212</Y>
+        <Y t="102">0.11048905</Y>
+        <Y t="103">0.01488399</Y>
+        <Y t="104">0.00014012</Y>
+        <Y t="105">0</Y>
+      </Axis>
+    </Values>
+  </Table>
+  <Table>
+    <MetaData>
+      <ScalingFactor>0</ScalingFactor>
+      <DataType tc="2">Floating Point</DataType>
+      <Nation tc="593">Ecuador</Nation>
+      <TableDescription>2020 Ecuadorian Social Security Institute Life Tables - 2020 Ecuadorian Social Security Institute Life Tables - Table 4: Life Table IESS 2020, Male Old Age Pensioners - Rates by Attained Age. - ex. Minimum Age: 55. Maximum Age: 105.</TableDescription>
+      <AxisDef id="Age">
+        <ScaleType tc="3">Age</ScaleType>
+        <AxisName>Age</AxisName>
+        <MinScaleValue>15</MinScaleValue>
+        <MaxScaleValue>105</MaxScaleValue>
+        <Increment>1</Increment>
+      </AxisDef>
+    </MetaData>
+    <Values>
+      <Axis>
+        <Y t="55">28.15</Y>
+        <Y t="56">27.3</Y>
+        <Y t="57">26.45</Y>
+        <Y t="58">25.61</Y>
+        <Y t="59">24.76</Y>
+        <Y t="60">23.92</Y>
+        <Y t="61">23.09</Y>
+        <Y t="62">22.26</Y>
+        <Y t="63">21.44</Y>
+        <Y t="64">20.64</Y>
+        <Y t="65">19.84</Y>
+        <Y t="66">19.05</Y>
+        <Y t="67">18.28</Y>
+        <Y t="68">17.52</Y>
+        <Y t="69">16.78</Y>
+        <Y t="70">16.05</Y>
+        <Y t="71">15.34</Y>
+        <Y t="72">14.64</Y>
+        <Y t="73">13.96</Y>
+        <Y t="74">13.29</Y>
+        <Y t="75">12.64</Y>
+        <Y t="76">12</Y>
+        <Y t="77">11.37</Y>
+        <Y t="78">10.77</Y>
+        <Y t="79">10.17</Y>
+        <Y t="80">9.6</Y>
+        <Y t="81">9.03</Y>
+        <Y t="82">8.49</Y>
+        <Y t="83">7.96</Y>
+        <Y t="84">7.45</Y>
+        <Y t="85">6.96</Y>
+        <Y t="86">6.49</Y>
+        <Y t="87">6.04</Y>
+        <Y t="88">5.61</Y>
+        <Y t="89">5.19</Y>
+        <Y t="90">4.79</Y>
+        <Y t="91">4.41</Y>
+        <Y t="92">4.04</Y>
+        <Y t="93">3.67</Y>
+        <Y t="94">3.31</Y>
+        <Y t="95">2.94</Y>
+        <Y t="96">2.55</Y>
+        <Y t="97">2.17</Y>
+        <Y t="98">1.79</Y>
+        <Y t="99">1.42</Y>
+        <Y t="100">1.09</Y>
+        <Y t="101">0.81</Y>
+        <Y t="102">0.61</Y>
+        <Y t="103">0.51</Y>
+        <Y t="104">0.5</Y>
+        <Y t="105">0.5</Y>
+      </Axis>
+    </Values>
+  </Table>
+</XTbML>
